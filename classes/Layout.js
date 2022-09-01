@@ -1,0 +1,1 @@
+export const fullBleedContainer = 'lg:h-screen relative';

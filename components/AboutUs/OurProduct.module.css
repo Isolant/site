@@ -1,0 +1,7 @@
+.Container > div {
+  @apply text-center max-w-4xl mx-auto;
+}
+
+.Container strong {
+  @apply inline;
+}

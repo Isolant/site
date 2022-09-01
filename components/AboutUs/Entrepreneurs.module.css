@@ -1,0 +1,3 @@
+.Container p a {
+  @apply text-primary hover:opacity-70;
+}

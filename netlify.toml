@@ -1,0 +1,17 @@
+[[redirects]]
+  from = "/api/gracias"
+  to = "/gracias"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/api/contacto"
+  to = "/contacto"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/api/selector-de-producto/resultado"
+  to = "/selector-de-producto/resultado"
+  status = 301
+  force = false

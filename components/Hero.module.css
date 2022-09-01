@@ -1,0 +1,7 @@
+.Container {
+  @apply bg-gray-100;
+}
+
+.SmallHeroTitle strong {
+  @apply inline;
+}

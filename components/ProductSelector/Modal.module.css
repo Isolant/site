@@ -1,0 +1,3 @@
+.Title {
+  @apply text-lg sm:text-2xl;
+}

@@ -1,0 +1,3 @@
+.Select:invalid option:not(:disabled) {
+  @apply text-gray-700;
+}

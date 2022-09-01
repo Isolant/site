@@ -1,0 +1,23 @@
+/* Highlight the first item with more hierarchy */
+/* .HighlightedProducts li:global(.highlighted-1) {
+  @apply bg-gray-700 border-gray-700;
+}
+
+.HighlightedProducts li:global(.highlighted-1) h5 {
+  @apply text-white;
+}
+
+.HighlightedProducts li:global(.highlighted-1) p {
+  @apply text-gray-300;
+} */
+
+/* Highlight the rest of the highlighted items with less hierarchy */
+.HighlightedProducts li:global(.highlighted) {
+  @apply bg-gray-300 border-gray-300;
+}
+
+/* Highlight atacama with a different color */
+.HighlightedProducts li:global(.highlighted-atacama) {
+  @apply bg-red-50;
+  border-color: peachpuff;
+}

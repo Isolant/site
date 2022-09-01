@@ -1,0 +1,71 @@
+/* General styles for arrows */
+.Slider button[data-role="none"], .SolutionsSlider button[data-role="none"] {
+  @apply z-10 from-gray-100 h-full px-4 w-auto;
+}
+
+.Slider button[data-role="none"]::before {
+  @apply text-gray-700;
+}
+
+/* Right arrow */
+.Slider button[data-role="none"], .SolutionsSlider button[data-role="none"] {
+  @apply right-0 left-auto bg-gradient-to-l;
+}
+
+/* Left arrow */
+.Slider > button[data-role="none"]:first-child, .SolutionsSlider > button[data-role="none"]:first-child {
+  @apply left-0 right-auto bg-gradient-to-r;
+}
+
+.SolutionsSlider button[data-role="none"], .SolutionsSlider button[data-role="none"]:first-child {
+  @apply bg-none;
+}
+
+.Slider div div div {
+  @apply mx-3;
+}
+
+.ProductsSliderDots, .SolutionsSliderDots {
+  @apply absolute w-full bottom-8;
+  display: flex !important;
+}
+
+.ProductsSliderDots button, .SolutionsSliderDots button {
+  font-size: 0;
+  @apply w-8 border-b border-gray-500 pt-8;
+}
+
+.ProductsSliderDots li[class="slick-active"] button, .SolutionsSliderDots li[class="slick-active"] button {
+  @apply border-b-2 relative border-white;
+  bottom: 1px;
+}
+
+.SolutionsSliderDots {
+  @apply justify-center;
+}
+
+.SolutionsSliderDots button {
+  @apply border-gray-400;
+}
+
+.SolutionsSlider h3 strong {
+  @apply inline;
+}
+
+/* iPad ladscape */
+@media screen and (max-width: 1080px) {
+  .Slider div div div {
+    @apply mx-1;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  .ProductsSliderDots {
+    @apply bottom-4;
+  }
+
+  .Slider button[data-role="none"], .SolutionsSlider button[data-role="none"] {
+    @apply bg-none !important;
+  }
+}

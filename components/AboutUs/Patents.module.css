@@ -1,0 +1,11 @@
+.Container div:last-child {
+  @apply text-center max-w-3xl mx-auto;
+}
+
+.Container div:last-child img {
+  @apply w-full;
+}
+
+.Container div strong {
+  @apply inline;
+}
