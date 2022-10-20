@@ -26,7 +26,7 @@ export default function TechnicalAssessorsMap({ title, text }) {
           onClick={(e) => e.currentTarget.style.pointerEvents = 'none'}
         />
         <iframe
-          src="https://www.google.com/maps/d/embed?mid=166ZyP2AxNDsNrfbJZSL2XI_vNnngV3MU&hl=es"
+          src="https://www.google.com/maps/d/embed?mid=166ZyP2AxNDsNrfbJZSL2XI_vNnngV3MU&ehbc=2E312F"
           className="flex-1 h-full"
         />
         <iframe
