@@ -29,10 +29,6 @@ export default function TechnicalAssessorsMap({ title, text }) {
           src="https://www.google.com/maps/d/embed?mid=166ZyP2AxNDsNrfbJZSL2XI_vNnngV3MU&ehbc=2E312F"
           className="flex-1 h-full"
         />
-        <iframe
-          src="https://www.google.com/maps/d/embed?mid=15qF7eZlp6bXKI99WKN6NHbvHpPDy3DqV&hl=es"
-          className="flex-1 h-full"
-        />
       </section>
     </React.Fragment>
   )
