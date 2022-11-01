@@ -3,7 +3,7 @@ icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1634905858/web
 title: Volante Tubos con Aluminio
 showOnMainPage: true
 format: "Formato: PDF/ZIP"
-pdf: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1636750786/website-2021/downloads/volante_tubos.ai
+pdf: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1667319071/website-2021/downloads/volante-tubos.pdf
 zip: https://res.cloudinary.com/isolant-cloudinary/raw/upload/v1636750786/website-2021/downloads/volante_tubos.zip
 productLines:
   - Sistemas de Climatización
