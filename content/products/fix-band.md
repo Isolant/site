@@ -80,9 +80,7 @@ technicalInformationList:
     text: No hay agrietamiento (ASTM D 1171)
   - title: Permeabilidad a los rayos de luz
     text: 52-63% (Espectro fotómetro)
-enableDownloadsSection: true
-downloads:
-  - Folleto Fix Band
+enableDownloadsSection: false
 enableColocationSection: false
 enableCtaSection: true
 ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/fix-band/isolant-aislantes-linea-otros-usos-fix-band-cta.jpg
