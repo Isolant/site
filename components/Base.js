@@ -113,6 +113,8 @@ export default function Base({
   // }
   
   useEffect(() => {
+    {/* Botmaker chat */}
+    <script dangerouslySetInnerHTML={{ __html: `(function () {let js = document.createElement('script');js.type = 'text/javascript';js.async = 1;js.src = 'https://go.botmaker.com/rest/webchat/p/FQSYZ8V806/init.js';document.body.appendChild(js);})();`}} />
     // To get the user's location
     // if(!storedLocation) {
     //   if(localStorage.getItem('location') === null || localStorage.getItem('location') === 'undefined') {
