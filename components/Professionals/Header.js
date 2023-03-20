@@ -23,6 +23,7 @@ import { ReactComponent as HamburgerIcon } from "../../images/icons/hamburger.sv
 import { ReactComponent as SearchIcon } from "../../images/icons/search.svg";
 import { ReactComponent as TopArrow } from "../../images/icons/arrow-up.svg";
 import { ReactComponent as CloseIcon } from "../../images/icons/close.svg";
+import { ReactComponent as WhatsappIcon } from "../../images/icons/whatsapp.svg";
 
 
 export default function ProfessionalsHeader({ 
@@ -158,6 +159,11 @@ export default function ProfessionalsHeader({
                 </a>
               </li>
             }
+            <li className="ml-4 flex items-center hover:opacity-80">
+              <a href="https://wa.me/5491124930555" target="_blank" rel="noopener noreferrer">
+                <WhatsappIcon className={`${ scrolled ? 'text-gray-500' : 'text-white' } fill-current stroke-current ml-2`} />
+              </a>
+            </li>
           </ul>
         </nav>
         {isOpen &&
