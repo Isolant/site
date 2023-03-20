@@ -60,6 +60,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <noscript>
         <img height="1" width="1" src="https://www.facebook.com/tr?id=173450402104558&ev=PageView&noscript=1"/>
       </noscript>
+
+      <Script src="https://go.botmaker.com/rest/webchat/p/FQSYZ8V806/init.js" />
     </Head>
   );
 }
