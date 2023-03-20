@@ -34,7 +34,7 @@ export default function MainHead({ pageTitle }) {
 
       {/* Scripts */}
       <Script src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
-      <script type="text/javascript" src={`https://maps.googleapis.com/maps/api/js?key=${process.env.GOOGLE_MAPS_API_KEY}`} />
+      {/* <script type="text/javascript" src={`https://maps.googleapis.com/maps/api/js?key=${process.env.GOOGLE_MAPS_API_KEY}`} /> */}
 
       {/* GTM */}
       <script
