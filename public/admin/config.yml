@@ -109,6 +109,7 @@ collections:
     editor: 
       preview: false 
     fields:
+      - {label: "Título", name: "title", widget: "string", required: false}
       - {label: "Nombre", name: "name", widget: "string"}
       - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de los productos en las líneas"}
       - {label: "Destacado?", name: "highlighted", widget: "boolean", default: false, required: false}
