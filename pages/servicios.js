@@ -13,7 +13,7 @@ import Faqs from "../components/Services/Faqs";
 import Calculator from "../components/Services/Calculator";
 
 // Library
-import { getAllCollections, getCollectionById } from '../lib/collections';
+import { getAllCollections } from '../lib/collections';
 
 // Content
 import { attributes } from "../content/services.md";
@@ -93,8 +93,8 @@ export default function Services({ provincesData, localesData, allAgendaItems, p
       activePage="professionals"
       footerTheme="dark"
       pageTitle={pageTitle}
-      provinces={provincesData.provinces}
-      locales={localesData.locales}
+      // provinces={provincesData.provinces}
+      // locales={localesData.locales}
       footerDecorations={true}
       productLines={productLinesData}
     >
@@ -148,20 +148,20 @@ export default function Services({ provincesData, localesData, allAgendaItems, p
 }
 
 export async function getStaticProps() {
-  const provincesData = getCollectionById("geolocalization", 'provinces');
-  const localesData = getCollectionById("geolocalization", 'locales');
+  // const provincesData = getCollectionById("geolocalization", 'provinces');
+  // const localesData = getCollectionById("geolocalization", 'locales');
   // const allAgendaItems = JSON.stringify(getAllCollections("agenda"));
   const productLinesData = getAllCollections("productLines");
   
-  const provinces = await fetch(`https://apps-isolant.somee.com/mobile/api/ws/getProvincias?email=app@isolant`);
-  const provincesResult = await provinces.json();
+  // const provinces = await fetch(`https://apps-isolant.somee.com/mobile/api/ws/getProvincias?email=app@isolant`);
+  // const provincesResult = await provinces.json();
 
   return {
     props: {
-      provincesData,
-      localesData,
+      // provincesData,
+      // localesData,
       // allAgendaItems,
-      provincesResult,
+      // provincesResult,
       productLinesData
     },
   };
