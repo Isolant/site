@@ -6,7 +6,7 @@ products:
   - Super TBA
   - TBA
   - Covering
-  - Ondusec
+  - Ondusec 25
   - Sellatutti
   - Atacama
 highlightedProduct: TBA Multicapa

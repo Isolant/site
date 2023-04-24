@@ -6,7 +6,7 @@ products:
   - TBA Multicapa
   - TBA
   - Atacama
-  - Ondusec
+  - Ondusec 25
   - Sellatutti
 highlightedProduct: Super TBA
 category: Techos Inclinados

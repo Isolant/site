@@ -4,8 +4,8 @@ productLine: Vivienda
 products:
   - Alu Fusión NET
   - Super TBA
-  - Ondusec
-  - Ondusec Reflex
+  - Ondusec 25
+  - Ondusec R25
   - Atacama
   - Sellatutti
 highlightedProduct: Alu Fusión NET
