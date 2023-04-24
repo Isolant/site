@@ -1,5 +1,7 @@
 ---
-name: Ondusec 70
+enableColocationSection: true
+ctaImageBackgroundPosition: top
+name: Ondusec  70
 order: 1
 highlighted: true
 slogan: Viví tu casa sin ruidos molestos <strong>de vecinos y autos</strong>
@@ -11,6 +13,7 @@ description: <strong>Placa aislante térmico de rápida instalación, para tabiq
   la transmisión de ruidos entre ambientes, equiparando la aislación acústica de
   más de 50mm de lana de vidrio. Además aísla térmicamente y mantiene su forma a
   través del tiempo sin desprender partículas nocivas.
+mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-imagen.jpg
 productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1682090766/website-2021/products/Ondusec%2070/Ondusec_70.png
 logo: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-logo.webp
 ecommerceLink: ""
@@ -74,16 +77,6 @@ technicalInformationList:
     text: 1.2% V/V (42.6% P/P) (IRAM 1582)
   - title: Permeancia al vapor de agua
     text: 0.033 g/m2hkPa (IRAM 1735 - ASTM E-96)
-enableDownloadsSection: true
-downloadsTitle: Área de <strong class="ml-2">descargas</strong>
-downloads:
-  - Catálogo Construcción en Seco
-  - Volante Ondusec y Ondusec Reflex
-  - Díptico Steel Framing
-  - ¿Qué tipo de techo querés aislar?
-enableColocationSection: true
-ctaImageBackgroundPosition: top
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-imagen.jpg
 generalInformationList:
   - title: Son aislantes acústicos
   - title: Son aislantes térmicos
@@ -101,6 +94,13 @@ generalInformationList:
   - title: No contaminan el medio ambiente; no contienen freón
   - title: Este producto no es apto intemperie ni se puede colocar sin un cielorraso
       que lo proteja de la reflexión indirecta de los rayos UV
+enableDownloadsSection: true
+downloadsTitle: Área de <strong class="ml-2">descargas</strong>
+downloads:
+  - Catálogo Construcción en Seco
+  - Volante Ondusec y Ondusec Reflex
+  - Díptico Steel Framing
+  - ¿Qué tipo de techo querés aislar?
 colocationImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
 colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
 colocationCtaLink: https://isoplus.isolant.com.ar/inicio
