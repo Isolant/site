@@ -94,7 +94,7 @@ generalInformationList:
   - title: No contaminan el medio ambiente; no contienen freón
   - title: Este producto no es apto intemperie ni se puede colocar sin un cielorraso
       que lo proteja de la reflexión indirecta de los rayos UV
-enableDownloadsSection: true
+enableDownloadsSection: false
 downloadsTitle: Área de <strong class="ml-2">descargas</strong>
 downloads:
   - Catálogo Construcción en Seco
