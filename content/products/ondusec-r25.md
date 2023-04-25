@@ -2,7 +2,7 @@
 enableColocationSection: true
 ctaImageBackgroundPosition: top
 name: Ondusec R25
-order: 1
+order: 4
 slogan: Viví tu casa con <strong>confort térmico y acústico</strong>
 description: <strong>Placa aislante termo acústica de rápida instalación, para
   tabiques externos de steel framing.</strong><br /><br />A todos los beneficios
