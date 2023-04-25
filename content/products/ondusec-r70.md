@@ -14,7 +14,7 @@ description: <strong>Placa aislante térmico de rápida instalación, para tabiq
   más de 50mm de lana de vidrio. Además aísla térmicamente y mantiene su forma a
   través del tiempo sin desprender partículas nocivas.
 mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-imagen.jpg
-productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1682090766/website-2021/products/Ondusec%2070/Ondusec_70.png
+productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1682090538/website-2021/products/ondusec-r70/Ondusec_R70.png
 logo: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-logo.webp
 ecommerceLink: ""
 enableHero: true
@@ -48,7 +48,7 @@ benefitsList:
   - text: "Material sano: No desprende partículas."
   - text: Mantiene su forma y espesor a lo largo del tiempo.
   - text: Material liviano.
-benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1682090772/website-2021/products/Ondusec%2070/Ondusec_70_-_DET.png
+benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1682090517/website-2021/products/ondusec-r70/Ondusec_R70_-_DET.png
 patentImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-patente.png
 enableVideoSection: true
 video: https://www.youtube.com/watch?v=ekyrLnJ_KFU
