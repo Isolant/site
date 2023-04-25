@@ -6,13 +6,13 @@ order: 6
 highlighted: true
 slogan: Viví tu casa sin ruidos molestos <strong>de vecinos y autos</strong>
 description: <strong>Placa aislante térmico de rápida instalación, para tabiques
-  internos de construcción en seco / drywall.</strong><br /><br
-  /><strong>Ondusec</strong> es el aislante térmico para tabiques y cielorrasos
-  de construcción en seco de más fácil instalación del mercado. Gracias a su
-  composición de espuma de PE de celda cerrada con dos caras acanaladas reduce
-  la transmisión de ruidos entre ambientes, equiparando la aislación acústica de
-  más de 50mm de lana de vidrio. Además aísla térmicamente y mantiene su forma a
-  través del tiempo sin desprender partículas nocivas.
+  externos de construcción en seco.</strong><br /><br /><strong>Ondusec</strong>
+  es el aislante térmico para tabiques y cielorrasos de construcción en seco de
+  más fácil instalación del mercado. Gracias a su composición de espuma de PE de
+  celda cerrada con dos caras acanaladas reduce la transmisión de ruidos entre
+  ambientes, equiparando la aislación acústica de más de 50mm de lana de vidrio.
+  Además aísla térmicamente y mantiene su forma a través del tiempo sin
+  desprender partículas nocivas.
 mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-imagen.jpg
 productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1682090538/website-2021/products/ondusec-r70/Ondusec_R70.png
 logo: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-logo.webp
