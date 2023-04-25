@@ -2,7 +2,7 @@
 enableColocationSection: true
 ctaImageBackgroundPosition: top
 name: Ondusec  R70
-order: 6
+order: 3
 highlighted: true
 slogan: Viví tu casa sin ruidos molestos <strong>de vecinos y autos</strong>
 description: <strong>Placa aislante térmico de rápida instalación, para tabiques
