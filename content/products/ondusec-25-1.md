@@ -36,7 +36,7 @@ application:
 presentation:
   - text: Placa acanalada en ambas caras de 1,2m x 2,4m.
   - text: Troquelada a 40cm y 60cm.
-  - text: "Espesor: 20mm."
+  - text: "Espesor: 25mm."
 enableBenefitsSection: true
 benefitsTitle: Exclusivo troquel <strong>a 40cm y 60cm</strong>
 benefitsText: Gracias a su troquel a 40cm y 60cm, correspondiente a la
