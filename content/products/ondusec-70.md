@@ -13,7 +13,7 @@ description: <strong>Placa aislante térmico de rápida instalación, para tabiq
   la transmisión de ruidos entre ambientes, equiparando la aislación acústica de
   más de 50mm de lana de vidrio. Además aísla térmicamente y mantiene su forma a
   través del tiempo sin desprender partículas nocivas.
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-imagen.jpg
+mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1642182919/website-2021/Imagenes%20Generales%20Tris/pexels-blue-bird-7218592_blz01w.jpg
 productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1682090766/website-2021/products/Ondusec%2070/Ondusec_70.png
 logo: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-logo.webp
 ecommerceLink: ""
