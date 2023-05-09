@@ -13,7 +13,7 @@ description: <strong>Placa aislante térmico de rápida instalación, para tabiq
   ambientes, equiparando la aislación acústica de más de 50mm de lana de vidrio.
   Además aísla térmicamente y mantiene su forma a través del tiempo sin
   desprender partículas nocivas.
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-imagen.jpg
+mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1642182902/website-2021/Imagenes%20Generales%20Tris/pexels-blue-bird-7218674_usqskl.jpg
 productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1682090538/website-2021/products/ondusec-r70/Ondusec_R70.png
 logo: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1637072544/website-2021/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-logo.webp
 ecommerceLink: ""
