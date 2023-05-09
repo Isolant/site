@@ -33,7 +33,7 @@ application:
 presentation:
   - text: Placa acanalada en ambas caras de 1,2m x 2,4m.
   - text: Troquelada a 40cm y 60cm.
-  - text: "Espesor: 20mm."
+  - text: "Espesor: 25mm."
 enableBenefitsSection: true
 benefitsTitle: El aislante termoacústico para tabiques y cielorrasos <strong>de
   más fácil instalación del mercado</strong>
