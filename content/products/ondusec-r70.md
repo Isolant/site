@@ -15,7 +15,7 @@ description: <strong>Placa aislante térmico de rápida instalación, para tabiq
   desprender partículas nocivas.
 mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-imagen.jpg
 productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1682090538/website-2021/products/ondusec-r70/Ondusec_R70.png
-logo: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-logo.webp
+logo: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1637072544/website-2021/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-logo.webp
 ecommerceLink: ""
 enableHero: true
 mainBenefits:
