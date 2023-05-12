@@ -12,4 +12,5 @@ products:
   - Ondusec  R70
   - Ondusec R25
   - Ondusec 25
+  - Contrapiso Acoustic
 ---
