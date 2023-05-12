@@ -1,6 +1,6 @@
 ---
 name: Puertelete Reforzado
-order: 8
+order: 5
 slogan: Decile chau <strong>al chiflete</strong>
 description: Aislate de los chifletes por infiltraciones debajo de puertas. <br
   /><br />No necesita ser fijado con clavos ni tornillos. Cortá tu puertelete
