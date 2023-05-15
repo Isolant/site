@@ -131,7 +131,7 @@ entrepreneursImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f
 entrepreneursTitle: <strong>Emprendedores</strong>
 entrepreneursText: <strong>¿Tenés un producto para la construcción que impulse nuestra <a href="#philosophy">filosofía de Triple Impacto</a>?</strong><br /> Escribinos y uno de los miembros del Comité de Desarrollo te estará contactando en breve.
 entrepreneursCtaText: Contactanos
-entrepreneursCtaLink: 'mailto:tdevillalobos@isolant.com.ar?subject=Emprendedores'
+entrepreneursCtaLink: 'mailto:mgalindo@isolant.com.ar?subject=Emprendedores'
 technicalInformationImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/about-us/isolant-aislantes-nuestra-empresa-ensayos-tecnicos.jpg
 technicalInformationTitle: Ensayos <strong>Técnicos</strong>
 technicalInformationText: <strong>ISOLANT S.A.</strong> somete a ensayos y pruebas de laboratorio a sus productos con el fin de certificarlos ante autoridades nacionales e internacionales. Descargá nuestros ensayos debajo, o envianos un correo con tus consultas técnicas.
