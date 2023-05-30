@@ -7,6 +7,13 @@ import Script from "next/script";
 export default function MainHead({ pageTitle }) {
   useEffect(() => {
     hotjar.initialize(982572, 6);
+
+    {/* Botmaker chat */}
+    let js = document.createElement('script');
+    js.type = 'text/javascript';
+    js.async = 1;
+    js.src = 'https://go.botmaker.com/rest/webchat/p/FQSYZ8V806/init.js';
+    document.body.appendChild(js);
   }, []);
 
   return (
@@ -34,9 +41,6 @@ export default function MainHead({ pageTitle }) {
 
       {/* Scripts */}
       <Script src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
-      {/* Chatbot */}
-      <Script src="https://go.botmaker.com/rest/webchat/p/FQSYZ8V806/init.js" />
-      {/* <script type="text/javascript" src={`https://maps.googleapis.com/maps/api/js?key=${process.env.GOOGLE_MAPS_API_KEY}`} /> */}
 
       {/* GTM */}
       <script
