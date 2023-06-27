@@ -3,12 +3,12 @@ name: Imperfoil
 order: 7
 slogan: Cubrí tu estructura con <strong>la mejor barrera hidrófuga y barrera de
   vientos</strong>
-description: <strong>Membrana reguladora de vapor, barrera de agua y barrera de
-  vientos para steel framing.</strong><br /><br /><strong>Covering®</strong> es
-  una innovadora subcobertura bicapa, fabricada a base de materiales altamente
-  resistentes que lo hacen ideal para proteger sus paredes y techos de
-  filtraciones y humedad. En este tipo de sistemas, Covering® funciona como una
-  excelente barrera hidrófuga y barrera de viento.
+description: <strong>Membrana barrera de agua y barrera de vientos para steel
+  framing.</strong><br /><br /><strong>Imperfoil</strong> es una innovadora
+  subcobertura bicapa, fabricada a base de materiales altamente resistentes que
+  lo hacen ideal para proteger sus paredes y techos de filtraciones y humedad.
+  En este tipo de sistemas, Imperfoil funciona como una excelente barrera
+  hidrófuga y barrera de viento.
 mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-imagen.jpg
 productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1687874366/Imperfoil_Rollo_btvcye.png
 logo: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1685557065/Logo_Imperfoil_csmfxh.png
@@ -24,7 +24,6 @@ enableDetailsSection: true
 detailsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1687874374/DET_Imperfoil_1_tvedx1.jpg
 function:
   - text: Impermeable al agua.
-  - text: Permeable al vapor.
   - text: Barrera de viento.
 application:
   - text: En paredes y techos como aislante hidrófugo y barrera de viento.
@@ -35,7 +34,7 @@ benefitsTitle: Cuadrícula <strong>para replanteo</strong>
 benefitsText: <strong>Imperfoil</strong> presenta una cuadrícula impresa en su
   cara superior, haciendo de su colocación y replanteo en tabiques y techos de
   steel framing y balloon framing, mucho más fácil y ágil.<br /><br />Además
-  gracias a su tramado y composición bicapa, <strong>Covering</strong> es un
+  gracias a su tramado y composición bicapa, <strong>Imperfoil</strong> es un
   material con alta resistencia al rasgado, provocado por vientos de altas
   velocidades y manipuleos en obra.
 benefitsList:
@@ -72,8 +71,6 @@ technicalInformationList:
     text: Impermeable (Dir. UEAtc.)
   - title: Absorción del agua
     text: 1.2% V/V (42.6% P/P) (IRAM 1582)
-  - title: Permeancia al vapor de agua
-    text: 0.033 g/m2hkPa (IRAM 1735 - ASTM E-96)
   - title: Aislamiento a ruidos de impacto
     text: 19 dBA (IRAM 4063 Parte V y VII)
   - title: Estabilidad dimensional bajo calor Longitudinal
@@ -88,7 +85,7 @@ technicalInformationList:
     text: 52-63% (Espectro fotómetro)
 generalInformationList:
   - title: 100% hidrófugo
-  - title: Respirable, permite el paso del vapor de agua
+  - title: Respirable
   - title: Evitan la condensación
   - title: No se degrada con el tiempo
   - title: Alta resistencia a la tracción y desgarro
@@ -115,6 +112,6 @@ colocationCtaText: Encontrá un instalador
 technicalAssessorCtaLink: /servicios#map
 technicalAssessorCtaText: Buscá tu asesor técnico
 enableCtaSection: true
-ctaTitle: Covering es Isolant, <strong>calidad garantizada</strong>
+ctaTitle: Imperfoil es Isolant, <strong>calidad garantizada</strong>
 ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1687874368/DET_Imperfoil_2_ejhrfh.jpg
 ---
