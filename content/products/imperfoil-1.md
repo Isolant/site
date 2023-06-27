@@ -10,7 +10,7 @@ description: <strong>Membrana reguladora de vapor, barrera de agua y barrera de
   filtraciones y humedad. En este tipo de sistemas, Covering® funciona como una
   excelente barrera hidrófuga y barrera de viento.
 mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-imagen.jpg
-productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-producto-rollo.png
+productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1687874366/Imperfoil_Rollo_btvcye.png
 logo: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1685557065/Logo_Imperfoil_csmfxh.png
 enableHero: true
 mainBenefits:
@@ -21,7 +21,7 @@ mainBenefits:
   - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1635429089/website-2021/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-beneficio-3.svg
     text: Barrera de viento
 enableDetailsSection: true
-detailsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-imagen-detalle.jpg
+detailsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1687874374/DET_Imperfoil_1_tvedx1.jpg
 function:
   - text: Impermeable al agua.
   - text: Permeable al vapor.
@@ -42,7 +42,8 @@ benefitsList:
   - text: "Material sano: No desprende partículas."
   - text: Reduce los costos.
   - text: Resistencia UV 3 meses intemperie.
-benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-beneficio-exclusivo.jpg
+benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1687874368/DET_Imperfoil_2_ejhrfh.jpg
+patentImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1687874369/Imperfoil_DET_rbhiiw.png
 enableVideoSection: false
 video: https://www.instagram.com/p/CnSffuNOehS/
 enableInstructions: true
@@ -115,5 +116,5 @@ technicalAssessorCtaLink: /servicios#map
 technicalAssessorCtaText: Buscá tu asesor técnico
 enableCtaSection: true
 ctaTitle: Covering es Isolant, <strong>calidad garantizada</strong>
-ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-cta.jpg
+ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1687874368/DET_Imperfoil_2_ejhrfh.jpg
 ---
