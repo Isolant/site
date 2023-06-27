@@ -1,6 +1,7 @@
 ---
 name: Imperfoil
-order: 7
+order: 3
+highlighted: true
 slogan: Cubrí tu estructura con <strong>la mejor barrera hidrófuga y barrera de
   vientos</strong>
 description: <strong>Membrana barrera de agua y barrera de vientos para steel
