@@ -111,10 +111,10 @@ collections:
       preview: false 
     fields:
       - {label: "Nombre", name: "name", widget: "string"}
-      - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de los productos en las líneas"}
+      - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de los productos en las líneas", required: false}
       - {label: "Destacado?", name: "highlighted", widget: "boolean", default: false, required: false}
-      - {label: "Slogan", name: "slogan", widget: "string", hint: "Podés usar HTML en este campo."}
-      - {label: "Descripción", name: "description", widget: "text", hint: "Podés usar HTML en este campo."}
+      - {label: "Slogan", name: "slogan", widget: "string", hint: "Podés usar HTML en este campo.", required: false}
+      - {label: "Descripción", name: "description", widget: "text", hint: "Podés usar HTML en este campo.", required: false}
       - {label: "Video Principal", name: "mainVideo", widget: "string", hint: "Opcional si se usa una imagen de fondo", required: false}
       - label: "Imagen Principal"
         name: "mainImage"
@@ -148,6 +148,7 @@ collections:
         widget: "list"
         max: 3
         allow_add: true
+        required: false
         fields:
           - {label: Icono, name: icon, widget: image, choose_url: false}
           - {label: Texto, name: text, widget: string}
@@ -156,6 +157,7 @@ collections:
         name: "detailsImage"
         widget: "image"
         choose_url: false
+        required: false
         media_library:
           config:
             multiple: false
@@ -163,34 +165,39 @@ collections:
         name: "function"
         widget: "list"
         allow_add: true
+        required: false
         fields:
           - {label: Texto, name: text, widget: string}
       - label: "Aplicación"
         name: "application"
         widget: "list"
         allow_add: true
+        required: false
         fields:
           - {label: Texto, name: text, widget: string}
       - label: "Presentación"
         name: "presentation"
         widget: "list"
+        required: false
         allow_add: true
         fields:
           - {label: Texto, name: text, widget: string}
       - {label: "Habilitar sección Beneficio Exclusivo", name: "enableBenefitsSection", widget: "boolean", default: true}
       - {label: "Subtítulo sección Beneficio Exclusivo", name: "benefitsSubtitle", widget: "string", required: false}
-      - {label: "Título sección Beneficio Exclusivo", name: "benefitsTitle", widget: "string", hint: "Podés usar HTML en este campo."}
-      - {label: "Texto sección Beneficio Exclusivo", name: "benefitsText", widget: "text", hint: "Podés usar HTML en este campo."}
+      - {label: "Título sección Beneficio Exclusivo", name: "benefitsTitle", widget: "string", hint: "Podés usar HTML en este campo.", required: false}
+      - {label: "Texto sección Beneficio Exclusivo", name: "benefitsText", widget: "text", hint: "Podés usar HTML en este campo.", required: false}
       - label: "Lista de Beneficios"
         name: "benefitsList"
         widget: "list"
         allow_add: true
+        required: false
         fields:
           - {label: Texto, name: text, widget: string}
       - label: "Imagen para sección Beneficio Exclusivo"
         name: "benefitsImage"
         widget: "image"
         choose_url: false
+        required: false
         media_library:
           config:
             multiple: false
@@ -203,12 +210,13 @@ collections:
           config:
             multiple: false
       - {label: "Habilitar sección Video", name: "enableVideoSection", widget: "boolean", default: true}
-      - {label: "Link Video", name: "video", widget: "string", hint: "Ejemplo: https://www.youtube.com/watch?v=j63RxwAThYg"}
-      - {label: "Habilitar sección Instrucciones de Colocación", name: "enableInstructions", widget: "boolean", default: true}
+      - {label: "Link Video", name: "video", widget: "string", hint: "Ejemplo: https://www.youtube.com/watch?v=j63RxwAThYg", required: false}
+      - {label: "Habilitar sección Instrucciones de Colocación", name: "enableInstructions", widget: "boolean", default: true, required: false}
       - label: "Instrucciones de colocación asociadas"
         name: "instructions"
         widget: "relation"
         collection: "instructions"
+        required: false
         search_fields: ["title"]
         value_field: "title"
         display_fields: ["title"]
@@ -228,6 +236,7 @@ collections:
         name: "technicalInformationList"
         widget: "list"
         allow_add: true
+        required: false
         fields:
           - {label: Título, name: title, widget: string}
           - {label: Texto, name: text, widget: string, required: false}
@@ -235,14 +244,16 @@ collections:
         name: "generalInformationList"
         widget: "list"
         allow_add: true
+        required: false
         fields:
           - {label: Título, name: title, widget: string}
       - {label: "Habilitar sección Descargas", name: "enableDownloadsSection", widget: "boolean", default: true}
-      - {label: "Título sección Descargas", name: "downloadsTitle", widget: "string", hint: "Podés usar HTML en este campo"}
+      - {label: "Título sección Descargas", name: "downloadsTitle", widget: "string", hint: "Podés usar HTML en este campo", required: false}
       - label: "Descargas asociadas"
         name: "downloads"
         widget: "relation"
         collection: "downloads"
+        required: false
         search_fields: ["title"]
         value_field: "title"
         display_fields: ["title"]
@@ -252,20 +263,22 @@ collections:
         name: "colocationImage"
         widget: "image"
         choose_url: false
+        required: false
         media_library:
           config:
             multiple: false
-      - {label: "Título para la sección Colocación Aislante", name: "colocationTitle", widget: "string", hint: "Podés usar HTML en este campo."}
-      - {label: "Link para la sección Colocación Aislante", name: "colocationCtaLink", widget: "string"}
-      - {label: "Texto del link para la sección Colocación Aislante", name: "colocationCtaText", widget: "string"}
-      - {label: "Link para la sección Buscador de Asesor Técnico", name: "technicalAssessorCtaLink", widget: "string"}
-      - {label: "Texto del link para la sección Buscador de Asesor Técnico", name: "technicalAssessorCtaText", widget: "string"}
+      - {label: "Título para la sección Colocación Aislante", name: "colocationTitle", widget: "string", hint: "Podés usar HTML en este campo.", required: false}
+      - {label: "Link para la sección Colocación Aislante", name: "colocationCtaLink", widget: "string", required: false}
+      - {label: "Texto del link para la sección Colocación Aislante", name: "colocationCtaText", widget: "string", required: false}
+      - {label: "Link para la sección Buscador de Asesor Técnico", name: "technicalAssessorCtaLink", widget: "string", required: false}
+      - {label: "Texto del link para la sección Buscador de Asesor Técnico", name: "technicalAssessorCtaText", widget: "string", required: false}
       - {label: "Habilitar sección Llamado a la acción", name: "enableCtaSection", widget: "boolean", default: true}
       - {label: "Título para la sección Llamado a la acción", name: "ctaTitle", widget: "string", hint: "Podés usar HTML en este campo.", required: false}
       - label: "Imagen para la sección Llamado a la acción"
         name: "ctaImage"
         widget: "image"
         choose_url: false
+        required: false
         media_library:
           config:
             multiple: false
