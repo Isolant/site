@@ -5,7 +5,7 @@ description: Cilindros de espuma de polietileno de baja densidad, de diferentes
   diámetros. No requieren mantenimiento y no son atacados por agentes químicos,
   orgánicos e inorgánicos. Tampoco son atacados ni se degradan por acción de
   selladores.
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/cilindros-de-espuma/isolant-aislantes-linea-otros-usos-cilindros-de-espuma-imagen-principal.jpg
+mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1690288618/CILINDRO_MG_5017_rtfpze.jpg
 productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/cilindros-de-espuma/isolant-aislantes-linea-otros-usos-cilindros-de-espuma-producto-rollo.png
 enableHero: true
 mainBenefits:
