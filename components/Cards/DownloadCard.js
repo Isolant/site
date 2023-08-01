@@ -6,8 +6,8 @@ import Image from 'next/image';
 import { standardTextClasses, uppercaseTextClasses } from "../../classes/Text";
 
 // SVGs
-import { ReactComponent as EyeIcon } from '../../images/icons/eye.svg';
-import { ReactComponent as DownloadIcon } from '../../images/icons/download.svg';
+import { ReactComponent as EyeIcon } from '../../public/images/icons/eye.svg';
+import { ReactComponent as DownloadIcon } from '../../public/images/icons/download.svg';
 
 export default function DownloadCard({ download, classes }) {
   return (

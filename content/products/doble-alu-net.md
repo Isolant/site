@@ -4,16 +4,16 @@ order: 3
 highlighted: true
 slogan: ¡Ahorrá hasta un <strong>40% de mano de obra!</strong>
 description: <strong>Aislante con red incorporada para galpones y tinglados. ¡Ahorra hasta un 40% de la mano de obra!</strong><br /><br />Al ser un aislante 2 en 1, se ahorra del 20% al 40% de tiempo de colocación en obra, lo cual representa hasta un 50% del costo de la DOBLE ALU NET. Como no hace falta colocar una malla de sostén, se reducen a la mitad los accidentes por riesgo de colocación, ya que se trabaja sobre la chapa.<br /><br />Al tener una estabilidad dimensional superior, también brinda una terminación plana y estética superior y no hace falta tensarla al momento de colocarla. 
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-imagen.jpg
+mainImage: /images/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-imagen.jpg
 enableHero: true
-productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-producto-rollo.webp
+productImage: /images/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-producto-rollo.webp
 ecommerceLink: https://tienda.isolant.com.ar/galpones-y-tinglados/56-doble-alu-15-net.html
 mainBenefits:
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-beneficio-1.svg
+  - icon: /images/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-beneficio-1.svg
     text: Producto con red incorporada
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-beneficio-2.svg
+  - icon: /images/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-beneficio-2.svg
     text: ¡Ahorro de hasta un 40%!
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1635429089/website-2021/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-beneficio-3.svg
+  - icon: /images/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-beneficio-3.svg
     text: Terminación plana y estética
 enableDetailsSection: true
 function:
@@ -26,13 +26,13 @@ application:
 presentation:
   - text: 1,05m x 20m. (Largos a medida por más de 1000 m2).
   - text: "Espesor: 10 y 15mm."
-logo: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-logo.png
-detailsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-imagen-detalle.jpg
-# patentImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-patente.png
+logo: /images/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-logo.png
+detailsImage: /images/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-imagen-detalle.jpg
+# patentImage: /images/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-patente.png
 enableBenefitsSection: true
 benefitsTitle: Producto con <strong>red incorporada</strong>
 benefitsText: Gracias a la red incorporada en la masa del aislante, nuestros productos NET son los de más rápida y fácil instalación del mercado. Ahorran del 20% al 40% de mano de obra, lo cual impacta directamente en los tiempos y costos de la misma. Al ser DOS productos en UNO, brinda una resistencia mecánica premium, una terminación plana y estética superior.
-benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-beneficio-exclusivo.jpg
+benefitsImage: /images/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-beneficio-exclusivo.jpg
 benefitsList:
   - text: Alta resistencia al rasgado.
   - text: Termosoldables.
@@ -104,13 +104,13 @@ downloads:
   - Tríptico Industria/Vivienda
   - Volante Doble Alu NET
 enableColocationSection: true
-colocationImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
+colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
 colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
 technicalAssessorCtaText: Buscá tu asesor técnico
 colocationCtaLink: https://isoplus.isolant.com.ar/inicio
 colocationCtaText: Encontrá un instalador
 technicalAssessorCtaLink: /servicios#map
 enableCtaSection: true
-ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-cta.jpg
+ctaImage: /images/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-cta.jpg
 ctaTitle: Un aislante con tecnología de punta <strong>para tu industria</strong>
 ---

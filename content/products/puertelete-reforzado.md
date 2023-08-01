@@ -7,18 +7,18 @@ description: Aislate de los chifletes por infiltraciones debajo de puertas. <br
   (podés usar una trincheta) midiendo el ancho de la puerta, apoyalo en el piso,
   frente al filo de la puerta, y desplazalo hasta que cubra la totalidad de la
   puerta.
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/puertelete/isolant-aislantes-linea-accesorios-puertelete-imagen.jpg
-productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1683894110/Puertelete_Reforzado_2_gcoeao.jpg
+mainImage: /images/products/puertelete/isolant-aislantes-linea-accesorios-puertelete-imagen.jpg
+productImage: /images/products/puertelete/Puertelete_Reforzado_2_gcoeao.jpg
 enableHero: true
 mainBenefits:
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/puertelete/isolant-aislantes-linea-otros-usos-puertelete-beneficio-1.svg
+  - icon: /images/products/puertelete/isolant-aislantes-linea-otros-usos-puertelete-beneficio-1.svg
     text: Material impermeable e imputrescible
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/puertelete/isolant-aislantes-linea-accesorios-puertelete-beneficio-2.svg
+  - icon: /images/products/puertelete/isolant-aislantes-linea-accesorios-puertelete-beneficio-2.svg
     text: Evita el ingreso de polvo y mugre
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/puertelete/isolant-aislantes-accesorios-puertelete-beneficio-3.svg
+  - icon: /images/products/puertelete/isolant-aislantes-accesorios-puertelete-beneficio-3.svg
     text: Evita infiltraciones de aire
 enableDetailsSection: true
-detailsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1683894297/Puertelete_Reforzado_3_jl6rhk.jpg
+detailsImage: /images/products/puertelete/Puertelete_Reforzado_3_jl6rhk.jpg
 function:
   - text: Cierre hermético para filtraciones debajo de puertas.
   - text: Evita entrada de frío y polvo.
@@ -39,13 +39,13 @@ benefitsList:
   - text: "Material sano: No desprende partículas."
   - text: Reciclable. No contamina el medio ambiente.
   - text: Material liviano.
-benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/puertelete/isolant-aislantes-linea-otros-usos-puertelete-beneficio-exclusivo.jpg
+benefitsImage: /images/products/puertelete/isolant-aislantes-linea-otros-usos-puertelete-beneficio-exclusivo.jpg
 enableVideoSection: false
 video: https://drive.google.com/open?id=1byE50P38WMmbXLJtqMhAwq6nFvAfTE1G&authuser=marketing%40isolant.com.ar&usp=drive_fs
 enableInstructions: true
 instructions:
   - Puertelete
-pdfInstruction: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1658315606/website-2021/downloads/colocacion-puertelete.pdf
+pdfInstruction: /images/downloads/colocacion-puertelete.pdf
 enableTechnicalInformation: true
 technicalInformationList:
   - title: Resistencia térmica
@@ -104,12 +104,12 @@ downloadsTitle: " "
 downloads:
   - Catálogo Construcción en Seco
 enableColocationSection: false
-colocationImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1683895147/Puertelete_Reforzado_2_oha4wu.jpg
+colocationImage: /images/products/puertelete/Puertelete_Reforzado_2_oha4wu.jpg
 colocationTitle: " "
 colocationCtaLink: " "
 colocationCtaText: " "
 technicalAssessorCtaLink: " "
 technicalAssessorCtaText: " "
 enableCtaSection: true
-ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/puertelete/isolant-aislantes-linea-accesorios-puertelete-imagen-cta.jpg
+ctaImage: /images/products/puertelete/isolant-aislantes-linea-accesorios-puertelete-imagen-cta.jpg
 ---

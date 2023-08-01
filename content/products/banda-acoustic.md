@@ -9,20 +9,20 @@ description: <strong>Desanclaje acústico para perfiles de construcción en seco
   ruidos generados por vibración (de impacto). Al estar adhesivada y no tener
   desmoldante es el producto más práctico del mercado para aislar montantes y
   soleras.
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-imagen.jpg
-productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-producto-rollo.png
-logo: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-logo.webp
+mainImage: /images/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-imagen.jpg
+productImage: /images/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-producto-rollo.png
+logo: /images/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-logo.webp
 ecommerceLink: https://tienda.isolant.com.ar/construccion-en-seco/80-banda-acoustic-100mm.html
 enableHero: true
 mainBenefits:
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-beneficio-1.svg
+  - icon: /images/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-beneficio-1.svg
     text: Desanclaje acústico de soleras y montantes
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-beneficio-2.svg
+  - icon: /images/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-beneficio-2.svg
     text: Adhesivado
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1635429089/website-2021/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-beneficio-3.svg
+  - icon: /images/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-beneficio-3.svg
     text: Evitan la condensación
 enableDetailsSection: true
-detailsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-imagen-detalle-producto.jpg
+detailsImage: /images/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-imagen-detalle-producto.jpg
 function:
   - text: Aislante acústico.
   - text: Evita la condensación.
@@ -42,7 +42,7 @@ benefitsList:
   - text: Se puede cortar con trincheta o la mano.
   - text: "Material sano: No desprende partículas."
   - text: Mantiene su forma y espesor a lo largo del tiempo.
-benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-beneficio-exclusivo.jpg
+benefitsImage: /images/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-beneficio-exclusivo.jpg
 enableVideoSection: true
 video: https://www.youtube.com/watch?v=6GFJz-5GJuQ
 enableInstructions: true
@@ -92,12 +92,12 @@ downloads:
   - Volante Ondusec y Ondusec Reflex
   - ¿Qué tipo de techo querés aislar?
 enableColocationSection: true
-colocationImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
+colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
 colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
 colocationCtaLink: https://isoplus.isolant.com.ar/inicio
 colocationCtaText: Encontrá un instalador
 technicalAssessorCtaLink: /servicios#map
 technicalAssessorCtaText: Buscá tu asesor técnico
 enableCtaSection: true
-ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/banda-acoustic/isolant-aislantes-linea-vivienda-banda-acoustic-imagen-detalle.jpg
+ctaImage: /images/products/banda-acoustic/isolant-aislantes-linea-vivienda-banda-acoustic-imagen-detalle.jpg
 ---

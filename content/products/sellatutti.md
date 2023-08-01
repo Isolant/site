@@ -3,15 +3,15 @@ name: Sellatutti
 order: 6
 slogan: Cierre hermético <strong>para chapas</strong>
 description: Cierre hermético para chapas. ¡Único del mercado con coteado reforzado!
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/sellatutti/isolant-aislantes-linea-accesorios-sellatutti-imagen-fondo.jpg
+mainImage: /images/products/sellatutti/isolant-aislantes-linea-accesorios-sellatutti-imagen-fondo.jpg
 enableHero: true
-productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/sellatutti/isolant-aislantes-linea-otros-usos-sellatutti-producto-rollo.png
+productImage: /images/products/sellatutti/isolant-aislantes-linea-otros-usos-sellatutti-producto-rollo.png
 mainBenefits:
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/sellatutti/isolant-aislantes-linea-otros-usos-sellatutti-beneficio-1.svg
+  - icon: /images/products/sellatutti/isolant-aislantes-linea-otros-usos-sellatutti-beneficio-1.svg
     text: Material impermeable e imputrescible
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/sellatutti/isolant-aislantes-linea-otros-usos-sellatutti-beneficio-2.svg
+  - icon: /images/products/sellatutti/isolant-aislantes-linea-otros-usos-sellatutti-beneficio-2.svg
     text: Mantiene su espesor a lo largo del tiempo
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/sellatutti/isolant-aislantes-linea-otros-usos-sellatutti-beneficio-3.svg
+  - icon: /images/products/sellatutti/isolant-aislantes-linea-otros-usos-sellatutti-beneficio-3.svg
     text: Evitan la condensación
 enableDetailsSection: true
 function:
@@ -21,13 +21,13 @@ application:
   - text: Chapas.
   - text: Respaldo en juntas de dilatación.
 presentation:
-  - text: Hacé <a href="https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/sellatutti/isolant-aislantes-linea-vivienda-sellatutti-presentaciones.webp" target="_blank" rel="noopener noreferrer" class="font-bold">click acá</a> para ver todas las presentaciones disponibles
-logo: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/sellatutti/isolant-aislantes-linea-otros-usos-sellatutti-logo.jpg
-detailsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/sellatutti/isolant-aislantes-linea-otros-usos-sellatutti-imagen-detalle.jpg
+  - text: Hacé <a href="/images/products/sellatutti/isolant-aislantes-linea-vivienda-sellatutti-presentaciones.webp" target="_blank" rel="noopener noreferrer" class="font-bold">click acá</a> para ver todas las presentaciones disponibles
+logo: /images/products/sellatutti/isolant-aislantes-linea-otros-usos-sellatutti-logo.jpg
+detailsImage: /images/products/sellatutti/isolant-aislantes-linea-otros-usos-sellatutti-imagen-detalle.jpg
 enableBenefitsSection: true
 benefitsTitle: Terminación <strong>reforzada</strong>
 benefitsText: SELLATUTTI es el único cierre hermético para chapas y juntas, que presenta una terminación reforzada en ambas cara. Esto alarga su vida útil y lo hace más difícil de romper para pájaros y animales.
-benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/sellatutti/isolant-aislantes-linea-otros-usos-sellatutti-beneficio-exclusivo.jpg
+benefitsImage: /images/products/sellatutti/isolant-aislantes-linea-otros-usos-sellatutti-beneficio-exclusivo.jpg
 benefitsList:
   - text: "Saludable. No desprende partículas."
   - text: Reciclable. No contamina el medio ambiente.
@@ -82,5 +82,5 @@ downloads:
   - Volante Sellatutti
 enableColocationSection: false
 enableCtaSection: true
-ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/sellatutti/isolant-aislantes-linea-accesorios-sellatutti-imagen-cta.jpg
+ctaImage: /images/products/sellatutti/isolant-aislantes-linea-accesorios-sellatutti-imagen-cta.jpg
 ---

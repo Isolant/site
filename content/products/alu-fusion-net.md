@@ -11,20 +11,20 @@ description: <strong>Aislante con red incorporada para viviendas de estructura
   hasta un 50% del costo de la <strong>ALU FUSION NET</strong>. Reduciendo
   además a la mitad los accidentes por riesgo de colocación, ya que se trabaja
   sobre la chapa.
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/alu-fusion-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-imagen-fondo.jpg
-productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/alu-fusion-net/isolant-aislantes-linea-vivienda-alu-fusion-net-producto-rollo.webp
-logo: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/alu-fusion-net/isolant-aislantes-linea-vivienda-alu-fusion-net-logo.png
+mainImage: /images/products/alu-fusion-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-imagen-fondo.jpg
+productImage: /images/products/alu-fusion-net/isolant-aislantes-linea-vivienda-alu-fusion-net-producto-rollo.webp
+logo: /images/products/alu-fusion-net/isolant-aislantes-linea-vivienda-alu-fusion-net-logo.png
 ecommerceLink: https://tienda.isolant.com.ar/vivienda/50-alu-fusion-net.html
 enableHero: true
 mainBenefits:
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/alu-fusion-net/isolant-aislantes-linea-vivienda-alu-fusion-net-beneficio-1.svg
+  - icon: /images/products/alu-fusion-net/isolant-aislantes-linea-vivienda-alu-fusion-net-beneficio-1.svg
     text: Producto con red incorporada
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/alu-fusion-net/isolant-aislantes-linea-vivienda-alu-fusion-net-beneficio-2.svg
+  - icon: /images/products/alu-fusion-net/isolant-aislantes-linea-vivienda-alu-fusion-net-beneficio-2.svg
     text: Aluminio puro. Refleja la radiación calórica.
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1635429089/website-2021/products/alu-fusion-net/isolant-aislantes-linea-vivienda-alu-fusion-net-beneficio-3.svg
+  - icon: /images/products/alu-fusion-net/isolant-aislantes-linea-vivienda-alu-fusion-net-beneficio-3.svg
     text: Termosoldables
 enableDetailsSection: true
-detailsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/alu-fusion-net/isolant-aislantes-linea-vivienda-alu-fusion-net-imagen-detalle-producto.jpg
+detailsImage: /images/products/alu-fusion-net/isolant-aislantes-linea-vivienda-alu-fusion-net-imagen-detalle-producto.jpg
 function:
   - text: Aislante térmico.
   - text: Impermeable y barrera de vapor.
@@ -52,12 +52,12 @@ benefitsList:
   - text: Evitan la condensación.
   - text: Alta resistencia al rasgado.
   - text: Clase RE2. Muy baja propagación de llama.
-benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/alu-fusion-net/isolant-aislantes-linea-vivienda-alu-fusion-net-beneficio-exclusivo.jpg
-patentImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/alu-fusion-net/isolant-aislantes-linea-vivienda-alu-fusion-net-patente.png
+benefitsImage: /images/products/alu-fusion-net/isolant-aislantes-linea-vivienda-alu-fusion-net-beneficio-exclusivo.jpg
+patentImage: /images/products/alu-fusion-net/isolant-aislantes-linea-vivienda-alu-fusion-net-patente.png
 enableVideoSection: true
 video: https://www.youtube.com/watch?v=g10vCEEilvU
 enableInstructions: true
-pdfInstruction: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1658315606/website-2021/downloads/colocacion-alu-fusion-net.pdf
+pdfInstruction: /images/downloads/colocacion-alu-fusion-net.pdf
 instructions:
   - Alu Fusión NET
 enableTechnicalInformation: true
@@ -119,13 +119,13 @@ downloads:
   - ¿Qué tipo de techo querés aislar?
   - Tríptico Industria/Vivienda
   - Volante Alu Fusión NET
-colocationImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
+colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
 colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
 colocationCtaLink: https://isoplus.isolant.com.ar/inicio
 colocationCtaText: Encontrá un instalador
 technicalAssessorCtaLink: /servicios#map
 technicalAssessorCtaText: Buscá tu asesor técnico
 enableCtaSection: true
-ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/alu-fusion-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-cta-imagen.jpg
+ctaImage: /images/products/alu-fusion-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-cta-imagen.jpg
 mainImageBackgroundPosition: bottom
 ---

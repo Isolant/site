@@ -1,10 +1,10 @@
 ---
-icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1634905826/website-2021/downloads/book.svg
+icon: /images/downloads/book.svg
 title: Catálogo Climatización
 showOnMainPage: true
 format: "Formato: PDF/ZIP"
-pdf: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1636750785/website-2021/downloads/catalogo_de_climatizacion.pdf
-zip: https://res.cloudinary.com/isolant-cloudinary/raw/upload/v1636750785/website-2021/downloads/catalogo_de_climatizacion_zip.zip
+pdf: /images/downloads/catalogo_de_climatizacion.pdf
+zip: /images/downloads/catalogo_de_climatizacion_zip.zip
 productLines:
   - Sistemas de Climatización
 ---

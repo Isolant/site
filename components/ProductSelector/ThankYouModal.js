@@ -7,8 +7,8 @@ import TitlePackage from '../TitlePackage';
 import Button from '../Forms/Button';
 
 // SVGs
-import { ReactComponent as CloseIcon} from '../../images/icons/close.svg';
-import { ReactComponent as PhoneIcon} from '../../images/icons/phone.svg';
+import { ReactComponent as CloseIcon} from '../../../images/icons/close.svg';
+import { ReactComponent as PhoneIcon} from '../../../images/icons/phone.svg';
 
 // Styles
 import ModalStyles from './Modal.module.css';

@@ -7,12 +7,12 @@ import { smallTextClasses } from '../classes/Text';
 import { horizontalPadding } from '../classes/Spacing';
 
 // SVGs
-import { ReactComponent as FacebookIcon } from '../images/icons/social/facebook.svg';
-import { ReactComponent as WhatsappIcon } from '../images/icons/social/whatsapp.svg';
-import { ReactComponent as InstagramIcon } from '../images/icons/social/instagram.svg';
-import { ReactComponent as YoutubeIcon } from '../images/icons/social/youtube.svg';
-import { ReactComponent as Dots } from '../images/misc/dots.svg';
-import { ReactComponent as Circle } from '../images/misc/circle.svg';
+import { ReactComponent as FacebookIcon } from '../public/images/icons/social/facebook.svg';
+import { ReactComponent as WhatsappIcon } from '../public/images/icons/social/whatsapp.svg';
+import { ReactComponent as InstagramIcon } from '../public/images/icons/social/instagram.svg';
+import { ReactComponent as YoutubeIcon } from '../public/images/icons/social/youtube.svg';
+import { ReactComponent as Dots } from '../public/images/misc/dots.svg';
+import { ReactComponent as Circle } from '../public/images/misc/circle.svg';
 
 // Styles
 import FooterStyles from './Footer.module.css';
@@ -103,7 +103,7 @@ export default function InternalFooter({theme, decorations}) {
             className="hover:opacity-80"
           >
             <Image
-              src="https://res.cloudinary.com/isolant-cloudinary/image/upload/v1633696324/website-2021/globals/isolant-aislantes-data-fiscal.webp"
+              src="/images/globals/isolant-aislantes-data-fiscal.webp"
               alt="Data Fiscal de Isolant Aislantes"
               layout="intrinsic"
               width={45}

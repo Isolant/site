@@ -5,7 +5,7 @@ showOnMainPage: false
 productLines:
   - Vivienda
 type: Ensayos técnicos
-pdf: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1635508587/website-2021/downloads/atacama-resultados-ensayo.pdf
-zip: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1635508587/website-2021/downloads/atacama-resultados-ensayo_zip.zip
-icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1634905826/website-2021/downloads/file.svg
+pdf: /images/downloads/atacama-resultados-ensayo.pdf
+zip: /images/downloads/atacama-resultados-ensayo_zip.zip
+icon: /images/downloads/file.svg
 ---

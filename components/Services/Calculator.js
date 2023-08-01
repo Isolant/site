@@ -5,7 +5,7 @@ import React from "react";
 import HalfScreenSection from "../../components/Layout/HalfScreenSection";
 
 // SVGs
-import { ReactComponent as Dots } from '../../images/misc/dots.svg';
+import { ReactComponent as Dots } from '../../public/images/misc/dots.svg';
 
 export default function Calculator({ 
   image,

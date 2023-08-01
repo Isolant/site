@@ -3,15 +3,15 @@ name: Tubos
 order: 7
 slogan: Aislación para <strong>cañerías</strong>
 description: <strong>Aislación para cañerías.</strong><br /><br />Tubos de espuma termoplástica de celda cerrada de espesor 10 mm y diversos diámetros.
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tubos/isolant-aislantes-linea-climatizacion-tubos-imagen-principal.jpg
+mainImage: /images/products/tubos/isolant-aislantes-linea-climatizacion-tubos-imagen-principal.jpg
 enableHero: true
-productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tubos/isolant-aislantes-linea-climatizacion-tubos-producto-rollo.png
+productImage: /images/products/tubos/isolant-aislantes-linea-climatizacion-tubos-producto-rollo.png
 mainBenefits:
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tubos/isolant-aislantes-linea-climatizacion-tubos-beneficio-1.svg
+  - icon: /images/products/tubos/isolant-aislantes-linea-climatizacion-tubos-beneficio-1.svg
     text: Aislación Térmica
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tubos/isolant-aislantes-linea-climatizacion-tubos-beneficio-2.svg
+  - icon: /images/products/tubos/isolant-aislantes-linea-climatizacion-tubos-beneficio-2.svg
     text: Evitan la condensación
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1635429089/website-2021/products/tubos/isolant-aislantes-linea-climatizacion-tubos-beneficio-3.svg
+  - icon: /images/products/tubos/isolant-aislantes-linea-climatizacion-tubos-beneficio-3.svg
     text: Mantiene su espesor a lo largo del tiempo
 enableDetailsSection: true
 function:
@@ -21,12 +21,12 @@ function:
 application:
   - text: Cañerías y todo tipo de tubos en interiores.
 presentation:
-  - text: Hacé <a href="https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tubos/isolant-aislantes-linea-climatizacion-tubos-presentaciones.png" target="_blank" rel="noopener noreferrer" class="font-bold">click acá</a> para ver todas las presentaciones disponibles
-detailsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tubos/isolant-aislantes-linea-climatizacion-tubos-imagen-detalle.jpg
+  - text: Hacé <a href="/images/products/tubos/isolant-aislantes-linea-climatizacion-tubos-presentaciones.png" target="_blank" rel="noopener noreferrer" class="font-bold">click acá</a> para ver todas las presentaciones disponibles
+detailsImage: /images/products/tubos/isolant-aislantes-linea-climatizacion-tubos-imagen-detalle.jpg
 enableBenefitsSection: true
 benefitsTitle: Evitan el <strong>congelamiento y calentamiento de la cañería</strong>
 benefitsText: En el caso de cañerías plásticas protegen el deterioro y lo aíslan térmicamente. Evitan la condensación sobre la cañería. Aumentan la eficacia de los sistemas de calefacción evitando las pérdidas de energía. Evitan las variaciones bruscas de temperatura, disminuyendo las dilataciones y contracciones de la cañería.
-benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tubos/isolant-aislantes-linea-climatizacion-tubos-beneficio-exclusivo.jpg
+benefitsImage: /images/products/tubos/isolant-aislantes-linea-climatizacion-tubos-beneficio-exclusivo.jpg
 benefitsList:
   - text: Material impermeable e imputrescible.
   - text: Reciclable. No contamina el medio ambiente.
@@ -76,12 +76,12 @@ downloads:
   - Catálogo Climatización
   - Volante Climatización
 enableColocationSection: true
-colocationImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
+colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
 colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
 technicalAssessorCtaText: Buscá tu asesor técnico
 colocationCtaLink: https://isoplus.isolant.com.ar/inicio
 colocationCtaText: Encontrá un instalador
 technicalAssessorCtaLink: /servicios#map
-ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tubos/isolant-aislantes-linea-climatizacion-tubos-cta.jpg
+ctaImage: /images/products/tubos/isolant-aislantes-linea-climatizacion-tubos-cta.jpg
 enableCtaSection: true
 ---

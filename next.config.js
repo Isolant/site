@@ -1,8 +1,5 @@
 module.exports = {
   target: "serverless",
-  images: {
-    domains: ['res.cloudinary.com'],
-  },
   webpack: (cfg) => {
     cfg.module.rules.push(
       {

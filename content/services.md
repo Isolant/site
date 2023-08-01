@@ -1,19 +1,19 @@
 ---
 pageTitle: Servicios
-heroImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/services/isolant-aislantes-servicios-fondo.jpg
+heroImage: /images/services/isolant-aislantes-servicios-fondo.jpg
 heroTitle: Asesoramiento técnico <strong>gratuito en obra</strong>
 services:
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/services/isolant-aislantes-servicios-icono-diagnostico.svg
+  - icon: /images/services/isolant-aislantes-servicios-icono-diagnostico.svg
     text: Diagnóstico
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/services/isolant-aislantes-servicios-icono-computo-presupuesto-materiales.svg
+  - icon: /images/services/isolant-aislantes-servicios-icono-computo-presupuesto-materiales.svg
     text: Cómputo y presupuesto a medida
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/services/isolant-aislantes-servicios-icono-capacitacion-mano-de-obra.svg
+  - icon: /images/services/isolant-aislantes-servicios-icono-capacitacion-mano-de-obra.svg
     text: Capacitación de mano de obra
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/services/isolant-aislantes-servicios-icono-seguimiento-de-instalacion-de-material-en-obra.svg
+  - icon: /images/services/isolant-aislantes-servicios-icono-seguimiento-de-instalacion-de-material-en-obra.svg
     text: Seguimiento de instalación de material en obra
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/services/isolant-aislantes-servicios-icono-medicion-del-rendimiento-termico-en-la-obra-terminada.svg
+  - icon: /images/services/isolant-aislantes-servicios-icono-medicion-del-rendimiento-termico-en-la-obra-terminada.svg
     text: Medición del rendimiento térmico en la obra terminada
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/services/isolant-aislantes-servicios-icono-asesoramiento-post-venta.svg
+  - icon: /images/services/isolant-aislantes-servicios-icono-asesoramiento-post-venta.svg
     text: Asesoramiento Post-Venta
 technicalAssessorsTitle: Encontrá al técnico o comercial <strong>más cercano a tu zona</strong>
 technicalAssessorsText: Utilizá los mapas debajo para ver la información de los asesores técnicos más cercanos a tu obra.
@@ -27,7 +27,7 @@ thermographyText: <strong>ISOLANT S.A. te brinda la posibilidad de realizar un a
   conocer más de este servicio.
 thermographyCtaText: Contactanos
 thermographyCtaLink: /contacto
-thermographyImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/services/isolant-aislantes-servicios-termografia-de-obra-imagen.jpg
+thermographyImage: /images/services/isolant-aislantes-servicios-termografia-de-obra-imagen.jpg
 agendaTitle: Agenda de giras <strong>y visitas técnicas</strong>
 agendaText: Revisá las giras, charlas, y visitas programadas de nuestros
   técnicos y vendedores, para ver cuándo hay una cerca tuyo.
@@ -45,7 +45,7 @@ bimText: "<strong>BIM permite la integración de datos en proyectos, los cuales
   producir un proyecto preciso y eficiente."
 bimCtaText: Descargar Biblioteca
 bimCtaLink: /servicios/descargas#bim
-bimImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1642432013/website-2021/Imagenes%20Generales%20Tris/pexels-brett-sayles-10813067_nherze.jpg
+bimImage: /images/Imagenes%20Generales%20Tris/pexels-brett-sayles-10813067_nherze.jpg
 faqsTitle: Preguntas <strong>Frecuentes</strong>
 faqsText: Conocé más sobre la colocación de nuestros aislantes revisando
   nuestras Preguntas Frecuentes.
@@ -53,7 +53,7 @@ faqsCtaText: Preguntas Frecuentes
 faqsCtaLink: /servicios/preguntas-frecuentes
 contactCtaText: Contactanos
 contactCtaLink: /contacto
-faqsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/faqs/isolant-aislantes-servicios-preguntas-frecuentes-contacto-fondo.jpg
+faqsImage: /images/faqs/isolant-aislantes-servicios-preguntas-frecuentes-contacto-fondo.jpg
 calculatorTitle: Calculadora de <strong>Ahorro Energético</strong>
 calculatorText: Una casa bien aislada consume menos energía, logrando reducir
   hasta 60% el gasto requerido para tu climatización. <strong>¡Descubrí el
@@ -61,5 +61,5 @@ calculatorText: Una casa bien aislada consume menos energía, logrando reducir
   ahorrarte!</strong>
 calculatorCtaText: Calcula tu ahorro
 calculatorCtaLink: http://calculadoratermica.isolant.com.ar/isolant/
-calculatorImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/services/isolant-aislantes-servicios-calculadora-termica-fondo.jpg
+calculatorImage: /images/services/isolant-aislantes-servicios-calculadora-termica-fondo.jpg
 ---

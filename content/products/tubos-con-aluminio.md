@@ -3,15 +3,15 @@ name: Tubos con Aluminio
 order: 8
 slogan: Aislación para cañerías <strong>a la intemperie</strong>
 description: <strong>Aislación para cañerías de distribución a la intemperie.</strong><br /><br />Tubos de espuma termoplástica de celda cerrada de espesor 10 mm recubiertos con un foil de aluminio puro que protege a la espuma de los rayos UV, y además aumenta la resistencia térmica que provee la espuma.
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tubos-aluminio/isolant-aislantes-linea-climatizacion-tubos-aluminio-imagen-principal.jpg
+mainImage: /images/products/tubos-aluminio/isolant-aislantes-linea-climatizacion-tubos-aluminio-imagen-principal.jpg
 enableHero: true
-productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1637172754/website-2021/products/tubos-aluminio/isolant-aislantes-linea-climatizacion-tubos-aluminio-producto-rollo.png
+productImage: /images/products/tubos-aluminio/isolant-aislantes-linea-climatizacion-tubos-aluminio-producto-rollo.png
 mainBenefits:
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tubos-aluminio/isolant-aislantes-linea-climatizacion-tubos-aluminio-beneficio-1.svg
+  - icon: /images/products/tubos-aluminio/isolant-aislantes-linea-climatizacion-tubos-aluminio-beneficio-1.svg
     text: Aislación Térmica
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tubos-aluminio/isolant-aislantes-linea-climatizacion-tubos-aluminio-beneficio-2.svg
+  - icon: /images/products/tubos-aluminio/isolant-aislantes-linea-climatizacion-tubos-aluminio-beneficio-2.svg
     text: Evitan la condensación
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1635429089/website-2021/products/tubos-aluminio/isolant-aislantes-linea-climatizacion-tubos-aluminio-beneficio-3.svg
+  - icon: /images/products/tubos-aluminio/isolant-aislantes-linea-climatizacion-tubos-aluminio-beneficio-3.svg
     text: Apto para la intemperie
 enableDetailsSection: true
 function:
@@ -21,12 +21,12 @@ function:
 application:
   - text: Cañerías y todo tipo de tubos en interiores y exteriores.
 presentation:
-  - text: Hacé <a href="https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tubos-aluminio/isolant-aislantes-linea-climatizacion-tubos-aluminio-presentaciones.png" target="_blank" rel="noopener noreferrer" class="font-bold">click acá</a> para ver todas las presentaciones disponibles
-detailsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tubos-aluminio/isolant-aislantes-linea-climatizacion-tubos-aluminio-imagen-detalle.jpg
+  - text: Hacé <a href="/images/products/tubos-aluminio/isolant-aislantes-linea-climatizacion-tubos-aluminio-presentaciones.png" target="_blank" rel="noopener noreferrer" class="font-bold">click acá</a> para ver todas las presentaciones disponibles
+detailsImage: /images/products/tubos-aluminio/isolant-aislantes-linea-climatizacion-tubos-aluminio-imagen-detalle.jpg
 enableBenefitsSection: true
 benefitsTitle: Evitan el <strong>congelamiento y calentamiento de la cañería</strong>
 benefitsText: Aptos para permanecer a la intemperie. En el caso de cañerías plásticas protegen el deterioro y lo aíslan térmicamente. Aumentan la eficacia de los sistemas de calefacción evitando las pérdidas de energía. Evitan las variaciones bruscas de temperatura, disminuyendo las dilataciones y contracciones de la cañería. Se pueden colocar en cañerías existentes.
-benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tubos-aluminio/isolant-aislantes-linea-climatizacion-tubos-aluminio-beneficio-exclusivo.jpg
+benefitsImage: /images/products/tubos-aluminio/isolant-aislantes-linea-climatizacion-tubos-aluminio-beneficio-exclusivo.jpg
 benefitsList:
   - text: Muy baja propagación de llama.
   - text: Saludable. No desprende partículas.
@@ -76,12 +76,12 @@ downloads:
   - Volante Climatización
   - Volante Tubos con Aluminio
 enableColocationSection: true
-colocationImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
+colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
 colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
 technicalAssessorCtaText: Buscá tu asesor técnico
 colocationCtaLink: https://isoplus.isolant.com.ar/inicio
 colocationCtaText: Encontrá un instalador
 technicalAssessorCtaLink: /servicios#map
-ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tubos-aluminio/isolant-aislantes-linea-climatizacion-tubos-alumino-cta.jpg
+ctaImage: /images/products/tubos-aluminio/isolant-aislantes-linea-climatizacion-tubos-alumino-cta.jpg
 enableCtaSection: true
 ---

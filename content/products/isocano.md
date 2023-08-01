@@ -3,15 +3,15 @@ name: Isocaño
 order: 9
 slogan: Aislante para caños <strong>de gran caudal</strong>
 description: <strong>Aislante para caños de gran caudal a la intemperie.</strong><br /><br />Placa aislante con unión termo fusionable con pistola de calor, para abrazar y aislar caños de gran caudal.
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/isocano/isolant-aislantes-linea-climatizacion-isocano-imagen-principal.jpg
+mainImage: /images/products/isocano/isolant-aislantes-linea-climatizacion-isocano-imagen-principal.jpg
 enableHero: true
-productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/isocano/isolant-aislantes-linea-climatizacion-isocano-producto-rollo.png
+productImage: /images/products/isocano/isolant-aislantes-linea-climatizacion-isocano-producto-rollo.png
 mainBenefits:
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/isocano/isolant-aislantes-linea-climatizacion-isocano-beneficio-1.svg
+  - icon: /images/products/isocano/isolant-aislantes-linea-climatizacion-isocano-beneficio-1.svg
     text: Apto para la intemperie
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/isocano/isolant-aislantes-linea-climatizacion-isocano-beneficio-2.svg
+  - icon: /images/products/isocano/isolant-aislantes-linea-climatizacion-isocano-beneficio-2.svg
     text: Evitan la condensación
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1635429089/website-2021/products/isocano/isolant-aislantes-linea-climatizacion-isocano-beneficio-3.svg
+  - icon: /images/products/isocano/isolant-aislantes-linea-climatizacion-isocano-beneficio-3.svg
     text: Muy baja propagación de llama
 enableDetailsSection: true
 function:
@@ -21,12 +21,12 @@ function:
 application:
   - text: Aislante para caños de gran caudal a la intemperie.
 presentation:
-  - text: Hacé <a href="https://res.cloudinary.com/isolant-cloudinary/image/upload/v1637153754/website-2021/products/isocano/isolant-aislantes-linea-climatizacion-isocano-presentaciones.webp" target="_blank" rel="noopener noreferrer" class="font-bold">click acá</a> para ver todas las presentaciones disponibles
-detailsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/isocano/isolant-aislantes-linea-climatizacion-isocano-imagen-detalle.jpg
+  - text: Hacé <a href="/images/products/isocano/isolant-aislantes-linea-climatizacion-isocano-presentaciones.webp" target="_blank" rel="noopener noreferrer" class="font-bold">click acá</a> para ver todas las presentaciones disponibles
+detailsImage: /images/products/isocano/isolant-aislantes-linea-climatizacion-isocano-imagen-detalle.jpg
 enableBenefitsSection: true
 benefitsTitle: Diseño exclusivo y <strong>solapa termo soldable</strong>
 benefitsText: ISOCAÑO está diseñado especialmente para facilitar la colocación del mismo "abrazando" caños de gran caudal. Ya viene en forma de placa, con un rebaje en su lateral, para termo soldar con pistola de calor. Luego se sugiere la utilización de una cinta de aluminio apta intemperie para garantizar una unión sin filtraciones de agua ni UV.<br /><br />Además su diseño con una cara acanalada hace que al "abrazar" el caño, el material no tienda a volver sobre sí mismo, sino que complete una aislación perfecta. 
-benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/isocano/isolant-aislantes-linea-climatizacion-isocano-beneficio-exclusivo.jpg
+benefitsImage: /images/products/isocano/isolant-aislantes-linea-climatizacion-isocano-beneficio-exclusivo.jpg
 benefitsList:
   - text: Termosoldables.
   - text: Evitan congelamiento de fluído interno.
@@ -72,12 +72,12 @@ downloads:
   - Catálogo Climatización
   - Volante Climatización
 enableColocationSection: true
-colocationImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
+colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
 colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
 technicalAssessorCtaText: Buscá tu asesor técnico
 colocationCtaLink: https://isoplus.isolant.com.ar/inicio
 colocationCtaText: Encontrá un instalador
 technicalAssessorCtaLink: /servicios#map
-ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/isocano/isolant-aislantes-linea-climatizacion-isocano-cta.jpg
+ctaImage: /images/products/isocano/isolant-aislantes-linea-climatizacion-isocano-cta.jpg
 enableCtaSection: true
 ---

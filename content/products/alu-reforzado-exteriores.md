@@ -3,15 +3,15 @@ name: Alu Reforzado Exteriores
 order: 6
 slogan: El único aislante <strong>apto intemperie</strong>
 description: <strong>Aislación térmica e impermeable con foil de aluminio reforzado para conductos de aire acondicionado y tanques externos.</strong><br /><br />Espuma Isolant con foil de aluminio puro reforzado para exteriores.
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/aluminio-reforzado/isolant-aislantes-linea-climatizacion-aluminio-reforzado-imagen-principal.jpg
+mainImage: /images/products/aluminio-reforzado/isolant-aislantes-linea-climatizacion-aluminio-reforzado-imagen-principal.jpg
 enableHero: true
-productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1637169743/website-2021/products/aluminio-reforzado/isolant-aislantes-linea-climatizacion-aluminio-reforzado-producto-rollo.png
+productImage: /images/products/aluminio-reforzado/isolant-aislantes-linea-climatizacion-aluminio-reforzado-producto-rollo.png
 mainBenefits:
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/aluminio-reforzado/isolant-aislantes-linea-climatizacion-aluminio-reforzado-beneficio-1.svg
+  - icon: /images/products/aluminio-reforzado/isolant-aislantes-linea-climatizacion-aluminio-reforzado-beneficio-1.svg
     text: Aislación Térmica
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/aluminio-reforzado/isolant-aislantes-linea-climatizacion-aluminio-reforzado-beneficio-2.svg
+  - icon: /images/products/aluminio-reforzado/isolant-aislantes-linea-climatizacion-aluminio-reforzado-beneficio-2.svg
     text: Evitan la condensación
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/aluminio-reforzado/isolant-aislantes-linea-climatizacion-aluminio-reforzado-beneficio-3.svg
+  - icon: /images/products/aluminio-reforzado/isolant-aislantes-linea-climatizacion-aluminio-reforzado-beneficio-3.svg
     text: Aislación Hidrófuga
 enableDetailsSection: true
 function:
@@ -24,11 +24,11 @@ application:
 presentation:
   - text: Rollos de 1m x 20m
   - text: "Espesor: 10mm | 20mm"
-detailsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/aluminio-reforzado/isolant-aislantes-linea-climatizacion-aluminio-reforzado-imagen-detalle-producto.jpg
+detailsImage: /images/products/aluminio-reforzado/isolant-aislantes-linea-climatizacion-aluminio-reforzado-imagen-detalle-producto.jpg
 enableBenefitsSection: true
 benefitsTitle: Mayor durabilidad <strong>a la intemperie</strong>
 benefitsText: Las espumas Isolant con aluminio puro reforzado permiten ser colocadas a la intemperie dado la resistencia mecánica del refuerzo en el aluminio. Evita la rotura por impactos permitiendo mayor durabilidad a la intemperie y evita la doble cobertura de chapa de los conductos. Generalmente se utiliza para la salida y entrada de los conductos a los equipos enfriadores o de ventilación.
-benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/aluminio-reforzado/isolant-aislantes-linea-climatizacion-aluminio-reforzado-beneficio-exclusivo.jpg
+benefitsImage: /images/products/aluminio-reforzado/isolant-aislantes-linea-climatizacion-aluminio-reforzado-beneficio-exclusivo.jpg
 benefitsList:
   - text: Material impermeable e imputrescible.
   - text: Reduce los ruidos por vibraciones.
@@ -97,7 +97,7 @@ downloads:
   - Catálogo Climatización
   - Volante Climatización
 enableColocationSection: true
-colocationImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
+colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
 colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
 technicalAssessorCtaText: Buscá tu asesor técnico
 colocationCtaLink: https://isoplus.isolant.com.ar/inicio
@@ -105,5 +105,5 @@ colocationCtaText: Encontrá un instalador
 technicalAssessorCtaLink: /servicios#map
 enableCtaSection: true
 ctaTitle: El único aislante <strong>para exteriores</strong>
-ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/aluminio-reforzado/isolant-aislantes-linea-climatizacion-aluminio-reforzado-cta.jpg
+ctaImage: /images/products/aluminio-reforzado/isolant-aislantes-linea-climatizacion-aluminio-reforzado-cta.jpg
 ---

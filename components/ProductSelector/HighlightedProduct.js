@@ -12,9 +12,9 @@ import HighlightedProductStyles from './HighlightedProduct.module.css';
 import { uppercaseTextClasses } from "../../classes/Text";
 
 // SVGs
-import { ReactComponent as Dots } from '../../images/misc/dots.svg';
-import { ReactComponent as Circle } from '../../images/misc/circle.svg';
-import { ReactComponent as BigCircle } from '../../images/misc/big-circle.svg';
+import { ReactComponent as Dots } from '../../public/images/misc/dots.svg';
+import { ReactComponent as Circle } from '../../public/images/misc/circle.svg';
+import { ReactComponent as BigCircle } from '../../public/images/misc/big-circle.svg';
 
 export default function HighlightedProduct({ product, title, location, modalOpeningFunction }) {
   // const isLocationValid = location && location.isCityValid === true && product.ecommerceLink || location && location === 'denied' && product.ecommerceLink;

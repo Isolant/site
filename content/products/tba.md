@@ -9,19 +9,19 @@ description: <strong>Membrana bajo teja o bajo chapa.</strong><br /><br />Lámin
   en <a href="mailto:isolant@isolant.com.ar"
   class="text-primary">isolant@isolant.com.ar</a> para definir el espesor más
   adecuado del aislante para tu obra.
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tba/isolant-aislantes-linea-vivienda-tba-imagen-principal.jpg
-productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tba/isolant-aislantes-linea-vivienda-tba-imagen-rollo.png
+mainImage: /images/products/tba/isolant-aislantes-linea-vivienda-tba-imagen-principal.jpg
+productImage: /images/products/tba/isolant-aislantes-linea-vivienda-tba-imagen-rollo.png
 ecommerceLink: https://tienda.isolant.com.ar/vivienda/67-tba5.html
 enableHero: true
 mainBenefits:
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tba/isolant-aislantes-linea-vivienda-tba-beneficio-1.svg
+  - icon: /images/products/tba/isolant-aislantes-linea-vivienda-tba-beneficio-1.svg
     text: Aislación hidrófuga
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tba/isolant-aislantes-linea-vivienda-tba-beneficio-2.svg
+  - icon: /images/products/tba/isolant-aislantes-linea-vivienda-tba-beneficio-2.svg
     text: Aislación térmica
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tba/isolant-aislantes-linea-vivienda-tba-beneficio-3.svg
+  - icon: /images/products/tba/isolant-aislantes-linea-vivienda-tba-beneficio-3.svg
     text: Evitan la condensación
 enableDetailsSection: true
-detailsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tba/isolant-aislantes-linea-vivienda-tba-imagen-detalle.jpg
+detailsImage: /images/products/tba/isolant-aislantes-linea-vivienda-tba-imagen-detalle.jpg
 function:
   - text: Aislante térmico.
   - text: Impermeable y barrera de vapor.
@@ -40,11 +40,11 @@ benefitsText: Facilita y agiliza el trabajo de colocación, asegurando aislació
 benefitsList:
   - text: Al clavarlas no filtran agua.
   - text: Saludable. No desprende partículas.
-benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tba/isolant-aislantes-linea-vivienda-tba-beneficio-exclusivo.jpg
+benefitsImage: /images/products/tba/isolant-aislantes-linea-vivienda-tba-beneficio-exclusivo.jpg
 enableVideoSection: true
 video: https://www.youtube.com/watch?v=A4LVabjvdHM
 enableInstructions: true
-pdfInstruction: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1658315606/website-2021/downloads/colocacion-tba-y-multicapa.pdf
+pdfInstruction: /images/downloads/colocacion-tba-y-multicapa.pdf
 instructions:
   - Techo nuevo de madera con cubierta de chapa o teja
   - Techo existente de madera con cubierta de chapa o teja
@@ -111,9 +111,9 @@ enableColocationSection: true
 colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
 colocationCtaLink: https://isoplus.isolant.com.ar/inicio
 technicalAssessorCtaLink: /servicios#map
-ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tba/isolant-aislantes-linea-vivienda-tba-cta.jpg
+ctaImage: /images/products/tba/isolant-aislantes-linea-vivienda-tba-cta.jpg
 ctaTitle: La mejor relación <strong>precio calidad</strong> para techos de madera
-colocationImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
+colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
 colocationCtaText: Encontrá un instalador
 technicalAssessorCtaText: Buscá tu asesor técnico
 enableCtaSection: true

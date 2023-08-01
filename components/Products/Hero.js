@@ -16,7 +16,7 @@ import { horizontalPadding } from "../../classes/Spacing";
 import { standardTextClasses } from "../../classes/Text";
 
 // SVGs
-import { ReactComponent as ChevronDown } from '../../images/icons/chevron-down.svg';
+import { ReactComponent as ChevronDown } from '../../public/images/icons/chevron-down.svg';
 
 export default function Hero({ 
   background,

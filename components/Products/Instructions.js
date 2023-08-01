@@ -37,7 +37,7 @@ export default function Instructions({
         ${horizontalPadding} ${verticalPadding}
         bg-no-repeat bg-cover
       `}
-      style={{ backgroundImage: `url('https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/globals/isolant-aislantes-fondo-lineas-oscuras.jpg')`}}
+      style={{ backgroundImage: `url('/images/globals/isolant-aislantes-fondo-lineas-oscuras.jpg')`}}
     >
       <div className="mx-auto container">
         <div className="flex md:items-end justify-between flex-col md:flex-row">

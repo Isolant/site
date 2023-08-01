@@ -11,8 +11,8 @@ import FaqsStyles from './Thermography.module.css';
 import { verticalPadding } from "../../classes/Spacing";
 
 // SVGs
-import {ReactComponent as Dots} from '../../images/misc/dots.svg';
-import {ReactComponent as Circle} from '../../images/misc/circle.svg';
+import {ReactComponent as Dots} from '../../public/images/misc/dots.svg';
+import {ReactComponent as Circle} from '../../public/images/misc/circle.svg';
 
 export default function Faqs({ 
   image,

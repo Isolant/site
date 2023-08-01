@@ -5,7 +5,7 @@ import React from "react";
 import { horizontalPadding } from "../../classes/Spacing";
 
 // SVGs
-import { ReactComponent as Dots } from '../../images/misc/dots.svg';
+import { ReactComponent as Dots } from '../../public/images/misc/dots.svg';
 
 export default function InsetCallout({
   children,

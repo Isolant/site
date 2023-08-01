@@ -3,15 +3,15 @@ name: Covering
 order: 3
 slogan: Vestí tu estructura con <strong>la mejor barrera impermeable y respirable</strong>
 description: <strong>Membrana reguladora de vapor, impermeable y barrera de vientos para steel framing.</strong><br /><br /><strong>Covering®</strong> es una innovadora subcobertura bicapa, fabricada a base de materiales altamente resistentes que lo hacen ideal para proteger sus paredes de filtraciones y humedad. En este tipo de sistemas, Covering® funciona como una excelente barrera hidrófuga y barrera de viento.<br /><br /><strong>Covering®</strong> evita filtraciones de calor ahorrando energía para calefaccionar y/o refrigerar su casa.
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-imagen.jpg
+mainImage: /images/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-imagen.jpg
 enableHero: true
-productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-producto-rollo.png
+productImage: /images/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-producto-rollo.png
 mainBenefits:
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-beneficio-1.svg
+  - icon: /images/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-beneficio-1.svg
     text: Impermeable
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-beneficio-2.svg
+  - icon: /images/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-beneficio-2.svg
     text: Controlador de vapor
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1635429089/website-2021/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-beneficio-3.svg
+  - icon: /images/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-beneficio-3.svg
     text: Barrera de viento
 enableDetailsSection: true
 function:
@@ -22,12 +22,12 @@ application:
   - text: En paredes y techos como aislante hidrófugo y barrera de viento.
 presentation:
   - text: 30m2 (1,40m x 21,42m)
-logo: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-logo.jpg
-detailsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-imagen-detalle.jpg
+logo: /images/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-logo.jpg
+detailsImage: /images/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-imagen-detalle.jpg
 enableBenefitsSection: true
 benefitsTitle: Cuadrícula <strong>para replanteo</strong>
 benefitsText: <strong>COVERING</strong> presenta una cuadrícula impresa en su cara superior, haciendo de su colocación y replanteo en tabiques y techos de steel framing y balloon framing, mucho más fácil y ágil.<br /><br />Además gracias a su tramado y composición bicapa, <strong>Covering</strong> es un material con alta resistencia al rasgado, provocado por vientos de altas velocidades y manipuleos en obra.
-benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-beneficio-exclusivo.jpg
+benefitsImage: /images/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-beneficio-exclusivo.jpg
 benefitsList:
   - text: "Material sano: No desprende partículas."
   - text: Reduce los costos.
@@ -37,7 +37,7 @@ enableInstructions: true
 instructions:
   - Colocación Covering en paredes
   - Colocación Covering y Ondusec Reflex en techos
-pdfInstruction: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1658315606/website-2021/downloads/colocacion-covering.pdf
+pdfInstruction: /images/downloads/colocacion-covering.pdf
 enableTechnicalInformation: true
 generalInformationList:
   - title: 100% hidrófugo
@@ -94,7 +94,7 @@ downloads:
   - Volante Ondusec y Ondusec Reflex
   - ¿Qué tipo de techo querés aislar?
 enableColocationSection: true
-colocationImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
+colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
 colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
 technicalAssessorCtaText: Buscá tu asesor técnico
 colocationCtaLink: https://isoplus.isolant.com.ar/inicio
@@ -102,5 +102,5 @@ colocationCtaText: Encontrá un instalador
 technicalAssessorCtaLink: /servicios#map
 enableCtaSection: true
 ctaTitle: Covering es Isolant, <strong>calidad garantizada</strong>
-ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-cta.jpg
+ctaImage: /images/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-cta.jpg
 ---

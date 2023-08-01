@@ -16,8 +16,8 @@ import { getAllCollections, getCollectionById } from "../lib/collections";
 import { attributes } from "../content/owners/homepage.md";
 
 // SVGs
-import {ReactComponent as Dots} from '../images/misc/dots.svg';
-import {ReactComponent as Circle} from '../images/misc/circle.svg';
+import {ReactComponent as Dots} from '../public/images/misc/dots.svg';
+import {ReactComponent as Circle} from '../public/images/misc/circle.svg';
 
 export default function OwnersHomepage({ productLinesData, productSelectorTypesData, localesData, provincesData }) {
   const router = useRouter();

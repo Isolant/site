@@ -8,5 +8,5 @@ products:
   - Cilindros de espuma
 highlightedProduct: Bloques de espuma
 category: Especiales
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1637242621/website-2021/solutions/isolant-aislantes-soluciones-alimentos-encabezado.jpg
+mainImage: /images/solutions/isolant-aislantes-soluciones-alimentos-encabezado.jpg
 ---

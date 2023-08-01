@@ -2,9 +2,9 @@
 import React from "react";
 
 // SVGs
-import { ReactComponent as ClockIcon } from '../../images/icons/clock.svg';
-import { ReactComponent as LocationIcon } from '../../images/icons/location.svg';
-import { ReactComponent as ArrowRightIcon } from '../../images/icons/short-arrow-right.svg';
+import { ReactComponent as ClockIcon } from '../../public/images/icons/clock.svg';
+import { ReactComponent as LocationIcon } from '../../public/images/icons/location.svg';
+import { ReactComponent as ArrowRightIcon } from '../../public/images/icons/short-arrow-right.svg';
 
 // Classes
 import { uppercaseTextClasses, boldTitleClasses, smallTextClasses } from "../../classes/Text";

@@ -3,17 +3,17 @@ name: Contrapiso Acoustic
 order: 2
 slogan: Hacé lo que quieras en tu departamento, <strong>nadie te escucha</strong>
 description: <strong>Aislante acústico para entrepisos de hormigón y losas alivianadas.</strong><br /><br /><strong>Membrana bicapa aislante de ruidos de impacto para entrepisos.</strong> Gracias a su solape de 5cm evita la formación de puentes acústicos.
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-imagen.jpg
+mainImage: /images/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-imagen.jpg
 enableHero: true
-productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-imagen-rollo.png
-logo: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-logo.jpg
+productImage: /images/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-imagen-rollo.png
+logo: /images/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-logo.jpg
 ecommerceLink: https://tienda.isolant.com.ar/pisos/62-contra-piso-acoustic.html
 mainBenefits:
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-beneficio-1.svg
+  - icon: /images/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-beneficio-1.svg
     text: Reduce los ruidos de taconeo en entre pisos
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-beneficio-2.svg
+  - icon: /images/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-beneficio-2.svg
     text: Solape que impide el paso de la humedad
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-beneficio-3.svg
+  - icon: /images/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-beneficio-3.svg
     text: Mantiene su espesor a lo largo del tiempo
 enableDetailsSection: true
 function:
@@ -23,12 +23,12 @@ application:
 presentation:
   - text: 1,05x20m (con solape)
   - text: "Espesor: 5 mm. bicapa"
-detailsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-imagen-detalle-producto.jpg
+detailsImage: /images/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-imagen-detalle-producto.jpg
 enableBenefitsSection: true
 benefitsTitle: Insonorización <strong>con espesor reducido</strong>
 benefitsText: Por su bajo espesor, <strong>Contrapiso Flotante ACOUSTIC®</strong> no tiene mayor influencia sobre las dimensiones y alturas finales del proyecto. Es resistente a las pisadas y caídas ocasionales de herramientas en la etapa de colocación su capacidad de aislamiento acústico no se verá dañada.
-benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-beneficio-exclusivo-imagen.jpg
-patentImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-patente.png
+benefitsImage: /images/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-beneficio-exclusivo-imagen.jpg
+patentImage: /images/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-patente.png
 benefitsList:
   - text: Reduce ruidos de impacto por caída de objetos.
   - text: Reduce la pérdida de calor en el ambiente en invierno.
@@ -36,7 +36,7 @@ benefitsList:
 enableVideoSection: true
 video: https://www.youtube.com/watch?v=t0xTKKOZG0o
 enableInstructions: true
-pdfInstruction: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1658315606/website-2021/downloads/colocacion-contrapiso-acoustic.pdf
+pdfInstruction: /images/downloads/colocacion-contrapiso-acoustic.pdf
 instructions:
   - Contrapiso Acoustic
 enableTechnicalInformation: true
@@ -83,7 +83,7 @@ downloads:
   - Catálogo de Pisos
   - Díptico Contrapiso Acoustic
 enableColocationSection: true
-colocationImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
+colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
 colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
 technicalAssessorCtaText: Buscá tu asesor técnico
 colocationCtaLink: https://isoplus.isolant.com.ar/inicio
@@ -91,5 +91,5 @@ colocationCtaText: Encontrá un instalador
 technicalAssessorCtaLink: /servicios#map
 enableCtaSection: true
 ctaTitle: Viví tu departamento <strong>con confort acústico</strong>
-ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-cta.jpg
+ctaImage: /images/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-cta.jpg
 ---

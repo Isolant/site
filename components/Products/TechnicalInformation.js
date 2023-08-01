@@ -13,12 +13,12 @@ import { horizontalPadding, verticalPadding } from "../../classes/Spacing";
 import { standardTextClasses, uppercaseTextClasses, thinTitleClasses } from "../../classes/Text";
 
 // SVGs
-import { ReactComponent as Dots } from '../../images/misc/dots.svg';
-import { ReactComponent as Circle } from '../../images/misc/circle.svg';
-import { ReactComponent as BigCircle } from '../../images/misc/big-circle.svg';
+import { ReactComponent as Dots } from '../../public/images/misc/dots.svg';
+import { ReactComponent as Circle } from '../../public/images/misc/circle.svg';
+import { ReactComponent as BigCircle } from '../../public/images/misc/big-circle.svg';
 
 // Icons
-import { ReactComponent as CheckIcon } from '../../images/icons/check.svg';
+import { ReactComponent as CheckIcon } from '../../public/images/icons/check.svg';
 
 export default function TechnicalInformation({ 
   product,
