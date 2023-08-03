@@ -17,8 +17,8 @@ import FullScreenSection from "../../components/Layout/FullScreenSection";
 import { getCollectionIds, getCollectionById, getAllCollections } from '../../lib/collections';
 
 // SVGs
-import { ReactComponent as Dots } from '../../images/misc/dots.svg';
-import { ReactComponent as Circle } from '../../images/misc/circle.svg';
+import { ReactComponent as Dots } from '../../public/images/misc/dots.svg';
+import { ReactComponent as Circle } from '../../public/images/misc/circle.svg';
 
 export default function Product({ productData, instructionsData, localesData, provincesData, downloadsData, productLinesData }) {
   const colocationButtons = [{

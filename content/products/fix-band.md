@@ -3,17 +3,17 @@ name: Fix Band
 order: 8
 slogan: Impermeabilizá juntas y <strong>repará fisuras</strong>
 description: <strong>Bandas de asfalto adhesivado para impermeabilizar juntas y reparar fisuras.</strong>
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/fix-band/isolant-aislantes-linea-accesorios-fix-band-imagen-principal.jpg
+mainImage: /images/products/fix-band/isolant-aislantes-linea-accesorios-fix-band-imagen-principal.jpg
 enableHero: true
-productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/fix-band/isolant-aislantes-linea-otros-usos-fix-band-producto-rollo.png
+productImage: /images/products/fix-band/isolant-aislantes-linea-otros-usos-fix-band-producto-rollo.png
 mainBenefits:
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/fix-band/isolant-aislantes-linea-otros-usos-fix-band-beneficio-1.svg
+  - icon: /images/products/fix-band/isolant-aislantes-linea-otros-usos-fix-band-beneficio-1.svg
     text: Resistencia UV
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/fix-band/isolant-aislantes-linea-otros-usos-fix-band-beneficio-2.svg
+  - icon: /images/products/fix-band/isolant-aislantes-linea-otros-usos-fix-band-beneficio-2.svg
     text: Evita filtraciones
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/fix-band/isolant-aislantes-linea-otros-usos-fix-band-beneficio-3.svg
+  - icon: /images/products/fix-band/isolant-aislantes-linea-otros-usos-fix-band-beneficio-3.svg
     text: Muy fácil colocación
-logo: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/fix-band/isolant-aislantes-linea-otros-usos-fix-band-producto-logo.jpg
+logo: /images/products/fix-band/isolant-aislantes-linea-otros-usos-fix-band-producto-logo.jpg
 enableDetailsSection: true
 function:
   - text: Impermeabilización en juntas, fisuras y rajaduras de techos.
@@ -26,11 +26,11 @@ presentation:
   - text: "<strong>Ancho:</strong> 7.5, 12.5, 15,25 y 30 cm."
   - text: "<strong>Largo:</strong> 25mt."
   - text: "<strong>Espesor:</strong> 5mm. y 10mm."
-detailsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/fix-band/isolant-aislantes-linea-accesorios-fix-band-imagen-detalle.jpg
+detailsImage: /images/products/fix-band/isolant-aislantes-linea-accesorios-fix-band-imagen-detalle.jpg
 enableBenefitsSection: true
 benefitsTitle: Resistente a <strong>la intemperie</strong>
 benefitsText: FixBand presenta un diseño especial pensado para soportar las inclemencias de los elementos naturales. Gracias a su triple capa y aluminio de alto micronaje, soporta la acción de rayos UV y agua de lluvia.
-benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/fix-band/isolant-aislantes-linea-otros-usos-fix-band-beneficio-exclusivo.jpg
+benefitsImage: /images/products/fix-band/isolant-aislantes-linea-otros-usos-fix-band-beneficio-exclusivo.jpg
 benefitsList:
   - text: Aluminio de alto micronaje.
   - text: Triple capa protectora.
@@ -83,5 +83,5 @@ technicalInformationList:
 enableDownloadsSection: false
 enableColocationSection: false
 enableCtaSection: true
-ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/fix-band/isolant-aislantes-linea-otros-usos-fix-band-cta.jpg
+ctaImage: /images/products/fix-band/isolant-aislantes-linea-otros-usos-fix-band-cta.jpg
 ---

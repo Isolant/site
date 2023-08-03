@@ -7,7 +7,7 @@ import { horizontalPadding, verticalPadding } from '../../../classes/Spacing';
 import { boldSubtitleClasses, uppercaseTextClasses, standardTextClasses } from '../../../classes/Text';
 
 // SVGs
-import { ReactComponent as ArrowIcon } from '../../../images/icons/two-arrows-down.svg';
+import { ReactComponent as ArrowIcon } from '../../../public/images/icons/two-arrows-down.svg';
 
 export default function Solutions({
   title,

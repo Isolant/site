@@ -1,6 +1,6 @@
 ---
 pageTitle: Contactate con nosotros
-heroImageBackground: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/product-selector/isolant-aislantes-selector-de-producto-resultados-fondo.jpg
+heroImageBackground: /images/product-selector/isolant-aislantes-selector-de-producto-resultados-fondo.jpg
 formCtaText: Enviar
 contactInformation:
   - title: Nuestra Fábrica

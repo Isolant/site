@@ -3,15 +3,15 @@ name: Base Alfombra
 order: 4
 slogan: Duplicá la vida útil <strong>de tu alfombra</strong>
 description: Nuestro <strong>Base Alfombra</strong> brinda mayor mullidez logrando un mayor confort al andar. Además reduce ampliamente el desgaste para su alfombra, ya que desancla la carpeta de la misma evitando esfuerzos de rosamiento. Está compuesto por una espuma Isolant bicolor de mayor densidad con retardante de llamas. Todo esto duplica la vida útil de la alfombra.<br /><br />Además toma pequeños desniveles de la carpeta de terminación, logrando una terminación plana y estética sin "globos".
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-imagen-fondo.jpg
+mainImage: /images/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-imagen-fondo.jpg
 enableHero: true
-productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-imagen-rollo.png
+productImage: /images/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-imagen-rollo.png
 mainBenefits:
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-beneficio-1.svg
+  - icon: /images/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-beneficio-1.svg
     text: Reduce los ruidos de taconeo en entre pisos
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-beneficio-2.svg
+  - icon: /images/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-beneficio-2.svg
     text: Mantiene su espesor a lo largo del tiempo
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-beneficio-3.svg
+  - icon: /images/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-beneficio-3.svg
     text: Evita el avance de llamas
 ecommerceLink: https://tienda.isolant.com.ar/pisos/49-base-alfombra.html
 enableDetailsSection: true
@@ -24,11 +24,11 @@ application:
 presentation:
   - text: Rollos de 1m x 20m
   - text: "Espesor: 6 mm"
-detailsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-imagen-detalle.jpg
+detailsImage: /images/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-imagen-detalle.jpg
 enableBenefitsSection: true
 benefitsTitle: Extiende la vida útil <strong>de tu alfombra</strong>
 benefitsText: El <strong>Base para Alfombras</strong> ISOLANT®, de 6 mm de espesor, prolonga la vida útil de su alfombra, brinda un mayor confort al andar y es un excelente aislante acústico de ruidos de impacto.<br /><br />Es un producto higiénico, resistente, impermeable, flexible, elástico y de máxima vida útil.
-benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-beneficio-exclusivo.jpg
+benefitsImage: /images/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-beneficio-exclusivo.jpg
 benefitsList:
   - text: Imputrescible.
   - text: Impermeable al agua y el vapor.
@@ -82,12 +82,12 @@ downloads:
   - Tríptico Base Alfombras
   - Volante Base Alfombra y Bajo Piso Flotante ACOUSTIC
 enableColocationSection: true
-colocationImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
+colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
 colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
 technicalAssessorCtaText: Buscá tu asesor técnico
 colocationCtaLink: https://isoplus.isolant.com.ar/inicio
 colocationCtaText: Encontrá un instalador
 technicalAssessorCtaLink: /servicios#map
-ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-cta-fondo.jpg
+ctaImage: /images/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-cta-fondo.jpg
 enableCtaSection: true
 ---

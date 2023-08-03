@@ -3,15 +3,15 @@ name: Espuma
 order: 3
 slogan: Confort térmico para tus <strong>sistemas de climatización</strong>
 description: <strong>Aislación térmica y barrera de vapor para conductos de aire acondicionado y sistemas de losa randiante por agua.</strong><br /><br />Espuma Isolant con retardante de llama. Ideal para utilizar en sótanos, dentro de cielorrasos y lugares donde no quede expuesta a rayos UV directos o indirectos (por reflexión).
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/espuma/isolant-aislantes-linea-climatizacion-espuma-imagen.jpg
+mainImage: /images/products/espuma/isolant-aislantes-linea-climatizacion-espuma-imagen.jpg
 enableHero: true
-productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/espuma/isolant-aislantes-linea-climatizacion-espuma-producto-rollo.png
+productImage: /images/products/espuma/isolant-aislantes-linea-climatizacion-espuma-producto-rollo.png
 mainBenefits:
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/espuma/isolant-aislantes-linea-climatizacion-espuma-beneficio-1.svg
+  - icon: /images/products/espuma/isolant-aislantes-linea-climatizacion-espuma-beneficio-1.svg
     text: Aislación Hidrófuga
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/espuma/isolant-aislantes-linea-climatizacion-espuma-beneficio-2.svg
+  - icon: /images/products/espuma/isolant-aislantes-linea-climatizacion-espuma-beneficio-2.svg
     text: Aislación Térmica
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1635429089/website-2021/products/espuma/isolant-aislantes-linea-climatizacion-espuma-beneficio-3.svg
+  - icon: /images/products/espuma/isolant-aislantes-linea-climatizacion-espuma-beneficio-3.svg
     text: Evitan la condensación
 enableDetailsSection: true
 function:
@@ -24,11 +24,11 @@ application:
 presentation:
   - text: Rollos de 1m x 20m
   - text: "Espesor: 5mm | 10mm | 15mm"
-detailsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/espuma/isolant-aislantes-linea-climatizacion-espuma-imagen-detalle-producto.jpg
+detailsImage: /images/products/espuma/isolant-aislantes-linea-climatizacion-espuma-imagen-detalle-producto.jpg
 enableBenefitsSection: true
 benefitsTitle: Brindan una total <strong>aislación termohidrófuga</strong>
 benefitsText: Son de estructura de celda cerrada, imputrescibles, y no desprenden partículas ni fibras de ningún tipo. Se destacan por su maleabilidad y fácil colocación. Son impermeables, barrera de vapor, aislantes térmicas y acústicas. No contaminan el medio ambiente y son reciclables.
-benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/espuma/isolant-aislantes-linea-climatizacion-espuma-beneficio-exclusivo.jpg
+benefitsImage: /images/products/espuma/isolant-aislantes-linea-climatizacion-espuma-beneficio-exclusivo.jpg
 benefitsList:
   - text: Material impermeable e imputrescible.
   - text: Aislante acústico de ruidos de impacto.
@@ -98,7 +98,7 @@ downloads:
   - Catálogo Climatización
   - Volante Climatización
 enableColocationSection: true
-colocationImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
+colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
 colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
 technicalAssessorCtaText: Buscá tu asesor técnico
 colocationCtaLink: https://isoplus.isolant.com.ar/inicio
@@ -106,5 +106,5 @@ colocationCtaText: Encontrá un instalador
 technicalAssessorCtaLink: /servicios#map
 enableCtaSection: true
 ctaTitle: Eficiencia y ahorro energético <strong>para tus sistemas de climatización</strong>
-ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/espuma/isolant-aislantes-linea-climatizacion-espuma-cta.jpg
+ctaImage: /images/products/espuma/isolant-aislantes-linea-climatizacion-espuma-cta.jpg
 ---

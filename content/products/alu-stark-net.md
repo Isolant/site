@@ -11,20 +11,20 @@ description: <strong>Aislante con terminación blanca con red incorporada.
   mercado con terminación blanca de alta resistencia que permite darle a tu
   estructura metálica una estética superior, además de aislarlos térmicamente.
   Ideal para supermercados, concesionarias de autos, etc.
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-imagen.jpg
-productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-producto-rollo.png
-logo: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-logo.png
+mainImage: /images/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-imagen.jpg
+productImage: /images/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-producto-rollo.png
+logo: /images/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-logo.png
 ecommerceLink: https://tienda.isolant.com.ar/galpones-y-tinglados/54-alu-stark-10-net.html
 enableHero: true
 mainBenefits:
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-beneficio-2.svg
+  - icon: /images/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-beneficio-2.svg
     text: Aluminio puro y terminación blanca
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-beneficio-1.svg
+  - icon: /images/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-beneficio-1.svg
     text: Producto con red incorporada
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1635429089/website-2021/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-beneficio-3.svg
+  - icon: /images/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-beneficio-3.svg
     text: Evitan la condensación
 enableDetailsSection: true
-detailsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-imagen-producto.jpg
+detailsImage: /images/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-imagen-producto.jpg
 function:
   - text: Aislante térmico con terminación blanca.
   - text: Impermeable y barrera de vapor.
@@ -54,8 +54,8 @@ benefitsList:
   - text: Alta resistencia al rasgado.
   - text: Termosoldables.
   - text: Clase RE2. Muy baja propagación de llama.
-benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-beneficio-exclusivo.jpg
-patentImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-patente.png
+benefitsImage: /images/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-beneficio-exclusivo.jpg
+patentImage: /images/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-patente.png
 enableVideoSection: true
 video: https://www.youtube.com/watch?v=FanPdfblmbc
 enableInstructions: true
@@ -124,12 +124,12 @@ downloads:
   - Tríptico Industria/Vivienda
   - Volante Alu Stark NET
 enableColocationSection: true
-colocationImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
+colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
 colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
 colocationCtaLink: https://isoplus.isolant.com.ar/inicio
 colocationCtaText: Encontrá un instalador
 technicalAssessorCtaLink: /servicios#map
 technicalAssessorCtaText: Buscá tu asesor técnico
 enableCtaSection: true
-ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto/website-2021/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-imagen-cta.jpg
+ctaImage: /images/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-imagen-cta.jpg
 ---

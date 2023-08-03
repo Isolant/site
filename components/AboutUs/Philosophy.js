@@ -12,7 +12,7 @@ import { horizontalPadding, verticalPadding } from "../../classes/Spacing";
 import PhilosophyStiles from './Philosophy.module.css';
 
 // SVGs
-import {ReactComponent as ChevronRightIcon } from '../../images/icons/chevron-right.svg';
+import {ReactComponent as ChevronRightIcon } from '../../public/images/icons/chevron-right.svg';
 
 export default function Philosophy({
   title,

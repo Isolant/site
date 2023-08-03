@@ -3,7 +3,7 @@ import React from "react";
 import Link from 'next/link';
 
 // Icons
-import { ReactComponent as ArrowIcon } from "../../images/icons/arrow-right.svg";
+import { ReactComponent as ArrowIcon } from "../../public/images/icons/arrow-right.svg";
 
 // Styles
 import ButtonStyles from './Button.module.css';

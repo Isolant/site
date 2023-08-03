@@ -9,20 +9,20 @@ description: <strong>Placa aislante termo acústica de rápida instalación, par
   de nuestra <strong>Ondusec</strong> se le suma el de la aislación térmica
   reflectiva, gracias a su terminación aluminizada en una de sus caras, haciendo
   de este producto el ideal para lograr una aislación termo acústica superior.
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-imagen.jpg
-productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-producto-rollo.png
-logo: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-logo.webp
+mainImage: /images/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-imagen.jpg
+productImage: /images/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-producto-rollo.png
+logo: /images/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-logo.webp
 ecommerceLink: https://tienda.isolant.com.ar/construccion-en-seco/77-ondusec-reflex.html
 enableHero: true
 mainBenefits:
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-beneficio-1.svg
+  - icon: /images/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-beneficio-1.svg
     text: Aislación Acústica
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-beneficio-2.svg
+  - icon: /images/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-beneficio-2.svg
     text: Aislación Térmica
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1635429089/website-2021/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-beneficio-3.svg
+  - icon: /images/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-beneficio-3.svg
     text: Se corta con trincheta o troquel cada 40/60 cm.
 enableDetailsSection: true
-detailsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-imagen-detalle.jpg
+detailsImage: /images/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-imagen-detalle.jpg
 function:
   - text: Aislante acústico.
   - text: Aislante térmico.
@@ -47,8 +47,8 @@ benefitsList:
   - text: "Material sano: No desprende partículas."
   - text: Mantiene su forma y espesor a lo largo del tiempo.
   - text: Material liviano.
-benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-beneficio-exclusivo.jpg
-patentImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-patente.png
+benefitsImage: /images/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-beneficio-exclusivo.jpg
+patentImage: /images/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-patente.png
 enableVideoSection: true
 video: https://www.youtube.com/watch?v=2YSv8V6INrU
 enableInstructions: true
@@ -59,7 +59,7 @@ instructions:
   - Colocación de Ondusec Reflex en techos
   - Colocación de Ondusec Reflex en Muro doble con cámara de aire
   - Colocación de Ondusec Reflex para Steel Framing - EIFS
-pdfInstruction: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1658315606/website-2021/downloads/colocacion-ondusec.pdf
+pdfInstruction: /images/downloads/colocacion-ondusec.pdf
 enableTechnicalInformation: true
 technicalInformationList:
   - title: Resistencia térmica
@@ -120,7 +120,7 @@ downloads:
   - Díptico Steel Framing
   - Volante Ondusec y Ondusec Reflex
   - ¿Qué tipo de techo querés aislar?
-colocationImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
+colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
 colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
 colocationCtaLink: https://isoplus.isolant.com.ar/inicio
 colocationCtaText: Encontrá un instalador
@@ -128,5 +128,5 @@ technicalAssessorCtaLink: /servicios#map
 technicalAssessorCtaText: Buscá tu asesor técnico
 enableCtaSection: true
 ctaTitle: Un aislante limpio y fácil de colocar <strong>para tu tranquilidad</strong>
-ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-cta-fondo.jpg
+ctaImage: /images/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-cta-fondo.jpg
 ---

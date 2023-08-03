@@ -14,7 +14,7 @@ import { standardTextClasses, uppercaseTextClasses } from "../../classes/Text";
 import { attributes } from "../../content/header.md";
 
 // Icons
-import { ReactComponent as ChevronIcon } from "../../images/icons/chevron-right.svg";
+import { ReactComponent as ChevronIcon } from "../../public/images/icons/chevron-right.svg";
 
 export default function DropdownMenu({ 
   scrolled,

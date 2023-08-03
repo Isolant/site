@@ -3,15 +3,15 @@ name: Espuma aluminizada
 order: 4
 slogan: Climatización de ambientes <strong>más eficiente</strong>
 description: <strong>Aislación térmica y barrera de vapor para sistemas de aire acondicionado central y sistemas de losa radiante eléctricos.</strong><br /><br />Espuma Isolant con retardante de llama y film aluminizado en una de sus caras. Ideal para utilizar en todo tipo de aplicaciones interiores.
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/espuma-aluminizada/isolant-aislantes-linea-climatizacion-espuma-aluminizada-imagen.jpg
+mainImage: /images/products/espuma-aluminizada/isolant-aislantes-linea-climatizacion-espuma-aluminizada-imagen.jpg
 enableHero: true
-productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/espuma-aluminizada/isolant-aislantes-linea-climatizacion-espuma-aluminizada-producto-rollo.png
+productImage: /images/products/espuma-aluminizada/isolant-aislantes-linea-climatizacion-espuma-aluminizada-producto-rollo.png
 mainBenefits:
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/espuma-aluminizada/isolant-aislantes-linea-climatizacion-espuma-aluminizada-beneficio-1.svg
+  - icon: /images/products/espuma-aluminizada/isolant-aislantes-linea-climatizacion-espuma-aluminizada-beneficio-1.svg
     text: Aislación Térmica
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/espuma-aluminizada/isolant-aislantes-linea-climatizacion-espuma-aluminizada-beneficio-2.svg
+  - icon: /images/products/espuma-aluminizada/isolant-aislantes-linea-climatizacion-espuma-aluminizada-beneficio-2.svg
     text: Evitan la condensación
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/espuma-aluminizada/isolant-aislantes-linea-climatizacion-espuma-aluminizada-beneficio-3.svg
+  - icon: /images/products/espuma-aluminizada/isolant-aislantes-linea-climatizacion-espuma-aluminizada-beneficio-3.svg
     text: Aislación Hidrófuga
 enableDetailsSection: true
 function:
@@ -24,11 +24,11 @@ application:
 presentation:
   - text: Rollos de 1m x 20m
   - text: "Espesor: 5mm | 10mm | 15mm"
-detailsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/espuma-aluminizada/isolant-aislantes-linea-climatizacion-espuma-aluminizada-imagen-detalle-producto.jpg
+detailsImage: /images/products/espuma-aluminizada/isolant-aislantes-linea-climatizacion-espuma-aluminizada-imagen-detalle-producto.jpg
 enableBenefitsSection: true
 benefitsTitle: Brindan una total <strong>aislación termohidrófuga</strong>
 benefitsText: Son de estructura de celda cerrada, imputrescibles, y no desprenden partículas ni fibras de ningún tipo. Se destacan por su maleabilidad y fácil colocación. Son impermeables, barrera de vapor, aislantes térmicas y acústicas. No contaminan el medio ambiente y son reciclables.
-benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/espuma-aluminizada/isolant-aislantes-linea-climatizacion-espuma-aluminizada-beneficio-exclusivo.jpg
+benefitsImage: /images/products/espuma-aluminizada/isolant-aislantes-linea-climatizacion-espuma-aluminizada-beneficio-exclusivo.jpg
 benefitsList:
   - text: Material impermeable e imputrescible.
   - text: Aislante acústico de ruidos de impacto.
@@ -99,7 +99,7 @@ downloads:
   - Catálogo Climatización
   - Volante Climatización
 enableColocationSection: true
-colocationImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
+colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
 colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
 technicalAssessorCtaText: Buscá tu asesor técnico
 colocationCtaLink: https://isoplus.isolant.com.ar/inicio
@@ -107,5 +107,5 @@ colocationCtaText: Encontrá un instalador
 technicalAssessorCtaLink: /servicios#map
 enableCtaSection: true
 ctaTitle: Eficiencia y ahorro energético para <strong>tus sistemas de climatización</strong>
-ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/espuma-aluminizada/isolant-aislantes-linea-climatizacion-espuma-aluminizada-cta.jpg
+ctaImage: /images/products/espuma-aluminizada/isolant-aislantes-linea-climatizacion-espuma-aluminizada-cta.jpg
 ---

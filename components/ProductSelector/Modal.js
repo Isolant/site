@@ -11,7 +11,7 @@ import Input from '../Forms/Input';
 import Button from '../Forms/Button';
 
 // SVGs
-import { ReactComponent as CloseIcon} from '../../images/icons/close.svg';
+import { ReactComponent as CloseIcon} from '../../public/images/icons/close.svg';
 
 // Styles
 import ModalStyles from './Modal.module.css';

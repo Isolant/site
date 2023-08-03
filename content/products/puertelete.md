@@ -3,15 +3,15 @@ name: Puertelete
 order: 7
 slogan: Decile chau <strong>al chiflete</strong>
 description: Aislate de los chifletes por infiltraciones debajo de puertas. <br /><br />No necesita ser fijado con clavos ni tornillos. Cortá tu puertelete (podés usar una trincheta) midiendo el ancho de la puerta, apoyalo en el piso, frente al filo de la puerta, y desplazalo hasta que cubra la totalidad de la puerta.
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/puertelete/isolant-aislantes-linea-accesorios-puertelete-imagen.jpg
+mainImage: /images/products/puertelete/isolant-aislantes-linea-accesorios-puertelete-imagen.jpg
 enableHero: true
-productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/puertelete/isolant-aislantes-linea-otros-usos-puertelete-producto-rollo.png
+productImage: /images/products/puertelete/isolant-aislantes-linea-otros-usos-puertelete-producto-rollo.png
 mainBenefits:
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/puertelete/isolant-aislantes-linea-otros-usos-puertelete-beneficio-1.svg
+  - icon: /images/products/puertelete/isolant-aislantes-linea-otros-usos-puertelete-beneficio-1.svg
     text: Material impermeable e imputrescible
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/puertelete/isolant-aislantes-linea-accesorios-puertelete-beneficio-2.svg
+  - icon: /images/products/puertelete/isolant-aislantes-linea-accesorios-puertelete-beneficio-2.svg
     text: Evita el ingreso de polvo y mugre
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/puertelete/isolant-aislantes-accesorios-puertelete-beneficio-3.svg
+  - icon: /images/products/puertelete/isolant-aislantes-accesorios-puertelete-beneficio-3.svg
     text: Evita infiltraciones de aire
 enableDetailsSection: true
 function:
@@ -21,18 +21,18 @@ application:
   - text: Apoyado en el piso, frente al filo de la puerta.
 presentation:
   - text: 95cm. x 25 mm.
-detailsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/puertelete/isolant-aislantes-linea-accesorios-puertelete-imagen-detalle.jpg
+detailsImage: /images/products/puertelete/isolant-aislantes-linea-accesorios-puertelete-imagen-detalle.jpg
 enableBenefitsSection: false
 benefitsTitle: Muy fácil <strong>instalación</strong>
 benefitsText: Puertelete no necesita ser fijado con clavos ni tornillos. Cortá tu puertelete (podés usar una trincheta) midiendo el ancho de la puerta, apoyalo en el piso, frente al filo de la puerta, y desplazalo hasta que cubra la totalidad de la puerta.
-benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/puertelete/isolant-aislantes-linea-otros-usos-puertelete-beneficio-exclusivo.jpg
+benefitsImage: /images/products/puertelete/isolant-aislantes-linea-otros-usos-puertelete-beneficio-exclusivo.jpg
 benefitsList:
   - text: "Material sano: No desprende partículas."
   - text: Reciclable. No contamina el medio ambiente.
   - text: Material liviano.
 enableVideoSection: false
 enableInstructions: true
-pdfInstruction: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1658315606/website-2021/downloads/colocacion-puertelete.pdf
+pdfInstruction: /images/downloads/colocacion-puertelete.pdf
 instructions:
   - Puertelete
 enableTechnicalInformation: true
@@ -89,6 +89,6 @@ technicalInformationList:
     text: 52-63% (Espectro fotómetro)
 enableDownloadsSection: false
 enableColocationSection: false
-ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/puertelete/isolant-aislantes-linea-accesorios-puertelete-imagen-cta.jpg
+ctaImage: /images/products/puertelete/isolant-aislantes-linea-accesorios-puertelete-imagen-cta.jpg
 enableCtaSection: true
 ---

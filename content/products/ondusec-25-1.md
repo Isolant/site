@@ -12,20 +12,20 @@ description: <strong>Placa aislante termo acústica de rápida instalación, par
   acanaladas reduce la transmisión de ruidos entre ambientes, equiparando la
   aislación acústica de más de 50mm de lana de vidrio. Además aisla térmicamente
   y mantiene su forma a través del tiempo sin desprender partículas nocivas.
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-imagen.jpg
-productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-producto-rollo.png
-logo: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-logo.webp
+mainImage: /images/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-imagen.jpg
+productImage: /images/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-producto-rollo.png
+logo: /images/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-logo.webp
 ecommerceLink: https://tienda.isolant.com.ar/construccion-en-seco/76-ondusec.html
 enableHero: true
 mainBenefits:
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-beneficio-1.svg
+  - icon: /images/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-beneficio-1.svg
     text: Aislación Acústica
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-beneficio-2.svg
+  - icon: /images/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-beneficio-2.svg
     text: Aislación Térmica
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1635429089/website-2021/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-beneficio-3.svg
+  - icon: /images/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-beneficio-3.svg
     text: Se corta con trincheta o troquel cada 40/60 cm.
 enableDetailsSection: true
-detailsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-imagen-detalle.jpg
+detailsImage: /images/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-imagen-detalle.jpg
 function:
   - text: Aislante acústico.
   - text: Aislante térmico.
@@ -48,8 +48,8 @@ benefitsList:
   - text: "Material sano: No desprende partículas."
   - text: Mantiene su forma y espesor a lo largo del tiempo.
   - text: Material liviano.
-benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-beneficio-exclusivo.jpg
-patentImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-patente.png
+benefitsImage: /images/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-beneficio-exclusivo.jpg
+patentImage: /images/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-patente.png
 enableVideoSection: true
 video: https://www.youtube.com/watch?v=ekyrLnJ_KFU
 enableInstructions: true
@@ -57,7 +57,7 @@ instructions:
   - Colocación para tabiques internos Ondusec
   - Colocación para tabiques externos Ondusec
   - Colocación para cielorrasos de placa de yeso Ondusec
-pdfInstruction: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1658315606/website-2021/downloads/colocacion-ondusec.pdf
+pdfInstruction: /images/downloads/colocacion-ondusec.pdf
 enableTechnicalInformation: true
 technicalInformationList:
   - title: Resistencia térmica
@@ -118,7 +118,7 @@ downloads:
   - Volante Ondusec y Ondusec Reflex
   - Díptico Steel Framing
   - ¿Qué tipo de techo querés aislar?
-colocationImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
+colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
 colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
 colocationCtaLink: https://isoplus.isolant.com.ar/inicio
 colocationCtaText: Encontrá un instalador
@@ -126,5 +126,5 @@ technicalAssessorCtaLink: /servicios#map
 technicalAssessorCtaText: Buscá tu asesor técnico
 enableCtaSection: true
 ctaTitle: Un aislante limpio y fácil de colocar <strong>para tu tranquilidad</strong>
-ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/ondusec/isolant-aislantes-linea-vivienda-ondusec-imagen-cta.jpg
+ctaImage: /images/products/ondusec/isolant-aislantes-linea-vivienda-ondusec-imagen-cta.jpg
 ---

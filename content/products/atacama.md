@@ -7,21 +7,21 @@ description: El único aislante líquido de fácil aplicación para cualquier ti
   de techo o muro que baja de 6° a 8° la temperatura de tu casa.
 mainImageBackgroundPosition: bottom
 ctaImageBackgroundPosition: top
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/atacama/isolant-aislantes-linea-vivienda-atacama-imagen-fondo.jpg
-mainImage2: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/atacama/isolant-aislantes-linea-vivienda-atacama-imagen-fondo-galpones-tinglados.jpg
-productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/atacama/isolant-aislantes-linea-vivienda-atacama-imagen-balde.png
-logo: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/atacama/isolant-aislantes-linea-vivienda-atacama-escudo.jpg
+mainImage: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-imagen-fondo.jpg
+mainImage2: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-imagen-fondo-galpones-tinglados.jpg
+productImage: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-imagen-balde.png
+logo: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-escudo.jpg
 ecommerceLink: https://tienda.isolant.com.ar/vivienda/82-atacama-balde-20lt.html
 enableHero: true
 mainBenefits:
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/atacama/isolant-aislantes-linea-vivienda-atacama-beneficio-1.svg
+  - icon: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-beneficio-1.svg
     text: Aislación térmica. Comfort de tu casa en verano.
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/atacama/isolant-aislantes-linea-vivienda-atacama-beneficio-2.svg
+  - icon: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-beneficio-2.svg
     text: Ahorro. Ayuda a reducir el gasto de electricidad.
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/atacama/isolant-aislantes-linea-vivienda-atacama-beneficio-3.svg
+  - icon: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-beneficio-3.svg
     text: Impermeable. Sella micro fisuras.
 enableDetailsSection: true
-detailsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/atacama/isolant-aislantes-linea-vivienda-atacama-imagen-detalle-producto.jpg
+detailsImage: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-imagen-detalle-producto.jpg
 function:
   - text: Aislante térmico.
   - text: Sella micro fisuras.
@@ -43,7 +43,7 @@ benefitsList:
   - text: Protección AA. Protege contra los hongos y algas.
   - text: Fácil aplicación. ¡Hacelo vos mismo!
   - text: Sostenible. Reduce la huella de carbono.
-benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/atacama/isolant-aislantes-linea-vivienda-atacama-producto-beneficio-exclusivo.jpg
+benefitsImage: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-producto-beneficio-exclusivo.jpg
 enableVideoSection: true
 video: https://www.youtube.com/watch?v=zefa_Sh5-Z4
 enableInstructions: true
@@ -101,8 +101,8 @@ enableColocationSection: true
 colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
 colocationCtaLink: https://isoplus.isolant.com.ar/inicio
 technicalAssessorCtaLink: /servicios#map
-ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/atacama/isolant-aislantes-linea-vivienda-atacama-cta-imagen.jpg
-colocationImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
+ctaImage: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-cta-imagen.jpg
+colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
 colocationCtaText: Encontrá un instalador
 technicalAssessorCtaText: Buscá tu asesor técnico
 enableCtaSection: true

@@ -13,17 +13,17 @@ import Search from '../Search/index';
 import { horizontalPadding } from '../../classes/Spacing';
 
 // SVGs
-import { ReactComponent as LogoWhite } from "../../images/logos/logo-white.svg";
-import { ReactComponent as LogoColor } from "../../images/logos/logo.svg";
-import { ReactComponent as IsoplusLogoWhite } from "../../images/logos/logo-isoplus-white.svg";
-import { ReactComponent as IsoplusLogoColor } from "../../images/logos/logo-isoplus.svg";
+import { ReactComponent as LogoWhite } from "../../public/images/logos/logo-white.svg";
+import { ReactComponent as LogoColor } from "../../public/images/logos/logo.svg";
+import { ReactComponent as IsoplusLogoWhite } from "../../public/images/logos/logo-isoplus-white.svg";
+import { ReactComponent as IsoplusLogoColor } from "../../public/images/logos/logo-isoplus.svg";
 
 // Icons
-import { ReactComponent as HamburgerIcon } from "../../images/icons/hamburger.svg";
-import { ReactComponent as SearchIcon } from "../../images/icons/search.svg";
-import { ReactComponent as TopArrow } from "../../images/icons/arrow-up.svg";
-import { ReactComponent as CloseIcon } from "../../images/icons/close.svg";
-import { ReactComponent as WhatsappIcon } from "../../images/icons/whatsapp.svg";
+import { ReactComponent as HamburgerIcon } from "../../public/images/icons/hamburger.svg";
+import { ReactComponent as SearchIcon } from "../../public/images/icons/search.svg";
+import { ReactComponent as TopArrow } from "../../public/images/icons/arrow-up.svg";
+import { ReactComponent as CloseIcon } from "../../public/images/icons/close.svg";
+import { ReactComponent as WhatsappIcon } from "../../public/images/icons/whatsapp.svg";
 
 
 export default function ProfessionalsHeader({ 

@@ -3,16 +3,16 @@ name: Doble Alu
 order: 5
 slogan: La solución integral <strong>para galpones y tinglados</strong>
 description: <strong>Aislante térmico e impermeable para galpones y tinglados. ¡Solape para termo soldar patentado!</strong><br /><br />Aíslan térmicamente tu galpón, tinglado y estructura metálica, evitando el fenómeno de la condensación. Se caracterizan por su fácil instalación y manipuleo, tratándose de un material liviano que no desprende partículas.
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/doble-alu/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-imagen-principal.jpg
+mainImage: /images/products/doble-alu/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-imagen-principal.jpg
 enableHero: true
-productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/doble-alu/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-producto-rollo.png
+productImage: /images/products/doble-alu/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-producto-rollo.png
 ecommerceLink: https://tienda.isolant.com.ar/galpones-y-tinglados/58-doble-alu-15.html
 mainBenefits:
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/doble-alu/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-beneficio-1.svg
+  - icon: /images/products/doble-alu/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-beneficio-1.svg
     text: Impermeable
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/doble-alu/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-beneficio-2.svg
+  - icon: /images/products/doble-alu/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-beneficio-2.svg
     text: Aislación Térmica
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1635429089/website-2021/products/doble-alu/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-beneficio-3.svg
+  - icon: /images/products/doble-alu/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-beneficio-3.svg
     text: Evitan la condensación
 enableDetailsSection: true
 function:
@@ -24,12 +24,12 @@ application:
 presentation:
   - text: 1,05m x 20m. (Largos a medida por más de 1000 m2).
   - text: "Espesor: 5, 10 y 15mm."
-detailsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/doble-alu/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-imagen-detalle.jpg
-patentImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/doble-alu/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-patente.png
+detailsImage: /images/products/doble-alu/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-imagen-detalle.jpg
+patentImage: /images/products/doble-alu/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-patente.png
 enableBenefitsSection: true
 benefitsTitle: Sistema de unión por <strong>termosoldado patentado</strong>
 benefitsText: El termosoldado es la forma más efectiva y limpia de efectuar la unión nuetras membranas. Es además un sistema patentado por <strong>ISOLANT S.A.</strong> que evita el uso de cintas o adhesivos de cualquier tipo, facilitando así la colocación y brindando una terminación estética superior. Termosoldando <strong>DOBLE ALU</strong>, se logra una membrana aislante continua en toda su extensión, eliminando la posibilidad de filtraciones, puentes térmicos y goteo por condensación. Para realizar esta unión sólo se necesita una pistola de aire caliente.
-benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/doble-alu/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-beneficio-exclusivo.jpg
+benefitsImage: /images/products/doble-alu/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-beneficio-exclusivo.jpg
 benefitsList:
   - text: Termosoldables.
   - text: Clase RE2. Muy baja propagación de llama.
@@ -37,7 +37,7 @@ benefitsList:
 enableVideoSection: false
 video: https://www.youtube.com/watch?v=0fKmiQLjEZc
 enableInstructions: true
-pdfInstruction: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1658315606/website-2021/downloads/colocacion-galpones-y-tinglados.pdf
+pdfInstruction: /images/downloads/colocacion-galpones-y-tinglados.pdf
 instructions:
   - Galpones y tinglados metálicos nuevos
   - Galpones y tinglados metálicos existentes, como cielorraso copiando la forma
@@ -98,12 +98,12 @@ downloads:
   - ¿Qué tipo de techo querés aislar?
   - Tríptico Industria/Vivienda
 enableColocationSection: true
-colocationImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
+colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
 colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
 technicalAssessorCtaText: Buscá tu asesor técnico
 colocationCtaLink: https://isoplus.isolant.com.ar/inicio
 colocationCtaText: Encontrá un instalador
 technicalAssessorCtaLink: /servicios#map
-ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/doble-alu/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-cta.jpg
+ctaImage: /images/products/doble-alu/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-cta.jpg
 enableCtaSection: true
 ---

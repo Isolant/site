@@ -7,20 +7,20 @@ description: <strong>El único aislante térmico con triple capa hidrófuga para
   MULTICAPA</strong> está conformada por un innovador sistema de 5 capas que
   ofrecen mayor aislación térmica, triple aislación hidrófuga y mayor
   resistencia, para techos de viviendas.
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-imagen-principal.jpg
-productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-imagen-rollo.png
-logo: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-logo.svg
+mainImage: /images/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-imagen-principal.jpg
+productImage: /images/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-imagen-rollo.png
+logo: /images/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-logo.svg
 ecommerceLink: https://tienda.isolant.com.ar/vivienda/68-multicapa.html
 enableHero: true
 mainBenefits:
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-beneficio-1.svg
+  - icon: /images/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-beneficio-1.svg
     text: Aluminio puro. Refleja la radiación calórica.
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1635505553/website-2021/products/atacama/isolant-aislantes-linea-vivienda-atacama-beneficio-3.svg
+  - icon: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-beneficio-3.svg
     text: "Triple capa hidrófuga patentada. "
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-beneficio-3.svg
+  - icon: /images/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-beneficio-3.svg
     text: Solape adhesivo Rapi-Tac.
 enableDetailsSection: true
-detailsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-imagen-detalle.jpg
+detailsImage: /images/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-imagen-detalle.jpg
 function:
   - text: Aislante térmico.
   - text: Impermeable y barrera de vapor.
@@ -41,12 +41,12 @@ benefitsText: Los bastones de ventilación van colocados hacia abajo, creando lo
   ventilado debajo de la membrana, con una ventilación horizontal entre los
   bastones que confluye a la ventilación vertical ascendente del doble listón.
   Un techo ventilado es un techo sano.
-benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-beneficio-exclusivo.jpg
-patentImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tba-multicapa/isolant-aislantes-linea-vivienda-multicapa-patente.png
+benefitsImage: /images/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-beneficio-exclusivo.jpg
+patentImage: /images/products/tba-multicapa/isolant-aislantes-linea-vivienda-multicapa-patente.png
 enableVideoSection: true
 video: https://www.youtube.com/watch?v=j63RxwAThYg
 enableInstructions: true
-pdfInstruction: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1658315606/website-2021/downloads/colocacion-tba-y-multicapa.pdf
+pdfInstruction: /images/downloads/colocacion-tba-y-multicapa.pdf
 instructions:
   - Techo nuevo de madera con cubierta de chapa o teja
   - Techo existente de madera con cubierta de chapa o teja
@@ -112,8 +112,8 @@ enableColocationSection: true
 colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
 colocationCtaLink: https://isoplus.isolant.com.ar/inicio
 technicalAssessorCtaLink: /servicios#map
-ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-cta-fondo.jpg
-colocationImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
+ctaImage: /images/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-cta-fondo.jpg
+colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
 colocationCtaText: Encontrá un instalador
 technicalAssessorCtaText: Buscá tu asesor técnico
 enableCtaSection: true

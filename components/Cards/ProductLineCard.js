@@ -3,7 +3,7 @@ import React from "react";
 import Link from 'next/link';
 
 // Components
-import { ReactComponent as Dots } from '../../images/misc/dots.svg';
+import { ReactComponent as Dots } from '../../public/images/misc/dots.svg';
 
 // Classes
 import { standardTextClasses } from "../../classes/Text";

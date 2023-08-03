@@ -2,7 +2,7 @@
 import React from "react";
 
 // SVGs
-import { ReactComponent as Dots } from '../images/misc/dots.svg';
+import { ReactComponent as Dots } from '../public/images/misc/dots.svg';
 
 export default function Product({ product, name, classes, decorations }) {
   return (

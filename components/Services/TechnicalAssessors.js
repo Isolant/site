@@ -53,7 +53,7 @@ export default function TechnicalAssessors({
   return (
     <section
       className={`${verticalPadding} ${horizontalPadding} bg-cover bg-no-repeat bg-center`}
-      style={{ backgroundImage: `url(https://res.cloudinary.com/isolant-cloudinary/image/upload/v1636381369/website-2021/services/isolant-aislantes-servicios-mapa-asesores-tecnicos.jpg)`}}
+      style={{ backgroundImage: `url(/images/services/isolant-aislantes-servicios-mapa-asesores-tecnicos.jpg)`}}
     >
       <div className="mx-auto container grid grid-cols-1 lg:grid-cols-3 gap-8 h-auto lg:h-screen items-center">
         <div>

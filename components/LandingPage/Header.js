@@ -6,7 +6,7 @@ import Link from "next/link";
 import { horizontalPadding } from '../../classes/Spacing';
 
 // Vectors
-import { ReactComponent as Logo } from "../../images/logos/logo.svg";
+import { ReactComponent as Logo } from "../../public/images/logos/logo.svg";
 
 export default function LandingPageHeader() {
   return (

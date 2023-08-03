@@ -10,19 +10,19 @@ description: <strong>Membrana barrera de agua y barrera de vientos para steel
   lo hacen ideal para proteger sus paredes y techos de filtraciones y humedad.
   En este tipo de sistemas, Imperfoil funciona como una excelente barrera
   hidrófuga y barrera de viento.
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-imagen.jpg
-productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1687874366/Imperfoil_Rollo_btvcye.png
-logo: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1685557065/Logo_Imperfoil_csmfxh.png
+mainImage: /images/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-imagen.jpg
+productImage: /images/products/imperfoil/Imperfoil_Rollo_btvcye.png
+logo: /images/products/imperfoil/Logo_Imperfoil_csmfxh.png
 enableHero: true
 mainBenefits:
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-beneficio-1.svg
+  - icon: /images/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-beneficio-1.svg
     text: Impermeable
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-beneficio-2.svg
+  - icon: /images/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-beneficio-2.svg
     text: Controlador de vapor
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1635429089/website-2021/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-beneficio-3.svg
+  - icon: /images/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-beneficio-3.svg
     text: Barrera de viento
 enableDetailsSection: true
-detailsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1687874374/DET_Imperfoil_1_tvedx1.jpg
+detailsImage: /images/products/imperfoil/DET_Imperfoil_1_tvedx1.jpg
 function:
   - text: Impermeable al agua.
   - text: Barrera de viento.
@@ -42,15 +42,15 @@ benefitsList:
   - text: "Material sano: No desprende partículas."
   - text: Reduce los costos.
   - text: Resistencia UV 3 meses intemperie.
-benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1687874368/DET_Imperfoil_2_ejhrfh.jpg
-patentImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1687874369/Imperfoil_DET_rbhiiw.png
+benefitsImage: /images/products/imperfoil/DET_Imperfoil_2_ejhrfh.jpg
+patentImage: /images/products/imperfoil/Imperfoil_DET_rbhiiw.png
 enableVideoSection: false
 video: https://www.instagram.com/p/CnSffuNOehS/
 enableInstructions: true
 instructions:
   - Colocación Covering en paredes
   - Colocación Covering y Ondusec Reflex en techos
-pdfInstruction: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1658315606/website-2021/downloads/colocacion-covering.pdf
+pdfInstruction: /images/downloads/colocacion-covering.pdf
 enableTechnicalInformation: true
 technicalInformationList:
   - title: Resistencia térmica
@@ -106,7 +106,7 @@ downloads:
   - Volante Ondusec y Ondusec Reflex
   - ¿Qué tipo de techo querés aislar?
 enableColocationSection: true
-colocationImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
+colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
 colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
 colocationCtaLink: https://isoplus.isolant.com.ar/inicio
 colocationCtaText: Encontrá un instalador
@@ -114,5 +114,5 @@ technicalAssessorCtaLink: /servicios#map
 technicalAssessorCtaText: Buscá tu asesor técnico
 enableCtaSection: true
 ctaTitle: Imperfoil es Isolant, <strong>calidad garantizada</strong>
-ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1687874368/DET_Imperfoil_2_ejhrfh.jpg
+ctaImage: /images/products/imperfoil/DET_Imperfoil_2_ejhrfh.jpg
 ---

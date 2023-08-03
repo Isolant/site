@@ -10,20 +10,20 @@ description: Isolant <strong>CEDRO NET</strong> es el único aislante del mercad
   malla de sostén, ahorrando tiempos de colocación y mejorando la estética
   final. Cuenta con un exclusivo solape para termo soldado que agiliza su
   correcta colocación.
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-imagen-fondo.jpg
-productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-producto-rollo.png
-logo: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-logo.jpg
+mainImage: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-imagen-fondo.jpg
+productImage: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-producto-rollo.png
+logo: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-logo.jpg
 ecommerceLink: https://tienda.isolant.com.ar/vivienda/65-cedro-10-net.html
 enableHero: true
 mainBenefits:
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-beneficio-1-aisle.svg
+  - icon: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-beneficio-1-aisle.svg
     text: Aisle
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-beneficio-2.svg
+  - icon: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-beneficio-2.svg
     text: Ahorre
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-beneficio-3.svg
+  - icon: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-beneficio-3.svg
     text: Decore
 enableDetailsSection: true
-detailsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-imagen-detalle-producto.jpg
+detailsImage: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-imagen-detalle-producto.jpg
 function:
   - text: Aislante térmico.
   - text: Barrera de vapor.
@@ -50,8 +50,8 @@ benefitsList:
   - text: Evitan la condensación.
   - text: Termosoldables.
   - text: Clase RE2. Muy baja propagación de llama.
-benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-beneficio-exclusivo.jpg
-patentImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-patente.png
+benefitsImage: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-beneficio-exclusivo.jpg
+patentImage: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-patente.png
 enableVideoSection: true
 video: https://www.youtube.com/watch?v=6i-DiEpuc30
 enableInstructions: true
@@ -121,8 +121,8 @@ enableColocationSection: true
 colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
 colocationCtaLink: https://isoplus.isolant.com.ar/inicio
 technicalAssessorCtaLink: /servicios#map
-ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-imagen-cta.jpg
-colocationImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
+ctaImage: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-imagen-cta.jpg
+colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
 colocationCtaText: Encontrá un instalador
 technicalAssessorCtaText: Buscá tu asesor técnico
 enableCtaSection: true

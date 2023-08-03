@@ -5,8 +5,8 @@ import React from "react";
 import HalfScreenSection from "../../Layout/HalfScreenSection";
 
 // SVGs
-import { ReactComponent as Dots } from '../../../images/misc/dots.svg';
-import { ReactComponent as Circle } from '../../../images/misc/circle.svg';
+import { ReactComponent as Dots } from '../../../public/images/misc/dots.svg';
+import { ReactComponent as Circle } from '../../../public/images/misc/circle.svg';
 
 export default function Isoplus({
   title,
@@ -34,8 +34,8 @@ export default function Isoplus({
         () => <img
           className="max-h-12 mb-2 sm:mb-4"
           alt="Isoplus"
-          src="https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/professionals/homepage/isolant-aislantes-logo-isoplus.png"
-          srcSet="https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/professionals/homepage/isolant-aislantes-logo-isoplus.png 1x, https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/professionals/homepage/isolant-aislantes-logo-isoplus_2x.png 2x"
+          src="/images/professionals/homepage/isolant-aislantes-logo-isoplus.png"
+          srcSet="/images/professionals/homepage/isolant-aislantes-logo-isoplus.png 1x, /images/professionals/homepage/isolant-aislantes-logo-isoplus_2x.png 2x"
         />
       }
     >

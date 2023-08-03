@@ -3,15 +3,15 @@ name: Termoblock
 order: 7
 slogan: Que tus animales se <strong>sientan en un hotel</strong>
 description: <strong>Aislante para muros de galpones black-out de pollos y climatizados de cerdos.</strong><br /><br />El aislante premium diseñado para cerramientos laterales metálicos de galpones avícolas y porcinos, siendo una alternativa económica al panel frigorífico o termopanel de chapa con poliuretano. La espuma de alta densidad y su aluminio de 30 micrones, lo hacen resistente a los esfuerzo y acción de los animales.
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/termoblock/isolant-aislantes-linea-galpones-y-tinglados-termoblock-imagen-principal.jpg
+mainImage: /images/products/termoblock/isolant-aislantes-linea-galpones-y-tinglados-termoblock-imagen-principal.jpg
 enableHero: true
-productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/termoblock/isolant-aislantes-linea-galpones-y-tinglados-termoblock-producto-rollo.png
+productImage: /images/products/termoblock/isolant-aislantes-linea-galpones-y-tinglados-termoblock-producto-rollo.png
 mainBenefits:
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/termoblock/isolant-aislantes-linea-galpones-y-tinglados-termoblock-beneficio-1.svg
+  - icon: /images/products/termoblock/isolant-aislantes-linea-galpones-y-tinglados-termoblock-beneficio-1.svg
     text: La mejor relación costo beneficio para su galpón
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/termoblock/isolant-aislantes-linea-galpones-y-tinglados-termoblock-beneficio-2.svg
+  - icon: /images/products/termoblock/isolant-aislantes-linea-galpones-y-tinglados-termoblock-beneficio-2.svg
     text: Aluminio reforzado de 30 micrones
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/termoblock/isolant-aislantes-linea-galpones-y-tinglados-termoblock-beneficio-3.svg
+  - icon: /images/products/termoblock/isolant-aislantes-linea-galpones-y-tinglados-termoblock-beneficio-3.svg
     text: Galpones más estancos
 enableDetailsSection: true
 function:
@@ -25,11 +25,11 @@ application:
 presentation:
   - text: 1,05m x 2m. (Largos a medida por cantidad).
   - text: "Espesor: 20 y 30mm."
-detailsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/termoblock/isolant-aislantes-linea-galpones-y-tinglados-termoblock-imagen-detalle.jpg
+detailsImage: /images/products/termoblock/isolant-aislantes-linea-galpones-y-tinglados-termoblock-imagen-detalle.jpg
 enableBenefitsSection: true
 benefitsTitle: Estudio termográfico <strong>gratuito</strong>
 benefitsText: Contamos con un equipo técnico especialmente preparado en el asesoramiento y análisis de galpones de crianza animal. Conocé más sobre nuestro análisis termográfico gratuito en obra e informes generados con termógrafos colocados en tus galpones.
-benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/termoblock/isolant-aislantes-linea-galpones-y-tinglados-termoblock-beneficio-exclusivo.jpg
+benefitsImage: /images/products/termoblock/isolant-aislantes-linea-galpones-y-tinglados-termoblock-beneficio-exclusivo.jpg
 benefitsList:
   - text: Facilidad en colocación y lavado.
   - text: Saludable. No desprende partículas.
@@ -94,7 +94,7 @@ downloads:
   - ¿Qué tipo de techo querés aislar?
   - Tríptico Industria/Vivienda
 enableColocationSection: true
-colocationImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
+colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
 colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
 technicalAssessorCtaText: Buscá tu asesor técnico
 colocationCtaLink: https://isoplus.isolant.com.ar/inicio
@@ -102,5 +102,5 @@ colocationCtaText: Encontrá un instalador
 technicalAssessorCtaLink: /servicios#map
 enableCtaSection: true
 ctaTitle: El mejor aislante para tu galpón <strong>de crianza animal</strong>
-ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/termoblock/isolant-aislantes-linea-galpones-y-tinglados-termoblock-cta.jpg
+ctaImage: /images/products/termoblock/isolant-aislantes-linea-galpones-y-tinglados-termoblock-cta.jpg
 ---

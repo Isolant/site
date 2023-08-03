@@ -1,14 +1,9 @@
 backend:
   name: git-gateway
   branch: main
-media_folder: "public/images/uploads"
-public_folder: "images/uploads"
+media_folder: "public/images"
+public_folder: "images"
 # publish_mode: editorial_workflow
-media_library:
-  name: cloudinary
-  config:
-    cloud_name: isolant-cloudinary
-    api_key: 494282136935619
 collections:
   # Product Lines Collection
   - name: "productLines"

@@ -5,7 +5,7 @@ import React from "react";
 import { boldSubtitleClasses, standardTextClasses } from "../../classes/Text";
 
 // SVGs
-import { ReactComponent as ArrowIcon } from '../../images/icons/chevron-down.svg';
+import { ReactComponent as ArrowIcon } from '../../public/images/icons/chevron-down.svg';
 
 export default function Faqs({ categories, activeFaqs, activeCategory }) {
   const toggleFaqVisibility = (e) => {

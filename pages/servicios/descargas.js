@@ -62,7 +62,7 @@ export default function Downloads({ provincesData, localesData, downloadsData, p
     >
       <section
         className={`${horizontalPadding} ${verticalPadding}`}
-        style={{ backgroundImage: `url(https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/globals/isolant-aislantes-fondo-lineas-oscuras.jpg)`}}
+        style={{ backgroundImage: `url(/images/globals/isolant-aislantes-fondo-lineas-oscuras.jpg)`}}
       >
         <div className={`${verticalPadding} container mx-auto`}>
           <div className="max-w-md mx-auto text-center">

@@ -3,16 +3,16 @@ name: Red 2x2
 order: 8
 slogan: Una sola malla de sostén <strong>para todo tipo de aislantes</strong>
 description: <strong>Malla sostén de alta resistencia para cualquier tipo de aislante.</strong><br /><br />La RED 2x2 está diseñada especialmente para el sostén de aislantes y le garantiza una colocación más rápida, 100% segura y con una terminación estética superior.
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-imagen-principal.jpg
+mainImage: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-imagen-principal.jpg
 enableHero: true
-productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-producto-rollo.png
+productImage: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-producto-rollo.png
 ecommerceLink: https://tienda.isolant.com.ar/galpones-y-tinglados/60-red-2x2-200m2.html
 mainBenefits:
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-beneficio-1.svg
+  - icon: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-beneficio-1.svg
     text: Fácil y rápida colocación
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-beneficio-2.svg
+  - icon: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-beneficio-2.svg
     text: Reemplaza al entramado de alambre
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1635429089/website-2021/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-beneficio-3.svg
+  - icon: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-beneficio-3.svg
     text: Terminación estética superior
 enableDetailsSection: true
 function:
@@ -24,12 +24,12 @@ application:
 presentation:
   - text: 2m. x 100m - Cuadrícula de 2x2cm
   - text: 1m. x 100m - Cuadrícula de 2x2cm
-logo: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-logo.jpg
-detailsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-imagen-detalle.jpg
+logo: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-logo.jpg
+detailsImage: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-imagen-detalle.jpg
 enableBenefitsSection: true
 benefitsTitle: Resistencia por <strong>biorientado</strong>
 benefitsText: Gracias a su tecnología de fabricación de pretensado y biorentado, la <strong>RED 2x2 Isolant</strong> presenta una alta resistencia a la deformación por esfuerzos de dilatación y contracción de la estructura, logrando techos más planos y de una estética superior.
-benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-beneficio-exclusivo.jpg
+benefitsImage: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-beneficio-exclusivo.jpg
 benefitsList:
   - text: Liviana y resistente.
   - text: Material reciclable.
@@ -95,12 +95,12 @@ downloads:
   - ¿Qué tipo de techo querés aislar?
   - Tríptico Industria/Vivienda
 enableColocationSection: true
-colocationImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
+colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
 colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
 technicalAssessorCtaText: Buscá tu asesor técnico
 colocationCtaLink: https://isoplus.isolant.com.ar/inicio
 colocationCtaText: Encontrá un instalador
 technicalAssessorCtaLink: /servicios#map
-ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-imagen-detalle.jpg
+ctaImage: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-imagen-detalle.jpg
 enableCtaSection: true
 ---

@@ -3,16 +3,16 @@ name: Alu Stark
 order: 4
 slogan: Tu industria con la terminación <strong>de un shopping</strong>
 description: <strong>Aislante con terminación blanca y alta resistencia.</strong><br /><br />Fácil instalación gracias a que es un material liviano y resistente al manipuleo en obra. No desprende partículas de ningún tipo. La espuma color blanca favorece a la terminación estética de la cara que queda a la vista.
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-imagen.jpg
+mainImage: /images/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-imagen.jpg
 enableHero: true
-productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-producto-rollo.png
+productImage: /images/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-producto-rollo.png
 ecommerceLink: https://tienda.isolant.com.ar/galpones-y-tinglados/63-alu-stark-10.html
 mainBenefits:
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-beneficio-1.svg
+  - icon: /images/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-beneficio-1.svg
     text: Aluminio puro y terminación blanca
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-beneficio-2.svg
+  - icon: /images/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-beneficio-2.svg
     text: Evitan la condensación
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1635429089/website-2021/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-beneficio-3.svg
+  - icon: /images/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-beneficio-3.svg
     text: Estética superior
 enableDetailsSection: true
 function:
@@ -27,12 +27,12 @@ presentation:
   - text: "Espesor: 5mm | 10mm | 15mm | 20mm."
   - text: Solape para termo soldar
   - text: Largos a medida sin cargo por más de 1000m2
-detailsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-detalle-producto.jpg
-patentImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-patente.png
+detailsImage: /images/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-detalle-producto.jpg
+patentImage: /images/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-patente.png
 enableBenefitsSection: true
 benefitsTitle: Terminación blanca <strong>de alta resistencia</strong>
 benefitsText: "Ideal para estructuras metálicas que requieran una estética superior: La espuma color blanca favorece a la terminación estética de la cara que queda a la vista. Ideal para supermercados, concesionarias de autos, etc.<br /><br />¡Preguntá por la terminación negra!"
-benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-beneficio-exclusivo.jpg
+benefitsImage: /images/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-beneficio-exclusivo.jpg
 benefitsList:
   - text: Aislación hidrófuga.
   - text: Termosoldables.
@@ -40,7 +40,7 @@ benefitsList:
 enableVideoSection: true
 video: https://www.youtube.com/watch?v=FanPdfblmbc
 enableInstructions: true
-pdfInstruction: https://res.cloudinary.com/isolant-cloudinary/image/upload/v1658315606/website-2021/downloads/colocacion-galpones-y-tinglados.pdf
+pdfInstruction: /images/downloads/colocacion-galpones-y-tinglados.pdf
 instructions:
   - Galpones y tinglados metálicos nuevos
   - Galpones y tinglados metálicos existentes, como cielorraso copiando la forma
@@ -102,12 +102,12 @@ downloads:
   - ¿Qué tipo de techo querés aislar?
   - Tríptico Industria/Vivienda
 enableColocationSection: true
-colocationImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
+colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
 colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
 technicalAssessorCtaText: Buscá tu asesor técnico
 colocationCtaLink: https://isoplus.isolant.com.ar/inicio
 colocationCtaText: Encontrá un instalador
 technicalAssessorCtaLink: /servicios#map
-ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-imagen-cta.jpg
+ctaImage: /images/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-imagen-cta.jpg
 enableCtaSection: true
 ---

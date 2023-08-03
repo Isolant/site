@@ -8,19 +8,19 @@ description: <strong>Aislante para cualquier tipo de techo con una cara de
   x 15m, un rollo cubre más superficie, reduciendo los tiempos de obra y uniones
   en altura.<br /><br />Cuenta con canaletas de ventilación para un techo sano y
   ventilado. Además presenta su exclusiva unión por termo soldado patentada.
-mainImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/super-tba/isolant-aislantes-linea-vivienda-super-tba-imagen-fondo.jpg
-productImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/super-tba/isolant-aislantes-linea-vivienda-super-tba-rollo.png
+mainImage: /images/products/super-tba/isolant-aislantes-linea-vivienda-super-tba-imagen-fondo.jpg
+productImage: /images/products/super-tba/isolant-aislantes-linea-vivienda-super-tba-rollo.png
 ecommerceLink: https://tienda.isolant.com.ar/tienda/88-super-tba.html
 enableHero: true
 mainBenefits:
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tba/isolant-aislantes-linea-vivienda-tba-beneficio-1.svg
+  - icon: /images/products/tba/isolant-aislantes-linea-vivienda-tba-beneficio-1.svg
     text: Aislación hidrófuga
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tba/isolant-aislantes-linea-vivienda-tba-beneficio-2.svg
+  - icon: /images/products/tba/isolant-aislantes-linea-vivienda-tba-beneficio-2.svg
     text: Aislación térmica
-  - icon: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/tba/isolant-aislantes-linea-vivienda-tba-beneficio-3.svg
+  - icon: /images/products/tba/isolant-aislantes-linea-vivienda-tba-beneficio-3.svg
     text: Evitan la condensación
 enableDetailsSection: true
-detailsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/super-tba/isolant-aislantes-linea-vivienda-super-tba-imagen-detalle.jpg
+detailsImage: /images/products/super-tba/isolant-aislantes-linea-vivienda-super-tba-imagen-detalle.jpg
 function:
   - text: Aislante térmico.
   - text: Impermeable y barrera de vapor.
@@ -42,7 +42,7 @@ benefitsList:
   - text: Estructuras metálicas con cubierta de chapa y cielorraso suspendido;
   - text: Estructuras de steel framing con OSB o multilaminado fenólico.
   - text: ¡Además tiene un espesor de 15mm y aluminio puro en una de sus caras!
-benefitsImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/super-tba/isolant-aislantes-linea-vivienda-super-tba-rollo-detalle.jpg
+benefitsImage: /images/products/super-tba/isolant-aislantes-linea-vivienda-super-tba-rollo-detalle.jpg
 enableVideoSection: true
 video: https://www.youtube.com/watch?v=mVVMhqDY4BA
 enableInstructions: true
@@ -108,12 +108,12 @@ downloads:
   - Volante Super TBA
   - Colocación Super TBA
 enableColocationSection: true
-colocationImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
+colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
 colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
 colocationCtaLink: https://isoplus.isolant.com.ar/inicio
 colocationCtaText: Encontrá un instalador
 technicalAssessorCtaLink: /servicios#map
 technicalAssessorCtaText: Buscá tu asesor técnico
 enableCtaSection: true
-ctaImage: https://res.cloudinary.com/isolant-cloudinary/image/upload/f_auto,q_auto:good/website-2021/products/super-tba/isolant-aislantes-linea-vivienda-super-tba-imagen-cta.jpg
+ctaImage: /images/products/super-tba/isolant-aislantes-linea-vivienda-super-tba-imagen-cta.jpg
 ---

@@ -5,8 +5,8 @@ import React from "react";
 import { smallTextClasses, uppercaseTextClasses } from "../../classes/Text";
 
 // SVGs
-import { ReactComponent as ShortArrowRightIcon } from '../../images/icons/short-arrow-right.svg';
-import { ReactComponent as ShortArrowDownIcon } from '../../images/icons/short-arrow-down.svg';
+import { ReactComponent as ShortArrowRightIcon } from '../../public/images/icons/short-arrow-right.svg';
+import { ReactComponent as ShortArrowDownIcon } from '../../public/images/icons/short-arrow-down.svg';
 
 export default function SecondaryDownloadCard({ download, classes }) {
   return (
