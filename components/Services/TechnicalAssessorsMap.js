@@ -8,10 +8,11 @@ import TitlePackage from "../TitlePackage";
 export default function TechnicalAssessorsMap({ title, text }) {
 
   return (
-    <React.Fragment>
+    <section
+      style={{ background: 'linear-gradient(180deg, #242829 0%, #4D6A79 100%)'}}
+    >
       <div
         className={`${horizontalPadding} ${verticalPadding} container mx-auto`}
-        style={{ background: 'linear-gradient(180deg, #242829 0%, #4D6A79 100%)'}}
       >
         <TitlePackage
           titleHierarchy="h2"
@@ -30,6 +31,6 @@ export default function TechnicalAssessorsMap({ title, text }) {
           className="flex-1 h-full"
         />
       </section>
-    </React.Fragment>
+    </section>
   )
 }
