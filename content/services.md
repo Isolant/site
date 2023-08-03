@@ -45,7 +45,7 @@ bimText: "<strong>BIM permite la integración de datos en proyectos, los cuales
   producir un proyecto preciso y eficiente."
 bimCtaText: Descargar Biblioteca
 bimCtaLink: /servicios/descargas#bim
-bimImage: /images/Imagenes%20Generales%20Tris/pexels-brett-sayles-10813067_nherze.jpg
+bimImage: /images/services/isolant-aislantes-servicios-bim.jpg
 faqsTitle: Preguntas <strong>Frecuentes</strong>
 faqsText: Conocé más sobre la colocación de nuestros aislantes revisando
   nuestras Preguntas Frecuentes.
