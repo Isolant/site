@@ -431,15 +431,6 @@ collections:
               - {label: Texto, name: text, widget: string}
               - {label: Link, name: link, widget: string}
               - {label: Es un link externo?, name: isExternal, widget: boolean, required: false}
-              - label: "Mostrar en encabezado:"
-                name: "visibility"
-                widget: "select"
-                default:
-                  - {label: "Mostrar en todos", value: "all"}
-                options:
-                  - {label: "Mostrar en todos", value: "all"}
-                  - {label: "Mostrar sólo para Profesionales", value: "professionals"}
-                  - {label: "Mostrar sólo para Dueños e Inquilinos", value: "owners"}
           - {label: "Título sección Empresa", name: "companyTitle", widget: "string"}
           - label: "Links sección Empresa"
             name: "companyLinks"
@@ -448,15 +439,6 @@ collections:
               - {label: Texto, name: text, widget: string}
               - {label: Link, name: link, widget: string}
               - {label: Es un link externo?, name: isExternal, widget: boolean, required: false}
-              - label: "Mostrar en encabezado:"
-                name: "visibility"
-                widget: "select"
-                default:
-                  - {label: "Mostrar en todos", value: "all"}
-                options:
-                  - {label: "Mostrar en todos", value: "all"}
-                  - {label: "Mostrar sólo para Profesionales", value: "professionals"}
-                  - {label: "Mostrar sólo para Dueños e Inquilinos", value: "owners"}
           - label: "Etiquetas para productos"
             name: "productTags"
             widget: "list"

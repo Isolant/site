@@ -1,11 +1,9 @@
 // Globals
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import slugify from "react-slugify";
 
 // Components
 import Tag from '../Tag';
-import Button from '../Forms/Button';
-import Select from '../Forms/Select';
 
 // Classes
 import { standardTextClasses, uppercaseTextClasses } from "../../classes/Text";
@@ -17,11 +15,7 @@ import { attributes } from "../../content/header.md";
 import { ReactComponent as ChevronIcon } from "../../public/images/icons/chevron-right.svg";
 
 export default function DropdownMenu({ 
-  scrolled,
-  productLines,
-  activeHeader,
-  storeUserType,
-  userType,
+  productLines
 }) {
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -35,36 +29,11 @@ export default function DropdownMenu({
 
   return (
     <div
-      className={`${ scrolled ? 'top-24' : 'top-20 sm:top-28'} fixed z-20 w-full px-4 sm:px-8`}
+      className={`top-20 fixed z-20 w-full px-4 sm:px-8`}
     >
       <ul
         className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-8 bg-white p-4 sm:p-8 rounded-md overflow-y-scroll sm:overflow-y-auto overscroll-contain max-h-screen sm:max-h-auto pb-24"
       >
-        <li className="block sm:hidden">
-          <Button
-            href="https://tienda.isolant.com.ar"
-            text="Comprar"
-            color="primary"
-            classes="w-full"
-            isExternal={true}
-          />
-        </li>
-        <li className="block sm:hidden">
-          <Select
-            id="userType"
-            labelText="Estás en:"
-            theme="light"
-            scrolled={scrolled}
-            placeholder={userType === 'owners' ? 'Dueños e inquilinos' : 'Profesionales'}
-            options={[
-              {
-                name: userType === 'owners' ? "Profesionales" : "Dueños e inquilinos",
-                value: userType === 'owners' ? "professionals" : "owners",
-              }
-            ]}
-            onChangeMethod={() => storeUserType(userType === 'owners' ? 'professionals' : 'owners')}
-          />
-        </li>
         <li>
           <DropdownHeading title="Aislantes para" />
           <ol>
@@ -104,7 +73,6 @@ export default function DropdownMenu({
           <DropdownHeading title={servicesTitle} />
           <ol>
             {servicesLinks
-              .filter(service => service.visibility === 'all' || service.visibility === userType)
               .map((service, index) =>
               <DropdownItem
                 href={service.link}
@@ -121,7 +89,6 @@ export default function DropdownMenu({
           <DropdownHeading title={companyTitle} />
           <ol>
             {companyLinks
-              .filter(service => service.visibility === 'all' || service.visibility === userType)
               .map((company, index) =>
               <DropdownItem
                 href={company.link}
