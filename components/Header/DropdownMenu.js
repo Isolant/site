@@ -29,7 +29,7 @@ export default function DropdownMenu({
 
   return (
     <div
-      className={`top-20 fixed z-20 w-full px-4 sm:px-8`}
+      className={`top-20 fixed z-30 w-full px-4 sm:px-8`}
     >
       <ul
         className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-8 bg-white p-4 sm:p-8 rounded-md overflow-y-scroll sm:overflow-y-auto overscroll-contain max-h-screen sm:max-h-auto pb-24"

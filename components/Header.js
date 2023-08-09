@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 
 import DropdownMenu from './Header/DropdownMenu';
+import Socials from './Header/Socials';
 import Search from './Search/index';
 
 import { uppercaseTextClasses } from '../classes/Text';
@@ -24,7 +25,7 @@ export default function Header({
   return (
     <React.Fragment>
       <header className="relative">
-        <nav className={`bg-white shadow-sm ${horizontalPadding} py-2 sm:py-4 w-full flex flex-row items-center fixed top-0 z-20`}>
+        <nav className={`bg-white shadow-sm ${horizontalPadding} py-2 sm:py-4 w-full flex flex-row items-center fixed top-0 z-30`}>
           {/* Logo */}
           <Link href="/">
             <a className="hover:opacity-90 flex-1">
@@ -76,18 +77,21 @@ export default function Header({
         {isOpen &&
           <React.Fragment>
             <div
-              className="bg-gray-700 opacity-60 w-full h-screen fixed z-20 cursor-pointer"
+              className="bg-gray-700 opacity-60 w-full h-screen fixed z-30 cursor-pointer"
               onClick={() => setIsOpen(!isOpen)}
             />
             <div
-              className={`h-8 w-8 transform rotate-45 fixed bg-white right-[60px] z-20 top-[70px]`}
+              className="h-8 w-8 transform rotate-45 fixed bg-white right-[60px] z-30 top-[70px] hidden sm:block"
             />
             <DropdownMenu
               productLines={productLines}
             />
           </React.Fragment>
         }
+        {/* Social networks */}
+        <Socials />
       </header>
+      {/* Search */}
       {searchIsOpen &&
         <React.Fragment>
           <CloseIcon
