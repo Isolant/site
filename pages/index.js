@@ -68,11 +68,8 @@ export default function OwnersHomepage({ productLinesData, productSelectorTypesD
     text: 'Soy un profesional',
     icon: true,
     color: 'primary',
-    isFormBtn: true,
-    action: () => {
-      localStorage.setItem('userType', 'professionals');
-      router.push('/profesionales');
-    },
+    isExternal: true,
+    link: 'https://isoplus.isolant.com.ar'
   }];
   
   const entrepreneoursButton = [{
@@ -82,14 +79,6 @@ export default function OwnersHomepage({ productLinesData, productSelectorTypesD
     isExternal: false,
     link: '/nosotros#emprendedores'
   }];
-
-  useEffect(() => {
-    // To get the users' type, and redirect accordingly
-    const userType = localStorage.getItem('userType');
-    if(userType === 'professionals') {
-      router.push('/profesionales');
-    }
-  }, []);
 
   return (
     <Base
