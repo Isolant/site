@@ -463,36 +463,17 @@ collections:
           preview: false
         fields:
           - {label: "Título de la página", name: "pageTitle", widget: "string", hint: "Este es el título que aparece en Google y la barra del navegador"}
-          - {label: "Video de fondo para encabezado", name: "heroVideoBackground", widget: "string", hint: "Opcional si se usa una imagen de fondo. Formato: https://www.youtube.com/watch?v=2oRlBmwKzy4", required: false}
-          - {label: "Imagen de fondo para encabezado", name: "heroImageBackground", widget: "image", hint: "Opcional si se usa un video de fondo", required: false}
-          - {label: "Título para encabezado", name: "heroTitle", widget: "string"}
-          - {label: "Texto para encabezado", name: "heroText", widget: "text", required: false}
-          - {label: "Texto del link para encabezado", name: "heroCtaLink", widget: "string"}
-          - {label: "Link para encabezado", name: "heroCtaText", widget: "string"}
-          - {label: "Imagen para sección Calculadora Térmica", name: "calculatorImage", widget: "image"}
-          - {label: "Título para sección Calculadora Térmica", name: "calculatorTitle", widget: "string", hint: "Podés usar HTML en este campo."}
-          - {label: "Texto para sección Calculadora Térmica", name: "calculatorText", widget: "text", required: false, hint: "Opcional. Podés usar HTML en este campo."}
-          - label: "Botones para sección Calculadora Térmica"
-            name: "calculatorButtons"
+          - label: "Contenido para slider superior"
+            name: "heroSlider"
             widget: "list"
-            hint: "Máximo 2"
-            max: 2
+            hint: "Máximo 5"
+            max: 5
             fields:
-              - {label: Icono, name: icon, widget: boolean}
-              - {label: Link, name: link, widget: string}
-              - {label: Texto, name: text, widget: string}
-              - {label: Color, name: color, widget: select, options: ["primary", "secondary", "transparent", "white"]}
-          - {label: "Imagen para sección Homepage Profesionales", name: "professionalHomepageImage", widget: "image"}
-          - {label: "Título para sección Homepage Profesionales", name: "professionalHomepageTitle", widget: "string", hint: "Podés usar HTML en este campo."}
-          - {label: "Texto para sección Homepage Profesionales", name: "professionalHomepageText", widget: "text", required: false, hint: "Opcional. Podés usar HTML en este campo."}
-          - {label: "Imagen para sección Emprendedores", name: "entrepreneoursImage", widget: "image"}
-          - {label: "Título para sección Emprendedores", name: "entrepreneoursTitle", widget: "string", hint: "Podés usar HTML en este campo."}
-          - {label: "Texto para sección Emprendedores", name: "entrepreneoursText", widget: "text", required: false, hint: "Opcional. Podés usar HTML en este campo."}
-          - {label: "Imagen para sección Isoplus", name: "isoplusImage", widget: "image"}
-          - {label: "Título para sección Isoplus", name: "isoplusTitle", widget: "string", hint: "Podés usar HTML en este campo."}
-          - {label: "Texto para sección Isoplus", name: "isoplusText", widget: "text", required: false, hint: "Opcional. Podés usar HTML en este campo."}
-          - {label: "Texto del link para sección Isoplus", name: "isoplusCtaLink", widget: "string"}
-          - {label: "Link para sección Isoplus", name: "isoplusCtaText", widget: "string"}
+              - {label: Imagen, name: image, widget: image, hint: "Imagen de fondo"}
+              - {label: Titulo, name: title, widget: string, hint: "Título para el slide"}
+              - {label: Texto, name: text, widget: string, hint: "Texto para el slide"}
+              - {label: Texto para botón, name: ctaText, widget: string, hint: "Texto para el botón del slide"}
+              - {label: URL para botón, name: ctaLink, widget: string, hint: "URL a la que lleva el botón del slide"}
       # About Page Structure
       - name: "aboutUs"
         label: "Nosotros"

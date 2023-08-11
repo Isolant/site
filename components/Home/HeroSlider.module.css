@@ -1,21 +1,5 @@
-/* General styles for arrows */
-.HeroSlider button[data-role="none"] {
-  @apply z-10 h-full px-4 w-auto;
-  @apply hidden lg:block !important;
-}
-
-/* Right arrow */
-.HeroSlider button[data-role="none"] {
-  @apply right-0;
-}
-
-/* Left arrow */
-.HeroSlider > button[data-role="none"]:first-child {
-  @apply left-0 right-auto;
-}
-
 .HeroSliderDots {
-  @apply absolute w-full bottom-8;
+  @apply absolute w-full bottom-4 lg:bottom-8;
   display: flex !important;
 }
 
