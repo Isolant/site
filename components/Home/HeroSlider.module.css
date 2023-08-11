@@ -1,0 +1,42 @@
+/* General styles for arrows */
+.HeroSlider button[data-role="none"] {
+  @apply z-10 h-full px-4 w-auto;
+  @apply hidden lg:block !important;
+}
+
+/* Right arrow */
+.HeroSlider button[data-role="none"] {
+  @apply right-0;
+}
+
+/* Left arrow */
+.HeroSlider > button[data-role="none"]:first-child {
+  @apply left-0 right-auto;
+}
+
+.HeroSliderDots {
+  @apply absolute w-full bottom-8;
+  display: flex !important;
+}
+
+.HeroSliderDots button {
+  font-size: 0;
+  @apply w-8 border-b border-gray-500 pt-8;
+}
+
+.HeroSliderDots li[class="slick-active"] button {
+  @apply border-b-2 relative border-white;
+  bottom: 1px;
+}
+
+.HeroSliderDots {
+  @apply justify-center;
+}
+
+.HeroSliderDots button {
+  @apply border-gray-400;
+}
+
+.HeroSlider h3 strong {
+  @apply inline;
+}

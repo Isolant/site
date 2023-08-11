@@ -1,16 +1,15 @@
 // Globals
 import React from 'react';
-import { useRouter } from 'next/router';
 
 // Components
 import Base from "../components/Base";
-import Hero from "../components/Hero";
+import HeroSlider from "../components/Home/HeroSlider";
 import FullScreenSlider from '../components/Layout/FullScreenSlider';
 import HalfScreenSection from '../components/Layout/HalfScreenSection';
 import FullScreenSection from '../components/Layout/FullScreenSection';
 
 // Library
-import { getAllCollections, getCollectionById } from "../lib/collections";
+import { getAllCollections } from "../lib/collections";
 
 // Content
 import { attributes } from "../content/homepage.md";
@@ -19,91 +18,23 @@ import { attributes } from "../content/homepage.md";
 import {ReactComponent as Dots} from '../public/images/misc/dots.svg';
 import {ReactComponent as Circle} from '../public/images/misc/circle.svg';
 
-export default function Homepage({ productLinesData, productSelectorTypesData, localesData, provincesData }) {
+export default function Homepage({ productLinesData, productSelectorTypesData }) {
   let {
     pageTitle,
-    heroVideoBackground,
-    heroImageBackground,
-    heroImageMobile,
-    heroTitle,
-    heroText,
-    heroCtaLink,
-    heroCtaText,
-    calculatorImage,
-    calculatorTitle,
-    calculatorText,
-    calculatorButtons,
-    professionalHomepageImage,
-    professionalHomepageTitle,
-    professionalHomepageText,
-    entrepreneoursImage,
-    entrepreneoursTitle,
-    entrepreneoursText,
-    isoplusImage,
-    isoplusTitle,
-    isoplusText,
-    isoplusCtaLink,
-    isoplusCtaText
+    heroSlider,
   } = attributes;
-
-  const heroButton = [{
-    link: heroCtaLink,
-    text: heroCtaText,
-    icon: true,
-    color: 'transparent',
-    isExternal: false,
-  }];
-  
-  const isoplusButton = [{
-    link: isoplusCtaLink,
-    text: isoplusCtaText,
-    icon: true,
-    color: 'transparent',
-    isExternal: true,
-  }];
-  
-  const professionalHomepageButton = [{
-    text: 'Soy un profesional',
-    icon: true,
-    color: 'primary',
-    isExternal: true,
-    link: 'https://isoplus.isolant.com.ar'
-  }];
-  
-  const entrepreneoursButton = [{
-    text: 'Soy un emprendedor',
-    icon: true,
-    color: 'secondary',
-    isExternal: false,
-    link: '/nosotros#emprendedores'
-  }];
 
   return (
     <Base
-      activePage="owners"
       pageTitle={pageTitle}
       footerTheme="dark"
-      provinces={provincesData.provinces}
-      locales={localesData.locales}
       footerDecorations={false}
       productLines={productLinesData}
     >
-      <Hero
-        videoBackground={heroVideoBackground}
-        imageBackground={heroImageBackground}
-        imageBackgroundMobile={heroImageMobile}
-        title={heroTitle}
-        text={heroText}
-        buttons={heroButton}
-        showForm={true}
-        productSelectorTypes={productSelectorTypesData}
-        fullHeight={true}
-        activePage="owners"
+      <HeroSlider
+        slider={heroSlider}
       />
-      <FullScreenSlider
-        content={productLinesData}
-      />
-      <HalfScreenSection
+      {/* <HalfScreenSection
         image={calculatorImage}
         imagePosition={"left"}
         title={calculatorTitle}
@@ -163,7 +94,7 @@ export default function Homepage({ productLinesData, productSelectorTypesData, l
       >
         <Dots className="hidden lg:block absolute left-4 xl:left-16 bottom-4 xl:-bottom-8 text-gray-100 fill-current z-10 transform rotate-90" />
         <Circle className="hidden lg:block absolute right-4 xl:right-16 -bottom-8 text-red-200 fill-current z-10" />
-      </FullScreenSection>
+      </FullScreenSection> */}
     </Base>
   )
 }
@@ -171,15 +102,11 @@ export default function Homepage({ productLinesData, productSelectorTypesData, l
 export async function getStaticProps() {
   const productSelectorTypesData = getAllCollections("productSelector/types");
   const productLinesData = getAllCollections("productLines");
-  const provincesData = getCollectionById("geolocalization", 'provinces');
-  const localesData = getCollectionById("geolocalization", 'locales');
 
   return {
     props: {
       productLinesData,
       productSelectorTypesData,
-      provincesData,
-      localesData
     },
   };
 }
