@@ -1,5 +1,5 @@
 // Globals
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useRouter } from 'next/router';
 
 // Components
@@ -13,15 +13,13 @@ import FullScreenSection from '../components/Layout/FullScreenSection';
 import { getAllCollections, getCollectionById } from "../lib/collections";
 
 // Content
-import { attributes } from "../content/owners/homepage.md";
+import { attributes } from "../content/homepage.md";
 
 // SVGs
 import {ReactComponent as Dots} from '../public/images/misc/dots.svg';
 import {ReactComponent as Circle} from '../public/images/misc/circle.svg';
 
-export default function OwnersHomepage({ productLinesData, productSelectorTypesData, localesData, provincesData }) {
-  const router = useRouter();
-
+export default function Homepage({ productLinesData, productSelectorTypesData, localesData, provincesData }) {
   let {
     pageTitle,
     heroVideoBackground,

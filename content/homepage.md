@@ -1,5 +1,5 @@
 ---
-pageTitle: Dueños e Inquilinos
+pageTitle: Inicio
 heroImageBackground: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-encabezado-homepage.jpg
 heroImageMobile: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-encabezado-homepage-mobile.jpg
 heroTitle: Aislá tu casa y convertila <br /><strong>en un hogar</strong>

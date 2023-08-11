@@ -454,48 +454,45 @@ collections:
                 value_field: "name"
                 display_fields: ["name"]
                 multiple: false
-      # Landing Page Structure
-      - name: "landingPage"
-        label: "Landing Page"
-        file: "content/landing-page.md"
+      # Homepage Structure
+      - name: "homepage"
+        label: "Homepage"
+        file: "content/homepage.md"
         create: false
         editor: 
           preview: false
         fields:
-          - label: "Imagen sección profesionales"
-            name: "professionalsImage"
-            widget: "image"
-            choose_url: false
-            media_library:
-              config:
-                multiple: false
-          - {label: "Título sección profesionales", name: "professionalsTitle", widget: "string", hint: "Podés usar HTML en este campo"}
-          - label: "Botón para sección profesionales"
-            name: "professionalsButton"
+          - {label: "Título de la página", name: "pageTitle", widget: "string", hint: "Este es el título que aparece en Google y la barra del navegador"}
+          - {label: "Video de fondo para encabezado", name: "heroVideoBackground", widget: "string", hint: "Opcional si se usa una imagen de fondo. Formato: https://www.youtube.com/watch?v=2oRlBmwKzy4", required: false}
+          - {label: "Imagen de fondo para encabezado", name: "heroImageBackground", widget: "image", hint: "Opcional si se usa un video de fondo", required: false}
+          - {label: "Título para encabezado", name: "heroTitle", widget: "string"}
+          - {label: "Texto para encabezado", name: "heroText", widget: "text", required: false}
+          - {label: "Texto del link para encabezado", name: "heroCtaLink", widget: "string"}
+          - {label: "Link para encabezado", name: "heroCtaText", widget: "string"}
+          - {label: "Imagen para sección Calculadora Térmica", name: "calculatorImage", widget: "image"}
+          - {label: "Título para sección Calculadora Térmica", name: "calculatorTitle", widget: "string", hint: "Podés usar HTML en este campo."}
+          - {label: "Texto para sección Calculadora Térmica", name: "calculatorText", widget: "text", required: false, hint: "Opcional. Podés usar HTML en este campo."}
+          - label: "Botones para sección Calculadora Térmica"
+            name: "calculatorButtons"
             widget: "list"
-            max: 1
+            hint: "Máximo 2"
+            max: 2
             fields:
               - {label: Icono, name: icon, widget: boolean}
               - {label: Link, name: link, widget: string}
               - {label: Texto, name: text, widget: string}
               - {label: Color, name: color, widget: select, options: ["primary", "secondary", "transparent", "white"]}
-          - label: "Imagen sección dueños e inquilinos"
-            name: "ownersImage"
-            widget: "image"
-            choose_url: false
-            media_library:
-              config:
-                multiple: false
-          - {label: "Título sección dueños e inquilinos", name: "ownersTitle", widget: "string", hint: "Podés usar HTML en este campo"}
-          - label: "Botón para sección dueños e inquilinos"
-            name: "ownersButton"
-            widget: "list"
-            max: 1
-            fields:
-              - {label: Icono, name: icon, widget: boolean}
-              - {label: Link, name: link, widget: string}
-              - {label: Texto, name: text, widget: string}
-              - {label: Color, name: color, widget: select, options: ["primary", "secondary", "transparent", "white"]}
+          - {label: "Imagen para sección Homepage Profesionales", name: "professionalHomepageImage", widget: "image"}
+          - {label: "Título para sección Homepage Profesionales", name: "professionalHomepageTitle", widget: "string", hint: "Podés usar HTML en este campo."}
+          - {label: "Texto para sección Homepage Profesionales", name: "professionalHomepageText", widget: "text", required: false, hint: "Opcional. Podés usar HTML en este campo."}
+          - {label: "Imagen para sección Emprendedores", name: "entrepreneoursImage", widget: "image"}
+          - {label: "Título para sección Emprendedores", name: "entrepreneoursTitle", widget: "string", hint: "Podés usar HTML en este campo."}
+          - {label: "Texto para sección Emprendedores", name: "entrepreneoursText", widget: "text", required: false, hint: "Opcional. Podés usar HTML en este campo."}
+          - {label: "Imagen para sección Isoplus", name: "isoplusImage", widget: "image"}
+          - {label: "Título para sección Isoplus", name: "isoplusTitle", widget: "string", hint: "Podés usar HTML en este campo."}
+          - {label: "Texto para sección Isoplus", name: "isoplusText", widget: "text", required: false, hint: "Opcional. Podés usar HTML en este campo."}
+          - {label: "Texto del link para sección Isoplus", name: "isoplusCtaLink", widget: "string"}
+          - {label: "Link para sección Isoplus", name: "isoplusCtaText", widget: "string"}
       # About Page Structure
       - name: "aboutUs"
         label: "Nosotros"
@@ -776,99 +773,6 @@ collections:
           - {label: "Texto para encabezado", name: "heroText", widget: "text", required: false}
           - {label: "Texto del link para encabezado", name: "heroCtaLink", widget: "string"}
           - {label: "Link para encabezado", name: "heroCtaText", widget: "string"}
-  # Professional Pages Collection
-  - name: "professionals"
-    label: "Páginas para el Profesional"
-    files:
-      # Professional Homepage Structure
-      - name: "professionalHomepage"
-        label: "Homepage"
-        file: "content/professionals/homepage.md"
-        create: false
-        editor: 
-          preview: false
-        fields:
-          - {label: "Título de la página", name: "pageTitle", widget: "string", hint: "Este es el título que aparece en Google y la barra del navegador"}
-          - {label: "Video de fondo para encabezado", name: "heroVideoBackground", widget: "string", hint: "Opcional si se usa una imagen de fondo. Formato: https://www.youtube.com/watch?v=2oRlBmwKzy4", required: false}
-          - {label: "Imagen de fondo para encabezado", name: "heroVideoImage", widget: "image", hint: "Opcional si se usa un video de fondo", required: false}
-          - {label: "Imagen de fondo para encabezado mobile", name: "heroImageMobile", widget: "image", hint: "Opcional para cambiar la imagen de fondo en resoluciones mobile", required: false}
-          - {label: "Título para encabezado", name: "heroTitle", widget: "string"}
-          - {label: "Texto para encabezado", name: "heroText", widget: "text", required: false}
-          - {label: "Texto del link para encabezado", name: "heroCtaLink", widget: "string"}
-          - {label: "Link para encabezado", name: "heroCtaText", widget: "string"}
-          - {label: "Título para la sección Líneas de Producto", name: "productLinesTitle", widget: "string"}
-          - {label: "Título para la sección Soluciones", name: "solutionsTitle", widget: "string"}
-          - label: "Aislantes destacados"
-            name: "highlightedProducts"
-            widget: "relation"
-            collection: "products"
-            search_fields: ["name"]
-            value_field: "name"
-            display_fields: ["name"]
-            multiple: true
-          - {label: "Título para la sección Isoplus", name: "isoplusTitle", widget: "string", hint: "Podés usar HTML en este campo."}
-          - {label: "Texto para la sección Isoplus", name: "isoplusText", widget: "text", hint: "Podés usar HTML en este campo."}
-          - {label: "Texto del link para Isoplus", name: "isoplusCtaLink", widget: "string"}
-          - label: "Imagen para la sección Isoplus"
-            name: "isoplusImage"
-            widget: "image"
-            choose_url: false
-            media_library:
-              config:
-                multiple: false
-          - {label: "Título para la sección Servicio Técnico", name: "technicalServiceTitle", widget: "string", hint: "Podés usar HTML en este campo."}
-          - {label: "Texto para la sección Servicio Técnico", name: "technicalServiceText", widget: "text", hint: "Podés usar HTML en este campo."}
-          - label: "Servicios"
-            name: "services"
-            widget: "list"
-            fields:
-              - {label: Icono, name: icon, widget: image, choose_url: false}
-              - {label: Link, name: link, widget: string}
-              - {label: Título, name: title, widget: string}
-              - {label: Texto, name: text, widget: text}
-  # Owners Pages Collection
-  - name: "owners"
-    label: "Páginas para Dueños e Inquilinos"
-    files:
-      # Owners Homepage Structure
-      - name: "ownersHomepage"
-        label: "Homepage"
-        file: "content/owners/homepage.md"
-        create: false
-        editor: 
-          preview: false
-        fields:
-          - {label: "Título de la página", name: "pageTitle", widget: "string", hint: "Este es el título que aparece en Google y la barra del navegador"}
-          - {label: "Video de fondo para encabezado", name: "heroVideoBackground", widget: "string", hint: "Opcional si se usa una imagen de fondo. Formato: https://www.youtube.com/watch?v=2oRlBmwKzy4", required: false}
-          - {label: "Imagen de fondo para encabezado", name: "heroImageBackground", widget: "image", hint: "Opcional si se usa un video de fondo", required: false}
-          - {label: "Título para encabezado", name: "heroTitle", widget: "string"}
-          - {label: "Texto para encabezado", name: "heroText", widget: "text", required: false}
-          - {label: "Texto del link para encabezado", name: "heroCtaLink", widget: "string"}
-          - {label: "Link para encabezado", name: "heroCtaText", widget: "string"}
-          - {label: "Imagen para sección Calculadora Térmica", name: "calculatorImage", widget: "image"}
-          - {label: "Título para sección Calculadora Térmica", name: "calculatorTitle", widget: "string", hint: "Podés usar HTML en este campo."}
-          - {label: "Texto para sección Calculadora Térmica", name: "calculatorText", widget: "text", required: false, hint: "Opcional. Podés usar HTML en este campo."}
-          - label: "Botones para sección Calculadora Térmica"
-            name: "calculatorButtons"
-            widget: "list"
-            hint: "Máximo 2"
-            max: 2
-            fields:
-              - {label: Icono, name: icon, widget: boolean}
-              - {label: Link, name: link, widget: string}
-              - {label: Texto, name: text, widget: string}
-              - {label: Color, name: color, widget: select, options: ["primary", "secondary", "transparent", "white"]}
-          - {label: "Imagen para sección Homepage Profesionales", name: "professionalHomepageImage", widget: "image"}
-          - {label: "Título para sección Homepage Profesionales", name: "professionalHomepageTitle", widget: "string", hint: "Podés usar HTML en este campo."}
-          - {label: "Texto para sección Homepage Profesionales", name: "professionalHomepageText", widget: "text", required: false, hint: "Opcional. Podés usar HTML en este campo."}
-          - {label: "Imagen para sección Emprendedores", name: "entrepreneoursImage", widget: "image"}
-          - {label: "Título para sección Emprendedores", name: "entrepreneoursTitle", widget: "string", hint: "Podés usar HTML en este campo."}
-          - {label: "Texto para sección Emprendedores", name: "entrepreneoursText", widget: "text", required: false, hint: "Opcional. Podés usar HTML en este campo."}
-          - {label: "Imagen para sección Isoplus", name: "isoplusImage", widget: "image"}
-          - {label: "Título para sección Isoplus", name: "isoplusTitle", widget: "string", hint: "Podés usar HTML en este campo."}
-          - {label: "Texto para sección Isoplus", name: "isoplusText", widget: "text", required: false, hint: "Opcional. Podés usar HTML en este campo."}
-          - {label: "Texto del link para sección Isoplus", name: "isoplusCtaLink", widget: "string"}
-          - {label: "Link para sección Isoplus", name: "isoplusCtaText", widget: "string"}
   # Product Selector Pages Collection
   - name: "productSelector"
     label: "Páginas para el Selector de Producto"
