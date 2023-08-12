@@ -8,7 +8,7 @@ import Product from '../Product';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import styles from './HeroSlider.module.css';
+import styles from './Slider.module.css';
 
 import { standardTextClasses, boldTitleClasses, uppercaseTextClasses } from "../../classes/Text";
 import { horizontalPadding, verticalPadding } from "../../classes/Spacing";
@@ -68,7 +68,9 @@ export default function HighlightedProducts({
                         <Link
                           href={`/aislantes/${product.id}`}
                         >
-                          Conoc&eacute; m&aacute;s
+                          <a className="md:text-sm">
+                            Conoc&eacute; m&aacute;s
+                          </a>
                         </Link>
                       </div>
                     </div>

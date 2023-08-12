@@ -6,7 +6,7 @@ import Slider from "react-slick";
 // Styles
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import SliderStyles from '../Professionals/homepage/ProductLinesSlider.module.css';
+import SliderStyles from '../Home/Slider.module.css';
 
 // Classes
 import { fullBleedContainer } from "../../classes/Layout";

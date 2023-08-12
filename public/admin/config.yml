@@ -33,6 +33,7 @@ collections:
       - {label: "Título", name: "title", widget: "string"}
       - {label: "Descripción", name: "description", widget: "text", required: false}
       - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las líneas de producto en la pantalla"}
+      - { label: 'Color', name: 'color', widget: 'color', allowInput: true, hint: "Color distintivo de la linea de producto" }
       - label: "Imagen Principal"
         name: "mainImage"
         widget: "image"
@@ -484,6 +485,7 @@ collections:
           - label: "Contenido para slider superior"
             name: "heroSlider"
             widget: "list"
+            required: false
             hint: "Máximo 5"
             max: 5
             fields:
@@ -501,8 +503,13 @@ collections:
             value_field: "name"
             display_fields: ["name"]
             multiple: true
-          - {label: "Habilitar categorías?", name: "categoriasEnabled", widget: "boolean", default: true, required: false, hint: "Habilitar las categorías de producto (pisos, muros interiores y exteriores, techos)"}
-          - {label: "Título sección categorias", name: "categoriesTitle", widget: "string", hint: "Título para la sección categorías"}
+            required: false
+          - {label: "Habilitar categorías?", name: "categoriesEnabled", widget: "boolean", default: true, required: false, hint: "Habilitar las categorías de producto (pisos, muros interiores y exteriores, techos)"}
+          - {label: "Título sección categorias", name: "categoriesTitle", widget: "string", hint: "Título para la sección categorías", required: false}
+          - {label: "Habilitar Líneas de producto?", name: "productLinesEnabled", widget: "boolean", default: true, required: false, hint: "Habilitar las líneas de producto (vivienda, galpones, pisos, etc.)"}
+          - {label: "Título sección líneas de producto", name: "productLinesTitle", widget: "string", hint: "Título para la sección líneas de producto", required: false}
+          - {label: "Texto boton todos los productos", name: "productLinesCtaText", widget: "string", hint: "Texto para el boton de todos los productos", required: false}
+          - {label: "Link boton todos los productos", name: "productLinesCtaLink", widget: "string", hint: "Link para el boton de todos los productos", required: false}
       # About Page Structure
       - name: "aboutUs"
         label: "Nosotros"

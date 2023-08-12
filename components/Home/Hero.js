@@ -4,14 +4,14 @@ import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import styles from './HeroSlider.module.css';
+import styles from './Slider.module.css';
 
 import { fullBleedContainer } from "../../classes/Layout";
 import { horizontalPadding } from "../../classes/Spacing";
 
 import TitlePackage from "../TitlePackage";
 
-export default function HeroSlider({ slider }) {
+export default function Hero({ slider }) {
   
   const PrevArrow = (props) => {
     const { onClick } = props;

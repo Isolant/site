@@ -4,9 +4,11 @@ import slugify from 'react-slugify';
 
 // Components
 import Base from "../components/Base";
-import HeroSlider from "../components/Home/HeroSlider";
+import Hero from "../components/Home/Hero";
 import HighlightedProducts from "../components/Home/HighlightedProducts";
 import Categories from "../components/Home/Categories";
+import ProductLines from "../components/Home/ProductLines";
+import TechnicalService from "../components/Home/TechnicalService";
 import FullScreenSlider from '../components/Layout/FullScreenSlider';
 import HalfScreenSection from '../components/Layout/HalfScreenSection';
 import FullScreenSection from '../components/Layout/FullScreenSection';
@@ -21,7 +23,7 @@ import { attributes } from "../content/homepage.md";
 import {ReactComponent as Dots} from '../public/images/misc/dots.svg';
 import {ReactComponent as Circle} from '../public/images/misc/circle.svg';
 
-export default function Homepage({ productLinesData, highlightedProductsData, categoriesData, productSelectorTypesData }) {
+export default function Homepage({ highlightedProductsData, categoriesData, productLinesData, productSelectorTypesData }) {
   let {
     pageTitle,
     sliderEnabled,
@@ -29,6 +31,14 @@ export default function Homepage({ productLinesData, highlightedProductsData, ca
     highlightedProductsEnabled,
     categoriesEnabled,
     categoriesTitle,
+    productLinesEnabled,
+    productLinesTitle,
+    productLinesCtaText,
+    productLinesCtaLink,
+    technicalServiceEnabled,
+    technicalServiceTitle,
+    technicalServiceText,
+    services
   } = attributes;
 
   return (
@@ -39,7 +49,7 @@ export default function Homepage({ productLinesData, highlightedProductsData, ca
       productLines={productLinesData}
     >
       {sliderEnabled &&
-        <HeroSlider
+        <Hero
           slider={heroSlider}
         />
       }
@@ -52,6 +62,21 @@ export default function Homepage({ productLinesData, highlightedProductsData, ca
         <Categories
           title={categoriesTitle}
           categories={categoriesData}
+        />
+      }
+      {productLinesEnabled &&
+        <ProductLines
+          title={productLinesTitle}
+          productLines={productLinesData}
+          ctaText={productLinesCtaText}
+          ctaLink={productLinesCtaLink}
+        />
+      }
+      {technicalServiceEnabled &&
+        <TechnicalService
+          title={technicalServiceTitle}
+          text={technicalServiceText}
+          services={services}
         />
       }
       {/* <HalfScreenSection

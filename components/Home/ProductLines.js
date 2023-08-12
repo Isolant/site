@@ -1,22 +1,20 @@
-// Globals
 import React from "react";
+import Link from "next/link";
 import Slider from "react-slick";
 
-// Styles
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import SliderStyles from './ProductLinesSlider.module.css';
+import styles from './ProductLines.module.css';
 
-// Components
-import ProductLineCard from '../../Cards/ProductLineCard';
+import ProductLineCard from '../Cards/ProductLineCard';
 
-// Classes
-import { boldSubtitleClasses } from "../../../classes/Text";
-import { verticalPadding } from "../../../classes/Spacing";
+import { boldSubtitleClasses, uppercaseTextClasses } from "../../classes/Text";
 
 export default function ProductLines({
   title,
-  productLines
+  productLines,
+  ctaText,
+  ctaLink
 }) {
 
   const settings = {
@@ -27,7 +25,7 @@ export default function ProductLines({
     slidesToShow: 3,
     slidesToScroll: 1,
     centerMode: true,
-    className: SliderStyles.Slider,
+    className: styles.Slider,
     adaptiveHeight: true,
     draggable: true,
     responsive: [
@@ -47,12 +45,23 @@ export default function ProductLines({
   };
 
   return (
-    <div className={`${verticalPadding} mx-auto container`}>
-      <h3
-        className={`${boldSubtitleClasses} px-4 md:px-6 lg:px-8 xl:px-0 text-gray-800 pb-4 sm:pb-6`}
-      >
-        {title}
-      </h3>
+    <div className="pt-12 sm:pt-16 md:pt-24 bg-gray-100 -mt-32 md:-mt-48">
+      <div className="pt-24 px-4 md:px-6 lg:px-8 xl:px-0 flex flex-col md:flex-row items-baseline justify-between mx-auto container mb-6 xl:mb-8">
+        <h3
+          className={`${boldSubtitleClasses} text-gray-800 pb-2 sm:pb-6`}
+        >
+          {title}
+        </h3>
+        <Link
+          href={ctaLink}
+        >
+          <a
+            className={`${uppercaseTextClasses} text-primary hover:opacity-80 transition ease-in-out duration-100`}
+          >
+            {ctaText}
+          </a>
+        </Link>
+      </div>
       <Slider
         {...settings} 
       >

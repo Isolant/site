@@ -1,6 +1,6 @@
 /* General styles for arrows */
 .Slider button[data-role="none"], .SolutionsSlider button[data-role="none"] {
-  @apply z-10 from-gray-800 h-full px-4 w-auto;
+  @apply z-10 from-gray-800 h-full px-2 md:px-4 w-auto;
 }
 
 /* Right arrow */
@@ -29,7 +29,7 @@
 
 .ProductsSliderDots button, .SolutionsSliderDots button {
   font-size: 0;
-  @apply w-8 border-b border-gray-500 pt-8;
+  @apply w-4 md:w-8 border-b border-gray-500 pt-8;
 }
 
 .ProductsSliderDots li[class="slick-active"] button, .SolutionsSliderDots li[class="slick-active"] button {
