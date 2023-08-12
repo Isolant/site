@@ -6,6 +6,7 @@ import slugify from 'react-slugify';
 import Base from "../components/Base";
 import HeroSlider from "../components/Home/HeroSlider";
 import HighlightedProducts from "../components/Home/HighlightedProducts";
+import Categories from "../components/Home/Categories";
 import FullScreenSlider from '../components/Layout/FullScreenSlider';
 import HalfScreenSection from '../components/Layout/HalfScreenSection';
 import FullScreenSection from '../components/Layout/FullScreenSection';
@@ -20,10 +21,14 @@ import { attributes } from "../content/homepage.md";
 import {ReactComponent as Dots} from '../public/images/misc/dots.svg';
 import {ReactComponent as Circle} from '../public/images/misc/circle.svg';
 
-export default function Homepage({ productLinesData, highlightedProductsData, productSelectorTypesData }) {
+export default function Homepage({ productLinesData, highlightedProductsData, categoriesData, productSelectorTypesData }) {
   let {
     pageTitle,
+    sliderEnabled,
     heroSlider,
+    highlightedProductsEnabled,
+    categoriesEnabled,
+    categoriesTitle,
   } = attributes;
 
   return (
@@ -33,12 +38,22 @@ export default function Homepage({ productLinesData, highlightedProductsData, pr
       footerDecorations={false}
       productLines={productLinesData}
     >
-      <HeroSlider
-        slider={heroSlider}
-      />
-      <HighlightedProducts
-        products={highlightedProductsData}
-      />
+      {sliderEnabled &&
+        <HeroSlider
+          slider={heroSlider}
+        />
+      }
+      {highlightedProductsEnabled &&
+        <HighlightedProducts
+          products={highlightedProductsData}
+        />
+      }
+      {categoriesEnabled &&
+        <Categories
+          title={categoriesTitle}
+          categories={categoriesData}
+        />
+      }
       {/* <HalfScreenSection
         image={calculatorImage}
         imagePosition={"left"}
@@ -107,13 +122,15 @@ export default function Homepage({ productLinesData, highlightedProductsData, pr
 export async function getStaticProps() {
   const productSelectorTypesData = getAllCollections("productSelector/types");
   const productLinesData = getAllCollections("productLines");
+  const categoriesData = getAllCollections("categories");
   const highlightedProductsData = attributes.highlightedProducts.map(product => getCollectionById("products", slugify(product)));
 
   return {
     props: {
       productLinesData,
-      productSelectorTypesData,
       highlightedProductsData,
+      categoriesData,
+      productSelectorTypesData,
     },
   };
 }

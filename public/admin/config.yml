@@ -3,8 +3,25 @@ backend:
   branch: main
 media_folder: "public/images"
 public_folder: "images"
-# publish_mode: editorial_workflow
 collections:
+  # Categories Collection
+  - name: "categories"
+    label: "Categorías"
+    folder: "content/categories"
+    create: true
+    editor: 
+      preview: false 
+    fields:
+      - {label: "Título", name: "title", widget: "string", hint: "Título de la categoría"}
+      - {label: "Descripción", name: "description", widget: "text", required: false, hint: "Descripción de la categoría"}
+      - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las categorías en la pantalla"}
+      - label: "Icono"
+        name: "icon"
+        widget: "image"
+        choose_url: false
+        media_library:
+          config:
+            multiple: false
   # Product Lines Collection
   - name: "productLines"
     label: "Líneas de Producto"
@@ -463,6 +480,7 @@ collections:
           preview: false
         fields:
           - {label: "Título de la página", name: "pageTitle", widget: "string", hint: "Este es el título que aparece en Google y la barra del navegador"}
+          - {label: "Habilitar slider superior?", name: "sliderEnabled", widget: "boolean", default: true, required: false, hint: "Habilitar el slider principal"}
           - label: "Contenido para slider superior"
             name: "heroSlider"
             widget: "list"
@@ -474,6 +492,7 @@ collections:
               - {label: Texto, name: text, widget: string, hint: "Texto para el slide"}
               - {label: Texto para botón, name: ctaText, widget: string, hint: "Texto para el botón del slide"}
               - {label: URL para botón, name: ctaLink, widget: string, hint: "URL a la que lleva el botón del slide"}
+          - {label: "Habilitar aislantes destacados?", name: "highlightedProductsEnabled", widget: "boolean", default: true, required: false, hint: "Habilitar los productos destacados"}
           - label: "Aislantes destacados"
             name: "highlightedProducts"
             widget: "relation"
@@ -482,6 +501,8 @@ collections:
             value_field: "name"
             display_fields: ["name"]
             multiple: true
+          - {label: "Habilitar categorías?", name: "categoriasEnabled", widget: "boolean", default: true, required: false, hint: "Habilitar las categorías de producto (pisos, muros interiores y exteriores, techos)"}
+          - {label: "Título sección categorias", name: "categoriesTitle", widget: "string", hint: "Título para la sección categorías"}
       # About Page Structure
       - name: "aboutUs"
         label: "Nosotros"

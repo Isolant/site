@@ -1,18 +1,14 @@
-// Globals
 import React from "react";
 import Image from 'next/image';
 import Slider from "react-slick";
 
-// Styles
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styles from './HeroSlider.module.css';
 
-// Classes
 import { fullBleedContainer } from "../../classes/Layout";
 import { horizontalPadding } from "../../classes/Spacing";
 
-// Components
 import TitlePackage from "../TitlePackage";
 
 export default function HeroSlider({ slider }) {
