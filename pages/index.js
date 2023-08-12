@@ -1,15 +1,17 @@
 // Globals
 import React from 'react';
+import slugify from 'react-slugify';
 
 // Components
 import Base from "../components/Base";
 import HeroSlider from "../components/Home/HeroSlider";
+import HighlightedProducts from "../components/Home/HighlightedProducts";
 import FullScreenSlider from '../components/Layout/FullScreenSlider';
 import HalfScreenSection from '../components/Layout/HalfScreenSection';
 import FullScreenSection from '../components/Layout/FullScreenSection';
 
 // Library
-import { getAllCollections } from "../lib/collections";
+import { getAllCollections, getCollectionById } from "../lib/collections";
 
 // Content
 import { attributes } from "../content/homepage.md";
@@ -18,7 +20,7 @@ import { attributes } from "../content/homepage.md";
 import {ReactComponent as Dots} from '../public/images/misc/dots.svg';
 import {ReactComponent as Circle} from '../public/images/misc/circle.svg';
 
-export default function Homepage({ productLinesData, productSelectorTypesData }) {
+export default function Homepage({ productLinesData, highlightedProductsData, productSelectorTypesData }) {
   let {
     pageTitle,
     heroSlider,
@@ -33,6 +35,9 @@ export default function Homepage({ productLinesData, productSelectorTypesData })
     >
       <HeroSlider
         slider={heroSlider}
+      />
+      <HighlightedProducts
+        products={highlightedProductsData}
       />
       {/* <HalfScreenSection
         image={calculatorImage}
@@ -102,11 +107,13 @@ export default function Homepage({ productLinesData, productSelectorTypesData })
 export async function getStaticProps() {
   const productSelectorTypesData = getAllCollections("productSelector/types");
   const productLinesData = getAllCollections("productLines");
+  const highlightedProductsData = attributes.highlightedProducts.map(product => getCollectionById("products", slugify(product)));
 
   return {
     props: {
       productLinesData,
       productSelectorTypesData,
+      highlightedProductsData,
     },
   };
 }

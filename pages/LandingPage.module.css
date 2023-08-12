@@ -1,7 +1,0 @@
-.Container {
-  min-height: 80vh;
-}
-
-.Container strong {
-  @apply block;
-}

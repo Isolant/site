@@ -60,11 +60,11 @@ export default function HeroSlider({ slider }) {
 
   return (
     <section
-      className="relative lg:flex lg:items-center lg:flex-row min-h-screen"
+      className="relative lg:flex lg:items-center lg:flex-row"
     >
       <Slider
         {...settings} 
-        className="w-full relative"
+        className="w-full lg:h-screen relative"
       >
         {slider
           .map((content, index) => {

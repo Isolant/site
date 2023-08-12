@@ -474,6 +474,14 @@ collections:
               - {label: Texto, name: text, widget: string, hint: "Texto para el slide"}
               - {label: Texto para botón, name: ctaText, widget: string, hint: "Texto para el botón del slide"}
               - {label: URL para botón, name: ctaLink, widget: string, hint: "URL a la que lleva el botón del slide"}
+          - label: "Aislantes destacados"
+            name: "highlightedProducts"
+            widget: "relation"
+            collection: "products"
+            search_fields: ["name"]
+            value_field: "name"
+            display_fields: ["name"]
+            multiple: true
       # About Page Structure
       - name: "aboutUs"
         label: "Nosotros"
