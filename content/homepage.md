@@ -83,6 +83,8 @@ otherServicesSlider:
     ctaText: Comprá online
     ctaLink: https://www.tienda.isolant.com.ar
 contactFormEnabled: true
+contactFormTitle: ¿Qué necesitás aislar en tu obra?
+contactFormText: Contanos las características principales de tu obra para que podamos recomendarte el mejor aislante.
 instagramSlider:
   - image: /images/homepage/instagram/slide-1.jpg
     link: https://www.instagram.com

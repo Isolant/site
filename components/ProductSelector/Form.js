@@ -11,7 +11,7 @@ import Input from '../Forms/Input';
 import { boldTitleClasses, standardTextClasses } from "../../classes/Text";
 import { horizontalPadding } from "../../classes/Spacing";
 
-export default function ProductSelectorForm({ formTitle, formDescription, formCtaText, ctaIcon, productSelectorTypes }) {
+export default function ProductSelectorForm({ theme, formTitle, formDescription, formCtaText, ctaIcon, productSelectorTypes }) {
   // Initialize state and refs
   const [categoryContent, setCategoryContent] = useState([{}]);
   const [typologyContent, setTypologyContent] = useState([{}]);
@@ -97,11 +97,11 @@ export default function ProductSelectorForm({ formTitle, formDescription, formCt
 
   return (
     <React.Fragment>
-      <div className={`${horizontalPadding} relative xl:absolute container mt-4 lg:mt-0 py-4 lg:py-24 lg:pb-0 lg:right-0 w-full lg:max-w-3xl`}>
-        <div className="bg-gray-800 rounded-md p-4 xl:p-8">
-          <div className="lg:text-center">
+      <div className={`${horizontalPadding} relative xl:absolute container mt-4 lg:mt-0 py-4 lg:py-24 lg:pb-0 lg:right-0 w-full`}>
+        <div className={`${theme === 'light' ? '' : 'bg-gray-800 p-4 xl:p-8'} rounded-md`}>
+          <div>
             <h2
-              className={`${boldTitleClasses} text-white`}
+              className={`${boldTitleClasses} ${theme === 'light' ? 'text-gray-800' : 'text-white'}`}
             >
               {formTitle}
             </h2>
@@ -128,7 +128,7 @@ export default function ProductSelectorForm({ formTitle, formDescription, formCt
                   options={typeOptions}
                   onChangeMethod={() => filterCategoryContent()}
                   required={true}
-                  theme="dark"
+                  theme="light"
                 />
               </li>
               <li>
@@ -139,7 +139,7 @@ export default function ProductSelectorForm({ formTitle, formDescription, formCt
                   options={categoryContent}
                   onChangeMethod={() => filterTypologyContent()}
                   required={true}
-                  theme="dark"
+                  theme="light"
                 />
               </li>
               <li>
@@ -149,7 +149,7 @@ export default function ProductSelectorForm({ formTitle, formDescription, formCt
                   reference={typologyRef}
                   options={typologyContent}
                   required={true}
-                  theme="dark"
+                  theme="light"
                 />
               </li>
               <li>
@@ -158,7 +158,7 @@ export default function ProductSelectorForm({ formTitle, formDescription, formCt
                   labelText="m2 (aproximados):"
                   reference={m2Ref}
                   required={true}
-                  theme="dark"
+                  theme="light"
                   placeholder="Elegí una opción"
                   options={[
                     {
@@ -187,7 +187,7 @@ export default function ProductSelectorForm({ formTitle, formDescription, formCt
                   reference={areaCodeRef}
                   required={true}
                   type="text"
-                  theme="dark"
+                  theme="light"
                   placeholder="Sin el 0. Ej.: 11"
                   minLength={2}
                   maxLength={4}
@@ -199,7 +199,7 @@ export default function ProductSelectorForm({ formTitle, formDescription, formCt
                   reference={phoneRef}
                   required={true}
                   type="text"
-                  theme="dark"
+                  theme="light"
                   placeholder="Ej.: 12341234"
                   validation="[0-9]{7,}"
                   minLength={7}

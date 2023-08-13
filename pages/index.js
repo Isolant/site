@@ -2,6 +2,9 @@ import React from 'react';
 import slugify from 'react-slugify';
 
 import Base from "../components/Base";
+import TitlePackage from '../components/TitlePackage';
+import ProductSelectorForm from '../components/ProductSelector/Form';
+
 import Hero from "../components/Home/Hero";
 import HighlightedProducts from "../components/Home/HighlightedProducts";
 import Categories from "../components/Home/Categories";
@@ -37,6 +40,8 @@ export default function Homepage({ highlightedProductsData, categoriesData, prod
     otherServicesTitle,
     otherServicesSlider,
     contactFormEnabled,
+    contactFormTitle,
+    contactFormText,
     instagramSlider
   } = attributes;
 
@@ -93,16 +98,23 @@ export default function Homepage({ highlightedProductsData, categoriesData, prod
           `}
         >
           <div
-            className="w-full h-96 md:h-screen relative"
+            className="w-full h-96 md:h-screen relative overflow-x-hidden"
           >
             <InstagramSlider
               slider={instagramSlider}
             />
           </div>
           <div
-            className={`${horizontalPadding} relative flex flex-col justify-center items-start max-w-2xl`}
+            className="relative flex flex-col justify-center items-start"
           >
-            qua
+            <ProductSelectorForm
+              theme="light"
+              formTitle={contactFormTitle}
+              formDescription={contactFormText}
+              formCtaText="Comenzar"
+              ctaIcon={true}
+              productSelectorTypes={productSelectorTypesData}
+            />
           </div>
         </section>
       }

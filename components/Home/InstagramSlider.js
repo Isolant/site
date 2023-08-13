@@ -29,12 +29,12 @@ export default function InstagramSlider({
         className="w-[420px] h-[495px] relative scale-50 md:scale-100"
       >
         <div
-          className="bg-no-repeat bg-contain absolute w-full h-full z-10 -left-7 md:left-0"
+          className="bg-no-repeat bg-contain absolute w-full h-full z-10"
           style={{ backgroundImage: 'url("/images/homepage/instagram/frame.png")' }}
         />
         <Slider
           {...settings}
-          className={`${styles.Slider} w-10/12 md:left-7 md:top-4 top-2`}
+          className={`${styles.Slider} w-10/12 left-7 md:top-4 top-2`}
         >
           {slider
             .map((slide, index) => {
