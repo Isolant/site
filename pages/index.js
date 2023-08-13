@@ -8,11 +8,14 @@ import Categories from "../components/Home/Categories";
 import ProductLines from "../components/Home/ProductLines";
 import TechnicalService from "../components/Home/TechnicalService";
 import OtherServices from "../components/Home/OtherServices";
-import HalfScreenSection from '../components/Layout/HalfScreenSection';
+import InstagramSlider from '../components/Home/InstagramSlider';
 
 import { getAllCollections, getCollectionById } from "../lib/collections";
 
 import { attributes } from "../content/homepage.md";
+
+import { fullBleedContainer } from '../classes/Layout';
+import { horizontalPadding, verticalPadding } from '../classes/Spacing';
 
 export default function Homepage({ highlightedProductsData, categoriesData, productLinesData, productSelectorTypesData }) {
   let {
@@ -32,7 +35,9 @@ export default function Homepage({ highlightedProductsData, categoriesData, prod
     services,
     otherServicesEnabled,
     otherServicesTitle,
-    otherServicesSlider
+    otherServicesSlider,
+    contactFormEnabled,
+    instagramSlider
   } = attributes;
 
   return (
@@ -79,67 +84,28 @@ export default function Homepage({ highlightedProductsData, categoriesData, prod
           services={otherServicesSlider}
         />
       }
-      {/* <HalfScreenSection
-        image={calculatorImage}
-        imagePosition={"left"}
-        title={calculatorTitle}
-        text={calculatorText}
-        buttons={calculatorButtons}
-        theme="light"
-        height="full"
-      >
-        <Dots
-          className="text-gray-500 fill-current transform -rotate-180 absolute top-4 left-4 hidden lg:block"
-        />
-        <Dots
-          className="text-gray-500 fill-current absolute bottom-4 right-4 hidden lg:block"
-        />
-      </HalfScreenSection>
-      <HalfScreenSection
-        image={isoplusImage}
-        title={isoplusTitle}
-        text={isoplusText}
-        buttons={isoplusButton}
-        imagePosition={"right"}
-        theme="light"
-        height="full"
-      >
-        <Dots
-          className="text-gray-500 fill-current transform -rotate-180 absolute top-4 left-4 hidden lg:block"
-        />
-        <Dots
-          className="text-gray-500 fill-current absolute bottom-4 right-4 hidden lg:block"
-        />
-      </HalfScreenSection>
-      <HalfScreenSection
-        image={entrepreneoursImage}
-        imagePosition={"left"}
-        title={entrepreneoursTitle}
-        text={entrepreneoursText}
-        buttons={entrepreneoursButton}
-        theme="light"
-        height="full"
-      >
-        <Dots
-          className="text-gray-500 fill-current transform -rotate-180 absolute top-4 left-4 hidden lg:block"
-        />
-        <Dots
-          className="text-gray-500 fill-current absolute bottom-4 right-4 hidden lg:block"
-        />
-      </HalfScreenSection>
-      <FullScreenSection
-        image={professionalHomepageImage}
-        imagePosition={"right"}
-        title={professionalHomepageTitle}
-        text={professionalHomepageText}
-        buttons={professionalHomepageButton}
-        theme="dark"
-        height="full"
-        layout="boxed"
-      >
-        <Dots className="hidden lg:block absolute left-4 xl:left-16 bottom-4 xl:-bottom-8 text-gray-100 fill-current z-10 transform rotate-90" />
-        <Circle className="hidden lg:block absolute right-4 xl:right-16 -bottom-8 text-red-200 fill-current z-10" />
-      </FullScreenSection> */}
+      {contactFormEnabled &&
+        <section
+          className={`
+            ${fullBleedContainer}
+            relative grid lg:grid-cols-2
+            bg-white
+          `}
+        >
+          <div
+            className="w-full h-96 md:h-screen relative"
+          >
+            <InstagramSlider
+              slider={instagramSlider}
+            />
+          </div>
+          <div
+            className={`${horizontalPadding} relative flex flex-col justify-center items-start max-w-2xl`}
+          >
+            qua
+          </div>
+        </section>
+      }
     </Base>
   )
 }

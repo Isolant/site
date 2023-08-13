@@ -82,4 +82,12 @@ otherServicesSlider:
     text: Comprá directo Isolant con envío a domicilio o retiro en Pick up points.
     ctaText: Comprá online
     ctaLink: https://www.tienda.isolant.com.ar
+contactFormEnabled: true
+instagramSlider:
+  - image: /images/homepage/instagram/slide-1.jpg
+    link: https://www.instagram.com
+  - image: /images/homepage/instagram/slide-2.jpg
+    link: https://www.instagram.com
+  - image: /images/homepage/instagram/slide-3.jpg
+    link: https://www.instagram.com
 ---

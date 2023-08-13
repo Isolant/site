@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css";
@@ -8,7 +7,7 @@ import styles from './OtherServices.module.css';
 
 import OtherServicesCard from '../Cards/OtherServicesCard';
 
-import { boldSubtitleClasses, uppercaseTextClasses } from "../../classes/Text";
+import { boldSubtitleClasses } from "../../classes/Text";
 
 export default function OtherServices({
   title,

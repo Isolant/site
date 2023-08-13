@@ -522,6 +522,14 @@ collections:
               - {label: Texto, name: text, widget: string, hint: "Texto para el slide"}
               - {label: Texto para botón, name: ctaText, widget: string, hint: "Texto para el botón del slide"}
               - {label: URL para botón, name: ctaLink, widget: string, hint: "URL a la que lleva el botón del slide"}
+          - {label: "Habilitar formulario de contacto?", name: "contactFormEnabled", widget: "boolean", default: true, required: false, hint: "Habilitar el formulario de contacto"}
+          - label: "Contenido para slider Instagram"
+            name: "instagramSlider"
+            widget: "list"
+            required: false
+            fields:
+              - {label: Imagen, name: image, widget: image, hint: "Imagen de fondo"}
+              - {label: URL de Instagram, name: link, widget: string, hint: "La URL a la que el usuario será dirigido al clickear"}
       # About Page Structure
       - name: "aboutUs"
         label: "Nosotros"
