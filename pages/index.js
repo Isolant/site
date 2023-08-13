@@ -1,27 +1,18 @@
-// Globals
 import React from 'react';
 import slugify from 'react-slugify';
 
-// Components
 import Base from "../components/Base";
 import Hero from "../components/Home/Hero";
 import HighlightedProducts from "../components/Home/HighlightedProducts";
 import Categories from "../components/Home/Categories";
 import ProductLines from "../components/Home/ProductLines";
 import TechnicalService from "../components/Home/TechnicalService";
-import FullScreenSlider from '../components/Layout/FullScreenSlider';
+import OtherServices from "../components/Home/OtherServices";
 import HalfScreenSection from '../components/Layout/HalfScreenSection';
-import FullScreenSection from '../components/Layout/FullScreenSection';
 
-// Library
 import { getAllCollections, getCollectionById } from "../lib/collections";
 
-// Content
 import { attributes } from "../content/homepage.md";
-
-// SVGs
-import {ReactComponent as Dots} from '../public/images/misc/dots.svg';
-import {ReactComponent as Circle} from '../public/images/misc/circle.svg';
 
 export default function Homepage({ highlightedProductsData, categoriesData, productLinesData, productSelectorTypesData }) {
   let {
@@ -38,7 +29,10 @@ export default function Homepage({ highlightedProductsData, categoriesData, prod
     technicalServiceEnabled,
     technicalServiceTitle,
     technicalServiceText,
-    services
+    services,
+    otherServicesEnabled,
+    otherServicesTitle,
+    otherServicesSlider
   } = attributes;
 
   return (
@@ -77,6 +71,12 @@ export default function Homepage({ highlightedProductsData, categoriesData, prod
           title={technicalServiceTitle}
           text={technicalServiceText}
           services={services}
+        />
+      }
+      {otherServicesEnabled &&
+        <OtherServices
+          title={otherServicesTitle}
+          services={otherServicesSlider}
         />
       }
       {/* <HalfScreenSection

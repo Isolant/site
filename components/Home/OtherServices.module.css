@@ -1,0 +1,13 @@
+/* General styles for arrows */
+.Slider button[data-role="none"] {
+  @apply z-10 from-gray-100 h-full px-2 md:px-6 w-auto right-0 bg-gradient-to-l;
+}
+
+.Slider button[data-role="none"]::before {
+  @apply text-gray-500;
+}
+
+/* Left arrow */
+.Slider > button[data-role="none"]:first-child {
+  @apply left-0 right-auto bg-gradient-to-r;
+}

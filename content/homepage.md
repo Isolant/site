@@ -59,4 +59,27 @@ services:
     title: Biblioteca BIM
     text: Descargate nuestra biblioteca BIM para simplificar el diseño y presupuesto de tus proyectos.
     link: /servicios#bim
+otherServicesEnabled: true
+otherServicesTitle: Más productos y servicios
+otherServicesSlider:
+  - image: /images/homepage/other-services/slide-1.jpg
+    title: Isolant Plus
+    text: "Registrate y empezá a ganar premios con la instalación de cada rollo de aislante Isolant: ¡Es fácil y gratis!"
+    ctaText: Registrate
+    ctaLink: https://www.isoplus.isolant.com.ar
+  - image: /images/homepage/other-services/slide-2.jpg
+    title: Sustentabilidad
+    text: Nuestros productos son amigables con el medio ambiente y ecológicos. Conocé más debajo.
+    ctaText: Sustentabilidad
+    ctaLink: /sustentabilidad
+  - image: /images/homepage/other-services/slide-3.jpg
+    title: Emprendedores
+    text: ¿Tenés un producto para la construcción que impulse nuestra filosofía de Triple Impacto? Escribinos!
+    ctaText: Contactanos
+    ctaLink: /contacto
+  - image: /images/homepage/other-services/slide-4.jpg
+    title: Tienda online
+    text: Comprá directo Isolant con envío a domicilio o retiro en Pick up points.
+    ctaText: Comprá online
+    ctaLink: https://www.tienda.isolant.com.ar
 ---

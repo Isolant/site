@@ -510,6 +510,18 @@ collections:
           - {label: "Título sección líneas de producto", name: "productLinesTitle", widget: "string", hint: "Título para la sección líneas de producto", required: false}
           - {label: "Texto boton todos los productos", name: "productLinesCtaText", widget: "string", hint: "Texto para el boton de todos los productos", required: false}
           - {label: "Link boton todos los productos", name: "productLinesCtaLink", widget: "string", hint: "Link para el boton de todos los productos", required: false}
+          - {label: "Habilitar slider servicios?", name: "otherServicesEnabled", widget: "boolean", default: true, required: false, hint: "Habilitar el slider de otros servicios"}
+          - {label: "Título sección slider servicios", name: "otherServicesTitle", widget: "string", hint: "Título para la sección otros servicios", required: false}
+          - label: "Contenido para slider superior"
+            name: "otherServicesSlider"
+            widget: "list"
+            required: false
+            fields:
+              - {label: Imagen, name: image, widget: image, hint: "Imagen de fondo"}
+              - {label: Titulo, name: title, widget: string, hint: "Título para el slide"}
+              - {label: Texto, name: text, widget: string, hint: "Texto para el slide"}
+              - {label: Texto para botón, name: ctaText, widget: string, hint: "Texto para el botón del slide"}
+              - {label: URL para botón, name: ctaLink, widget: string, hint: "URL a la que lleva el botón del slide"}
       # About Page Structure
       - name: "aboutUs"
         label: "Nosotros"

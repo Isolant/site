@@ -18,7 +18,7 @@ export default function TechnicalService({
   return (
     <React.Fragment>
       <section
-        className={`pt-12 sm:pt-16 md:pt-24 -mt-12 bg-no-repeat bg-cover ${isExpanded === false ? 'overflow-y-hidden max-h-screen lg:max-h-full' : ''}`}
+        className={`pt-12 sm:pt-16 md:pt-24 -mt-12 pb-24 bg-no-repeat bg-cover ${isExpanded === false ? 'overflow-y-hidden max-h-screen lg:max-h-full' : ''}`}
         style={{ backgroundImage: `url(/images/globals/isolant-aislantes-fondo-lineas-oscuras.jpg)`}}
       >
         <div className={`${horizontalPadding} pt-12 mx-auto container text-center text-white mb-4 sm:mb-8`}>
@@ -31,7 +31,7 @@ export default function TechnicalService({
           />
         </div>
         <ul
-          className={`${horizontalPadding} pt-4 md:pt-8 lg:pt-12 mx-auto container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-12 gap-x-4 gap-y-8 sm:gap-y-12`}
+          className={`${horizontalPadding} py-4 md:py-8 lg:py-12 mx-auto container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-12 gap-x-4 gap-y-8 sm:gap-y-12`}
         >
           {services.map((service, index) => {
             return(
