@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import Base from '../components/Base';
 import Header from '../components/Header';
@@ -11,12 +11,16 @@ import { verticalPadding } from '../classes/Spacing';
 
 import { attributes } from "../content/products.md";
 
-export default function Products({ productLinesData, categoriesData, subcategoriesData }) {
+import styles from "./productos.module.css";
+
+export default function Products({ productLinesData, productsData, categoriesData, subcategoriesData }) {
   let {
     pageTitle,
     productsImage,
     productsTitle
   } = attributes;
+
+  const [ activeProducts, setActiveProducts ] = useState(productsData);
 
   return (
     <Base
@@ -32,14 +36,18 @@ export default function Products({ productLinesData, categoriesData, subcategori
         title={productsTitle}
         theme="dark"
         layout="centered"
-        classes={`flex gap-3 ${verticalPadding}`}
+        classes={`${styles.Title} ${verticalPadding}`}
       />
-      <section className={`grid md:grid-cols-2 lg:grid-cols-3 gap-4 container mx-auto px-4 ${verticalPadding}`}>
+      <section className={`grid md:grid-cols-3 lg:grid-cols-12 gap-4 container mx-auto px-4 ${verticalPadding}`}>
         <Filters
           productLines={productLinesData}
           categories={categoriesData}
           subcategories={subcategoriesData}
+          allProducts={productsData}
+          activeProducts={activeProducts}
+          setActiveProducts={setActiveProducts}
         />
+        {activeProducts.map(product => <p>{product.name}</p>)}
       </section>
     </Base>
   )
@@ -47,12 +55,14 @@ export default function Products({ productLinesData, categoriesData, subcategori
 
 export async function getStaticProps() {
   const productLinesData = getAllCollections("productLines");
+  const productsData = getAllCollections("products");
   const categoriesData = getAllCollections("categories");
   const subcategoriesData = getAllCollections("subcategories");
 
   return {
     props: {
       productLinesData,
+      productsData,
       categoriesData,
       subcategoriesData,
     },
