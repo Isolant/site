@@ -3,7 +3,7 @@ title: Galpones y Tinglados
 description: La aislación térmica que tu galpón necesita
 order: 2
 mainImage: /images/product-lines/isolant-aislantes-lineas-de-producto-galpones-tinglados.jpg
-color: '#FFFFFF'
+color: '#076633'
 products:
   - Alu Stark NET
   - Doble Alu NET

@@ -3,7 +3,7 @@ title: Vivienda
 description: Impermeabilizan y aíslan térmicamente tu casa con un sólo producto
 order: 1
 mainImage: /images/product-lines/isolant-aislantes-lineas-de-producto-vivienda.jpg
-color: '#FFFFFF'
+color: '#0F70B7'
 products:
   - Super TBA
   - Alu Fusión NET

@@ -4,7 +4,7 @@ description: Los aislantes termo acústicos más prácticos y rápidos para tu o
   de construcción en seco
 order: 3
 mainImage: /images/product-lines/isolant-aislantes-lineas-de-producto-construccion-en-seco.jpg
-color: '#FFFFFF'
+color: '#8F1315'
 products:
   - Super TBA
   - Imperfoil
