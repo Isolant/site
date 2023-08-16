@@ -21,6 +21,7 @@ export default function Products({ productLinesData, productsData, categoriesDat
   } = attributes;
 
   const [ activeProducts, setActiveProducts ] = useState(productsData);
+  const [ activeCategory, setActiveCategory ] = useState("");
 
   return (
     <Base
@@ -44,10 +45,9 @@ export default function Products({ productLinesData, productsData, categoriesDat
           categories={categoriesData}
           subcategories={subcategoriesData}
           allProducts={productsData}
-          activeProducts={activeProducts}
           setActiveProducts={setActiveProducts}
         />
-        {activeProducts.map(product => <p>{product.name}</p>)}
+        {activeProducts.map((product, index) => <p key={index}>{product.name}</p>)}
       </section>
     </Base>
   )
