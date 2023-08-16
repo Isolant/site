@@ -1,7 +1,7 @@
 ---
 enableColocationSection: true
 ctaImageBackgroundPosition: top
-name: Ondusec  70
+name: Ondusec 70
 order: 1
 highlighted: true
 slogan: Viví tu casa sin ruidos molestos <strong>de vecinos y autos</strong>

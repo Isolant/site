@@ -49,23 +49,45 @@ collections:
         value_field: "name"
         display_fields: ["name"]
         multiple: true
-  # Solutions Collection
-  - name: "solutions"
-    label: "Soluciones"
-    folder: "content/solutions"
+  # Categories Collection
+  - name: "categories"
+    label: "Categorías"
+    folder: "content/categories"
     create: true
     editor: 
       preview: false 
     fields:
       - {label: "Título", name: "title", widget: "string"}
-      - label: "Línea de producto asociada"
-        name: "productLine"
+      - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las categorías en la pantalla", required: false}
+      - {label: "Visible?", name: "visible", widget: "boolean", default: true, required: false, hint: "Se usa para mostrar/ocultar la categoría en la home"}
+      - label: "Icono"
+        hint: "Icono de la categoría"
+        name: "icon"
+        widget: "image"
+        choose_url: false
+        required: false
+        media_library:
+          config:
+            multiple: false
+      - label: "Subcategorías asociadas"
+        name: "subcategories"
         widget: "relation"
-        collection: "productLines"
+        collection: "subcategories"
         search_fields: ["title"]
         value_field: "title"
         display_fields: ["title"]
-      - label: "Aislantes asociados"
+        multiple: true
+  # Sub-categories Collection
+  - name: "subCategories"
+    label: "Sub Categorías"
+    folder: "content/subcategories"
+    create: true
+    editor: 
+      preview: false 
+    fields:
+      - {label: "Título", name: "title", widget: "string"}
+      - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las subcategorías en la pantalla", required: false}
+      - label: "Productos asociados"
         name: "products"
         widget: "relation"
         collection: "products"
@@ -73,26 +95,6 @@ collections:
         value_field: "name"
         display_fields: ["name"]
         multiple: true
-      - label: "Aislante destacado"
-        name: "highlightedProduct"
-        widget: "relation"
-        collection: "products"
-        search_fields: ["name"]
-        value_field: "name"
-        display_fields: ["name"]
-        hint: "El aislante que se muestra destacado en el selector de producto"
-        multiple: false
-      - label: "Categoría"
-        name: "category"
-        widget: "select"
-        options: ["Losas y Terrazas", "Techos Inclinados", "Muros", "Estructura Metálica", "Cielorrasos", "Tabiques", "Pisos", "Climatización", "Especiales"]
-      - label: "Imagen Principal"
-        name: "mainImage"
-        widget: "image"
-        choose_url: false
-        media_library:
-          config:
-            multiple: false
   # Instructions Collection
   - name: "instructions"
     label: "Instrucciones de colocación"
@@ -532,6 +534,17 @@ collections:
             fields:
               - {label: Imagen, name: image, widget: image, hint: "Imagen de fondo"}
               - {label: URL de Instagram, name: link, widget: string, hint: "La URL a la que el usuario será dirigido al clickear"}
+      # Products Page structure
+      - name: "products"
+        label: "Todos los productos"
+        file: "content/products.md"
+        create: false
+        editor: 
+          preview: false 
+        fields:
+          - {label: "Título de la página", name: "pageTitle", widget: "string", hint: "Este es el título que aparece en Google y la barra del navegador"}
+          - {label: "Título", name: "productsTitle", widget: "string"}
+          - {label: "Imagen de fondo para encabezado", name: "productsImage", widget: "image"}
       # About Page Structure
       - name: "aboutUs"
         label: "Nosotros"

@@ -2,7 +2,6 @@ import React from 'react';
 import slugify from 'react-slugify';
 
 import Base from "../components/Base";
-import TitlePackage from '../components/TitlePackage';
 import ProductSelectorForm from '../components/ProductSelector/Form';
 
 import Hero from "../components/Home/Hero";
@@ -18,7 +17,6 @@ import { getAllCollections, getCollectionById } from "../lib/collections";
 import { attributes } from "../content/homepage.md";
 
 import { fullBleedContainer } from '../classes/Layout';
-import { horizontalPadding, verticalPadding } from '../classes/Spacing';
 
 export default function Homepage({ highlightedProductsData, categoriesData, productLinesData, productSelectorTypesData }) {
   let {

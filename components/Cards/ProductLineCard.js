@@ -11,7 +11,7 @@ export default function ProductLineCard({ productLine, classes }) {
       href={`/lineas-de-producto/${productLine.id}`}
     >
       <a
-        className={`${classes !== undefined ? classes : ''} relative block`}
+        className={`${classes !== undefined ? classes : ''} relative block group`}
       >
         <div
           className="absolute left-0 top-0 w-2 h-full rounded-tl-lg rounded-bl-lg z-20"
@@ -19,10 +19,10 @@ export default function ProductLineCard({ productLine, classes }) {
         />
         <div
           style={{ backgroundImage: `url(${productLine.mainImage})`}}
-          className="rounded-t-lg rounded-b-xl h-48 sm:h-60 bg-no-repeat bg-cover relative hover:opacity-80 z-10"
+          className="rounded-t-lg rounded-b-xl h-48 sm:h-56 bg-no-repeat bg-cover relative z-10"
         >
           <h4
-            className={`bg-white ${uppercaseTextClasses} p-3 pl-5 sm:p-4 sm:pl-6 text-gray-800 absolute w-full bottom-0 rounded-b-lg font-semibold`}
+            className={`bg-white ${uppercaseTextClasses} p-3 pl-5 sm:p-4 sm:pl-6 text-gray-800 group-hover:text-gray-600 absolute w-full bottom-0 rounded-b-lg font-semibold`}
           >
             {productLine.title}
           </h4>
