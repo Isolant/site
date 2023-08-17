@@ -31,12 +31,12 @@ export default function Filters({
       if(!selectedCategory.length) return;
       
       setActiveProductsAndCategory(selectedCategory[0].totalProducts, { category: selectedCategory[0].title, subcategory: '' })
-    }
-    
-    if(query && query.linea) {
+    } else if(query && query.linea) {
       const selectedProductLine = productLines.filter((productLine) => productLine.id === query.linea || productLine.id === query.linea.toLowerCase());
       if(!selectedProductLine.length) return;
       setActiveProductsAndCategory(selectedProductLine[0].matchedProducts, { category: selectedProductLine[0].title, subcategory: '' })
+    } else {
+      setActiveProductsAndCategory(allProducts, { category: '', subcategory: '' })
     }
   }, [query]);
 
@@ -92,7 +92,11 @@ export default function Filters({
                 }
               }
 
-              return allProducts.flat();
+              const flattenedArray = allProducts.flat();
+              const uniqueProducts = new Set(flattenedArray);
+              const uniqueArray = Array.from(uniqueProducts);
+
+              return uniqueArray;
             }
 
             const matchedSubcategories = category.subcategories.map(sub => subcategories.find(subcat => subcat.title === sub));
@@ -142,6 +146,15 @@ export default function Filters({
             )
           })}
         </ul>
+        {/* Reset filters */}
+        <div className="md:mt-4">
+          <button
+            className={`transition duration-100 ease-in-out hover:opacity-80 font-light text-left flex items-baseline text-gray-500 ${standardTextClasses}`}
+            onClick={() => setActiveProductsAndCategory(allProducts, { category: '', subcategory: ''})}
+          >
+            Limpiar filtros
+          </button>
+        </div>
       </div>
     </aside>
   )
