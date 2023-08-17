@@ -114,7 +114,7 @@ export default function Filters({
                 className={`${standardTextClasses} flex flex-col gap-2 items-start mb-2`}
               >
                 <button
-                  className={`${standardTextClasses} text-gray-500 flex items-center gap-2`}
+                  className={`${standardTextClasses} ${isExpanded.category === category.title ? "text-gray-800" : "text-gray-500"} flex items-center gap-2`}
                   onClick={() => setActiveProductsAndCategory(category.totalProducts, { category: category.title, subcategory: ''})}
                 >
                   {category.title}{" "}

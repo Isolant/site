@@ -4,6 +4,7 @@ import Base from '../components/Base';
 import Header from '../components/Header';
 import FullScreenSection from "../components/Layout/FullScreenSection";
 import Filters from "../components/Products/Filters";
+import ProductList from "../components/Products/ProductList";
 
 import { getAllCollections } from "../lib/collections";
 
@@ -40,7 +41,7 @@ export default function Products({ productLinesData, productsData, categoriesDat
         layout="centered"
         classes={`${styles.Title} ${verticalPadding}`}
       />
-      <section className={`grid md:grid-cols-3 lg:grid-cols-12 gap-4 container mx-auto px-4 ${verticalPadding}`}>
+      <section className={`grid md:grid-cols-3 lg:grid-cols-12 gap-4 items-start container mx-auto px-4 ${verticalPadding}`}>
         <Filters
           productLines={productLinesData}
           categories={categoriesData}
@@ -48,7 +49,9 @@ export default function Products({ productLinesData, productsData, categoriesDat
           allProducts={productsData}
           setActiveProducts={setActiveProducts}
         />
-        {activeProducts.map((product, index) => <p key={index}>{product.name}</p>)}
+        <ProductList
+          products={activeProducts}
+        />
       </section>
     </Base>
   )
