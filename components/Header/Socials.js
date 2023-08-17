@@ -1,3 +1,5 @@
+import React from "react";
+
 import { horizontalPadding } from "../../classes/Spacing";
 
 import { ReactComponent as FacebookIcon } from '../../public/images/icons/social/header/facebook.svg';

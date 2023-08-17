@@ -1,5 +1,7 @@
+import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+
 import { verticalPadding } from "../../classes/Spacing";
 import { uppercaseTextClasses } from "../../classes/Text";
 

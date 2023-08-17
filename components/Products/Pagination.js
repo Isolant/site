@@ -1,3 +1,5 @@
+import React from "react";
+
 import { standardTextClasses, uppercaseTextClasses } from '../../classes/Text';
 
 const Pagination = ({ nPages, currentPage, setCurrentPage }) => {
