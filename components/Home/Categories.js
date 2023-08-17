@@ -19,7 +19,7 @@ export default function Categories({ categories, title }) {
               className="bg-white p-12 drop-shadow-md hover:drop-shadow-xl transition duration-100 ease-in-out"
             >
               <Link
-                href={`/productos?category=${category.id}`}
+                href={`/productos?categoria=${category.id}`}
               >
                 <a
                   className="flex items-center justify-center flex-col"

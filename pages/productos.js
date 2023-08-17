@@ -21,7 +21,6 @@ export default function Products({ productLinesData, productsData, categoriesDat
   } = attributes;
 
   const [ activeProducts, setActiveProducts ] = useState(productsData);
-  const [ activeCategory, setActiveCategory ] = useState("");
 
   return (
     <Base
@@ -30,7 +29,9 @@ export default function Products({ productLinesData, productsData, categoriesDat
       footerDecorations={false}
       productLines={productLinesData}
     >
-      <Header />
+      <Header
+        productLines={productLinesData}
+      />
       <FullScreenSection
         image={productsImage}
         imagePosition="left"

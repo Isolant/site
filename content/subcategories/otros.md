@@ -1,5 +1,5 @@
 ---
 title: Otros
 products:
-  - Termo Solar
+  - Termo solar
 ---

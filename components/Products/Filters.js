@@ -1,4 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useRouter } from 'next/router';
+
 import { uppercaseTextClasses, standardTextClasses, smallTextClasses } from "../../classes/Text";
 
 import styles from './Filters.module.css';
@@ -10,6 +12,9 @@ export default function Filters({
   setActiveProducts,
   allProducts,
 }) {
+  const router = useRouter();
+  const query = router.query;
+
   const [isExpanded, setIsExpanded] = useState({
     category: '',
     subcategory: ''
@@ -19,6 +24,21 @@ export default function Filters({
     setActiveProducts(products);
     setIsExpanded(category);
   }
+  
+  useEffect(() => {
+    if(query && query.categoria) {
+      const selectedCategory = categories.filter((category) => category.id === query.categoria || category.id === query.categoria.toLowerCase());
+      if(!selectedCategory.length) return;
+      
+      setActiveProductsAndCategory(selectedCategory[0].totalProducts, { category: selectedCategory[0].title, subcategory: '' })
+    }
+    
+    if(query && query.linea) {
+      const selectedProductLine = productLines.filter((productLine) => productLine.id === query.linea || productLine.id === query.linea.toLowerCase());
+      if(!selectedProductLine.length) return;
+      setActiveProductsAndCategory(selectedProductLine[0].matchedProducts, { category: selectedProductLine[0].title, subcategory: '' })
+    }
+  }, [query]);
 
   return (
     <aside className="grid gap-4 md:gap-8 lg:col-span-3">
@@ -62,20 +82,21 @@ export default function Filters({
         </h3>
         <ul className="flex flex-col gap-2">
           {categories.sort((a, b) => a.order > b.order ? 1: -1).map((category, index) => {
-            const sumProductsLength = (arr) => {
-              let totalLength = 0;
+            
+            const getAllProducts = (arr) => {
+              let allProducts = [];
 
               for (let i = 0; i < arr.length; i++) {
-                if (Array.isArray(arr[i].products)) {
-                  totalLength += arr[i].products.length;
+                if (Array.isArray(arr[i].matchedProducts)) {
+                  allProducts.push(arr[i].matchedProducts);
                 }
               }
 
-              return totalLength;
+              return allProducts.flat();
             }
 
             const matchedSubcategories = category.subcategories.map(sub => subcategories.find(subcat => subcat.title === sub));
-            category.totalProducts = sumProductsLength(matchedSubcategories);
+            category.totalProducts = getAllProducts(matchedSubcategories);
 
             matchedSubcategories.map((subcat) => {
               let productArray = [];
@@ -94,10 +115,10 @@ export default function Filters({
               >
                 <button
                   className={`${standardTextClasses} text-gray-500 flex items-center gap-2`}
-                  onClick={() => setIsExpanded({ category: category.title, subcategory: ''})}
+                  onClick={() => setActiveProductsAndCategory(category.totalProducts, { category: category.title, subcategory: ''})}
                 >
                   {category.title}{" "}
-                  <span>({category.totalProducts})</span>
+                  <span>({category.totalProducts.length})</span>
                   <svg className={`fill-current transition ease-in-out duration-200 ${isExpanded.category === category.title ? 'rotate-180' : ''}`} fill="none" height="7" viewBox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg"><path d="m11.611 1.47145-5.22268 5.0039c-.16406.13672-.32813.19141-.46485.19141-.16406 0-.32812-.05469-.46484-.16406l-5.249999-5.03125c-.2734374-.2461-.2734374-.683595-.027344-.929689.246094-.273438.683594-.273438.929683-.027344l4.8125 4.593753 4.78513-4.593753c.2461-.246094.6836-.246094.9297.027344.2461.246094.2461.683589-.0273.929689z" /></svg>
                 </button>
                 <ol
@@ -105,7 +126,7 @@ export default function Filters({
                 >
                   {matchedSubcategories.map((subcategory, index) => {
                     return (
-                      <li>
+                      <li key={index}>
                         <button
                           className={`${smallTextClasses} ${styles.SubcategoryButton} transition duration-100 ease-in-out hover:opacity-80 text-left ${isExpanded.subcategory === subcategory.title ? 'text-gray-800' : 'text-gray-500'}`}
                           onClick={() => setActiveProductsAndCategory(subcategory.matchedProducts, { category: category.title, subcategory: subcategory.title })}
