@@ -12,7 +12,7 @@ export default function Categories({ categories, title }) {
         {title}
       </h3>
       <ul className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 pt-4 md:pt-8">
-        {categories.map((category, index) => {
+        {categories.filter((category) => category.visible === true).map((category, index) => {
           return (
             <li
               key={index}

@@ -62,6 +62,11 @@ services:
 otherServicesEnabled: true
 otherServicesTitle: Más productos y servicios
 otherServicesSlider:
+  - image: /images/homepage/other-services/slide-4.jpg
+    title: Tienda online
+    text: Comprá directo Isolant con envío a domicilio o retiro en Pick up points.
+    ctaText: Comprá online
+    ctaLink: https://www.tienda.isolant.com.ar
   - image: /images/homepage/other-services/slide-1.jpg
     title: Isolant Plus
     text: "Registrate y empezá a ganar premios con la instalación de cada rollo de aislante Isolant: ¡Es fácil y gratis!"
@@ -70,18 +75,18 @@ otherServicesSlider:
   - image: /images/homepage/other-services/slide-2.jpg
     title: Sustentabilidad
     text: Nuestros productos son amigables con el medio ambiente y ecológicos. Conocé más debajo.
-    ctaText: Sustentabilidad
+    ctaText: Ir a austentabilidad
     ctaLink: /sustentabilidad
   - image: /images/homepage/other-services/slide-3.jpg
     title: Emprendedores
     text: ¿Tenés un producto para la construcción que impulse nuestra filosofía de Triple Impacto? Escribinos!
     ctaText: Contactanos
     ctaLink: /contacto
-  - image: /images/homepage/other-services/slide-4.jpg
-    title: Tienda online
-    text: Comprá directo Isolant con envío a domicilio o retiro en Pick up points.
-    ctaText: Comprá online
-    ctaLink: https://www.tienda.isolant.com.ar
+  - image: /images/homepage/other-services/slide-5.jpg
+    title: Calculadora Térmica
+    text: ¡Descubrí el material adecuado para tu casa y conocé un estimado de lo que vas a ahorrarte!
+    ctaText: Calculá tu ahorro
+    ctaLink: http://calculadoratermica.isolant.com.ar/isolant/
 contactFormEnabled: true
 contactFormTitle: ¿Qué necesitás aislar en tu obra?
 contactFormText: Contanos las características principales de tu obra para que podamos recomendarte el mejor aislante.
