@@ -15,3 +15,15 @@
   to = "/selector-de-producto/resultado"
   status = 301
   force = false
+
+[[redirects]]
+  from = "/profesionales"
+  to = "/"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/soluciones/*"
+  to = "/productos"
+  status = 301
+  force = false
