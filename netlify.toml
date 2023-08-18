@@ -27,3 +27,39 @@
   to = "/productos"
   status = 301
   force = false
+
+[[redirects]]
+  from = "/lineas-de-producto/vivienda"
+  to = "/productos?linea=vivienda"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/lineas-de-producto/galpones-y-tinglados"
+  to = "/productos?linea=galpones-y-tinglados"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/lineas-de-producto/construccion-en-seco"
+  to = "/productos?linea=construccion-en-seco"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/lineas-de-producto/pisos"
+  to = "/productos?linea=pisos"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/lineas-de-producto/sistemas-de-climatizacion"
+  to = "/productos?linea=sistemas-de-climatizacion"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/lineas-de-producto/accesorios"
+  to = "/productos?linea=accesorios"
+  status = 301
+  force = false

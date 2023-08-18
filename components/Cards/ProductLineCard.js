@@ -8,7 +8,7 @@ import { uppercaseTextClasses } from "../../classes/Text";
 export default function ProductLineCard({ productLine, classes }) {
   return (
     <Link
-      href={`/lineas-de-producto/${productLine.id}`}
+      href={`/productos?linea=${productLine.id}`}
     >
       <a
         className={`${classes !== undefined ? classes : ''} relative block group`}

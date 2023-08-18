@@ -29,7 +29,6 @@ export default function Filters({
     if(query && query.categoria) {
       const selectedCategory = categories.filter((category) => category.id === query.categoria || category.id === query.categoria.toLowerCase());
       if(!selectedCategory.length) return;
-      
       setActiveProductsAndCategory(selectedCategory[0].totalProducts, { category: selectedCategory[0].title, subcategory: '' })
     } else if(query && query.linea) {
       const selectedProductLine = productLines.filter((productLine) => productLine.id === query.linea || productLine.id === query.linea.toLowerCase());
@@ -60,7 +59,7 @@ export default function Filters({
             return (
               <li
                 key={index}
-                className={`${standardTextClasses} ${isExpanded === productLine.title ? 'text-gray-800' : 'text-gray-500'}`}
+                className={`${standardTextClasses} ${isExpanded.category === productLine.title ? 'text-gray-800' : 'text-gray-500'}`}
               >
                 <button
                   className="transition duration-100 ease-in-out hover:opacity-80 font-light text-left flex items-baseline"

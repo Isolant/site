@@ -42,7 +42,7 @@ export default function DropdownMenu({
               .map((productLine, index) =>
               <React.Fragment key={index}>
                 <DropdownItem
-                  href={`/lineas-de-producto/${productLine.id}`}
+                  href={`/productos?linea=${productLine.id}`}
                   isExternal={false}
                   text={productLine.title}
                   icon={true}
