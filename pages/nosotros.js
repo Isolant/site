@@ -8,7 +8,7 @@ import InsetCallout from "../components/Layout/InsetCallout";
 import ServiceCard from "../components/Cards/ServiceCard";
 import PhilosophyVideo from "../components/Products/Video";
 import Philosophy from "../components/AboutUs/Philosophy";
-import HistorySlider from "../components/AboutUs/HistorySlider";
+import TimelineSlider from "../components/AboutUs/TimelineSlider";
 import OurProduct from "../components/AboutUs/OurProduct";
 import Patents from "../components/AboutUs/Patents";
 import TechnicalInformation from "../components/AboutUs/TechnicalInformation";
@@ -122,7 +122,7 @@ export default function AboutUs({ provincesData, localesData, productLinesData, 
         <PhilosophyVideo
           video={aboutUsVideo}
         />
-        <HistorySlider
+        <TimelineSlider
           title={timelineTitle}
           timeline={timeline}
         />

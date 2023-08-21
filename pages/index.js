@@ -9,7 +9,7 @@ import HighlightedProducts from "../components/Home/HighlightedProducts";
 import Categories from "../components/Home/Categories";
 import ProductLines from "../components/Home/ProductLines";
 import TechnicalService from "../components/Home/TechnicalService";
-import OtherServices from "../components/Home/OtherServices";
+import CardSlider from "../components/Home/CardSlider";
 import InstagramSlider from '../components/Home/InstagramSlider';
 
 import { getAllCollections, getCollectionById } from "../lib/collections";
@@ -82,7 +82,7 @@ export default function Homepage({ highlightedProductsData, categoriesData, prod
         />
       }
       {otherServicesEnabled &&
-        <OtherServices
+        <CardSlider
           title={otherServicesTitle}
           services={otherServicesSlider}
         />

@@ -16,7 +16,8 @@ import {ReactComponent as ChevronRightIcon } from '../../public/images/icons/che
 
 export default function Philosophy({
   title,
-  philosophy
+  philosophy,
+  isSustainability
 }) {
   const [activeItem, setActiveItem] = useState(philosophy[0]);
 
@@ -43,8 +44,8 @@ export default function Philosophy({
                       rounded-md text-left transition ease-in-out duration-75 p-4 w-full text-white
                       ${standardTextClasses}
                       flex items-center
-                      hover:bg-primary hover:shadow-lg group
-                      ${item.title === activeItem.title ? `bg-primary shadow-lg` : 'shadow-md'}
+                      hover:shadow-lg group
+                      ${item.title === activeItem.title ? `${isSustainability ? 'bg-sustainability' : 'bg-primary'} shadow-lg` : 'shadow-md'}
                       `
                     }
                   onClick={() => setActiveItem(item)}
@@ -91,7 +92,7 @@ export default function Philosophy({
             text={activeItem.ctaText}
             isExternal={false}
             margin="mt-8"
-            color="secondary"
+            color={`${isSustainability ? "sustainability" : "secondary"}`}
             isFormBtn={false}
           />
         }

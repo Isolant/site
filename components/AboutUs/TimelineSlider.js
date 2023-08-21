@@ -6,15 +6,16 @@ import Image from 'next/image';
 // Styles
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import SliderStyles from './HistorySlider.module.css';
+import SliderStyles from './TimelineSlider.module.css';
 
 // Classes
 import { boldSubtitleClasses, boldTitleClasses, smallTextClasses, uppercaseTextClasses } from "../../classes/Text";
 import { horizontalPadding, verticalPadding } from "../../classes/Spacing";
 
-export default function HistorySlider({
+export default function TimelineSlider({
   title,
-  timeline
+  timeline,
+  isSustainability
 }) {
 
   const settings = {
@@ -24,7 +25,6 @@ export default function HistorySlider({
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
-    // centerMode: true,
     className: SliderStyles.Slider,
     adaptiveHeight: true,
     draggable: false,
@@ -46,7 +46,7 @@ export default function HistorySlider({
   };
 
   return (
-    <div className={`${verticalPadding} ${horizontalPadding} mx-auto container mt-4`}>
+    <div className={`${isSustainability ? 'pb-12 sm:pb-16 md:pb-24' : verticalPadding} ${horizontalPadding} mx-auto container mt-4`}>
       <h3
         className={`${boldSubtitleClasses} px-4 md:px-6 lg:px-8 xl:px-0 text-gray-800 pb-4 sm:pb-6`}
       >
@@ -56,33 +56,37 @@ export default function HistorySlider({
         {...settings} 
       >
         {timeline
-          .map((historyItem, index) => {
+          .map((timelineItem, index) => {
             return(
               <div
                 key={index}
               >
                 <Image
-                  src={historyItem.image}
-                  alt={historyItem.title}
+                  src={timelineItem.image}
+                  alt={timelineItem.title}
                   className="rounded-full"
                   width={128}
                   height={128}
                   layout="fixed"
                 />
-                <h4
-                  className={`${boldTitleClasses} text-primary my-4`}
-                >
-                  {historyItem.year}
-                </h4>
-                <hr />
+                {timelineItem.year &&
+                  <>
+                    <h4
+                      className={`${boldTitleClasses} text-primary my-4`}
+                    >
+                      {timelineItem.year}
+                    </h4>
+                    <hr />
+                  </>
+                }
                 <h4
                   className={`${uppercaseTextClasses} text-gray-700 mt-4 mb-2 h-10`}
                 >
-                  <span className="font-bold">{historyItem.title}</span>
+                  <span className="font-bold">{timelineItem.title}</span>
                 </h4>
                 <p
                   className={`${smallTextClasses} text-gray-500 h-56`}
-                  dangerouslySetInnerHTML={{ __html: historyItem.text}}
+                  dangerouslySetInnerHTML={{ __html: timelineItem.text}}
                 />
               </div>
             )
