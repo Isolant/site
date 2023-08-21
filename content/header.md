@@ -45,6 +45,9 @@ companyLinks:
   - link: /nosotros#etica-e-integridad
     text: Ética e Integridad
     isExternal: false
+  - link: /sustentabilidad
+    text: Sustentabilidad
+    isExternal: false
   - text: Contacto
     link: /contacto
     isExternal: false
