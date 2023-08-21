@@ -2,7 +2,7 @@ import React from "react";
 import Link from 'next/link';
 import Image from 'next/image';
 
-import { standardTextClasses, uppercaseTextClasses } from "../../classes/Text";
+import { smallTextClasses, uppercaseTextClasses } from "../../classes/Text";
 
 export default function OtherServicesCard({ service, classes }) {
   const children = <div className="mb-8 relative rounded-lg shadow-md hover:shadow-lg transition duration-75 ease-in-out bg-white mr-4">
@@ -22,7 +22,7 @@ export default function OtherServicesCard({ service, classes }) {
         {service.title}
       </h6>
       <p
-        className={`${standardTextClasses} text-white text-gray-400 h-28`}
+        className={`${smallTextClasses} text-white text-gray-400 h-24`}
       >
         {service.text}
       </p>

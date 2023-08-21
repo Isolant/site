@@ -666,6 +666,99 @@ collections:
           - {label: Link para el botón Ética e Integridad, name: ethicsCtaLink, widget: string, required: false}
           - {label: "Título para Formulario", name: "contactFormTitle", widget: "string", hint: "Podés usar HTML en este campo"}
           - {label: "Texto para Formulario", name: "contactFormText", widget: "text", hint: "Podés usar HTML en este campo"}
+      # Sustainability Page Structure
+      - name: "sustainability"
+        label: "Sostenibilidad"
+        file: "content/sustainability.md"
+        create: false
+        editor: 
+          preview: false
+        fields:
+          - {label: "Título de la página", name: "pageTitle", widget: "string", hint: "Este es el título que aparece en Google y la barra del navegador", required:}
+          - {label: "Habilitar encabezado principal", name: "heroEnabled", widget: "boolean", default: true}
+          - {label: "Video de fondo para encabezado", name: "heroVideoBackground", widget: "string", hint: "Opcional si se usa una imagen de fondo. Formato: https://www.youtube.com/watch?v=2oRlBmwKzy4", required: false}
+          - {label: "Imagen de fondo para encabezado", name: "heroVideoImage", widget: "image", hint: "Opcional si se usa un video de fondo", required: false}
+          - {label: "Título para encabezado", name: "heroTitle", widget: "string", required: false}
+          - {label: "Texto para encabezado", name: "heroText", widget: "text", required: false}
+          - {label: "Texto del link para encabezado", name: "heroCtaLink", widget: "string", required: false}
+          - {label: "Link para encabezado", name: "heroCtaText", widget: "string", required: false}
+          - {label: "Habilitar políticas de sustentabilidad", name: "policiesEnabled", widget: "boolean", default: true}
+          - {label: "Título para políticas de sustentabilidad", name: "policiesTitle", widget: "string", required: false}
+          - label: "Políticas de sustentabilidad"
+            name: "policies"
+            widget: "list"
+            max: 2
+            allow_add: true
+            required: false
+            fields:
+              - {label: Icono, name: icon, widget: image, choose_url: false}
+              - {label: Título, name: title, widget: string}
+              - {label: Texto, name: text, widget: text}
+              - {label: link, name: link, widget: string}
+              - {label: Texto link, name: linkText, widget: string}
+          - {label: "Habilitar sección Acciones de sustentabilidad", name: "timelineEnabled", widget: "boolean", default: true}
+          - {label: "Título para sección Acciones de sustentabilidad", name: "timelineTitle", widget: "string"}
+          - label: "Línea de tiempo para sección Acciones de sustentabilidad"
+            name: "timeline"
+            widget: "list"
+            allow_add: true
+            fields:
+              - label: "Imagen"
+                name: "image"
+                widget: "image"
+                choose_url: false
+                media_library:
+                  config:
+                    multiple: false
+              - {label: Título, name: title, widget: string}
+              - {label: Texto, name: text, widget: text}
+          - {label: "Habilitar sección video", name: "sustainabilityEnabled", widget: "boolean", default: true}
+          - {label: "Video de fondo para sección Video", name: "sustainabilityVideo", widget: "string", required: false}
+          - {label: "Habilitar sección Filosofía Isolant", name: "philosophyEnabled", widget: "boolean", default: true}
+          - {label: "Título para sección Filosofía Isolant", name: "philosophyTitle", widget: "string", hint: "Podés usar HTML en este campo", required: false}
+          - label: "Filosofía Isolant"
+            name: "philosophy"
+            widget: "list"
+            required: false
+            fields:
+              - {label: Título, name: title, widget: string}
+              - {label: Texto, name: text, widget: text}
+              - {label: Texto para el botón, name: ctaText, widget: string, required: false}
+              - {label: Link para el botón, name: ctaLink, widget: string, required: false}
+          - {label: "Habilitar ODS", name: "ODSEnabled", widget: "boolean", default: true}
+          - label: "ODS"
+            name: "ods"
+            widget: "list"
+            allow_add: true
+            required: false
+            fields:
+              - {label: Número, name: number, widget: number}
+              - {label: Título, name: title, widget: string}
+          - {label: "Habilitar slider novedades?", name: "newsEnabled", widget: "boolean", default: true, required: false, hint: "Habilitar el slider de noedades"}
+          - {label: "Título sección slider novedades", name: "newsTitle", widget: "string", hint: "Título para la sección novedades", required: false}
+          - label: "Contenido para slider novedades"
+            name: "newsSlider"
+            widget: "list"
+            required: false
+            fields:
+              - {label: Imagen, name: image, widget: image, hint: "Imagen de fondo"}
+              - {label: Titulo, name: title, widget: string, hint: "Título para el slide"}
+              - {label: Texto, name: text, widget: string, hint: "Texto para el slide"}
+              - {label: Texto para botón, name: ctaText, widget: string, hint: "Texto para el botón del slide"}
+              - {label: URL para botón, name: ctaLink, widget: string, hint: "URL a la que lleva el botón del slide"}
+          - {label: "Habilitar Logos asociaciones y certificaciones", name: "logosEnabled", widget: "boolean", default: true}
+          - {label: "Título sección Logos asociaciones y certificaciones", name: "logosTitle", widget: "string", hint: "Título para la sección", required: false}
+          - label: "Logos asociaciones y certificaciones"
+            name: "logos"
+            widget: "list"
+            allow_add: true
+            required: false
+            fields:
+              - {label: Nombre, name: name, widget: string}
+              - {label: Imagen, name: image, widget: image}
+          - {label: "Habilitar sección Formulario de contacto", name: "contactFormEnabled", widget: "boolean", default: true}
+          - {label: "Título para Formulario", name: "contactFormTitle", widget: "string", hint: "Podés usar HTML en este campo", required: false}
+          - {label: "Texto para Formulario", name: "contactFormText", widget: "text", hint: "Podés usar HTML en este campo", required: false}
       # Services Page Structure
       - name: "services"
         label: "Servicios"
