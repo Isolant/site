@@ -39,7 +39,7 @@ export default function Sustainability({ productLinesData, productsData }) {
     timelineEnabled,
     timelineTitle,
     timeline,
-    sustainabilityVideoEnabled,
+    sustainabilityEnabled,
     sustainabilityVideo,
     philosophyEnabled,
     philosophyTitle,
@@ -77,7 +77,7 @@ export default function Sustainability({ productLinesData, productsData }) {
           videoBackground={heroVideoBackground}
           imageBackground={heroVideoImage}
           imageBackgroundMobile={heroImageMobile}
-          logo={<SustainabilityLogo />}
+          logo={<SustainabilityLogo className="w-52" />}
           title={heroTitle}
           text={heroText}
           buttons={heroButton}
@@ -126,11 +126,11 @@ export default function Sustainability({ productLinesData, productsData }) {
       </section>
       {odsEnabled &&
         <ODS
-          logo={<ODSLogo className="mx-auto scale-50" />}
+          logo={<ODSLogo className="mx-auto scale-75" />}
           ods={ods}
         />
       }
-      {sustainabilityVideoEnabled &&
+      {sustainabilityEnabled &&
         <PhilosophyVideo
           video={sustainabilityVideo}
         />

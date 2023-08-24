@@ -726,7 +726,6 @@ collections:
                 media_library:
                   config:
                     multiple: false
-              - {label: Título, name: title, widget: string}
               - {label: Texto, name: text, widget: text}
           - {label: "Habilitar sección video", name: "sustainabilityEnabled", widget: "boolean", default: true}
           - {label: "Video de fondo para sección Video", name: "sustainabilityVideo", widget: "string", required: false}

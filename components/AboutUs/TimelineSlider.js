@@ -79,15 +79,19 @@ export default function TimelineSlider({
                     <hr />
                   </>
                 }
-                <h4
-                  className={`${uppercaseTextClasses} text-gray-700 mt-4 mb-2 h-10`}
-                >
-                  <span className="font-bold">{timelineItem.title}</span>
-                </h4>
-                <p
-                  className={`${smallTextClasses} text-gray-500 h-56`}
-                  dangerouslySetInnerHTML={{ __html: timelineItem.text}}
-                />
+                {timelineItem.title &&
+                  <h4
+                    className={`${uppercaseTextClasses} text-gray-700 mt-4 mb-2 h-10`}
+                  >
+                    <span className="font-bold">{timelineItem.title}</span>
+                  </h4>
+                }
+                {timelineItem.text &&
+                  <p
+                    className={`${smallTextClasses} text-gray-500 ${timelineItem.title ? "h-56" : "h-24"}`}
+                    dangerouslySetInnerHTML={{ __html: timelineItem.text}}
+                  />
+                }
               </div>
             )
         })}

@@ -29,53 +29,28 @@ policies:
 timelineEnabled: true
 timelineTitle: Nuestras Acciones Sustentables
 timeline:
-  - image: /images/about-us/isolant-aislantes-nuestra-empresa-nuestra-historia-1993.jpg
-    title: Los comienzos
-    text: En 1993 Guillermo, Jorge y Eduardo May fundan Isolant SA bajo la
-      presidencia del primero, con la idea de producir y vender aislantes en
-      base a polietileno espumado en forma de tubos y láminas mediante gas
-      natural como elemento no contaminante.
-  - image: /images/about-us/isolant-aislantes-nuestra-empresa-nuestra-historia-1994.jpg
-    title: Fábrica Propia
-    text: Desde el inicio la empresa contó con un departamento de Marketing
-      posicionándose bajo el lema de <strong>innovación y calidad.</strong>
-  - image: /images/about-us/isolant-aislantes-nuestra-empresa-nuestra-historia-2000.jpg
-    title: Trazabilidad integral computarizada
-    text: En 2000 se incorpora en todas las máquinas la trazabilidad integral
-      computarizada de los productos para elevar la eficiencia productiva y
-      asegurar nuestra calidad.
-  - image: /images/about-us/isolant-aislantes-nuestra-empresa-nuestra-historia-2001.jpg
-    title: Iso 9001
-    text: Como corolario de la trayectoria y organización, se certifica que el
-      Sistema de Aseguramiento de la Calidad de Isolant está conforme a las
-      normas ISO 9000.
-  - image: /images/about-us/isolant-aislantes-nuestra-empresa-nuestra-historia-2006.jpg
-    title: Patentado de nuestros productos
-    text: En 2006 nos conceden la primera de las más de 12 patentes que actualmente
-      tenemos vigentes. Esto nos diferencia y posiciona estratégicamente en el
-      mercado de aislaciones industriales, catapultando nuestro producto Doble
-      Alu con solape termosoldable.
-  - image: /images/about-us/isolant-aislantes-nuestra-empresa-nuestra-historia-2008.jpg
-    title: Nueva línea de producción alemana
-    text: En 2008 se incorpora una línea de alta eficiencia y nivel de calidad, de
-      origen italiano, siendo los únicos en el mercado nacional con este tipo de
-      tecnología.
-  - image: /images/about-us/isolant-aislantes-nuestra-empresa-nuestra-historia-2011.jpg
-    title: Laboratorio propio
-    text: Se crea el laboratorio para control de calidad y desarrollo de nuevos
-      productos, que se provee con modernos elementos de medición de transmisión
-      térmica y envejecimiento, entre otros. Esto nos destaca como líderes en
-      innovación y calidad.
-  - image: /images/about-us/isolant-aislantes-nuestra-empresa-nuestra-historia-2013.jpg
-    title: Nueva fábrica
-    text: En 2013 se comienza la construcción de una planta fabril completamente
-      nueva en un predio de 43000m2 en el mismo Parque Industrial Pilar, que se
-      pone en funcionamiento en diciembre de 2015. La misma tiene una
-      disposición más eficiente y con amplio margen para el crecimiento,
-      duplicando la capacidad de producción.
-  - image: /images/about-us/isolant-aislantes-nuestra-empresa-nuestra-historia-2021.jpg
-    title: Nueva extrusora
-    text: Incorporamos la extrusora más potente de toda hispanoamérica, que nos permitió darle respuesta a una demanda creciente y optimizar productos en línea y de mayores espesores. Tecnología coreana de punta. Un riesgo e inversión en una Argentina golpeada durante la Pandemia COVID-19.
+  - image: /images/icons/sustainability/reduccion-huella-de-carbono.png
+    text: Reducción y medición de la huella de carbono de manera efectiva.
+  - image: /images/icons/sustainability/reciclaje.png
+    text: Utilización de reciclado post consumo en nuestros productos.
+  - image: /images/icons/sustainability/optimizacion-del-uso-de-energia.png
+    text: Optimización del uso de energía.
+  - image: /images/icons/sustainability/compras-con-impacto-social.png
+    text: Compras con impacto social positivo.
+  - image: /images/icons/sustainability/optimizacion-del-uso-del-agua.png
+    text: Optimización el uso de agua.
+  - image: /images/icons/sustainability/responsabilidad-social-empresarial.png
+    text: Integrar la Responsabilidad Social Empresarial y un código ético en nuestras prácticas.
+  - image: /images/icons/sustainability/basura-cero.png
+    text: Basura cero y recuperación de material fabril.
+  - image: /images/icons/sustainability/impacto-social-positivo.png
+    text: Implementación de programas de capacitación internos y externos.
+  - image: /images/icons/sustainability/basura-cero.png
+    text: "Gestión sostenible de residuos: reciclaje y compostaje."
+  - image: /images/icons/sustainability/reporte-de-sustentabilidad.png
+    text: Reportes de sustentabilidad.
+  - image: /images/icons/sustainability/impacto-social-positivo.png
+    text: Generar un impacto social positivo.
 sustainabilityEnabled: true
 sustainabilityVideo: https://www.youtube.com/watch?v=JIhGPcs1ohY
 philosophyEnabled: true
@@ -118,7 +93,7 @@ ods:
   - number: 16
     title: Paz, justicia e instituciones sólidas
 newsEnabled: true
-newsTitle: Otras novedades
+newsTitle: Iniciativas sustentables
 newsSlider:
   - image: /images/homepage/other-services/slide-4.jpg
     title: Tienda online
