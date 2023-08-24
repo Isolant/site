@@ -42,7 +42,7 @@ export default function HighlightedProducts({
               <div key={index}>
                 {/* Content */}
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
-                  <div className={`${horizontalPadding} ${verticalPadding} order-1 lg:order-none relative bg-gray-600`}>
+                  <div className={`${horizontalPadding} py-4 md:py-8 lg:py-16 order-1 lg:order-none relative bg-gray-600`}>
                     <p
                       className={`${uppercaseTextClasses} text-gray-300`}
                     >

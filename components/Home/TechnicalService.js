@@ -2,24 +2,35 @@ import React, { useState } from "react";
 
 import ServiceCard from '../Cards/ServiceCard';
 import TitlePackage from "../TitlePackage";
+import Button from "../Forms/Button";
 
 import { uppercaseTextClasses } from '../../classes/Text';
-import { horizontalPadding, verticalPadding } from '../../classes/Spacing';
+import { horizontalPadding } from '../../classes/Spacing';
 
 import { ReactComponent as ArrowIcon } from '../../public/images/icons/two-arrows-down.svg';
 
 export default function TechnicalService({
   title,
   text,
+  linkHref,
+  linkText,
   services
 }) {
   const [isExpanded, setIsExpanded] = useState(false);
+  
+  const titleCTA = [{
+    link: linkHref,
+    text: linkText,
+    color: 'transparent',
+    isExternal: false,
+    isFormButton: false,
+  }];
 
   return (
     <React.Fragment>
       <section
         className={`pt-12 sm:pt-16 md:pt-24 -mt-12 pb-24 bg-no-repeat bg-cover ${isExpanded === false ? 'overflow-y-hidden max-h-screen lg:max-h-full' : ''}`}
-        style={{ backgroundImage: `url(/images/globals/isolant-aislantes-fondo-lineas-oscuras.jpg)`}}
+        style={{ backgroundImage: `url(/images/bg/fabrica.jpg)`}}
       >
         <div className={`${horizontalPadding} pt-12 mx-auto container text-center text-white mb-4 sm:mb-8`}>
           <TitlePackage
@@ -27,7 +38,9 @@ export default function TechnicalService({
             title={title}
             text={text}
             additionalTextClasses="max-w-md mx-auto opacity-80"
+            additionalButtonClasses="mx-auto"
             theme="dark"
+            buttons={titleCTA}
           />
         </div>
         <ul
@@ -37,7 +50,7 @@ export default function TechnicalService({
             return(
               <li
                 key={index}
-                className={index === 4 || index === 5 || index === 6 ? 'xl:col-span-4' : 'xl:col-span-3'}
+                className="xl:col-span-3"
               >
                 <ServiceCard
                   service={service}

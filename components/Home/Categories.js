@@ -3,13 +3,13 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { verticalPadding } from "../../classes/Spacing";
-import { uppercaseTextClasses } from "../../classes/Text";
+import { boldSubtitleClasses, uppercaseTextClasses } from "../../classes/Text";
 
 export default function Categories({ categories, title }) {
   return (
     <section className={`${verticalPadding} mx-auto container px-4 md:px-6 lg:px-8 xl:px-0`}>
       <h3
-        className={`${uppercaseTextClasses} font-semibold text-gray-800 pb-4 sm:pb-6`}
+        className={`${boldSubtitleClasses} font-semibold text-gray-800 pb-4`}
       >
         {title}
       </h3>

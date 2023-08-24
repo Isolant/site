@@ -33,6 +33,8 @@ export default function Homepage({ highlightedProductsData, categoriesData, prod
     technicalServiceEnabled,
     technicalServiceTitle,
     technicalServiceText,
+    technicalServiceLinkText,
+    technicalServiceLinkHref,
     services,
     otherServicesEnabled,
     otherServicesTitle,
@@ -78,6 +80,8 @@ export default function Homepage({ highlightedProductsData, categoriesData, prod
         <TechnicalService
           title={technicalServiceTitle}
           text={technicalServiceText}
+          linkText={technicalServiceLinkText}
+          linkHref={technicalServiceLinkHref}
           services={services}
         />
       }
@@ -94,6 +98,7 @@ export default function Homepage({ highlightedProductsData, categoriesData, prod
             relative grid lg:grid-cols-2
             bg-white
           `}
+          id="contacto"
         >
           <div
             className="w-full h-96 md:h-screen relative overflow-x-hidden"

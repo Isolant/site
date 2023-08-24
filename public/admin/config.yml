@@ -512,9 +512,25 @@ collections:
           - {label: "Título sección líneas de producto", name: "productLinesTitle", widget: "string", hint: "Título para la sección líneas de producto", required: false}
           - {label: "Texto boton todos los productos", name: "productLinesCtaText", widget: "string", hint: "Texto para el boton de todos los productos", required: false}
           - {label: "Link boton todos los productos", name: "productLinesCtaLink", widget: "string", hint: "Link para el boton de todos los productos", required: false}
+          - {label: "Habilitar Servicio Técnico?", name: "technicalServiceEnabled", widget: "boolean", default: true, required: false, hint: "Habilitar la sección de Servicio Técnico gratuito"}
+          - {label: "Título sección Servicio Técnico", name: "technicalServiceTitle", widget: "string", hint: "Título para la sección de servicio técnico", required: false}
+          - {label: "Texto sección Servicio Técnico", name: "technicalServiceText", widget: "string", hint: "Texto para la sección de servicio técnico", required: false}
+          - {label: "Texto boton Servicio Técnico", name: "technicalServiceLinkText", widget: "string", hint: "Texto para el boton de Servicio Técnico", required: false}
+          - {label: "Link boton Servicio Técnico", name: "technicalServiceLinkHref", widget: "string", hint: "Link para el boton de Servicio Técnico", required: false}
+          - label: "Servicios"
+            name: "services"
+            widget: "list"
+            max: 8
+            allow_add: true
+            fields:
+              - {label: Icono, name: image, widget: image, choose_url: false}
+              - {label: Título, name: title, widget: string}
+              - {label: Texto, name: text, widget: string}
+              - {label: Texto Botón, name: ctaText, widget: string}
+              - {label: Link Botón, name: ctLink, widget: string}
           - {label: "Habilitar slider servicios?", name: "otherServicesEnabled", widget: "boolean", default: true, required: false, hint: "Habilitar el slider de otros servicios"}
           - {label: "Título sección slider servicios", name: "otherServicesTitle", widget: "string", hint: "Título para la sección otros servicios", required: false}
-          - label: "Contenido para slider superior"
+          - label: "Contenido para slider servicios"
             name: "otherServicesSlider"
             widget: "list"
             required: false
