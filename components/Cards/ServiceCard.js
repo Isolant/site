@@ -25,12 +25,12 @@ export default function ServiceCard({ service, classes, isSustainability }) {
           />
         </div>
         <h6
-          className={`${uppercaseTextClasses} mx-auto mt-4 mb-2 sm:mt-6 text-center ${isSustainability === true ? 'text-sustainability' : 'text-primary'}`}
+          className={`${uppercaseTextClasses} md:text-sm mx-auto mt-4 mb-2 sm:mt-6 text-center ${isSustainability === true ? 'text-sustainability' : 'text-primary'}`}
         >
           {service.title}
         </h6>
         <p
-          className={`${standardTextClasses} text-white text-gray-400 text-center md:max-w-md md:mx-auto`}
+          className={`${standardTextClasses} text-white md:text-sm text-gray-400 text-center md:max-w-md md:mx-auto`}
         >
           {service.text}
         </p>
@@ -61,12 +61,12 @@ export default function ServiceCard({ service, classes, isSustainability }) {
             />
           </div>
           <h6
-            className={`${uppercaseTextClasses} mx-auto mt-4 mb-2 sm:mt-6 text-center text-primary`}
+            className={`${uppercaseTextClasses} md:text-sm mx-auto mt-4 mb-2 sm:mt-6 text-center text-primary`}
           >
             {service.title}
           </h6>
           <p
-            className={`${standardTextClasses} text-white text-gray-400 text-center`}
+            className={`${standardTextClasses} md:text-sm text-white text-gray-400 text-center`}
           >
             {service.text}
           </p>

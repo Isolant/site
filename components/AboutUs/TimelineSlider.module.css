@@ -22,7 +22,7 @@
 }
 
 .Slider div div div {
-  @apply mx-3;
+  @apply mx-3 text-center;
 }
 
 .ProductsSliderDots, .SolutionsSliderDots {
