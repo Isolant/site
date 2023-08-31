@@ -342,7 +342,7 @@ collections:
         value_field: "title"
         display_fields: ["title"]
         multiple: true
-      - {label: "Categoría de la descarga", hint: "Si la descarga no pertenece a ninguna línea de producto, asignale otra categoría desde acá", name: downloadCategory, widget: select, multiple: false, options: ["Manual de Colocación", "Isolant BIM", "Políticas", "Instrucciones de colocación", "Otros"], required: false}
+      - {label: "Categoría de la descarga", hint: "Si la descarga no pertenece a ninguna línea de producto, asignale otra categoría desde acá", name: downloadCategory, widget: select, multiple: false, options: ["Manual de Colocación", "Isolant BIM", "Políticas", "Instrucciones de colocación", "Sustentabilidad", "Otros"], required: false}
   # Agenda Collection
   # - name: "agenda"
   #   label: "Agenda de Giras Técnicas"
@@ -761,6 +761,17 @@ collections:
               - {label: Texto, name: text, widget: string, hint: "Texto para el slide"}
               - {label: Texto para botón, name: ctaText, widget: string, hint: "Texto para el botón del slide"}
               - {label: URL para botón, name: ctaLink, widget: string, hint: "URL a la que lleva el botón del slide"}
+          - {label: "Habilitar sección Descargas", name: "downloadsEnabled", widget: "boolean", default: true}
+          - {label: "Título sección Descargas", name: "downloadsTitle", widget: "string", hint: "Podés usar HTML en este campo", required: false}
+          - label: "Descargas asociadas"
+            name: "downloads"
+            widget: "relation"
+            collection: "downloads"
+            required: false
+            search_fields: ["title"]
+            value_field: "title"
+            display_fields: ["title"]
+            multiple: true
           - {label: "Habilitar Logos asociaciones y certificaciones", name: "logosEnabled", widget: "boolean", default: true}
           - {label: "Título sección Logos asociaciones y certificaciones", name: "logosTitle", widget: "string", hint: "Título para la sección", required: false}
           - label: "Logos asociaciones y certificaciones"
@@ -771,9 +782,18 @@ collections:
             fields:
               - {label: Nombre, name: name, widget: string}
               - {label: Imagen, name: image, widget: image}
-          - {label: "Habilitar sección Formulario de contacto", name: "contactFormEnabled", widget: "boolean", default: true}
-          - {label: "Título para Formulario", name: "contactFormTitle", widget: "string", hint: "Podés usar HTML en este campo", required: false}
-          - {label: "Texto para Formulario", name: "contactFormText", widget: "text", hint: "Podés usar HTML en este campo", required: false}
+          - {label: "Habilitar sección Contacto", name: "contactEnabled", widget: "boolean", default: true}
+          - label: "Imagen para sección Contacto"
+            name: "contactImage"
+            widget: "image"
+            choose_url: false
+            media_library:
+              config:
+                multiple: false
+          - {label: "Título para sección Contacto", name: "contactTitle", widget: "string", hint: "Podés usar HTML en este campo", required: false}
+          - {label: "Texto para sección Contacto", name: "contactText", widget: "text", hint: "Podés usar HTML en este campo", required: false}
+          - {label: "Texto para botón sección Contacto", name: "contactCtaText", widget: "string"}
+          - {label: "Link para botón sección Contacto", name: "contactCtaLink", widget: "string"}
       # Services Page Structure
       - name: "services"
         label: "Servicios"

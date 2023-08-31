@@ -14,7 +14,7 @@ export default function InsetCallout({
 }) {
   return (
     <section
-      className={`${horizontalPadding} pt-8 sm:pt-24 container mx-auto relative top-0 md:-top-16 lg:-top-36 z-10 mb-6 lg:mb-0`}
+      className={`${horizontalPadding} pt-8 sm:pt-24 container mx-auto relative top-0 md:-top-16 lg:-top-36 z-10 mb-8 md:mb-16 lg:-mb-16`}
     >
       <div className="p-4 lg:p-8 bg-white rounded-lg relative">
         {decorations && 
