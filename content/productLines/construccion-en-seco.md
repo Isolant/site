@@ -6,6 +6,7 @@ order: 3
 mainImage: /images/product-lines/isolant-aislantes-lineas-de-producto-construccion-en-seco.jpg
 color: '#8F1315'
 products:
+  - Iso Siding
   - Super TBA
   - Imperfoil
   - Covering

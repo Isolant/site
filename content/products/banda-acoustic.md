@@ -11,6 +11,7 @@ description: <strong>Desanclaje acústico para perfiles de construcción en seco
   soleras.
 mainImage: /images/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-imagen.jpg
 productImage: /images/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-producto-rollo.png
+productImageProportion: square
 logo: /images/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-logo.webp
 ecommerceLink: https://tienda.isolant.com.ar/construccion-en-seco/80-banda-acoustic-100mm.html
 enableHero: true

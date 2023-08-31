@@ -6,6 +6,7 @@ description: <strong>Bandas de asfalto adhesivado para impermeabilizar juntas y 
 mainImage: /images/products/fix-band/isolant-aislantes-linea-accesorios-fix-band-imagen-principal.jpg
 enableHero: true
 productImage: /images/products/fix-band/isolant-aislantes-linea-otros-usos-fix-band-producto-rollo.png
+productImageProportion: square
 mainBenefits:
   - icon: /images/products/fix-band/isolant-aislantes-linea-otros-usos-fix-band-beneficio-1.svg
     text: Resistencia UV

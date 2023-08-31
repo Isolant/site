@@ -5,6 +5,7 @@ import slugify from 'react-slugify';
 // Components
 import Base from "../../components/Base";
 import Hero from "../../components/Products/Hero";
+import CustomHero from "../../components/Products/CustomHero";
 import Details from "../../components/Products/Details";
 import Benefits from "../../components/Products/Benefits";
 import Video from "../../components/Products/Video";
@@ -74,7 +75,7 @@ export default function Product({ productData, instructionsData, localesData, pr
       footerDecorations={false}
       productLines={productLinesData}
     >
-      {productData.enableHero &&
+      {productData.enableHero && productData.heroType === 'standard' ?
         <Hero
           background={mainImages.length > 0 ? mainImages : productData.mainImage}
           backgroundVideo={productData.mainVideo}
@@ -83,7 +84,18 @@ export default function Product({ productData, instructionsData, localesData, pr
           slogan={productData.slogan}
           benefits={productData.mainBenefits}
           enableBuyBtn={false}
+          enableDetailsSection={productData.enableDetailsSection}
           link={productData.ecommerceLink ? productData.ecommerceLink : `/contacto?comprar=${productData.id}`}
+        />
+        :
+        <CustomHero
+          background={productData.mainImage}
+          backgroundPosition={productData.mainImageBackgroundPosition}
+          product={productData.name}
+          eyebrow={productData.eyebrow}
+          slogan={productData.slogan}
+          description={productData.description}
+          logo={productData.logo}
         />
       }
       {productData.enableDetailsSection &&

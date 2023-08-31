@@ -5,6 +5,7 @@ description: Los bloques de espuma son fabricados por varias láminas superpuest
 mainImage: /images/products/bloques-de-espuma/isolant-aislantes-linea-otros-usos-bloques-de-espuma-imagen-principal.jpg
 enableHero: true
 productImage: /images/products/bloques-de-espuma/isolant-aislantes-linea-otros-usos-bloques-de-espuma-producto-rollo.png
+productImageProportion: square
 mainBenefits:
   - icon: /images/products/bloques-de-espuma/isolant-aislantes-linea-otros-usos-bloques-de-espuma-beneficio-1.svg
     text: Protección contra impactos

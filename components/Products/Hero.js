@@ -24,6 +24,7 @@ export default function Hero({
   backgroundPosition,
   product,
   enableBuyBtn,
+  enableDetailsSection,
   slogan,
   benefits,
   link,
@@ -116,45 +117,48 @@ export default function Hero({
           theme="dark"
         />
       </div>
-      <ul className={`${horizontalPadding} relative lg:absolute bottom-0 py-8 md:py-16 lg:pb-24 lg:pt-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-${benefits.length} w-full gap-4 lg:gap-8`}>
-        {benefits.map((benefit, index) => {
-          return(
-            <li
-              key={index}
-              className="text-center flex flex-col items-center"
-            >
-              <div
-                className="w-16 h-16 flex items-center justify-center"
+      {benefits &&
+        <ul className={`${horizontalPadding} relative lg:absolute bottom-0 py-8 md:py-16 lg:pb-24 lg:pt-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-${benefits.length} w-full gap-4 lg:gap-8`}>
+          {benefits.map((benefit, index) => {
+            return(
+              <li
+                key={index}
+                className="text-center flex flex-col items-center"
               >
-                <img
-                  src={benefit.icon}
-                  alt={benefit.text}
-                  className="mb-4 mx-auto"
-                />
-              </div>
-              <p
-                className={`${standardTextClasses} text-white max-w-xs mx-auto`}
-              >
-                {benefit.text}
-              </p>
-            </li>
-          )
-        })}
+                <div
+                  className="w-16 h-16 flex items-center justify-center"
+                >
+                  <img
+                    src={benefit.icon}
+                    alt={benefit.text}
+                    className="mb-4 mx-auto"
+                  />
+                </div>
+                <p
+                  className={`${standardTextClasses} text-white max-w-xs mx-auto`}
+                >
+                  {benefit.text}
+                </p>
+              </li>
+            )
+          })}
 
-        {enableBuyBtn === true ?
-          <li
-            className="self-end lg:col-span-full xl:col-span-1 text-center mt-4 sm:mt-0"
-          >
-            <Button
-              href={link}
-              text="Comprar ahora"
-              color="transparent"
-              isExternal={true}
-            />
-          </li>
-          : ''
-        }
-      </ul>
+          {enableBuyBtn === true ?
+            <li
+              className="self-end lg:col-span-full xl:col-span-1 text-center mt-4 sm:mt-0"
+            >
+              <Button
+                href={link}
+                text="Comprar ahora"
+                color="transparent"
+                isExternal={true}
+              />
+            </li>
+            : ''
+          }
+        </ul>
+      }
+      {enableDetailsSection &&
         <Link
           href="#details"
         >
@@ -162,6 +166,7 @@ export default function Hero({
             <ChevronDown className="text-white fill-current" />
           </a>
         </Link>
+      }
     </section>
   )
 }

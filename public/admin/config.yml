@@ -126,11 +126,10 @@ collections:
       preview: false 
     fields:
       - {label: "Nombre", name: "name", widget: "string"}
-      - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de los productos en las líneas", required: false}
-      - {label: "Destacado?", name: "highlighted", widget: "boolean", default: false, required: false}
-      - {label: "Slogan", name: "slogan", widget: "string", hint: "Podés usar HTML en este campo.", required: false}
-      - {label: "Descripción", name: "description", widget: "text", hint: "Podés usar HTML en este campo.", required: false}
-      - {label: "Video Principal", name: "mainVideo", widget: "string", hint: "Opcional si se usa una imagen de fondo", required: false}
+      - {label: "Bajada", name: "eyebrow", widget: "string", hint: "Se usa arriba del título.", required: false}
+      - {label: "Título", name: "slogan", widget: "string", hint: "El título del encabezado.", required: false}
+      - {label: "Descripción", name: "description", widget: "text", hint: "Se usa en la pantalla de productos, y en el encabezado.", required: false}
+      - {label: "Video Principal", name: "mainVideo", widget: "string", hint: "Opcional si se usa una imagen de fondo.", required: false}
       - label: "Imagen Principal"
         name: "mainImage"
         widget: "image"
@@ -147,6 +146,16 @@ collections:
         media_library:
           config:
             multiple: false
+      - label: "Proporción de imagen del rollo"
+        hint: "Se usa para ajustar los estilos, y asegurarse que las imágenes se ven correctamente"
+        name: productImageProportion
+        widget: select
+        multiple: false
+        options:
+        - { label: "Vertical", value: "vertical" }
+        - { label: "Horizontal", value: "horizontal" }
+        - { label: "Cuadrada", value: "square" }
+        required: false
       - label: "Logo de producto"
         name: "logo"
         widget: "image"
@@ -158,6 +167,14 @@ collections:
             multiple: false
       - {label: "Link al e-commerce", name: "ecommerceLink", widget: "string", hint: "Si este producto está disponible en el e-commerce, agregá la URL acá", required: false}
       - {label: "Habilitar encabezado principal", name: "enableHero", widget: "boolean", default: true}
+      - label: "Tipo de encabezado principal"
+        hint: "Algunas fichas de producto (como Siding o Atacama) tienen un encabezado personalizado: Podés elegirlo desde acá."
+        name: heroType
+        widget: select
+        multiple: false
+        options:
+        - { label: "Estándar", value: "standard" }
+        - { label: "Customizado", value: "custom" }
       - label: "Beneficios"
         name: "mainBenefits"
         widget: "list"

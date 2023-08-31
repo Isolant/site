@@ -50,7 +50,7 @@ export default function ProductListCard({ product }) {
           <img
             src={product.productImage}
             alt={product.name}
-            className={`${product.id === 'banda-acoustic' || product.id === 'bloques-de-espuma' || product.id === 'fix-band' ? 'h-16' : 'h-28'} object-cover`}
+            className={`${product.productImageProportion === 'square' ? 'h-16' : 'h-28'} object-cover`}
           />
         </div>
       </div>
