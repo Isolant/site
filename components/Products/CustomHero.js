@@ -1,4 +1,5 @@
 import React from "react";
+import ReactMarkdown from 'react-markdown'
 import Link from "next/link";
 
 import TitlePackage from '../TitlePackage';
@@ -39,9 +40,9 @@ export default function CustomHero({
           `}
         />
         <div className="absolute top-1/2 left-1/2 z-10">
-          {eyebrow}
-          {slogan}
-          {description}
+          <ReactMarkdown>{eyebrow}</ReactMarkdown>
+          <ReactMarkdown>{slogan}</ReactMarkdown>
+          <ReactMarkdown>{description}</ReactMarkdown>
           <img
             src={logo}
             alt={product}

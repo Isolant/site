@@ -22,6 +22,15 @@ import { ReactComponent as Dots } from '../../public/images/misc/dots.svg';
 import { ReactComponent as Circle } from '../../public/images/misc/circle.svg';
 
 export default function Product({ productData, instructionsData, localesData, provincesData, downloadsData, productLinesData }) {
+  // Data massaging
+  const { name, description } = productData;
+  const { productImage, logo } = productData.globals;
+  const sections = [];
+  productData.page.map(section => sections.push({
+    id: Object.keys(section)[0],
+    ...Object.values(section)[0],
+  }));
+
   const colocationButtons = [{
     link: productData.colocationCtaLink,
     text: productData.colocationCtaText,
@@ -39,7 +48,7 @@ export default function Product({ productData, instructionsData, localesData, pr
   const ctaButtons = [
     {
       link: productData.ecommerceLink ? productData.ecommerceLink : `/contacto?comprar=${productData.id}`,
-      text: `Comprá ${productData.name} Aquí`,
+      text: `Comprá ${name} Aquí`,
       icon: false,
       color: 'secondary',
       isExternal: true,
@@ -69,41 +78,58 @@ export default function Product({ productData, instructionsData, localesData, pr
   return (
     <Base
       activePage="professionals"
-      pageTitle={productData.name}
+      pageTitle={name}
       provinces={provincesData.provinces}
       locales={localesData.locales}
       footerDecorations={false}
       productLines={productLinesData}
     >
-      {productData.enableHero && productData.heroType === 'standard' ?
-        <Hero
-          background={mainImages.length > 0 ? mainImages : productData.mainImage}
-          backgroundVideo={productData.mainVideo}
-          backgroundPosition={productData.mainImageBackgroundPosition}
-          product={productData.name}
-          slogan={productData.slogan}
-          benefits={productData.mainBenefits}
-          enableBuyBtn={false}
-          enableDetailsSection={productData.enableDetailsSection}
-          link={productData.ecommerceLink ? productData.ecommerceLink : `/contacto?comprar=${productData.id}`}
-        />
-        :
-        <CustomHero
-          background={productData.mainImage}
-          backgroundPosition={productData.mainImageBackgroundPosition}
-          product={productData.name}
-          eyebrow={productData.eyebrow}
-          slogan={productData.slogan}
-          description={productData.description}
-          logo={productData.logo}
-        />
-      }
+      {/* Loop through the sections and add the correct component */}
+      {sections.map((section, index) => {
+        let markup = [];
+        switch(section.id) {
+          // Select which hero we have to render
+          case 'hero':
+            section.enableHero && section.heroType === 'standard' ? 
+              markup.push (
+                <Hero
+                  background={mainImages.length > 0 ? mainImages : productData.mainImage}
+                  backgroundVideo={productData.mainVideo}
+                  backgroundPosition={productData.mainImageBackgroundPosition}
+                  product={name}
+                  slogan={productData.slogan}
+                  benefits={productData.mainBenefits}
+                  enableBuyBtn={false}
+                  enableDetailsSection={productData.enableDetailsSection}
+                  link={productData.ecommerceLink ? productData.ecommerceLink : `/contacto?comprar=${productData.id}`}
+                  key={index}
+                />
+              )
+            :
+              markup.push (
+                <CustomHero
+                  background={section.heroImage.mainImage}
+                  backgroundPosition={section.heroImage.mainImageBackgroundPosition}
+                  product={name}
+                  eyebrow={section.eyebrow}
+                  slogan={section.slogan}
+                  description={description}
+                  logo={logo}
+                  key={index}
+                />
+              )
+          default:
+            break;
+        }
+
+        return markup;
+      })}
       {productData.enableDetailsSection &&
         <Details
           image={productData.detailsImage}
-          title={productData.name}
-          text={productData.description}
-          logo={productData.logo}
+          title={name}
+          text={description}
+          logo={logo}
           link={productData.ecommerceLink ? productData.ecommerceLink : `/contacto?comprar=${productData.id}`}
           functions={productData.function}
           applications={productData.application}
@@ -118,7 +144,7 @@ export default function Product({ productData, instructionsData, localesData, pr
           subtitle={productData.benefitsSubtitle}
           title={productData.benefitsTitle}
           text={productData.benefitsText}
-          logo={productData.logo}
+          logo={logo}
           link={productData.ecommerceLink ? productData.ecommerceLink : `/contacto?comprar=${productData.id}`}
           benefits={productData.benefitsList}
         />
@@ -130,15 +156,15 @@ export default function Product({ productData, instructionsData, localesData, pr
       }
       {productData.enableInstructions &&
         <Instructions
-          product={productData.name}
+          product={name}
           instructions={instructionsData}
           pdf={productData.pdfInstruction && productData.pdfInstruction}
         />
       }
       {productData.enableTechnicalInformation &&
         <TechnicalInformation
-          product={productData.name}
-          productImage={productData.productImage}
+          product={name}
+          productImage={productImage}
           technicalInformation={productData.technicalInformationList}
           generalInformation={productData.generalInformationList}
         />

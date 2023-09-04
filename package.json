@@ -35,7 +35,7 @@
     "react-google-recaptcha": "^2.1.0",
     "react-hotjar": "^4.0.0",
     "react-instantsearch-dom": "^6.15.0",
-    "react-markdown": "^7.0.1",
+    "react-markdown": "^7.1.2",
     "react-modal": "^3.14.3",
     "react-slick": "^0.28.1",
     "react-slugify": "^2.0.4",
