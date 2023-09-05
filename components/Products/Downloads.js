@@ -1,19 +1,16 @@
-// Globals
 import React, { useState } from "react";
 
-// Components
 import DownloadCard from '../Cards/DownloadCard';
 import TitlePackage from "../TitlePackage";
 
-// Classes
 import { uppercaseTextClasses } from '../../classes/Text';
 import { horizontalPadding, verticalPadding } from '../../classes/Spacing';
 
-// SVGs
 import { ReactComponent as ArrowIcon } from '../../public/images/icons/two-arrows-down.svg';
 
 export default function Downloads({
   title,
+  text,
   downloads
 }) {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -27,6 +24,7 @@ export default function Downloads({
           <TitlePackage
             titleHierarchy="h6"
             title={title}
+            text={text}
             additionalTitleClasses="flex justify-center"
             theme="dark"
           />

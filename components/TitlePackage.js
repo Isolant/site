@@ -1,10 +1,7 @@
-// Globals
 import React from "react";
 
-// Components
 import Button from './Forms/Button';
 
-// Classes
 import { thinTitleClasses, standardTextClasses } from "../classes/Text";
 
 export default function TitlePackage({ 

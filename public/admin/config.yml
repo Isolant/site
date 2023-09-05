@@ -629,6 +629,7 @@ collections:
             media_library:
               config:
                 multiple: false
+          - { label: 'Color de producto', name: 'color', widget: 'color', required: false, allowInput: true }
           - {label: "Link al e-commerce", name: "ecommerceLink", widget: "string", hint: "Si este producto está disponible en el e-commerce, agregá la URL acá.", required: false}
       # FP fields
       - label: "Estructura de página"
@@ -700,6 +701,112 @@ collections:
                 fields:
                   - {label: Icono, name: icon, widget: image, choose_url: false}
                   - {label: Texto, name: text, widget: string}
+          # Details Cards. Used in Siding products
+          - label: "Tarjetas de detalle"
+            name: "detailCards"
+            widget: "object"
+            summary: "Expandí para ver los detalles"
+            collapsed: true
+            fields:
+              - {label: "Habilitar sección tarjetas de detalle", name: "enableDetailCardsSection", widget: "boolean", hint: "Si no querés mostrar esta sección, deshabilitala desde acá", default: false, required: false}
+              - label: "Tarjetas"
+                name: "cards"
+                widget: "list"
+                max: 4
+                allow_add: true
+                required: false
+                fields:
+                  - {label: Título, name: title, widget: string}
+                  - {label: Texto, name: text, widget: text}
+                  - {label: Imagen, name: image, widget: image, choose_url: false}
+          # Attributes. Used in Siding/Atacama products
+          - label: "Atributos"
+            name: "attributes"
+            widget: "object"
+            summary: "Expandí para ver los detalles"
+            collapsed: true
+            fields:
+              - {label: "Habilitar sección atributos", name: "enableAttributesSection", widget: "boolean", hint: "Si no querés mostrar esta sección, deshabilitala desde acá", default: false, required: false}
+              - {label: "Título", name: "attributesTitle", widget: "markdown", hint: "El título de la sección.", required: false}
+              - {label: "Bajada", name: "attributesText", widget: "markdown", hint: "Si está, se usa debajo del título.", required: false}
+              - label: "Atributos"
+                name: "attributes"
+                widget: "list"
+                allow_add: true
+                required: false
+                fields:
+                  - {label: Título, name: title, widget: string}
+                  - {label: Texto, name: text, widget: text}
+                  - {label: Imagen, name: image, widget: image, choose_url: false}
+          # Subproducts. Used in Siding
+          - label: "Subproductos"
+            name: "subproducts"
+            widget: "object"
+            summary: "Expandí para ver los detalles"
+            collapsed: true
+            fields:
+              - {label: "Habilitar sección Subproductos", name: "enableSubproductsSection", widget: "boolean", hint: "Si no querés mostrar esta sección, deshabilitala desde acá", default: false, required: false}
+              # TBD: Add subproducts relation when we have them
+          # Map. Used in Siding/Atacama
+          - label: "Mapa de distribuidores"
+            name: "map"
+            widget: "object"
+            summary: "Expandí para ver los detalles"
+            collapsed: true
+            fields:
+              - {label: "Habilitar sección Mapa", name: "enableMapSection", widget: "boolean", hint: "Si no querés mostrar esta sección, deshabilitala desde acá", default: false, required: false}
+              - {label: Código para embeber mapa, name: mapEmbed, widget: code, required: false}
+          # Downloads
+          - label: "Descargas"
+            name: "downloads"
+            widget: "object"
+            summary: "Expandí para ver los detalles"
+            collapsed: true
+            fields:
+              - {label: "Habilitar sección Descargas", name: "enableDownloadsSection", widget: "boolean", default: true}
+              - {label: "Título sección Descargas", name: "downloadsTitle", widget: "string", hint: "El título de la sección", required: false}
+              - {label: "Texto sección Descargas", name: "downloadsTitle", widget: "string", hint: "El texto que se muestra debajo del título", required: false}
+              - label: "Descargas asociadas"
+                name: "downloads"
+                widget: "relation"
+                collection: "downloads"
+                required: false
+                search_fields: ["title"]
+                value_field: "title"
+                display_fields: ["title"]
+                multiple: true
+          # Tutorials
+          - label: "Tutoriales"
+            name: "tutorials"
+            widget: "object"
+            summary: "Expandí para ver los detalles"
+            collapsed: true
+            fields:
+              - {label: "Habilitar slider tutoriales?", name: "tutorialsEnabled", widget: "boolean", default: true, required: false, hint: "Habilitar el slider de tutoriales"}
+              - {label: "Título sección slider tutoriales", name: "tutorialsTitle", widget: "string", hint: "Título para la sección tutoriales", required: false}
+              - {label: "Texto sección slider tutoriales", name: "tutorialsTextt", widget: "string", hint: "Texto para la sección tutoriales", required: false}
+              - label: "Contenido para slider tutoriales"
+                name: "tutorialsSlider"
+                widget: "list"
+                required: false
+                fields:
+                  - {label: Imagen, name: image, widget: image, hint: "Imagen de fondo"}
+                  - {label: Titulo, name: title, widget: string, hint: "Título para el slide"}
+                  - {label: Texto, name: text, widget: string, hint: "Texto para el slide"}
+                  - {label: Texto para botón, name: ctaText, widget: string, hint: "Texto para el botón del slide"}
+                  - {label: URL para botón, name: ctaLink, widget: string, hint: "URL a la que lleva el botón del slide"}
+          # Contact Form
+          - label: "Formulario de Contacto"
+            name: "contact"
+            widget: "object"
+            summary: "Expandí para ver los detalles"
+            collapsed: true
+            fields:
+              - {label: "Habilitar formulario de contacto?", name: "enableContactSection", widget: "boolean", default: true, required: false, hint: "Habilitar el formulario de contacto"}
+              - {label: "Imagen superior formulario de contacto", name: "contactFormImage", widget: "image", hint: "Se usa arriba del título", required: false}
+              - {label: "Título formulario de contacto", name: "contactFormTitle", widget: "string", hint: "Título para el formulario de contacto", required: false}
+              - {label: "Texto formulario de contacto", name: "contactFormText", widget: "markdown", hint: "Bajada de texto para formulario de contacto", required: false}
+
       # - {label: "Habilitar sección Detalles", name: "enableDetailsSection", widget: "boolean", default: true}
       # - label: "Imagen para sección Detalles"
       #   name: "detailsImage"
@@ -795,17 +902,6 @@ collections:
       #   required: false
       #   fields:
       #     - {label: Título, name: title, widget: string}
-      # - {label: "Habilitar sección Descargas", name: "enableDownloadsSection", widget: "boolean", default: true}
-      # - {label: "Título sección Descargas", name: "downloadsTitle", widget: "string", hint: "Podés usar HTML en este campo", required: false}
-      # - label: "Descargas asociadas"
-      #   name: "downloads"
-      #   widget: "relation"
-      #   collection: "downloads"
-      #   required: false
-      #   search_fields: ["title"]
-      #   value_field: "title"
-      #   display_fields: ["title"]
-      #   multiple: true
       # - {label: "Habilitar sección Colocación Aislante", name: "enableColocationSection", widget: "boolean", default: true}
       # - label: "Imagen para la sección Colocación Aislante"
       #   name: "colocationImage"

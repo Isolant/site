@@ -6,12 +6,17 @@ import slugify from 'react-slugify';
 import Base from "../../components/Base";
 import Hero from "../../components/Products/Hero";
 import CustomHero from "../../components/Products/CustomHero";
+import DetailCards from "../../components/Products/DetailCards";
 import Details from "../../components/Products/Details";
+import Attributes from "../../components/Products/Attributes";
+import Map from "../../components/Products/Map";
 import Benefits from "../../components/Products/Benefits";
 import Video from "../../components/Products/Video";
 import Instructions from "../../components/Products/Instructions";
 import TechnicalInformation from "../../components/Products/TechnicalInformation";
 import Downloads from "../../components/Products/Downloads";
+import Tutorials from "../../components/Products/Tutorials";
+import Contact from "../../components/Products/Contact";
 import FullScreenSection from "../../components/Layout/FullScreenSection";
 
 // Library
@@ -21,15 +26,11 @@ import { getCollectionIds, getCollectionById, getAllCollections } from '../../li
 import { ReactComponent as Dots } from '../../public/images/misc/dots.svg';
 import { ReactComponent as Circle } from '../../public/images/misc/circle.svg';
 
-export default function Product({ productData, instructionsData, localesData, provincesData, downloadsData, productLinesData }) {
+export default function Product({ productData, instructionsData, localesData, provincesData, downloadsData, productLinesData, productsData }) {
   // Data massaging
   const { name, description } = productData;
   const { productImage, logo } = productData.globals;
-  const sections = [];
-  productData.page.map(section => sections.push({
-    id: Object.keys(section)[0],
-    ...Object.values(section)[0],
-  }));
+  const sections = Object.entries(productData.page[0]).map(( [k, v] ) => ({ [k]: v }));
 
   const colocationButtons = [{
     link: productData.colocationCtaLink,
@@ -87,10 +88,10 @@ export default function Product({ productData, instructionsData, localesData, pr
       {/* Loop through the sections and add the correct component */}
       {sections.map((section, index) => {
         let markup = [];
-        switch(section.id) {
+        switch(Object.keys(section)[0]) {
           // Select which hero we have to render
           case 'hero':
-            section.enableHero && section.heroType === 'standard' ? 
+            section.hero.enableHero && section.hero.heroType === 'standard' ? 
               markup.push (
                 <Hero
                   background={mainImages.length > 0 ? mainImages : productData.mainImage}
@@ -108,14 +109,75 @@ export default function Product({ productData, instructionsData, localesData, pr
             :
               markup.push (
                 <CustomHero
-                  background={section.heroImage.mainImage}
-                  backgroundPosition={section.heroImage.mainImageBackgroundPosition}
+                  background={section.hero.heroImage.mainImage}
+                  backgroundPosition={section.hero.heroImage.mainImageBackgroundPosition}
                   product={name}
-                  eyebrow={section.eyebrow}
-                  slogan={section.slogan}
+                  eyebrow={section.hero.eyebrow}
+                  slogan={section.hero.slogan}
                   description={description}
                   logo={logo}
                   key={index}
+                />
+              )
+          // Detail cards
+          case 'detailCards':
+            section.detailCards && section.detailCards.enableDetailCardsSection === true &&
+              markup.push (
+                <DetailCards
+                  cards={section.detailCards.cards}
+                />
+              )
+          // Attributes
+          case 'attributes':
+            section.attributes && section.attributes.enableAttributesSection === true &&
+              markup.push (
+                <Attributes
+                  title={section.attributes.attributesTitle}
+                  text={section.attributes.attributesText}
+                  attributes={section.attributes.attributes}
+                />
+              )
+          // Subproducts
+          case 'subproducts':
+            section.subproducts && section.subproducts.enableSubproductsSection === true &&
+              markup.push (
+                <p>TBD: Subproducts</p>
+              )
+          // Map
+          case 'map':
+            section.map && section.map.enableMapSection === true &&
+              markup.push (
+                <Map>{section.map.mapEmbed.code}</Map>
+              )
+          // Downloads
+          case 'downloads':
+            section.downloads && section.downloads.enableDownloadsSection === true &&
+              markup.push (
+                <Downloads
+                  title={section.downloads.downloadsTitle}
+                  text={section.downloads.downloadsText}
+                  downloads={downloadsData}
+                />
+              )
+          // Tutorials
+          case 'tutorials':
+            section.tutorials && section.tutorials.enableTutorialsSection === true &&
+              markup.push (
+                <Tutorials
+                  title={section.tutorials.tutorialsTitle}
+                  text={section.tutorials.tutorialsText}
+                  tutorials={section.tutorials.tutorials}
+                />
+              )
+          // Contact
+          case 'contact':
+            section.contact && section.contact.enableContactSection === true &&
+              markup.push (
+                <Contact
+                  image={section.contact.contactFormImage}
+                  title={section.contact.contactFormTitle}
+                  text={section.contact.contactFormText}
+                  products={productsData}
                 />
               )
           default:
@@ -169,12 +231,12 @@ export default function Product({ productData, instructionsData, localesData, pr
           generalInformation={productData.generalInformationList}
         />
       }
-      {productData.enableDownloadsSection &&
+      {/* {productData.enableDownloadsSection &&
         <Downloads
           title={productData.downloadsTitle}
           downloads={downloadsData}
         />
-      }
+      } */}
       {productData.enableColocationSection &&
         <FullScreenSection
           image={productData.colocationImage}
@@ -215,10 +277,11 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const productData = getCollectionById("products", params.id);
   const instructionsData = productData.instructions ? productData.instructions.map(product => getCollectionById("instructions", slugify(product))) : null;
-  const downloadsData = productData.downloads ? productData.downloads.map(download => getCollectionById("downloads", slugify(download))) : null;
+  const downloadsData = productData.page[0].downloads ? productData.page[0].downloads.downloads.map(download => getCollectionById("downloads", slugify(download))) : null;
   const provincesData = getCollectionById("geolocalization", 'provinces');
   const localesData = getCollectionById("geolocalization", 'locales');
   const productLinesData = getAllCollections("productLines");
+  const productsData = getAllCollections("products");
 
   return {
     props: {
@@ -227,7 +290,8 @@ export async function getStaticProps({ params }) {
       provincesData,
       localesData,
       downloadsData,
-      productLinesData
+      productLinesData,
+      productsData
     }
   }
 }
