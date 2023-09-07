@@ -17,7 +17,10 @@ page:
   - hero:
       enableHero: true
       slogan: Viví sin ruidos <strong>y disfrutá tu espacio</strong>
-      mainImage: /images/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-imagen.jpg
+      heroImage:
+        selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-imagen.jpg
       mainBenefits:
         - icon: /images/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-beneficio-1.svg
           text: Desanclaje acústico de soleras y montantes

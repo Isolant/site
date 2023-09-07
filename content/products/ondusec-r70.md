@@ -16,7 +16,10 @@ globals:
 page:
   - hero:
       slogan: Viví tu casa sin ruidos molestos <strong>de vecinos y autos</strong>
-      mainImage: /images/Imagenes%20Generales%20Tris/pexels-blue-bird-7218674_usqskl.jpg
+      heroImage:
+        selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-cta-fondo.jpg
       enableHero: true
       mainBenefits:
         - icon: /images/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-beneficio-1.svg

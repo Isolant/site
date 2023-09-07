@@ -3,10 +3,13 @@ name: Tubos con Aluminio
 description: <strong>Aislación para cañerías de distribución a la intemperie.</strong><br /><br />Tubos de espuma termoplástica de celda cerrada de espesor 10 mm recubiertos con un foil de aluminio puro que protege a la espuma de los rayos UV, y además aumenta la resistencia térmica que provee la espuma.
 globals:
   order: 8
-  mainImage: /images/products/tubos-aluminio/isolant-aislantes-linea-climatizacion-tubos-aluminio-imagen-principal.jpg
   productImage: /images/products/tubos-aluminio/isolant-aislantes-linea-climatizacion-tubos-aluminio-producto-rollo.png
 page:
   - hero:
+      heroImage:
+        selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/tubos-aluminio/isolant-aislantes-linea-climatizacion-tubos-aluminio-imagen-principal.jpg
       enableHero: true
       slogan: Aislación para cañerías <strong>a la intemperie</strong>
       mainBenefits:

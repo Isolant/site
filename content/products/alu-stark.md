@@ -3,11 +3,14 @@ name: Alu Stark
 description: <strong>Aislante con terminación blanca y alta resistencia.</strong><br /><br />Fácil instalación gracias a que es un material liviano y resistente al manipuleo en obra. No desprende partículas de ningún tipo. La espuma color blanca favorece a la terminación estética de la cara que queda a la vista.
 globals:
   order: 4
-  mainImage: /images/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-imagen.jpg
   productImage: /images/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-producto-rollo.png
   ecommerceLink: https://tienda.isolant.com.ar/galpones-y-tinglados/63-alu-stark-10.html
 page:
   - hero:
+      heroImage:
+        selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-imagen.jpg
       enableHero: true
       slogan: Tu industria con la terminación <strong>de un shopping</strong>
       mainBenefits:

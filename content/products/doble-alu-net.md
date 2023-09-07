@@ -10,7 +10,10 @@ globals:
 page:
   - hero:
       slogan: ¡Ahorrá hasta un <strong>40% de mano de obra!</strong>
-      mainImage: /images/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-imagen.jpg
+      heroImage:
+        selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-imagen.jpg
       enableHero: true
       mainBenefits:
         - icon: /images/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-beneficio-1.svg

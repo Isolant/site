@@ -9,7 +9,10 @@ globals:
 page:
   - hero:
       slogan: Caminá tus pisos como <strong>nunca lo hiciste antes</strong>
-      mainImage: /images/products/bajo-piso-pvc-spc-densus/isolant-aislantes-linea-pisos-bajo-piso-spc-densus-imagen-fondo.jpg
+      heroImage:
+        selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/bajo-piso-pvc-spc-densus/isolant-aislantes-linea-pisos-bajo-piso-spc-densus-imagen-fondo.jpg
       enableHero: true
       mainBenefits:
         - icon: /images/products/bajo-piso-pvc-spc-densus/isolant-aislantes-linea-pisos-bajo-piso-pvc-spc-densus-beneficio-3.svg

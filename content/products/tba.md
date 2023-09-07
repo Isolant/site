@@ -9,11 +9,14 @@ description: <strong>Membrana bajo teja o bajo chapa.</strong><br /><br />Lámin
   adecuado del aislante para tu obra.
 globals:
   order: 4
-  mainImage: /images/products/tba/isolant-aislantes-linea-vivienda-tba-imagen-principal.jpg
   productImage: /images/products/tba/isolant-aislantes-linea-vivienda-tba-imagen-rollo.png
   ecommerceLink: https://tienda.isolant.com.ar/vivienda/67-tba5.html
 page:
   - hero:
+      heroImage:
+        selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/tba/isolant-aislantes-linea-vivienda-tba-imagen-principal.jpg
       enableHero: true
       slogan: <strong>Tradición, precio y calidad</strong> para techos de madera
       mainBenefits:

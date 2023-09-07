@@ -7,7 +7,10 @@ globals:
 page:
   - hero:
       slogan: Climatización de ambientes <strong>más eficiente</strong>
-      mainImage: /images/products/espuma-aluminizada/isolant-aislantes-linea-climatizacion-espuma-aluminizada-imagen.jpg
+      heroImage:
+        selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/espuma-aluminizada/isolant-aislantes-linea-climatizacion-espuma-aluminizada-imagen.jpg
       enableHero: true
       mainBenefits:
         - icon: /images/products/espuma-aluminizada/isolant-aislantes-linea-climatizacion-espuma-aluminizada-beneficio-1.svg

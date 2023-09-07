@@ -4,12 +4,15 @@ description: Cierre hermético para chapas. ¡Único del mercado con coteado ref
 globals:
   order: 6
   slogan: Cierre hermético <strong>para chapas</strong>
-  mainImage: /images/products/sellatutti/isolant-aislantes-linea-accesorios-sellatutti-imagen-fondo.jpg
   productImage: /images/products/sellatutti/isolant-aislantes-linea-otros-usos-sellatutti-producto-rollo.png
   logo: /images/products/sellatutti/isolant-aislantes-linea-otros-usos-sellatutti-logo.jpg
 page:
   - hero:
       enableHero: true
+      heroImage:
+        selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/sellatutti/isolant-aislantes-linea-accesorios-sellatutti-imagen-fondo.jpg
       mainBenefits:
         - icon: /images/products/sellatutti/isolant-aislantes-linea-otros-usos-sellatutti-beneficio-1.svg
           text: Material impermeable e imputrescible

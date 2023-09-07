@@ -33,14 +33,14 @@ export default function Product({ productData, instructionsData, localesData, pr
   const sections = Object.entries(productData.page[0]).map(( [k, v] ) => ({ [k]: v }));
 
   const colocationButtons = [{
-    link: productData.colocation.colocationCtaLink,
-    text: productData.colocation.colocationCtaText,
+    link: productData.page[0].colocation.colocationCtaLink,
+    text: productData.page[0].colocation.colocationCtaText,
     icon: false,
     color: 'white',
     isExternal: true,
   }, {
-    link: productData.colocation.technicalAssessorCtaLink,
-    text: productData.colocation.technicalAssessorCtaText,
+    link: productData.page[0].colocation.technicalAssessorCtaLink,
+    text: productData.page[0].colocation.technicalAssessorCtaText,
     icon: false,
     color: 'transparent',
     isExternal: false,
@@ -83,20 +83,7 @@ export default function Product({ productData, instructionsData, localesData, pr
         switch(Object.keys(section)[0]) {
           // Select which hero we have to render
           case 'hero':
-            section.hero.enableHero && section.hero.heroType === 'standard' ? 
-              markup.push (
-                <Hero
-                  background={section.hero.heroImage.mainImage}
-                  backgroundVideo={section.hero.mainVideo}
-                  backgroundPosition={section.hero.mainImageBackgroundPosition}
-                  product={name}
-                  slogan={section.hero.slogan}
-                  benefits={section.hero.mainBenefits}
-                  enableDetailsSection={section.details && section.details.enableDetailsSection === true ? true : false}
-                  key={index}
-                />
-              )
-            :
+            section.hero.enableHero && section.hero.heroType === 'custom' ? 
               markup.push (
                 <CustomHero
                   background={section.hero.heroImage.mainImage}
@@ -106,6 +93,19 @@ export default function Product({ productData, instructionsData, localesData, pr
                   slogan={section.hero.slogan}
                   description={description}
                   logo={logo}
+                  key={index}
+                />
+              )
+            :
+              markup.push (
+                <Hero
+                  background={section.hero.heroImage.mainImage}
+                  backgroundVideo={section.hero.mainVideo}
+                  backgroundPosition={section.hero.mainImageBackgroundPosition}
+                  product={name}
+                  slogan={section.hero.slogan}
+                  benefits={section.hero.mainBenefits}
+                  enableDetailsSection={section.details && section.details.enableDetailsSection === true ? true : false}
                   key={index}
                 />
               )
@@ -296,8 +296,8 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const productData = getCollectionById("products", params.id);
-  const instructionsData = productData.page[0].instructions ? productData.page[0].instructions.instructions.map(product => getCollectionById("instructions", slugify(product))) : null;
-  const downloadsData = productData.page[0].downloads ? productData.page[0].downloads.downloads.map(download => getCollectionById("downloads", slugify(download))) : null;
+  const instructionsData = productData.page[0].instructions.instructions ? productData.page[0].instructions.instructions.map(product => getCollectionById("instructions", slugify(product))) : null;
+  const downloadsData = productData.page[0].downloads.downloads ? productData.page[0].downloads.downloads.map(download => getCollectionById("downloads", slugify(download))) : null;
   const provincesData = getCollectionById("geolocalization", 'provinces');
   const localesData = getCollectionById("geolocalization", 'locales');
   const productLinesData = getAllCollections("productLines");

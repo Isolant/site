@@ -3,10 +3,13 @@ name: Tubos
 description: <strong>Aislación para cañerías.</strong><br /><br />Tubos de espuma termoplástica de celda cerrada de espesor 10 mm y diversos diámetros.
 globals:
   order: 7
-  mainImage: /images/products/tubos/isolant-aislantes-linea-climatizacion-tubos-imagen-principal.jpg
   productImage: /images/products/tubos/isolant-aislantes-linea-climatizacion-tubos-producto-rollo.png
 page:
   - hero:
+      heroImage:
+        selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/tubos/isolant-aislantes-linea-climatizacion-tubos-imagen-principal.jpg
       slogan: Aislación para <strong>cañerías</strong>
       enableHero: true
       mainBenefits:

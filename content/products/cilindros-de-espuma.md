@@ -9,7 +9,10 @@ globals:
 page:
   - hero:
       slogan: Respaldo de juntas, <strong>elásticas e hidrófugas</strong>
-      mainImage: https/images/products/cilindros-de-espuma/CILINDRO_MG_5017_rtfpze.jpg
+      heroImage:
+        selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: https/images/products/cilindros-de-espuma/CILINDRO_MG_5017_rtfpze.jpg
       enableHero: true
       mainBenefits:
         - icon: /images/products/cilindros-de-espuma/isolant-aislantes-linea-otros-usos-cilindros-de-espuma-beneficio-1.svg

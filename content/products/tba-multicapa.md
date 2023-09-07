@@ -14,7 +14,10 @@ page:
   - hero:
       enableHero: true
       slogan: Viví tu casa <strong>aislado como un rey</strong>
-      mainImage: /images/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-imagen-principal.jpg
+      heroImage:
+        selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-imagen-principal.jpg
       mainBenefits:
         - icon: /images/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-beneficio-1.svg
           text: Aluminio puro. Refleja la radiación calórica.

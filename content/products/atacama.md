@@ -13,8 +13,10 @@ page:
   - hero:
       enableHero: true
       mainImageBackgroundPosition: bottom
-      mainImage: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-imagen-fondo.jpg
-      mainImage2: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-imagen-fondo-galpones-tinglados.jpg
+      heroImage:
+        selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-imagen-fondo.jpg
       mainBenefits:
         - icon: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-beneficio-1.svg
           text: Aislación térmica. Comfort de tu casa en verano.

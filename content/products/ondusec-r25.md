@@ -14,7 +14,10 @@ page:
   - hero:
       enableHero: true
       slogan: Viví tu casa con <strong>confort térmico y acústico</strong>
-      mainImage: /images/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-imagen.jpg
+      heroImage:
+        selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-imagen.jpg
       mainBenefits:
         - icon: /images/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-beneficio-1.svg
           text: Aislación Acústica

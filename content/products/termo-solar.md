@@ -3,11 +3,14 @@ name: Termo solar
 description: Termo solar que utiliza el mismo principio de calentador que los termotanques solares. 
 globals:
   order: 5
-  mainImage: /images/products/termo-solar/isolant-aislantes-linea-accesorios-termo-solar-imagen-principal.jpg
   productImage: /images/products/termo-solar/isolant-aislantes-linea-otros-usos-termo-solar-producto-rollo.png
   ecommerceLink: https://tienda.isolant.com.ar/tienda/86-termo-solar.html
 page:
   - hero:
+      heroImage:
+        selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/termo-solar/isolant-aislantes-linea-accesorios-termo-solar-imagen-principal.jpg
       enableHero: true
       slogan: ¡Metele energía <strong>a tu mate!</strong>
       mainBenefits:

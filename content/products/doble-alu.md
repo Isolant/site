@@ -8,7 +8,10 @@ globals:
 page:
   - hero:
       slogan: La solución integral <strong>para galpones y tinglados</strong>
-      mainImage: /images/products/doble-alu/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-imagen-principal.jpg
+      heroImage:
+        selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/doble-alu/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-imagen-principal.jpg
       enableHero: true
       mainBenefits:
         - icon: /images/products/doble-alu/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-beneficio-1.svg

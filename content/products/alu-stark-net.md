@@ -11,12 +11,15 @@ description: <strong>Aislante con terminación blanca con red incorporada.
   Ideal para supermercados, concesionarias de autos, etc.
 globals:
   order: 1
-  mainImage: /images/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-imagen.jpg
   productImage: /images/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-producto-rollo.png
   logo: /images/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-logo.png
   ecommerceLink: https://tienda.isolant.com.ar/galpones-y-tinglados/54-alu-stark-10-net.html
 page:
   - hero:
+      heroImage:
+        selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-imagen.jpg
       enableHero: true
       slogan: Tu industria con la terminación <strong>de un shopping</strong>
       mainBenefits:

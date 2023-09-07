@@ -11,7 +11,10 @@ globals:
 page:
   - hero:
       slogan: Decile chau <strong>al chiflete</strong>
-      mainImage: /images/products/puertelete/isolant-aislantes-linea-accesorios-puertelete-imagen.jpg
+      heroImage:
+        selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/puertelete/isolant-aislantes-linea-accesorios-puertelete-imagen.jpg
       enableHero: true
       mainBenefits:
         - icon: /images/products/puertelete/isolant-aislantes-linea-otros-usos-puertelete-beneficio-1.svg

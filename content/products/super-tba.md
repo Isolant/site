@@ -8,11 +8,14 @@ description: <strong>Aislante para cualquier tipo de techo con una cara de
   ventilado. Además presenta su exclusiva unión por termo soldado patentada.
 globals:
   order: 1
-  mainImage: /images/products/super-tba/isolant-aislantes-linea-vivienda-super-tba-imagen-fondo.jpg
   productImage: /images/products/super-tba/isolant-aislantes-linea-vivienda-super-tba-rollo.png
   ecommerceLink: https://tienda.isolant.com.ar/tienda/88-super-tba.html
 page:
   - hero:
+      heroImage:
+        selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/super-tba/isolant-aislantes-linea-vivienda-super-tba-imagen-fondo.jpg
       enableHero: true
       slogan: El único aislante para <strong>cualquier tipo de techos</strong>
       mainBenefits:
