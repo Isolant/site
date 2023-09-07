@@ -109,6 +109,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                   key={index}
                 />
               )
+            break;
           // Details
           case 'details':
             section.details && section.details.enableDetailsSection === true &&
@@ -125,6 +126,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                   anchor="details"
                 />
               )
+            break;
           // Detail cards
           case 'detailCards':
             section.detailCards && section.detailCards.enableDetailCardsSection === true &&
@@ -133,6 +135,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                   cards={section.detailCards.cards}
                 />
               )
+            break;
           // Benefits
           case 'benefits':
             section.benefits && section.benefits.enableBenefitsSection === true &&
@@ -148,6 +151,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                   benefits={section.benefits.benefitsList}
                 />
               )
+            break;
           // Attributes
           case 'attributes':
             section.attributes && section.attributes.enableAttributesSection === true &&
@@ -158,6 +162,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                   attributes={section.attributes.attributes}
                 />
               )
+            break;
           // Video
           case 'video':
             section.video && section.video.enableVideoSection === true &&
@@ -166,18 +171,21 @@ export default function Product({ productData, instructionsData, localesData, pr
                   video={section.video.video}
                 />
               )
+            break;
           // Subproducts
           case 'subproducts':
             section.subproducts && section.subproducts.enableSubproductsSection === true &&
               markup.push (
                 <p>TBD: Subproducts</p>
               )
+            break;
           // Map
           case 'map':
             section.map && section.map.enableMapSection === true &&
               markup.push (
                 <Map>{section.map.mapEmbed.code}</Map>
               )
+            break;
           // Instructions
           case 'instructions':
             section.instructions && section.instructions.enableInstructions === true &&
@@ -188,6 +196,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                   pdf={productData.pdfInstruction && productData.pdfInstruction}
                 />
               )
+            break;
           // Technical Information
           case 'technicalInformation':
             section.technicalInformation && section.technicalInformation.enableTechnicalInformation === true &&
@@ -199,6 +208,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                   generalInformation={section.technicalInformation.generalInformationList}
                 />
               )
+            break;
           // Downloads
           case 'downloads':
             section.downloads && section.downloads.enableDownloadsSection === true &&
@@ -209,6 +219,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                   downloads={downloadsData}
                 />
               )
+            break;
           // Tutorials
           case 'tutorials':
             section.tutorials && section.tutorials.enableTutorialsSection === true &&
@@ -219,6 +230,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                   tutorials={section.tutorials.tutorials}
                 />
               )
+            break;
           // Colocation
           case 'colocation':
             section.colocation && section.colocation.enableColocationSection === true &&
@@ -231,6 +243,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                   buttons={colocationButtons}
                 />
               )
+            break;
           // CTA
           case 'cta':
             section.cta && section.cta.enableCtaSection === true &&
@@ -249,6 +262,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                   <Circle className="hidden lg:block absolute right-4 xl:right-16 -bottom-8 text-red-200 fill-current z-10" />
                 </FullScreenSection>
               )
+            break;
           // Contact
           case 'contact':
             section.contact && section.contact.enableContactSection === true &&
@@ -260,6 +274,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                   products={productsData}
                 />
               )
+            break;
           default:
             break;
         }
