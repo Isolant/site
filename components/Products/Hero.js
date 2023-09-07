@@ -1,21 +1,11 @@
-// Globals
 import React from "react";
 import Link from "next/link";
-import Slider from "react-slick";
 
-// Styles
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-
-// Components
 import TitlePackage from '../TitlePackage';
-import Button from '../Forms/Button';
 
-// Classes
 import { horizontalPadding } from "../../classes/Spacing";
 import { standardTextClasses } from "../../classes/Text";
 
-// SVGs
 import { ReactComponent as ChevronDown } from '../../public/images/icons/chevron-down.svg';
 
 export default function Hero({ 
@@ -23,11 +13,9 @@ export default function Hero({
   backgroundVideo,
   backgroundPosition,
   product,
-  enableBuyBtn,
   enableDetailsSection,
   slogan,
   benefits,
-  link,
 }) {
 
   const settings = {
@@ -61,33 +49,6 @@ export default function Hero({
             allowFullScreen
             className={`w-full h-full pointer-events-none opacity-40`}
           ></iframe>
-        </div>
-      : Array.isArray(background) ?
-        <div
-          className="bg-gray-800 w-full h-full absolute lg:relative xl:max-h-screen overflow-hidden"
-        >
-          <Slider
-            {...settings} 
-          >
-            {background.map((image, index) => 
-              <img
-                src={image}
-                alt={product}
-                key={index}
-                className={`
-                  opacity-40 w-full h-full object-cover
-                  ${backgroundPosition && backgroundPosition === 'top' ?
-                    'object-top'
-                    :
-                    backgroundPosition && backgroundPosition === 'center' ?
-                    'object-center'
-                    :
-                    'object-bottom'
-                  }
-                `}
-              />
-            )}
-          </Slider>
         </div>
       :
         <div
@@ -142,20 +103,6 @@ export default function Hero({
               </li>
             )
           })}
-
-          {enableBuyBtn === true ?
-            <li
-              className="self-end lg:col-span-full xl:col-span-1 text-center mt-4 sm:mt-0"
-            >
-              <Button
-                href={link}
-                text="Comprar ahora"
-                color="transparent"
-                isExternal={true}
-              />
-            </li>
-            : ''
-          }
         </ul>
       }
       {enableDetailsSection &&
