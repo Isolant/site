@@ -1,106 +1,117 @@
 ---
 name: Red 2x2
-order: 8
-slogan: Una sola malla de sostén <strong>para todo tipo de aislantes</strong>
 description: <strong>Malla sostén de alta resistencia para cualquier tipo de aislante.</strong><br /><br />La RED 2x2 está diseñada especialmente para el sostén de aislantes y le garantiza una colocación más rápida, 100% segura y con una terminación estética superior.
-mainImage: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-imagen-principal.jpg
-enableHero: true
-productImage: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-producto-rollo.png
-ecommerceLink: https://tienda.isolant.com.ar/galpones-y-tinglados/60-red-2x2-200m2.html
-mainBenefits:
-  - icon: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-beneficio-1.svg
-    text: Fácil y rápida colocación
-  - icon: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-beneficio-2.svg
-    text: Reemplaza al entramado de alambre
-  - icon: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-beneficio-3.svg
-    text: Terminación estética superior
-enableDetailsSection: true
-function:
-  - text: Sostén de membranas aislantes.
-  - text: Colocación más rápida y segura.
-  - text: Terminación estética superior.
-application:
-  - text: Techos de estructura metálica.
-presentation:
-  - text: 2m. x 100m - Cuadrícula de 2x2cm
-  - text: 1m. x 100m - Cuadrícula de 2x2cm
-logo: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-logo.jpg
-detailsImage: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-imagen-detalle.jpg
-enableBenefitsSection: true
-benefitsTitle: Resistencia por <strong>biorientado</strong>
-benefitsText: Gracias a su tecnología de fabricación de pretensado y biorentado, la <strong>RED 2x2 Isolant</strong> presenta una alta resistencia a la deformación por esfuerzos de dilatación y contracción de la estructura, logrando techos más planos y de una estética superior.
-benefitsImage: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-beneficio-exclusivo.jpg
-benefitsList:
-  - text: Liviana y resistente.
-  - text: Material reciclable.
-  - text: Clase RE2. Muy baja propagación de llama.
-enableVideoSection: false
-enableInstructions: true
-instructions:
-  - Red 2x2
-enableTechnicalInformation: true
-technicalInformationList:
-  - title: Resistencia térmica
-    text: 0.23 m².K/w
-  - title: Propagación de llama
-    text: Clase RE2 MUY BAJA PROPAGACIÓN DE LLAMA. Aprobada por Bomberos Argentina.
-  - title: Densidad de humos
-    text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases envenenantes.
-  - title: Estructura de celda
-    text: Cerrada
-  - title: Espesor
-    text: 10, 15 y 20 mm
-  - title: Densidad
-    text: 20-30 kg m3 (ASTM D 1622)
-  - title: Conductividad Térmica de la Espuma
-    text: 0.035 a 0.045 W/m°C (ASTM C518)
-  - title: Permeabilidad al agua
-    text: Impermeable (Dir. UEAtc.)
-  - title: Absorción del agua
-    text: 1.2% V/V (42.6% P/P) (IRAM 1582)
-  - title: Permeancia al vapor de agua
-    text: 0.033 g/m2hkPa (IRAM 1735 - ASTM E-96)
-  - title: Aislamiento a ruidos de impacto
-    text: 19 dBA (IRAM 4063 Parte V y VII)
-  - title: Estabilidad dimensional bajo calor Longitudinal
-    text: -4.5/-4.2%
-  - title: Estabilidad dimensional bajo calor Transversal
-    text: +0.3/+0.8 (70°C x 22hs)
-  - title: Resistencia a los aceites minerales
-    text: SAE 30 15 días 23°C
-  - title: Resistencia al ozono
-    text: No hay agrietamiento (ASTM D 1171)
-  - title: Permeabilidad a los rayos de luz
-    text: 52-63% (Espectro fotómetro)
-generalInformationList:
-  - title: Son absolutamente impermeables
-  - title: Son aislantes térmicos
-  - title: Evitan la condensación
-  - title: Red de PE resistente biorientada incorporada
-  - title: No se degradan y mantienen su forma y espesor a lo largo del tiempo
-  - title: Son fáciles de colocar
-  - title: Se cortan simplemente con trincheta
-  - title: Son termosoldables y pegables con adhesivo de contacto
-  - title: Se clavan fácilmente, sin riesgo de roturas ni filtraciones
-  - title: Son livianas y flexibles
-  - title: No desprenden partículas de ningún tipo
-  - title: Material de muy baja propagación de llama
-  - title: Evitan los puentes térmicos
-  - title: No contaminan el medio ambiente; no contienen freón
-  - title: No colocar en aleros, galerías o galpones sin muros perimetrales que protejan de la reflexión indirecta de los rayos UV
-enableDownloadsSection: true
-downloadsTitle: Área de <strong class="ml-2">descargas</strong>
-downloads:
-  - Catálogo de Industria
-  - ¿Qué tipo de techo querés aislar?
-  - Tríptico Industria/Vivienda
-enableColocationSection: true
-colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
-colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
-technicalAssessorCtaText: Buscá tu asesor técnico
-colocationCtaLink: https://isoplus.isolant.com.ar/inicio
-colocationCtaText: Encontrá un instalador
-technicalAssessorCtaLink: /servicios#map
-ctaImage: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-imagen-detalle.jpg
-enableCtaSection: true
+globals:
+  order: 8
+  productImage: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-producto-rollo.png
+  ecommerceLink: https://tienda.isolant.com.ar/galpones-y-tinglados/60-red-2x2-200m2.html
+  logo: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-logo.jpg
+page:
+  - hero:
+      enableHero: true
+      mainImage: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-imagen-principal.jpg
+      slogan: Una sola malla de sostén <strong>para todo tipo de aislantes</strong>
+      mainBenefits:
+        - icon: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-beneficio-1.svg
+          text: Fácil y rápida colocación
+        - icon: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-beneficio-2.svg
+          text: Reemplaza al entramado de alambre
+        - icon: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-beneficio-3.svg
+          text: Terminación estética superior
+    details:
+      enableDetailsSection: true
+      detailsImage: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-imagen-detalle.jpg
+      function:
+        - text: Sostén de membranas aislantes.
+        - text: Colocación más rápida y segura.
+        - text: Terminación estética superior.
+      application:
+        - text: Techos de estructura metálica.
+      presentation:
+        - text: 2m. x 100m - Cuadrícula de 2x2cm
+        - text: 1m. x 100m - Cuadrícula de 2x2cm
+    benefits:
+      enableBenefitsSection: true
+      benefitsTitle: Resistencia por <strong>biorientado</strong>
+      benefitsText: Gracias a su tecnología de fabricación de pretensado y biorentado, la <strong>RED 2x2 Isolant</strong> presenta una alta resistencia a la deformación por esfuerzos de dilatación y contracción de la estructura, logrando techos más planos y de una estética superior.
+      benefitsImage: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-beneficio-exclusivo.jpg
+      benefitsList:
+        - text: Liviana y resistente.
+        - text: Material reciclable.
+        - text: Clase RE2. Muy baja propagación de llama.
+    video:
+      enableVideoSection: false
+    instructions:
+      enableInstructions: true
+      instructions:
+        - Red 2x2
+    technicalInformation:
+      enableTechnicalInformation: true
+      technicalInformationList:
+        - title: Resistencia térmica
+          text: 0.23 m².K/w
+        - title: Propagación de llama
+          text: Clase RE2 MUY BAJA PROPAGACIÓN DE LLAMA. Aprobada por Bomberos Argentina.
+        - title: Densidad de humos
+          text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases envenenantes.
+        - title: Estructura de celda
+          text: Cerrada
+        - title: Espesor
+          text: 10, 15 y 20 mm
+        - title: Densidad
+          text: 20-30 kg m3 (ASTM D 1622)
+        - title: Conductividad Térmica de la Espuma
+          text: 0.035 a 0.045 W/m°C (ASTM C518)
+        - title: Permeabilidad al agua
+          text: Impermeable (Dir. UEAtc.)
+        - title: Absorción del agua
+          text: 1.2% V/V (42.6% P/P) (IRAM 1582)
+        - title: Permeancia al vapor de agua
+          text: 0.033 g/m2hkPa (IRAM 1735 - ASTM E-96)
+        - title: Aislamiento a ruidos de impacto
+          text: 19 dBA (IRAM 4063 Parte V y VII)
+        - title: Estabilidad dimensional bajo calor Longitudinal
+          text: -4.5/-4.2%
+        - title: Estabilidad dimensional bajo calor Transversal
+          text: +0.3/+0.8 (70°C x 22hs)
+        - title: Resistencia a los aceites minerales
+          text: SAE 30 15 días 23°C
+        - title: Resistencia al ozono
+          text: No hay agrietamiento (ASTM D 1171)
+        - title: Permeabilidad a los rayos de luz
+          text: 52-63% (Espectro fotómetro)
+      generalInformationList:
+        - title: Son absolutamente impermeables
+        - title: Son aislantes térmicos
+        - title: Evitan la condensación
+        - title: Red de PE resistente biorientada incorporada
+        - title: No se degradan y mantienen su forma y espesor a lo largo del tiempo
+        - title: Son fáciles de colocar
+        - title: Se cortan simplemente con trincheta
+        - title: Son termosoldables y pegables con adhesivo de contacto
+        - title: Se clavan fácilmente, sin riesgo de roturas ni filtraciones
+        - title: Son livianas y flexibles
+        - title: No desprenden partículas de ningún tipo
+        - title: Material de muy baja propagación de llama
+        - title: Evitan los puentes térmicos
+        - title: No contaminan el medio ambiente; no contienen freón
+        - title: No colocar en aleros, galerías o galpones sin muros perimetrales que protejan de la reflexión indirecta de los rayos UV
+    downloads:
+      enableDownloadsSection: true
+      downloadsTitle: Área de <strong class="ml-2">descargas</strong>
+      downloads:
+        - Catálogo de Industria
+        - ¿Qué tipo de techo querés aislar?
+        - Tríptico Industria/Vivienda
+    colocation:
+      enableColocationSection: true
+      colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
+      colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
+      technicalAssessorCtaText: Buscá tu asesor técnico
+      colocationCtaLink: https://isoplus.isolant.com.ar/inicio
+      colocationCtaText: Encontrá un instalador
+      technicalAssessorCtaLink: /servicios#map
+    cta:
+      ctaImage: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-imagen-detalle.jpg
+      enableCtaSection: true
 ---
