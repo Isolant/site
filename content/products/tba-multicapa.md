@@ -7,7 +7,6 @@ description: <strong>El único aislante térmico con triple capa hidrófuga para
   resistencia, para techos de viviendas.
 globals:
   order: 3
-  mainImage: /images/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-imagen-principal.jpg
   productImage: /images/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-imagen-rollo.png
   logo: /images/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-logo.svg
   ecommerceLink: https://tienda.isolant.com.ar/vivienda/68-multicapa.html
@@ -15,6 +14,7 @@ page:
   - hero:
       enableHero: true
       slogan: Viví tu casa <strong>aislado como un rey</strong>
+      mainImage: /images/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-imagen-principal.jpg
       mainBenefits:
         - icon: /images/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-beneficio-1.svg
           text: Aluminio puro. Refleja la radiación calórica.

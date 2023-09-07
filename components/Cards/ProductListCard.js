@@ -24,9 +24,9 @@ export default function ProductListCard({ product }) {
             dangerouslySetInnerHTML={{ __html: product.description }}
           />
           <div className="flex flex-col gap-1 mt-2">
-            {product.ecommerceLink &&
+            {product.globals.ecommerceLink &&
               <a
-                href={product.ecommerceLink}
+                href={product.globals.ecommerceLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`${uppercaseTextClasses} text-secondary hover:opacity-80 transition ease-in-out duration-100 flex items-center gap-1`}
@@ -48,9 +48,9 @@ export default function ProductListCard({ product }) {
         </div>
         <div className="flex items-center ml-2 md:ml-4">
           <img
-            src={product.productImage}
+            src={product.globals.productImage}
             alt={product.name}
-            className={`${product.productImageProportion === 'square' ? 'h-16' : 'h-28'} object-cover`}
+            className={`${product.globals.productImageProportion === 'square' ? 'h-16' : 'h-28'} object-cover`}
           />
         </div>
       </div>

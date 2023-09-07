@@ -55,10 +55,10 @@ export default function HighlightedProducts({
                     />
                     <div className="flex flex-col sm:flex-row items-center mt-8">
                       <Button
-                        href={product.ecommerceLink ? product.ecommerceLink : `/contacto?comprar-isolant=${product.id}`}
+                        href={product.globals.ecommerceLink ? product.globals.ecommerceLink : `/contacto?comprar-isolant=${product.id}`}
                         text={"Comprar"}
                         color="primary"
-                        isExternal={product.ecommerceLink ? true : false}
+                        isExternal={product.globals.ecommerceLink ? true : false}
                         icon={true}
                         classes="w-full sm:w-auto sm:mr-6 mb-4 sm:mb-0"
                       />
@@ -80,14 +80,14 @@ export default function HighlightedProducts({
                     <div className="bg-gradient-to-t from-gray-700 absolute w-full h-full z-10" />
                     <div className="h-12 w-12 transform rotate-45 absolute top-2/4 hidden z-10 lg:block bg-gray-600 -left-6" />
                     <Product
-                      product={product.productImage}
+                      product={product.globals.productImage}
                       name={product.name}
                       classes="max-w-[90px] md:max-w-[160px] h-full w-24 flex items-end absolute bottom-8 right-8 z-20"
                       decorations={false}
                     />
                     <Dots className="bottom-4 right-4 absolute text-gray-300 fill-current z-0" />
                     <Image
-                      src={product.mainImage}
+                      src={product.page[0].hero.mainImage}
                       alt={product.name}
                       className="object-cover"
                       layout="fill"
