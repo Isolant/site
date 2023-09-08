@@ -10,7 +10,8 @@ globals:
   ecommerceLink: https://tienda.isolant.com.ar/vivienda/82-atacama-balde-20lt.html
   slogan: Bajá la temperatura interior de tu casa <strong>entre 6 y 8 grados</strong>
 page:
-  - hero:
+    hero:
+      order: 1
       enableHero: true
       mainImageBackgroundPosition: bottom
       heroImage:
@@ -26,6 +27,7 @@ page:
           text: Impermeable. Sella micro fisuras.
     details:
       enableDetailsSection: true
+      order: 2
       detailsImage: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-imagen-detalle-producto.jpg
       function:
         - text: Aislante térmico.
@@ -39,6 +41,7 @@ page:
         - text: 1lt. rinde 1m2 plano.
     benefits:
       enableBenefitsSection: true
+      order: 3
       benefitsSubtitle: Nano esferas poliméricas
       benefitsTitle: Nanotecnología de <strong>última generación</strong>
       benefitsText: <strong>Atacama Escudo Solar</strong> utiliza nanotecnología de
@@ -52,6 +55,7 @@ page:
       benefitsImage: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-producto-beneficio-exclusivo.jpg
     video:
       enableVideoSection: true
+      order: 4
       video: https://www.youtube.com/watch?v=zefa_Sh5-Z4
     instructions:
       enableInstructions: true
@@ -59,6 +63,7 @@ page:
         - Atacama
     technicalInformation:
       enableTechnicalInformation: true
+      order: 5
       technicalInformationList:
         - title: Color
           text: Blanco
@@ -100,6 +105,7 @@ page:
         - Aplica a sistemas de construcción sustentables tipo LEED.
     downloads:
       enableDownloadsSection: true
+      order: 6
       downloadsTitle: Área de <strong class="ml-2">descargas</strong>
       downloads:
         - Volante Atacama
@@ -109,6 +115,7 @@ page:
         - Hoja técnica Atacama
     colocation:
       enableColocationSection: true
+      order: 7
       colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
       colocationCtaLink: https://isoplus.isolant.com.ar/inicio
       technicalAssessorCtaLink: /servicios#map
@@ -117,6 +124,7 @@ page:
       technicalAssessorCtaText: Buscá tu asesor técnico
     cta:
       enableCtaSection: true
+      order: 8
       ctaImage: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-cta-imagen.jpg
       ctaImageBackgroundPosition: top
 ---

@@ -14,8 +14,9 @@ globals:
   logo: /images/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-logo.webp
   ecommerceLink: https://tienda.isolant.com.ar/construccion-en-seco/80-banda-acoustic-100mm.html
 page:
-  - hero:
+    hero:
       enableHero: true
+      order: 1
       slogan: Viví sin ruidos <strong>y disfrutá tu espacio</strong>
       heroImage:
         selectedOption: image
@@ -30,6 +31,7 @@ page:
           text: Evitan la condensación
     details:
       enableDetailsSection: true
+      order: 2
       detailsImage: /images/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-imagen-detalle-producto.jpg
       function:
         - text: Aislante acústico.
@@ -41,6 +43,7 @@ page:
         - text: "Espesor: 3mm."
     benefits:
       enableBenefitsSection: true
+      order: 3
       benefitsTitle: Adhesivada <strong>sin desmoldante</strong>
       benefitsText: <strong>Banda Acoustic</strong> es el producto ideal para
         desanclar acústicamente la estructura metálica de construcción en seco de las
@@ -54,13 +57,16 @@ page:
       benefitsImage: /images/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-beneficio-exclusivo.jpg
     video:
       enableVideoSection: true
+      order: 4
       video: https://www.youtube.com/watch?v=6GFJz-5GJuQ
     instructions:
       enableInstructions: true
+      order: 5
       instructions:
         - Colocación Banda Acoustic
     technicalInformation:
       enableTechnicalInformation: true
+      order: 6
       technicalInformationList:
         - title: Material
           text: Espuma de polietileno de baja densidad
@@ -98,6 +104,7 @@ page:
             que lo proteja de la reflexión indirecta de los rayos UV
     downloads:
       enableDownloadsSection: true
+      order: 7
       downloadsTitle: Área de <strong class="ml-2">descargas</strong>
       downloads:
         - Catálogo Construcción en Seco
@@ -106,6 +113,7 @@ page:
         - ¿Qué tipo de techo querés aislar?
     colocation:
       enableColocationSection: true
+      order: 8
       colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
       colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
       colocationCtaLink: https://isoplus.isolant.com.ar/inicio
@@ -114,5 +122,6 @@ page:
       technicalAssessorCtaText: Buscá tu asesor técnico
     cta:
       enableCtaSection: true
+      order: 9
       ctaImage: /images/products/banda-acoustic/isolant-aislantes-linea-vivienda-banda-acoustic-imagen-detalle.jpg
 ---

@@ -11,8 +11,9 @@ globals:
   logo: /images/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-logo.svg
   ecommerceLink: https://tienda.isolant.com.ar/vivienda/68-multicapa.html
 page:
-  - hero:
+    hero:
       enableHero: true
+      order: 1
       slogan: Viví tu casa <strong>aislado como un rey</strong>
       heroImage:
         selectedOption: image
@@ -27,6 +28,7 @@ page:
           text: Solape adhesivo Rapi-Tac.
     details:
       enableDetailsSection: true
+      order: 2
       detailsImage: /images/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-imagen-detalle.jpg
       function:
         - text: Aislante térmico.
@@ -42,6 +44,7 @@ page:
         - text: Antideslizante inferior
     benefits:
       enableBenefitsSection: true
+      order: 3
       benefitsSubtitle: Beneficio Exclusivo
       benefitsTitle: Único sistema de <strong>bastones de ventilación</strong>
       benefitsText: Los bastones de ventilación van colocados hacia abajo, creando los
@@ -53,15 +56,18 @@ page:
       patentImage: /images/products/tba-multicapa/isolant-aislantes-linea-vivienda-multicapa-patente.png
     video:
       enableVideoSection: true
+      order: 4
       video: https://www.youtube.com/watch?v=j63RxwAThYg
     instructions:
       enableInstructions: true
+      order: 5
       pdfInstruction: /images/downloads/colocacion-tba-y-multicapa.pdf
       instructions:
         - Techo nuevo de madera con cubierta de chapa o teja
         - Techo existente de madera con cubierta de chapa o teja
     technicalInformation:
       enableTechnicalInformation: true
+      order: 6
       technicalInformationList:
         - title: Resistencia térmica
           text: 1.46 m² * C / W
@@ -114,6 +120,7 @@ page:
             que lo proteja de la reflexión indirecta de los rayos UV
     downloads:
       enableDownloadsSection: true
+      order: 7
       downloadsTitle: Área de <strong class="ml-2">descargas</strong>
       downloads:
         - Volante Multicapa
@@ -122,6 +129,7 @@ page:
         - Tríptico Industria/Vivienda
     colocation:
       enableColocationSection: true
+      order: 8
       colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
       colocationCtaLink: https://isoplus.isolant.com.ar/inicio
       technicalAssessorCtaLink: /servicios#map
@@ -130,5 +138,6 @@ page:
       technicalAssessorCtaText: Buscá tu asesor técnico
     cta:
       enableCtaSection: true
+      order: 9
       ctaImage: /images/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-cta-fondo.jpg
 ---

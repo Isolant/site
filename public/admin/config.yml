@@ -634,10 +634,10 @@ collections:
       # FP fields
       - label: "Estructura de página"
         name: "page"
-        widget: "list"
+        widget: "object"
         summary: "Sección"
-        allow_add: false
         collapsed: false
+        required: false
         fields:
           # Hero
           - label: "Encabezado"
@@ -645,8 +645,10 @@ collections:
             widget: "object"
             summary: '{{fields.slogan}}'
             collapsed: true
+            required: false
             fields:
               - {label: "Habilitar encabezado principal", name: "enableHero", widget: "boolean", hint: "Si no querés mostrar esta sección, deshabilitala desde acá", default: true, required: false}
+              - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
               - label: "Tipo de encabezado principal"
                 hint: "Algunas fichas de producto (como Siding o Atacama) tienen un encabezado personalizado: Seleccioná la opción correcta acá."
                 name: heroType
@@ -699,16 +701,18 @@ collections:
                 allow_add: true
                 required: false
                 fields:
-                  - {label: Icono, name: icon, widget: image, choose_url: false}
-                  - {label: Texto, name: text, widget: string}
+                  - {label: Icono, name: icon, widget: image, choose_url: false, required: false}
+                  - {label: Texto, name: text, widget: string, required: false}
           # Details. Used in most products
           - label: "Detalles"
             name: "details"
             widget: "object"
             summary: "Expandí para ver los detalles"
             collapsed: true
+            required: false
             fields:
-              - {label: "Habilitar sección Detalles", name: "enableDetailsSection", widget: "boolean", default: true, hint: "Si no queres mostrar esta sección, deshabilitala desde acá"}
+              - {label: "Habilitar sección Detalles", name: "enableDetailsSection", widget: "boolean", default: true, hint: "Si no queres mostrar esta sección, deshabilitala desde acá", required: false}
+              - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
               - label: "Imagen para sección Detalles"
                 name: "detailsImage"
                 widget: "image"
@@ -743,9 +747,11 @@ collections:
             name: "detailCards"
             widget: "object"
             summary: "Expandí para ver los detalles"
+            required: false
             collapsed: true
             fields:
               - {label: "Habilitar sección tarjetas de detalle", name: "enableDetailCardsSection", widget: "boolean", hint: "Si no querés mostrar esta sección, deshabilitala desde acá", default: false, required: false}
+              - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
               - label: "Tarjetas"
                 name: "cards"
                 widget: "list"
@@ -761,9 +767,11 @@ collections:
             name: "benefits"
             widget: "object"
             summary: "Expandí para ver los detalles"
+            required: false
             collapsed: true
             fields:
               - {label: "Habilitar sección Beneficio Exclusivo", name: "enableBenefitsSection", required: false, widget: "boolean", default: true, hint: "Si no queres mostrar esta sección, deshabilitala desde acá"}
+              - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
               - {label: "Subtítulo sección Beneficio Exclusivo", name: "benefitsSubtitle", widget: "string", required: false}
               - {label: "Título sección Beneficio Exclusivo", name: "benefitsTitle", widget: "string", required: false}
               - {label: "Texto sección Beneficio Exclusivo", name: "benefitsText", widget: "text", required: false}
@@ -795,9 +803,11 @@ collections:
             name: "attributes"
             widget: "object"
             summary: "Expandí para ver los detalles"
+            required: false
             collapsed: true
             fields:
               - {label: "Habilitar sección atributos", name: "enableAttributesSection", widget: "boolean", hint: "Si no querés mostrar esta sección, deshabilitala desde acá", default: false, required: false}
+              - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
               - {label: "Título", name: "attributesTitle", widget: "markdown", hint: "El título de la sección.", required: false}
               - {label: "Bajada", name: "attributesText", widget: "markdown", hint: "Si está, se usa debajo del título.", required: false}
               - label: "Atributos"
@@ -814,36 +824,44 @@ collections:
             name: "video"
             widget: "object"
             sumamry: "Expandí para ver los detalles"
+            required: false
             collapsed: true
             fields:
               - {label: "Habilitar sección Video", name: "enableVideoSection", widget: "boolean", default: true, required: false, hint: "Si querés ocultar esta sección, deshabilitala desde acá"}
+              - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
               - {label: "Link Video", name: "video", widget: "string", hint: "Ejemplo: https://www.youtube.com/watch?v=j63RxwAThYg", required: false}
           # Subproducts. Used in Siding
           - label: "Subproductos"
             name: "subproducts"
             widget: "object"
             summary: "Expandí para ver los detalles"
+            required: false
             collapsed: true
             fields:
               - {label: "Habilitar sección Subproductos", name: "enableSubproductsSection", widget: "boolean", hint: "Si no querés mostrar esta sección, deshabilitala desde acá", default: false, required: false}
+              - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
               # TBD: Add subproducts relation when we have them
           # Map. Used in Siding/Atacama
           - label: "Mapa de distribuidores"
             name: "map"
             widget: "object"
             summary: "Expandí para ver los detalles"
+            required: false
             collapsed: true
             fields:
               - {label: "Habilitar sección Mapa", name: "enableMapSection", widget: "boolean", hint: "Si no querés mostrar esta sección, deshabilitala desde acá", default: false, required: false}
+              - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
               - {label: Código para embeber mapa, name: mapEmbed, widget: code, required: false}
           # Instructions
           - label: "Instrucciones de colocación"
             name: "instructions"
             widget: "object"
             summary: "Expandí para ver los detalles"
+            required: false
             collapsed: true
             fields:
               - {label: "Habilitar sección Instrucciones de Colocación", name: "enableInstructions", widget: "boolean", default: true, required: false, hint: "Si querés ocultar esta sección, deshabilitala desde acá"}
+              - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
               - label: "Instrucciones de colocación asociadas"
                 name: "instructions"
                 widget: "relation"
@@ -868,9 +886,11 @@ collections:
             name: "technicalInformation"
             widget: "object"
             summary: "Expandí para ver los detalles"
+            required: false
             collapsed: true
             fields:
               - {label: "Habilitar sección Especificaciones Generales y Técnicas", name: "enableTechnicalInformation", widget: "boolean", default: true, required: false, hint: "Si querés ocultar esta sección, deshabilitala desde acá"}
+              - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
               - label: "Lista de Especificaciones Técnicas"
                 name: "technicalInformationList"
                 widget: "list"
@@ -891,9 +911,11 @@ collections:
             name: "downloads"
             widget: "object"
             summary: "Expandí para ver los detalles"
+            required: false
             collapsed: true
             fields:
               - {label: "Habilitar sección Descargas", name: "enableDownloadsSection", widget: "boolean", default: true, hint: "Si querés ocultar esta sección, deshabilitala desde acá"}
+              - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
               - {label: "Título sección Descargas", name: "downloadsTitle", widget: "string", hint: "El título de la sección", required: false}
               - {label: "Texto sección Descargas", name: "downloadsText", widget: "string", hint: "El texto que se muestra debajo del título", required: false}
               - label: "Descargas asociadas"
@@ -910,9 +932,11 @@ collections:
             name: "tutorials"
             widget: "object"
             summary: "Expandí para ver los detalles"
+            required: false
             collapsed: true
             fields:
               - {label: "Habilitar slider tutoriales?", name: "tutorialsEnabled", widget: "boolean", default: true, required: false, hint: "Habilitar el slider de tutoriales"}
+              - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
               - {label: "Título sección slider tutoriales", name: "tutorialsTitle", widget: "string", hint: "Título para la sección tutoriales", required: false}
               - {label: "Texto sección slider tutoriales", name: "tutorialsTextt", widget: "string", hint: "Texto para la sección tutoriales", required: false}
               - label: "Contenido para slider tutoriales"
@@ -930,9 +954,11 @@ collections:
             name: "colocation"
             widget: "object"
             summary: "Expandí para ver los detalles"
+            required: false
             collapsed: true
             fields:
-              - {label: "Habilitar sección Colocación Aislante", name: "enableColocationSection", widget: "boolean", default: true, hint: "Si querés ocultar esta sección, deshabilitala desde acá"}
+              - {label: "Habilitar sección Colocación Aislante", name: "enableColocationSection", widget: "boolean", default: true, hint: "Si querés ocultar esta sección, deshabilitala desde acá", required: false}
+              - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
               - label: "Imagen para la sección Colocación Aislante"
                 name: "colocationImage"
                 widget: "image"
@@ -946,14 +972,16 @@ collections:
               - {label: "Texto del link para la sección Colocación Aislante", name: "colocationCtaText", widget: "string", required: false}
               - {label: "Link para la sección Buscador de Asesor Técnico", name: "technicalAssessorCtaLink", widget: "string", required: false}
               - {label: "Texto del link para la sección Buscador de Asesor Técnico", name: "technicalAssessorCtaText", widget: "string", required: false}
-          # Colocation
+          # CTA
           - label: "Llamado a la acción"
             name: "cta"
             widget: "object"
             summary: "Expandí para ver los detalles"
+            required: false
             collapsed: true
             fields:
-              - {label: "Habilitar sección Llamado a la acción", name: "enableCtaSection", widget: "boolean", default: true, hint: "Si querés ocultar esta sección, deshabilitala desde acá"}
+              - {label: "Habilitar sección Llamado a la acción", name: "enableCtaSection", widget: "boolean", default: true, hint: "Si querés ocultar esta sección, deshabilitala desde acá", required: false}
+              - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
               - {label: "Título para la sección Llamado a la acción", name: "ctaTitle", widget: "string", required: false}
               - label: "Imagen para la sección Llamado a la acción"
                 name: "ctaImage"
@@ -968,9 +996,11 @@ collections:
             name: "contact"
             widget: "object"
             summary: "Expandí para ver los detalles"
+            required: false
             collapsed: true
             fields:
               - {label: "Habilitar formulario de contacto?", name: "enableContactSection", widget: "boolean", default: true, required: false, hint: "Habilitar el formulario de contacto"}
+              - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
               - {label: "Imagen superior formulario de contacto", name: "contactFormImage", widget: "image", hint: "Se usa arriba del título", required: false}
               - {label: "Título formulario de contacto", name: "contactFormTitle", widget: "string", hint: "Título para el formulario de contacto", required: false}
               - {label: "Texto formulario de contacto", name: "contactFormText", widget: "markdown", hint: "Bajada de texto para formulario de contacto", required: false}

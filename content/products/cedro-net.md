@@ -14,7 +14,8 @@ globals:
   logo: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-logo.jpg
   ecommerceLink: https://tienda.isolant.com.ar/vivienda/65-cedro-10-net.html
 page:
-  - hero:
+    hero:
+      order: 1
       slogan: ¡Aislá y dale una terminación agradable <strong>a tus ambientes!</strong>
       heroImage:
         selectedOption: image
@@ -30,6 +31,7 @@ page:
           text: Decore
     details:
       enableDetailsSection: true
+      order: 2
       detailsImage: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-imagen-detalle-producto.jpg
       function:
         - text: Aislante térmico.
@@ -47,6 +49,7 @@ page:
         - text: Largos a medida sin cargo por más de 1000m2.
     benefits:
       enableBenefitsSection: true
+      order: 3
       benefitsTitle: Aislante decorativo <strong>para techos</strong>
       benefitsText: Respondiendo a las nuevas tendencias del mercado, <strong>ISOLANT
         S.A.</strong> pone a su disposición una novedosa línea de aislantes con
@@ -62,14 +65,17 @@ page:
       patentImage: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-patente.png
     video:
       enableVideoSection: true
+      order: 4
       video: https://www.youtube.com/watch?v=6i-DiEpuc30
     instructions:
       enableInstructions: true
+      order: 5
       instructions:
         - Cedro NET sobre techo de madera
         - Cedro NET sobre techo de chapa
     technicalInformation:
       enableTechnicalInformation: true
+      order: 6
       technicalInformationList:
         - title: Resistencia térmica
           text: 0.23 m².K/w
@@ -123,6 +129,7 @@ page:
             que lo proteja de la reflexión indirecta de los rayos UV
     downloads:
       enableDownloadsSection: true
+      order: 7
       downloadsTitle: Área de <strong class="ml-2">descargas</strong>
       downloads:
         - Catálogo de Vivienda
@@ -131,6 +138,7 @@ page:
         - Volante Cedro NET
     colocation:
       enableColocationSection: true
+      order: 8
       colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
       colocationCtaLink: https://isoplus.isolant.com.ar/inicio
       technicalAssessorCtaLink: /servicios#map
@@ -139,5 +147,6 @@ page:
       technicalAssessorCtaText: Buscá tu asesor técnico
     cta:
       enableCtaSection: true
+      order: 9
       ctaImage: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-imagen-cta.jpg
 ---

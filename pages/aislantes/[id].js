@@ -26,11 +26,10 @@ import { getCollectionIds, getCollectionById, getAllCollections } from '../../li
 import { ReactComponent as Dots } from '../../public/images/misc/dots.svg';
 import { ReactComponent as Circle } from '../../public/images/misc/circle.svg';
 
-export default function Product({ productData, instructionsData, localesData, provincesData, downloadsData, productLinesData, productsData }) {
+export default function Product({ productData, instructionsData, localesData, provincesData, downloadsData, productLinesData, productsData, sortedSections }) {
   // Data massaging
   const { name, description } = productData;
   const { productImage, logo, ecommerceLink } = productData.globals;
-  const sections = Object.entries(productData.page[0]).map(( [k, v] ) => ({ [k]: v }));
   
   const ctaButtons = [
     {
@@ -64,7 +63,7 @@ export default function Product({ productData, instructionsData, localesData, pr
       productLines={productLinesData}
     >
       {/* Loop through the sections and add the correct component */}
-      {sections.map((section, index) => {
+      {sortedSections.map((section, index) => {
         let markup = [];
         switch(Object.keys(section)[0]) {
           // Select which hero we have to render
@@ -110,6 +109,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                   applications={section.details.application}
                   presentations={section.details.presentation}
                   anchor="details"
+                  key={index}
                 />
               )
             break;
@@ -119,6 +119,7 @@ export default function Product({ productData, instructionsData, localesData, pr
               markup.push (
                 <DetailCards
                   cards={section.detailCards.cards}
+                  key={index}
                 />
               )
             break;
@@ -135,6 +136,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                   logo={logo}
                   link={ecommerceLink ? ecommerceLink : `/contacto?comprar=${productData.id}`}
                   benefits={section.benefits.benefitsList}
+                  key={index}
                 />
               )
             break;
@@ -146,6 +148,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                   title={section.attributes.attributesTitle}
                   text={section.attributes.attributesText}
                   attributes={section.attributes.attributes}
+                  key={index}
                 />
               )
             break;
@@ -155,6 +158,7 @@ export default function Product({ productData, instructionsData, localesData, pr
               markup.push (
                 <Video
                   video={section.video.video}
+                  key={index}
                 />
               )
             break;
@@ -162,14 +166,14 @@ export default function Product({ productData, instructionsData, localesData, pr
           case 'subproducts':
             section.subproducts && section.subproducts.enableSubproductsSection === true &&
               markup.push (
-                <p>TBD: Subproducts</p>
+                <p key={index}>TBD: Subproducts</p>
               )
             break;
           // Map
           case 'map':
             section.map && section.map.enableMapSection === true &&
               markup.push (
-                <Map>{section.map.mapEmbed.code}</Map>
+                <Map key={index}>{section.map.mapEmbed.code}</Map>
               )
             break;
           // Instructions
@@ -180,6 +184,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                   product={name}
                   instructions={instructionsData}
                   pdf={productData.pdfInstruction && productData.pdfInstruction}
+                  key={index}
                 />
               )
             break;
@@ -192,6 +197,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                   productImage={productImage}
                   technicalInformation={section.technicalInformation.technicalInformationList}
                   generalInformation={section.technicalInformation.generalInformationList}
+                  key={index}
                 />
               )
             break;
@@ -203,6 +209,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                   title={section.downloads.downloadsTitle}
                   text={section.downloads.downloadsText}
                   downloads={downloadsData}
+                  key={index}
                 />
               )
             break;
@@ -214,6 +221,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                   title={section.tutorials.tutorialsTitle}
                   text={section.tutorials.tutorialsText}
                   tutorials={section.tutorials.tutorials}
+                  key={index}
                 />
               )
             break;
@@ -224,17 +232,18 @@ export default function Product({ productData, instructionsData, localesData, pr
                 <FullScreenSection
                   image={section.colocation.colocationImage}
                   title={section.colocation.colocationTitle}
+                  key={index}
                   theme="dark"
                   height="full"
                   buttons={[{
-                    link: productData.page[0].colocation.colocationCtaLink,
-                    text: productData.page[0].colocation.colocationCtaText,
+                    link: productData.page.colocation.colocationCtaLink,
+                    text: productData.page.colocation.colocationCtaText,
                     icon: false,
                     color: 'white',
                     isExternal: true,
                   }, {
-                    link: productData.page[0].colocation.technicalAssessorCtaLink,
-                    text: productData.page[0].colocation.technicalAssessorCtaText,
+                    link: productData.page.colocation.technicalAssessorCtaLink,
+                    text: productData.page.colocation.technicalAssessorCtaText,
                     icon: false,
                     color: 'transparent',
                     isExternal: false,
@@ -250,6 +259,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                   image={section.cta.ctaImage}
                   title={section.cta.ctaTitle ? section.cta.ctaTitle : section.cta.slogan}
                   backgroundPosition={section.cta.ctaImageBackgroundPosition}
+                  key={index}
                   theme="dark"
                   height="full"
                   classes="text-center"
@@ -270,6 +280,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                   title={section.contact.contactFormTitle}
                   text={section.contact.contactFormText}
                   products={productsData}
+                  key={index}
                 />
               )
             break;
@@ -294,8 +305,9 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const productData = getCollectionById("products", params.id);
-  const instructionsData = productData.page[0].instructions && productData.page[0].instructions.instructions ? productData.page[0].instructions.instructions.map(product => getCollectionById("instructions", slugify(product))) : null;
-  const downloadsData = productData.page[0].downloads.downloads ? productData.page[0].downloads.downloads.map(download => getCollectionById("downloads", slugify(download))) : null;
+  const sortedSections = Object.entries(productData.page).map(( [k, v] ) => ({ [k]: v })).sort((a, b) => a.order > b.order ? -1 : 1);
+  const instructionsData = productData.page.instructions && productData.page.instructions.instructions ? productData.page.instructions.instructions.map(product => getCollectionById("instructions", slugify(product))) : null;
+  const downloadsData = productData.page.downloads.downloads ? productData.page.downloads.downloads.map(download => getCollectionById("downloads", slugify(download))) : null;
   const provincesData = getCollectionById("geolocalization", 'provinces');
   const localesData = getCollectionById("geolocalization", 'locales');
   const productLinesData = getAllCollections("productLines");
@@ -309,7 +321,8 @@ export async function getStaticProps({ params }) {
       localesData,
       downloadsData,
       productLinesData,
-      productsData
+      productsData,
+      sortedSections
     }
   }
 }

@@ -5,8 +5,9 @@ globals:
   order: 7
   productImage: /images/products/puertelete/isolant-aislantes-linea-otros-usos-puertelete-producto-rollo.png
 page:
-  - hero:
+    hero:
       slogan: Decile chau <strong>al chiflete</strong>
+      order: 1
       heroImage:
         selectedOption: image
         mainImageBackgroundPosition: top
@@ -21,6 +22,7 @@ page:
           text: Evita infiltraciones de aire
     details:
       enableDetailsSection: true
+      order: 2
       function:
         - text: Cierre hermético para filtraciones debajo de puertas.
         - text: Evita entrada de frío y polvo.
@@ -31,6 +33,7 @@ page:
       detailsImage: /images/products/puertelete/isolant-aislantes-linea-accesorios-puertelete-imagen-detalle.jpg
     benefits:
       enableBenefitsSection: false
+      order: 3
       benefitsTitle: Muy fácil <strong>instalación</strong>
       benefitsText: Puertelete no necesita ser fijado con clavos ni tornillos. Cortá tu puertelete (podés usar una trincheta) midiendo el ancho de la puerta, apoyalo en el piso, frente al filo de la puerta, y desplazalo hasta que cubra la totalidad de la puerta.
       benefitsImage: /images/products/puertelete/isolant-aislantes-linea-otros-usos-puertelete-beneficio-exclusivo.jpg
@@ -40,13 +43,16 @@ page:
         - text: Material liviano.
     video:
       enableVideoSection: false
+      order: 4
     instructions:
       enableInstructions: true
+      order: 5
       pdfInstruction: /images/downloads/colocacion-puertelete.pdf
       instructions:
         - Puertelete
     technicalInformation:
       enableTechnicalInformation: true
+      order: 6
       generalInformationList:
         - title: Son absolutamente impermeables
         - title: Son aislantes térmicos
@@ -100,9 +106,12 @@ page:
           text: 52-63% (Espectro fotómetro)
     downloads:
       enableDownloadsSection: false
+      order: 7
     colocation:
       enableColocationSection: false
+      order: 8
     cta:
       ctaImage: /images/products/puertelete/isolant-aislantes-linea-accesorios-puertelete-imagen-cta.jpg
       enableCtaSection: true
+      order: 9
 ---

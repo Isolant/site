@@ -1,11 +1,12 @@
 ---
 name: Iso Siding
-description: Iso Siding es un moderno sistema de revestimiento exterior de alta
-  tecnología. Es altamente resistente, lavable, no se quiebra y es de rápida y
-  fácil instalación. Su diseño moderno permite fachadas estéticas y más
-  acogedoras. Es ideal para reemplazar terminaciones tradicionales y tienen
-  mínimo costo de mantenimiento, ya que requiere la aplicación de otros
-  productos.
+description: >-
+  Iso Siding es un moderno sistema de revestimiento exterior de alta tecnología.
+  Es altamente resistente, lavable, no se quiebra y es de rápida y fácil
+  instalación. 
+
+
+  Su diseño moderno permite fachadas estéticas y más acogedoras. Es ideal para reemplazar terminaciones tradicionales y tienen mínimo costo de mantenimiento, ya que requiere la aplicación de otros productos.
 globals:
   order: 2
   highlighted: true
@@ -14,8 +15,9 @@ globals:
   logo: /images/products/iso-siding/logo.svg
   color: "#13381F"
 page:
-  - hero:
+    hero:
       enableHero: true
+      order: 1
       heroType: custom
       eyebrow: Revestimiento exterior
       slogan: Siding **de PVC**
@@ -25,6 +27,7 @@ page:
         mainImageBackgroundPosition: top
     detailCards:
       enableDetailCardsSection: true
+      order: 2
       cards:
         - image: /images/products/iso-siding/card-1.jpg
           title: Nuevo
@@ -44,6 +47,7 @@ page:
             nibh euismod tincidunt ut laoreet dolore magna.
     attributes:
       enableAttributesSection: true
+      order: 3
       attributesTitle: Atributos
       attributesText: Conocé los beneficios de aplicar Iso Siding
       attributes:
@@ -86,14 +90,20 @@ page:
             fachada.
     subproducts:
       enableSubproductsSection: true
+      order: 4
     map:
       enableMapSection: true
+      order: 5
       mapEmbed:
-        code: <iframe src="https://www.google.com/maps/d/embed?mid=1wEkHgKHk6IrScfy_DlQqJ9-TfTij8uY&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>
+        code: <iframe
+          src="https://www.google.com/maps/d/embed?mid=1wEkHgKHk6IrScfy_DlQqJ9-TfTij8uY&ehbc=2E312F&noprof=1"
+          width="640" height="480"></iframe>
     downloads:
       enableDownloadsSection: true
+      order: 6
       downloadsTitle: <strong>Área Técnica</strong>
-      downloadsText: Recursos y herramientas para la correcta colocación de nuestros productos.
+      downloadsText: Recursos y herramientas para la correcta colocación de nuestros
+        productos.
       downloads:
         - Catálogo de Industria
         - ¿Qué tipo de techo querés aislar?
@@ -101,6 +111,7 @@ page:
         - Volante Alu Fusión NET
     tutorials:
       enableTutorialsSection: true
+      order: 7
       tutorialsTitle: <strong>Tutoriales</strong>
       tutorialsText: Aprendé de manera rápida y sencilla cómo utilizar nuestros productos.
       tutorials:
@@ -108,25 +119,31 @@ page:
           title: Colocación Siding Americano
           text: Aprendé a colocar ISO siding Americano en dos simples pasos en este video.
           ctaText: Ver video
-          ctaLink: "https://www.youtube.com"
+          ctaLink: https://www.youtube.com
         - image: /images/products/iso-siding/tutorials/tutorial-2.jpg
           title: Sustentabilidad
           text: Descubrí por qué ISO siding es un revestimiento amigable y ecológico.
           ctaText: Ver video
-          ctaLink: "https://www.youtube.com"
+          ctaLink: https://www.youtube.com
         - image: /images/products/iso-siding/tutorials/tutorial-3.jpg
           title: Limpieza
-          text: Conocé qué tenés que usar para quitar la suciedad y limpiar tu revestimiento.
+          text: Conocé qué tenés que usar para quitar la suciedad y limpiar tu
+            revestimiento.
           ctaText: Ver video
-          ctaLink: "https://www.youtube.com"
+          ctaLink: https://www.youtube.com
         - image: /images/products/iso-siding/tutorials/tutorial-4.jpg
           title: Colocación Siding Nórdico
-          text: Aprendé a colocar ISO siding Nórdico en cinco simples pasos a través de este instructivo.
+          text: Aprendé a colocar ISO siding Nórdico en cinco simples pasos a través de
+            este instructivo.
           ctaText: Ver video
-          ctaLink: "https://www.youtube.com"
+          ctaLink: https://www.youtube.com
     contact:
       enableContactSection: true
+      order: 8
       contactFormImage: /images/products/iso-siding/partners.svg
       contactFormTitle: Sobre Isolant y DVP
-      contactFormText: A la amplia gama de espumas termoplásticas fabricadas por Isolant, se le agrega la oferta de revestimientos exteriores de PVC, de la mano de una asociación con la empresa chilena DVP. Si querés conocer más, contactate con nosotros utilizando el formulario debajo!
+      contactFormText: A la amplia gama de espumas termoplásticas fabricadas por
+        Isolant, se le agrega la oferta de revestimientos exteriores de PVC, de
+        la mano de una asociación con la empresa chilena DVP. Si querés conocer
+        más, contactate con nosotros utilizando el formulario debajo!
 ---

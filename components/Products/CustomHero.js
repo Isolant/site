@@ -1,12 +1,5 @@
 import React from "react";
-import ReactMarkdown from 'react-markdown'
-import Link from "next/link";
-
-import TitlePackage from '../TitlePackage';
-import Button from '../Forms/Button';
-
-import { horizontalPadding } from "../../classes/Spacing";
-import { standardTextClasses } from "../../classes/Text";
+import ReactMarkdown from "react-markdown";
 
 export default function CustomHero({ 
   background,

@@ -12,7 +12,8 @@ globals:
   productImage: /images/products/tba/isolant-aislantes-linea-vivienda-tba-imagen-rollo.png
   ecommerceLink: https://tienda.isolant.com.ar/vivienda/67-tba5.html
 page:
-  - hero:
+    hero:
+      order: 1
       heroImage:
         selectedOption: image
         mainImageBackgroundPosition: top
@@ -27,6 +28,7 @@ page:
         - icon: /images/products/tba/isolant-aislantes-linea-vivienda-tba-beneficio-3.svg
           text: Evitan la condensación
     details:
+      order: 2
       enableDetailsSection: true
       detailsImage: /images/products/tba/isolant-aislantes-linea-vivienda-tba-imagen-detalle.jpg
       function:
@@ -40,6 +42,7 @@ page:
         - text: 1m. x 20m.
         - text: "Espesor: 5mm. y 10mm."
     benefits:
+      order: 3
       enableBenefitsSection: true
       benefitsSubtitle: El aislante que le dió nombre a la categoría
       benefitsTitle: Membrana con solape autoadhesivo <strong>Rapi-Tac</strong>
@@ -50,16 +53,19 @@ page:
         - text: Saludable. No desprende partículas.
       benefitsImage: /images/products/tba/isolant-aislantes-linea-vivienda-tba-beneficio-exclusivo.jpg
     video:
+      order: 4
       enableVideoSection: true
       video: https://www.youtube.com/watch?v=A4LVabjvdHM
     instructions:
       enableInstructions: true
+      order: 5
       pdfInstruction: /images/downloads/colocacion-tba-y-multicapa.pdf
       instructions:
         - Techo nuevo de madera con cubierta de chapa o teja
         - Techo existente de madera con cubierta de chapa o teja
     technicalInformation:
       enableTechnicalInformation: true
+      order: 6
       technicalInformationList:
         - title: Resistencia térmica (TBA 5)
           text: 0.96 m² * C / W
@@ -114,6 +120,7 @@ page:
             que lo proteja de la reflexión indirecta de los rayos UV
     downloads:
       enableDownloadsSection: true
+      order: 7
       downloadsTitle: Área de <strong class="ml-2">descargas</strong>
       downloads:
         - Catálogo de Vivienda
@@ -121,6 +128,7 @@ page:
         - Tríptico Industria/Vivienda
     colocation:
       enableColocationSection: true
+      order: 8
       colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
       colocationCtaLink: https://isoplus.isolant.com.ar/inicio
       technicalAssessorCtaLink: /servicios#map
@@ -129,6 +137,7 @@ page:
       technicalAssessorCtaText: Buscá tu asesor técnico
     cta:
       enableCtaSection: true
+      order: 9
       ctaImage: /images/products/tba/isolant-aislantes-linea-vivienda-tba-cta.jpg
       ctaTitle: La mejor relación <strong>precio calidad</strong> para techos de madera
 ---

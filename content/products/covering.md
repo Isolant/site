@@ -6,8 +6,9 @@ globals:
   productImage: /images/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-producto-rollo.png
   logo: /images/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-logo.jpg
 page:
-  - hero:
+    hero:
       slogan: Vestí tu estructura con <strong>la mejor barrera impermeable y respirable</strong>
+      order: 1
       heroImage:
         selectedOption: image
         mainImageBackgroundPosition: top
@@ -22,6 +23,7 @@ page:
           text: Barrera de viento
     details:
       enableDetailsSection: true
+      order: 2
       function:
         - text: Impermeable.
         - text: Controlador de vapor.
@@ -33,6 +35,7 @@ page:
       detailsImage: /images/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-imagen-detalle.jpg
     benefits:
       enableBenefitsSection: true
+      order: 3
       benefitsTitle: Cuadrícula <strong>para replanteo</strong>
       benefitsText: <strong>COVERING</strong> presenta una cuadrícula impresa en su cara superior, haciendo de su colocación y replanteo en tabiques y techos de steel framing y balloon framing, mucho más fácil y ágil.<br /><br />Además gracias a su tramado y composición bicapa, <strong>Covering</strong> es un material con alta resistencia al rasgado, provocado por vientos de altas velocidades y manipuleos en obra.
       benefitsImage: /images/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-beneficio-exclusivo.jpg
@@ -42,14 +45,17 @@ page:
         - text: Resistencia UV 3 meses intemperie.
     video:
       enableVideoSection: false
+      order: 4
     instructions:
       enableInstructions: true
+      order: 5
       instructions:
         - Colocación Covering en paredes
         - Colocación Covering y Ondusec Reflex en techos
       pdfInstruction: /images/downloads/colocacion-covering.pdf
     technicalInformation:
       enableTechnicalInformation: true
+      order: 6
       generalInformationList:
         - title: 100% hidrófugo
         - title: Respirable, permite el paso del vapor de agua
@@ -98,6 +104,7 @@ page:
           text: 52-63% (Espectro fotómetro)
     downloads:
       enableDownloadsSection: true
+      order: 7
       downloadsTitle: Área de <strong class="ml-2">descargas</strong>
       downloads:
         - Catálogo Construcción en Seco
@@ -107,6 +114,7 @@ page:
         - ¿Qué tipo de techo querés aislar?
     colocation:
       enableColocationSection: true
+      order: 8
       colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
       colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
       technicalAssessorCtaText: Buscá tu asesor técnico
@@ -115,6 +123,7 @@ page:
       technicalAssessorCtaLink: /servicios#map
     cta:
       enableCtaSection: true
+      order: 9
       ctaTitle: Covering es Isolant, <strong>calidad garantizada</strong>
       ctaImage: /images/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-cta.jpg
 ---

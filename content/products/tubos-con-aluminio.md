@@ -5,7 +5,8 @@ globals:
   order: 8
   productImage: /images/products/tubos-aluminio/isolant-aislantes-linea-climatizacion-tubos-aluminio-producto-rollo.png
 page:
-  - hero:
+    hero:
+      order: 1
       heroImage:
         selectedOption: image
         mainImageBackgroundPosition: top
@@ -20,6 +21,7 @@ page:
         - icon: /images/products/tubos-aluminio/isolant-aislantes-linea-climatizacion-tubos-aluminio-beneficio-3.svg
           text: Apto para la intemperie
     details:
+      order: 2
       enableDetailsSection: true
       function:
         - text: Aislante térmico.
@@ -31,6 +33,7 @@ page:
         - text: Hacé <a href="/images/products/tubos-aluminio/isolant-aislantes-linea-climatizacion-tubos-aluminio-presentaciones.png" target="_blank" rel="noopener noreferrer" class="font-bold">click acá</a> para ver todas las presentaciones disponibles
       detailsImage: /images/products/tubos-aluminio/isolant-aislantes-linea-climatizacion-tubos-aluminio-imagen-detalle.jpg
     benefits:
+      order: 3
       enableBenefitsSection: true
       benefitsTitle: Evitan el <strong>congelamiento y calentamiento de la cañería</strong>
       benefitsText: Aptos para permanecer a la intemperie. En el caso de cañerías plásticas protegen el deterioro y lo aíslan térmicamente. Aumentan la eficacia de los sistemas de calefacción evitando las pérdidas de energía. Evitan las variaciones bruscas de temperatura, disminuyendo las dilataciones y contracciones de la cañería. Se pueden colocar en cañerías existentes.
@@ -41,12 +44,15 @@ page:
         - text: Mantiene su espesor a lo largo del tiempo.
     video:
       enableVideoSection: false
+      order: 4
       video: https://www.youtube.com/watch?v=K_oY34zgYc4
     instructions:
+      order: 5
       enableInstructions: true
       instructions:
         - Tubos con aluminio
     technicalInformation:
+      order: 6
       enableTechnicalInformation: true
       technicalInformationList:
         - title: Resistencia térmica
@@ -82,12 +88,14 @@ page:
         - title: Permeabilidad a los rayos de luz
           text: 52-63% (Espectro fotómetro)
     downloads:
+      order: 7
       downloadsTitle: Área de <strong class="ml-2">descargas</strong>
       downloads:
         - Catálogo Climatización
         - Volante Climatización
         - Volante Tubos con Aluminio
     colocation:
+      order: 8
       enableColocationSection: true
       colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
       colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
@@ -96,6 +104,7 @@ page:
       colocationCtaText: Encontrá un instalador
       technicalAssessorCtaLink: /servicios#map
     cta:
+      order: 9
       ctaImage: /images/products/tubos-aluminio/isolant-aislantes-linea-climatizacion-tubos-alumino-cta.jpg
       enableCtaSection: true
 ---

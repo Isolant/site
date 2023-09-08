@@ -1,4 +1,5 @@
 import React from "react";
+import ReactMarkdown from "react-markdown";
 
 import Button from './Forms/Button';
 
@@ -14,40 +15,25 @@ export default function TitlePackage({
   buttons,
   additionalButtonClasses,
   additionalContent,
+  usesMarkdown
  }) {
 
   const titleClasses = `${thinTitleClasses} ${theme === 'dark' ? 'text-white' : 'text-gray-800'} ${additionalTitleClasses}`
   const textClasses = `${standardTextClasses} ${theme === 'dark' ? 'text-gray-300' : 'text-gray-500'} ${additionalTextClasses} mt-2 lg:mt-6`
 
+  const HeadingTag = `${titleHierarchy}`;
+  
+
   return (
     <React.Fragment>
-      {titleHierarchy === 'h1' ?
-        <h1
+      {usesMarkdown === true ?
+        <HeadingTag
           className={titleClasses}
-          dangerouslySetInnerHTML={{ __html: title }}
-        />
-        : titleHierarchy === 'h2' ?
-        <h2
-          className={titleClasses}
-          dangerouslySetInnerHTML={{ __html: title }}
-        />
-        : titleHierarchy === 'h3' ?
-        <h3
-          className={titleClasses}
-          dangerouslySetInnerHTML={{ __html: title }}
-        />
-        : titleHierarchy === 'h4' ?
-        <h4
-          className={titleClasses}
-          dangerouslySetInnerHTML={{ __html: title }}
-        />
-        : titleHierarchy === 'h5' ?
-        <h5
-          className={titleClasses}
-          dangerouslySetInnerHTML={{ __html: title }}
-        />
-        :
-        <h6
+        >
+          <ReactMarkdown>{title}</ReactMarkdown>
+        </HeadingTag>
+      :
+        <HeadingTag
           className={titleClasses}
           dangerouslySetInnerHTML={{ __html: title }}
         />

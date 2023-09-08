@@ -15,7 +15,8 @@ globals:
   logo: /images/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-logo.png
   ecommerceLink: https://tienda.isolant.com.ar/galpones-y-tinglados/54-alu-stark-10-net.html
 page:
-  - hero:
+    hero:
+      order: 1
       heroImage:
         selectedOption: image
         mainImageBackgroundPosition: top
@@ -31,6 +32,7 @@ page:
           text: Evitan la condensación
     details:
       enableDetailsSection: true
+      order: 2
       detailsImage: /images/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-imagen-producto.jpg
       function:
         - text: Aislante térmico con terminación blanca.
@@ -49,6 +51,7 @@ page:
         - text: Largos a medida sin cargo por más de 1000m2.
     benefits:
       enableBenefitsSection: true
+      order: 3
       benefitsSubtitle: ¡No necesita malla sostén!
       benefitsTitle: Producto con <strong>red incorporada</strong>
       benefitsText: "Gracias a la red incorporada en la masa del aislante, nuestros
@@ -66,15 +69,18 @@ page:
       patentImage: /images/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-patente.png
     video:
       enableVideoSection: true
+      order: 4
       video: https://www.youtube.com/watch?v=FanPdfblmbc
     instructions:
       enableInstructions: true
+      order: 5
       instructions:
         - Alu Stark NET sobre estructura metálica
         - Galpones y tinglados metálicos existentes, como cielorraso copiando la forma
         - Galpones y tinglados metálicos existentes, como cielorraso recto
     technicalInformation:
       enableTechnicalInformation: true
+      order: 6
       technicalInformationList:
         - title: Resistencia térmica
           text: S/E
@@ -129,6 +135,7 @@ page:
         - title: "Acopiar en un lugar seco y bajo techo. "
     downloads:
       enableDownloadsSection: true
+      order: 7
       downloadsTitle: Área de <strong class="ml-2">descargas</strong>
       downloads:
         - Catálogo de Industria
@@ -137,6 +144,7 @@ page:
         - Volante Alu Stark NET
     colocation:
       enableColocationSection: true
+      order: 8
       colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
       colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
       colocationCtaLink: https://isoplus.isolant.com.ar/inicio
@@ -145,5 +153,6 @@ page:
       technicalAssessorCtaText: Buscá tu asesor técnico
     cta:
       enableCtaSection: true
+      order: 9
       ctaImage: /images/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-imagen-cta.jpg
 ---

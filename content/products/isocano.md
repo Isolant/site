@@ -5,7 +5,8 @@ globals:
   order: 9
   productImage: /images/products/isocano/isolant-aislantes-linea-climatizacion-isocano-producto-rollo.png
 page:
-  - hero:
+    hero:
+      order: 1
       slogan: Aislante para caños <strong>de gran caudal</strong>
       heroImage:
         selectedOption: image
@@ -21,6 +22,7 @@ page:
           text: Muy baja propagación de llama
     details:
       enableDetailsSection: true
+      order: 2
       function:
         - text: Aislante térmico.
         - text: Anti congelante.
@@ -32,6 +34,7 @@ page:
       detailsImage: /images/products/isocano/isolant-aislantes-linea-climatizacion-isocano-imagen-detalle.jpg
     benefits:
       enableBenefitsSection: true
+      order: 3
       benefitsTitle: Diseño exclusivo y <strong>solapa termo soldable</strong>
       benefitsText: ISOCAÑO está diseñado especialmente para facilitar la colocación del mismo "abrazando" caños de gran caudal. Ya viene en forma de placa, con un rebaje en su lateral, para termo soldar con pistola de calor. Luego se sugiere la utilización de una cinta de aluminio apta intemperie para garantizar una unión sin filtraciones de agua ni UV.<br /><br />Además su diseño con una cara acanalada hace que al "abrazar" el caño, el material no tienda a volver sobre sí mismo, sino que complete una aislación perfecta. 
       benefitsImage: /images/products/isocano/isolant-aislantes-linea-climatizacion-isocano-beneficio-exclusivo.jpg
@@ -41,10 +44,13 @@ page:
         - text: Aluminio de alta resistencia.
     video:
       enableVideoSection: false
+      order: 4
     instructions:
       enableInstructions: false
+      order: 5
     technicalInformation:
       enableTechnicalInformation: true
+      order: 6
       technicalInformationList:
         - title: Resistencia térmica
           text: 0.23 m².K/w
@@ -80,11 +86,13 @@ page:
           text: 52-63% (Espectro fotómetro)
     downloads:
       downloadsTitle: Área de <strong class="ml-2">descargas</strong>
+      order: 7
       downloads:
         - Catálogo Climatización
         - Volante Climatización
     colocation:
       enableColocationSection: true
+      order: 8
       colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
       colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
       technicalAssessorCtaText: Buscá tu asesor técnico
@@ -92,6 +100,7 @@ page:
       colocationCtaText: Encontrá un instalador
       technicalAssessorCtaLink: /servicios#map
     cta:
+      order: 9
       ctaImage: /images/products/isocano/isolant-aislantes-linea-climatizacion-isocano-cta.jpg
       enableCtaSection: true
 ---

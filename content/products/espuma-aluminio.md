@@ -5,8 +5,9 @@ globals:
   order: 5
   productImage: /images/products/espuma-aluminio/isolant-aislantes-linea-climatizacion-espuma-aluminio-producto-rollo.png
 page:
-  - hero:
+    hero:
       slogan: Climatización de <strong>industrias aisladas y protegidas</strong>
+      order: 1
       heroImage:
         selectedOption: image
         mainImageBackgroundPosition: top
@@ -21,6 +22,7 @@ page:
           text: Aislación Hidrófuga
     details:
       enableDetailsSection: true
+      order: 2
       function:
         - text: Aislante térmico.
         - text: Impermeable y barrera de vapor.
@@ -34,6 +36,7 @@ page:
       detailsImage: /images/products/espuma-aluminio/isolant-aislantes-linea-climatizacion-espuma-aluminio-imagen-detalle-producto.jpg
     benefits:
       enableBenefitsSection: true
+      order: 3
       benefitsTitle: Brindan una total <strong>aislación termohidrófuga</strong>
       benefitsText: Son de estructura de celda cerrada, imputrescibles, y no desprenden partículas ni fibras de ningún tipo. Se destacan por su maleabilidad y fácil colocación. Son impermeables, barrera de vapor, aislantes térmicas y acústicas. No contaminan el medio ambiente y son reciclables.
       benefitsImage: /images/products/espuma-aluminio/isolant-aislantes-linea-climatizacion-espuma-aluminio-beneficio-exclusivo.jpg
@@ -50,13 +53,16 @@ page:
         - text: Material liviano.
     video:
       enableVideoSection: false
+      order: 4
       video: https://www.youtube.com/watch?v=K_oY34zgYc4
     instructions:
       enableInstructions: true
+      order: 5
       instructions:
         - Ductos internos a la vista
     technicalInformation:
       enableTechnicalInformation: true
+      order: 6
       generalInformationList:
         - title: Aislante térmico
         - title: Liviana y flexible, permite su fácil colocación y manipuleo
@@ -106,11 +112,13 @@ page:
           text: 52-63% (Espectro fotómetro)
     downloads:
       downloadsTitle: Área de <strong class="ml-2">descargas</strong>
+      order: 7
       downloads:
         - Catálogo Climatización
         - Volante Climatización
     colocation:
       enableColocationSection: true
+      order: 8
       colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
       colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
       technicalAssessorCtaText: Buscá tu asesor técnico
@@ -119,6 +127,7 @@ page:
       technicalAssessorCtaLink: /servicios#map
     cta:
       enableCtaSection: true
+      order: 9
       ctaTitle: Tu industria <strong>climatizada y protegida</strong>
       ctaImage: /images/products/espuma-aluminio/isolant-aislantes-linea-climatizacion-espuma-aluminio-cta.jpg
 ---

@@ -8,8 +8,9 @@ globals:
   ecommerceLink: https://tienda.isolant.com.ar/galpones-y-tinglados/56-doble-alu-15-net.html
   logo: /images/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-logo.png
 page:
-  - hero:
+    hero:
       slogan: ¡Ahorrá hasta un <strong>40% de mano de obra!</strong>
+      order: 1
       heroImage:
         selectedOption: image
         mainImageBackgroundPosition: top
@@ -24,6 +25,7 @@ page:
           text: Terminación plana y estética
     details:
       enableDetailsSection: true
+      order: 2
       function:
         - text: Aislante térmico.
         - text: Impermeable y barrera de vapor.
@@ -37,6 +39,7 @@ page:
       detailsImage: /images/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-imagen-detalle.jpg
     benefits:
       # patentImage: /images/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-patente.png
+      order: 3
       enableBenefitsSection: true
       benefitsTitle: Producto con <strong>red incorporada</strong>
       benefitsText: Gracias a la red incorporada en la masa del aislante, nuestros productos NET son los de más rápida y fácil instalación del mercado. Ahorran del 20% al 40% de mano de obra, lo cual impacta directamente en los tiempos y costos de la misma. Al ser DOS productos en UNO, brinda una resistencia mecánica premium, una terminación plana y estética superior.
@@ -47,9 +50,11 @@ page:
         - text: Clase RE2. Muy baja propagación de llama.
     video:
       enableVideoSection: true
+      order: 4
       video: https://www.youtube.com/watch?v=Qc-B4rD2KDw
     instructions:
       enableInstructions: true
+      order: 5
       instructions:
         - Doble Alu NET
         - Galpones y tinglados metálicos existentes, como cielorraso copiando la forma
@@ -109,6 +114,7 @@ page:
           text: 52-63% (Espectro fotómetro)
     downloads:
       enableDownloadsSection: true
+      order: 6
       downloadsTitle: Área de <strong class="ml-2">descargas</strong>
       downloads:
         - Catálogo de Industria
@@ -117,6 +123,7 @@ page:
         - Volante Doble Alu NET
     colocation:
       enableColocationSection: true
+      order: 7
       colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
       colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
       technicalAssessorCtaText: Buscá tu asesor técnico
@@ -125,6 +132,7 @@ page:
       technicalAssessorCtaLink: /servicios#map
     cta:
       enableCtaSection: true
+      order: 8
       ctaImage: /images/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-cta.jpg
       ctaTitle: Un aislante con tecnología de punta <strong>para tu industria</strong>
 ---

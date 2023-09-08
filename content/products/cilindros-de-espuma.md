@@ -7,8 +7,9 @@ description: Cilindros de espuma de polietileno de baja densidad, de diferentes
 globals:
   productImage: /images/products/cilindros-de-espuma/isolant-aislantes-linea-otros-usos-cilindros-de-espuma-producto-rollo.png
 page:
-  - hero:
+    hero:
       slogan: Respaldo de juntas, <strong>elásticas e hidrófugas</strong>
+      order: 1
       heroImage:
         selectedOption: image
         mainImageBackgroundPosition: top
@@ -23,6 +24,7 @@ page:
           text: Reciclable. No contamina el medio ambiente
     details:
       enableDetailsSection: true
+      order: 2
       detailsImage: /images/products/cilindros-de-espuma/CILINDRO_DET_MG_5258_w7wvoz.jpg
       function:
         - text: Absorbe dilataciones y contracciones.
@@ -39,6 +41,7 @@ page:
             para ver todas las presentaciones disponibles
     benefits:
       enableBenefitsSection: true
+      order: 3
       benefitsTitle: Absorben la <strong>compresión y dilatación de las juntas</strong>
       benefitsText: • Resistentes químicamente a los selladores<br />• Impermeable<br
         />• Imputrescibles<br />• Maleables y flexiles
@@ -49,16 +52,22 @@ page:
       benefitsImage: /images/products/cilindros-de-espuma/isolant-aislantes-linea-otros-usos-cilindros-de-espuma-beneficio-exclusivo.jpg
     video:
       enableVideoSection: false
+      order: 4
     instructions:
       enableInstructions: true
+      order: 5
       instructions:
         - Cilindros de espuma
     technicalInformation:
       enableTechnicalInformation: false
+      order: 6
     downloads:
       enableDownloadsSection: false
+      order: 7
     colocation:
       enableColocationSection: false
+      order: 8
     cta:
       enableCtaSection: false
+      order: 9
 ---

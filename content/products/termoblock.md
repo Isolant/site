@@ -5,7 +5,8 @@ globals:
   order: 7
   productImage: /images/products/termoblock/isolant-aislantes-linea-galpones-y-tinglados-termoblock-producto-rollo.png
 page:
-  - hero:
+    hero:
+      order: 1
       heroImage:
         selectedOption: image
         mainImageBackgroundPosition: top
@@ -21,6 +22,7 @@ page:
           text: Galpones más estancos
     details:
       enableDetailsSection: true
+      order: 2
       function:
         - text: Aislante térmico.
         - text: Impermeable y barrera de vapor.
@@ -35,6 +37,7 @@ page:
       detailsImage: /images/products/termoblock/isolant-aislantes-linea-galpones-y-tinglados-termoblock-imagen-detalle.jpg
     benefits:
       enableBenefitsSection: true
+      order: 3
       benefitsTitle: Estudio termográfico <strong>gratuito</strong>
       benefitsText: Contamos con un equipo técnico especialmente preparado en el asesoramiento y análisis de galpones de crianza animal. Conocé más sobre nuestro análisis termográfico gratuito en obra e informes generados con termógrafos colocados en tus galpones.
       benefitsImage: /images/products/termoblock/isolant-aislantes-linea-galpones-y-tinglados-termoblock-beneficio-exclusivo.jpg
@@ -44,12 +47,15 @@ page:
         - text: Clase RE2. Muy baja propagación de llama.
     video:
       enableVideoSection: false
+      order: 4
     instructions:
       enableInstructions: true
+      order: 5
       instructions:
         - Termoblock
     technicalInformation:
       enableTechnicalInformation: true
+      order: 6
       generalInformationList:
         - title: Son absolutamente impermeables
         - title: Son aislantes térmicos
@@ -100,6 +106,7 @@ page:
         - title: Permeabilidad a los rayos de luz
           text: 52-63% (Espectro fotómetro)
     downloads:
+      order: 7
       downloadsTitle: Área de <strong class="ml-2">descargas</strong>
       downloads:
         - Catálogo de Industria
@@ -107,6 +114,7 @@ page:
         - Tríptico Industria/Vivienda
     colocation:
       enableColocationSection: true
+      order: 8
       colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
       colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
       technicalAssessorCtaText: Buscá tu asesor técnico
@@ -115,6 +123,7 @@ page:
       technicalAssessorCtaLink: /servicios#map
     cta:
       enableCtaSection: true
+      order: 9
       ctaTitle: El mejor aislante para tu galpón <strong>de crianza animal</strong>
       ctaImage: /images/products/termoblock/isolant-aislantes-linea-galpones-y-tinglados-termoblock-cta.jpg
 ---

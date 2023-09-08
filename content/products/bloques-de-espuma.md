@@ -5,8 +5,9 @@ globals:
   productImage: /images/products/bloques-de-espuma/isolant-aislantes-linea-otros-usos-bloques-de-espuma-producto-rollo.png
   productImageProportion: square
 page:
-  - hero:
+    hero:
       slogan: Multilaminado de espuma <strong>para diversos usos</strong>
+      order: 1
       heroImage:
         selectedOption: image
         mainImageBackgroundPosition: top
@@ -21,6 +22,7 @@ page:
           text: Amortiguante
     details:
       enableDetailsSection: true
+      order: 2
       function:
         - text: Protección contra impactos.
         - text: Aislante térmico.
@@ -34,6 +36,7 @@ page:
       detailsImage: /images/products/bloques-de-espuma/isolant-aislantes-linea-otros-usos-bloques-de-espuma-imagen-detalle.jpg
     benefits:
       enableBenefitsSection: true
+      order: 3
       benefitsTitle: Usos <strong>frecuentes</strong>
       benefitsText: • Colchonetas de gimnasia y de camping.<br />• Aislante de masa en cámaras frigoríficas, muros, techos, pisos, revestimiento de tanques y conductos, etc.<br />• Flotantes de salvavidas, boyas de redes y artículos varios de náutica.
       benefitsImage: /images/products/bloques-de-espuma/isolant-aislantes-linea-otros-usos-bloques-de-espuma-beneficio-exclusivo.jpg
@@ -43,10 +46,13 @@ page:
         - text: Material reciclable.
     video:
       enableVideoSection: false
+      order: 4
     instructions:
       enableInstructions: false
+      order: 5
     technicalInformation:
       enableTechnicalInformation: false
+      order: 6
       generalInformationList:
         - title: Máxima aislación térmica
         - title: Alta absorción de ruidos e impactos
@@ -59,9 +65,12 @@ page:
         - title: No contaminan el medio ambiente; no contienen freón
     downloads:
       enableDownloadsSection: false
+      order: 7
     colocation:
       enableColocationSection: false
+      order: 8
     cta:
       ctaImage: /images/products/bloques-de-espuma/isolant-aislantes-linea-otros-usos-bloques-de-espuma-cta.jpg
       enableCtaSection: true
+      order: 9
 ---

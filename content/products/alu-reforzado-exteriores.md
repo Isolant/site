@@ -5,7 +5,8 @@ globals:
   order: 6
   productImage: /images/products/aluminio-reforzado/isolant-aislantes-linea-climatizacion-aluminio-reforzado-producto-rollo.png
 page:
-  - hero:
+    hero:
+      order: 1
       heroImage:
         selectedOption: image
         mainImageBackgroundPosition: top
@@ -21,6 +22,7 @@ page:
           text: Aislación Hidrófuga
     details:
       enableDetailsSection: true
+      order: 2
       detailsImage: /images/products/aluminio-reforzado/isolant-aislantes-linea-climatizacion-aluminio-reforzado-imagen-detalle-producto.jpg
       function:
         - text: Aislante térmico.
@@ -34,6 +36,7 @@ page:
         - text: "Espesor: 10mm | 20mm"
     benefits:
       enableBenefitsSection: true
+      order: 3
       benefitsTitle: Mayor durabilidad <strong>a la intemperie</strong>
       benefitsText: Las espumas Isolant con aluminio puro reforzado permiten ser colocadas a la intemperie dado la resistencia mecánica del refuerzo en el aluminio. Evita la rotura por impactos permitiendo mayor durabilidad a la intemperie y evita la doble cobertura de chapa de los conductos. Generalmente se utiliza para la salida y entrada de los conductos a los equipos enfriadores o de ventilación.
       benefitsImage: /images/products/aluminio-reforzado/isolant-aislantes-linea-climatizacion-aluminio-reforzado-beneficio-exclusivo.jpg
@@ -50,13 +53,16 @@ page:
         - text: Material liviano.
     video:
       enableVideoSection: false
+      order: 4
       video: https://www.youtube.com/watch?v=K_oY34zgYc4
     instructions:
       enableInstructions: true
+      order: 5
       instructions:
         - Aluminio Reforzado
     technicalInformation:
       enableTechnicalInformation: true
+      order: 6
       generalInformationList:
         - title: Aislante térmico
         - title: Liviana y flexible, permite su fácil colocación y manipuleo
@@ -105,11 +111,13 @@ page:
         - title: Permeabilidad a los rayos de luz
           text: 52-63% (Espectro fotómetro)
     downloads:
+      order: 7
       downloads:
         - Catálogo Climatización
         - Volante Climatización
     colocation:
       enableColocationSection: true
+      order: 8
       colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
       colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
       technicalAssessorCtaText: Buscá tu asesor técnico
@@ -118,6 +126,7 @@ page:
       technicalAssessorCtaLink: /servicios#map
     cta:
       enableCtaSection: true
+      order: 9
       ctaTitle: El único aislante <strong>para exteriores</strong>
       ctaImage: /images/products/aluminio-reforzado/isolant-aislantes-linea-climatizacion-aluminio-reforzado-cta.jpg
 ---

@@ -17,20 +17,6 @@ export default function Hero({
   slogan,
   benefits,
 }) {
-
-  const settings = {
-    dots: false,
-    arrows: false,
-    autoplay: true,
-    autoplaySpeed: 8000,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    adaptiveHeight: false,
-    draggable: true,
-  };
-
   const dontPurgeThese = ['xl:grid-cols-1', 'xl:grid-cols-2', 'xl:grid-cols-3', 'xl:grid-cols-4', 'xl:grid-cols-5', 'xl:grid-cols-6'];
 
   return (
@@ -76,6 +62,7 @@ export default function Hero({
           titleHierarchy="h1"
           title={slogan}
           theme="dark"
+          // usesMarkdown={true}
         />
       </div>
       {benefits &&

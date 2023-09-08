@@ -11,7 +11,8 @@ globals:
   productImage: /images/products/super-tba/isolant-aislantes-linea-vivienda-super-tba-rollo.png
   ecommerceLink: https://tienda.isolant.com.ar/tienda/88-super-tba.html
 page:
-  - hero:
+    hero:
+      order: 1
       heroImage:
         selectedOption: image
         mainImageBackgroundPosition: top
@@ -27,6 +28,7 @@ page:
           text: Evitan la condensación
     details:
       enableDetailsSection: true
+      order: 2
       detailsImage: /images/products/super-tba/isolant-aislantes-linea-vivienda-super-tba-imagen-detalle.jpg
       function:
         - text: Aislante térmico.
@@ -40,6 +42,7 @@ page:
         - text: "Espesor: 15mm."
     benefits:
       enableBenefitsSection: true
+      order: 3
       benefitsTitle: Para cualquier <strong>tipo de techos</strong>
       benefitsText: "¿No sabés qué aislante llevar para proteger tu techo? Lleva Súper
         TBA que gracias a sus exclusivas características, combina las fortalezas de
@@ -53,6 +56,7 @@ page:
       benefitsImage: /images/products/super-tba/isolant-aislantes-linea-vivienda-super-tba-rollo-detalle.jpg
     video:
       enableVideoSection: true
+      order: 4
       video: https://www.youtube.com/watch?v=mVVMhqDY4BA
     instructions:
       enableInstructions: true
@@ -62,6 +66,7 @@ page:
         - Techo nuevo de madera con cubierta de chapa o teja
     technicalInformation:
       enableTechnicalInformation: true
+      order: 5
       technicalInformationList:
         - title: Resistencia térmica
           text: Ensayando
@@ -115,12 +120,14 @@ page:
             que lo proteja de la reflexión indirecta de los rayos UV
     downloads:
       enableDownloadsSection: true
+      order: 6
       downloadsTitle: Área de <strong class="ml-2">descargas</strong>
       downloads:
         - Volante Super TBA
         - Colocación Super TBA
     colocation:
       enableColocationSection: true
+      order: 7
       colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
       colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
       colocationCtaLink: https://isoplus.isolant.com.ar/inicio
@@ -129,5 +136,6 @@ page:
       technicalAssessorCtaText: Buscá tu asesor técnico
     cta:
       enableCtaSection: true
+      order: 8
       ctaImage: /images/products/super-tba/isolant-aislantes-linea-vivienda-super-tba-imagen-cta.jpg
 ---

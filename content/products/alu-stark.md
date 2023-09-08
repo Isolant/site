@@ -6,7 +6,8 @@ globals:
   productImage: /images/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-producto-rollo.png
   ecommerceLink: https://tienda.isolant.com.ar/galpones-y-tinglados/63-alu-stark-10.html
 page:
-  - hero:
+    hero:
+      order: 1
       heroImage:
         selectedOption: image
         mainImageBackgroundPosition: top
@@ -22,6 +23,7 @@ page:
           text: Estética superior
     details:
       enableDetailsSection: true
+      order: 2
       function:
         - text: Aislante térmico con terminación blanca.
         - text: Impermeable y barrera de vapor.
@@ -37,6 +39,7 @@ page:
       detailsImage: /images/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-detalle-producto.jpg
     benefits:
       patentImage: /images/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-patente.png
+      order: 3
       enableBenefitsSection: true
       benefitsTitle: Terminación blanca <strong>de alta resistencia</strong>
       benefitsText: "Ideal para estructuras metálicas que requieran una estética superior: La espuma color blanca favorece a la terminación estética de la cara que queda a la vista. Ideal para supermercados, concesionarias de autos, etc.<br /><br />¡Preguntá por la terminación negra!"
@@ -47,9 +50,11 @@ page:
         - text: Clase RE2. Muy baja propagación de llama.
     video:
       enableVideoSection: true
+      order: 4
       video: https://www.youtube.com/watch?v=FanPdfblmbc
     instructions:
       enableInstructions: true
+      order: 5
       pdfInstruction: /images/downloads/colocacion-galpones-y-tinglados.pdf
       instructions:
         - Galpones y tinglados metálicos nuevos
@@ -57,6 +62,7 @@ page:
         - Galpones y tinglados metálicos existentes, como cielorraso recto
     technicalInformation:
       enableTechnicalInformation: true
+      order: 6
       generalInformationList:
         - title: Son absolutamente impermeables
         - title: Son aislantes térmicos
@@ -108,6 +114,7 @@ page:
           text: 52-63% (Espectro fotómetro)
     downloads:
       enableDownloadsSection: true
+      order: 7
       downloadsTitle: Área de <strong class="ml-2">descargas</strong>
       downloads:
         - Catálogo de Industria
@@ -115,6 +122,7 @@ page:
         - Tríptico Industria/Vivienda
     colocation:
       enableColocationSection: true
+      order: 8
       colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
       colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
       technicalAssessorCtaText: Buscá tu asesor técnico
@@ -124,4 +132,5 @@ page:
     cta:
       ctaImage: /images/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-imagen-cta.jpg
       enableCtaSection: true
+      order: 9
 ---

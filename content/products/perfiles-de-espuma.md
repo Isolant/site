@@ -4,7 +4,8 @@ description: Cilindros de espuma de polietileno de baja densidad, de diferentes 
 globals:
   productImage: /images/products/perfiles-de-espuma/isolant-aislantes-linea-otros-usos-perfiles-de-espuma-producto-rollo.png
 page:
-  - hero:
+    hero:
+      order: 1
       slogan: Respaldo de juntas, <strong>elásticas e hidrófugas</strong>
       heroImage:
         selectedOption: image
@@ -20,6 +21,7 @@ page:
           text: Reciclable. No contamina el medio ambiente
     details:
       enableDetailsSection: true
+      order: 2
       function:
         - text: Absorbe dilataciones y contracciones.
         - text: Respaldo para selladores.
@@ -33,6 +35,7 @@ page:
       detailsImage: /images/products/perfiles-de-espuma/isolant-aislantes-linea-otros-usos-perfiles-de-espuma-imagen-detalle.jpg
     benefits:
       enableBenefitsSection: true
+      order: 3
       benefitsTitle: Absorben la <strong>compresión y dilatación de las juntas</strong>
       benefitsText: • Resistentes químicamente a los selladores<br />• Impermeable<br />• Imputrescibles<br />• Maleables y flexiles
       benefitsImage: /images/products/perfiles-de-espuma/isolant-aislantes-linea-otros-usos-perfiles-de-espuma-beneficio-exclusivo.jpg
@@ -42,14 +45,20 @@ page:
         - text: Baja y muy baja propagación de llama.
     video:
       enableVideoSection: false
+      order: 4
     instructions:
       enableInstructions: false
+      order: 5
     technicalInformation:
       enableTechnicalInformation: false
+      order: 6
     downloads:
       enableDownloadsSection: false
+      order: 7
     colocation:
       enableColocationSection: false
+      order: 8
     cta:
       enableCtaSection: false
+      order: 9
 ---

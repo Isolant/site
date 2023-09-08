@@ -7,7 +7,8 @@ globals:
   logo: /images/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-logo.jpg
   ecommerceLink: https://tienda.isolant.com.ar/pisos/62-contra-piso-acoustic.html
 page:
-  - hero:
+    hero:
+      order: 1
       slogan: Hacé lo que quieras en tu departamento, <strong>nadie te escucha</strong>
       heroImage:
         selectedOption: image
@@ -23,6 +24,7 @@ page:
           text: Mantiene su espesor a lo largo del tiempo
     details:
       enableDetailsSection: true
+      order: 2
       function:
         - text: Aislante acústico.
       application:
@@ -33,6 +35,7 @@ page:
       detailsImage: /images/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-imagen-detalle-producto.jpg
     benefits:
       enableBenefitsSection: true
+      order: 3
       benefitsTitle: Insonorización <strong>con espesor reducido</strong>
       benefitsText: Por su bajo espesor, <strong>Contrapiso Flotante ACOUSTIC®</strong> no tiene mayor influencia sobre las dimensiones y alturas finales del proyecto. Es resistente a las pisadas y caídas ocasionales de herramientas en la etapa de colocación su capacidad de aislamiento acústico no se verá dañada.
       benefitsImage: /images/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-beneficio-exclusivo-imagen.jpg
@@ -43,14 +46,17 @@ page:
         - text: Barrera de vapor.
     video:
       enableVideoSection: true
+      order: 4
       video: https://www.youtube.com/watch?v=t0xTKKOZG0o
     instructions:
       enableInstructions: true
+      order: 5
       pdfInstruction: /images/downloads/colocacion-contrapiso-acoustic.pdf
       instructions:
         - Contrapiso Acoustic
     technicalInformation:
       enableTechnicalInformation: true
+      order: 6
       technicalInformationList:
         - title: Aislación a ruidos de impacto
           text: CPAcoustic 29dB promedio
@@ -90,12 +96,14 @@ page:
           text: 52-63% (Espectro fotómetro)
     downloads:
       enableDownloadsSection: true
+      order: 7
       downloadsTitle: Área de <strong class="ml-2">descargas</strong>
       downloads:
         - Catálogo de Pisos
         - Díptico Contrapiso Acoustic
     colocation:
       enableColocationSection: true
+      order: 8
       colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
       colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
       technicalAssessorCtaText: Buscá tu asesor técnico
@@ -104,6 +112,7 @@ page:
       technicalAssessorCtaLink: /servicios#map
     cta:
       enableCtaSection: true
+      order: 9
       ctaTitle: Viví tu departamento <strong>con confort acústico</strong>
       ctaImage: /images/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-cta.jpg
 ---

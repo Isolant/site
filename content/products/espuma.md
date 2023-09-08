@@ -5,8 +5,9 @@ globals:
   order: 3
   productImage: /images/products/espuma/isolant-aislantes-linea-climatizacion-espuma-producto-rollo.png
 page:
-  - hero:
+    hero:
       slogan: Confort térmico para tus <strong>sistemas de climatización</strong>
+      order: 1
       heroImage:
         selectedOption: image
         mainImageBackgroundPosition: top
@@ -21,6 +22,7 @@ page:
           text: Evitan la condensación
     details:
       enableDetailsSection: true
+      order: 2
       function:
         - text: Aislante térmico.
         - text: Impermeable y barrera de vapor.
@@ -34,6 +36,7 @@ page:
       detailsImage: /images/products/espuma/isolant-aislantes-linea-climatizacion-espuma-imagen-detalle-producto.jpg
     benefits:
       enableBenefitsSection: true
+      order: 3
       benefitsTitle: Brindan una total <strong>aislación termohidrófuga</strong>
       benefitsText: Son de estructura de celda cerrada, imputrescibles, y no desprenden partículas ni fibras de ningún tipo. Se destacan por su maleabilidad y fácil colocación. Son impermeables, barrera de vapor, aislantes térmicas y acústicas. No contaminan el medio ambiente y son reciclables.
       benefitsImage: /images/products/espuma/isolant-aislantes-linea-climatizacion-espuma-beneficio-exclusivo.jpg
@@ -51,9 +54,11 @@ page:
         - text: Material reciclable.
     video:
       enableVideoSection: false
+      order: 4
       video: https://www.youtube.com/watch?v=K_oY34zgYc4
     instructions:
       enableInstructions: true
+      order: 5
       instructions:
         - Losas radiantes sistema de agua
         - Ductos escondidos en cielorrasos
@@ -105,12 +110,14 @@ page:
         - title: Permeabilidad a los rayos de luz
           text: 52-63% (Espectro fotómetro)
     downloads:
+      order: 6
       downloadsTitle: Área de <strong class="ml-2">descargas</strong>
       downloads:
         - Catálogo Climatización
         - Volante Climatización
     colocation:
       enableColocationSection: true
+      order: 7
       colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
       colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
       technicalAssessorCtaText: Buscá tu asesor técnico
@@ -119,6 +126,7 @@ page:
       technicalAssessorCtaLink: /servicios#map
     cta:
       enableCtaSection: true
+      order: 8
       ctaTitle: Eficiencia y ahorro energético <strong>para tus sistemas de climatización</strong>
       ctaImage: /images/products/espuma/isolant-aislantes-linea-climatizacion-espuma-cta.jpg
 ---
