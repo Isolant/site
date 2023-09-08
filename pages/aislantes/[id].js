@@ -31,20 +31,6 @@ export default function Product({ productData, instructionsData, localesData, pr
   const { name, description } = productData;
   const { productImage, logo, ecommerceLink } = productData.globals;
   const sections = Object.entries(productData.page[0]).map(( [k, v] ) => ({ [k]: v }));
-
-  const colocationButtons = [{
-    link: productData.page[0].colocation.colocationCtaLink,
-    text: productData.page[0].colocation.colocationCtaText,
-    icon: false,
-    color: 'white',
-    isExternal: true,
-  }, {
-    link: productData.page[0].colocation.technicalAssessorCtaLink,
-    text: productData.page[0].colocation.technicalAssessorCtaText,
-    icon: false,
-    color: 'transparent',
-    isExternal: false,
-  }];
   
   const ctaButtons = [
     {
@@ -233,6 +219,20 @@ export default function Product({ productData, instructionsData, localesData, pr
             break;
           // Colocation
           case 'colocation':
+            const colocationButtons = [{
+              link: productData.page[0].colocation.colocationCtaLink,
+              text: productData.page[0].colocation.colocationCtaText,
+              icon: false,
+              color: 'white',
+              isExternal: true,
+            }, {
+              link: productData.page[0].colocation.technicalAssessorCtaLink,
+              text: productData.page[0].colocation.technicalAssessorCtaText,
+              icon: false,
+              color: 'transparent',
+              isExternal: false,
+            }];
+            
             section.colocation && section.colocation.enableColocationSection === true &&
               markup.push (
                 <FullScreenSection
@@ -296,7 +296,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const productData = getCollectionById("products", params.id);
-  const instructionsData = productData.page[0].instructions.instructions ? productData.page[0].instructions.instructions.map(product => getCollectionById("instructions", slugify(product))) : null;
+  const instructionsData = productData.page[0].instructions && productData.page[0].instructions.instructions ? productData.page[0].instructions.instructions.map(product => getCollectionById("instructions", slugify(product))) : null;
   const downloadsData = productData.page[0].downloads.downloads ? productData.page[0].downloads.downloads.map(download => getCollectionById("downloads", slugify(download))) : null;
   const provincesData = getCollectionById("geolocalization", 'provinces');
   const localesData = getCollectionById("geolocalization", 'locales');
