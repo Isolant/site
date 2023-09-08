@@ -219,20 +219,6 @@ export default function Product({ productData, instructionsData, localesData, pr
             break;
           // Colocation
           case 'colocation':
-            const colocationButtons = [{
-              link: productData.page[0].colocation.colocationCtaLink,
-              text: productData.page[0].colocation.colocationCtaText,
-              icon: false,
-              color: 'white',
-              isExternal: true,
-            }, {
-              link: productData.page[0].colocation.technicalAssessorCtaLink,
-              text: productData.page[0].colocation.technicalAssessorCtaText,
-              icon: false,
-              color: 'transparent',
-              isExternal: false,
-            }];
-            
             section.colocation && section.colocation.enableColocationSection === true &&
               markup.push (
                 <FullScreenSection
@@ -240,7 +226,19 @@ export default function Product({ productData, instructionsData, localesData, pr
                   title={section.colocation.colocationTitle}
                   theme="dark"
                   height="full"
-                  buttons={colocationButtons}
+                  buttons={[{
+                    link: productData.page[0].colocation.colocationCtaLink,
+                    text: productData.page[0].colocation.colocationCtaText,
+                    icon: false,
+                    color: 'white',
+                    isExternal: true,
+                  }, {
+                    link: productData.page[0].colocation.technicalAssessorCtaLink,
+                    text: productData.page[0].colocation.technicalAssessorCtaText,
+                    icon: false,
+                    color: 'transparent',
+                    isExternal: false,
+                  }]}
                 />
               )
             break;
