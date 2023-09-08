@@ -140,7 +140,7 @@ page:
     colocation:
       colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
       order: 8
-      colocationTitle: ¿No tenés quién te coloque <strong>nuestros aislantes?</strong>
+      colocationTitle: ¿No tenés quién te coloque **nuestros aislantes?**
       colocationCtaLink: https://isoplus.isolant.com.ar/inicio
       colocationCtaText: Encontrá un instalador
       technicalAssessorCtaLink: /servicios#map

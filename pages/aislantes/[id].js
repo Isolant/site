@@ -52,6 +52,7 @@ export default function Product({ productData, instructionsData, localesData, pr
       isExternal: false,
     },
   ];
+  const sloganContainer = sortedSections.filter(section => section.hero !== undefined ? section.hero.slogan : '');
 
   return (
     <Base
@@ -232,6 +233,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                 <FullScreenSection
                   image={section.colocation.colocationImage}
                   title={section.colocation.colocationTitle}
+                  titleUsesMarkdown={true}
                   key={index}
                   theme="dark"
                   height="full"
@@ -257,7 +259,8 @@ export default function Product({ productData, instructionsData, localesData, pr
               markup.push (
                 <FullScreenSection
                   image={section.cta.ctaImage}
-                  title={section.cta.ctaTitle ? section.cta.ctaTitle : section.cta.slogan}
+                  title={section.cta.ctaTitle ? section.cta.ctaTitle : sloganContainer[0].hero.slogan}
+                  titleUsesMarkdown={true}
                   backgroundPosition={section.cta.ctaImageBackgroundPosition}
                   key={index}
                   theme="dark"

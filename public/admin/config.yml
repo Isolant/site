@@ -967,7 +967,7 @@ collections:
                 media_library:
                   config:
                     multiple: false
-              - {label: "Título para la sección Colocación Aislante", name: "colocationTitle", widget: "string", required: false}
+              - {label: "Título para la sección Colocación Aislante", name: "colocationTitle", widget: "markdown", required: false}
               - {label: "Link para la sección Colocación Aislante", name: "colocationCtaLink", widget: "string", required: false}
               - {label: "Texto del link para la sección Colocación Aislante", name: "colocationCtaText", widget: "string", required: false}
               - {label: "Link para la sección Buscador de Asesor Técnico", name: "technicalAssessorCtaLink", widget: "string", required: false}

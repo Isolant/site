@@ -62,7 +62,7 @@ export default function Hero({
           titleHierarchy="h1"
           title={slogan}
           theme="dark"
-          // usesMarkdown={true}
+          usesMarkdown={true}
         />
       </div>
       {benefits &&
