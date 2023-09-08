@@ -87,7 +87,7 @@ export default function HighlightedProducts({
                     />
                     <Dots className="bottom-4 right-4 absolute text-gray-300 fill-current z-0" />
                     <Image
-                      src={product.page[0].hero.heroImage.mainImage}
+                      src={product.page.hero.heroImage.mainImage}
                       alt={product.name}
                       className="object-cover"
                       layout="fill"
