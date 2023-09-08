@@ -38,7 +38,7 @@ page:
     benefits:
       enableBenefitsSection: true
       order: 3
-      benefitsTitle: Estudio termográfico <strong>gratuito</strong>
+      benefitsTitle: Estudio termográfico **gratuito**
       benefitsText: Contamos con un equipo técnico especialmente preparado en el asesoramiento y análisis de galpones de crianza animal. Conocé más sobre nuestro análisis termográfico gratuito en obra e informes generados con termógrafos colocados en tus galpones.
       benefitsImage: /images/products/termoblock/isolant-aislantes-linea-galpones-y-tinglados-termoblock-beneficio-exclusivo.jpg
       benefitsList:

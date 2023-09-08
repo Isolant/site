@@ -37,7 +37,7 @@ page:
     benefits:
       enableBenefitsSection: true
       order: 3
-      benefitsTitle: Extiende la vida útil <strong>de tu alfombra</strong>
+      benefitsTitle: Extiende la vida útil **de tu alfombra**
       benefitsText: El <strong>Base para Alfombras</strong> ISOLANT®, de 6 mm de espesor, prolonga la vida útil de su alfombra, brinda un mayor confort al andar y es un excelente aislante acústico de ruidos de impacto.<br /><br />Es un producto higiénico, resistente, impermeable, flexible, elástico y de máxima vida útil.
       benefitsImage: /images/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-beneficio-exclusivo.jpg
       benefitsList:

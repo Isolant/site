@@ -40,7 +40,7 @@ page:
     benefits:
       enableBenefitsSection: true
       order: 3
-      benefitsTitle: Resistente a <strong>la intemperie</strong>
+      benefitsTitle: Resistente a **la intemperie**
       benefitsText: FixBand presenta un diseño especial pensado para soportar las inclemencias de los elementos naturales. Gracias a su triple capa y aluminio de alto micronaje, soporta la acción de rayos UV y agua de lluvia.
       benefitsImage: /images/products/fix-band/isolant-aislantes-linea-otros-usos-fix-band-beneficio-exclusivo.jpg
       benefitsList:

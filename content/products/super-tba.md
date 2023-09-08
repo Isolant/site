@@ -43,7 +43,7 @@ page:
     benefits:
       enableBenefitsSection: true
       order: 3
-      benefitsTitle: Para cualquier <strong>tipo de techos</strong>
+      benefitsTitle: Para cualquier **tipo de techos**
       benefitsText: "¿No sabés qué aislante llevar para proteger tu techo? Lleva Súper
         TBA que gracias a sus exclusivas características, combina las fortalezas de
         muchos de nuestros aislantes y le confiere la versatilidad de poder instalarse

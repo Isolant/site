@@ -43,7 +43,7 @@ page:
       enableBenefitsSection: true
       order: 3
       benefitsSubtitle: Nano esferas poliméricas
-      benefitsTitle: Nanotecnología de <strong>última generación</strong>
+      benefitsTitle: Nanotecnología de **última generación**
       benefitsText: <strong>Atacama Escudo Solar</strong> utiliza nanotecnología de
         última generación, en base a nano-esferas poliméricas expandidas que confieren
         excepcionales propiedades reflectivas y aislantes, especialmente de las

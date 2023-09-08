@@ -36,7 +36,7 @@ page:
     benefits:
       enableBenefitsSection: true
       order: 3
-      benefitsTitle: Terminación <strong>reforzada</strong>
+      benefitsTitle: Terminación **reforzada**
       benefitsText: SELLATUTTI es el único cierre hermético para chapas y juntas, que presenta una terminación reforzada en ambas cara. Esto alarga su vida útil y lo hace más difícil de romper para pájaros y animales.
       benefitsImage: /images/products/sellatutti/isolant-aislantes-linea-otros-usos-sellatutti-beneficio-exclusivo.jpg
       benefitsList:

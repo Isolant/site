@@ -41,7 +41,7 @@ page:
       # patentImage: /images/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-patente.png
       order: 3
       enableBenefitsSection: true
-      benefitsTitle: Producto con <strong>red incorporada</strong>
+      benefitsTitle: Producto con **red incorporada**
       benefitsText: Gracias a la red incorporada en la masa del aislante, nuestros productos NET son los de más rápida y fácil instalación del mercado. Ahorran del 20% al 40% de mano de obra, lo cual impacta directamente en los tiempos y costos de la misma. Al ser DOS productos en UNO, brinda una resistencia mecánica premium, una terminación plana y estética superior.
       benefitsImage: /images/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-beneficio-exclusivo.jpg
       benefitsList:

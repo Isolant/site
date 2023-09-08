@@ -42,7 +42,7 @@ page:
     benefits:
       enableBenefitsSection: true
       order: 3
-      benefitsTitle: Cuadrícula <strong>para replanteo</strong>
+      benefitsTitle: Cuadrícula **para replanteo**
       benefitsText: <strong>Imperfoil</strong> presenta una cuadrícula impresa en su
         cara superior, haciendo de su colocación y replanteo en tabiques y techos de
         steel framing y balloon framing, mucho más fácil y ágil.<br /><br />Además

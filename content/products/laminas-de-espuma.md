@@ -36,7 +36,7 @@ page:
     benefits:
       enableBenefitsSection: true
       order: 3
-      benefitsTitle: Usos <strong>frecuentes</strong>
+      benefitsTitle: Usos **frecuentes**
       benefitsText: • Protección de equipos eléctricos y electrodomésticos<br />• Confección de bolsos térmicos<br />• Embalajes y porta objetos con fines de protección mecánica y anti abrasivos
       benefitsImage: /images/products/laminas-de-espuma/isolant-aislantes-linea-otros-usos-laminas-de-espuma-beneficio-exclusivo.jpg
       benefitsList:

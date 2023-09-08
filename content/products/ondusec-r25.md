@@ -44,8 +44,8 @@ page:
     benefits:
       enableBenefitsSection: true
       order: 3
-      benefitsTitle: El aislante termoacústico para tabiques y cielorrasos <strong>de
-        más fácil instalación del mercado</strong>
+      benefitsTitle: El aislante termoacústico para tabiques y cielorrasos **de
+        más fácil instalación del mercado**
       benefitsText: Gracias a su composición de espuma de PE de celda cerrada con dos
         caras acanaladas reduce la transmisión de ruidos entre ambientes, aisla
         térmicamente y mantiene su forma a través del tiempo sin desprender partículas

@@ -45,7 +45,7 @@ page:
       order: 3
       enableBenefitsSection: true
       benefitsSubtitle: El aislante que le dió nombre a la categoría
-      benefitsTitle: Membrana con solape autoadhesivo <strong>Rapi-Tac</strong>
+      benefitsTitle: Membrana con solape autoadhesivo **Rapi-Tac**
       benefitsText: Facilita y agiliza el trabajo de colocación, asegurando aislación
         hidrófuga en las uniones.
       benefitsList:

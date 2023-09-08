@@ -37,7 +37,7 @@ page:
     benefits:
       enableBenefitsSection: true
       order: 3
-      benefitsTitle: Usos <strong>frecuentes</strong>
+      benefitsTitle: Usos **frecuentes**
       benefitsText: • Colchonetas de gimnasia y de camping.<br />• Aislante de masa en cámaras frigoríficas, muros, techos, pisos, revestimiento de tanques y conductos, etc.<br />• Flotantes de salvavidas, boyas de redes y artículos varios de náutica.
       benefitsImage: /images/products/bloques-de-espuma/isolant-aislantes-linea-otros-usos-bloques-de-espuma-beneficio-exclusivo.jpg
       benefitsList:

@@ -36,7 +36,7 @@ page:
     benefits:
       enableBenefitsSection: true
       order: 3
-      benefitsTitle: Absorben la <strong>compresión y dilatación de las juntas</strong>
+      benefitsTitle: Absorben la **compresión y dilatación de las juntas**
       benefitsText: • Resistentes químicamente a los selladores<br />• Impermeable<br />• Imputrescibles<br />• Maleables y flexiles
       benefitsImage: /images/products/perfiles-de-espuma/isolant-aislantes-linea-otros-usos-perfiles-de-espuma-beneficio-exclusivo.jpg
       benefitsList:

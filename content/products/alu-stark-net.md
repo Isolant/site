@@ -53,7 +53,7 @@ page:
       enableBenefitsSection: true
       order: 3
       benefitsSubtitle: ¡No necesita malla sostén!
-      benefitsTitle: Producto con <strong>red incorporada</strong>
+      benefitsTitle: Producto con **red incorporada**
       benefitsText: "Gracias a la red incorporada en la masa del aislante, nuestros
         productos NET son los de más rápida y fácil instalación del mercado. Ahorran
         del 20% al 40% de mano de obra, lo cual impacta directamente en los tiempos y

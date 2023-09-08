@@ -46,7 +46,7 @@ page:
     benefits:
       enableBenefitsSection: true
       order: 3
-      benefitsTitle: Exclusivo troquel a 40cm y 60cm
+      benefitsTitle: Exclusivo troquel a **40cm y 60cm**
       benefitsText: Gracias a su troquel a 40cm y 60cm, correspondiente a la
         separación entre montantes del sistema constructivo, ONDUSEC es el aislante de
         más rápida y fácil colocación para construcción en seco. Esto no solo reduce

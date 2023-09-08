@@ -55,6 +55,7 @@ export default function Benefits({
       theme="light"
       subtitle={subtitle}
       title={title}
+      titleUsesMarkdown={true}
       text={text}
       Logo={() => <img src={logo} className="max-h-8 mb-2 sm:mb-4" />}
       buttons={button}

@@ -37,7 +37,7 @@ page:
     benefits:
       enableBenefitsSection: true
       order: 3
-      benefitsTitle: Mayor durabilidad <strong>a la intemperie</strong>
+      benefitsTitle: Mayor durabilidad **a la intemperie**
       benefitsText: Las espumas Isolant con aluminio puro reforzado permiten ser colocadas a la intemperie dado la resistencia mecánica del refuerzo en el aluminio. Evita la rotura por impactos permitiendo mayor durabilidad a la intemperie y evita la doble cobertura de chapa de los conductos. Generalmente se utiliza para la salida y entrada de los conductos a los equipos enfriadores o de ventilación.
       benefitsImage: /images/products/aluminio-reforzado/isolant-aislantes-linea-climatizacion-aluminio-reforzado-beneficio-exclusivo.jpg
       benefitsList:

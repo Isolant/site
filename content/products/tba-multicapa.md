@@ -46,7 +46,7 @@ page:
       enableBenefitsSection: true
       order: 3
       benefitsSubtitle: Beneficio Exclusivo
-      benefitsTitle: Único sistema de <strong>bastones de ventilación</strong>
+      benefitsTitle: Único sistema de **bastones de ventilación**
       benefitsText: Los bastones de ventilación van colocados hacia abajo, creando los
         canales de ventilación. De esta forma logramos un techo completamente
         ventilado debajo de la membrana, con una ventilación horizontal entre los

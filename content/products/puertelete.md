@@ -34,7 +34,7 @@ page:
     benefits:
       enableBenefitsSection: false
       order: 3
-      benefitsTitle: Muy fácil <strong>instalación</strong>
+      benefitsTitle: Muy fácil **instalación**
       benefitsText: Puertelete no necesita ser fijado con clavos ni tornillos. Cortá tu puertelete (podés usar una trincheta) midiendo el ancho de la puerta, apoyalo en el piso, frente al filo de la puerta, y desplazalo hasta que cubra la totalidad de la puerta.
       benefitsImage: /images/products/puertelete/isolant-aislantes-linea-otros-usos-puertelete-beneficio-exclusivo.jpg
       benefitsList:

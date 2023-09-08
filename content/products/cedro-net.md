@@ -50,7 +50,7 @@ page:
     benefits:
       enableBenefitsSection: true
       order: 3
-      benefitsTitle: Aislante decorativo <strong>para techos</strong>
+      benefitsTitle: Aislante decorativo **para techos**
       benefitsText: Respondiendo a las nuevas tendencias del mercado, <strong>ISOLANT
         S.A.</strong> pone a su disposición una novedosa línea de aislantes con
         terminación madera, fáciles de colocar para cualquiera que quiera aislar su

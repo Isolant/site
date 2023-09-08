@@ -41,7 +41,7 @@ page:
       patentImage: /images/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-patente.png
       order: 3
       enableBenefitsSection: true
-      benefitsTitle: Terminación blanca <strong>de alta resistencia</strong>
+      benefitsTitle: Terminación blanca **de alta resistencia**
       benefitsText: "Ideal para estructuras metálicas que requieran una estética superior: La espuma color blanca favorece a la terminación estética de la cara que queda a la vista. Ideal para supermercados, concesionarias de autos, etc.<br /><br />¡Preguntá por la terminación negra!"
       benefitsImage: /images/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-beneficio-exclusivo.jpg
       benefitsList:

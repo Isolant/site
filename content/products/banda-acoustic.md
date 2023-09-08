@@ -44,7 +44,7 @@ page:
     benefits:
       enableBenefitsSection: true
       order: 3
-      benefitsTitle: Adhesivada <strong>sin desmoldante</strong>
+      benefitsTitle: Adhesivada **sin desmoldante**
       benefitsText: <strong>Banda Acoustic</strong> es el producto ideal para
         desanclar acústicamente la estructura metálica de construcción en seco de las
         losas y muros de su obra, logrando así reducir los ruidos generados por

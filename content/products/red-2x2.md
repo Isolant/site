@@ -38,7 +38,7 @@ page:
     benefits:
       enableBenefitsSection: true
       order: 3
-      benefitsTitle: Resistencia por <strong>biorientado</strong>
+      benefitsTitle: Resistencia por **biorientado**
       benefitsText: Gracias a su tecnología de fabricación de pretensado y biorentado, la <strong>RED 2x2 Isolant</strong> presenta una alta resistencia a la deformación por esfuerzos de dilatación y contracción de la estructura, logrando techos más planos y de una estética superior.
       benefitsImage: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-beneficio-exclusivo.jpg
       benefitsList:

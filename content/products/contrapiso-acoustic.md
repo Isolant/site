@@ -36,7 +36,7 @@ page:
     benefits:
       enableBenefitsSection: true
       order: 3
-      benefitsTitle: Insonorización <strong>con espesor reducido</strong>
+      benefitsTitle: Insonorización **con espesor reducido**
       benefitsText: Por su bajo espesor, <strong>Contrapiso Flotante ACOUSTIC®</strong> no tiene mayor influencia sobre las dimensiones y alturas finales del proyecto. Es resistente a las pisadas y caídas ocasionales de herramientas en la etapa de colocación su capacidad de aislamiento acústico no se verá dañada.
       benefitsImage: /images/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-beneficio-exclusivo-imagen.jpg
       patentImage: /images/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-patente.png

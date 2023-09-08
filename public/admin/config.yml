@@ -773,7 +773,7 @@ collections:
               - {label: "Habilitar sección Beneficio Exclusivo", name: "enableBenefitsSection", required: false, widget: "boolean", default: true, hint: "Si no queres mostrar esta sección, deshabilitala desde acá"}
               - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
               - {label: "Subtítulo sección Beneficio Exclusivo", name: "benefitsSubtitle", widget: "string", required: false}
-              - {label: "Título sección Beneficio Exclusivo", name: "benefitsTitle", widget: "string", required: false}
+              - {label: "Título sección Beneficio Exclusivo", name: "benefitsTitle", widget: "markdown", required: false}
               - {label: "Texto sección Beneficio Exclusivo", name: "benefitsText", widget: "text", required: false}
               - label: "Lista de Beneficios"
                 name: "benefitsList"

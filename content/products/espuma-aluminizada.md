@@ -37,7 +37,7 @@ page:
     benefits:
       enableBenefitsSection: true
       order: 3
-      benefitsTitle: Brindan una total <strong>aislación termohidrófuga</strong>
+      benefitsTitle: Brindan una total **aislación termohidrófuga**
       benefitsText: Son de estructura de celda cerrada, imputrescibles, y no desprenden partículas ni fibras de ningún tipo. Se destacan por su maleabilidad y fácil colocación. Son impermeables, barrera de vapor, aislantes térmicas y acústicas. No contaminan el medio ambiente y son reciclables.
       benefitsImage: /images/products/espuma-aluminizada/isolant-aislantes-linea-climatizacion-espuma-aluminizada-beneficio-exclusivo.jpg
       benefitsList:

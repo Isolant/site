@@ -35,7 +35,7 @@ page:
     benefits:
       order: 3
       enableBenefitsSection: true
-      benefitsTitle: Evitan el <strong>congelamiento y calentamiento de la cañería</strong>
+      benefitsTitle: Evitan el **congelamiento y calentamiento de la cañería**
       benefitsText: Aptos para permanecer a la intemperie. En el caso de cañerías plásticas protegen el deterioro y lo aíslan térmicamente. Aumentan la eficacia de los sistemas de calefacción evitando las pérdidas de energía. Evitan las variaciones bruscas de temperatura, disminuyendo las dilataciones y contracciones de la cañería. Se pueden colocar en cañerías existentes.
       benefitsImage: /images/products/tubos-aluminio/isolant-aislantes-linea-climatizacion-tubos-aluminio-beneficio-exclusivo.jpg
       benefitsList:

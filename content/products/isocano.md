@@ -35,7 +35,7 @@ page:
     benefits:
       enableBenefitsSection: true
       order: 3
-      benefitsTitle: Diseño exclusivo y <strong>solapa termo soldable</strong>
+      benefitsTitle: Diseño exclusivo y **solapa termo soldable**
       benefitsText: ISOCAÑO está diseñado especialmente para facilitar la colocación del mismo "abrazando" caños de gran caudal. Ya viene en forma de placa, con un rebaje en su lateral, para termo soldar con pistola de calor. Luego se sugiere la utilización de una cinta de aluminio apta intemperie para garantizar una unión sin filtraciones de agua ni UV.<br /><br />Además su diseño con una cara acanalada hace que al "abrazar" el caño, el material no tienda a volver sobre sí mismo, sino que complete una aislación perfecta. 
       benefitsImage: /images/products/isocano/isolant-aislantes-linea-climatizacion-isocano-beneficio-exclusivo.jpg
       benefitsList:
