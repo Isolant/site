@@ -4,4 +4,5 @@ title: Sustentabilidad
 format: "Formato: PDF/ZIP"
 showOnMainPage: false
 downloadCategory: Políticas
+pdf: /images/downloads/politica-sustentabilidad.pdf
 ---

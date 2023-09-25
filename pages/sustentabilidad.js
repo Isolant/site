@@ -112,9 +112,12 @@ export default function Sustainability({ productLinesData, downloadsData }) {
                   service={info}
                   isSustainability={true}
                   classes={`max-w-sm mx-auto`}
+                  iconSize={index === 0 ? 32 : 42}
                 />
               </li>
             )}
+            {/* Used for anchor links */}
+            <div id="actions" />
           </InsetCallout>
         }
         {timelineEnabled &&

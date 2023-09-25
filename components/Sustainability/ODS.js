@@ -15,6 +15,7 @@ export default function ODS({
       <section
         className={`${verticalPadding} bg-no-repeat bg-cover relative`}
         style={{ backgroundImage: `url(/images/bg/sustainability.jpg)`}}
+        id="ods"
       >
         <div className={`${horizontalPadding} mx-auto container text-center text-white`}>
           {logo &&

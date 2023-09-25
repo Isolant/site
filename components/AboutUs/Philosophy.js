@@ -1,17 +1,12 @@
-// Globals
 import React, { useState } from "react";
 
-// Components
 import Button from "../Forms/Button";
 
-// Classes
 import { boldSubtitleClasses, standardTextClasses, thinTitleClasses } from "../../classes/Text";
 import { horizontalPadding, verticalPadding } from "../../classes/Spacing";
 
-// Styles
-import PhilosophyStiles from './Philosophy.module.css';
+import styles from './Philosophy.module.css';
 
-// SVGs
 import {ReactComponent as ChevronRightIcon } from '../../public/images/icons/chevron-right.svg';
 
 export default function Philosophy({
@@ -28,7 +23,7 @@ export default function Philosophy({
     >
       <div className={`relative flex flex-col justify-center bg-gray-600 ${horizontalPadding} ${verticalPadding}`}>
         <h4
-          className={`${thinTitleClasses} text-white ${PhilosophyStiles.Title}`}
+          className={`${thinTitleClasses} text-white ${styles.Title}`}
           dangerouslySetInnerHTML={{ __html: title }}
         />
         <ul className="lg:mt-4">
@@ -84,7 +79,7 @@ export default function Philosophy({
         </h4>
         <p
           dangerouslySetInnerHTML={{ __html: activeItem.text}}
-          className={`${standardTextClasses} text-gray-600`}
+          className={`${standardTextClasses} ${styles.TextContainer} text-gray-600`}
         />
         {activeItem.ctaLink &&
           <Button
