@@ -15,11 +15,8 @@ policies:
     link: "/images/downloads/politica-sustentabilidad.pdf"
     linkText: Ver política
   - icon: /images/sustainability/policy-2.png
-    title: Objetivos
-    text: Queremos ser la empresa número 1 en ventas de la categoría, tanto en
-      argentina (+40% del mercado) como en Hispanoamérica, sorprendiendo a
-      nuestros clientes con ideas extraordinarias y sustentables que ayuden al
-      cuidado del planeta.
+    title: Objetivos de Desarrollo Sostenible
+    text: Nos enorgullece seguir avanzando en el camino de la sostenibilidad, comprometidos con los 10 principios del Pacto Global y los 17 Objetivos de Desarrollo Sostenible. Queremos aprender de la experiencia de Naciones Unidas a través del Pacto Global y colaborar con colegas.
     link: "#ods"
     linkText: Ver objetivos
 timelineEnabled: true
