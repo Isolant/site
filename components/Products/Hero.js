@@ -13,7 +13,6 @@ export default function Hero({
   backgroundVideo,
   backgroundPosition,
   product,
-  enableDetailsSection,
   slogan,
   benefits,
 }) {
@@ -92,15 +91,13 @@ export default function Hero({
           })}
         </ul>
       }
-      {enableDetailsSection &&
-        <Link
-          href="#details"
-        >
-          <a className="hidden sm:block absolute bottom-8 animate-bounce">
-            <ChevronDown className="text-white fill-current" />
-          </a>
-        </Link>
-      }
+      <Link
+        href="#details"
+      >
+        <a className="hidden sm:block absolute bottom-8 animate-bounce">
+          <ChevronDown className="text-white fill-current" />
+        </a>
+      </Link>
     </section>
   )
 }

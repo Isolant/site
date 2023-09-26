@@ -11,7 +11,7 @@ import "slick-carousel/slick/slick-theme.css";
 import styles from './Slider.module.css';
 
 import { standardTextClasses, boldTitleClasses, uppercaseTextClasses } from "../../classes/Text";
-import { horizontalPadding, verticalPadding } from "../../classes/Spacing";
+import { horizontalPadding } from "../../classes/Spacing";
 
 import {ReactComponent as Dots} from '../../public/images/misc/dots.svg';
 
@@ -38,6 +38,7 @@ export default function HighlightedProducts({
       >
         {products
           .map((product, index) => {
+            const heroSection = product.page.find(section => section.type === 'hero');
             return(
               <div key={index}>
                 {/* Content */}
@@ -87,7 +88,7 @@ export default function HighlightedProducts({
                     />
                     <Dots className="bottom-4 right-4 absolute text-gray-300 fill-current z-0" />
                     <Image
-                      src={product.page.hero.heroImage.mainImage}
+                      src={heroSection.heroImage.mainImage}
                       alt={product.name}
                       className="object-cover"
                       layout="fill"

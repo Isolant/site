@@ -12,7 +12,7 @@ globals:
   logo: /images/products/alu-fusion-net/isolant-aislantes-linea-vivienda-alu-fusion-net-logo.png
   ecommerceLink: https://tienda.isolant.com.ar/vivienda/50-alu-fusion-net.html
 page:
-  hero:
+  - type: hero
     enableHero: true
     order: 1
     heroType: standard
@@ -28,7 +28,7 @@ page:
         text: Aluminio puro. Refleja la radiación calórica.
       - icon: /images/products/alu-fusion-net/isolant-aislantes-linea-vivienda-alu-fusion-net-beneficio-3.svg
         text: Termosoldables
-  details:
+  - type: details
     enableDetailsSection: true
     order: 2
     detailsImage: /images/products/alu-fusion-net/isolant-aislantes-linea-vivienda-alu-fusion-net-imagen-detalle-producto.jpg
@@ -47,7 +47,7 @@ page:
       - text: Red de sostén incorporada
       - text: Solape para termo soldar
       - text: Largos a medida sin cargo por más de 1000m2
-  benefits:
+  - type: benefits
     enableBenefitsSection: true
     order: 3
     benefitsSubtitle: ¡No necesita malla sostén!
@@ -63,17 +63,17 @@ page:
       - text: Clase RE2. Muy baja propagación de llama.
     benefitsImage: /images/products/alu-fusion-net/isolant-aislantes-linea-vivienda-alu-fusion-net-beneficio-exclusivo.jpg
     patentImage: /images/products/alu-fusion-net/isolant-aislantes-linea-vivienda-alu-fusion-net-patente.png
-  video:
+  - type: video
     enableVideoSection: true
     order: 4
     video: https://www.youtube.com/watch?v=g10vCEEilvU
-  instructions:
+  - type: instructions
     enableInstructions: true
     order: 5
     pdfInstruction: /images/downloads/colocacion-alu-fusion-net.pdf
     instructions:
       - Alu Fusión NET
-  technicalInformation:
+  - type: technicalInformation
     enableTechnicalInformation: true
     order: 6
     technicalInformationList:
@@ -127,7 +127,7 @@ page:
       - title: No contaminan el medio ambiente; no contienen freón
       - title: Este producto no es apto intemperie ni se puede colocar sin un cielorraso
           que lo proteja de la reflexión indirecta de los rayos UV
-  downloads:
+  - type: downloads
     enableDownloadsSection: true
     order: 7
     downloadsTitle: Área de <strong class="ml-2">descargas</strong>
@@ -136,7 +136,7 @@ page:
       - ¿Qué tipo de techo querés aislar?
       - Tríptico Industria/Vivienda
       - Volante Alu Fusión NET
-  colocation:
+  - type: colocation
     enableColocationSection: true
     order: 8
     colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
@@ -145,7 +145,7 @@ page:
     colocationCtaText: Encontrá un instalador
     technicalAssessorCtaLink: /servicios#map
     technicalAssessorCtaText: Buscá tu asesor técnico
-  cta:
+  - type: cta
     enableCtaSection: true
     order: 9
     ctaImageBackgroundPosition: top

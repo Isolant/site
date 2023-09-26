@@ -2,6 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "cms": "npx decap-server",
     "build": "next build",
     "start": "next start",
     "postbuild": "node ./scripts/build-search.js && next-sitemap",

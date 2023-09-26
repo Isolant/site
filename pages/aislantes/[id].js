@@ -1,8 +1,6 @@
-// Globals
 import React from 'react';
 import slugify from 'react-slugify';
 
-// Components
 import Base from "../../components/Base";
 import Hero from "../../components/Products/Hero";
 import CustomHero from "../../components/Products/CustomHero";
@@ -19,21 +17,18 @@ import Tutorials from "../../components/Products/Tutorials";
 import Contact from "../../components/Products/Contact";
 import FullScreenSection from "../../components/Layout/FullScreenSection";
 
-// Library
 import { getCollectionIds, getCollectionById, getAllCollections } from '../../lib/collections';
 
-// SVGs
 import { ReactComponent as Dots } from '../../public/images/misc/dots.svg';
 import { ReactComponent as Circle } from '../../public/images/misc/circle.svg';
 
-export default function Product({ productData, instructionsData, localesData, provincesData, downloadsData, productLinesData, productsData, sortedSections }) {
-  // Data massaging
+export default function Product({ productData, instructionsData, localesData, provincesData, downloadsData, productLinesData, productsData }) {
   const { name, description } = productData;
   const { productImage, logo, ecommerceLink } = productData.globals;
   
   const ctaButtons = [
     {
-      link: ecommerceLink ? ecommerceLink : `/contacto?comprar=${productData.id}`,
+      link: ecommerceLink || `/contacto?comprar=${productData.id}`,
       text: `Comprá ${name} Aquí`,
       icon: false,
       color: 'secondary',
@@ -52,7 +47,7 @@ export default function Product({ productData, instructionsData, localesData, pr
       isExternal: false,
     },
   ];
-  const sloganContainer = sortedSections.filter(section => section.hero !== undefined ? section.hero.slogan : '');
+  const sloganContainer = productData.page.filter(section => section.type === 'hero' ? section.slogan : '');
 
   return (
     <Base
@@ -64,19 +59,19 @@ export default function Product({ productData, instructionsData, localesData, pr
       productLines={productLinesData}
     >
       {/* Loop through the sections and add the correct component */}
-      {sortedSections.map((section, index) => {
+      {productData.page.map((section, index) => {
         let markup = [];
-        switch(Object.keys(section)[0]) {
+        switch(section.type) {
           // Select which hero we have to render
           case 'hero':
-            section.hero.enableHero && section.hero.heroType === 'custom' ? 
+            section.enableHero && section.heroType === 'custom' ? 
               markup.push (
                 <CustomHero
-                  background={section.hero.heroImage.mainImage}
-                  backgroundPosition={section.hero.heroImage.mainImageBackgroundPosition}
+                  background={section.heroImage.mainImage}
+                  backgroundPosition={section.heroImage.mainImageBackgroundPosition}
                   product={name}
-                  eyebrow={section.hero.eyebrow}
-                  slogan={section.hero.slogan}
+                  eyebrow={section.eyebrow}
+                  slogan={section.slogan}
                   description={description}
                   logo={logo}
                   key={index}
@@ -85,30 +80,29 @@ export default function Product({ productData, instructionsData, localesData, pr
             :
               markup.push (
                 <Hero
-                  background={section.hero.heroImage.mainImage}
-                  backgroundVideo={section.hero.mainVideo}
-                  backgroundPosition={section.hero.mainImageBackgroundPosition}
+                  background={section.heroImage.mainImage}
+                  backgroundVideo={section.mainVideo}
+                  backgroundPosition={section.mainImageBackgroundPosition}
                   product={name}
-                  slogan={section.hero.slogan}
-                  benefits={section.hero.mainBenefits}
-                  enableDetailsSection={section.details && section.details.enableDetailsSection === true ? true : false}
+                  slogan={section.slogan}
+                  benefits={section.mainBenefits}
                   key={index}
                 />
               )
             break;
           // Details
           case 'details':
-            section.details && section.details.enableDetailsSection === true &&
+            section.enableDetailsSection === true &&
               markup.push (
                 <Details
-                  image={section.details.detailsImage}
+                  image={section.detailsImage}
                   title={name}
                   text={description}
                   logo={logo}
-                  link={ecommerceLink ? ecommerceLink : `/contacto?comprar=${productData.id}`}
-                  functions={section.details.function}
-                  applications={section.details.application}
-                  presentations={section.details.presentation}
+                  link={ecommerceLink || `/contacto?comprar=${productData.id}`}
+                  functions={section.function}
+                  applications={section.application}
+                  presentations={section.presentation}
                   anchor="details"
                   key={index}
                 />
@@ -116,70 +110,70 @@ export default function Product({ productData, instructionsData, localesData, pr
             break;
           // Detail cards
           case 'detailCards':
-            section.detailCards && section.detailCards.enableDetailCardsSection === true &&
+            section.enableDetailCardsSection === true &&
               markup.push (
                 <DetailCards
-                  cards={section.detailCards.cards}
+                  cards={section.cards}
                   key={index}
                 />
               )
             break;
           // Benefits
           case 'benefits':
-            section.benefits && section.benefits.enableBenefitsSection === true &&
+            section.enableBenefitsSection === true &&
               markup.push (
                 <Benefits
-                  image={section.benefits.benefitsImage}
-                  patent={section.benefits.patentImage}
-                  subtitle={section.benefits.benefitsSubtitle}
-                  title={section.benefits.benefitsTitle}
-                  text={section.benefits.benefitsText}
+                  image={section.benefitsImage}
+                  patent={section.patentImage}
+                  subtitle={section.benefitsSubtitle}
+                  title={section.benefitsTitle}
+                  text={section.benefitsText}
                   logo={logo}
-                  link={ecommerceLink ? ecommerceLink : `/contacto?comprar=${productData.id}`}
-                  benefits={section.benefits.benefitsList}
+                  link={ecommerceLink || `/contacto?comprar=${productData.id}`}
+                  benefits={section.benefitsList}
                   key={index}
                 />
               )
             break;
           // Attributes
           case 'attributes':
-            section.attributes && section.attributes.enableAttributesSection === true &&
+            section.enableAttributesSection === true &&
               markup.push (
                 <Attributes
-                  title={section.attributes.attributesTitle}
-                  text={section.attributes.attributesText}
-                  attributes={section.attributes.attributes}
+                  title={section.attributesTitle}
+                  text={section.attributesText}
+                  attributes={section.attributes}
                   key={index}
                 />
               )
             break;
           // Video
           case 'video':
-            section.video && section.video.enableVideoSection === true &&
+            section.enableVideoSection === true &&
               markup.push (
                 <Video
-                  video={section.video.video}
+                  video={section.video}
                   key={index}
                 />
               )
             break;
           // Subproducts
           case 'subproducts':
-            section.subproducts && section.subproducts.enableSubproductsSection === true &&
+            section.enableSubproductsSection === true &&
               markup.push (
                 <p key={index}>TBD: Subproducts</p>
               )
             break;
           // Map
           case 'map':
-            section.map && section.map.enableMapSection === true &&
+            section.enableMapSection === true &&
               markup.push (
-                <Map key={index}>{section.map.mapEmbed.code}</Map>
+                <Map key={index}>{section.mapEmbed.code}</Map>
               )
             break;
           // Instructions
           case 'instructions':
-            section.instructions && section.instructions.enableInstructions === true &&
+            section.enableInstructions === true &&
               markup.push (
                 <Instructions
                   product={name}
@@ -191,24 +185,24 @@ export default function Product({ productData, instructionsData, localesData, pr
             break;
           // Technical Information
           case 'technicalInformation':
-            section.technicalInformation && section.technicalInformation.enableTechnicalInformation === true &&
+            section.enableTechnicalInformation === true &&
               markup.push (
                 <TechnicalInformation
                   product={name}
                   productImage={productImage}
-                  technicalInformation={section.technicalInformation.technicalInformationList}
-                  generalInformation={section.technicalInformation.generalInformationList}
+                  technicalInformation={section.technicalInformationList}
+                  generalInformation={section.generalInformationList}
                   key={index}
                 />
               )
             break;
           // Downloads
           case 'downloads':
-            section.downloads && section.downloads.enableDownloadsSection === true &&
+            section.enableDownloadsSection === true &&
               markup.push (
                 <Downloads
-                  title={section.downloads.downloadsTitle}
-                  text={section.downloads.downloadsText}
+                  title={section.downloadsTitle}
+                  text={section.downloadsText}
                   downloads={downloadsData}
                   key={index}
                 />
@@ -216,36 +210,36 @@ export default function Product({ productData, instructionsData, localesData, pr
             break;
           // Tutorials
           case 'tutorials':
-            section.tutorials && section.tutorials.enableTutorialsSection === true &&
+            section.enableTutorialsSection === true &&
               markup.push (
                 <Tutorials
-                  title={section.tutorials.tutorialsTitle}
-                  text={section.tutorials.tutorialsText}
-                  tutorials={section.tutorials.tutorials}
+                  title={section.tutorialsTitle}
+                  text={section.tutorialsText}
+                  tutorials={section.tutorials}
                   key={index}
                 />
               )
             break;
           // Colocation
           case 'colocation':
-            section.colocation && section.colocation.enableColocationSection === true &&
+            section.enableColocationSection === true &&
               markup.push (
                 <FullScreenSection
-                  image={section.colocation.colocationImage}
-                  title={section.colocation.colocationTitle}
+                  image={section.colocationImage}
+                  title={section.colocationTitle}
                   titleUsesMarkdown={true}
                   key={index}
                   theme="dark"
                   height="full"
                   buttons={[{
-                    link: productData.page.colocation.colocationCtaLink,
-                    text: productData.page.colocation.colocationCtaText,
+                    link: section.colocationCtaLink,
+                    text: section.colocationCtaText,
                     icon: false,
                     color: 'white',
                     isExternal: true,
                   }, {
-                    link: productData.page.colocation.technicalAssessorCtaLink,
-                    text: productData.page.colocation.technicalAssessorCtaText,
+                    link: section.technicalAssessorCtaLink,
+                    text: section.technicalAssessorCtaText,
                     icon: false,
                     color: 'transparent',
                     isExternal: false,
@@ -255,13 +249,13 @@ export default function Product({ productData, instructionsData, localesData, pr
             break;
           // CTA
           case 'cta':
-            section.cta && section.cta.enableCtaSection === true &&
+            section.enableCtaSection === true &&
               markup.push (
                 <FullScreenSection
-                  image={section.cta.ctaImage}
-                  title={section.cta.ctaTitle ? section.cta.ctaTitle : sloganContainer[0].hero.slogan}
+                  image={section.ctaImage}
+                  title={section.ctaTitle || sloganContainer.slogan}
                   titleUsesMarkdown={true}
-                  backgroundPosition={section.cta.ctaImageBackgroundPosition}
+                  backgroundPosition={section.ctaImageBackgroundPosition}
                   key={index}
                   theme="dark"
                   height="full"
@@ -276,12 +270,12 @@ export default function Product({ productData, instructionsData, localesData, pr
             break;
           // Contact
           case 'contact':
-            section.contact && section.contact.enableContactSection === true &&
+            section.enableContactSection === true &&
               markup.push (
                 <Contact
-                  image={section.contact.contactFormImage}
-                  title={section.contact.contactFormTitle}
-                  text={section.contact.contactFormText}
+                  image={section.contactFormImage}
+                  title={section.contactFormTitle}
+                  text={section.contactFormText}
                   products={productsData}
                   key={index}
                 />
@@ -308,9 +302,10 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const productData = getCollectionById("products", params.id);
-  const sortedSections = Object.entries(productData.page).map(( [k, v] ) => ({ [k]: v })).sort((a, b) => a.order > b.order ? -1 : 1);
-  const instructionsData = productData.page.instructions && productData.page.instructions.instructions ? productData.page.instructions.instructions.map(product => getCollectionById("instructions", slugify(product))) : null;
-  const downloadsData = productData.page.downloads.downloads ? productData.page.downloads.downloads.map(download => getCollectionById("downloads", slugify(download))) : null;
+  const downloadsSection = productData.page.find(product => product.type === 'downloads');
+  const instructionsSection = productData.page.find(product => product.type === 'instructions');
+  const instructionsData = instructionsSection ? instructionsSection.instructions.map(product => getCollectionById("instructions", slugify(product))) : null;
+  const downloadsData = downloadsSection && downloadsSection.downloads.map(download => getCollectionById("downloads", slugify(download)));
   const provincesData = getCollectionById("geolocalization", 'provinces');
   const localesData = getCollectionById("geolocalization", 'locales');
   const productLinesData = getAllCollections("productLines");
@@ -325,7 +320,6 @@ export async function getStaticProps({ params }) {
       downloadsData,
       productLinesData,
       productsData,
-      sortedSections
     }
   }
 }

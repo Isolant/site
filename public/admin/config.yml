@@ -634,18 +634,14 @@ collections:
       # FP fields
       - label: "Estructura de página"
         name: "page"
-        widget: "object"
-        summary: "Sección"
-        collapsed: false
+        widget: "list"
+        summary: "{{fields.slogan}}"
+        allow_add: true
         required: false
-        fields:
+        types:
           # Hero
           - label: "Encabezado"
             name: "hero"
-            widget: "object"
-            summary: '{{fields.slogan}}'
-            collapsed: true
-            required: false
             fields:
               - {label: "Habilitar encabezado principal", name: "enableHero", widget: "boolean", hint: "Si no querés mostrar esta sección, deshabilitala desde acá", default: true, required: false}
               - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
@@ -706,10 +702,6 @@ collections:
           # Details. Used in most products
           - label: "Detalles"
             name: "details"
-            widget: "object"
-            summary: "Expandí para ver los detalles"
-            collapsed: true
-            required: false
             fields:
               - {label: "Habilitar sección Detalles", name: "enableDetailsSection", widget: "boolean", default: true, hint: "Si no queres mostrar esta sección, deshabilitala desde acá", required: false}
               - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
@@ -745,10 +737,6 @@ collections:
           # Details Cards. Used in Siding products instead of standard cards
           - label: "Tarjetas de detalle"
             name: "detailCards"
-            widget: "object"
-            summary: "Expandí para ver los detalles"
-            required: false
-            collapsed: true
             fields:
               - {label: "Habilitar sección tarjetas de detalle", name: "enableDetailCardsSection", widget: "boolean", hint: "Si no querés mostrar esta sección, deshabilitala desde acá", default: false, required: false}
               - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
@@ -765,10 +753,6 @@ collections:
           # Benefits. Used in most products
           - label: "Beneficios exclusivos"
             name: "benefits"
-            widget: "object"
-            summary: "Expandí para ver los detalles"
-            required: false
-            collapsed: true
             fields:
               - {label: "Habilitar sección Beneficio Exclusivo", name: "enableBenefitsSection", required: false, widget: "boolean", default: true, hint: "Si no queres mostrar esta sección, deshabilitala desde acá"}
               - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
@@ -801,10 +785,6 @@ collections:
           # Attributes. Used in Siding/Atacama products
           - label: "Atributos"
             name: "attributes"
-            widget: "object"
-            summary: "Expandí para ver los detalles"
-            required: false
-            collapsed: true
             fields:
               - {label: "Habilitar sección atributos", name: "enableAttributesSection", widget: "boolean", hint: "Si no querés mostrar esta sección, deshabilitala desde acá", default: false, required: false}
               - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
@@ -822,10 +802,6 @@ collections:
           # Video
           - label: "Video"
             name: "video"
-            widget: "object"
-            sumamry: "Expandí para ver los detalles"
-            required: false
-            collapsed: true
             fields:
               - {label: "Habilitar sección Video", name: "enableVideoSection", widget: "boolean", default: true, required: false, hint: "Si querés ocultar esta sección, deshabilitala desde acá"}
               - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
@@ -833,10 +809,6 @@ collections:
           # Subproducts. Used in Siding
           - label: "Subproductos"
             name: "subproducts"
-            widget: "object"
-            summary: "Expandí para ver los detalles"
-            required: false
-            collapsed: true
             fields:
               - {label: "Habilitar sección Subproductos", name: "enableSubproductsSection", widget: "boolean", hint: "Si no querés mostrar esta sección, deshabilitala desde acá", default: false, required: false}
               - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
@@ -844,10 +816,6 @@ collections:
           # Map. Used in Siding/Atacama
           - label: "Mapa de distribuidores"
             name: "map"
-            widget: "object"
-            summary: "Expandí para ver los detalles"
-            required: false
-            collapsed: true
             fields:
               - {label: "Habilitar sección Mapa", name: "enableMapSection", widget: "boolean", hint: "Si no querés mostrar esta sección, deshabilitala desde acá", default: false, required: false}
               - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
@@ -855,10 +823,6 @@ collections:
           # Instructions
           - label: "Instrucciones de colocación"
             name: "instructions"
-            widget: "object"
-            summary: "Expandí para ver los detalles"
-            required: false
-            collapsed: true
             fields:
               - {label: "Habilitar sección Instrucciones de Colocación", name: "enableInstructions", widget: "boolean", default: true, required: false, hint: "Si querés ocultar esta sección, deshabilitala desde acá"}
               - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
@@ -884,10 +848,6 @@ collections:
           # Technical Information
           - label: "Información Técnica"
             name: "technicalInformation"
-            widget: "object"
-            summary: "Expandí para ver los detalles"
-            required: false
-            collapsed: true
             fields:
               - {label: "Habilitar sección Especificaciones Generales y Técnicas", name: "enableTechnicalInformation", widget: "boolean", default: true, required: false, hint: "Si querés ocultar esta sección, deshabilitala desde acá"}
               - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
@@ -909,10 +869,6 @@ collections:
           # Downloads
           - label: "Descargas"
             name: "downloads"
-            widget: "object"
-            summary: "Expandí para ver los detalles"
-            required: false
-            collapsed: true
             fields:
               - {label: "Habilitar sección Descargas", name: "enableDownloadsSection", widget: "boolean", default: true, hint: "Si querés ocultar esta sección, deshabilitala desde acá"}
               - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
@@ -930,10 +886,6 @@ collections:
           # Tutorials
           - label: "Tutoriales"
             name: "tutorials"
-            widget: "object"
-            summary: "Expandí para ver los detalles"
-            required: false
-            collapsed: true
             fields:
               - {label: "Habilitar slider tutoriales?", name: "tutorialsEnabled", widget: "boolean", default: true, required: false, hint: "Habilitar el slider de tutoriales"}
               - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
@@ -952,10 +904,6 @@ collections:
           # Colocation
           - label: "Colocación"
             name: "colocation"
-            widget: "object"
-            summary: "Expandí para ver los detalles"
-            required: false
-            collapsed: true
             fields:
               - {label: "Habilitar sección Colocación Aislante", name: "enableColocationSection", widget: "boolean", default: true, hint: "Si querés ocultar esta sección, deshabilitala desde acá", required: false}
               - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
@@ -975,10 +923,6 @@ collections:
           # CTA
           - label: "Llamado a la acción"
             name: "cta"
-            widget: "object"
-            summary: "Expandí para ver los detalles"
-            required: false
-            collapsed: true
             fields:
               - {label: "Habilitar sección Llamado a la acción", name: "enableCtaSection", widget: "boolean", default: true, hint: "Si querés ocultar esta sección, deshabilitala desde acá", required: false}
               - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
@@ -994,10 +938,6 @@ collections:
           # Contact Form
           - label: "Formulario de Contacto"
             name: "contact"
-            widget: "object"
-            summary: "Expandí para ver los detalles"
-            required: false
-            collapsed: true
             fields:
               - {label: "Habilitar formulario de contacto?", name: "enableContactSection", widget: "boolean", default: true, required: false, hint: "Habilitar el formulario de contacto"}
               - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
