@@ -33,6 +33,9 @@ companyLinks:
   - text: Nosotros
     link: /nosotros
     isExternal: false
+  - link: /sustentabilidad
+    text: Sustentabilidad
+    isExternal: false
   - text: Nuestro Producto
     link: /nosotros#producto
     isExternal: false
@@ -44,9 +47,6 @@ companyLinks:
     isExternal: false
   - link: /nosotros#etica-e-integridad
     text: Ética e Integridad
-    isExternal: false
-  - link: /sustentabilidad
-    text: Sustentabilidad
     isExternal: false
   - text: Contacto
     link: /contacto
