@@ -22,7 +22,7 @@ export default function OtherServicesCard({ service, classes }) {
         {service.title}
       </h6>
       <p
-        className={`${smallTextClasses} text-gray-400 line-clamp-2 md:line-clamp-3`}
+        className={`${smallTextClasses} text-gray-400 min-h-[60px] line-clamp-2 md:line-clamp-3`}
       >
         {service.text}
       </p>

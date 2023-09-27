@@ -62,22 +62,22 @@ services:
 otherServicesEnabled: true
 otherServicesTitle: Más servicios y soluciones
 otherServicesSlider:
-  - image: /images/homepage/other-services/slide-4.jpg
+  - image: /images/homepage/other-services/slide-1.jpg
     title: Tienda online
     text: Comprá directo Isolant con envío a domicilio o retiro en Pick up points.
     ctaText: Comprá online
     ctaLink: https://www.tienda.isolant.com.ar
-  - image: /images/homepage/other-services/slide-1.jpg
+  - image: /images/homepage/other-services/slide-2.jpg
     title: Isoplus
     text: "Registrate y empezá a ganar premios con la instalación de cada rollo de aislante Isolant: ¡Es fácil y gratis!"
     ctaText: Registrate
     ctaLink: https://www.isoplus.isolant.com.ar
-  - image: /images/homepage/other-services/slide-2.jpg
+  - image: /images/homepage/other-services/slide-3.jpg
     title: Sustentabilidad
     text: Nuestros productos son amigables con el medio ambiente y ecológicos. Conocé más debajo.
     ctaText: Ir a austentabilidad
     ctaLink: /sustentabilidad
-  - image: /images/homepage/other-services/slide-3.jpg
+  - image: /images/homepage/other-services/slide-4.jpg
     title: Emprendedores
     text: ¿Tenés un producto para la construcción que impulse nuestra filosofía de Triple Impacto? Escribinos!
     ctaText: Contactanos
