@@ -8,7 +8,7 @@ heroSlider:
     ctaLink: /sustentabilidad
 highlightedProductsEnabled: true
 highlightedProducts:
-  - TBA Multicapa
+  - Super TBA
 categoriesEnabled: true
 categoriesTitle: Conoce nuestros aislantes para...
 productLinesEnabled: true
