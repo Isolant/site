@@ -1,10 +1,12 @@
-
 import React, { useEffect } from 'react';
 import { hotjar } from 'react-hotjar';
 import Head from "next/head";
+import { useRouter } from "next/router";
 import Script from "next/script";
 
 export default function MainHead({ pageTitle }) {
+  const router = useRouter();
+  const isSiding = router.asPath.includes('siding');
   useEffect(() => {
     hotjar.initialize(982572, 6);
   }, []);
@@ -31,6 +33,12 @@ export default function MainHead({ pageTitle }) {
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap" rel="stylesheet" />
+      {/* Used for siding */}
+      {
+        isSiding ?
+          <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+        : ''
+      }
 
       {/* Scripts */}
       <Script src="https://identity.netlify.com/v1/netlify-identity-widget.js" />

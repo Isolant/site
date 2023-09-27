@@ -24,7 +24,7 @@ import { ReactComponent as Circle } from '../../public/images/misc/circle.svg';
 
 export default function Product({ productData, instructionsData, localesData, provincesData, downloadsData, productLinesData, productsData }) {
   const { name, description } = productData;
-  const { productImage, logo, ecommerceLink } = productData.globals;
+  const { productImage, logo, ecommerceLink, color } = productData.globals;
   
   const ctaButtons = [
     {
@@ -75,6 +75,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                   description={description}
                   logo={logo}
                   key={index}
+                  color={color}
                 />
               )
             :
