@@ -76,7 +76,7 @@ export default function Hero({ slider }) {
             return(
               <div 
                 key={index}
-                className={`${fullBleedContainer} mt-12 h-60 md:h-96 relative -mb-4 bg-gray-800`}
+                className={`${fullBleedContainer} mt-12 md:mt-16 h-60 md:h-96 relative -mb-4 bg-gray-800`}
               >
                 <Link
                   href={content.ctaLink}
@@ -84,7 +84,7 @@ export default function Hero({ slider }) {
                   <Image
                     src={content.image}
                     alt={content.title}
-                    className={`w-full h-full cursor-pointer ${content.title ? 'opacity-40' : ''}`}
+                    className={`w-full h-full cursor-pointer object-top ${content.title ? 'opacity-40' : ''}`}
                     layout="fill"
                     objectFit="cover"
                   />
