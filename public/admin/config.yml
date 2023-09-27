@@ -549,7 +549,6 @@ collections:
             required: false
             fields:
               - {label: Imagen, name: image, widget: image, hint: "Imagen de fondo"}
-              - {label: URL de Instagram, name: link, widget: string, hint: "La URL a la que el usuario será dirigido al clickear"}
       # Products Page structure
       - name: "products"
         label: "Todos los productos"
