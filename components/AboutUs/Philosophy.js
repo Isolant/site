@@ -47,7 +47,7 @@ export default function Philosophy({
                 >
                   <span
                     className={`
-                      group-hover:opacity-100 flex-1
+                      group-hover:opacity-100 flex-1 pr-4
                       ${item.title === activeItem.title ? `opacity-100` : 'opacity-60'}
                     `}
                   >

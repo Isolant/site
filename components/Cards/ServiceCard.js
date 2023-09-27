@@ -66,7 +66,7 @@ export default function ServiceCard({ service, classes, isSustainability, iconSi
             {service.title}
           </h6>
           <p
-            className={`${standardTextClasses} md:text-sm text-white text-gray-400 text-center`}
+            className={`${standardTextClasses} md:text-sm text-gray-400 text-center`}
           >
             {service.text}
           </p>
