@@ -31,20 +31,16 @@ page:
     cards:
       - image: /images/products/iso-siding/card-1.jpg
         title: Nuevo
-        text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-            nibh euismod tincidunt ut laoreet dolore magna.
+        text: El Siding de PVC es un moderno sistema de revestimiento exterior de alta tecnología.
       - image: /images/products/iso-siding/card-2.jpg
         title: Diseño
-        text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-            nibh euismod tincidunt ut laoreet dolore magna.
+        text: Su diseño moderno permite fachadas estéticas, uniformes y más acogedoras.
       - image: /images/products/iso-siding/card-3.jpg
         title: Tecnología
-        text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-            nibh euismod tincidunt ut laoreet dolore magna.
+        text: Iso Siding es altamente resistente, lavable, no se quiebra y es de rápida y fácil instalación.
       - image: /images/products/iso-siding/card-4.jpg
-        title: Sustentable
-        text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-            nibh euismod tincidunt ut laoreet dolore magna.
+        title: Sustentabilidad
+        text: El PVC es fabricado con al menos un 60% de material reciclado, proveniente de materiales recuperados post consumo, post industrrial o una combinación de ambos.
   - type: attributes
     enableAttributesSection: true
     order: 3

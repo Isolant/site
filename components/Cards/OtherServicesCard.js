@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { smallTextClasses, uppercaseTextClasses } from "../../classes/Text";
 
 export default function OtherServicesCard({ service, classes }) {
-  const children = <div className="mb-8 relative rounded-lg shadow-md hover:shadow-lg transition duration-75 ease-in-out bg-white mr-4">
+  const children = <div className="relative rounded-lg shadow-md hover:shadow-lg transition duration-75 ease-in-out bg-white">
     <div className="relative w-full h-40">
       <Image
         layout="fill"
@@ -22,7 +22,7 @@ export default function OtherServicesCard({ service, classes }) {
         {service.title}
       </h6>
       <p
-        className={`${smallTextClasses} text-white text-gray-400 h-24`}
+        className={`${smallTextClasses} text-gray-400 h-24`}
       >
         {service.text}
       </p>

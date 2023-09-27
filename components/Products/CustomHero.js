@@ -14,11 +14,9 @@ export default function CustomHero({
   slogan,
   description,
   logo,
-  color
+  color,
+  isSiding
 }) {
-  const router = useRouter();
-  const isSiding = router.asPath.includes('siding');
-
   return (
     <section
       className={`relative flex items-center flex-col overflow-hidden`}

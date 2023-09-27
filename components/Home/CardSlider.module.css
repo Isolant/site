@@ -11,3 +11,7 @@
 .Slider > button[data-role="none"]:first-child {
   @apply left-0 right-auto bg-gradient-to-r;
 }
+
+.Slider :global(.slick-slide):not(:last-child) {
+  @apply pr-4 mb-8;
+}

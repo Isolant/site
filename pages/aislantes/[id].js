@@ -1,5 +1,6 @@
 import React from 'react';
 import slugify from 'react-slugify';
+import { useRouter } from 'next/router';
 
 import Base from "../../components/Base";
 import Hero from "../../components/Products/Hero";
@@ -25,6 +26,8 @@ import { ReactComponent as Circle } from '../../public/images/misc/circle.svg';
 export default function Product({ productData, instructionsData, localesData, provincesData, downloadsData, productLinesData, productsData }) {
   const { name, description } = productData;
   const { productImage, logo, ecommerceLink, color } = productData.globals;
+  const router = useRouter();
+  const isSiding = router.asPath.includes('siding');
   
   const ctaButtons = [
     {
@@ -62,7 +65,7 @@ export default function Product({ productData, instructionsData, localesData, pr
       {productData.page.map((section, index) => {
         let markup = [];
         switch(section.type) {
-          // Select which hero we have to render
+          // Select which hero we'll render
           case 'hero':
             section.enableHero && section.heroType === 'custom' ? 
               markup.push (
@@ -76,6 +79,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                   logo={logo}
                   key={index}
                   color={color}
+                  isSiding={isSiding}
                 />
               )
             :
@@ -116,6 +120,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                 <DetailCards
                   cards={section.cards}
                   key={index}
+                  background={isSiding && '/images/bg/siding.jpg'}
                 />
               )
             break;
