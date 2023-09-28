@@ -153,20 +153,20 @@ export default function Sustainability({ productLinesData, downloadsData }) {
           boxed={true}
         />
       }
-      {downloadsEnabled &&
+      {logosEnabled &&
         <section style={{ backgroundImage: `url(/images/globals/isolant-aislantes-fondo-lineas-oscuras.jpg)`}}>
-          <Downloads
-            title={downloadsTitle}
-            downloads={sustainabilityDownloads[0]}
-            noBackground={true}
-            shouldExpand={false}
-          />
-          {logosEnabled &&
-            <Logos
-              title={logosTitle}
-              logos={logos}
+          {downloadsEnabled &&
+            <Downloads
+              title={downloadsTitle}
+              downloads={sustainabilityDownloads[0]}
+              noBackground={true}
+              shouldExpand={false}
             />
           }
+          <Logos
+            title={logosTitle}
+            logos={logos}
+          />
         </section>
       }
       {contactEnabled &&

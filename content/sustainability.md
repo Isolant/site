@@ -121,7 +121,7 @@ newsSlider:
     text: El aislante térmico líquido que permite bajar de 6 a 8 grados la temperatura de techos y muros.
     ctaText: Leer más
     ctaLink: https://infoconstruccion.com.ar/isolant-atacama-el-mejor-aliado-para-el-verano/
-downloadsEnabled: true
+downloadsEnabled: false
 downloadsTitle: Área de <strong class="ml-2">descargas</strong>
 downloads:
   - Volante Atacama
