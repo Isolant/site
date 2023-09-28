@@ -2,7 +2,7 @@
 title: Vivienda
 description: Impermeabilizan y aíslan térmicamente tu casa con un sólo producto
 order: 1
-mainImage: /images/product-lines/isolant-aislantes-lineas-de-producto-vivienda.jpg
+mainImage: /images/product-lines/vivienda.jpg
 color: '#0F70B7'
 products:
   - Super TBA

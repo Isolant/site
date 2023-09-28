@@ -16,7 +16,7 @@ export default function DownloadCard({ download, classes }) {
     >
       <div className="rounded-full bg-white shadow-lg w-24 h-24 flex items-center justify-center mx-auto">
         <Image
-          src={download.icon}
+          src={download.icon || '/images/downloads/book.svg'}
           alt={download.title}
           width={32}
           height={32}

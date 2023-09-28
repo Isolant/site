@@ -1,2 +1,0 @@
-ZIP truncated. Processed 56 out of 110 files.
-ZIP containing all files must be less than the raw file size limit for your cloud (isolant-cloudinary) which is 100 MB.

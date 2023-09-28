@@ -1,8 +1,6 @@
 import React from "react";
 import Image from 'next/image';
 
-import TitlePackage from "../TitlePackage";
-
 import { horizontalPadding, verticalPadding } from '../../classes/Spacing';
 import { boldSubtitleClasses } from "../../classes/Text";
 
@@ -14,7 +12,6 @@ export default function Logos({
   return (
       <section
         className={`${verticalPadding} bg-no-repeat bg-cover relative`}
-        style={{ backgroundImage: `url(/images/globals/isolant-aislantes-fondo-lineas-oscuras.jpg)`}}
       >
         <div className={`${horizontalPadding} mx-auto container mb-4 md:mb-0`}>
           {title &&
@@ -22,7 +19,7 @@ export default function Logos({
           }
         </div>
         <ul
-          className={`${horizontalPadding} pt-4 md:pt-8 lg:pt-12 mx-auto container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-4`}
+          className={`${horizontalPadding} pt-4 md:pt-8 lg:pt-12 mx-auto container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-4`}
         >
           {logos.map((logo, index) => {
             return(
@@ -30,12 +27,19 @@ export default function Logos({
                 key={index}
                 className="relative w-full h-16"
               >
-                <Image
-                  layout="fill"
-                  src={logo.image}
-                  alt={logo.title}
-                  className="w-full h-full object-contain"
-                />
+                <a
+                  href={logo.href}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  className="hover:opacity-80 transition ease-in-out duration-100"
+                >
+                  <Image
+                    layout="fill"
+                    src={logo.image}
+                    alt={logo.title}
+                    className="w-full h-full object-contain"
+                  />
+                </a>
               </li>
             )
           })}

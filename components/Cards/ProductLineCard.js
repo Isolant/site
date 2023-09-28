@@ -19,7 +19,7 @@ export default function ProductLineCard({ productLine, classes }) {
         />
         <div
           style={{ backgroundImage: `url(${productLine.mainImage})`}}
-          className="rounded-t-lg rounded-b-xl h-48 sm:h-56 bg-no-repeat bg-cover relative z-10"
+          className="rounded-t-lg rounded-b-xl h-48 sm:h-56 bg-no-repeat bg-contain bg-top relative z-10"
         >
           <h4
             className={`bg-white ${uppercaseTextClasses} p-3 pl-5 sm:p-4 sm:pl-6 text-gray-800 group-hover:text-gray-600 absolute w-full bottom-0 rounded-b-lg font-semibold`}

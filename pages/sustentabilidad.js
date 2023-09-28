@@ -9,8 +9,9 @@ import Philosophy from "../components/AboutUs/Philosophy";
 import PhilosophyVideo from "../components/Products/Video";
 import ODS from "../components/Sustainability/ODS";
 import CardSlider from "../components/Home/CardSlider";
+import Downloads from "../components/Products/Downloads";
 import Logos from "../components/Sustainability/Logos";
-import ContactForm from "../components/AboutUs/ContactForm";
+import Entrepreneurs from "../components/AboutUs/Entrepreneurs";
 
 import { ReactComponent as SustainabilityLogo } from '../public/images/logos/logo-isolant-sustentable.svg';
 import { ReactComponent as ODSLogo } from '../public/images/sustainability/ods/logo.svg';
@@ -19,10 +20,9 @@ import { getAllCollections } from '../lib/collections';
 
 import { attributes } from "../content/sustainability.md";
 
-import { horizontalPadding, verticalPadding } from "../classes/Spacing";
 import { boldSubtitleClasses } from "../classes/Text";
 
-export default function Sustainability({ productLinesData, productsData }) {
+export default function Sustainability({ productLinesData, downloadsData }) {
   let {
     pageTitle,
     heroEnabled,
@@ -49,13 +49,21 @@ export default function Sustainability({ productLinesData, productsData }) {
     newsEnabled,
     newsTitle,
     newsSlider,
+    downloadsEnabled,
+    downloadsTitle,
+    downloads,
     logosEnabled,
     logosTitle,
     logos,
-    contactFormEnabled,
-    contactFormTitle,
-    contactFormText
+    contactImage,
+    contactEnabled,
+    contactTitle,
+    contactText,
+    contactCtaLink,
+    contactCtaText,
   } = attributes;
+  let sustainabilityDownloads = [];
+  sustainabilityDownloads.push(downloads.map(sustainabilityDownload => downloadsData.find(download => download.title === sustainabilityDownload)));
 
   const heroButton = [{
     link: heroCtaLink,
@@ -104,9 +112,12 @@ export default function Sustainability({ productLinesData, productsData }) {
                   service={info}
                   isSustainability={true}
                   classes={`max-w-sm mx-auto`}
+                  iconSize={index === 0 ? 32 : 42}
                 />
               </li>
             )}
+            {/* Used for anchor links */}
+            <div id="actions" />
           </InsetCallout>
         }
         {timelineEnabled &&
@@ -143,34 +154,42 @@ export default function Sustainability({ productLinesData, productsData }) {
         />
       }
       {logosEnabled &&
-        <Logos
-          title={logosTitle}
-          logos={logos}
-        />
-      }
-      {contactFormEnabled &&
-        <section className="bg-gray-100">
-          <div className={`${horizontalPadding} ${verticalPadding} mx-auto container`}>
-            <ContactForm
-              products={productsData}
-              title={contactFormTitle}
-              text={contactFormText}
+        <section style={{ backgroundImage: `url(/images/globals/isolant-aislantes-fondo-lineas-oscuras.jpg)`}}>
+          {downloadsEnabled &&
+            <Downloads
+              title={downloadsTitle}
+              downloads={sustainabilityDownloads[0]}
+              noBackground={true}
+              shouldExpand={false}
             />
-          </div>
+          }
+          <Logos
+            title={logosTitle}
+            logos={logos}
+          />
         </section>
+      }
+      {contactEnabled &&
+        <Entrepreneurs
+          image={contactImage}
+          title={contactTitle}
+          text={contactText}
+          ctaText={contactCtaText}
+          ctaLink={contactCtaLink}
+        />
       }
     </Base>
   )
 }
 
 export async function getStaticProps() {
-  const productsData = getAllCollections("products");
   const productLinesData = getAllCollections("productLines");
+  const downloadsData = getAllCollections("downloads");
 
   return {
     props: {
-      productsData,
       productLinesData,
+      downloadsData,
     },
   };
 }

@@ -83,7 +83,7 @@ export default function HighlightedProducts({
                     <Product
                       product={product.globals.productImage}
                       name={product.name}
-                      classes="max-w-[90px] md:max-w-[160px] h-full w-24 flex items-end absolute bottom-8 right-8 z-20"
+                      classes="w-32 md:w-48 h-full flex items-end absolute bottom-8 right-8 z-20"
                       decorations={false}
                     />
                     <Dots className="bottom-4 right-4 absolute text-gray-300 fill-current z-0" />

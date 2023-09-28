@@ -46,7 +46,7 @@ export default function TimelineSlider({
   };
 
   return (
-    <div className={`${isSustainability ? 'pb-12 sm:pb-16 md:pb-24' : verticalPadding} ${horizontalPadding} mx-auto container mt-4`}>
+    <div className={`${isSustainability ? 'pb-0 sm:pb-16 md:pb-24' : verticalPadding} ${horizontalPadding} mx-auto container mt-4`}>
       <h3
         className={`${boldSubtitleClasses} px-4 md:px-6 lg:px-8 xl:px-0 text-gray-800 pb-4 sm:pb-6`}
       >

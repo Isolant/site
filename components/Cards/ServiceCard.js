@@ -6,7 +6,7 @@ import { ReactComponent as ArrowIcon } from "../../public/images/icons/arrow-rig
 
 import { standardTextClasses, uppercaseTextClasses } from "../../classes/Text";
 
-export default function ServiceCard({ service, classes, isSustainability }) {
+export default function ServiceCard({ service, classes, isSustainability, iconSize }) {
   return (
     service.link && service.link.startsWith('http') || service.link && service.link.startsWith('www') ?
       <a
@@ -18,8 +18,8 @@ export default function ServiceCard({ service, classes, isSustainability }) {
         <div className="rounded-full bg-white shadow-md w-24 h-24 flex items-center justify-center mx-auto group-hover:shadow-lg transition duration-75 ease-in-out">
           <Image
             layout="intrinsic"
-            width={32}
-            height={32}
+            width={iconSize ? iconSize : 32}
+            height={iconSize ? iconSize : 32}
             src={service.icon}
             alt={service.title}
           />
@@ -54,19 +54,19 @@ export default function ServiceCard({ service, classes, isSustainability }) {
           <div className="rounded-full bg-white shadow-md w-24 h-24 flex items-center justify-center mx-auto group-hover:shadow-lg transition duration-75 ease-in-out">
             <Image
               layout="intrinsic"
-              width={32}
-              height={32}
+              width={iconSize ? iconSize : 32}
+              height={iconSize ? iconSize : 32}
               src={service.icon}
               alt={service.title}
             />
           </div>
           <h6
-            className={`${uppercaseTextClasses} md:text-sm mx-auto mt-4 mb-2 sm:mt-6 text-center text-primary`}
+            className={`${uppercaseTextClasses} md:text-sm mx-auto mt-4 mb-2 sm:mt-6 text-center ${isSustainability === true ? 'text-sustainability' : 'text-primary'}`}
           >
             {service.title}
           </h6>
           <p
-            className={`${standardTextClasses} md:text-sm text-white text-gray-400 text-center`}
+            className={`${standardTextClasses} md:text-sm text-gray-400 text-center`}
           >
             {service.text}
           </p>

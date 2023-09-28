@@ -17,12 +17,12 @@ export default function OtherServicesCard({ service, classes }) {
     </div>
     <div className="p-4 rounded-b-lg">
       <h6
-        className={`${uppercaseTextClasses} mb-2 text-gray-800 font-semibold`}
+        className={`${uppercaseTextClasses} mb-2 text-gray-800 font-semibold line-clamp-3 h-12`}
       >
         {service.title}
       </h6>
       <p
-        className={`${smallTextClasses} text-gray-400 h-24`}
+        className={`${smallTextClasses} text-gray-400 min-h-[60px] line-clamp-2 md:line-clamp-3`}
       >
         {service.text}
       </p>

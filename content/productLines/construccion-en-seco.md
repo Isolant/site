@@ -3,7 +3,7 @@ title: Construcción en seco
 description: Los aislantes termo acústicos más prácticos y rápidos para tu obra
   de construcción en seco
 order: 3
-mainImage: /images/product-lines/isolant-aislantes-lineas-de-producto-construccion-en-seco.jpg
+mainImage: /images/product-lines/construccion-en-seco.jpg
 color: '#8F1315'
 products:
   - Iso Siding

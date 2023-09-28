@@ -10,6 +10,7 @@ import { fullBleedContainer } from "../../classes/Layout";
 import { horizontalPadding } from "../../classes/Spacing";
 
 import TitlePackage from "../TitlePackage";
+import Link from "next/link";
 
 export default function Hero({ slider }) {
   
@@ -75,24 +76,30 @@ export default function Hero({ slider }) {
             return(
               <div 
                 key={index}
-                className={`${fullBleedContainer} h-96 bg-gray-800`}
+                className={`${fullBleedContainer} mt-12 md:mt-16 h-60 md:h-96 relative -mb-4 bg-gray-800`}
               >
-                <Image
-                  src={content.image}
-                  alt={content.title}
-                  className="w-full h-full opacity-40"
-                  layout="fill"
-                  objectFit="cover"
-                />
-                <div className={`${horizontalPadding} relative xl:absolute h-full flex justify-center flex-col container z-10 lg:max-w-lg xl:max-w-xl pt-12 md:pt-16 lg:pt-0 lg:ml-8 xl:ml-0`}>
-                  <TitlePackage
-                    titleHierarchy="h1"
-                    title={content.title}
-                    text={content.text}
-                    buttons={button}
-                    theme="dark"
+                <Link
+                  href={content.ctaLink}
+                >
+                  <Image
+                    src={content.image}
+                    alt={content.title}
+                    className={`w-full h-full cursor-pointer object-top ${content.title ? 'opacity-40' : ''}`}
+                    layout="fill"
+                    objectFit="cover"
                   />
-                </div>
+                </Link>
+                {content.title &&
+                  <div className={`${horizontalPadding} relative xl:absolute h-full flex justify-center flex-col container z-10 lg:max-w-lg xl:max-w-xl pt-12 md:pt-16 lg:pt-0 lg:ml-8 xl:ml-0`}>
+                    <TitlePackage
+                      titleHierarchy="h1"
+                      title={content.title}
+                      text={content.text}
+                      buttons={button}
+                      theme="dark"
+                    />
+                  </div>
+                }
               </div>
             )
         })}

@@ -11,14 +11,16 @@ import { ReactComponent as ArrowIcon } from '../../public/images/icons/two-arrow
 export default function Downloads({
   title,
   text,
-  downloads
+  downloads,
+  noBackground,
+  shouldExpand
 }) {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
       <section
-        className={`${verticalPadding} bg-no-repeat bg-cover relative ${isExpanded === false ? 'overflow-y-hidden max-h-screen lg:max-h-full' : ''}`}
-        style={{ backgroundImage: `url(/images/globals/isolant-aislantes-fondo-lineas-oscuras.jpg)`}}
+        className={`${noBackground === true ? 'pt-12 sm:pt-16 md:pt-24' : verticalPadding} bg-no-repeat bg-cover relative ${isExpanded === false ? 'overflow-y-hidden max-h-screen lg:max-h-full' : ''}`}
+        style={{ backgroundImage: `${noBackground === true ? '' : 'url(/images/globals/isolant-aislantes-fondo-lineas-oscuras.jpg)'}`}}
       >
         <div className={`${horizontalPadding} mx-auto container text-center text-white mb-4 sm:mb-8`}>
           <TitlePackage
@@ -44,20 +46,22 @@ export default function Downloads({
             )
           })}
         </ul>
-        <div className="absolute w-full bottom-0 lg:hidden h-48 bg-gradient-to-t from-gray-900 flex items-end">
-          <button
-            onClick={() => setIsExpanded(!isExpanded)}
-            className={`${uppercaseTextClasses} text-white flex items-center p-4 rounded-full border border-gray-100 mx-auto mb-6`}
-          >
-            <ArrowIcon className={`${isExpanded === true ? 'transform rotate-180' : ''} fill-current text-white mr-4`} />
-            {isExpanded === true ?
-              "Menos descargas"
-              :
-              "Más descargas"
-            }
-            <ArrowIcon className={`${isExpanded === true ? 'transform rotate-180' : ''} fill-current text-white ml-4`} />
-          </button>
-        </div>
+        {shouldExpand !== false &&
+          <div className="absolute w-full bottom-0 lg:hidden h-48 bg-gradient-to-t from-gray-900 flex items-end">
+            <button
+              onClick={() => setIsExpanded(!isExpanded)}
+              className={`${uppercaseTextClasses} text-white flex items-center p-4 rounded-full border border-gray-100 mx-auto mb-6`}
+            >
+              <ArrowIcon className={`${isExpanded === true ? 'transform rotate-180' : ''} fill-current text-white mr-4`} />
+              {isExpanded === true ?
+                "Menos descargas"
+                :
+                "Más descargas"
+              }
+              <ArrowIcon className={`${isExpanded === true ? 'transform rotate-180' : ''} fill-current text-white ml-4`} />
+            </button>
+          </div>
+        }
       </section>
   )
 }

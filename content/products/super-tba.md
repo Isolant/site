@@ -4,8 +4,7 @@ description: <strong>Aislante para cualquier tipo de techo con una cara de
   aluminio puro y 15mm de espesor, lo cual le confiere súper resistencia
   térmica.</strong><br /><br />Gracias a su medida única en el mercado de 1,25m
   x 15m, un rollo cubre más superficie, reduciendo los tiempos de obra y uniones
-  en altura.<br /><br />Cuenta con canaletas de ventilación para un techo sano y
-  ventilado. Además presenta su exclusiva unión por termo soldado patentada.
+  en altura.
 globals:
   order: 1
   productImage: /images/products/super-tba/isolant-aislantes-linea-vivienda-super-tba-rollo.png
