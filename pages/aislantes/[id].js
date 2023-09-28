@@ -149,7 +149,9 @@ export default function Product({ productData, instructionsData, localesData, pr
                   title={section.attributesTitle}
                   text={section.attributesText}
                   attributes={section.attributes}
+                  background={isSiding && '/images/bg/siding.jpg'}
                   key={index}
+                  color={color}
                 />
               )
             break;
