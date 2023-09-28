@@ -12,7 +12,7 @@ policies:
   - icon: /images/sustainability/policy-1.png
     title: Política de sustentabilidad
     text: Nos comprometemos con el desarrollo sostenible y la creación de valor económico, social y ambiental para nuestros colaboradores, comunidad, clientes, proveedores y el ambiente, como parte fundamental de nuestra filosofía.
-    link: "/images/downloads/politica-sustentabilidad.pdf"
+    link: "https://isolant.com.ar/images/downloads/politica-sustentabilidad.pdf"
     linkText: Ver política
   - icon: /images/sustainability/policy-2.png
     title: Objetivos de Desarrollo Sostenible

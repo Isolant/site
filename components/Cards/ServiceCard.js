@@ -30,7 +30,7 @@ export default function ServiceCard({ service, classes, isSustainability, iconSi
           {service.title}
         </h6>
         <p
-          className={`${standardTextClasses} text-white md:text-sm text-gray-400 text-center md:max-w-md md:mx-auto`}
+          className={`${standardTextClasses} md:text-sm text-gray-400 text-center md:max-w-md md:mx-auto`}
         >
           {service.text}
         </p>
