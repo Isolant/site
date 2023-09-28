@@ -34,7 +34,7 @@ export default function InstagramSlider({
         />
         <Slider
           {...settings}
-          className={`${styles.Slider} w-10/12 left-7 md:top-4 top-2`}
+          className={`${styles.Slider} w-10/12 left-[27px] top-14`}
         >
           {slider
             .map((slide, index) => {
@@ -47,9 +47,9 @@ export default function InstagramSlider({
                 >
                   <Image
                     src={slide.image}
-                    width={370}
-                    height={420}
-                    objectFit="cover"
+                    width={400}
+                    height={400}
+                    objectFit="contain"
                   />
                 </a>
               )
