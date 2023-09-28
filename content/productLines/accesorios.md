@@ -9,4 +9,5 @@ products:
   - Puertelete
   - Fix Band
   - Puertelete Reforzado
+  - Termo solar
 ---
