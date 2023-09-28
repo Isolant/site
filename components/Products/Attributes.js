@@ -23,7 +23,7 @@ export default function Attributes({
           relative mx-auto container text-center
         `}
       >
-        <h3
+        <h4
           className={`
             ${boldTitleClasses}
             text-gray-800
@@ -40,7 +40,7 @@ export default function Attributes({
           >
             <ReactMarkdown>{text}</ReactMarkdown>
           </div>
-        </h3>
+        </h4>
         <ul
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-4 md:gap-8 lg:gap-12 pt-8 md:pt-12 pb-8 md:pb-12 lg:pb-16"
         >

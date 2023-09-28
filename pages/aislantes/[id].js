@@ -176,7 +176,12 @@ export default function Product({ productData, instructionsData, localesData, pr
           case 'map':
             section.enableMapSection === true &&
               markup.push (
-                <Map key={index}>{section.mapEmbed.code}</Map>
+                <Map
+                  key={index}
+                  color={color}
+                >
+                  {section.mapEmbed.code}
+                </Map>
               )
             break;
           // Instructions
