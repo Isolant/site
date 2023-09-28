@@ -1,7 +1,6 @@
 // Globals
 import React, { useState, useEffect, useRef } from "react";
 import ReCAPTCHA from 'react-google-recaptcha';
-// import slugify from 'react-slugify';
 
 // Components
 import Select from '../Forms/Select';
@@ -13,9 +12,6 @@ export default function Form({ products, ctaText }) {
   // Initialize state and refs
   const [activeType, setActiveType] = useState('consulta-tecnica');
   const [activeProduct, setActiveProduct] = useState('');
-  // const [maxFileSizeMessage, setMaxFileSizeMessage] = useState('');
-  // const [userProvince, setUserProvince] = useState({});
-  // const [userCity, setUserCity] = useState('');
   const [isCaptchaValid, setIsCaptchaValid] = useState(false);
   const typeRef = useRef(null);
   const nameRef = useRef(null);
@@ -50,22 +46,7 @@ export default function Form({ products, ctaText }) {
     }
   }
 
-  // File size check
-  // const checkUploadSize = (e) => {
-  //   // 200kb
-  //   const maxFileSize = 209715;
-  //   const fileSize = e.currentTarget.files[0].size;
-
-  //   if(fileSize > maxFileSize) {
-  //     setMaxFileSizeMessage('El archivo es muy pesado. Por favor, subí un archivo menor a 200kb.')
-  //     e.currentTarget.value = '';
-  //   } else {
-  //     setMaxFileSizeMessage('')
-  //   }
-  // }
-
   useEffect(() => {
-    // const userLocation = JSON.parse(localStorage.getItem('location'));
     const selectedType = window.location.search;
 
     // To get the query param and update the subject
@@ -78,23 +59,11 @@ export default function Form({ products, ctaText }) {
         setActiveProduct(product);
       }
     }
-
-    // Get the location from localStorage to populate the province and locale fields
-    // if(userLocation && userLocation !== 'denied') {
-    //   setUserProvince({
-    //     name: userLocation.province[0].long_name,
-    //     value: slugify(userLocation.province[0].long_name)
-    //   });
-    //   if(userLocation.city.length > 0) {
-    //     setUserCity(userLocation.city[0].long_name);
-    //   }
-    // }
   }, []);
 
   return (
       <form
         className={`grid grid-cols-1 md:grid-cols-2 items-center gap-8`}
-        // encType={activeType === 'quiero-trabajar-en-isolant' ? 'multipart/form-data' : ''}
         method="POST"
         action={isCaptchaValid === true ? "/api/contact" : '/error'}
       >
@@ -120,11 +89,6 @@ export default function Form({ products, ctaText }) {
             name: 'Quiero que me visite un asesor técnico',
             value: 'solicitar-visita-tecnica'
           }
-          // Remove from the contact form per Isolant's request
-          // {
-          //   name: 'Quiero trabajar en Isolant',
-          //   value: 'quiero-trabajar-en-isolant'
-          // }
           ]}
           classes="md:col-span-full"
           required={true}
@@ -278,7 +242,6 @@ export default function Form({ products, ctaText }) {
           id="locale"
           labelText="Localidad:"
           reference={localeRef}
-          // defaultValue={userCity}
           required={true}
           type="text"
           placeholder="Completá tu localidad acá"
@@ -485,20 +448,6 @@ export default function Form({ products, ctaText }) {
             activeType === 'solicitar-catalogo' ? "" : "hidden"
           }
         />
-        {/* <Input
-          id="cv"
-          labelText="CV:"
-          required={
-            activeType === 'quiero-trabajar-en-isolant' ? true : false
-          }
-          type="file"
-          placeholder="Cargá tu CV acá"
-          validationMessage={maxFileSizeMessage}
-          classes={
-            activeType === 'quiero-trabajar-en-isolant' ? "" : "hidden"
-          }
-          onChangeMethod={(e) => checkUploadSize(e)}
-        /> */}
         <Textarea
           id="message"
           labelText="Mensaje:"

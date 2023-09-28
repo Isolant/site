@@ -1,3 +1,11 @@
 .Title strong {
   @apply inline;
 }
+
+.TextContainer ol {
+  @apply my-2 pl-12 list-decimal;
+}
+
+.TextContainer ol li {
+  @apply mb-1;
+}

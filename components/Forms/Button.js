@@ -14,7 +14,7 @@ export default function Button({ href, text, color, isExternal, isFormBtn, margi
   ];
   
   const buttonClases = `
-    inline-flex items-center uppercase font-semibold text-sm justify-center tracking-wider
+    inline-flex items-center uppercase text-sm justify-center tracking-wider
     ${size === 'small' ? 'p-2 rounded-md' : 'px-8 sm:px-12 py-4 rounded-full' }
     bg-${color}
     ${classes}

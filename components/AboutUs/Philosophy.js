@@ -1,22 +1,18 @@
-// Globals
 import React, { useState } from "react";
 
-// Components
 import Button from "../Forms/Button";
 
-// Classes
 import { boldSubtitleClasses, standardTextClasses, thinTitleClasses } from "../../classes/Text";
 import { horizontalPadding, verticalPadding } from "../../classes/Spacing";
 
-// Styles
-import PhilosophyStiles from './Philosophy.module.css';
+import styles from './Philosophy.module.css';
 
-// SVGs
 import {ReactComponent as ChevronRightIcon } from '../../public/images/icons/chevron-right.svg';
 
 export default function Philosophy({
   title,
-  philosophy
+  philosophy,
+  isSustainability
 }) {
   const [activeItem, setActiveItem] = useState(philosophy[0]);
 
@@ -27,7 +23,7 @@ export default function Philosophy({
     >
       <div className={`relative flex flex-col justify-center bg-gray-600 ${horizontalPadding} ${verticalPadding}`}>
         <h4
-          className={`${thinTitleClasses} text-white ${PhilosophyStiles.Title}`}
+          className={`${thinTitleClasses} text-white ${styles.Title}`}
           dangerouslySetInnerHTML={{ __html: title }}
         />
         <ul className="lg:mt-4">
@@ -43,15 +39,15 @@ export default function Philosophy({
                       rounded-md text-left transition ease-in-out duration-75 p-4 w-full text-white
                       ${standardTextClasses}
                       flex items-center
-                      hover:bg-primary hover:shadow-lg group
-                      ${item.title === activeItem.title ? `bg-primary shadow-lg` : 'shadow-md'}
+                      hover:shadow-lg group
+                      ${item.title === activeItem.title ? `${isSustainability ? 'bg-sustainability' : 'bg-primary'} shadow-lg` : 'shadow-md'}
                       `
                     }
                   onClick={() => setActiveItem(item)}
                 >
                   <span
                     className={`
-                      group-hover:opacity-100 flex-1
+                      group-hover:opacity-100 flex-1 pr-4
                       ${item.title === activeItem.title ? `opacity-100` : 'opacity-60'}
                     `}
                   >
@@ -83,7 +79,7 @@ export default function Philosophy({
         </h4>
         <p
           dangerouslySetInnerHTML={{ __html: activeItem.text}}
-          className={`${standardTextClasses} text-gray-600`}
+          className={`${standardTextClasses} ${styles.TextContainer} text-gray-600`}
         />
         {activeItem.ctaLink &&
           <Button
@@ -91,7 +87,7 @@ export default function Philosophy({
             text={activeItem.ctaText}
             isExternal={false}
             margin="mt-8"
-            color="secondary"
+            color={`${isSustainability ? "sustainability" : "secondary"}`}
             isFormBtn={false}
           />
         }

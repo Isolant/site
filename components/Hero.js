@@ -20,6 +20,7 @@ export default function Hero({
   videoBackground,
   imageBackground,
   imageBackgroundMobile,
+  logo,
   title,
   text,
   buttons,
@@ -106,6 +107,12 @@ export default function Hero({
         </div>
       }
       <div className={`${horizontalPadding} relative container xl:absolute z-10 lg:max-w-lg xl:max-w-xl pt-24 sm:pt-32 lg:pt-0`}>
+        {logo ?
+          <div className="w-32 mb-4">
+            {logo}
+          </div>
+          : ''
+        }
         <TitlePackage
           titleHierarchy="h1"
           additionalTitleClasses={HeroStyles.Title}

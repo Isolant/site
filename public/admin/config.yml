@@ -3,8 +3,25 @@ backend:
   branch: main
 media_folder: "public/images"
 public_folder: "images"
-# publish_mode: editorial_workflow
 collections:
+  # Categories Collection
+  - name: "categories"
+    label: "Categorías"
+    folder: "content/categories"
+    create: true
+    editor: 
+      preview: false 
+    fields:
+      - {label: "Título", name: "title", widget: "string", hint: "Título de la categoría"}
+      - {label: "Descripción", name: "description", widget: "text", required: false, hint: "Descripción de la categoría"}
+      - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las categorías en la pantalla"}
+      - label: "Icono"
+        name: "icon"
+        widget: "image"
+        choose_url: false
+        media_library:
+          config:
+            multiple: false
   # Product Lines Collection
   - name: "productLines"
     label: "Líneas de Producto"
@@ -16,6 +33,7 @@ collections:
       - {label: "Título", name: "title", widget: "string"}
       - {label: "Descripción", name: "description", widget: "text", required: false}
       - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las líneas de producto en la pantalla"}
+      - { label: 'Color', name: 'color', widget: 'color', allowInput: true, hint: "Color distintivo de la linea de producto" }
       - label: "Imagen Principal"
         name: "mainImage"
         widget: "image"
@@ -31,23 +49,45 @@ collections:
         value_field: "name"
         display_fields: ["name"]
         multiple: true
-  # Solutions Collection
-  - name: "solutions"
-    label: "Soluciones"
-    folder: "content/solutions"
+  # Categories Collection
+  - name: "categories"
+    label: "Categorías"
+    folder: "content/categories"
     create: true
     editor: 
       preview: false 
     fields:
       - {label: "Título", name: "title", widget: "string"}
-      - label: "Línea de producto asociada"
-        name: "productLine"
+      - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las categorías en la pantalla", required: false}
+      - {label: "Visible?", name: "visible", widget: "boolean", default: true, required: false, hint: "Se usa para mostrar/ocultar la categoría en la home"}
+      - label: "Icono"
+        hint: "Icono de la categoría"
+        name: "icon"
+        widget: "image"
+        choose_url: false
+        required: false
+        media_library:
+          config:
+            multiple: false
+      - label: "Subcategorías asociadas"
+        name: "subcategories"
         widget: "relation"
-        collection: "productLines"
+        collection: "subcategories"
         search_fields: ["title"]
         value_field: "title"
         display_fields: ["title"]
-      - label: "Aislantes asociados"
+        multiple: true
+  # Sub-categories Collection
+  - name: "subCategories"
+    label: "Sub Categorías"
+    folder: "content/subcategories"
+    create: true
+    editor: 
+      preview: false 
+    fields:
+      - {label: "Título", name: "title", widget: "string"}
+      - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las subcategorías en la pantalla", required: false}
+      - label: "Productos asociados"
         name: "products"
         widget: "relation"
         collection: "products"
@@ -55,26 +95,6 @@ collections:
         value_field: "name"
         display_fields: ["name"]
         multiple: true
-      - label: "Aislante destacado"
-        name: "highlightedProduct"
-        widget: "relation"
-        collection: "products"
-        search_fields: ["name"]
-        value_field: "name"
-        display_fields: ["name"]
-        hint: "El aislante que se muestra destacado en el selector de producto"
-        multiple: false
-      - label: "Categoría"
-        name: "category"
-        widget: "select"
-        options: ["Losas y Terrazas", "Techos Inclinados", "Muros", "Estructura Metálica", "Cielorrasos", "Tabiques", "Pisos", "Climatización", "Especiales"]
-      - label: "Imagen Principal"
-        name: "mainImage"
-        widget: "image"
-        choose_url: false
-        media_library:
-          config:
-            multiple: false
   # Instructions Collection
   - name: "instructions"
     label: "Instrucciones de colocación"
@@ -322,7 +342,7 @@ collections:
         value_field: "title"
         display_fields: ["title"]
         multiple: true
-      - {label: "Categoría de la descarga", hint: "Si la descarga no pertenece a ninguna línea de producto, asignale otra categoría desde acá", name: downloadCategory, widget: select, multiple: false, options: ["Manual de Colocación", "Isolant BIM", "Políticas", "Instrucciones de colocación", "Otros"], required: false}
+      - {label: "Categoría de la descarga", hint: "Si la descarga no pertenece a ninguna línea de producto, asignale otra categoría desde acá", name: downloadCategory, widget: select, multiple: false, options: ["Manual de Colocación", "Isolant BIM", "Políticas", "Instrucciones de colocación", "Sustentabilidad", "Otros"], required: false}
   # Agenda Collection
   # - name: "agenda"
   #   label: "Agenda de Giras Técnicas"
@@ -431,15 +451,6 @@ collections:
               - {label: Texto, name: text, widget: string}
               - {label: Link, name: link, widget: string}
               - {label: Es un link externo?, name: isExternal, widget: boolean, required: false}
-              - label: "Mostrar en encabezado:"
-                name: "visibility"
-                widget: "select"
-                default:
-                  - {label: "Mostrar en todos", value: "all"}
-                options:
-                  - {label: "Mostrar en todos", value: "all"}
-                  - {label: "Mostrar sólo para Profesionales", value: "professionals"}
-                  - {label: "Mostrar sólo para Dueños e Inquilinos", value: "owners"}
           - {label: "Título sección Empresa", name: "companyTitle", widget: "string"}
           - label: "Links sección Empresa"
             name: "companyLinks"
@@ -448,15 +459,6 @@ collections:
               - {label: Texto, name: text, widget: string}
               - {label: Link, name: link, widget: string}
               - {label: Es un link externo?, name: isExternal, widget: boolean, required: false}
-              - label: "Mostrar en encabezado:"
-                name: "visibility"
-                widget: "select"
-                default:
-                  - {label: "Mostrar en todos", value: "all"}
-                options:
-                  - {label: "Mostrar en todos", value: "all"}
-                  - {label: "Mostrar sólo para Profesionales", value: "professionals"}
-                  - {label: "Mostrar sólo para Dueños e Inquilinos", value: "owners"}
           - label: "Etiquetas para productos"
             name: "productTags"
             widget: "list"
@@ -472,48 +474,92 @@ collections:
                 value_field: "name"
                 display_fields: ["name"]
                 multiple: false
-      # Landing Page Structure
-      - name: "landingPage"
-        label: "Landing Page"
-        file: "content/landing-page.md"
+      # Homepage Structure
+      - name: "homepage"
+        label: "Homepage"
+        file: "content/homepage.md"
         create: false
         editor: 
           preview: false
         fields:
-          - label: "Imagen sección profesionales"
-            name: "professionalsImage"
-            widget: "image"
-            choose_url: false
-            media_library:
-              config:
-                multiple: false
-          - {label: "Título sección profesionales", name: "professionalsTitle", widget: "string", hint: "Podés usar HTML en este campo"}
-          - label: "Botón para sección profesionales"
-            name: "professionalsButton"
+          - {label: "Título de la página", name: "pageTitle", widget: "string", hint: "Este es el título que aparece en Google y la barra del navegador"}
+          - {label: "Habilitar slider superior?", name: "sliderEnabled", widget: "boolean", default: true, required: false, hint: "Habilitar el slider principal"}
+          - label: "Contenido para slider superior"
+            name: "heroSlider"
             widget: "list"
-            max: 1
+            required: false
+            hint: "Máximo 5"
+            max: 5
             fields:
-              - {label: Icono, name: icon, widget: boolean}
-              - {label: Link, name: link, widget: string}
-              - {label: Texto, name: text, widget: string}
-              - {label: Color, name: color, widget: select, options: ["primary", "secondary", "transparent", "white"]}
-          - label: "Imagen sección dueños e inquilinos"
-            name: "ownersImage"
-            widget: "image"
-            choose_url: false
-            media_library:
-              config:
-                multiple: false
-          - {label: "Título sección dueños e inquilinos", name: "ownersTitle", widget: "string", hint: "Podés usar HTML en este campo"}
-          - label: "Botón para sección dueños e inquilinos"
-            name: "ownersButton"
+              - {label: Imagen, name: image, widget: image, hint: "Imagen de fondo"}
+              - {label: Titulo, name: title, widget: string, hint: "Título para el slide"}
+              - {label: Texto, name: text, widget: string, hint: "Texto para el slide"}
+              - {label: Texto para botón, name: ctaText, widget: string, hint: "Texto para el botón del slide"}
+              - {label: URL para botón, name: ctaLink, widget: string, hint: "URL a la que lleva el botón del slide"}
+          - {label: "Habilitar aislantes destacados?", name: "highlightedProductsEnabled", widget: "boolean", default: true, required: false, hint: "Habilitar los productos destacados"}
+          - label: "Aislantes destacados"
+            name: "highlightedProducts"
+            widget: "relation"
+            collection: "products"
+            search_fields: ["name"]
+            value_field: "name"
+            display_fields: ["name"]
+            multiple: true
+            required: false
+          - {label: "Habilitar categorías?", name: "categoriesEnabled", widget: "boolean", default: true, required: false, hint: "Habilitar las categorías de producto (pisos, muros interiores y exteriores, techos)"}
+          - {label: "Título sección categorias", name: "categoriesTitle", widget: "string", hint: "Título para la sección categorías", required: false}
+          - {label: "Habilitar Líneas de producto?", name: "productLinesEnabled", widget: "boolean", default: true, required: false, hint: "Habilitar las líneas de producto (vivienda, galpones, pisos, etc.)"}
+          - {label: "Título sección líneas de producto", name: "productLinesTitle", widget: "string", hint: "Título para la sección líneas de producto", required: false}
+          - {label: "Texto boton todos los productos", name: "productLinesCtaText", widget: "string", hint: "Texto para el boton de todos los productos", required: false}
+          - {label: "Link boton todos los productos", name: "productLinesCtaLink", widget: "string", hint: "Link para el boton de todos los productos", required: false}
+          - {label: "Habilitar Servicio Técnico?", name: "technicalServiceEnabled", widget: "boolean", default: true, required: false, hint: "Habilitar la sección de Servicio Técnico gratuito"}
+          - {label: "Título sección Servicio Técnico", name: "technicalServiceTitle", widget: "string", hint: "Título para la sección de servicio técnico", required: false}
+          - {label: "Texto sección Servicio Técnico", name: "technicalServiceText", widget: "string", hint: "Texto para la sección de servicio técnico", required: false}
+          - {label: "Texto boton Servicio Técnico", name: "technicalServiceLinkText", widget: "string", hint: "Texto para el boton de Servicio Técnico", required: false}
+          - {label: "Link boton Servicio Técnico", name: "technicalServiceLinkHref", widget: "string", hint: "Link para el boton de Servicio Técnico", required: false}
+          - label: "Servicios"
+            name: "services"
             widget: "list"
-            max: 1
+            max: 8
+            allow_add: true
             fields:
-              - {label: Icono, name: icon, widget: boolean}
-              - {label: Link, name: link, widget: string}
+              - {label: Icono, name: image, widget: image, choose_url: false}
+              - {label: Título, name: title, widget: string}
               - {label: Texto, name: text, widget: string}
-              - {label: Color, name: color, widget: select, options: ["primary", "secondary", "transparent", "white"]}
+              - {label: Texto Botón, name: ctaText, widget: string}
+              - {label: Link Botón, name: ctLink, widget: string}
+          - {label: "Habilitar slider servicios?", name: "otherServicesEnabled", widget: "boolean", default: true, required: false, hint: "Habilitar el slider de otros servicios"}
+          - {label: "Título sección slider servicios", name: "otherServicesTitle", widget: "string", hint: "Título para la sección otros servicios", required: false}
+          - label: "Contenido para slider servicios"
+            name: "otherServicesSlider"
+            widget: "list"
+            required: false
+            fields:
+              - {label: Imagen, name: image, widget: image, hint: "Imagen de fondo"}
+              - {label: Titulo, name: title, widget: string, hint: "Título para el slide"}
+              - {label: Texto, name: text, widget: string, hint: "Texto para el slide"}
+              - {label: Texto para botón, name: ctaText, widget: string, hint: "Texto para el botón del slide"}
+              - {label: URL para botón, name: ctaLink, widget: string, hint: "URL a la que lleva el botón del slide"}
+          - {label: "Habilitar formulario de contacto?", name: "contactFormEnabled", widget: "boolean", default: true, required: false, hint: "Habilitar el formulario de contacto"}
+          - {label: "Título formulario de contacto", name: "contactFormTitle", widget: "string", hint: "Título para el formulario de contacto", required: false}
+          - {label: "Texto formulario de contacto", name: "contactFormText", widget: "string", hint: "Bajada de texto para formulario de contacto", required: false}
+          - label: "Contenido para slider Instagram"
+            name: "instagramSlider"
+            widget: "list"
+            required: false
+            fields:
+              - {label: Imagen, name: image, widget: image, hint: "Imagen de fondo"}
+      # Products Page structure
+      - name: "products"
+        label: "Todos los productos"
+        file: "content/products.md"
+        create: false
+        editor: 
+          preview: false 
+        fields:
+          - {label: "Título de la página", name: "pageTitle", widget: "string", hint: "Este es el título que aparece en Google y la barra del navegador"}
+          - {label: "Título", name: "productsTitle", widget: "string"}
+          - {label: "Imagen de fondo para encabezado", name: "productsImage", widget: "image"}
       # About Page Structure
       - name: "aboutUs"
         label: "Nosotros"
@@ -635,6 +681,118 @@ collections:
           - {label: Link para el botón Ética e Integridad, name: ethicsCtaLink, widget: string, required: false}
           - {label: "Título para Formulario", name: "contactFormTitle", widget: "string", hint: "Podés usar HTML en este campo"}
           - {label: "Texto para Formulario", name: "contactFormText", widget: "text", hint: "Podés usar HTML en este campo"}
+      # Sustainability Page Structure
+      - name: "sustainability"
+        label: "Sostenibilidad"
+        file: "content/sustainability.md"
+        create: false
+        editor: 
+          preview: false
+        fields:
+          - {label: "Título de la página", name: "pageTitle", widget: "string", hint: "Este es el título que aparece en Google y la barra del navegador", required:}
+          - {label: "Habilitar encabezado principal", name: "heroEnabled", widget: "boolean", default: true}
+          - {label: "Video de fondo para encabezado", name: "heroVideoBackground", widget: "string", hint: "Opcional si se usa una imagen de fondo. Formato: https://www.youtube.com/watch?v=2oRlBmwKzy4", required: false}
+          - {label: "Imagen de fondo para encabezado", name: "heroVideoImage", widget: "image", hint: "Opcional si se usa un video de fondo", required: false}
+          - {label: "Título para encabezado", name: "heroTitle", widget: "string", required: false}
+          - {label: "Texto para encabezado", name: "heroText", widget: "text", required: false}
+          - {label: "Texto del link para encabezado", name: "heroCtaLink", widget: "string", required: false}
+          - {label: "Link para encabezado", name: "heroCtaText", widget: "string", required: false}
+          - {label: "Habilitar políticas de sustentabilidad", name: "policiesEnabled", widget: "boolean", default: true}
+          - {label: "Título para políticas de sustentabilidad", name: "policiesTitle", widget: "string", required: false}
+          - label: "Políticas de sustentabilidad"
+            name: "policies"
+            widget: "list"
+            max: 2
+            allow_add: true
+            required: false
+            fields:
+              - {label: Icono, name: icon, widget: image, choose_url: false}
+              - {label: Título, name: title, widget: string}
+              - {label: Texto, name: text, widget: text}
+              - {label: link, name: link, widget: string}
+              - {label: Texto link, name: linkText, widget: string}
+          - {label: "Habilitar sección Acciones de sustentabilidad", name: "timelineEnabled", widget: "boolean", default: true}
+          - {label: "Título para sección Acciones de sustentabilidad", name: "timelineTitle", widget: "string"}
+          - label: "Línea de tiempo para sección Acciones de sustentabilidad"
+            name: "timeline"
+            widget: "list"
+            allow_add: true
+            fields:
+              - label: "Imagen"
+                name: "image"
+                widget: "image"
+                choose_url: false
+                media_library:
+                  config:
+                    multiple: false
+              - {label: Texto, name: text, widget: text}
+          - {label: "Habilitar sección video", name: "sustainabilityEnabled", widget: "boolean", default: true}
+          - {label: "Video de fondo para sección Video", name: "sustainabilityVideo", widget: "string", required: false}
+          - {label: "Habilitar sección Filosofía Isolant", name: "philosophyEnabled", widget: "boolean", default: true}
+          - {label: "Título para sección Filosofía Isolant", name: "philosophyTitle", widget: "string", hint: "Podés usar HTML en este campo", required: false}
+          - label: "Filosofía Isolant"
+            name: "philosophy"
+            widget: "list"
+            required: false
+            fields:
+              - {label: Título, name: title, widget: string}
+              - {label: Texto, name: text, widget: text}
+              - {label: Texto para el botón, name: ctaText, widget: string, required: false}
+              - {label: Link para el botón, name: ctaLink, widget: string, required: false}
+          - {label: "Habilitar ODS", name: "ODSEnabled", widget: "boolean", default: true}
+          - label: "ODS"
+            name: "ods"
+            widget: "list"
+            allow_add: true
+            required: false
+            fields:
+              - {label: Número, name: number, widget: number}
+              - {label: Título, name: title, widget: string}
+          - {label: "Habilitar slider novedades?", name: "newsEnabled", widget: "boolean", default: true, required: false, hint: "Habilitar el slider de noedades"}
+          - {label: "Título sección slider novedades", name: "newsTitle", widget: "string", hint: "Título para la sección novedades", required: false}
+          - label: "Contenido para slider novedades"
+            name: "newsSlider"
+            widget: "list"
+            required: false
+            fields:
+              - {label: Imagen, name: image, widget: image, hint: "Imagen de fondo"}
+              - {label: Titulo, name: title, widget: string, hint: "Título para el slide"}
+              - {label: Texto, name: text, widget: string, hint: "Texto para el slide"}
+              - {label: Texto para botón, name: ctaText, widget: string, hint: "Texto para el botón del slide"}
+              - {label: URL para botón, name: ctaLink, widget: string, hint: "URL a la que lleva el botón del slide"}
+          - {label: "Habilitar sección Descargas", name: "downloadsEnabled", widget: "boolean", default: true}
+          - {label: "Título sección Descargas", name: "downloadsTitle", widget: "string", hint: "Podés usar HTML en este campo", required: false}
+          - label: "Descargas asociadas"
+            name: "downloads"
+            widget: "relation"
+            collection: "downloads"
+            required: false
+            search_fields: ["title"]
+            value_field: "title"
+            display_fields: ["title"]
+            multiple: true
+          - {label: "Habilitar Logos asociaciones y certificaciones", name: "logosEnabled", widget: "boolean", default: true}
+          - {label: "Título sección Logos asociaciones y certificaciones", name: "logosTitle", widget: "string", hint: "Título para la sección", required: false}
+          - label: "Logos asociaciones y certificaciones"
+            name: "logos"
+            widget: "list"
+            allow_add: true
+            required: false
+            fields:
+              - {label: Nombre, name: name, widget: string}
+              - {label: Imagen, name: image, widget: image}
+          - {label: "Habilitar sección Contacto", name: "contactEnabled", widget: "boolean", default: true}
+          - label: "Imagen para sección Contacto"
+            name: "contactImage"
+            widget: "image"
+            choose_url: false
+            media_library:
+              config:
+                multiple: false
+          - {label: "Título para sección Contacto", name: "contactTitle", widget: "string", hint: "Podés usar HTML en este campo", required: false}
+          - {label: "Texto para sección Contacto", name: "contactText", widget: "text", hint: "Podés usar HTML en este campo", required: false}
+          - {label: "Texto para botón sección Contacto", name: "contactCtaText", widget: "string"}
+          - {label: "Link para botón sección Contacto", name: "contactCtaLink", widget: "string"}
       # Services Page Structure
       - name: "services"
         label: "Servicios"
@@ -794,99 +952,6 @@ collections:
           - {label: "Texto para encabezado", name: "heroText", widget: "text", required: false}
           - {label: "Texto del link para encabezado", name: "heroCtaLink", widget: "string"}
           - {label: "Link para encabezado", name: "heroCtaText", widget: "string"}
-  # Professional Pages Collection
-  - name: "professionals"
-    label: "Páginas para el Profesional"
-    files:
-      # Professional Homepage Structure
-      - name: "professionalHomepage"
-        label: "Homepage"
-        file: "content/professionals/homepage.md"
-        create: false
-        editor: 
-          preview: false
-        fields:
-          - {label: "Título de la página", name: "pageTitle", widget: "string", hint: "Este es el título que aparece en Google y la barra del navegador"}
-          - {label: "Video de fondo para encabezado", name: "heroVideoBackground", widget: "string", hint: "Opcional si se usa una imagen de fondo. Formato: https://www.youtube.com/watch?v=2oRlBmwKzy4", required: false}
-          - {label: "Imagen de fondo para encabezado", name: "heroVideoImage", widget: "image", hint: "Opcional si se usa un video de fondo", required: false}
-          - {label: "Imagen de fondo para encabezado mobile", name: "heroImageMobile", widget: "image", hint: "Opcional para cambiar la imagen de fondo en resoluciones mobile", required: false}
-          - {label: "Título para encabezado", name: "heroTitle", widget: "string"}
-          - {label: "Texto para encabezado", name: "heroText", widget: "text", required: false}
-          - {label: "Texto del link para encabezado", name: "heroCtaLink", widget: "string"}
-          - {label: "Link para encabezado", name: "heroCtaText", widget: "string"}
-          - {label: "Título para la sección Líneas de Producto", name: "productLinesTitle", widget: "string"}
-          - {label: "Título para la sección Soluciones", name: "solutionsTitle", widget: "string"}
-          - label: "Aislantes destacados"
-            name: "highlightedProducts"
-            widget: "relation"
-            collection: "products"
-            search_fields: ["name"]
-            value_field: "name"
-            display_fields: ["name"]
-            multiple: true
-          - {label: "Título para la sección Isoplus", name: "isoplusTitle", widget: "string", hint: "Podés usar HTML en este campo."}
-          - {label: "Texto para la sección Isoplus", name: "isoplusText", widget: "text", hint: "Podés usar HTML en este campo."}
-          - {label: "Texto del link para Isoplus", name: "isoplusCtaLink", widget: "string"}
-          - label: "Imagen para la sección Isoplus"
-            name: "isoplusImage"
-            widget: "image"
-            choose_url: false
-            media_library:
-              config:
-                multiple: false
-          - {label: "Título para la sección Servicio Técnico", name: "technicalServiceTitle", widget: "string", hint: "Podés usar HTML en este campo."}
-          - {label: "Texto para la sección Servicio Técnico", name: "technicalServiceText", widget: "text", hint: "Podés usar HTML en este campo."}
-          - label: "Servicios"
-            name: "services"
-            widget: "list"
-            fields:
-              - {label: Icono, name: icon, widget: image, choose_url: false}
-              - {label: Link, name: link, widget: string}
-              - {label: Título, name: title, widget: string}
-              - {label: Texto, name: text, widget: text}
-  # Owners Pages Collection
-  - name: "owners"
-    label: "Páginas para Dueños e Inquilinos"
-    files:
-      # Owners Homepage Structure
-      - name: "ownersHomepage"
-        label: "Homepage"
-        file: "content/owners/homepage.md"
-        create: false
-        editor: 
-          preview: false
-        fields:
-          - {label: "Título de la página", name: "pageTitle", widget: "string", hint: "Este es el título que aparece en Google y la barra del navegador"}
-          - {label: "Video de fondo para encabezado", name: "heroVideoBackground", widget: "string", hint: "Opcional si se usa una imagen de fondo. Formato: https://www.youtube.com/watch?v=2oRlBmwKzy4", required: false}
-          - {label: "Imagen de fondo para encabezado", name: "heroImageBackground", widget: "image", hint: "Opcional si se usa un video de fondo", required: false}
-          - {label: "Título para encabezado", name: "heroTitle", widget: "string"}
-          - {label: "Texto para encabezado", name: "heroText", widget: "text", required: false}
-          - {label: "Texto del link para encabezado", name: "heroCtaLink", widget: "string"}
-          - {label: "Link para encabezado", name: "heroCtaText", widget: "string"}
-          - {label: "Imagen para sección Calculadora Térmica", name: "calculatorImage", widget: "image"}
-          - {label: "Título para sección Calculadora Térmica", name: "calculatorTitle", widget: "string", hint: "Podés usar HTML en este campo."}
-          - {label: "Texto para sección Calculadora Térmica", name: "calculatorText", widget: "text", required: false, hint: "Opcional. Podés usar HTML en este campo."}
-          - label: "Botones para sección Calculadora Térmica"
-            name: "calculatorButtons"
-            widget: "list"
-            hint: "Máximo 2"
-            max: 2
-            fields:
-              - {label: Icono, name: icon, widget: boolean}
-              - {label: Link, name: link, widget: string}
-              - {label: Texto, name: text, widget: string}
-              - {label: Color, name: color, widget: select, options: ["primary", "secondary", "transparent", "white"]}
-          - {label: "Imagen para sección Homepage Profesionales", name: "professionalHomepageImage", widget: "image"}
-          - {label: "Título para sección Homepage Profesionales", name: "professionalHomepageTitle", widget: "string", hint: "Podés usar HTML en este campo."}
-          - {label: "Texto para sección Homepage Profesionales", name: "professionalHomepageText", widget: "text", required: false, hint: "Opcional. Podés usar HTML en este campo."}
-          - {label: "Imagen para sección Emprendedores", name: "entrepreneoursImage", widget: "image"}
-          - {label: "Título para sección Emprendedores", name: "entrepreneoursTitle", widget: "string", hint: "Podés usar HTML en este campo."}
-          - {label: "Texto para sección Emprendedores", name: "entrepreneoursText", widget: "text", required: false, hint: "Opcional. Podés usar HTML en este campo."}
-          - {label: "Imagen para sección Isoplus", name: "isoplusImage", widget: "image"}
-          - {label: "Título para sección Isoplus", name: "isoplusTitle", widget: "string", hint: "Podés usar HTML en este campo."}
-          - {label: "Texto para sección Isoplus", name: "isoplusText", widget: "text", required: false, hint: "Opcional. Podés usar HTML en este campo."}
-          - {label: "Texto del link para sección Isoplus", name: "isoplusCtaLink", widget: "string"}
-          - {label: "Link para sección Isoplus", name: "isoplusCtaText", widget: "string"}
   # Product Selector Pages Collection
   - name: "productSelector"
     label: "Páginas para el Selector de Producto"

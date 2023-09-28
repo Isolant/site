@@ -21,8 +21,6 @@ export default function Faqs({ categories, activeFaqs, activeCategory }) {
     faqContent.classList.toggle("hidden");
     arrowIcon.classList.toggle("rotate-180");
   };
-
-  console.log(activeCategory);
   
   return (
     <article className="lg:col-span-5 pt-8">

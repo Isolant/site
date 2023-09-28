@@ -2,14 +2,9 @@
 name: Super TBA
 order: 1
 slogan: El único aislante para <strong>cualquier tipo de techos</strong>
-description: <strong>Aislante para cualquier tipo de techo con una cara de
-  aluminio puro y 15mm de espesor, lo cual le confiere súper resistencia
-  térmica.</strong><br /><br />Gracias a su medida única en el mercado de 1,25m
-  x 15m, un rollo cubre más superficie, reduciendo los tiempos de obra y uniones
-  en altura.<br /><br />Cuenta con canaletas de ventilación para un techo sano y
-  ventilado. Además presenta su exclusiva unión por termo soldado patentada.
-mainImage: /images/products/super-tba/isolant-aislantes-linea-vivienda-super-tba-imagen-fondo.jpg
-productImage: /images/products/super-tba/isolant-aislantes-linea-vivienda-super-tba-rollo.png
+description: <strong>Aislante para cualquier tipo de techo con una cara de aluminio puro y 15mm de espesor, lo cual le confiere súper resistencia térmica.</strong><br /><br />Gracias a su medida única en el mercado de 1,25m x 15m, un rollo cubre más superficie, reduciendo los tiempos de obra y uniones en altura.
+mainImage: /images/products/super-tba/bg.jpg
+productImage: /images/products/super-tba/product.png
 ecommerceLink: https://tienda.isolant.com.ar/tienda/88-super-tba.html
 enableHero: true
 mainBenefits:

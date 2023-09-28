@@ -1,182 +1,126 @@
-// Globals
-import React, { useEffect } from 'react';
-import { useRouter } from 'next/router';
+import React from 'react';
+import slugify from 'react-slugify';
 
-// Components
 import Base from "../components/Base";
-import Hero from "../components/Hero";
-import FullScreenSlider from '../components/Layout/FullScreenSlider';
-import HalfScreenSection from '../components/Layout/HalfScreenSection';
-import FullScreenSection from '../components/Layout/FullScreenSection';
+import ProductSelectorForm from '../components/ProductSelector/Form';
 
-// Library
+import Hero from "../components/Home/Hero";
+import HighlightedProducts from "../components/Home/HighlightedProducts";
+import Categories from "../components/Home/Categories";
+import ProductLines from "../components/Home/ProductLines";
+import TechnicalService from "../components/Home/TechnicalService";
+import CardSlider from "../components/Home/CardSlider";
+import InstagramSlider from '../components/Home/InstagramSlider';
+
 import { getAllCollections, getCollectionById } from "../lib/collections";
 
-// Content
-import { attributes } from "../content/owners/homepage.md";
+import { attributes } from "../content/homepage.md";
 
-// SVGs
-import {ReactComponent as Dots} from '../public/images/misc/dots.svg';
-import {ReactComponent as Circle} from '../public/images/misc/circle.svg';
+import { fullBleedContainer } from '../classes/Layout';
 
-export default function OwnersHomepage({ productLinesData, productSelectorTypesData, localesData, provincesData }) {
-  const router = useRouter();
-
+export default function Homepage({ highlightedProductsData, categoriesData, productLinesData, productSelectorTypesData }) {
   let {
     pageTitle,
-    heroVideoBackground,
-    heroImageBackground,
-    heroImageMobile,
-    heroTitle,
-    heroText,
-    heroCtaLink,
-    heroCtaText,
-    calculatorImage,
-    calculatorTitle,
-    calculatorText,
-    calculatorButtons,
-    professionalHomepageImage,
-    professionalHomepageTitle,
-    professionalHomepageText,
-    entrepreneoursImage,
-    entrepreneoursTitle,
-    entrepreneoursText,
-    isoplusImage,
-    isoplusTitle,
-    isoplusText,
-    isoplusCtaLink,
-    isoplusCtaText
+    sliderEnabled,
+    heroSlider,
+    highlightedProductsEnabled,
+    categoriesEnabled,
+    categoriesTitle,
+    productLinesEnabled,
+    productLinesTitle,
+    productLinesCtaText,
+    productLinesCtaLink,
+    technicalServiceEnabled,
+    technicalServiceTitle,
+    technicalServiceText,
+    technicalServiceLinkText,
+    technicalServiceLinkHref,
+    services,
+    otherServicesEnabled,
+    otherServicesTitle,
+    otherServicesSlider,
+    contactFormEnabled,
+    contactFormTitle,
+    contactFormText,
+    instagramSlider
   } = attributes;
-
-  const heroButton = [{
-    link: heroCtaLink,
-    text: heroCtaText,
-    icon: true,
-    color: 'transparent',
-    isExternal: false,
-  }];
-  
-  const isoplusButton = [{
-    link: isoplusCtaLink,
-    text: isoplusCtaText,
-    icon: true,
-    color: 'transparent',
-    isExternal: true,
-  }];
-  
-  const professionalHomepageButton = [{
-    text: 'Soy un profesional',
-    icon: true,
-    color: 'primary',
-    isFormBtn: true,
-    action: () => {
-      localStorage.setItem('userType', 'professionals');
-      router.push('/profesionales');
-    },
-  }];
-  
-  const entrepreneoursButton = [{
-    text: 'Soy un emprendedor',
-    icon: true,
-    color: 'secondary',
-    isExternal: false,
-    link: '/nosotros#emprendedores'
-  }];
-
-  useEffect(() => {
-    // To get the users' type, and redirect accordingly
-    const userType = localStorage.getItem('userType');
-    if(userType === 'professionals') {
-      router.push('/profesionales');
-    }
-  }, []);
 
   return (
     <Base
-      activePage="owners"
       pageTitle={pageTitle}
       footerTheme="dark"
-      provinces={provincesData.provinces}
-      locales={localesData.locales}
       footerDecorations={false}
       productLines={productLinesData}
     >
-      <Hero
-        videoBackground={heroVideoBackground}
-        imageBackground={heroImageBackground}
-        imageBackgroundMobile={heroImageMobile}
-        title={heroTitle}
-        text={heroText}
-        buttons={heroButton}
-        showForm={true}
-        productSelectorTypes={productSelectorTypesData}
-        fullHeight={true}
-        activePage="owners"
-      />
-      <FullScreenSlider
-        content={productLinesData}
-      />
-      <HalfScreenSection
-        image={calculatorImage}
-        imagePosition={"left"}
-        title={calculatorTitle}
-        text={calculatorText}
-        buttons={calculatorButtons}
-        theme="light"
-        height="full"
-      >
-        <Dots
-          className="text-gray-500 fill-current transform -rotate-180 absolute top-4 left-4 hidden lg:block"
+      {sliderEnabled &&
+        <Hero
+          slider={heroSlider}
         />
-        <Dots
-          className="text-gray-500 fill-current absolute bottom-4 right-4 hidden lg:block"
+      }
+      {highlightedProductsEnabled &&
+        <HighlightedProducts
+          products={highlightedProductsData}
         />
-      </HalfScreenSection>
-      <HalfScreenSection
-        image={isoplusImage}
-        title={isoplusTitle}
-        text={isoplusText}
-        buttons={isoplusButton}
-        imagePosition={"right"}
-        theme="light"
-        height="full"
-      >
-        <Dots
-          className="text-gray-500 fill-current transform -rotate-180 absolute top-4 left-4 hidden lg:block"
+      }
+      {categoriesEnabled &&
+        <Categories
+          title={categoriesTitle}
+          categories={categoriesData}
         />
-        <Dots
-          className="text-gray-500 fill-current absolute bottom-4 right-4 hidden lg:block"
+      }
+      {productLinesEnabled &&
+        <ProductLines
+          title={productLinesTitle}
+          productLines={productLinesData}
+          ctaText={productLinesCtaText}
+          ctaLink={productLinesCtaLink}
         />
-      </HalfScreenSection>
-      <HalfScreenSection
-        image={entrepreneoursImage}
-        imagePosition={"left"}
-        title={entrepreneoursTitle}
-        text={entrepreneoursText}
-        buttons={entrepreneoursButton}
-        theme="light"
-        height="full"
-      >
-        <Dots
-          className="text-gray-500 fill-current transform -rotate-180 absolute top-4 left-4 hidden lg:block"
+      }
+      {technicalServiceEnabled &&
+        <TechnicalService
+          title={technicalServiceTitle}
+          text={technicalServiceText}
+          linkText={technicalServiceLinkText}
+          linkHref={technicalServiceLinkHref}
+          services={services}
         />
-        <Dots
-          className="text-gray-500 fill-current absolute bottom-4 right-4 hidden lg:block"
+      }
+      {otherServicesEnabled &&
+        <CardSlider
+          title={otherServicesTitle}
+          services={otherServicesSlider}
         />
-      </HalfScreenSection>
-      <FullScreenSection
-        image={professionalHomepageImage}
-        imagePosition={"right"}
-        title={professionalHomepageTitle}
-        text={professionalHomepageText}
-        buttons={professionalHomepageButton}
-        theme="dark"
-        height="full"
-        layout="boxed"
-      >
-        <Dots className="hidden lg:block absolute left-4 xl:left-16 bottom-4 xl:-bottom-8 text-gray-100 fill-current z-10 transform rotate-90" />
-        <Circle className="hidden lg:block absolute right-4 xl:right-16 -bottom-8 text-red-200 fill-current z-10" />
-      </FullScreenSection>
+      }
+      {contactFormEnabled &&
+        <section
+          className={`
+            ${fullBleedContainer}
+            relative grid lg:grid-cols-2
+            bg-white
+          `}
+          id="contacto"
+        >
+          <div
+            className="w-full h-96 md:h-screen relative overflow-x-hidden"
+          >
+            <InstagramSlider
+              slider={instagramSlider}
+            />
+          </div>
+          <div
+            className="relative flex flex-col justify-center items-start"
+          >
+            <ProductSelectorForm
+              theme="light"
+              formTitle={contactFormTitle}
+              formDescription={contactFormText}
+              formCtaText="Comenzar"
+              ctaIcon={true}
+              productSelectorTypes={productSelectorTypesData}
+            />
+          </div>
+        </section>
+      }
     </Base>
   )
 }
@@ -184,15 +128,15 @@ export default function OwnersHomepage({ productLinesData, productSelectorTypesD
 export async function getStaticProps() {
   const productSelectorTypesData = getAllCollections("productSelector/types");
   const productLinesData = getAllCollections("productLines");
-  const provincesData = getCollectionById("geolocalization", 'provinces');
-  const localesData = getCollectionById("geolocalization", 'locales');
+  const categoriesData = getAllCollections("categories");
+  const highlightedProductsData = attributes.highlightedProducts.map(product => getCollectionById("products", slugify(product)));
 
   return {
     props: {
       productLinesData,
+      highlightedProductsData,
+      categoriesData,
       productSelectorTypesData,
-      provincesData,
-      localesData
     },
   };
 }
