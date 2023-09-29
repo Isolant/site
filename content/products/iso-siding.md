@@ -91,10 +91,7 @@ page:
     downloadsText: Recursos y herramientas para la correcta colocación de nuestros
         productos.
     downloads:
-      - Catálogo de Industria
-      - ¿Qué tipo de techo querés aislar?
-      - Tríptico Industria/Vivienda
-      - Volante Alu Fusión NET
+      - Folleto Siding
   - type: tutorials
     enableTutorialsSection: true
     order: 7

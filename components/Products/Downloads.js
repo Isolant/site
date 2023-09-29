@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 
-import DownloadCard from '../Cards/DownloadCard';
 import TitlePackage from "../TitlePackage";
+import DownloadCard from '../Cards/DownloadCard';
+import SecondaryDownloadCard from '../Cards/SecondaryDownloadCard';
 
 import { uppercaseTextClasses } from '../../classes/Text';
 import { horizontalPadding, verticalPadding } from '../../classes/Spacing';
@@ -12,15 +13,17 @@ export default function Downloads({
   title,
   text,
   downloads,
+  background,
   noBackground,
-  shouldExpand
+  shouldExpand,
+  cardType
 }) {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
       <section
         className={`${noBackground === true ? 'pt-12 sm:pt-16 md:pt-24' : verticalPadding} bg-no-repeat bg-cover relative ${isExpanded === false ? 'overflow-y-hidden max-h-screen lg:max-h-full' : ''}`}
-        style={{ backgroundImage: `${noBackground === true ? '' : 'url(/images/globals/isolant-aislantes-fondo-lineas-oscuras.jpg)'}`}}
+        style={{ backgroundImage: `${noBackground === true ? '' : background ? `url(${background})` : 'url(/images/globals/isolant-aislantes-fondo-lineas-oscuras.jpg)'}`}}
       >
         <div className={`${horizontalPadding} mx-auto container text-center text-white mb-4 sm:mb-8`}>
           <TitlePackage
@@ -39,9 +42,15 @@ export default function Downloads({
               <li
                 key={index}
               >
-                <DownloadCard
-                  download={download}
-                />
+                {cardType === 'secondary' ?
+                  <SecondaryDownloadCard
+                    download={download}
+                  />
+                :
+                  <DownloadCard
+                    download={download}
+                  />
+                }
               </li>
             )
           })}

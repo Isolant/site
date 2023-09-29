@@ -217,6 +217,8 @@ export default function Product({ productData, instructionsData, localesData, pr
                   title={section.downloadsTitle}
                   text={section.downloadsText}
                   downloads={downloadsData}
+                  background="/images/bg/bg-green.jpg"
+                  cardType="secondary"
                   key={index}
                 />
               )
