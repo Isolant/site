@@ -328,8 +328,8 @@ export async function getStaticProps({ params }) {
   const downloadsSection = productData.page.find(product => product.type === 'downloads');
   const instructionsSection = productData.page.find(product => product.type === 'instructions');
   const subProductsSection = productData.page.find(product => product.type === 'subproducts');
-  const instructionsData = instructionsSection ? instructionsSection.instructions.map(product => getCollectionById("instructions", slugify(product))) : null;
-  const subProductsData = subProductsSection ? subProductsSection.subproducts.map(subproduct => getCollectionById("products/subproducts", slugify(subproduct))) : null;
+  const instructionsData = instructionsSection && instructionsSection.instructions !== undefined && instructionsSection.instructions.map(product => getCollectionById("instructions", slugify(product)));
+  const subProductsData = subProductsSection && subProductsSection.subproducts !== undefined ? subProductsSection.subproducts.map(subproduct => getCollectionById("products/subproducts", slugify(subproduct))) : null;
   const downloadsData = downloadsSection && downloadsSection.downloads !== undefined && downloadsSection.downloads.map(download => getCollectionById("downloads", slugify(download)));
   const provincesData = getCollectionById("geolocalization", 'provinces');
   const localesData = getCollectionById("geolocalization", 'locales');
