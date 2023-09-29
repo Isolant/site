@@ -7,11 +7,21 @@
   @apply text-gray-500;
 }
 
+.noBackground .Slider button[data-role="none"], .noBackground .Slider > button[data-role="none"]:first-child {
+  background: none;
+}
+
 /* Left arrow */
 .Slider > button[data-role="none"]:first-child {
   @apply left-0 right-auto bg-gradient-to-r;
 }
 
 .Slider :global(.slick-slide):not(:last-child) {
-  @apply pr-4 mb-8;
+  @apply mb-8;
+}
+
+@media screen and (min-width: 500px) {
+  .Slider :global(.slick-slide):not(:last-child) {
+    @apply pr-4;
+  }
 }

@@ -124,7 +124,7 @@ page:
     enableContactSection: true
     order: 8
     contactFormImage: /images/products/iso-siding/partners.svg
-    contactFormTitle: Sobre Isolant y DVP
+    contactFormTitle: <strong>Sobre Isolant y DVP</strong>
     contactFormText: A la amplia gama de espumas termoplásticas fabricadas por
         Isolant, se le agrega la oferta de revestimientos exteriores de PVC, de
         la mano de una asociación con la empresa chilena DVP. Si querés conocer

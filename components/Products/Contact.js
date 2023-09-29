@@ -1,24 +1,39 @@
 import React from "react";
 
+import TitlePackage from "../TitlePackage";
 import ContactForm from './ContactForm';
+
+import { horizontalPadding, verticalPadding } from "../../classes/Spacing";
 
 export default function Contact({ 
   image,
   title,
   text,
-  products
 }) {
   return (
-    <section>
-      <img
-        src={image}
-        alt={title}
-      />
-      <h5>{title}</h5>
-      <p>{text}</p>
-      <ContactForm
-        products={products}
-      />
+    <section
+      className={`
+        ${verticalPadding} ${horizontalPadding}
+      `}
+    >
+      <div className="mx-auto container px-4 relative">
+        <img
+          src={image}
+          alt={title}
+          className="mx-auto"
+        />
+        <TitlePackage
+          titleHierarchy="h6"
+          title={title}
+          text={text}
+          additionalTitleClasses="flex justify-center"
+          additionalTextClasses="max-w-lg text-center mx-auto"
+          theme="light"
+        />
+        <div className="pt-8 md:pt-16">
+          <ContactForm />
+        </div>
+      </div>
     </section>
   )
 }

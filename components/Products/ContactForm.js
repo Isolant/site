@@ -25,7 +25,7 @@ export default function ContactForm() {
   return (
     <React.Fragment>
       <form
-        className={`${horizontalPadding} pb-12 sm:pb-16 md:pb-24 grid grid-cols-1 gap-8`}
+        className={`${horizontalPadding} grid grid-cols-1 md:grid-cols-2 gap-8`}
         action={isCaptchaValid === true ? "/api/products" : '/error'}
         method="POST"
       >
@@ -50,17 +50,22 @@ export default function ContactForm() {
           labelText="Tu mensaje:"
           placeholder="Completá tu mensaje acá"
           required={true}
+          classes="md:col-span-2"
         />
-        <ReCAPTCHA
-          sitekey="6Lc5d-kUAAAAADvGQo7UZFKtnmKPImwDSnRndmOS"
-          onChange={validateRecaptcha}
-        />
-        <Button
-          text="Enviar consulta"
-          color={'secondary'}
-          isFormBtn={true}
-          icon={true}
-        />
+        <div className="md:col-span-2 justify-self-center">
+          <ReCAPTCHA
+            sitekey="6Lc5d-kUAAAAADvGQo7UZFKtnmKPImwDSnRndmOS"
+            onChange={validateRecaptcha}
+          />
+        </div>
+        <div className="md:col-span-2 justify-center text-center">
+          <Button
+            text="Enviar consulta"
+            color={'secondary'}
+            isFormBtn={true}
+            icon={true}
+          />
+        </div>
       </form>
     </React.Fragment>
   )

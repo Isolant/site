@@ -23,7 +23,7 @@ import { getCollectionIds, getCollectionById, getAllCollections } from '../../li
 import { ReactComponent as Dots } from '../../public/images/misc/dots.svg';
 import { ReactComponent as Circle } from '../../public/images/misc/circle.svg';
 
-export default function Product({ productData, instructionsData, localesData, provincesData, downloadsData, productLinesData, productsData }) {
+export default function Product({ productData, instructionsData, localesData, provincesData, downloadsData, productLinesData }) {
   const { name, description } = productData;
   const { productImage, logo, ecommerceLink, color } = productData.globals;
   const router = useRouter();
@@ -220,6 +220,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                   background="/images/bg/bg-green.jpg"
                   cardType="secondary"
                   key={index}
+                  shouldExpand={false}
                 />
               )
             break;
@@ -232,6 +233,8 @@ export default function Product({ productData, instructionsData, localesData, pr
                   text={section.tutorialsText}
                   tutorials={section.tutorials}
                   key={index}
+                  background="/images/bg/bg-green.jpg"
+                  color={color}
                 />
               )
             break;
@@ -291,7 +294,6 @@ export default function Product({ productData, instructionsData, localesData, pr
                   image={section.contactFormImage}
                   title={section.contactFormTitle}
                   text={section.contactFormText}
-                  products={productsData}
                   key={index}
                 />
               )
@@ -324,7 +326,6 @@ export async function getStaticProps({ params }) {
   const provincesData = getCollectionById("geolocalization", 'provinces');
   const localesData = getCollectionById("geolocalization", 'locales');
   const productLinesData = getAllCollections("productLines");
-  const productsData = getAllCollections("products");
 
   return {
     props: {
@@ -334,7 +335,6 @@ export async function getStaticProps({ params }) {
       localesData,
       downloadsData,
       productLinesData,
-      productsData,
     }
   }
 }

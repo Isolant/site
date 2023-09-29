@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 import { smallTextClasses, uppercaseTextClasses } from "../../classes/Text";
 
-export default function OtherServicesCard({ service, classes }) {
+export default function OtherServicesCard({ service, classes, color, decorator }) {
   const children = <div className="relative rounded-lg shadow-md hover:shadow-lg transition duration-75 ease-in-out bg-white">
     <div className="relative w-full h-40">
       <Image
@@ -26,7 +26,14 @@ export default function OtherServicesCard({ service, classes }) {
       >
         {service.text}
       </p>
-      <span className={`${uppercaseTextClasses} text-primary font-semibold block mt-2`}>{service.ctaText}</span>
+      <span
+        className={`${uppercaseTextClasses} text-primary font-semibold block mt-2 flex gap-1 items-center`}
+        style={{ color: color ? color : ''}}
+      >
+          {service.ctaText}
+
+          {decorator && decorator}
+      </span>
     </div>
   </div>;
 
@@ -36,6 +43,7 @@ export default function OtherServicesCard({ service, classes }) {
         href={service.ctaLink ? service.ctaLink : ''}
         target="_blank"
         rel="noopener noreferrer"
+        className={`${classes !== undefined ? classes : ''} relative block hover:opacity-90 group`}
       >
         {children}
       </a>

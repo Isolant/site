@@ -14,7 +14,11 @@ import { horizontalPadding } from "../../classes/Spacing";
 export default function OtherServices({
   title,
   services,
-  boxed
+  boxed,
+  noBackground,
+  smallPadding,
+  color,
+  decorator
 }) {
 
   const settings = {
@@ -44,8 +48,19 @@ export default function OtherServices({
   };
 
   return (
-    <div className="-mt-12 lg:mt-0 pb-4 sm:pb-16 lg:pb-24 bg-gray-100">
-      <div className={`${boxed === true ? horizontalPadding : ''} pt-16 md:pt-24 px-4 md:px-6 lg:px-8 xl:px-0 mx-auto container`}>
+    <div
+      className={`
+        -mt-12 lg:mt-0 pb-4 sm:pb-16 lg:pb-24
+        ${noBackground === true ? styles.noBackground : 'bg-gray-100'}
+      `}
+    >
+      <div
+        className={`
+          ${boxed === true ? horizontalPadding : ''} 
+          ${smallPadding === true ? 'pt-8 md:pt-12' : 'pt-16 md:pt-24'}
+          px-4 md:px-6 lg:px-8 xl:px-0 mx-auto container
+        `}
+      >
         {title &&
           <h3
             className={`${boldSubtitleClasses} text-gray-800 pb-2 sm:pb-6`}
@@ -62,6 +77,8 @@ export default function OtherServices({
                 <OtherServicesCard
                   key={index}
                   service={service}
+                  color={color}
+                  decorator={decorator}
                 />
               )
           })}

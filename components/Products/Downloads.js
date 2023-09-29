@@ -31,6 +31,7 @@ export default function Downloads({
             title={title}
             text={text}
             additionalTitleClasses="flex justify-center"
+            additionalTextClasses="max-w-sm mx-auto"
             theme="dark"
           />
         </div>
