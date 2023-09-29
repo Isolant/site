@@ -8,6 +8,7 @@ import CustomHero from "../../components/Products/CustomHero";
 import DetailCards from "../../components/Products/DetailCards";
 import Details from "../../components/Products/Details";
 import Attributes from "../../components/Products/Attributes";
+import SubProducts from "../../components/Products/SubProducts";
 import Map from "../../components/Products/Map";
 import Benefits from "../../components/Products/Benefits";
 import Video from "../../components/Products/Video";
@@ -23,7 +24,7 @@ import { getCollectionIds, getCollectionById, getAllCollections } from '../../li
 import { ReactComponent as Dots } from '../../public/images/misc/dots.svg';
 import { ReactComponent as Circle } from '../../public/images/misc/circle.svg';
 
-export default function Product({ productData, instructionsData, localesData, provincesData, downloadsData, productLinesData }) {
+export default function Product({ productData, instructionsData, localesData, provincesData, downloadsData, productLinesData, subProductsData }) {
   const { name, description } = productData;
   const { productImage, logo, ecommerceLink, color } = productData.globals;
   const router = useRouter();
@@ -169,7 +170,12 @@ export default function Product({ productData, instructionsData, localesData, pr
           case 'subproducts':
             section.enableSubproductsSection === true &&
               markup.push (
-                <p key={index}>TBD: Subproducts</p>
+                <SubProducts
+                  products={subProductsData}
+                  isSiding={isSiding}
+                  color={color}
+                  key={index}
+                />
               )
             break;
           // Map
@@ -321,7 +327,9 @@ export async function getStaticProps({ params }) {
   const productData = getCollectionById("products", params.id);
   const downloadsSection = productData.page.find(product => product.type === 'downloads');
   const instructionsSection = productData.page.find(product => product.type === 'instructions');
+  const subProductsSection = productData.page.find(product => product.type === 'subproducts');
   const instructionsData = instructionsSection ? instructionsSection.instructions.map(product => getCollectionById("instructions", slugify(product))) : null;
+  const subProductsData = subProductsSection ? subProductsSection.subproducts.map(subproduct => getCollectionById("products/subproducts", slugify(subproduct))) : null;
   const downloadsData = downloadsSection && downloadsSection.downloads.map(download => getCollectionById("downloads", slugify(download)));
   const provincesData = getCollectionById("geolocalization", 'provinces');
   const localesData = getCollectionById("geolocalization", 'locales');
@@ -330,6 +338,7 @@ export async function getStaticProps({ params }) {
   return {
     props: {
       productData,
+      subProductsData,
       instructionsData,
       provincesData,
       localesData,

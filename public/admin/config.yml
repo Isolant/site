@@ -601,7 +601,7 @@ collections:
           - {label: "Link para encabezado", name: "heroCtaText", widget: "string"}
   # Products Collection
   - name: "products"
-    label: "Aislantes"
+    label: "Productos"
     folder: "content/products"
     create: true
     identifier_field: name
@@ -618,7 +618,7 @@ collections:
         collapsed: true
         summary: 'Expandí para ver los campos'
         fields:
-          - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las líneas de producto en la pantalla.", required: false}
+          - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de los productos en la pantalla.", required: false}
           - {label: "Destacado?", name: "highlighted", widget: "boolean", hint: "Se usa para ajustar los estilos en la pantalla de productos.", default: false, required: false}
           - label: "Proporción de imagen del rollo"
             hint: "Se usa para ajustar los estilos, y asegurarse que las imágenes se ven correctamente."
@@ -831,7 +831,15 @@ collections:
             fields:
               - {label: "Habilitar sección Subproductos", name: "enableSubproductsSection", widget: "boolean", hint: "Si no querés mostrar esta sección, deshabilitala desde acá", default: false, required: false}
               - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
-              # TBD: Add subproducts relation when we have them
+              - label: "Subproductos asociados"
+                name: "subproducts"
+                widget: "relation"
+                collection: "subproducts"
+                required: false
+                search_fields: ["name"]
+                value_field: "name"
+                display_fields: ["name"]
+                multiple: true
           # Map. Used in Siding/Atacama
           - label: "Mapa de distribuidores"
             name: "map"
@@ -963,6 +971,47 @@ collections:
               - {label: "Imagen superior formulario de contacto", name: "contactFormImage", widget: "image", hint: "Se usa arriba del título", required: false}
               - {label: "Título formulario de contacto", name: "contactFormTitle", widget: "string", hint: "Título para el formulario de contacto", required: false}
               - {label: "Texto formulario de contacto", name: "contactFormText", widget: "markdown", hint: "Bajada de texto para formulario de contacto", required: false}
+  # Subproducts Collection
+  - name: "subproducts"
+    label: "Subproductos"
+    folder: "content/products/subproducts"
+    create: true
+    identifier_field: name
+    editor:
+      prefie: false
+    fields:
+      # Minimum fields
+      - {label: "Nombre", name: "name", widget: "string"}
+      - {label: "Descripción", name: "description", widget: "markdown", hint: "Se usa en la pantalla de producto general.", required: false}
+      # Global fields
+      - label: "Campos generales"
+        name: "globals"
+        widget: "object"
+        collapsed: true
+        summary: 'Expandí para ver los campos'
+        fields:
+          - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de los productos en la pantalla.", required: false}
+          - label: "Imagen de producto"
+            hint: "La imagen del producto que se usa en la web."
+            name: "productImage"
+            widget: "image"
+            choose_url: false
+            required: false
+            media_folder: /images/products/subproducts
+            media_library:
+              config:
+                multiple: false
+          - label: "Logo de producto"
+            name: "logo"
+            widget: "image"
+            required: false
+            hint: "Opcional."
+            choose_url: false
+            media_library:
+              config:
+                multiple: false
+          - { label: 'Color de producto', name: 'color', widget: 'color', required: false, allowInput: true }
+          - {label: "Link al e-commerce", name: "ecommerceLink", widget: "string", hint: "Si este producto está disponible en el e-commerce, agregá la URL acá.", required: false}
   # Instructions Collection
   - name: "instructions"
     label: "Instrucciones de colocación"
