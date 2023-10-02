@@ -121,7 +121,7 @@ page:
   - type: downloads
     enableDownloadsSection: true
     order: 7
-    downloadsTitle: Área de <strong class="ml-2">descargas</strong>
+    downloadsTitle: Área de **descargas**
     downloads:
       - Volante Super TBA
       - Colocación Super TBA

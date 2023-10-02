@@ -111,7 +111,7 @@ page:
         text: 52-63% (Espectro fotómetro)
   - type: downloads
     order: 6
-    downloadsTitle: Área de <strong class="ml-2">descargas</strong>
+    downloadsTitle: Área de **descargas**
     downloads:
       - Catálogo Climatización
       - Volante Climatización

@@ -107,7 +107,7 @@ page:
   - type: downloads
     enableDownloadsSection: true
     order: 6
-    downloadsTitle: Área de <strong class="ml-2">descargas</strong>
+    downloadsTitle: Área de **descargas**
     downloads:
       - Catálogo de Industria
       - ¿Qué tipo de techo querés aislar?

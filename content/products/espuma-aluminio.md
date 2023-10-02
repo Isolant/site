@@ -111,7 +111,7 @@ page:
       - title: Permeabilidad a los rayos de luz
         text: 52-63% (Espectro fotómetro)
   - type: downloads
-    downloadsTitle: Área de <strong class="ml-2">descargas</strong>
+    downloadsTitle: Área de **descargas**
     order: 7
     downloads:
       - Catálogo Climatización
