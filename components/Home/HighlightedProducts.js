@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import Link from 'next/link';
 import Image from 'next/image';
+import ReactMarkdown from 'react-markdown';
 
 import Button from '../Forms/Button';
 import Product from '../Product';
@@ -50,10 +51,11 @@ export default function HighlightedProducts({
                       Producto Destacado
                     </p>
                     <h5 className={`${boldTitleClasses} text-white pt-1 sm:pt-3 pb-4 sm:pb-3`}>{product.name}</h5>
-                    <p
-                      className={`${standardTextClasses} text-gray-300`}
-                      dangerouslySetInnerHTML={{ __html: product.description }}
-                    />
+                    <div
+                      className={`${standardTextClasses} text-gray-300 grid gap-2`}
+                    >
+                      <ReactMarkdown>{product.description}</ReactMarkdown>
+                    </div>
                     <div className="flex flex-col sm:flex-row items-center mt-8">
                       <Button
                         href={product.globals.ecommerceLink ? product.globals.ecommerceLink : `/contacto?comprar-isolant=${product.id}`}

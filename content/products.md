@@ -1,5 +1,5 @@
 ---
 pageTitle: Todos los productos
-productsTitle: Todos los <strong>productos</strong>
+productsTitle: Todos los **productos**
 productsImage: /images/products/bg-general.jpg
 ---

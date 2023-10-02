@@ -279,7 +279,7 @@ collections:
             widget: "list"
             fields:
               - {label: Título, name: title, widget: string}
-              - {label: Texto, name: text, widget: text}
+              - {label: Texto, name: text, widget: markdown}
               - {label: Texto para el botón, name: ctaText, widget: string, required: false}
               - {label: Link para el botón, name: ctaLink, widget: string, required: false}
           - label: "Imagen para sección Emprendedores"
@@ -383,15 +383,16 @@ collections:
             required: false
             fields:
               - {label: Título, name: title, widget: string}
-              - {label: Texto, name: text, widget: text}
+              - {label: Texto, name: text, widget: markdown}
               - {label: Texto para el botón, name: ctaText, widget: string, required: false}
               - {label: Link para el botón, name: ctaLink, widget: string, required: false}
-          - {label: "Habilitar ODS", name: "ODSEnabled", widget: "boolean", default: true}
+          - {label: "Habilitar ODS", name: "ODSEnabled", widget: "boolean", default: true, required: true}
           - label: "ODS"
             name: "ods"
             widget: "list"
             allow_add: true
             required: false
+            summary: "{{fields.title}}"
             fields:
               - {label: Número, name: number, widget: number}
               - {label: Título, name: title, widget: string}

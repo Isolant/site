@@ -2,7 +2,7 @@
 pageTitle: Nosotros
 heroVideoBackground: https://www.youtube.com/watch?v=FiHBo2r8r6k
 heroImageMobile: /images/about-us/isolant-aislantes-empresa-fondo-mobile.jpg
-heroTitle: Invertir en aislación hoy <br/><strong>es ahorrar para siempre</strong>
+heroTitle: Invertir en aislación hoy **es ahorrar para siempre**
 heroText: ISOLANT S.A. es una moderna empresa que fabrica láminas y tubos de
   espuma termoplástica
 heroCtaLink: /nosotros#philosophy
@@ -32,7 +32,7 @@ timeline:
     year: 1994
     title: Fábrica Propia
     text: Desde el inicio la empresa contó con un departamento de Marketing
-      posicionándose bajo el lema de <strong>innovación y calidad.</strong>
+      posicionándose bajo el lema de **innovación y calidad.**
   - image: /images/about-us/isolant-aislantes-nuestra-empresa-nuestra-historia-2000.jpg
     year: 2000
     title: Trazabilidad integral computarizada
@@ -78,12 +78,16 @@ timeline:
     title: Nueva extrusora
     text: Incorporamos la extrusora más potente de toda hispanoamérica, que nos permitió darle respuesta a una demanda creciente y optimizar productos en línea y de mayores espesores. Tecnología coreana de punta. Un riesgo e inversión en una Argentina golpeada durante la Pandemia COVID-19.
 productImage: /images/about-us/isolant-aislantes-nuestra-empresa-nuestro-producto-rollos.png
-productTitle: Nuestro <strong>Producto</strong>
-productText: ISOLANT S.A. fabrica una amplia gama de espumas termoplásticas,
+productTitle: Nuestro **Producto**
+productText: >-
+  ISOLANT S.A. fabrica una amplia gama de espumas termoplásticas,
   mayormente aplicadas a la construcción. Las características de este material
   lo hacen ideal para la aislación térmica, hidrófuga, acústica, de impacto y de
   otros tipos, en techos, paredes, conductos y cañerías de aire acondicionado,
-  pisos, industrias, etc. <br /><br />La principal característica del material
+  pisos, industrias, etc. 
+  
+  
+  La principal característica del material
   es su estructura de celda cerrada; está conformada por celdas estancas con
   aire en su interior, lo que hace que el material además sea aislante térmico,
   así como también elástico y fácil de manipular. Esta elasticidad permite que
@@ -91,27 +95,45 @@ productText: ISOLANT S.A. fabrica una amplia gama de espumas termoplásticas,
   perfora (clavos, tornillos) manteniendo su estanqueidad.
 patentBackgroundImage: /images/about-us/isolant-aislantes-nuestra-empresa-patentes-imagen-fondo-azul.jpg
 patentImage: /images/about-us/isolant-aislantes-nuestra-empresa-patentes.png
-patentTitle: <strong>Patentes</strong>
-patentText: Las empresas mundiales líderes en I+D utilizan las patentes y marcas
-  de forma combinada para proteger sus innovaciones. <br /><br />ISOLANT cuenta
+patentTitle: "**Patentes**"
+patentText: >-
+  Las empresas mundiales líderes en I+D utilizan las patentes y marcas
+  de forma combinada para proteger sus innovaciones. 
+  
+  
+  ISOLANT cuenta
   con más de 10 patentes vigentes y otras tantas en trámite. Esto nos mantiene a
   la vanguardia junto a las empresas líderes en aislación, abriendo puertas a
-  nuevas investigaciones y análisis de estrategias globales. <br /><br />Este
+  nuevas investigaciones y análisis de estrategias globales. 
+  
+  
+  Este
   logro es muy importante para nosotros y nos alienta a seguir innovando.
 patentCtaLink: /images/about-us/isolant-aislantes-innovacion-y-calidad-politica-calidad.webp
 patentCtaText: Ver política de calidad
-philosophyTitle: Filosofía <strong>Isolant</strong>
+philosophyTitle: Filosofía **Isolant**
 aboutUsVideo: https://www.youtube.com/watch?v=JIhGPcs1ohY
 philosophy:
   - title: Gen Emprendedor
-    text: Somos una empresa que nace con un fuerte gen de emprender, dónde sea y
+    text: >-
+    
+      Somos una empresa que nace con un fuerte gen de emprender, dónde sea y
       cómo sea. No nos da miedo lo nuevo, nos desafía lo desconocido y somos
-      felices descubriendo y aprendiendo. <br /><br />Todos los empleados de
+      felices descubriendo y aprendiendo. 
+      
+      
+      Todos los empleados de
       Isolant podemos emprender y proponer a través de un programa interno que
-      premia las ideas y propuestas. <br /><br />También integramos y
+      premia las ideas y propuestas. 
+      
+      
+      También integramos y
       potenciamos a emprendedores que no forman parte de Isolant, con la
       creación de una aceleradora que escalará sus negocios con nuestra marca y
-      canal. <br /><br />Vivimos el gen emprendedor, somos eternos
+      canal. 
+      
+      
+      Vivimos el gen emprendedor, somos eternos
       emprendedores.
     ctaLink: '#emprendedores'
     ctaText: ¿Sos emprendedor?
@@ -128,18 +150,22 @@ philosophy:
       comunicación fluida y transversal es el eje de nuestro trabajo. La
       flexibilidad y el continuo aprendizaje son vitales para nosotros.
 entrepreneursImage: /images/about-us/isolant-aislantes-empresa-emprendedores.jpg
-entrepreneursTitle: <strong>Emprendedores</strong>
-entrepreneursText: <strong>¿Tenés un producto para la construcción que impulse nuestra <a href="#philosophy">filosofía de Triple Impacto</a>?</strong><br /> Escribinos y uno de los miembros del Comité de Desarrollo te estará contactando en breve.
+entrepreneursTitle: "**Emprendedores**"
+entrepreneursText: >-
+  **¿Tenés un producto para la construcción que impulse nuestra [filosofía de Triple Impacto](#philosophy)?**
+  
+  
+  Escribinos y uno de los miembros del Comité de Desarrollo te estará contactando en breve.
 entrepreneursCtaText: Contactanos
 entrepreneursCtaLink: 'mailto:mgalindo@isolant.com.ar?subject=Emprendedores'
 technicalInformationImage: /images/about-us/isolant-aislantes-nuestra-empresa-ensayos-tecnicos.jpg
-technicalInformationTitle: Ensayos <strong>Técnicos</strong>
-technicalInformationText: <strong>ISOLANT S.A.</strong> somete a ensayos y pruebas de laboratorio a sus productos con el fin de certificarlos ante autoridades nacionales e internacionales. Descargá nuestros ensayos debajo, o envianos un correo con tus consultas técnicas.
-technicalInformationFormTitle: ¿Tenés alguna <strong>consulta técnica?</strong>
+technicalInformationTitle: Ensayos **Técnicos**
+technicalInformationText: "**ISOLANT S.A.** somete a ensayos y pruebas de laboratorio a sus productos con el fin de certificarlos ante autoridades nacionales e internacionales. Descargá nuestros ensayos debajo, o envianos un correo con tus consultas técnicas."
+technicalInformationFormTitle: ¿Tenés alguna **consulta técnica?**
 technicalInformationFormText: Envianos un mensaje con tu consulta y te responderemos a la brevedad.
 technicalInformationCtaText: Descargar Ensayos Técnicos
 technicalInformationCtaLink: /servicios/descargas
-policiesTitle: Nuestras&nbsp;<strong>Políticas</strong>
+policiesTitle: Nuestras&nbsp;**Políticas**
 policies:
   - Innovación y Calidad
   - Proveedores
@@ -148,10 +174,10 @@ policies:
   - Código de ética
   - Sustentabilidad
 ethicsImage: /images/about-us/isolant-aislantes-nuestra-empresa-etica-e-integridad.jpg
-ethicsTitle: Ética e <strong>Integridad</strong>
+ethicsTitle: Ética e **Integridad**
 ethicsText: Si sufriste alguna falta a la integridad, o nuestras políticas,
   podés denunciarlo aquí. Esta denuncia es anónima y nos permitirá accionar
   sobre cualquier desvío que podamos tener.
-contactFormTitle: ¿Tenés alguna consulta? <strong>¡Contactate con nosotros!</strong>
+contactFormTitle: ¿Tenés alguna consulta? **¡Contactate con nosotros!**
 contactFormText: Envianos un mensaje con tu consulta y te responderemos a la brevedad.
 ---

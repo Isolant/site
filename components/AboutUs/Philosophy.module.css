@@ -2,10 +2,14 @@
   @apply inline;
 }
 
+.TextContainer ul {
+  @apply my-2 pl-12 list-disc;
+}
+
 .TextContainer ol {
   @apply my-2 pl-12 list-decimal;
 }
 
-.TextContainer ol li {
+.TextContainer ol li, .TextContainer ul li {
   @apply mb-1;
 }

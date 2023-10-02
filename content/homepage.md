@@ -16,7 +16,7 @@ productLinesTitle: Soluciones para...
 productLinesCtaText: Todos los productos
 productLinesCtaLink: /productos
 technicalServiceEnabled: true
-technicalServiceTitle: Servicio Técnico <strong>gratuito</strong>
+technicalServiceTitle: Servicio Técnico **gratuito**
 technicalServiceText: Conocé todos los servicios que te brindamos en Isolant para facilitar tu trabajo en obra.
 technicalServiceLinkText: Realizá una consulta técnica
 technicalServiceLinkHref: "#contacto"
