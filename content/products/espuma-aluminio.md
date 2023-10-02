@@ -6,7 +6,7 @@ globals:
   productImage: /images/products/espuma-aluminio/isolant-aislantes-linea-climatizacion-espuma-aluminio-producto-rollo.png
 page:
   - type: hero
-    slogan: Climatización de <strong>industrias aisladas y protegidas</strong>
+    slogan: Climatización de **industrias aisladas y protegidas**
     order: 1
     heroImage:
       selectedOption: image

@@ -15,7 +15,7 @@ globals:
   logo: /images/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-logo.webp
 page:
   - type: hero
-    slogan: Viví tu casa sin ruidos molestos <strong>de vecinos y autos</strong>
+    slogan: Viví tu casa sin ruidos molestos **de vecinos y autos**
     order: 1
     heroImage:
       selectedOption: image

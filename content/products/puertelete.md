@@ -6,7 +6,7 @@ globals:
   productImage: /images/products/puertelete/isolant-aislantes-linea-otros-usos-puertelete-producto-rollo.png
 page:
   - type: hero
-    slogan: Decile chau <strong>al chiflete</strong>
+    slogan: Decile chau **al chiflete**
     order: 1
     heroImage:
       selectedOption: image

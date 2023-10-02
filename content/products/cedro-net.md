@@ -16,7 +16,7 @@ globals:
 page:
   - type: hero
     order: 1
-    slogan: ¡Aislá y dale una terminación agradable <strong>a tus ambientes!</strong>
+    slogan: ¡Aislá y dale una terminación agradable **a tus ambientes!**
     heroImage:
       selectedOption: image
       mainImageBackgroundPosition: top

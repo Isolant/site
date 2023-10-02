@@ -19,7 +19,7 @@ page:
       mainImageBackgroundPosition: top
       mainImage: /images/products/tba/isolant-aislantes-linea-vivienda-tba-imagen-principal.jpg
     enableHero: true
-    slogan: <strong>Tradición, precio y calidad</strong> para techos de madera
+    slogan: "**Tradición, precio y calidad** para techos de madera"
     mainBenefits:
       - icon: /images/products/tba/isolant-aislantes-linea-vivienda-tba-beneficio-1.svg
         text: Aislación hidrófuga
@@ -74,7 +74,8 @@ page:
       - title: Propagación de llama
         text: Clase RE2 MUY BAJA PROPAGACIÓN DE LLAMA. Aprobada por Bomberos Argentina.
       - title: Densidad de humos
-        text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases envenenantes.
+        text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases
+          envenenantes.
       - title: Estructura de celda
         text: Cerrada
       - title: Espesor
@@ -126,15 +127,15 @@ page:
       - Catálogo de Vivienda
       - ¿Qué tipo de techo querés aislar?
       - Tríptico Industria/Vivienda
-  - type: colocation
-    enableColocationSection: true
+  - enableColocationSection: true
+    technicalAssessorCtaLink: /servicios#map
+    colocationCtaLink: https://isoplus.isolant.com.ar/inicio
     order: 8
     colocationTitle: ¿No tenés quién te coloque **nuestros aislantes?**
-    colocationCtaLink: https://isoplus.isolant.com.ar/inicio
-    technicalAssessorCtaLink: /servicios#map
-    colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
-    colocationCtaText: Encontrá un instalador
     technicalAssessorCtaText: Buscá tu asesor técnico
+    colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
+    type: colocation
+    colocationCtaText: Encontrá un instalador
   - type: cta
     enableCtaSection: true
     order: 9

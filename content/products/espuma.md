@@ -6,7 +6,7 @@ globals:
   productImage: /images/products/espuma/isolant-aislantes-linea-climatizacion-espuma-producto-rollo.png
 page:
   - type: hero
-    slogan: Confort térmico para tus <strong>sistemas de climatización</strong>
+    slogan: Confort térmico para tus **sistemas de climatización**
     order: 1
     heroImage:
       selectedOption: image

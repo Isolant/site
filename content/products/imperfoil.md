@@ -14,8 +14,8 @@ globals:
 page:
   - type: hero
     order: 1
-    slogan: Cubrí tu estructura con <strong>la mejor barrera hidrófuga y barrera de
-      vientos</strong>
+    slogan: Cubrí tu estructura con **la mejor barrera hidrófuga y barrera de
+      vientos**
     heroImage:
       selectedOption: image
       mainImageBackgroundPosition: top

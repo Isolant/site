@@ -14,7 +14,7 @@ page:
       selectedOption: image
       mainImageBackgroundPosition: top
       mainImage: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-imagen-principal.jpg
-    slogan: Una sola malla de sostén <strong>para todo tipo de aislantes</strong>
+    slogan: Una sola malla de sostén **para todo tipo de aislantes**
     mainBenefits:
       - icon: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-beneficio-1.svg
         text: Fácil y rápida colocación

@@ -16,7 +16,7 @@ globals:
 page:
   - type: hero
     order: 1
-    slogan: Viví tu casa sin ruidos molestos <strong>de vecinos y autos</strong>
+    slogan: Viví tu casa sin ruidos molestos **de vecinos y autos**
     heroImage:
       selectedOption: image
       mainImageBackgroundPosition: top

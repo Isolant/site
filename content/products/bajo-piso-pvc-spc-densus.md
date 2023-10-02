@@ -8,7 +8,7 @@ globals:
   ecommerceLink: https://tienda.isolant.com.ar/pisos/84--bajo-piso-densus.html
 page:
   - type: hero
-    slogan: Caminá tus pisos como <strong>nunca lo hiciste antes</strong>
+    slogan: Caminá tus pisos como **nunca lo hiciste antes**
     order: 1
     heroImage:
       selectedOption: image

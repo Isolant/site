@@ -17,7 +17,7 @@ page:
   - type: hero
     enableHero: true
     order: 1
-    slogan: Viví sin ruidos <strong>y disfrutá tu espacio</strong>
+    slogan: Viví sin ruidos **y disfrutá tu espacio**
     heroImage:
       selectedOption: image
       mainImageBackgroundPosition: top

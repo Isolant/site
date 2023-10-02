@@ -5,7 +5,7 @@ globals:
   productImage: /images/products/laminas-de-espuma/isolant-aislantes-linea-otros-usos-laminas-de-espuma-producto-rollo.png
 page:
   - type: hero
-    slogan: Láminas de espuma <strong>para diversos usos</strong>
+    slogan: Láminas de espuma **para diversos usos**
     order: 1
     heroImage:
       selectedOption: image

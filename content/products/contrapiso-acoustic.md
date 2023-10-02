@@ -9,7 +9,7 @@ globals:
 page:
   - type: hero
     order: 1
-    slogan: Hacé lo que quieras en tu departamento, <strong>nadie te escucha</strong>
+    slogan: Hacé lo que quieras en tu departamento, **nadie te escucha**
     heroImage:
       selectedOption: image
       mainImageBackgroundPosition: top

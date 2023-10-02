@@ -14,7 +14,7 @@ page:
   - type: hero
     enableHero: true
     order: 1
-    slogan: Viví tu casa con <strong>confort térmico y acústico</strong>
+    slogan: Viví tu casa con **confort térmico y acústico**
     heroImage:
       selectedOption: image
       mainImageBackgroundPosition: top

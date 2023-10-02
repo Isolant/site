@@ -6,7 +6,7 @@ globals:
 page:
   - type: hero
     order: 1
-    slogan: Respaldo de juntas, <strong>elásticas e hidrófugas</strong>
+    slogan: Respaldo de juntas, **elásticas e hidrófugas**
     heroImage:
       selectedOption: image
       mainImageBackgroundPosition: top

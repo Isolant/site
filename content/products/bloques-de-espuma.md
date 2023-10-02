@@ -6,7 +6,7 @@ globals:
   productImageProportion: square
 page:
   - type: hero
-    slogan: Multilaminado de espuma <strong>para diversos usos</strong>
+    slogan: Multilaminado de espuma **para diversos usos**
     order: 1
     heroImage:
       selectedOption: image

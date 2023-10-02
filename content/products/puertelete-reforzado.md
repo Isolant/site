@@ -11,7 +11,7 @@ globals:
 page:
   - type: hero
     order: 1
-    slogan: Decile chau <strong>al chiflete</strong>
+    slogan: Decile chau **al chiflete**
     heroImage:
       selectedOption: image
       mainImageBackgroundPosition: top

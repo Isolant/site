@@ -3,7 +3,7 @@ name: Sellatutti
 description: Cierre hermético para chapas. ¡Único del mercado con coteado reforzado!
 globals:
   order: 6
-  slogan: Cierre hermético <strong>para chapas</strong>
+  slogan: Cierre hermético **para chapas**
   productImage: /images/products/sellatutti/isolant-aislantes-linea-otros-usos-sellatutti-producto-rollo.png
   logo: /images/products/sellatutti/isolant-aislantes-linea-otros-usos-sellatutti-logo.jpg
 page:

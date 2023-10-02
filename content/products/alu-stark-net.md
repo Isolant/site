@@ -22,7 +22,7 @@ page:
       mainImageBackgroundPosition: top
       mainImage: /images/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-imagen.jpg
     enableHero: true
-    slogan: Tu industria con la terminación <strong>de un shopping</strong>
+    slogan: Tu industria con la terminación **de un shopping**
     mainBenefits:
       - icon: /images/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-beneficio-2.svg
         text: Aluminio puro y terminación blanca

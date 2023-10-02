@@ -12,7 +12,7 @@ page:
       mainImageBackgroundPosition: top
       mainImage: /images/products/aluminio-reforzado/isolant-aislantes-linea-climatizacion-aluminio-reforzado-imagen-principal.jpg
     enableHero: true
-    slogan: El único aislante <strong>apto intemperie</strong>
+    slogan: El único aislante **apto intemperie**
     mainBenefits:
       - icon: /images/products/aluminio-reforzado/isolant-aislantes-linea-climatizacion-aluminio-reforzado-beneficio-1.svg
         text: Aislación Térmica

@@ -12,7 +12,7 @@ page:
       mainImageBackgroundPosition: top
       mainImage: /images/products/tubos-aluminio/isolant-aislantes-linea-climatizacion-tubos-aluminio-imagen-principal.jpg
     enableHero: true
-    slogan: Aislación para cañerías <strong>a la intemperie</strong>
+    slogan: Aislación para cañerías **a la intemperie**
     mainBenefits:
       - icon: /images/products/tubos-aluminio/isolant-aislantes-linea-climatizacion-tubos-aluminio-beneficio-1.svg
         text: Aislación Térmica

@@ -13,7 +13,7 @@ page:
       mainImageBackgroundPosition: top
       mainImage: /images/products/termo-solar/isolant-aislantes-linea-accesorios-termo-solar-imagen-principal.jpg
     enableHero: true
-    slogan: ¡Metele energía <strong>a tu mate!</strong>
+    slogan: ¡Metele energía **a tu mate!**
     mainBenefits:
       - icon: /images/products/termo-solar/isolant-aislantes-linea-otros-usos-termo-solar-beneficio-1.svg
         text: Mantiene la temperatura del agua

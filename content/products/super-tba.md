@@ -17,7 +17,7 @@ page:
       mainImageBackgroundPosition: top
       mainImage: /images/products/super-tba/isolant-aislantes-linea-vivienda-super-tba-imagen-fondo.jpg
     enableHero: true
-    slogan: El único aislante para <strong>cualquier tipo de techos</strong>
+    slogan: El único aislante para **cualquier tipo de techos**
     mainBenefits:
       - icon: /images/products/tba/isolant-aislantes-linea-vivienda-tba-beneficio-1.svg
         text: Aislación hidrófuga

@@ -7,7 +7,7 @@ globals:
 page:
   - type: hero
     order: 1
-    slogan: Aislante para caños <strong>de gran caudal</strong>
+    slogan: Aislante para caños **de gran caudal**
     heroImage:
       selectedOption: image
       mainImageBackgroundPosition: top

@@ -6,7 +6,7 @@ globals:
   productImage: /images/products/espuma-aluminizada/isolant-aislantes-linea-climatizacion-espuma-aluminizada-producto-rollo.png
 page:
   - type: hero
-    slogan: Climatización de ambientes <strong>más eficiente</strong>
+    slogan: Climatización de ambientes **más eficiente**
     order: 1
     heroImage:
       selectedOption: image

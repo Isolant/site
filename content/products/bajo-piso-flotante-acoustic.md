@@ -8,7 +8,7 @@ globals:
   ecommerceLink: https://tienda.isolant.com.ar/pisos/51-bajo-piso-flotante-acoustic.html
 page:
   - type: hero
-    slogan: Podías sentir tus pisos <strong>de manera diferente</strong>
+    slogan: Podías sentir tus pisos **de manera diferente**
     order: 1
     heroImage:
       selectedOption: image

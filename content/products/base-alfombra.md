@@ -7,7 +7,7 @@ globals:
   ecommerceLink: https://tienda.isolant.com.ar/pisos/49-base-alfombra.html
 page:
   - type: hero
-    slogan: Duplicá la vida útil <strong>de tu alfombra</strong>
+    slogan: Duplicá la vida útil **de tu alfombra**
     order: 1
     heroImage:
       selectedOption: image

@@ -8,7 +8,7 @@ globals:
   productImage: /images/products/cilindros-de-espuma/isolant-aislantes-linea-otros-usos-cilindros-de-espuma-producto-rollo.png
 page:
   - type: hero
-    slogan: Respaldo de juntas, <strong>elásticas e hidrófugas</strong>
+    slogan: Respaldo de juntas, **elásticas e hidrófugas**
     order: 1
     heroImage:
       selectedOption: image

@@ -11,7 +11,7 @@ page:
       selectedOption: image
       mainImageBackgroundPosition: top
       mainImage: /images/products/tubos/isolant-aislantes-linea-climatizacion-tubos-imagen-principal.jpg
-    slogan: Aislación para <strong>cañerías</strong>
+    slogan: Aislación para **cañerías**
     enableHero: true
     mainBenefits:
       - icon: /images/products/tubos/isolant-aislantes-linea-climatizacion-tubos-beneficio-1.svg

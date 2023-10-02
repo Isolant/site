@@ -14,7 +14,7 @@ page:
   - type: hero
     enableHero: true
     order: 1
-    slogan: Viví tu casa <strong>aislado como un rey</strong>
+    slogan: Viví tu casa **aislado como un rey**
     heroImage:
       selectedOption: image
       mainImageBackgroundPosition: top

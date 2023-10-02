@@ -10,7 +10,7 @@ page:
   - type: hero
     enableHero: true
     order: 1
-    slogan: Impermeabilizá juntas y <strong>repará fisuras</strong>
+    slogan: Impermeabilizá juntas y **repará fisuras**
     heroImage:
       selectedOption: image
       mainImageBackgroundPosition: top

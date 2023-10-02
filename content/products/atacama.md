@@ -8,7 +8,7 @@ globals:
   productImage: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-imagen-balde.png
   logo: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-escudo.jpg
   ecommerceLink: https://tienda.isolant.com.ar/vivienda/82-atacama-balde-20lt.html
-  slogan: Bajá la temperatura interior de tu casa <strong>entre 6 y 8 grados</strong>
+  slogan: Bajá la temperatura interior de tu casa **entre 6 y 8 grados**
 page:
   - type: hero
     order: 1

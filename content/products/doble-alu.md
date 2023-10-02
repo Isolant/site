@@ -7,7 +7,7 @@ globals:
   ecommerceLink: https://tienda.isolant.com.ar/galpones-y-tinglados/58-doble-alu-15.html
 page:
   - type: hero
-    slogan: La solución integral <strong>para galpones y tinglados</strong>
+    slogan: La solución integral **para galpones y tinglados**
     order: 1
     heroImage:
       selectedOption: image
