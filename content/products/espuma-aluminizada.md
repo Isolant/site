@@ -129,6 +129,6 @@ page:
   - type: cta
     enableCtaSection: true
     order: 9
-    ctaTitle: Eficiencia y ahorro energético para <strong>tus sistemas de climatización</strong>
+    ctaTitle: Eficiencia y ahorro energético para **tus sistemas de climatización**
     ctaImage: /images/products/espuma-aluminizada/isolant-aislantes-linea-climatizacion-espuma-aluminizada-cta.jpg
 ---

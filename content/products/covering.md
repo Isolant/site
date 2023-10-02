@@ -124,6 +124,6 @@ page:
   - type: cta
     enableCtaSection: true
     order: 9
-    ctaTitle: Covering es Isolant, <strong>calidad garantizada</strong>
+    ctaTitle: Covering es Isolant, **calidad garantizada**
     ctaImage: /images/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-cta.jpg
 ---

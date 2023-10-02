@@ -113,6 +113,6 @@ page:
   - type: cta
     enableCtaSection: true
     order: 9
-    ctaTitle: Viví tu departamento <strong>con confort acústico</strong>
+    ctaTitle: Viví tu departamento **con confort acústico**
     ctaImage: /images/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-cta.jpg
 ---

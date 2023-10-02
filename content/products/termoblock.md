@@ -124,6 +124,6 @@ page:
   - type: cta
     enableCtaSection: true
     order: 9
-    ctaTitle: El mejor aislante para tu galpón <strong>de crianza animal</strong>
+    ctaTitle: El mejor aislante para tu galpón **de crianza animal**
     ctaImage: /images/products/termoblock/isolant-aislantes-linea-galpones-y-tinglados-termoblock-cta.jpg
 ---

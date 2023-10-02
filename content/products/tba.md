@@ -140,5 +140,5 @@ page:
     enableCtaSection: true
     order: 9
     ctaImage: /images/products/tba/isolant-aislantes-linea-vivienda-tba-cta.jpg
-    ctaTitle: La mejor relación <strong>precio calidad</strong> para techos de madera
+    ctaTitle: La mejor relación **precio calidad** para techos de madera
 ---

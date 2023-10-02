@@ -134,5 +134,5 @@ page:
     enableCtaSection: true
     order: 8
     ctaImage: /images/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-cta.jpg
-    ctaTitle: Un aislante con tecnología de punta <strong>para tu industria</strong>
+    ctaTitle: Un aislante con tecnología de punta **para tu industria**
 ---

@@ -135,6 +135,6 @@ page:
   - type: cta
     enableCtaSection: true
     order: 8
-    ctaTitle: Imperfoil es Isolant, <strong>calidad garantizada</strong>
+    ctaTitle: Imperfoil es Isolant, **calidad garantizada**
     ctaImage: /images/products/imperfoil/DET_Imperfoil_2_ejhrfh.jpg
 ---

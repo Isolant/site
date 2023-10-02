@@ -127,6 +127,6 @@ page:
   - type: cta
     enableCtaSection: true
     order: 9
-    ctaTitle: El único aislante <strong>para exteriores</strong>
+    ctaTitle: El único aislante **para exteriores**
     ctaImage: /images/products/aluminio-reforzado/isolant-aislantes-linea-climatizacion-aluminio-reforzado-cta.jpg
 ---

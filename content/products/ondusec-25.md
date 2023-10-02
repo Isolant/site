@@ -147,7 +147,7 @@ page:
   - type: cta
     enableCtaSection: true
     order: 9
-    ctaTitle: Un aislante limpio y fácil de colocar <strong>para tu tranquilidad</strong>
+    ctaTitle: Un aislante limpio y fácil de colocar **para tu tranquilidad**
     ctaImage: /images/products/ondusec/isolant-aislantes-linea-vivienda-ondusec-imagen-cta.jpg
     ctaImageBackgroundPosition: top
 ---

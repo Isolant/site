@@ -128,6 +128,6 @@ page:
   - type: cta
     enableCtaSection: true
     order: 9
-    ctaTitle: Tu industria <strong>climatizada y protegida</strong>
+    ctaTitle: Tu industria **climatizada y protegida**
     ctaImage: /images/products/espuma-aluminio/isolant-aislantes-linea-climatizacion-espuma-aluminio-cta.jpg
 ---

@@ -5,6 +5,8 @@ import Button from './Forms/Button';
 
 import { thinTitleClasses, standardTextClasses } from "../classes/Text";
 
+import styles from './TitlePackage.module.css';
+
 export default function TitlePackage({ 
   titleHierarchy,
   title,
@@ -18,26 +20,19 @@ export default function TitlePackage({
   usesMarkdown
  }) {
 
-  const titleClasses = `${thinTitleClasses} ${theme === 'dark' ? 'text-white' : 'text-gray-800'} ${additionalTitleClasses}`
-  const textClasses = `${standardTextClasses} ${theme === 'dark' ? 'text-gray-300' : 'text-gray-500'} ${additionalTextClasses} mt-2 lg:mt-6`
+  const titleClasses = `${thinTitleClasses} ${theme === 'dark' ? 'text-white' : 'text-gray-800'} ${additionalTitleClasses} ${styles.Title}`;
+  const textClasses = `${standardTextClasses} ${theme === 'dark' ? 'text-gray-300' : 'text-gray-500'} ${additionalTextClasses} mt-2 lg:mt-6`;
 
   const HeadingTag = `${titleHierarchy}`;
   
 
   return (
     <React.Fragment>
-      {usesMarkdown === true ?
-        <HeadingTag
-          className={titleClasses}
-        >
-          <ReactMarkdown>{title}</ReactMarkdown>
-        </HeadingTag>
-      :
-        <HeadingTag
-          className={titleClasses}
-          dangerouslySetInnerHTML={{ __html: title }}
-        />
-      }
+      <HeadingTag
+        className={titleClasses}
+      >
+        <ReactMarkdown>{title}</ReactMarkdown>
+      </HeadingTag>
       {text &&
         <p
           className={textClasses}
