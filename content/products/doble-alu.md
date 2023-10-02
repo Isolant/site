@@ -1,6 +1,10 @@
 ---
 name: Doble Alu
-description: <strong>Aislante térmico e impermeable para galpones y tinglados. ¡Solape para termo soldar patentado!</strong><br /><br />Aíslan térmicamente tu galpón, tinglado y estructura metálica, evitando el fenómeno de la condensación. Se caracterizan por su fácil instalación y manipuleo, tratándose de un material liviano que no desprende partículas.
+description: >-
+  **Aislante térmico e impermeable para galpones y tinglados. ¡Solape para termo soldar patentado!**
+  
+  
+  Aíslan térmicamente tu galpón, tinglado y estructura metálica, evitando el fenómeno de la condensación. Se caracterizan por su fácil instalación y manipuleo, tratándose de un material liviano que no desprende partículas.
 globals:
   order: 5
   productImage: /images/products/doble-alu/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-producto-rollo.png

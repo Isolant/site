@@ -1,6 +1,13 @@
 ---
 name: Covering
-description: <strong>Membrana reguladora de vapor, impermeable y barrera de vientos para steel framing.</strong><br /><br /><strong>Covering®</strong> es una innovadora subcobertura bicapa, fabricada a base de materiales altamente resistentes que lo hacen ideal para proteger sus paredes de filtraciones y humedad. En este tipo de sistemas, Covering® funciona como una excelente barrera hidrófuga y barrera de viento.<br /><br /><strong>Covering®</strong> evita filtraciones de calor ahorrando energía para calefaccionar y/o refrigerar su casa.
+description: >-
+  **Membrana reguladora de vapor, impermeable y barrera de vientos para steel framing.**
+  
+  
+  **Covering®** es una innovadora subcobertura bicapa, fabricada a base de materiales altamente resistentes que lo hacen ideal para proteger sus paredes de filtraciones y humedad. En este tipo de sistemas, Covering® funciona como una excelente barrera hidrófuga y barrera de viento.
+  
+  
+  **Covering®** evita filtraciones de calor ahorrando energía para calefaccionar y/o refrigerar su casa.
 globals:
   order: 3
   productImage: /images/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-producto-rollo.png

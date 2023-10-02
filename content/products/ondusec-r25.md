@@ -1,8 +1,11 @@
 ---
 name: Ondusec R25
-description: <strong>Placa aislante termo acústica de rápida instalación, para
-  tabiques externos de steel framing.</strong><br /><br />A todos los beneficios
-  de nuestra <strong>Ondusec</strong> se le suma el de la aislación térmica
+description: >-
+  **Placa aislante termo acústica de rápida instalación, para
+  tabiques externos de steel framing.**
+  
+  
+  A todos los beneficios de nuestra **Ondusec** se le suma el de la aislación térmica
   reflectiva, gracias a su terminación aluminizada en una de sus caras, haciendo
   de este producto el ideal para lograr una aislación termo acústica superior.
 globals:

@@ -1,6 +1,10 @@
 ---
 name: Espuma aluminio
-description: <strong>Aislación térmica y barrera de vapor para sistemas de aire acondicionado central y sistemas de losa radiante eléctricos.</strong><br /><br />Espuma Isolant con retardante de llama y foil de aluminio 100% puro en una de sus caras. Ideal para utilizar en todo tipo de aplicaciones interiores.
+description: >-
+  **Aislación térmica y barrera de vapor para sistemas de aire acondicionado central y sistemas de losa radiante eléctricos.**
+  
+  
+  Espuma Isolant con retardante de llama y foil de aluminio 100% puro en una de sus caras. Ideal para utilizar en todo tipo de aplicaciones interiores.
 globals:
   order: 5
   productImage: /images/products/espuma-aluminio/isolant-aislantes-linea-climatizacion-espuma-aluminio-producto-rollo.png

@@ -1,6 +1,7 @@
 ---
 name: Fix Band
-description: <strong>Bandas de asfalto adhesivado para impermeabilizar juntas y reparar fisuras.</strong>
+description: >-
+  **Bandas de asfalto adhesivado para impermeabilizar juntas y reparar fisuras.**
 globals:
   order: 8
   productImage: /images/products/fix-band/isolant-aislantes-linea-otros-usos-fix-band-producto-rollo.png
@@ -33,9 +34,9 @@ page:
       - text: Terminación de zinguerías en juntas con mampostería.
       - text: Emparchado de tanques, autos, etc.
     presentation:
-      - text: "<strong>Ancho:</strong> 7.5, 12.5, 15,25 y 30 cm."
-      - text: "<strong>Largo:</strong> 25mt."
-      - text: "<strong>Espesor:</strong> 5mm. y 10mm."
+      - text: "**Ancho:** 7.5, 12.5, 15,25 y 30 cm."
+      - text: "**Largo:** 25mt."
+      - text: "**Espesor:** 5mm. y 10mm."
     detailsImage: /images/products/fix-band/isolant-aislantes-linea-accesorios-fix-band-imagen-detalle.jpg
   - type: benefits
     enableBenefitsSection: true

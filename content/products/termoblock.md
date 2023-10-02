@@ -1,6 +1,10 @@
 ---
 name: Termoblock
-description: <strong>Aislante para muros de galpones black-out de pollos y climatizados de cerdos.</strong><br /><br />El aislante premium diseñado para cerramientos laterales metálicos de galpones avícolas y porcinos, siendo una alternativa económica al panel frigorífico o termopanel de chapa con poliuretano. La espuma de alta densidad y su aluminio de 30 micrones, lo hacen resistente a los esfuerzo y acción de los animales.
+description: >-
+  **Aislante para muros de galpones black-out de pollos y climatizados de cerdos.**
+  
+  
+  El aislante premium diseñado para cerramientos laterales metálicos de galpones avícolas y porcinos, siendo una alternativa económica al panel frigorífico o termopanel de chapa con poliuretano. La espuma de alta densidad y su aluminio de 30 micrones, lo hacen resistente a los esfuerzo y acción de los animales.
 globals:
   order: 7
   productImage: /images/products/termoblock/isolant-aislantes-linea-galpones-y-tinglados-termoblock-producto-rollo.png

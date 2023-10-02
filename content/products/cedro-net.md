@@ -1,6 +1,7 @@
 ---
 name: Cedro NET
-description: Isolant <strong>CEDRO NET</strong> es el único aislante del mercado
+description: >-
+  Isolant **CEDRO NET** es el único aislante del mercado
   con terminación símil madera que permite decorar tus ambientes, además de
   aislarlos térmicamente. Está compuesto por una lámina de espuma bicapa, con
   aluminio puro en una cara y un film con terminación símil madera en la otra.

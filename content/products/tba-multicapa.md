@@ -1,8 +1,10 @@
 ---
 name: TBA Multicapa
-description: <strong>El único aislante térmico con triple capa hidrófuga para
-  techos de madera y machimbre.</strong><br /><br /><strong>TBA
-  MULTICAPA</strong> está conformada por un innovador sistema de 5 capas que
+description: >-
+  **El único aislante térmico con triple capa hidrófuga para techos de madera y machimbre.**
+  
+  
+  **TBA MULTICAPA** está conformada por un innovador sistema de 5 capas que
   ofrecen mayor aislación térmica, triple aislación hidrófuga y mayor
   resistencia, para techos de viviendas.
 globals:

@@ -1,6 +1,7 @@
 ---
 name: Base Alfombra
-description: Nuestro <strong>Base Alfombra</strong> brinda mayor mullidez logrando un mayor confort al andar. Además reduce ampliamente el desgaste para su alfombra, ya que desancla la carpeta de la misma evitando esfuerzos de rosamiento. Está compuesto por una espuma Isolant bicolor de mayor densidad con retardante de llamas. Todo esto duplica la vida útil de la alfombra.<br /><br />Además toma pequeños desniveles de la carpeta de terminación, logrando una terminación plana y estética sin "globos".
+description: >-
+  Nuestro **Base Alfombra** brinda mayor mullidez logrando un mayor confort al andar. Además reduce ampliamente el desgaste para su alfombra, ya que desancla la carpeta de la misma evitando esfuerzos de rosamiento. Está compuesto por una espuma Isolant bicolor de mayor densidad con retardante de llamas. Todo esto duplica la vida útil de la alfombra.<br /><br />Además toma pequeños desniveles de la carpeta de terminación, logrando una terminación plana y estética sin "globos".
 globals:
   order: 4
   productImage: /images/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-imagen-rollo.png

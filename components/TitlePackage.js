@@ -21,7 +21,7 @@ export default function TitlePackage({
  }) {
 
   const titleClasses = `${thinTitleClasses} ${theme === 'dark' ? 'text-white' : 'text-gray-800'} ${additionalTitleClasses} ${styles.Title}`;
-  const textClasses = `${standardTextClasses} ${theme === 'dark' ? 'text-gray-300' : 'text-gray-500'} ${additionalTextClasses} mt-2 lg:mt-6`;
+  const textClasses = `${standardTextClasses} ${theme === 'dark' ? 'text-gray-300' : 'text-gray-500'} ${additionalTextClasses} ${styles.Text} mt-2 lg:mt-6`;
 
   const HeadingTag = `${titleHierarchy}`;
   
@@ -34,10 +34,11 @@ export default function TitlePackage({
         <ReactMarkdown>{title}</ReactMarkdown>
       </HeadingTag>
       {text &&
-        <p
+        <div
           className={textClasses}
-          dangerouslySetInnerHTML={{ __html: text }}
-        />
+        >
+          <ReactMarkdown>{text}</ReactMarkdown>
+        </div>
       }
       {additionalContent && additionalContent}
       {buttons &&

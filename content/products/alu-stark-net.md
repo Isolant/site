@@ -1,14 +1,13 @@
 ---
 name: Alu Stark NET
-description: <strong>Aislante con terminación blanca con red incorporada.
-  ¡Ahorra hasta un 40% de la mano de obra!</strong><br /><br />Producto con red
-  incorporada listo para colocar. Al ser un aislante 2 en 1, se ahorra del 20%
-  al 40% de tiempo de colocación en obra, lo cual impacta directamente en el
-  costo total de la misma. Reduciendo además a la mitad los accidentes por
-  riesgo de colocación en altura.<br /><br />ALU STARK es el único aislante del
-  mercado con terminación blanca de alta resistencia que permite darle a tu
-  estructura metálica una estética superior, además de aislarlos térmicamente.
-  Ideal para supermercados, concesionarias de autos, etc.
+description: >-
+  **Aislante con terminación blanca con red incorporada. ¡Ahorra hasta un 40% de la mano de obra!**
+  
+  
+  Producto con red incorporada listo para colocar. Al ser un aislante 2 en 1, se ahorra del 20% al 40% de tiempo de colocación en obra, lo cual impacta directamente en el costo total de la misma. Reduciendo además a la mitad los accidentes por riesgo de colocación en altura.
+  
+  
+  ALU STARK es el único aislante del mercado con terminación blanca de alta resistencia que permite darle a tu estructura metálica una estética superior, además de aislarlos térmicamente. Ideal para supermercados, concesionarias de autos, etc.
 globals:
   order: 1
   productImage: /images/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-producto-rollo.png

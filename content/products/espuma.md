@@ -1,6 +1,9 @@
 ---
 name: Espuma
-description: <strong>Aislación térmica y barrera de vapor para conductos de aire acondicionado y sistemas de losa randiante por agua.</strong><br /><br />Espuma Isolant con retardante de llama. Ideal para utilizar en sótanos, dentro de cielorrasos y lugares donde no quede expuesta a rayos UV directos o indirectos (por reflexión).
+description: >-
+  **Aislación térmica y barrera de vapor para conductos de aire acondicionado y sistemas de losa randiante por agua.**
+  
+  Espuma Isolant con retardante de llama. Ideal para utilizar en sótanos, dentro de cielorrasos y lugares donde no quede expuesta a rayos UV directos o indirectos (por reflexión).
 globals:
   order: 3
   productImage: /images/products/espuma/isolant-aislantes-linea-climatizacion-espuma-producto-rollo.png

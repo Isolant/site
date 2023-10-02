@@ -1,6 +1,10 @@
 ---
 name: Puertelete
-description: Aislate de los chifletes por infiltraciones debajo de puertas. <br /><br />No necesita ser fijado con clavos ni tornillos. Cortá tu puertelete (podés usar una trincheta) midiendo el ancho de la puerta, apoyalo en el piso, frente al filo de la puerta, y desplazalo hasta que cubra la totalidad de la puerta.
+description: >-
+  Aislate de los chifletes por infiltraciones debajo de puertas. 
+  
+  
+  No necesita ser fijado con clavos ni tornillos. Cortá tu puertelete (podés usar una trincheta) midiendo el ancho de la puerta, apoyalo en el piso, frente al filo de la puerta, y desplazalo hasta que cubra la totalidad de la puerta.
 globals:
   order: 7
   productImage: /images/products/puertelete/isolant-aislantes-linea-otros-usos-puertelete-producto-rollo.png

@@ -1,6 +1,10 @@
 ---
 name: Espuma aluminizada
-description: <strong>Aislación térmica y barrera de vapor para sistemas de aire acondicionado central y sistemas de losa radiante eléctricos.</strong><br /><br />Espuma Isolant con retardante de llama y film aluminizado en una de sus caras. Ideal para utilizar en todo tipo de aplicaciones interiores.
+description: >-
+  **Aislación térmica y barrera de vapor para sistemas de aire acondicionado central y sistemas de losa radiante eléctricos.**
+  
+  
+  Espuma Isolant con retardante de llama y film aluminizado en una de sus caras. Ideal para utilizar en todo tipo de aplicaciones interiores.
 globals:
   order: 4
   productImage: /images/products/espuma-aluminizada/isolant-aislantes-linea-climatizacion-espuma-aluminizada-producto-rollo.png

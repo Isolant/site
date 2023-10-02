@@ -1,6 +1,10 @@
 ---
 name: Alu Reforzado Exteriores
-description: <strong>Aislación térmica e impermeable con foil de aluminio reforzado para conductos de aire acondicionado y tanques externos.</strong><br /><br />Espuma Isolant con foil de aluminio puro reforzado para exteriores.
+description: >-
+  **Aislación térmica e impermeable con foil de aluminio reforzado para conductos de aire acondicionado y tanques externos.**
+  
+  
+  Espuma Isolant con foil de aluminio puro reforzado para exteriores.
 globals:
   order: 6
   productImage: /images/products/aluminio-reforzado/isolant-aislantes-linea-climatizacion-aluminio-reforzado-producto-rollo.png

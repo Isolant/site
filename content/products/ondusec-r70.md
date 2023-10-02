@@ -1,8 +1,11 @@
 ---
 name: Ondusec R70
-description: <strong>Placa aislante térmico de rápida instalación, para tabiques
-  externos de construcción en seco.</strong><br /><br /><strong>Ondusec</strong>
-  es el aislante térmico para tabiques y cielorrasos de construcción en seco de
+description: >-
+  **Placa aislante térmico de rápida instalación, para tabiques
+  externos de construcción en seco.**
+  
+  
+  **Ondusec** es el aislante térmico para tabiques y cielorrasos de construcción en seco de
   más fácil instalación del mercado. Gracias a su composición de espuma de PE de
   celda cerrada con dos caras acanaladas reduce la transmisión de ruidos entre
   ambientes, equiparando la aislación acústica de más de 50mm de lana de vidrio.

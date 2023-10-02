@@ -1,8 +1,11 @@
 ---
 name: Ondusec 25
-description: <strong>Placa aislante termo acústica de rápida instalación, para
-  tabiques internos de construcción en seco / drywall.</strong><br /><br
-  /><strong>Ondusec</strong> es el aislante termo acústico para tabiques y
+description: >-
+  **Placa aislante termo acústica de rápida instalación, para
+  tabiques internos de construcción en seco / drywall.**
+  
+  
+  **Ondusec** es el aislante termo acústico para tabiques y
   cielorrasos de construcción en seco de más fácil instalación del mercado.
   Gracias a su composición de espuma de PE de celda cerrada con dos caras
   acanaladas reduce la transmisión de ruidos entre ambientes, equiparando la

@@ -1,6 +1,10 @@
 ---
 name: Contrapiso Acoustic
-description: <strong>Aislante acústico para entrepisos de hormigón y losas alivianadas.</strong><br /><br /><strong>Membrana bicapa aislante de ruidos de impacto para entrepisos.</strong> Gracias a su solape de 5cm evita la formación de puentes acústicos.
+description: >-
+  **Aislante acústico para entrepisos de hormigón y losas alivianadas.**
+  
+  
+  **Membrana bicapa aislante de ruidos de impacto para entrepisos.** Gracias a su solape de 5cm evita la formación de puentes acústicos.
 globals:
   order: 2
   productImage: /images/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-imagen-rollo.png

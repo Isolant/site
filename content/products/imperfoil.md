@@ -1,7 +1,10 @@
 ---
 name: Imperfoil
-description: <strong>Membrana barrera de agua y barrera de vientos para steel
-  framing.</strong><br /><br /><strong>Imperfoil</strong> es una innovadora
+description: >-
+  **Membrana barrera de agua y barrera de vientos para steel framing.**
+  
+  
+  **Imperfoil** es una innovadora
   subcobertura bicapa, fabricada a base de materiales altamente resistentes que
   lo hacen ideal para proteger sus paredes y techos de filtraciones y humedad.
   En este tipo de sistemas, Imperfoil funciona como una excelente barrera

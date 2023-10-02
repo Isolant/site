@@ -1,3 +1,11 @@
 .Title strong {
   @apply inline;
 }
+
+.Text {
+  @apply grid gap-4;
+}
+
+.Text a {
+  @apply text-primary hover:opacity-90;
+}

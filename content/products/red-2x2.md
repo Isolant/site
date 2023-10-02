@@ -1,6 +1,10 @@
 ---
 name: Red 2x2
-description: <strong>Malla sostén de alta resistencia para cualquier tipo de aislante.</strong><br /><br />La RED 2x2 está diseñada especialmente para el sostén de aislantes y le garantiza una colocación más rápida, 100% segura y con una terminación estética superior.
+description: >-
+  **Malla sostén de alta resistencia para cualquier tipo de aislante.**
+  
+  
+  La RED 2x2 está diseñada especialmente para el sostén de aislantes y le garantiza una colocación más rápida, 100% segura y con una terminación estética superior.
 globals:
   order: 8
   productImage: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-producto-rollo.png

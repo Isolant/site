@@ -1,6 +1,10 @@
 ---
 name: Isocaño
-description: <strong>Aislante para caños de gran caudal a la intemperie.</strong><br /><br />Placa aislante con unión termo fusionable con pistola de calor, para abrazar y aislar caños de gran caudal.
+description: >-
+  **Aislante para caños de gran caudal a la intemperie.**
+  
+  
+  Placa aislante con unión termo fusionable con pistola de calor, para abrazar y aislar caños de gran caudal.
 globals:
   order: 9
   productImage: /images/products/isocano/isolant-aislantes-linea-climatizacion-isocano-producto-rollo.png

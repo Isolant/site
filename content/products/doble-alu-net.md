@@ -1,6 +1,13 @@
 ---
 name: Doble Alu NET
-description: <strong>Aislante con red incorporada para galpones y tinglados. ¡Ahorra hasta un 40% de la mano de obra!</strong><br /><br />Al ser un aislante 2 en 1, se ahorra del 20% al 40% de tiempo de colocación en obra, lo cual representa hasta un 50% del costo de la DOBLE ALU NET. Como no hace falta colocar una malla de sostén, se reducen a la mitad los accidentes por riesgo de colocación, ya que se trabaja sobre la chapa.<br /><br />Al tener una estabilidad dimensional superior, también brinda una terminación plana y estética superior y no hace falta tensarla al momento de colocarla. 
+description: >-
+  **Aislante con red incorporada para galpones y tinglados. ¡Ahorra hasta un 40% de la mano de obra!**
+  
+  
+  Al ser un aislante 2 en 1, se ahorra del 20% al 40% de tiempo de colocación en obra, lo cual representa hasta un 50% del costo de la DOBLE ALU NET. Como no hace falta colocar una malla de sostén, se reducen a la mitad los accidentes por riesgo de colocación, ya que se trabaja sobre la chapa.
+  
+  
+  Al tener una estabilidad dimensional superior, también brinda una terminación plana y estética superior y no hace falta tensarla al momento de colocarla. 
 globals:
   order: 3
   highlighted: true

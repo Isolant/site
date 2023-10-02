@@ -103,14 +103,14 @@ page:
   - type: downloads
     enableDownloadsSection: true
     order: 6
-    downloadsTitle: <strong>Área Técnica</strong>
+    downloadsTitle: "**Área Técnica**"
     downloadsText: Recursos y herramientas para la correcta colocación de nuestros productos.
     downloads:
       - Folleto Siding
   - type: tutorials
     enableTutorialsSection: true
     order: 7
-    tutorialsTitle: <strong>Tutoriales</strong>
+    tutorialsTitle: "**Tutoriales**"
     tutorialsText: Aprendé de manera rápida y sencilla cómo utilizar nuestros productos.
     tutorials:
       - image: /images/products/iso-siding/tutorials/tutorial-1.jpg
@@ -139,7 +139,7 @@ page:
     enableContactSection: true
     order: 8
     contactFormImage: /images/products/iso-siding/partners.svg
-    contactFormTitle: <strong>Sobre Isolant y DVP</strong>
+    contactFormTitle: "**Sobre Isolant y DVP**"
     contactFormText: A la amplia gama de espumas termoplásticas fabricadas por
       Isolant, se le agrega la oferta de revestimientos exteriores de PVC, de la
       mano de una asociación con la empresa chilena DVP. Si querés conocer más,

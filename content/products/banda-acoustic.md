@@ -1,8 +1,11 @@
 ---
 name: Banda Acoustic
-description: <strong>Desanclaje acústico para perfiles de construcción en seco y
-  steel framing, adhesivada.</strong><br /><br /><strong>Banda Acoustic</strong>
-  es el producto ideal para desanclar acústicamente la estructura metálica de
+description: >-
+  **Desanclaje acústico para perfiles de construcción en seco y
+  steel framing, adhesivada.**
+  
+  
+  **Banda Acoustic** es el producto ideal para desanclar acústicamente la estructura metálica de
   construcción en seco de las losas y muros de su obra, logrando así reducir los
   ruidos generados por vibración (de impacto). Al estar adhesivada y no tener
   desmoldante es el producto más práctico del mercado para aislar montantes y

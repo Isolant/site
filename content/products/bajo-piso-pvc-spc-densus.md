@@ -1,6 +1,10 @@
 ---
 name: Bajo Piso PVC / SPC Densus
-description: <strong>Base niveladora y acústica para pisos PVC / SPC.</strong><br /><br />Base niveladora para pisos de PVC / SPC o maderas macizas. También reduce el ruido producido al caminar por el suelo. Se convierte en un revestimiento de "inicio limpio" entre el contrapiso y el piso terminado.
+description: >-
+  **Base niveladora y acústica para pisos PVC / SPC.**
+  
+  
+  Base niveladora para pisos de PVC / SPC o maderas macizas. También reduce el ruido producido al caminar por el suelo. Se convierte en un revestimiento de "inicio limpio" entre el contrapiso y el piso terminado.
 globals:
   order: 1
   productImage: /images/products/bajo-piso-pvc-spc-densus/isolant-aislantes-linea-pisos-bajo-piso-densus-imagen-rollo.png

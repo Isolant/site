@@ -1,6 +1,10 @@
 ---
 name: Bajo Piso Flotante Acoustic
-description: <strong>Maximice la aislación acústica de su piso de madera gracias a nuestro sistema de "micropumping".</strong><br /><br />Membrana con diseño acanalado, brinda máxima aislación acústica y ventilación por micro pumping. Posee un film de polietileno y solape de 7 cm de ancho.
+description: >-
+  **Maximice la aislación acústica de su piso de madera gracias a nuestro sistema de "micropumping".**
+  
+  
+  Membrana con diseño acanalado, brinda máxima aislación acústica y ventilación por micro pumping. Posee un film de polietileno y solape de 7 cm de ancho.
 globals:
   order: 3
   productImage: /images/products/bajo-piso-flotante-acoustic/isolant-aislantes-linea-pisos-bajo-piso-flotante-acoustic-imagen-rollo.png
