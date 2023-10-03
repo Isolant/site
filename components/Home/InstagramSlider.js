@@ -49,6 +49,7 @@ export default function InstagramSlider({
                     width={400}
                     height={400}
                     objectFit="contain"
+                    key={index}
                   />
                 )
             })}
