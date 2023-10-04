@@ -4,24 +4,6 @@ backend:
 media_folder: "public/images"
 public_folder: "images"
 collections:
-  # Categories Collection
-  - name: "categories"
-    label: "Categorías"
-    folder: "content/categories"
-    create: true
-    editor: 
-      preview: false 
-    fields:
-      - {label: "Título", name: "title", widget: "string", hint: "Título de la categoría"}
-      - {label: "Descripción", name: "description", widget: "text", required: false, hint: "Descripción de la categoría"}
-      - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las categorías en la pantalla"}
-      - label: "Icono"
-        name: "icon"
-        widget: "image"
-        choose_url: false
-        media_library:
-          config:
-            multiple: false
   # Product Lines Collection
   - name: "productLines"
     label: "Líneas de Producto"
