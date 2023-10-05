@@ -5,7 +5,7 @@ import ContactForm from './ContactForm';
 
 import { horizontalPadding, verticalPadding } from "../../classes/Spacing";
 
-export default function Contact({ 
+export default function About({ 
   image,
   title,
   text,
@@ -30,9 +30,6 @@ export default function Contact({
           additionalTextClasses="max-w-lg text-center mx-auto"
           theme="light"
         />
-        <div className="pt-8 md:pt-16">
-          <ContactForm />
-        </div>
       </div>
     </section>
   )

@@ -16,7 +16,8 @@ import Instructions from "../../components/Products/Instructions";
 import TechnicalInformation from "../../components/Products/TechnicalInformation";
 import Downloads from "../../components/Products/Downloads";
 import Tutorials from "../../components/Products/Tutorials";
-import Contact from "../../components/Products/Contact";
+import About from "../../components/Products/About";
+import ContactForm from "../../components/Products/ContactForm";
 import FullScreenSection from "../../components/Layout/FullScreenSection";
 
 import { getCollectionIds, getCollectionById, getAllCollections } from '../../lib/collections';
@@ -293,15 +294,26 @@ export default function Product({ productData, instructionsData, localesData, pr
                 </FullScreenSection>
               )
             break;
+          // About
+          case 'about':
+            section.enableAboutSection === true &&
+              markup.push (
+                <About
+                  image={section.aboutImage}
+                  title={section.aboutTitle}
+                  text={section.aboutText}
+                  key={index}
+                />
+              )
+            break;
           // Contact
           case 'contact':
             section.enableContactSection === true &&
               markup.push (
-                <Contact
-                  image={section.contactFormImage}
-                  title={section.contactFormTitle}
-                  text={section.contactFormText}
+                <ContactForm
                   key={index}
+                  background={color}
+                  theme={section.theme}
                 />
               )
             break;
