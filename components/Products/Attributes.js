@@ -1,21 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
 import AttributeCard from '../Cards/AttributeCard';
 
-import { boldTitleClasses, standardTextClasses } from "../../classes/Text";
+import { boldTitleClasses, standardTextClasses, uppercaseTextClasses } from "../../classes/Text";
 import { horizontalPadding } from "../../classes/Spacing";
+
+import { ReactComponent as ArrowIcon } from '../../public/images/icons/two-arrows-down.svg';
 
 export default function Attributes({ 
   title,
   text,
   attributes,
   background,
+  shouldExpand,
   color
 }) {
+  const [isExpanded, setIsExpanded] = useState(false);
+
   return (
     <section
       style={{ backgroundImage: background ? `url(${background})` : 'url(/images/globals/isolant-aislantes-fondo-lineas-oscuras.jpg)' }}
+      className={`
+        relative
+        ${isExpanded === false ? 'overflow-y-hidden max-h-screen lg:max-h-full' : ''}
+      `}
     >
       <div
         className={`
@@ -53,6 +62,22 @@ export default function Attributes({
           )}
         </ul>
       </div>
+      {shouldExpand !== false &&
+        <div className="absolute w-full bottom-0 lg:hidden h-48 bg-gradient-to-t from-white flex items-end">
+          <button
+            onClick={() => setIsExpanded(!isExpanded)}
+            className={`${uppercaseTextClasses} text-gray-700 bg-white flex items-center p-4 rounded-full border border-gray-200 mx-auto mb-6`}
+          >
+            <ArrowIcon className={`${isExpanded === true ? 'transform rotate-180' : ''} fill-current text-gray-300 mr-4`} />
+            {isExpanded === true ?
+              "Menos atributos"
+              :
+              "Más atributos"
+            }
+            <ArrowIcon className={`${isExpanded === true ? 'transform rotate-180' : ''} fill-current text-gray-300 ml-4`} />
+          </button>
+        </div>
+      }
     </section>
   )
 }

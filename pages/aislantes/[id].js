@@ -153,6 +153,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                   background={isSiding && '/images/bg/siding.jpg'}
                   key={index}
                   color={color}
+                  shouldExpand={true}
                 />
               )
             break;
