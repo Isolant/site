@@ -1,0 +1,25 @@
+/* General styles for arrows */
+.Slider button[data-role="none"], .SolutionsSlider button[data-role="none"] {
+  @apply z-10 from-white h-full px-2 md:px-4 w-auto;
+}
+
+/* Right arrow */
+.Slider button[data-role="none"], .SolutionsSlider button[data-role="none"] {
+  @apply right-0 bg-gradient-to-l;
+}
+
+/* Left arrow */
+.Slider > button[data-role="none"]:first-child, .SolutionsSlider > button[data-role="none"]:first-child {
+  @apply left-0 right-auto bg-gradient-to-r;
+}
+
+.Slider > div > div > div {
+  @apply mx-3;
+}
+
+/* iPad ladscape */
+@media screen and (max-width: 1080px) {
+  .Slider > div > div > div {
+    @apply mx-1;
+  }
+}
