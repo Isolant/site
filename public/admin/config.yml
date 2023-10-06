@@ -621,6 +621,7 @@ collections:
         fields:
           - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de los productos en la pantalla.", required: false}
           - {label: "Destacado?", name: "highlighted", widget: "boolean", hint: "Se usa para ajustar los estilos en la pantalla de productos.", default: false, required: false}
+          - {label: "Oculto?", name: "hidden", widget: "boolean", hint: "Se usa para ocultar/mostrar el producto en los listados y líneas de producto.", default: false, required: false}
           - label: "Proporción de imagen del rollo"
             hint: "Se usa para ajustar los estilos, y asegurarse que las imágenes se ven correctamente."
             name: productImageProportion

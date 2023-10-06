@@ -14,6 +14,7 @@ globals:
   productImage: /images/products/iso-siding/product.png
   logo: /images/products/iso-siding/logo.svg
   color: "#13381F"
+  hidden: true
 page:
   - type: hero
     enableHero: true

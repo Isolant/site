@@ -52,7 +52,7 @@ export default function DropdownMenu({
                 />
                 {isExpanded === productLine.id &&
                   <ol className="mt-2 px-4 max-h-64 overflow-y-auto">
-                    {productLine.products && productLine.products.map((product, index) => 
+                    {productLine.products && productLine.products.filter(product => product !== "Iso Siding").map((product, index) => 
                       <DropdownItem
                         key={index}
                         href={`/aislantes/${slugify(product)}`}
