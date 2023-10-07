@@ -19,7 +19,7 @@ export default function SecondaryDownloadCard({ download, classes }) {
         {download.title}
       </h3>
       <p
-        className={`${smallTextClasses} text-white text-gray-400`}
+        className={`${smallTextClasses} text-gray-400`}
       >
         {download.format}
       </p>
@@ -36,21 +36,6 @@ export default function SecondaryDownloadCard({ download, classes }) {
               <ShortArrowRightIcon className="ml-1 fill-current text-gray-600" />
             </a>
           </li>
-        }
-        {download.zip &&
-          <React.Fragment>
-            <li>
-              <a
-                href={download.zip}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={`${uppercaseTextClasses} text-primary font-bold hover:opacity-90 flex items-center`}
-              >
-                Descargar
-                <ShortArrowDownIcon className="ml-1 fill-current text-primary" />
-              </a>
-            </li>
-          </React.Fragment>
         }
       </ul>
     </div>

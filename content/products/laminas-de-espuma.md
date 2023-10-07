@@ -1,52 +1,75 @@
 ---
 name: Láminas de espuma
-slogan: Láminas de espuma <strong>para diversos usos</strong>
 description: Se fabrican en distintos colores y espesores. Se puede solicitar con terminación con film de poliéster, film aluminizado y foil de aluminio puro.
-mainImage: /images/products/laminas-de-espuma/isolant-aislantes-linea-otros-usos-laminas-de-espuma-imagen-principal.jpg
-enableHero: true
-productImage: /images/products/laminas-de-espuma/isolant-aislantes-linea-otros-usos-laminas-de-espuma-producto-rollo.png
-mainBenefits:
-  - icon: /images/products/laminas-de-espuma/isolant-aislantes-linea-otros-usos-laminas-de-espuma-beneficio-1.svg
-    text: Protección contra impactos
-  - icon: /images/products/laminas-de-espuma/isolant-aislantes-linea-otros-usos-laminas-de-espuma-beneficio-2.svg
-    text: Material impermeable e imputrescible
-  - icon: /images/products/laminas-de-espuma/isolant-aislantes-linea-otros-usos-laminas-de-espuma-beneficio-3.svg
-    text: Amortiguante
-enableDetailsSection: true
-function:
-  - text: Protección contra impactos.
-  - text: Protección contra rayaduras.
-  - text: Impermeable y barrera de vapor.
-application:
-  - text: Empaque de todo tipo de artículos.
-  - text: Protección industria fruti hortícola.
-  - text: Tomado de juntas de dilatación.
-presentation:
-  - text: Hacé <a href="/images/products/laminas-de-espuma/isolant-aislantes-linea-otros-usos-laminas-de-espuma-presentaciones.png" target="_blank" rel="noopener noreferrer" class="font-bold">click acá</a> para ver todas las presentaciones disponibles
-detailsImage: /images/products/laminas-de-espuma/isolant-aislantes-linea-otros-usos-laminas-de-espuma-imagen-detalle.jpg
-enableBenefitsSection: true
-benefitsTitle: Usos <strong>frecuentes</strong>
-benefitsText: • Protección de equipos eléctricos y electrodomésticos<br />• Confección de bolsos térmicos<br />• Embalajes y porta objetos con fines de protección mecánica y anti abrasivos
-benefitsImage: /images/products/laminas-de-espuma/isolant-aislantes-linea-otros-usos-laminas-de-espuma-beneficio-exclusivo.jpg
-benefitsList:
-  - text: "Saludable. No desprende partículas."
-  - text: Material liviano.
-  - text: Material reciclable.
-enableVideoSection: false
-enableInstructions: false
-enableTechnicalInformation: false
-generalInformationList:
-  - title: Máxima aislación térmica
-  - title: Alta absorción de ruidos e impactos
-  - title: Resistencia a altas y bajas temperaturas
-  - title: Impermeable y barrera de vapor
-  - title: Incorroible, imputrescible e inalterable a la mayoría de los agentes químicos
-  - title: Termosoldable y permite ser pegado con adhesivos de contacto
-  - title: Flexible, liviano y maleable
-  - title: Son reciclables
-  - title: No contaminan el medio ambiente; no contienen freón
-enableDownloadsSection: false
-enableColocationSection: false
-ctaImage: /images/products/laminas-de-espuma/isolant-aislantes-linea-otros-usos-laminas-de-espuma-cta.jpg
-enableCtaSection: true
+globals:
+  productImage: /images/products/laminas-de-espuma/isolant-aislantes-linea-otros-usos-laminas-de-espuma-producto-rollo.png
+page:
+  - type: hero
+    slogan: Láminas de espuma **para diversos usos**
+    order: 1
+    heroImage:
+      selectedOption: image
+      mainImageBackgroundPosition: top
+      mainImage: /images/products/laminas-de-espuma/isolant-aislantes-linea-otros-usos-laminas-de-espuma-imagen-principal.jpg
+    enableHero: true
+    mainBenefits:
+      - icon: /images/products/laminas-de-espuma/isolant-aislantes-linea-otros-usos-laminas-de-espuma-beneficio-1.svg
+        text: Protección contra impactos
+      - icon: /images/products/laminas-de-espuma/isolant-aislantes-linea-otros-usos-laminas-de-espuma-beneficio-2.svg
+        text: Material impermeable e imputrescible
+      - icon: /images/products/laminas-de-espuma/isolant-aislantes-linea-otros-usos-laminas-de-espuma-beneficio-3.svg
+        text: Amortiguante
+  - type: details
+    enableDetailsSection: true
+    order: 2
+    function:
+      - text: Protección contra impactos.
+      - text: Protección contra rayaduras.
+      - text: Impermeable y barrera de vapor.
+    application:
+      - text: Empaque de todo tipo de artículos.
+      - text: Protección industria fruti hortícola.
+      - text: Tomado de juntas de dilatación.
+    presentation:
+      - text: Hacé <a href="/images/products/laminas-de-espuma/isolant-aislantes-linea-otros-usos-laminas-de-espuma-presentaciones.png" target="_blank" rel="noopener noreferrer" class="font-bold">click acá</a> para ver todas las presentaciones disponibles
+    detailsImage: /images/products/laminas-de-espuma/isolant-aislantes-linea-otros-usos-laminas-de-espuma-imagen-detalle.jpg
+  - type: benefits
+    enableBenefitsSection: true
+    order: 3
+    benefitsTitle: Usos **frecuentes**
+    benefitsText: • Protección de equipos eléctricos y electrodomésticos<br />• Confección de bolsos térmicos<br />• Embalajes y porta objetos con fines de protección mecánica y anti abrasivos
+    benefitsImage: /images/products/laminas-de-espuma/isolant-aislantes-linea-otros-usos-laminas-de-espuma-beneficio-exclusivo.jpg
+    benefitsList:
+      - text: "Saludable. No desprende partículas."
+      - text: Material liviano.
+      - text: Material reciclable.
+  - type: video
+    enableVideoSection: false
+    order: 4
+  - type: instructions
+    enableInstructions: false
+    order: 5
+  - type: technicalInformation
+    enableTechnicalInformation: false
+    order: 6
+    generalInformationList:
+      - title: Máxima aislación térmica
+      - title: Alta absorción de ruidos e impactos
+      - title: Resistencia a altas y bajas temperaturas
+      - title: Impermeable y barrera de vapor
+      - title: Incorroible, imputrescible e inalterable a la mayoría de los agentes químicos
+      - title: Termosoldable y permite ser pegado con adhesivos de contacto
+      - title: Flexible, liviano y maleable
+      - title: Son reciclables
+      - title: No contaminan el medio ambiente; no contienen freón
+  - type: downloads
+    enableDownloadsSection: false
+    order: 7
+  - type: colocation
+    enableColocationSection: false
+    order: 8
+  - type: cta
+    ctaImage: /images/products/laminas-de-espuma/isolant-aislantes-linea-otros-usos-laminas-de-espuma-cta.jpg
+    enableCtaSection: true
+    order: 9
 ---

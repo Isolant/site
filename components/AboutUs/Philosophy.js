@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ReactMarkdown from 'react-markdown';
 
 import Button from "../Forms/Button";
 
@@ -77,10 +78,11 @@ export default function Philosophy({
         >
           {activeItem.title}
         </h4>
-        <p
-          dangerouslySetInnerHTML={{ __html: activeItem.text}}
-          className={`${standardTextClasses} ${styles.TextContainer} text-gray-600`}
-        />
+        <div
+          className={`${standardTextClasses} ${styles.TextContainer} text-gray-600 grid gap-4`}
+        >
+          <ReactMarkdown>{activeItem.text}</ReactMarkdown>
+        </div>
         {activeItem.ctaLink &&
           <Button
             href={activeItem.ctaLink}

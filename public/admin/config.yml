@@ -1,3 +1,4 @@
+local_backend: true
 backend:
   name: git-gateway
   branch: main
@@ -60,7 +61,7 @@ collections:
         display_fields: ["title"]
         multiple: true
   # Sub-categories Collection
-  - name: "subCategories"
+  - name: "subcategories"
     label: "Sub Categorías"
     folder: "content/subcategories"
     create: true
@@ -77,342 +78,6 @@ collections:
         value_field: "name"
         display_fields: ["name"]
         multiple: true
-  # Instructions Collection
-  - name: "instructions"
-    label: "Instrucciones de colocación"
-    folder: "content/instructions"
-    create: true
-    editor: 
-      preview: false 
-    fields:
-      - {label: "Título", name: "title", widget: "string"}
-      - label: "Pasos"
-        name: "steps"
-        widget: "list"
-        fields:
-          - label: "Imagen"
-            name: "stepImage"
-            widget: "image"
-            choose_url: false
-            media_library:
-              config:
-                multiple: false
-          - {label: Texto, name: stepText, widget: text}
-  # Products Collection
-  - name: "products"
-    label: "Aislantes"
-    folder: "content/products"
-    create: true
-    identifier_field: name
-    editor: 
-      preview: false 
-    fields:
-      - {label: "Nombre", name: "name", widget: "string"}
-      - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de los productos en las líneas", required: false}
-      - {label: "Destacado?", name: "highlighted", widget: "boolean", default: false, required: false}
-      - {label: "Slogan", name: "slogan", widget: "string", hint: "Podés usar HTML en este campo.", required: false}
-      - {label: "Descripción", name: "description", widget: "text", hint: "Podés usar HTML en este campo.", required: false}
-      - {label: "Video Principal", name: "mainVideo", widget: "string", hint: "Opcional si se usa una imagen de fondo", required: false}
-      - label: "Imagen Principal"
-        name: "mainImage"
-        widget: "image"
-        choose_url: false
-        required: false
-        hint: "Opcional si se usa un video de fondo"
-        media_library:
-          config:
-            multiple: false
-      - label: "Imagen de rollo"
-        name: "productImage"
-        widget: "image"
-        choose_url: false
-        media_library:
-          config:
-            multiple: false
-      - label: "Logo de producto"
-        name: "logo"
-        widget: "image"
-        required: false
-        hint: "Opcional."
-        choose_url: false
-        media_library:
-          config:
-            multiple: false
-      - {label: "Link al e-commerce", name: "ecommerceLink", widget: "string", hint: "Si este producto está disponible en el e-commerce, agregá la URL acá", required: false}
-      - {label: "Habilitar encabezado principal", name: "enableHero", widget: "boolean", default: true}
-      - label: "Beneficios"
-        name: "mainBenefits"
-        widget: "list"
-        max: 3
-        allow_add: true
-        required: false
-        fields:
-          - {label: Icono, name: icon, widget: image, choose_url: false}
-          - {label: Texto, name: text, widget: string}
-      - {label: "Habilitar sección Detalles", name: "enableDetailsSection", widget: "boolean", default: true}
-      - label: "Imagen para sección Detalles"
-        name: "detailsImage"
-        widget: "image"
-        choose_url: false
-        required: false
-        media_library:
-          config:
-            multiple: false
-      - label: "Función"
-        name: "function"
-        widget: "list"
-        allow_add: true
-        required: false
-        fields:
-          - {label: Texto, name: text, widget: string}
-      - label: "Aplicación"
-        name: "application"
-        widget: "list"
-        allow_add: true
-        required: false
-        fields:
-          - {label: Texto, name: text, widget: string}
-      - label: "Presentación"
-        name: "presentation"
-        widget: "list"
-        required: false
-        allow_add: true
-        fields:
-          - {label: Texto, name: text, widget: string}
-      - {label: "Habilitar sección Beneficio Exclusivo", name: "enableBenefitsSection", widget: "boolean", default: true}
-      - {label: "Subtítulo sección Beneficio Exclusivo", name: "benefitsSubtitle", widget: "string", required: false}
-      - {label: "Título sección Beneficio Exclusivo", name: "benefitsTitle", widget: "string", hint: "Podés usar HTML en este campo.", required: false}
-      - {label: "Texto sección Beneficio Exclusivo", name: "benefitsText", widget: "text", hint: "Podés usar HTML en este campo.", required: false}
-      - label: "Lista de Beneficios"
-        name: "benefitsList"
-        widget: "list"
-        allow_add: true
-        required: false
-        fields:
-          - {label: Texto, name: text, widget: string}
-      - label: "Imagen para sección Beneficio Exclusivo"
-        name: "benefitsImage"
-        widget: "image"
-        choose_url: false
-        required: false
-        media_library:
-          config:
-            multiple: false
-      - label: "Imagen Patente"
-        name: "patentImage"
-        widget: "image"
-        required: false
-        choose_url: false
-        media_library:
-          config:
-            multiple: false
-      - {label: "Habilitar sección Video", name: "enableVideoSection", widget: "boolean", default: true}
-      - {label: "Link Video", name: "video", widget: "string", hint: "Ejemplo: https://www.youtube.com/watch?v=j63RxwAThYg", required: false}
-      - {label: "Habilitar sección Instrucciones de Colocación", name: "enableInstructions", widget: "boolean", default: true, required: false}
-      - label: "Instrucciones de colocación asociadas"
-        name: "instructions"
-        widget: "relation"
-        collection: "instructions"
-        required: false
-        search_fields: ["title"]
-        value_field: "title"
-        display_fields: ["title"]
-        multiple: true
-      - label: "Instrucción en PDF asociada"
-        hint: "Las instrucciones de colocación para descarga en PDF"
-        name: "pdfInstruction"
-        widget: "relation"
-        collection: "downloads"
-        search_fields: ["title"]
-        value_field: "title"
-        display_fields: ["title"]
-        multiple: false
-        required: false
-      - {label: "Habilitar sección Especificaciones Generales y Técnicas", name: "enableTechnicalInformation", widget: "boolean", default: true}
-      - label: "Lista de Especificaciones Técnicas"
-        name: "technicalInformationList"
-        widget: "list"
-        allow_add: true
-        required: false
-        fields:
-          - {label: Título, name: title, widget: string}
-          - {label: Texto, name: text, widget: string, required: false}
-      - label: "Lista de Especificaciones Generales"
-        name: "generalInformationList"
-        widget: "list"
-        allow_add: true
-        required: false
-        fields:
-          - {label: Título, name: title, widget: string}
-      - {label: "Habilitar sección Descargas", name: "enableDownloadsSection", widget: "boolean", default: true}
-      - {label: "Título sección Descargas", name: "downloadsTitle", widget: "string", hint: "Podés usar HTML en este campo", required: false}
-      - label: "Descargas asociadas"
-        name: "downloads"
-        widget: "relation"
-        collection: "downloads"
-        required: false
-        search_fields: ["title"]
-        value_field: "title"
-        display_fields: ["title"]
-        multiple: true
-      - {label: "Habilitar sección Colocación Aislante", name: "enableColocationSection", widget: "boolean", default: true}
-      - label: "Imagen para la sección Colocación Aislante"
-        name: "colocationImage"
-        widget: "image"
-        choose_url: false
-        required: false
-        media_library:
-          config:
-            multiple: false
-      - {label: "Título para la sección Colocación Aislante", name: "colocationTitle", widget: "string", hint: "Podés usar HTML en este campo.", required: false}
-      - {label: "Link para la sección Colocación Aislante", name: "colocationCtaLink", widget: "string", required: false}
-      - {label: "Texto del link para la sección Colocación Aislante", name: "colocationCtaText", widget: "string", required: false}
-      - {label: "Link para la sección Buscador de Asesor Técnico", name: "technicalAssessorCtaLink", widget: "string", required: false}
-      - {label: "Texto del link para la sección Buscador de Asesor Técnico", name: "technicalAssessorCtaText", widget: "string", required: false}
-      - {label: "Habilitar sección Llamado a la acción", name: "enableCtaSection", widget: "boolean", default: true}
-      - {label: "Título para la sección Llamado a la acción", name: "ctaTitle", widget: "string", hint: "Podés usar HTML en este campo.", required: false}
-      - label: "Imagen para la sección Llamado a la acción"
-        name: "ctaImage"
-        widget: "image"
-        choose_url: false
-        required: false
-        media_library:
-          config:
-            multiple: false
-  # Downloads Collection
-  - name: "downloads"
-    label: "Descargas"
-    folder: "content/downloads"
-    create: true
-    editor: 
-      preview: false 
-    fields:
-      - label: "Icono"
-        name: "icon"
-        widget: "image"
-        choose_url: false
-        media_library:
-          config:
-            multiple: false
-      - {label: Título, name: title, widget: string}
-      - {label: Formato, name: format, widget: string, default: "Formato: PDF/ZIP"}
-      - {label: Mostrar en la página principal de Descargas?, name: showOnMainPage, widget: boolean, hint: Si no querés que la descarga se muestre en la página de descargas, ocultala desde acá, default: true}
-      - label: "Archivo PDF"
-        name: "pdf"
-        widget: "file"
-        media_folder: "/public/images/uploads/downloads"
-        choose_url: false
-        required: false
-        media_library:
-          config:
-            multiple: false
-      - label: "Archivo ZIP"
-        name: "zip"
-        widget: "file"
-        media_folder: "/public/images/uploads/downloads"
-        choose_url: false
-        required: false
-        media_library:
-          config:
-            multiple: false
-      - label: "Líneas de producto asociadas"
-        name: "productLines"
-        widget: "relation"
-        required: false
-        collection: "productLines"
-        search_fields: ["title"]
-        value_field: "title"
-        display_fields: ["title"]
-        multiple: true
-      - {label: "Categoría de la descarga", hint: "Si la descarga no pertenece a ninguna línea de producto, asignale otra categoría desde acá", name: downloadCategory, widget: select, multiple: false, options: ["Manual de Colocación", "Isolant BIM", "Políticas", "Instrucciones de colocación", "Sustentabilidad", "Otros"], required: false}
-  # Agenda Collection
-  # - name: "agenda"
-  #   label: "Agenda de Giras Técnicas"
-  #   folder: "content/agenda"
-  #   create: true
-  #   editor: 
-  #     preview: false 
-  #   fields:
-  #     - {label: "Título", name: "title", widget: "string"}
-  #     - {label: "Fecha", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: false}
-  #     - {label: "Hora de comienzo", name: "startTime", widget: "datetime", date_format: false, time_format: "HH:mm"}
-  #     - {label: "Hora de finalización", name: "endTime", widget: "datetime", date_format: false, time_format: "HH:mm"}
-  #     - {label: "Lugar", name: "location", widget: "string"}
-  #     - {label: "Texto", name: "text", widget: "text", required: false}
-  #     - {label: "Link de inscripción", name: "link", widget: "string"}
-  # FAQs Collection
-  - name: "faqs"
-    label: "FAQs"
-    folder: "content/faqs"
-    create: true
-    editor: 
-      preview: false 
-    fields:
-      - {
-        label: "Categoría",
-        name: "category",
-        widget: "select",
-        multiple: false,
-        options:
-          [
-            "Generales",
-            "Productos",
-            "Colocación",
-            "Otras",
-          ],
-      }
-      - {label: "Título", name: "title", widget: "string"}
-      - {label: "Texto", name: "text", widget: "text", hint: "Podés usar HTML en este campo"}
-  # Product Selector Types Collection
-  - name: "productSelectorTypes"
-    label: "Necesito aislar..."
-    folder: "content/productSelector/types"
-    create: true
-    editor: 
-      preview: false
-    fields:
-      - {label: "Necesito aislar...", name: "productSelectorTypeTitle", widget: "string"}
-      - {label: "De mi...", name: productSelectorTypeTypology, widget: select, options: ["Vivienda", "Galpón / Tinglado", "Edificio de uso público / Comercial", "Departamento",  "Otros"]}
-      - label: "Soluciones asociadas"
-        name: "solutions"
-        widget: "relation"
-        collection: "solutions"
-        search_fields: ["title"]
-        value_field: "title"
-        display_fields: ["title"]
-        multiple: true
-  # Geolocalization Collection
-  - name: "geolocalization"
-    label: "Información para geolocalización"
-    files:
-      # Provinces Structure
-      - name: "provinces"
-        label: "Provincias"
-        file: "content/geolocalization/provinces.md"
-        create: false
-        editor: 
-          preview: false
-        fields:
-          - label: "Provincias donde funciona el e-commerce"
-            name: "provinces"
-            widget: "list"
-            allow_add: true
-            fields:
-              - {label: Nombre, name: name, widget: string}
-      # Locales Structure
-      - name: "locales"
-        label: "Localidades"
-        file: "content/geolocalization/locales.md"
-        create: false
-        editor: 
-          preview: false
-        fields:
-          - label: "Localidades donde funciona el e-commerce"
-            name: "locales"
-            widget: "list"
-            allow_add: true
-            fields:
-              - {label: Nombre, name: name, widget: string}
   # Global Pages Collection
   - name: "globals"
     label: "Páginas Generales"
@@ -614,7 +279,7 @@ collections:
             widget: "list"
             fields:
               - {label: Título, name: title, widget: string}
-              - {label: Texto, name: text, widget: text}
+              - {label: Texto, name: text, widget: markdown}
               - {label: Texto para el botón, name: ctaText, widget: string, required: false}
               - {label: Link para el botón, name: ctaLink, widget: string, required: false}
           - label: "Imagen para sección Emprendedores"
@@ -718,15 +383,16 @@ collections:
             required: false
             fields:
               - {label: Título, name: title, widget: string}
-              - {label: Texto, name: text, widget: text}
+              - {label: Texto, name: text, widget: markdown}
               - {label: Texto para el botón, name: ctaText, widget: string, required: false}
               - {label: Link para el botón, name: ctaLink, widget: string, required: false}
-          - {label: "Habilitar ODS", name: "ODSEnabled", widget: "boolean", default: true}
+          - {label: "Habilitar ODS", name: "ODSEnabled", widget: "boolean", default: true, required: true}
           - label: "ODS"
             name: "ods"
             widget: "list"
             allow_add: true
             required: false
+            summary: "{{fields.title}}"
             fields:
               - {label: Número, name: number, widget: number}
               - {label: Título, name: title, widget: string}
@@ -934,6 +600,581 @@ collections:
           - {label: "Texto para encabezado", name: "heroText", widget: "text", required: false}
           - {label: "Texto del link para encabezado", name: "heroCtaLink", widget: "string"}
           - {label: "Link para encabezado", name: "heroCtaText", widget: "string"}
+  # Products Collection
+  - name: "products"
+    label: "Productos"
+    folder: "content/products"
+    create: true
+    identifier_field: name
+    editor: 
+      preview: false 
+    fields:
+      # Minimum fields
+      - {label: "Nombre", name: "name", widget: "string"}
+      - {label: "Descripción", name: "description", widget: "markdown", hint: "Se usa en la pantalla de productos, y en el encabezado.", required: false}
+      # Global fields
+      - label: "Campos generales"
+        name: "globals"
+        widget: "object"
+        collapsed: true
+        summary: 'Expandí para ver los campos'
+        fields:
+          - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de los productos en la pantalla.", required: false}
+          - {label: "Destacado?", name: "highlighted", widget: "boolean", hint: "Se usa para ajustar los estilos en la pantalla de productos.", default: false, required: false}
+          - {label: "Oculto?", name: "hidden", widget: "boolean", hint: "Se usa para ocultar/mostrar el producto en los listados y líneas de producto.", default: false, required: false}
+          - label: "Proporción de imagen del rollo"
+            hint: "Se usa para ajustar los estilos, y asegurarse que las imágenes se ven correctamente."
+            name: productImageProportion
+            widget: select
+            multiple: false
+            options:
+            - { label: "Vertical", value: "vertical" }
+            - { label: "Horizontal", value: "horizontal" }
+            - { label: "Cuadrada", value: "square" }
+            required: false
+          - label: "Imagen de rollo."
+            hint: "La imagen del producto que se usa en la web."
+            name: "productImage"
+            widget: "image"
+            choose_url: false
+            required: false
+            media_library:
+              config:
+                multiple: false
+          - label: "Logo de producto"
+            name: "logo"
+            widget: "image"
+            required: false
+            hint: "Opcional."
+            choose_url: false
+            media_library:
+              config:
+                multiple: false
+          - { label: 'Color de producto', name: 'color', widget: 'color', required: false, allowInput: true }
+          - {label: "Link al e-commerce", name: "ecommerceLink", widget: "string", hint: "Si este producto está disponible en el e-commerce, agregá la URL acá.", required: false}
+      # FP fields
+      - label: "Estructura de página"
+        name: "page"
+        widget: "list"
+        summary: "{{fields.slogan}}"
+        allow_add: true
+        required: false
+        types:
+          # Hero
+          - label: "Encabezado"
+            name: "hero"
+            fields:
+              - {label: "Habilitar encabezado principal", name: "enableHero", widget: "boolean", hint: "Si no querés mostrar esta sección, deshabilitala desde acá", default: true, required: false}
+              - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
+              - label: "Tipo de encabezado principal"
+                hint: "Algunas fichas de producto (como Siding o Atacama) tienen un encabezado personalizado: Seleccioná la opción correcta acá."
+                name: heroType
+                widget: select
+                multiple: false
+                required: false
+                options:
+                - { label: "Estándar", value: "standard" }
+                - { label: "Customizado", value: "custom" }
+              - {label: "Bajada", name: "eyebrow", widget: "markdown", hint: "Si está, se usa arriba del título.", required: false}
+              - {label: "Título", name: "slogan", widget: "markdown", hint: "El título del encabezado.", required: false}
+              # Video / Image selector
+              - label: "Imagen/Video de encabezado"
+                name: "heroImage"
+                widget: "object"
+                summary: '{{fields.selectedOption}}'
+                collapsed: true
+                fields:
+                  - label: "Imagen o video?"
+                    name: "selectedOption"
+                    required: false
+                    widget: "select"
+                    options:
+                      - { label: "Imagen", value: "image" }
+                      - { label: "Video", value: "video" }
+                  - label: "Imagen Principal"
+                    name: "mainImage"
+                    widget: "image"
+                    choose_url: false
+                    required: false
+                    hint: "Opcional si se usa un video de fondo."
+                    media_library:
+                      config:
+                        multiple: false
+                  - label: "Encuadre de imagen"
+                    name: "mainImageBackgroundPosition"
+                    hint: Dependiendo la imagen que elijas, podés ajustar el encuadre para que se vea mejor desde acá
+                    required: false
+                    widget: "select"
+                    options:
+                      - { label: "Arriba", value: "top" }
+                      - { label: "Centrada", value: "center" }
+                      - { label: "Abajo", value: "bottom" }
+                  - {label: "Video Principal (Link a YouTube)", name: "mainVideo", widget: "string", hint: "Opcional si se usa una imagen de fondo.", required: false}
+              - label: "Beneficios"
+                name: "mainBenefits"
+                hint: "El encabezado estándar muestra 3 beneficios: Agregalos desde acá."
+                widget: "list"
+                max: 3
+                allow_add: true
+                required: false
+                fields:
+                  - {label: Icono, name: icon, widget: image, choose_url: false, required: false}
+                  - {label: Texto, name: text, widget: string, required: false}
+          # Details. Used in most products
+          - label: "Detalles"
+            name: "details"
+            fields:
+              - {label: "Habilitar sección Detalles", name: "enableDetailsSection", widget: "boolean", default: true, hint: "Si no queres mostrar esta sección, deshabilitala desde acá", required: false}
+              - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
+              - label: "Imagen para sección Detalles"
+                name: "detailsImage"
+                widget: "image"
+                choose_url: false
+                required: false
+                media_library:
+                  config:
+                    multiple: false
+              - label: "Función"
+                name: "function"
+                widget: "list"
+                allow_add: true
+                required: false
+                fields:
+                  - {label: Texto, name: text, widget: string}
+              - label: "Aplicación"
+                name: "application"
+                widget: "list"
+                allow_add: true
+                required: false
+                fields:
+                  - {label: Texto, name: text, widget: string}
+              - label: "Presentación"
+                name: "presentation"
+                widget: "list"
+                required: false
+                allow_add: true
+                fields:
+                  - {label: Texto, name: text, widget: string}
+          # Details Cards. Used in Siding products instead of standard cards
+          - label: "Tarjetas de detalle"
+            name: "detailCards"
+            fields:
+              - {label: "Habilitar sección tarjetas de detalle", name: "enableDetailCardsSection", widget: "boolean", hint: "Si no querés mostrar esta sección, deshabilitala desde acá", default: false, required: false}
+              - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
+              - label: "Tarjetas"
+                name: "cards"
+                widget: "list"
+                max: 4
+                allow_add: true
+                required: false
+                fields:
+                  - {label: Título, name: title, widget: string}
+                  - {label: Texto, name: text, widget: text}
+                  - {label: Imagen, name: image, widget: image, choose_url: false}
+          # Benefits. Used in most products
+          - label: "Beneficios exclusivos"
+            name: "benefits"
+            fields:
+              - {label: "Habilitar sección Beneficio Exclusivo", name: "enableBenefitsSection", required: false, widget: "boolean", default: true, hint: "Si no queres mostrar esta sección, deshabilitala desde acá"}
+              - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
+              - {label: "Subtítulo sección Beneficio Exclusivo", name: "benefitsSubtitle", widget: "string", required: false}
+              - {label: "Título sección Beneficio Exclusivo", name: "benefitsTitle", widget: "markdown", required: false}
+              - {label: "Texto sección Beneficio Exclusivo", name: "benefitsText", widget: "text", required: false}
+              - label: "Lista de Beneficios"
+                name: "benefitsList"
+                widget: "list"
+                allow_add: true
+                required: false
+                fields:
+                  - {label: Texto, name: text, widget: string}
+              - label: "Imagen para sección Beneficio Exclusivo"
+                name: "benefitsImage"
+                widget: "image"
+                choose_url: false
+                required: false
+                media_library:
+                  config:
+                    multiple: false
+              - label: "Imagen Patente"
+                name: "patentImage"
+                widget: "image"
+                required: false
+                choose_url: false
+                media_library:
+                  config:
+                    multiple: false
+          # Attributes. Used in Siding/Atacama products
+          - label: "Atributos"
+            name: "attributes"
+            fields:
+              - {label: "Habilitar sección atributos", name: "enableAttributesSection", widget: "boolean", hint: "Si no querés mostrar esta sección, deshabilitala desde acá", default: false, required: false}
+              - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
+              - {label: "Título", name: "attributesTitle", widget: "markdown", hint: "El título de la sección.", required: false}
+              - {label: "Bajada", name: "attributesText", widget: "markdown", hint: "Si está, se usa debajo del título.", required: false}
+              - label: "Atributos"
+                name: "attributes"
+                widget: "list"
+                allow_add: true
+                required: false
+                fields:
+                  - {label: Título, name: title, widget: string}
+                  - {label: Texto, name: text, widget: text}
+                  - {label: Imagen, name: image, widget: image, choose_url: false}
+          # Video
+          - label: "Video"
+            name: "video"
+            fields:
+              - {label: "Habilitar sección Video", name: "enableVideoSection", widget: "boolean", default: true, required: false, hint: "Si querés ocultar esta sección, deshabilitala desde acá"}
+              - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
+              - {label: "Link Video", name: "video", widget: "string", hint: "Ejemplo: https://www.youtube.com/watch?v=j63RxwAThYg", required: false}
+          # Subproducts. Used in Siding
+          - label: "Subproductos"
+            name: "subproducts"
+            fields:
+              - {label: "Habilitar sección Subproductos", name: "enableSubproductsSection", widget: "boolean", hint: "Si no querés mostrar esta sección, deshabilitala desde acá", default: false, required: false}
+              - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
+              - label: "Subproductos asociados"
+                name: "subproducts"
+                widget: "relation"
+                collection: "subproducts"
+                required: false
+                search_fields: ["name"]
+                value_field: "name"
+                display_fields: ["name"]
+                multiple: true
+          # Map. Used in Siding/Atacama
+          - label: "Mapa de distribuidores"
+            name: "map"
+            fields:
+              - {label: "Habilitar sección Mapa", name: "enableMapSection", widget: "boolean", hint: "Si no querés mostrar esta sección, deshabilitala desde acá", default: false, required: false}
+              - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
+              - {label: Código para embeber mapa, name: mapEmbed, widget: code, required: false}
+          # Instructions
+          - label: "Instrucciones de colocación"
+            name: "instructions"
+            fields:
+              - {label: "Habilitar sección Instrucciones de Colocación", name: "enableInstructions", widget: "boolean", default: true, required: false, hint: "Si querés ocultar esta sección, deshabilitala desde acá"}
+              - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
+              - label: "Instrucciones de colocación asociadas"
+                name: "instructions"
+                widget: "relation"
+                collection: "instructions"
+                required: false
+                search_fields: ["title"]
+                value_field: "title"
+                display_fields: ["title"]
+                multiple: true
+              - label: "Instrucción en PDF asociada"
+                hint: "Las instrucciones de colocación para descarga en PDF"
+                name: "pdfInstruction"
+                widget: "relation"
+                collection: "downloads"
+                search_fields: ["title"]
+                value_field: "title"
+                display_fields: ["title"]
+                multiple: false
+                required: false
+          # Technical Information
+          - label: "Información Técnica"
+            name: "technicalInformation"
+            fields:
+              - {label: "Habilitar sección Especificaciones Generales y Técnicas", name: "enableTechnicalInformation", widget: "boolean", default: true, required: false, hint: "Si querés ocultar esta sección, deshabilitala desde acá"}
+              - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
+              - label: "Lista de Especificaciones Técnicas"
+                name: "technicalInformationList"
+                widget: "list"
+                allow_add: true
+                required: false
+                fields:
+                  - {label: Título, name: title, widget: string}
+                  - {label: Texto, name: text, widget: string, required: false}
+              - label: "Lista de Especificaciones Generales"
+                name: "generalInformationList"
+                widget: "list"
+                allow_add: true
+                required: false
+                fields:
+                  - {label: Título, name: title, widget: string}
+          # Downloads
+          - label: "Descargas"
+            name: "downloads"
+            fields:
+              - {label: "Habilitar sección Descargas", name: "enableDownloadsSection", widget: "boolean", default: true, hint: "Si querés ocultar esta sección, deshabilitala desde acá"}
+              - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
+              - {label: "Título sección Descargas", name: "downloadsTitle", widget: "string", hint: "El título de la sección", required: false}
+              - {label: "Texto sección Descargas", name: "downloadsText", widget: "string", hint: "El texto que se muestra debajo del título", required: false}
+              - label: "Descargas asociadas"
+                name: "downloads"
+                widget: "relation"
+                collection: "downloads"
+                required: false
+                search_fields: ["title"]
+                value_field: "title"
+                display_fields: ["title"]
+                multiple: true
+          # Tutorials
+          - label: "Tutoriales"
+            name: "tutorials"
+            fields:
+              - {label: "Habilitar slider tutoriales?", name: "tutorialsEnabled", widget: "boolean", default: true, required: false, hint: "Habilitar el slider de tutoriales"}
+              - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
+              - {label: "Título sección slider tutoriales", name: "tutorialsTitle", widget: "string", hint: "Título para la sección tutoriales", required: false}
+              - {label: "Texto sección slider tutoriales", name: "tutorialsTextt", widget: "string", hint: "Texto para la sección tutoriales", required: false}
+              - label: "Contenido para slider tutoriales"
+                name: "tutorialsSlider"
+                widget: "list"
+                required: false
+                fields:
+                  - {label: Imagen, name: image, widget: image, hint: "Imagen de fondo"}
+                  - {label: Titulo, name: title, widget: string, hint: "Título para el slide"}
+                  - {label: Texto, name: text, widget: string, hint: "Texto para el slide"}
+                  - {label: Texto para botón, name: ctaText, widget: string, hint: "Texto para el botón del slide"}
+                  - {label: URL para botón, name: ctaLink, widget: string, hint: "URL a la que lleva el botón del slide"}
+          # Colocation
+          - label: "Colocación"
+            name: "colocation"
+            fields:
+              - {label: "Habilitar sección Colocación Aislante", name: "enableColocationSection", widget: "boolean", default: true, hint: "Si querés ocultar esta sección, deshabilitala desde acá", required: false}
+              - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
+              - label: "Imagen para la sección Colocación Aislante"
+                name: "colocationImage"
+                widget: "image"
+                choose_url: false
+                required: false
+                media_library:
+                  config:
+                    multiple: false
+              - {label: "Título para la sección Colocación Aislante", name: "colocationTitle", widget: "markdown", required: false}
+              - {label: "Link para la sección Colocación Aislante", name: "colocationCtaLink", widget: "string", required: false}
+              - {label: "Texto del link para la sección Colocación Aislante", name: "colocationCtaText", widget: "string", required: false}
+              - {label: "Link para la sección Buscador de Asesor Técnico", name: "technicalAssessorCtaLink", widget: "string", required: false}
+              - {label: "Texto del link para la sección Buscador de Asesor Técnico", name: "technicalAssessorCtaText", widget: "string", required: false}
+          # CTA
+          - label: "Llamado a la acción"
+            name: "cta"
+            fields:
+              - {label: "Habilitar sección Llamado a la acción", name: "enableCtaSection", widget: "boolean", default: true, hint: "Si querés ocultar esta sección, deshabilitala desde acá", required: false}
+              - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
+              - {label: "Título para la sección Llamado a la acción", name: "ctaTitle", widget: "string", required: false}
+              - label: "Imagen para la sección Llamado a la acción"
+                name: "ctaImage"
+                widget: "image"
+                choose_url: false
+                required: false
+                media_library:
+                  config:
+                    multiple: false
+          # About
+          - label: "Sobre nosotros"
+            name: "about"
+            fields:
+              - {label: "Habilitar sección sobre nosotros?", name: "enableAboutSection", widget: "boolean", default: true, required: false, hint: "Habilitar la sección sobre nosotros"}
+              - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
+              - {label: "Imagen superior sección sobre nosotros", name: "contactFormImage", widget: "image", hint: "Se usa arriba del título", required: false}
+              - {label: "Título sección sobre nosotros", name: "contactFormTitle", widget: "string", hint: "Título para el sección sobre nosotros", required: false}
+              - {label: "Texto sección sobre nosotros", name: "contactFormText", widget: "markdown", hint: "Bajada de texto para sección sobre nosotros", required: false}
+          # Contact Form
+          - label: "Formulario de Contacto"
+            name: "contact"
+            fields:
+              - {label: "Habilitar formulario de contacto?", name: "enableContactSection", widget: "boolean", default: true, required: false, hint: "Habilitar el formulario de contacto"}
+              - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de las secciones en la pantalla", required: false}
+  # Subproducts Collection
+  - name: "subproducts"
+    label: "Subproductos"
+    folder: "content/products/subproducts"
+    create: true
+    identifier_field: name
+    editor:
+      prefie: false
+    fields:
+      # Minimum fields
+      - {label: "Nombre", name: "name", widget: "string"}
+      - {label: "Descripción", name: "description", widget: "markdown", hint: "Se usa en la pantalla de producto general.", required: false}
+      # Global fields
+      - label: "Campos generales"
+        name: "globals"
+        widget: "object"
+        collapsed: true
+        summary: 'Expandí para ver los campos'
+        fields:
+          - {label: "Orden", name: "order", widget: "number", min: 1, hint: "Se usa para ordenar la aparición de los productos en la pantalla.", required: false}
+          - label: "Imagen de producto"
+            hint: "La imagen del producto que se usa en la web."
+            name: "productImage"
+            widget: "image"
+            choose_url: false
+            required: false
+            media_folder: /images/products/subproducts
+            media_library:
+              config:
+                multiple: false
+          - label: "Logo de producto"
+            name: "logo"
+            widget: "image"
+            required: false
+            hint: "Opcional."
+            choose_url: false
+            media_library:
+              config:
+                multiple: false
+          - { label: 'Color de producto', name: 'color', widget: 'color', required: false, allowInput: true }
+          - {label: "Link al e-commerce", name: "ecommerceLink", widget: "string", hint: "Si este producto está disponible en el e-commerce, agregá la URL acá.", required: false}
+  # Instructions Collection
+  - name: "instructions"
+    label: "Instrucciones de colocación"
+    folder: "content/instructions"
+    create: true
+    editor: 
+      preview: false 
+    fields:
+      - {label: "Título", name: "title", widget: "string"}
+      - label: "Pasos"
+        name: "steps"
+        widget: "list"
+        fields:
+          - label: "Imagen"
+            name: "stepImage"
+            widget: "image"
+            choose_url: false
+            media_library:
+              config:
+                multiple: false
+          - {label: Texto, name: stepText, widget: text}
+  # Downloads Collection
+  - name: "downloads"
+    label: "Descargas"
+    folder: "content/downloads"
+    create: true
+    editor: 
+      preview: false 
+    fields:
+      - label: "Icono"
+        name: "icon"
+        widget: "image"
+        choose_url: false
+        media_library:
+          config:
+            multiple: false
+      - {label: Título, name: title, widget: string}
+      - {label: Formato, name: format, widget: string, default: "Formato: PDF/ZIP"}
+      - {label: Mostrar en la página principal de Descargas?, name: showOnMainPage, widget: boolean, hint: Si no querés que la descarga se muestre en la página de descargas, ocultala desde acá, default: true}
+      - label: "Archivo PDF"
+        name: "pdf"
+        widget: "file"
+        media_folder: "/public/images/uploads/downloads"
+        choose_url: false
+        required: false
+        media_library:
+          config:
+            multiple: false
+      - label: "Archivo ZIP"
+        name: "zip"
+        widget: "file"
+        media_folder: "/public/images/uploads/downloads"
+        choose_url: false
+        required: false
+        media_library:
+          config:
+            multiple: false
+      - label: "Líneas de producto asociadas"
+        name: "productLines"
+        widget: "relation"
+        required: false
+        collection: "productLines"
+        search_fields: ["title"]
+        value_field: "title"
+        display_fields: ["title"]
+        multiple: true
+      - {label: "Categoría de la descarga", hint: "Si la descarga no pertenece a ninguna línea de producto, asignale otra categoría desde acá", name: downloadCategory, widget: select, multiple: false, options: ["Manual de Colocación", "Isolant BIM", "Políticas", "Instrucciones de colocación", "Otros"], required: false}
+  # Agenda Collection
+  # - name: "agenda"
+  #   label: "Agenda de Giras Técnicas"
+  #   folder: "content/agenda"
+  #   create: true
+  #   editor: 
+  #     preview: false 
+  #   fields:
+  #     - {label: "Título", name: "title", widget: "string"}
+  #     - {label: "Fecha", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: false}
+  #     - {label: "Hora de comienzo", name: "startTime", widget: "datetime", date_format: false, time_format: "HH:mm"}
+  #     - {label: "Hora de finalización", name: "endTime", widget: "datetime", date_format: false, time_format: "HH:mm"}
+  #     - {label: "Lugar", name: "location", widget: "string"}
+  #     - {label: "Texto", name: "text", widget: "text", required: false}
+  #     - {label: "Link de inscripción", name: "link", widget: "string"}
+  # FAQs Collection
+  - name: "faqs"
+    label: "FAQs"
+    folder: "content/faqs"
+    create: true
+    editor: 
+      preview: false 
+    fields:
+      - {
+        label: "Categoría",
+        name: "category",
+        widget: "select",
+        multiple: false,
+        options:
+          [
+            "Generales",
+            "Productos",
+            "Colocación",
+            "Otras",
+          ],
+      }
+      - {label: "Título", name: "title", widget: "string"}
+      - {label: "Texto", name: "text", widget: "text", hint: "Podés usar HTML en este campo"}
+  # Geolocalization Collection
+  - name: "geolocalization"
+    label: "Información para geolocalización"
+    files:
+      # Provinces Structure
+      - name: "provinces"
+        label: "Provincias"
+        file: "content/geolocalization/provinces.md"
+        create: false
+        editor: 
+          preview: false
+        fields:
+          - label: "Provincias donde funciona el e-commerce"
+            name: "provinces"
+            widget: "list"
+            allow_add: true
+            fields:
+              - {label: Nombre, name: name, widget: string}
+      # Locales Structure
+      - name: "locales"
+        label: "Localidades"
+        file: "content/geolocalization/locales.md"
+        create: false
+        editor: 
+          preview: false
+        fields:
+          - label: "Localidades donde funciona el e-commerce"
+            name: "locales"
+            widget: "list"
+            allow_add: true
+            fields:
+              - {label: Nombre, name: name, widget: string}
+  # Product Selector Types Collection
+  - name: "productSelectorTypes"
+    label: "Necesito aislar..."
+    folder: "content/productSelector/types"
+    create: true
+    editor: 
+      preview: false
+    fields:
+      - {label: "Necesito aislar...", name: "productSelectorTypeTitle", widget: "string"}
+      - {label: "De mi...", name: productSelectorTypeTypology, widget: select, options: ["Vivienda", "Galpón / Tinglado", "Edificio de uso público / Comercial", "Departamento",  "Otros"]}
+      - label: "Soluciones asociadas"
+        name: "solutions"
+        widget: "relation"
+        collection: "solutions"
+        search_fields: ["title"]
+        value_field: "title"
+        display_fields: ["title"]
+        multiple: true
   # Product Selector Pages Collection
   - name: "productSelector"
     label: "Páginas para el Selector de Producto"

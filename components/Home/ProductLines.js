@@ -16,7 +16,6 @@ export default function ProductLines({
   ctaText,
   ctaLink
 }) {
-
   const settings = {
     dots: false,
     autoplay: true,
@@ -41,7 +40,7 @@ export default function ProductLines({
           slidesToShow: 1,
         }
       },
-      ]
+    ]
   };
 
   return (

@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import Link from 'next/link';
 import Image from 'next/image';
+import ReactMarkdown from 'react-markdown';
 
 import Button from '../Forms/Button';
 import Product from '../Product';
@@ -11,7 +12,7 @@ import "slick-carousel/slick/slick-theme.css";
 import styles from './Slider.module.css';
 
 import { standardTextClasses, boldTitleClasses, uppercaseTextClasses } from "../../classes/Text";
-import { horizontalPadding, verticalPadding } from "../../classes/Spacing";
+import { horizontalPadding } from "../../classes/Spacing";
 
 import {ReactComponent as Dots} from '../../public/images/misc/dots.svg';
 
@@ -38,6 +39,7 @@ export default function HighlightedProducts({
       >
         {products
           .map((product, index) => {
+            const heroSection = product.page.find(section => section.type === 'hero');
             return(
               <div key={index}>
                 {/* Content */}
@@ -49,16 +51,17 @@ export default function HighlightedProducts({
                       Producto Destacado
                     </p>
                     <h5 className={`${boldTitleClasses} text-white pt-1 sm:pt-3 pb-4 sm:pb-3`}>{product.name}</h5>
-                    <p
-                      className={`${standardTextClasses} text-gray-300`}
-                      dangerouslySetInnerHTML={{ __html: product.description }}
-                    />
+                    <div
+                      className={`${standardTextClasses} text-gray-300 grid gap-2`}
+                    >
+                      <ReactMarkdown>{product.description}</ReactMarkdown>
+                    </div>
                     <div className="flex flex-col sm:flex-row items-center mt-8">
                       <Button
-                        href={product.ecommerceLink ? product.ecommerceLink : `/contacto?comprar-isolant=${product.id}`}
+                        href={product.globals.ecommerceLink ? product.globals.ecommerceLink : `/contacto?comprar-isolant=${product.id}`}
                         text={"Comprar"}
                         color="primary"
-                        isExternal={product.ecommerceLink ? true : false}
+                        isExternal={product.globals.ecommerceLink ? true : false}
                         icon={true}
                         classes="w-full sm:w-auto sm:mr-6 mb-4 sm:mb-0"
                       />
@@ -80,14 +83,14 @@ export default function HighlightedProducts({
                     <div className="bg-gradient-to-t from-gray-700 absolute w-full h-full z-10" />
                     <div className="h-12 w-12 transform rotate-45 absolute top-2/4 hidden z-10 lg:block bg-gray-600 -left-6" />
                     <Product
-                      product={product.productImage}
+                      product={product.globals.productImage}
                       name={product.name}
                       classes="w-24 md:w-48 h-full flex items-end absolute bottom-8 right-8 z-20"
                       decorations={false}
                     />
                     <Dots className="bottom-4 right-4 absolute text-gray-300 fill-current z-0" />
                     <Image
-                      src={product.mainImage}
+                      src={heroSection.heroImage.mainImage}
                       alt={product.name}
                       className="object-cover"
                       layout="fill"

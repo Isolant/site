@@ -1,5 +1,6 @@
 import React from "react";
 import Link from 'next/link';
+import ReactMarkdown from 'react-markdown';
 
 import { uppercaseTextClasses, smallTextClasses } from "../../classes/Text";
 
@@ -19,14 +20,15 @@ export default function ProductListCard({ product }) {
           >
             {product.name}
           </h5>
-          <p
+          <div
             className={`${smallTextClasses} ${styles.Text} text-gray-500 line-clamp-3`}
-            dangerouslySetInnerHTML={{ __html: product.description }}
-          />
+          >
+            <ReactMarkdown>{product.description}</ReactMarkdown>
+          </div>
           <div className="flex flex-col gap-1 mt-2">
-            {product.ecommerceLink &&
+            {product.globals && product.globals.ecommerceLink &&
               <a
-                href={product.ecommerceLink}
+                href={product.globals.ecommerceLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`${uppercaseTextClasses} text-secondary hover:opacity-80 transition ease-in-out duration-100 flex items-center gap-1`}
@@ -46,13 +48,15 @@ export default function ProductListCard({ product }) {
             </Link>
           </div>
         </div>
-        <div className="flex items-center ml-2 md:ml-4">
-          <img
-            src={product.productImage}
-            alt={product.name}
-            className={`${product.id === 'banda-acoustic' || product.id === 'bloques-de-espuma' || product.id === 'fix-band' ? 'h-16' : 'h-28'} object-cover`}
-          />
-        </div>
+        {product.globals &&
+          <div className="flex items-center ml-2 md:ml-4">
+            <img
+              src={product.globals.productImage}
+              alt={product.name}
+              className={`${product.globals.productImageProportion === 'square' ? 'h-16' : 'h-28'} object-cover`}
+            />
+          </div>
+        }
       </div>
     </li>
   )

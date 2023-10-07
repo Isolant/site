@@ -1,8 +1,8 @@
-// Globals
 import React from "react";
+import ReactMarkdown from "react-markdown";
+
 import { standardTextClasses } from "../../classes/Text";
 
-// Components
 import ThirdScreenSection from '../Layout/ThirdScreenSection';
 
 export default function Details({ 
@@ -77,9 +77,10 @@ export default function Details({
               {presentations.map((presentation, index) => 
                 <li
                   key={index}
-                  dangerouslySetInnerHTML={{ __html: presentation.text}}
                   className={`${standardTextClasses} text-gray-500 font-light mb-1`}
-                />
+                >
+                  <ReactMarkdown>{presentation.text}</ReactMarkdown>
+                </li>
               )}
             </ul>
           </div>

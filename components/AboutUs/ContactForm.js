@@ -34,12 +34,14 @@ export default function Form({ products, title, text }) {
 
   return (
     <React.Fragment>
-      <TitlePackage
-        titleHierarchy={"h6"}
-        title={title}
-        text={text}
-        theme="light"
-      />
+      {title &&
+        <TitlePackage
+          titleHierarchy={"h6"}
+          title={title}
+          text={text}
+          theme="light"
+        />
+      }
       <form
         className={`grid grid-cols-1 md:grid-cols-2 items-center gap-8 mt-8`}
         action={isCaptchaValid === true ? "/api/about-us" : '/error'}

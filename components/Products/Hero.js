@@ -1,21 +1,11 @@
-// Globals
 import React from "react";
 import Link from "next/link";
-import Slider from "react-slick";
 
-// Styles
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-
-// Components
 import TitlePackage from '../TitlePackage';
-import Button from '../Forms/Button';
 
-// Classes
 import { horizontalPadding } from "../../classes/Spacing";
 import { standardTextClasses } from "../../classes/Text";
 
-// SVGs
 import { ReactComponent as ChevronDown } from '../../public/images/icons/chevron-down.svg';
 
 export default function Hero({ 
@@ -23,25 +13,9 @@ export default function Hero({
   backgroundVideo,
   backgroundPosition,
   product,
-  enableBuyBtn,
   slogan,
   benefits,
-  link,
 }) {
-
-  const settings = {
-    dots: false,
-    arrows: false,
-    autoplay: true,
-    autoplaySpeed: 8000,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    adaptiveHeight: false,
-    draggable: true,
-  };
-
   const dontPurgeThese = ['xl:grid-cols-1', 'xl:grid-cols-2', 'xl:grid-cols-3', 'xl:grid-cols-4', 'xl:grid-cols-5', 'xl:grid-cols-6'];
 
   return (
@@ -60,33 +34,6 @@ export default function Hero({
             allowFullScreen
             className={`w-full h-full pointer-events-none opacity-40`}
           ></iframe>
-        </div>
-      : Array.isArray(background) ?
-        <div
-          className="bg-gray-800 w-full h-full absolute lg:relative xl:max-h-screen overflow-hidden"
-        >
-          <Slider
-            {...settings} 
-          >
-            {background.map((image, index) => 
-              <img
-                src={image}
-                alt={product}
-                key={index}
-                className={`
-                  opacity-40 w-full h-full object-cover
-                  ${backgroundPosition && backgroundPosition === 'top' ?
-                    'object-top'
-                    :
-                    backgroundPosition && backgroundPosition === 'center' ?
-                    'object-center'
-                    :
-                    'object-bottom'
-                  }
-                `}
-              />
-            )}
-          </Slider>
         </div>
       :
         <div
@@ -114,54 +61,43 @@ export default function Hero({
           titleHierarchy="h1"
           title={slogan}
           theme="dark"
+          usesMarkdown={true}
         />
       </div>
-      <ul className={`${horizontalPadding} relative lg:absolute bottom-0 py-8 md:py-16 lg:pb-24 lg:pt-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-${benefits.length} w-full gap-4 lg:gap-8`}>
-        {benefits.map((benefit, index) => {
-          return(
-            <li
-              key={index}
-              className="text-center flex flex-col items-center"
-            >
-              <div
-                className="w-16 h-16 flex items-center justify-center"
+      {benefits &&
+        <ul className={`${horizontalPadding} relative lg:absolute bottom-0 py-8 md:py-16 lg:pb-24 lg:pt-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-${benefits.length} w-full gap-4 lg:gap-8`}>
+          {benefits.map((benefit, index) => {
+            return(
+              <li
+                key={index}
+                className="text-center flex flex-col items-center"
               >
-                <img
-                  src={benefit.icon}
-                  alt={benefit.text}
-                  className="mb-4 mx-auto"
-                />
-              </div>
-              <p
-                className={`${standardTextClasses} text-white max-w-xs mx-auto`}
-              >
-                {benefit.text}
-              </p>
-            </li>
-          )
-        })}
-
-        {enableBuyBtn === true ?
-          <li
-            className="self-end lg:col-span-full xl:col-span-1 text-center mt-4 sm:mt-0"
-          >
-            <Button
-              href={link}
-              text="Comprar ahora"
-              color="transparent"
-              isExternal={true}
-            />
-          </li>
-          : ''
-        }
-      </ul>
-        <Link
-          href="#details"
-        >
-          <a className="hidden sm:block absolute bottom-8 animate-bounce">
-            <ChevronDown className="text-white fill-current" />
-          </a>
-        </Link>
+                <div
+                  className="w-16 h-16 flex items-center justify-center"
+                >
+                  <img
+                    src={benefit.icon}
+                    alt={benefit.text}
+                    className="mb-4 mx-auto"
+                  />
+                </div>
+                <p
+                  className={`${standardTextClasses} text-white max-w-xs mx-auto`}
+                >
+                  {benefit.text}
+                </p>
+              </li>
+            )
+          })}
+        </ul>
+      }
+      <Link
+        href="#details"
+      >
+        <a className="hidden sm:block absolute bottom-8 animate-bounce">
+          <ChevronDown className="text-white fill-current" />
+        </a>
+      </Link>
     </section>
   )
 }

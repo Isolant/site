@@ -17,15 +17,15 @@ import { ReactComponent as Circle } from '../../public/images/misc/circle.svg';
 import { ReactComponent as BigCircle } from '../../public/images/misc/big-circle.svg';
 
 export default function HighlightedProduct({ product, title, location, modalOpeningFunction }) {
-  // const isLocationValid = location && location.isCityValid === true && product.ecommerceLink || location && location === 'denied' && product.ecommerceLink;
+  // const isLocationValid = location && location.isCityValid === true && product.globals.ecommerceLink || location && location === 'denied' && product.globals.ecommerceLink;
   const buttons = [{
-    link: product.ecommerceLink ? product.ecommerceLink : null,
+    link: product.globals.ecommerceLink ? product.globals.ecommerceLink : null,
     text: 'Comprar',
     icon: true,
     color: 'secondary',
-    isExternal: product.ecommerceLink ? true : false,
-    isFormBtn: product.ecommerceLink ? false : true,
-    action: product.ecommerceLink ? null : modalOpeningFunction,
+    isExternal: product.globals.ecommerceLink ? true : false,
+    isFormBtn: product.globals.ecommerceLink ? false : true,
+    action: product.globals.ecommerceLink ? null : modalOpeningFunction,
   }, {
     link: `/aislantes/${product.id}`,
     text: 'Conocé Más',
@@ -48,7 +48,7 @@ export default function HighlightedProduct({ product, title, location, modalOpen
       </li>
       <li className="relative max-w-sm w-full mx-auto lg:justify-self-end">
         <Product
-          product={product.productImage}
+          product={product.globals.productImage}
           name={product.name}
           classes={`${HighlightedProductStyles.Product} mx-auto py-8`}
           decorations={false}

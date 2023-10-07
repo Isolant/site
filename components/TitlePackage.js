@@ -1,11 +1,11 @@
-// Globals
 import React from "react";
+import ReactMarkdown from "react-markdown";
 
-// Components
 import Button from './Forms/Button';
 
-// Classes
 import { thinTitleClasses, standardTextClasses } from "../classes/Text";
+
+import styles from './TitlePackage.module.css';
 
 export default function TitlePackage({ 
   titleHierarchy,
@@ -17,49 +17,28 @@ export default function TitlePackage({
   buttons,
   additionalButtonClasses,
   additionalContent,
+  usesMarkdown
  }) {
 
-  const titleClasses = `${thinTitleClasses} ${theme === 'dark' ? 'text-white' : 'text-gray-800'} ${additionalTitleClasses}`
-  const textClasses = `${standardTextClasses} ${theme === 'dark' ? 'text-gray-300' : 'text-gray-500'} ${additionalTextClasses} mt-2 lg:mt-6`
+  const titleClasses = `${thinTitleClasses} ${theme === 'dark' ? 'text-white' : 'text-gray-800'} ${additionalTitleClasses} ${styles.Title}`;
+  const textClasses = `${standardTextClasses} ${theme === 'dark' ? 'text-gray-300' : 'text-gray-500'} ${additionalTextClasses} ${styles.Text} mt-2 lg:mt-6`;
+
+  const HeadingTag = `${titleHierarchy}`;
+  
 
   return (
     <React.Fragment>
-      {titleHierarchy === 'h1' ?
-        <h1
-          className={titleClasses}
-          dangerouslySetInnerHTML={{ __html: title }}
-        />
-        : titleHierarchy === 'h2' ?
-        <h2
-          className={titleClasses}
-          dangerouslySetInnerHTML={{ __html: title }}
-        />
-        : titleHierarchy === 'h3' ?
-        <h3
-          className={titleClasses}
-          dangerouslySetInnerHTML={{ __html: title }}
-        />
-        : titleHierarchy === 'h4' ?
-        <h4
-          className={titleClasses}
-          dangerouslySetInnerHTML={{ __html: title }}
-        />
-        : titleHierarchy === 'h5' ?
-        <h5
-          className={titleClasses}
-          dangerouslySetInnerHTML={{ __html: title }}
-        />
-        :
-        <h6
-          className={titleClasses}
-          dangerouslySetInnerHTML={{ __html: title }}
-        />
-      }
+      <HeadingTag
+        className={titleClasses}
+      >
+        <ReactMarkdown>{title}</ReactMarkdown>
+      </HeadingTag>
       {text &&
-        <p
+        <div
           className={textClasses}
-          dangerouslySetInnerHTML={{ __html: text }}
-        />
+        >
+          <ReactMarkdown>{text}</ReactMarkdown>
+        </div>
       }
       {additionalContent && additionalContent}
       {buttons &&

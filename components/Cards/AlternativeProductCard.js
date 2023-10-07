@@ -29,9 +29,9 @@ export default function ProductCard({ product }) {
           </div>
           <div className="ml-2">
             <img
-              src={product.productImage}
+              src={product.globals.productImage}
               alt={product.name}
-              className="h-28 object-cover"
+              className={`${product.globals.productImageProportion === 'square' ? 'h-16' : 'h-28'} object-cover`}
             />
           </div>
         </li>
