@@ -13,9 +13,9 @@ page:
     order: 1
     slogan: Aislante para caños **de gran caudal**
     heroImage:
-      selectedOption: image
-      mainImageBackgroundPosition: top
-      mainImage: /images/products/isocano/isolant-aislantes-linea-climatizacion-isocano-imagen-principal.jpg
+      - selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/isocano/isolant-aislantes-linea-climatizacion-isocano-imagen-principal.jpg
     enableHero: true
     mainBenefits:
       - icon: /images/products/isocano/isolant-aislantes-linea-climatizacion-isocano-beneficio-1.svg

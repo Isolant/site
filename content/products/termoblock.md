@@ -12,9 +12,9 @@ page:
   - type: hero
     order: 1
     heroImage:
-      selectedOption: image
-      mainImageBackgroundPosition: top
-      mainImage: /images/products/termoblock/isolant-aislantes-linea-galpones-y-tinglados-termoblock-imagen-principal.jpg
+      - selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/termoblock/isolant-aislantes-linea-galpones-y-tinglados-termoblock-imagen-principal.jpg
     enableHero: true
     slogan: Que tus animales se **sientan en un hotel**
     mainBenefits:

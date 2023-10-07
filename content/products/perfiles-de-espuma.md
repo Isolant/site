@@ -8,9 +8,9 @@ page:
     order: 1
     slogan: Respaldo de juntas, **elásticas e hidrófugas**
     heroImage:
-      selectedOption: image
-      mainImageBackgroundPosition: top
-      mainImage: /images/products/perfiles-de-espuma/isolant-aislantes-linea-otros-usos-perfiles-de-espuma-imagen-principal.jpg
+      - selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/perfiles-de-espuma/isolant-aislantes-linea-otros-usos-perfiles-de-espuma-imagen-principal.jpg
     enableHero: true
     mainBenefits:
       - icon: /images/products/perfiles-de-espuma/isolant-aislantes-linea-otros-usos-perfiles-de-espuma-beneficio-1.svg

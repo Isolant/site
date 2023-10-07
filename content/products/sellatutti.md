@@ -11,9 +11,9 @@ page:
     enableHero: true
     order: 1
     heroImage:
-      selectedOption: image
-      mainImageBackgroundPosition: top
-      mainImage: /images/products/sellatutti/isolant-aislantes-linea-accesorios-sellatutti-imagen-fondo.jpg
+      - selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/sellatutti/isolant-aislantes-linea-accesorios-sellatutti-imagen-fondo.jpg
     mainBenefits:
       - icon: /images/products/sellatutti/isolant-aislantes-linea-otros-usos-sellatutti-beneficio-1.svg
         text: Material impermeable e imputrescible

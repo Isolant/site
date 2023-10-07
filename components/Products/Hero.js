@@ -1,5 +1,9 @@
 import React from "react";
 import Link from "next/link";
+import Slider from "react-slick";
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 import TitlePackage from '../TitlePackage';
 
@@ -9,7 +13,7 @@ import { standardTextClasses } from "../../classes/Text";
 import { ReactComponent as ChevronDown } from '../../public/images/icons/chevron-down.svg';
 
 export default function Hero({ 
-  background,
+  images,
   backgroundVideo,
   backgroundPosition,
   product,
@@ -18,45 +22,61 @@ export default function Hero({
 }) {
   const dontPurgeThese = ['xl:grid-cols-1', 'xl:grid-cols-2', 'xl:grid-cols-3', 'xl:grid-cols-4', 'xl:grid-cols-5', 'xl:grid-cols-6'];
 
+  const settings = {
+    dots: false,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 8000,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    adaptiveHeight: false,
+    draggable: true,
+  };
+
   return (
     <section
-      className={`relative flex items-center flex-col overflow-hidden`}
+      className={`relative flex items-center flex-col overflow-hidden bg-gray-800`}
     >
-      {backgroundVideo !== undefined ?
-        <div
-          className={`overflow-hidden bg-gray-800 aspect-w-2 aspect-h-2 lg:aspect-w-16 lg:aspect-h-9 2xl:aspect-w-4 2xl:aspect-h-1 absolute lg:relative w-full`}
+      <Slider
+          {...settings} 
+          className="w-full"
         >
-          <iframe 
-            src={`https://www.youtube.com/embed/${backgroundVideo.substring(32)}?rel=0?version=3&autoplay=1&controls=0&&showinfo=0&loop=1&mute=1&playlist=${backgroundVideo.substring(32)}`}
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            className={`w-full h-full pointer-events-none opacity-40`}
-          ></iframe>
-        </div>
-      :
-        <div
-          className="bg-gray-800 w-full h-full absolute lg:relative xl:max-h-screen"
-        >
-          <img
-            src={background}
-            alt={product}
-            className={`
-              opacity-40 w-full h-full object-cover
-              ${backgroundPosition && backgroundPosition === 'top' ?
-                'object-top'
+          {images.map((image, index) =>
+            image.mainVideo !== undefined ?
+              <div
+                className={`overflow-hidden bg-gray-800 aspect-w-2 aspect-h-2 lg:aspect-w-16 lg:aspect-h-9 2xl:aspect-w-4 2xl:aspect-h-1 absolute lg:relative w-full`}
+                key={index}
+              >
+                <iframe 
+                  src={`https://www.youtube.com/embed/${backgroundVideo.substring(32)}?rel=0?version=3&autoplay=1&controls=0&&showinfo=0&loop=1&mute=1&playlist=${backgroundVideo.substring(32)}`}
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className={`w-full h-full pointer-events-none opacity-40`}
+                ></iframe>
+              </div>
                 :
-                backgroundPosition && backgroundPosition === 'center' ?
-                'object-center'
-                :
-                'object-bottom'
-              }
-            `}
-          />
-        </div>
-      }
-      <div className={`${horizontalPadding} relative container text-center mx-auto lg:absolute z-10 lg:max-w-lg xl:max-w-xl pt-24 sm:pt-32`}>
+              <img
+                src={image.mainImage}
+                alt={product}
+                className={`
+                  opacity-40 w-full h-screen object-cover
+                  ${image.mainImageBackgroundPosition && image.mainImageBackgroundPosition === 'top' ?
+                    'object-top'
+                    :
+                    image.mainImageBackgroundPosition && image.mainImageBackgroundPosition === 'center' ?
+                    'object-center'
+                    :
+                    'object-bottom'
+                  }
+                `}
+              />
+          )}
+      </Slider>
+      <div className={`${horizontalPadding} container text-center mx-auto absolute z-10 md:max-w-lg xl:max-w-xl pt-48 md:pt-64`}>
         <TitlePackage
           titleHierarchy="h1"
           title={slogan}
@@ -65,7 +85,7 @@ export default function Hero({
         />
       </div>
       {benefits &&
-        <ul className={`${horizontalPadding} relative lg:absolute bottom-0 py-8 md:py-16 lg:pb-24 lg:pt-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-${benefits.length} w-full gap-4 lg:gap-8`}>
+        <ul className={`${horizontalPadding} absolute bottom-0 py-8 md:py-16 lg:pb-24 lg:pt-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-${benefits.length} w-full gap-4 lg:gap-8`}>
           {benefits.map((benefit, index) => {
             return(
               <li

@@ -13,9 +13,9 @@ page:
   - type: hero
     order: 1
     heroImage:
-      selectedOption: image
-      mainImageBackgroundPosition: top
-      mainImage: /images/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-imagen.jpg
+      - selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-imagen.jpg
     enableHero: true
     slogan: Tu industria con la terminación **de un shopping**
     mainBenefits:

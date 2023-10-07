@@ -13,9 +13,9 @@ page:
     slogan: Climatización de **industrias aisladas y protegidas**
     order: 1
     heroImage:
-      selectedOption: image
-      mainImageBackgroundPosition: top
-      mainImage: /images/products/espuma-aluminio/isolant-aislantes-linea-climatizacion-espuma-aluminio-imagen-principal.jpg
+      - selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/espuma-aluminio/isolant-aislantes-linea-climatizacion-espuma-aluminio-imagen-principal.jpg
     enableHero: true
     mainBenefits:
       - icon: /images/products/espuma-aluminio/isolant-aislantes-linea-climatizacion-espuma-aluminio-beneficio-1.svg

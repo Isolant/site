@@ -86,9 +86,7 @@ export default function Product({ productData, instructionsData, localesData, pr
             :
               markup.push (
                 <Hero
-                  background={section.heroImage.mainImage}
-                  backgroundVideo={section.mainVideo}
-                  backgroundPosition={section.mainImageBackgroundPosition}
+                  images={section.heroImage}
                   product={name}
                   slogan={section.slogan}
                   benefits={section.mainBenefits}

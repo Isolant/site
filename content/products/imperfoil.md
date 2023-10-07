@@ -20,9 +20,9 @@ page:
     slogan: Cubrí tu estructura con **la mejor barrera hidrófuga y barrera de
       vientos**
     heroImage:
-      selectedOption: image
-      mainImageBackgroundPosition: top
-      mainImage: /images/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-imagen.jpg
+      - selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-imagen.jpg
     enableHero: true
     mainBenefits:
       - icon: /images/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-beneficio-1.svg

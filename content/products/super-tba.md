@@ -14,9 +14,9 @@ page:
   - type: hero
     order: 1
     heroImage:
-      selectedOption: image
-      mainImageBackgroundPosition: top
-      mainImage: /images/products/super-tba/isolant-aislantes-linea-vivienda-super-tba-imagen-fondo.jpg
+      - selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/super-tba/isolant-aislantes-linea-vivienda-super-tba-imagen-fondo.jpg
     enableHero: true
     slogan: El único aislante para **cualquier tipo de techos**
     mainBenefits:

@@ -9,9 +9,9 @@ page:
   - type: hero
     order: 1
     heroImage:
-      selectedOption: image
-      mainImageBackgroundPosition: top
-      mainImage: /images/products/termo-solar/isolant-aislantes-linea-accesorios-termo-solar-imagen-principal.jpg
+      - selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/termo-solar/isolant-aislantes-linea-accesorios-termo-solar-imagen-principal.jpg
     enableHero: true
     slogan: ¡Metele energía **a tu mate!**
     mainBenefits:

@@ -19,9 +19,9 @@ page:
     order: 1
     slogan: ¡Aislá y dale una terminación agradable **a tus ambientes!**
     heroImage:
-      selectedOption: image
-      mainImageBackgroundPosition: top
-      mainImage: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-imagen-fondo.jpg
+      - selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-imagen-fondo.jpg
     enableHero: true
     mainBenefits:
       - icon: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-beneficio-1-aisle.svg

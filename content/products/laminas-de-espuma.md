@@ -8,9 +8,9 @@ page:
     slogan: Láminas de espuma **para diversos usos**
     order: 1
     heroImage:
-      selectedOption: image
-      mainImageBackgroundPosition: top
-      mainImage: /images/products/laminas-de-espuma/isolant-aislantes-linea-otros-usos-laminas-de-espuma-imagen-principal.jpg
+      - selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/laminas-de-espuma/isolant-aislantes-linea-otros-usos-laminas-de-espuma-imagen-principal.jpg
     enableHero: true
     mainBenefits:
       - icon: /images/products/laminas-de-espuma/isolant-aislantes-linea-otros-usos-laminas-de-espuma-beneficio-1.svg

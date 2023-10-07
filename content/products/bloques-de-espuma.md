@@ -9,9 +9,9 @@ page:
     slogan: Multilaminado de espuma **para diversos usos**
     order: 1
     heroImage:
-      selectedOption: image
-      mainImageBackgroundPosition: top
-      mainImage: /images/products/bloques-de-espuma/isolant-aislantes-linea-otros-usos-bloques-de-espuma-imagen-principal.jpg
+      - selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/bloques-de-espuma/isolant-aislantes-linea-otros-usos-bloques-de-espuma-imagen-principal.jpg
     enableHero: true
     mainBenefits:
       - icon: /images/products/bloques-de-espuma/isolant-aislantes-linea-otros-usos-bloques-de-espuma-beneficio-1.svg

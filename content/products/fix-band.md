@@ -13,9 +13,9 @@ page:
     order: 1
     slogan: Impermeabilizá juntas y **repará fisuras**
     heroImage:
-      selectedOption: image
-      mainImageBackgroundPosition: top
-      mainImage: /images/products/fix-band/isolant-aislantes-linea-accesorios-fix-band-imagen-principal.jpg
+      - selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/fix-band/isolant-aislantes-linea-accesorios-fix-band-imagen-principal.jpg
     mainBenefits:
       - icon: /images/products/fix-band/isolant-aislantes-linea-otros-usos-fix-band-beneficio-1.svg
         text: Resistencia UV

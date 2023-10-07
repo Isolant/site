@@ -18,9 +18,9 @@ page:
     heroType: standard
     slogan: ¡Ahorrá hasta un **40% de mano de obra!**
     heroImage:
-      selectedOption: image
-      mainImage: /images/products/alu-fusion-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-imagen-fondo.jpg
-      mainImageBackgroundPosition: bottom
+      - selectedOption: image
+        mainImage: /images/products/alu-fusion-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-imagen-fondo.jpg
+        mainImageBackgroundPosition: bottom
     mainBenefits:
       - icon: /images/products/alu-fusion-net/isolant-aislantes-linea-vivienda-alu-fusion-net-beneficio-1.svg
         text: Producto con red incorporada

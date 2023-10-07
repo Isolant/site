@@ -12,9 +12,9 @@ page:
   - type: hero
     order: 1
     heroImage:
-      selectedOption: image
-      mainImageBackgroundPosition: top
-      mainImage: /images/products/tubos/isolant-aislantes-linea-climatizacion-tubos-imagen-principal.jpg
+      - selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/tubos/isolant-aislantes-linea-climatizacion-tubos-imagen-principal.jpg
     slogan: Aislación para **cañerías**
     enableHero: true
     mainBenefits:

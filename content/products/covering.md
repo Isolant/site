@@ -17,9 +17,9 @@ page:
     slogan: Vestí tu estructura con **la mejor barrera impermeable y respirable**
     order: 1
     heroImage:
-      selectedOption: image
-      mainImageBackgroundPosition: top
-      mainImage: /images/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-imagen.jpg
+      - selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-imagen.jpg
     enableHero: true
     mainBenefits:
       - icon: /images/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-beneficio-1.svg

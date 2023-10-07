@@ -11,9 +11,9 @@ page:
     slogan: Duplicá la vida útil **de tu alfombra**
     order: 1
     heroImage:
-      selectedOption: image
-      mainImageBackgroundPosition: top
-      mainImage: /images/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-imagen-fondo.jpg
+      - selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-imagen-fondo.jpg
     enableHero: true
     mainBenefits:
       - icon: /images/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-beneficio-1.svg

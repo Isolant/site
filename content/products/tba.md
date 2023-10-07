@@ -16,9 +16,9 @@ page:
   - type: hero
     order: 1
     heroImage:
-      selectedOption: image
-      mainImageBackgroundPosition: top
-      mainImage: /images/products/tba/isolant-aislantes-linea-vivienda-tba-imagen-principal.jpg
+      - selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/tba/isolant-aislantes-linea-vivienda-tba-imagen-principal.jpg
     enableHero: true
     slogan: "**Tradición, precio y calidad** para techos de madera"
     mainBenefits:

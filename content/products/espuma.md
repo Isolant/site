@@ -12,9 +12,9 @@ page:
     slogan: Confort térmico para tus **sistemas de climatización**
     order: 1
     heroImage:
-      selectedOption: image
-      mainImageBackgroundPosition: top
-      mainImage: /images/products/espuma/isolant-aislantes-linea-climatizacion-espuma-imagen.jpg
+      - selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/espuma/isolant-aislantes-linea-climatizacion-espuma-imagen.jpg
     enableHero: true
     mainBenefits:
       - icon: /images/products/espuma/isolant-aislantes-linea-climatizacion-espuma-beneficio-1.svg
