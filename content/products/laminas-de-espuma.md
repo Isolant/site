@@ -6,7 +6,6 @@ globals:
 page:
   - type: hero
     slogan: Láminas de espuma **para diversos usos**
-    order: 1
     heroImage:
       - selectedOption: image
         mainImageBackgroundPosition: top
@@ -21,7 +20,6 @@ page:
         text: Amortiguante
   - type: details
     enableDetailsSection: true
-    order: 2
     function:
       - text: Protección contra impactos.
       - text: Protección contra rayaduras.
@@ -35,7 +33,6 @@ page:
     detailsImage: /images/products/laminas-de-espuma/isolant-aislantes-linea-otros-usos-laminas-de-espuma-imagen-detalle.jpg
   - type: benefits
     enableBenefitsSection: true
-    order: 3
     benefitsTitle: Usos **frecuentes**
     benefitsText: • Protección de equipos eléctricos y electrodomésticos<br />• Confección de bolsos térmicos<br />• Embalajes y porta objetos con fines de protección mecánica y anti abrasivos
     benefitsImage: /images/products/laminas-de-espuma/isolant-aislantes-linea-otros-usos-laminas-de-espuma-beneficio-exclusivo.jpg
@@ -45,13 +42,10 @@ page:
       - text: Material reciclable.
   - type: video
     enableVideoSection: false
-    order: 4
   - type: instructions
     enableInstructions: false
-    order: 5
   - type: technicalInformation
     enableTechnicalInformation: false
-    order: 6
     generalInformationList:
       - title: Máxima aislación térmica
       - title: Alta absorción de ruidos e impactos
@@ -64,12 +58,9 @@ page:
       - title: No contaminan el medio ambiente; no contienen freón
   - type: downloads
     enableDownloadsSection: false
-    order: 7
   - type: colocation
     enableColocationSection: false
-    order: 8
   - type: cta
     ctaImage: /images/products/laminas-de-espuma/isolant-aislantes-linea-otros-usos-laminas-de-espuma-cta.jpg
     enableCtaSection: true
-    order: 9
 ---

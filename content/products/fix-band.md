@@ -10,7 +10,6 @@ globals:
 page:
   - type: hero
     enableHero: true
-    order: 1
     slogan: Impermeabilizá juntas y **repará fisuras**
     heroImage:
       - selectedOption: image
@@ -25,7 +24,6 @@ page:
         text: Muy fácil colocación
   - type: details
     enableDetailsSection: true
-    order: 2
     function:
       - text: Impermeabilización en juntas, fisuras y rajaduras de techos.
       - text: Evitan filtraciones de agua o liquidos.
@@ -40,7 +38,6 @@ page:
     detailsImage: /images/products/fix-band/isolant-aislantes-linea-accesorios-fix-band-imagen-detalle.jpg
   - type: benefits
     enableBenefitsSection: true
-    order: 3
     benefitsTitle: Resistente a **la intemperie**
     benefitsText: FixBand presenta un diseño especial pensado para soportar las inclemencias de los elementos naturales. Gracias a su triple capa y aluminio de alto micronaje, soporta la acción de rayos UV y agua de lluvia.
     benefitsImage: /images/products/fix-band/isolant-aislantes-linea-otros-usos-fix-band-beneficio-exclusivo.jpg
@@ -50,15 +47,12 @@ page:
       - text: Alta resistencia mecánica.
   - type: video
     enableVideoSection: false
-    order: 4
   - type: instructions
     enableInstructions: true
-    order: 5
     instructions:
       - Fix Band
   - type: technicalInformation
     enableTechnicalInformation: true
-    order: 6
     generalInformationList:
       - title: 100% hidrófugo
       - title: No se degrada con el tiempo
@@ -101,12 +95,9 @@ page:
         text: 52-63% (Espectro fotómetro)
   - type: downloads
     enableDownloadsSection: false
-    order: 7
   - type: colocation
     enableColocationSection: false
-    order: 8
   - type: cta
     enableCtaSection: true
-    order: 9
     ctaImage: /images/products/fix-band/isolant-aislantes-linea-otros-usos-fix-band-cta.jpg
 ---

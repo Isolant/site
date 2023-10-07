@@ -18,7 +18,6 @@ globals:
   ecommerceLink: https://tienda.isolant.com.ar/construccion-en-seco/76-ondusec.html
 page:
   - type: hero
-    order: 1
     slogan: Viví tu casa sin ruidos molestos **de vecinos y autos**
     heroImage:
       - selectedOption: image
@@ -34,7 +33,6 @@ page:
         text: Se corta con trincheta o troquel cada 40/60 cm.
   - type: details
     enableDetailsSection: true
-    order: 2
     detailsImage: /images/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-imagen-detalle.jpg
     function:
       - text: Aislante acústico.
@@ -49,7 +47,6 @@ page:
       - text: "Espesor: 25mm."
   - type: benefits
     enableBenefitsSection: true
-    order: 3
     benefitsTitle: Exclusivo troquel **a 40cm y 60cm**
     benefitsText: Gracias a su troquel a 40cm y 60cm, correspondiente a la
       separación entre montantes del sistema constructivo, ONDUSEC es el aislante de
@@ -64,11 +61,9 @@ page:
     patentImage: /images/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-patente.png
   - type: video
     enableVideoSection: true
-    order: 4
     video: https://www.youtube.com/watch?v=ekyrLnJ_KFU
   - type: instructions
     enableInstructions: true
-    order: 5
     instructions:
       - Colocación para tabiques internos Ondusec
       - Colocación para tabiques externos Ondusec
@@ -76,7 +71,6 @@ page:
     pdfInstruction: /images/downloads/colocacion-ondusec.pdf
   - type: technicalInformation
     enableTechnicalInformation: true
-    order: 6
     technicalInformationList:
       - title: Resistencia térmica
         text: 0.23 m².K/w
@@ -131,7 +125,6 @@ page:
           que lo proteja de la reflexión indirecta de los rayos UV
   - type: downloads
     enableDownloadsSection: true
-    order: 7
     downloadsTitle: Área de **descargas**
     downloads:
       - Catálogo Construcción en Seco
@@ -139,7 +132,6 @@ page:
       - Díptico Steel Framing
       - ¿Qué tipo de techo querés aislar?
   - type: colocation
-    order: 8
     colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
     colocationTitle: ¿No tenés quién te coloque **nuestros aislantes?**
     colocationCtaLink: https://isoplus.isolant.com.ar/inicio
@@ -149,7 +141,6 @@ page:
     enableColocationSection: true
   - type: cta
     enableCtaSection: true
-    order: 9
     ctaTitle: Un aislante limpio y fácil de colocar **para tu tranquilidad**
     ctaImage: /images/products/ondusec/isolant-aislantes-linea-vivienda-ondusec-imagen-cta.jpg
     ctaImageBackgroundPosition: top

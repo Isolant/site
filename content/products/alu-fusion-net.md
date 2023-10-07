@@ -14,7 +14,6 @@ globals:
 page:
   - type: hero
     enableHero: true
-    order: 1
     heroType: standard
     slogan: ¡Ahorrá hasta un **40% de mano de obra!**
     heroImage:
@@ -30,7 +29,6 @@ page:
         text: Termosoldables
   - type: details
     enableDetailsSection: true
-    order: 2
     detailsImage: /images/products/alu-fusion-net/isolant-aislantes-linea-vivienda-alu-fusion-net-imagen-detalle-producto.jpg
     function:
       - text: Aislante térmico.
@@ -49,7 +47,6 @@ page:
       - text: Largos a medida sin cargo por más de 1000m2
   - type: benefits
     enableBenefitsSection: true
-    order: 3
     benefitsSubtitle: ¡No necesita malla sostén!
     benefitsTitle: Producto con **red incorporada**
     benefitsText: Gracias a la red incorporada en la masa del aislante, nuestros
@@ -65,17 +62,14 @@ page:
     patentImage: /images/products/alu-fusion-net/isolant-aislantes-linea-vivienda-alu-fusion-net-patente.png
   - type: video
     enableVideoSection: true
-    order: 4
     video: https://www.youtube.com/watch?v=g10vCEEilvU
   - type: instructions
     enableInstructions: true
-    order: 5
     pdfInstruction: /images/downloads/colocacion-alu-fusion-net.pdf
     instructions:
       - Alu Fusión NET
   - type: technicalInformation
     enableTechnicalInformation: true
-    order: 6
     technicalInformationList:
       - title: Resistencia térmica (sistema constructivo)
         text: 1.61 m² * C / W
@@ -129,7 +123,6 @@ page:
           que lo proteja de la reflexión indirecta de los rayos UV
   - type: downloads
     enableDownloadsSection: true
-    order: 7
     downloadsTitle: Área de **descargas**
     downloads:
       - Catálogo de Industria
@@ -138,7 +131,6 @@ page:
       - Volante Alu Fusión NET
   - type: colocation
     enableColocationSection: true
-    order: 8
     colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
     colocationTitle: ¿No tenés quién te coloque **nuestros aislantes?**
     colocationCtaLink: https://isoplus.isolant.com.ar/inicio
@@ -147,7 +139,6 @@ page:
     technicalAssessorCtaText: Buscá tu asesor técnico
   - type: cta
     enableCtaSection: true
-    order: 9
     ctaImageBackgroundPosition: top
     ctaImage: /images/products/alu-fusion-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-cta-imagen.jpg
 ---

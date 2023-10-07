@@ -7,7 +7,6 @@ globals:
   ecommerceLink: https://tienda.isolant.com.ar/tienda/86-termo-solar.html
 page:
   - type: hero
-    order: 1
     heroImage:
       - selectedOption: image
         mainImageBackgroundPosition: top
@@ -23,7 +22,6 @@ page:
         text: Ecológico y sustentable
   - type: details
     enableDetailsSection: true
-    order: 2
     function:
       - text: Mantiene el agua de tu mate en la temperatura ideal.
       - text: Mismo principio calentador que los termotanques solares.
@@ -36,25 +34,18 @@ page:
     detailsImage: /images/products/termo-solar/isolant-aislantes-linea-otros-usos-termo-solar-imagen-detalle.jpg
   - type: benefits
     enableBenefitsSection: false
-    order: 3
   - type: video
     enableVideoSection: true
-    order: 4
     video: https://www.youtube.com/watch?v=FktE4d0VuLA
   - type: instructions
     enableInstructions: false
-    order: 5
   - type: technicalInformation
     enableTechnicalInformation: false
-    order: 6
   - type: downloads
     enableDownloadsSection: false
-    order: 7
   - type: colocation
     enableColocationSection: false
-    order: 8
   - type: cta
     ctaImage: /images/products/termo-solar/isolant-aislantes-linea-otros-usos-termo-solar-imagen-cta.jpg
     enableCtaSection: true
-    order: 9
 ---

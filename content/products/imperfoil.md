@@ -16,7 +16,6 @@ globals:
   logo: /images/products/imperfoil/Logo_Imperfoil_csmfxh.png
 page:
   - type: hero
-    order: 1
     slogan: Cubrí tu estructura con **la mejor barrera hidrófuga y barrera de
       vientos**
     heroImage:
@@ -33,7 +32,6 @@ page:
         text: Barrera de viento
   - type: details
     enableDetailsSection: true
-    order: 2
     detailsImage: /images/products/imperfoil/DET_Imperfoil_1_tvedx1.jpg
     function:
       - text: Impermeable al agua.
@@ -44,7 +42,6 @@ page:
       - text: 30m2 (1,15m x 25,42m)
   - type: benefits
     enableBenefitsSection: true
-    order: 3
     benefitsTitle: Cuadrícula **para replanteo**
     benefitsText: <strong>Imperfoil</strong> presenta una cuadrícula impresa en su
       cara superior, haciendo de su colocación y replanteo en tabiques y techos de
@@ -60,7 +57,6 @@ page:
     patentImage: /images/products/imperfoil/Imperfoil_DET_rbhiiw.png
   - type: video
     enableVideoSection: false
-    order: 4
     video: https://www.instagram.com/p/CnSffuNOehS/
   - type: instructions
     enableInstructions: true
@@ -70,7 +66,6 @@ page:
     pdfInstruction: /images/downloads/colocacion-covering.pdf
   - type: technicalInformation
     enableTechnicalInformation: true
-    order: 5
     technicalInformationList:
       - title: Resistencia térmica
         text: 0.23 m².K/w
@@ -118,7 +113,6 @@ page:
           que lo proteja de la reflexión indirecta de los rayos UV
   - type: downloads
     enableDownloadsSection: true
-    order: 6
     downloadsTitle: Área de **descargas**
     downloads:
       - Catálogo Construcción en Seco
@@ -128,7 +122,6 @@ page:
       - ¿Qué tipo de techo querés aislar?
   - type: colocation
     enableColocationSection: true
-    order: 7
     colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
     colocationTitle: ¿No tenés quién te coloque **nuestros aislantes?**
     colocationCtaLink: https://isoplus.isolant.com.ar/inicio
@@ -137,7 +130,6 @@ page:
     technicalAssessorCtaText: Buscá tu asesor técnico
   - type: cta
     enableCtaSection: true
-    order: 8
     ctaTitle: Imperfoil es Isolant, **calidad garantizada**
     ctaImage: /images/products/imperfoil/DET_Imperfoil_2_ejhrfh.jpg
 ---

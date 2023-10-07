@@ -12,7 +12,6 @@ globals:
 page:
   - type: hero
     slogan: La solución integral **para galpones y tinglados**
-    order: 1
     heroImage:
       - selectedOption: image
         mainImageBackgroundPosition: top
@@ -27,7 +26,6 @@ page:
         text: Evitan la condensación
   - type: details
     enableDetailsSection: true
-    order: 2
     function:
       - text: Aislante térmico.
       - text: Impermeable y barrera de vapor.
@@ -41,7 +39,6 @@ page:
     patentImage: /images/products/doble-alu/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-patente.png
   - type: benefits
     enableBenefitsSection: true
-    order: 3
     benefitsTitle: Sistema de unión por **termosoldado patentado**
     benefitsText: El termosoldado es la forma más efectiva y limpia de efectuar la unión nuetras membranas. Es además un sistema patentado por <strong>ISOLANT S.A.</strong> que evita el uso de cintas o adhesivos de cualquier tipo, facilitando así la colocación y brindando una terminación estética superior. Termosoldando <strong>DOBLE ALU</strong>, se logra una membrana aislante continua en toda su extensión, eliminando la posibilidad de filtraciones, puentes térmicos y goteo por condensación. Para realizar esta unión sólo se necesita una pistola de aire caliente.
     benefitsImage: /images/products/doble-alu/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-beneficio-exclusivo.jpg
@@ -51,11 +48,9 @@ page:
       - text: Saludable. No desprende partículas.
   - type: video
     enableVideoSection: false
-    order: 4
     video: https://www.youtube.com/watch?v=0fKmiQLjEZc
   - type: instructions
     enableInstructions: true
-    order: 5
     pdfInstruction: /images/downloads/colocacion-galpones-y-tinglados.pdf
     instructions:
       - Galpones y tinglados metálicos nuevos
@@ -63,7 +58,6 @@ page:
       - Galpones y tinglados metálicos existentes, como cielorraso recto
   - type: technicalInformation
     enableTechnicalInformation: true
-    order: 6
     generalInformationList:
       - title: Son absolutamente impermeables
       - title: Son aislantes térmicos
@@ -115,14 +109,12 @@ page:
         text: 52-63% (Espectro fotómetro)
   - type: downloads  
     downloadsTitle: Área de **descargas**
-    order: 7
     downloads:
       - Catálogo de Industria
       - ¿Qué tipo de techo querés aislar?
       - Tríptico Industria/Vivienda
   - type: colocation
     enableColocationSection: true
-    order: 8
     colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
     colocationTitle: ¿No tenés quién te coloque **nuestros aislantes?**
     technicalAssessorCtaText: Buscá tu asesor técnico
@@ -131,6 +123,5 @@ page:
     technicalAssessorCtaLink: /servicios#map
   - type: cta
     enableCtaSection: true
-    order: 9
     ctaImage: /images/products/doble-alu/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-cta.jpg
 ---

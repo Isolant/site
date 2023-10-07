@@ -13,7 +13,6 @@ globals:
 page:
   - type: hero
     enableHero: true
-    order: 1
     heroImage:
       - selectedOption: image
         mainImageBackgroundPosition: top
@@ -28,7 +27,6 @@ page:
         text: Terminación estética superior
   - type: details
     enableDetailsSection: true
-    order: 2
     detailsImage: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-imagen-detalle.jpg
     function:
       - text: Sostén de membranas aislantes.
@@ -41,7 +39,6 @@ page:
       - text: 1m. x 100m - Cuadrícula de 2x2cm
   - type: benefits
     enableBenefitsSection: true
-    order: 3
     benefitsTitle: Resistencia por **biorientado**
     benefitsText: Gracias a su tecnología de fabricación de pretensado y biorentado, la <strong>RED 2x2 Isolant</strong> presenta una alta resistencia a la deformación por esfuerzos de dilatación y contracción de la estructura, logrando techos más planos y de una estética superior.
     benefitsImage: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-beneficio-exclusivo.jpg
@@ -51,10 +48,8 @@ page:
       - text: Clase RE2. Muy baja propagación de llama.
   - type: video
     enableVideoSection: false
-    order: 4
   - type: instructions
     enableInstructions: true
-    order: 5
     instructions:
       - Red 2x2
   - type: technicalInformation
@@ -110,7 +105,6 @@ page:
       - title: No colocar en aleros, galerías o galpones sin muros perimetrales que protejan de la reflexión indirecta de los rayos UV
   - type: downloads
     enableDownloadsSection: true
-    order: 6
     downloadsTitle: Área de **descargas**
     downloads:
       - Catálogo de Industria
@@ -118,7 +112,6 @@ page:
       - Tríptico Industria/Vivienda
   - type: colocation
     enableColocationSection: true
-    order: 7
     colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
     colocationTitle: ¿No tenés quién te coloque **nuestros aislantes?**
     technicalAssessorCtaText: Buscá tu asesor técnico
@@ -126,7 +119,6 @@ page:
     colocationCtaText: Encontrá un instalador
     technicalAssessorCtaLink: /servicios#map
   - type: cta
-    order: 8
     ctaImage: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-imagen-detalle.jpg
     enableCtaSection: true
 ---

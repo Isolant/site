@@ -10,7 +10,6 @@ globals:
   productImage: /images/products/puertelete/Puertelete_Reforzado_2_gcoeao.jpg
 page:
   - type: hero
-    order: 1
     slogan: Decile chau **al chiflete**
     heroImage:
       - selectedOption: image
@@ -26,7 +25,6 @@ page:
         text: Evita infiltraciones de aire
   - type: details
     enableDetailsSection: true
-    order: 2
     detailsImage: /images/products/puertelete/Puertelete_Reforzado_3_jl6rhk.jpg
     function:
       - text: Cierre hermético para filtraciones debajo de puertas.
@@ -40,7 +38,6 @@ page:
       - text: 95cm. x 25 mm.
   - type: benefits
     enableBenefitsSection: false
-    order: 3
     benefitsTitle: Muy fácil **instalación**
     benefitsText: Puertelete no necesita ser fijado con clavos ni tornillos. Cortá
       tu puertelete (podés usar una trincheta) midiendo el ancho de la puerta,
@@ -53,17 +50,14 @@ page:
     benefitsImage: /images/products/puertelete/isolant-aislantes-linea-otros-usos-puertelete-beneficio-exclusivo.jpg
   - type: video
     enableVideoSection: false
-    order: 4
     video: https://drive.google.com/open?id=1byE50P38WMmbXLJtqMhAwq6nFvAfTE1G&authuser=marketing%40isolant.com.ar&usp=drive_fs
   - type: instructions
     enableInstructions: true
-    order: 5
     instructions:
       - Puertelete
     pdfInstruction: /images/downloads/colocacion-puertelete.pdf
   - type: technicalInformation
     enableTechnicalInformation: true
-    order: 6
     technicalInformationList:
       - title: Resistencia térmica
         text: 0.23 m².K/w
@@ -118,13 +112,11 @@ page:
           que lo proteja de la reflexión indirecta de los rayos UV
   - type: downloads
     enableDownloadsSection: false
-    order: 7
     downloadsTitle: " "
     downloads:
       - Catálogo Construcción en Seco
   - type: colocation
     enableColocationSection: false
-    order: 8
     colocationImage: /images/products/puertelete/Puertelete_Reforzado_2_oha4wu.jpg
     colocationTitle: " "
     colocationCtaLink: " "
@@ -133,6 +125,5 @@ page:
     technicalAssessorCtaText: " "
   - type: cta
     enableCtaSection: true
-    order: 9
     ctaImage: /images/products/puertelete/isolant-aislantes-linea-accesorios-puertelete-imagen-cta.jpg
 ---

@@ -16,7 +16,6 @@ globals:
   color: "#C88648"
 page:
   - type: hero
-    order: 1
     enableHero: true
     mainImageBackgroundPosition: bottom
     heroImage:
@@ -37,7 +36,6 @@ page:
     slogan: Escudo solar **Atacama**
   - type: attributes
     enableAttributesSection: true
-    order: 2
     attributesTitle: Atributos
     attributesText: Conocé los beneficios de aplicar Atacama
     attributes:
@@ -61,7 +59,6 @@ page:
         text: Reduce la huella de carbono.
   - type: benefits
     enableBenefitsSection: true
-    order: 3
     benefitsSubtitle: Nano esferas poliméricas
     benefitsTitle: Nanotecnología de **última generación**
     benefitsText: <strong>Atacama Escudo Solar</strong> utiliza nanotecnología de
@@ -76,7 +73,6 @@ page:
     benefitsImage: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-producto-beneficio-exclusivo.jpg
   - type: video
     enableVideoSection: true
-    order: 4
     video: https://www.youtube.com/watch?v=zefa_Sh5-Z4
   - type: instructions
     enableInstructions: true
@@ -84,7 +80,6 @@ page:
       - Atacama
   - type: technicalInformation
     enableTechnicalInformation: true
-    order: 5
     technicalInformationList:
       - title: Color
         text: Blanco
@@ -131,7 +126,6 @@ page:
       - Aplica a sistemas de construcción sustentables tipo LEED.
   - type: downloads
     enableDownloadsSection: true
-    order: 6
     downloadsTitle: Área de **descargas**
     downloads:
       - Volante Atacama
@@ -142,7 +136,6 @@ page:
   - enableColocationSection: true
     technicalAssessorCtaLink: /servicios#map
     colocationCtaLink: https://isoplus.isolant.com.ar/inicio
-    order: 7
     colocationTitle: ¿No tenés quién te coloque **nuestros aislantes?**
     technicalAssessorCtaText: Buscá tu asesor técnico
     colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
@@ -150,7 +143,6 @@ page:
     colocationCtaText: Encontrá un instalador
   - type: cta
     enableCtaSection: true
-    order: 8
     ctaImage: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-cta-imagen.jpg
     ctaImageBackgroundPosition: top
 ---

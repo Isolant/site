@@ -15,7 +15,6 @@ globals:
 page:
   - type: hero
     enableHero: true
-    order: 1
     slogan: Viví tu casa **aislado como un rey**
     heroImage:
       - selectedOption: image
@@ -30,7 +29,6 @@ page:
         text: Solape adhesivo Rapi-Tac.
   - type: details
     enableDetailsSection: true
-    order: 2
     detailsImage: /images/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-imagen-detalle.jpg
     function:
       - text: Aislante térmico.
@@ -46,7 +44,6 @@ page:
       - text: Antideslizante inferior
   - type: benefits
     enableBenefitsSection: true
-    order: 3
     benefitsSubtitle: Beneficio Exclusivo
     benefitsTitle: Único sistema de **bastones de ventilación**
     benefitsText: Los bastones de ventilación van colocados hacia abajo, creando los
@@ -58,18 +55,15 @@ page:
     patentImage: /images/products/tba-multicapa/isolant-aislantes-linea-vivienda-multicapa-patente.png
   - type: video
     enableVideoSection: true
-    order: 4
     video: https://www.youtube.com/watch?v=j63RxwAThYg
   - type: instructions
     enableInstructions: true
-    order: 5
     pdfInstruction: /images/downloads/colocacion-tba-y-multicapa.pdf
     instructions:
       - Techo nuevo de madera con cubierta de chapa o teja
       - Techo existente de madera con cubierta de chapa o teja
   - type: technicalInformation
     enableTechnicalInformation: true
-    order: 6
     technicalInformationList:
       - title: Resistencia térmica
         text: 1.46 m² * C / W
@@ -122,7 +116,6 @@ page:
           que lo proteja de la reflexión indirecta de los rayos UV
   - type: downloads
     enableDownloadsSection: true
-    order: 7
     downloadsTitle: Área de **descargas**
     downloads:
       - Volante Multicapa
@@ -131,7 +124,6 @@ page:
       - Tríptico Industria/Vivienda
   - type: colocation
     enableColocationSection: true
-    order: 8
     colocationTitle: ¿No tenés quién te coloque **nuestros aislantes?**
     colocationCtaLink: https://isoplus.isolant.com.ar/inicio
     technicalAssessorCtaLink: /servicios#map
@@ -140,6 +132,5 @@ page:
     technicalAssessorCtaText: Buscá tu asesor técnico
   - type: cta
     enableCtaSection: true
-    order: 9
     ctaImage: /images/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-cta-fondo.jpg
 ---

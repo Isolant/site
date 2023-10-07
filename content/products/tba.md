@@ -14,7 +14,6 @@ globals:
   ecommerceLink: https://tienda.isolant.com.ar/vivienda/67-tba5.html
 page:
   - type: hero
-    order: 1
     heroImage:
       - selectedOption: image
         mainImageBackgroundPosition: top
@@ -29,7 +28,6 @@ page:
       - icon: /images/products/tba/isolant-aislantes-linea-vivienda-tba-beneficio-3.svg
         text: Evitan la condensación
   - type: details
-    order: 2
     enableDetailsSection: true
     detailsImage: /images/products/tba/isolant-aislantes-linea-vivienda-tba-imagen-detalle.jpg
     function:
@@ -43,7 +41,6 @@ page:
       - text: 1m. x 20m.
       - text: "Espesor: 5mm. y 10mm."
   - type: benefits
-    order: 3
     enableBenefitsSection: true
     benefitsSubtitle: El aislante que le dió nombre a la categoría
     benefitsTitle: Membrana con solape autoadhesivo **Rapi-Tac**
@@ -54,19 +51,16 @@ page:
       - text: Saludable. No desprende partículas.
     benefitsImage: /images/products/tba/isolant-aislantes-linea-vivienda-tba-beneficio-exclusivo.jpg
   - type: video
-    order: 4
     enableVideoSection: true
     video: https://www.youtube.com/watch?v=A4LVabjvdHM
   - type: instructions
     enableInstructions: true
-    order: 5
     pdfInstruction: /images/downloads/colocacion-tba-y-multicapa.pdf
     instructions:
       - Techo nuevo de madera con cubierta de chapa o teja
       - Techo existente de madera con cubierta de chapa o teja
   - type: technicalInformation
     enableTechnicalInformation: true
-    order: 6
     technicalInformationList:
       - title: Resistencia térmica (TBA 5)
         text: 0.96 m² * C / W
@@ -122,7 +116,6 @@ page:
           que lo proteja de la reflexión indirecta de los rayos UV
   - type: downloads
     enableDownloadsSection: true
-    order: 7
     downloadsTitle: Área de **descargas**
     downloads:
       - Catálogo de Vivienda
@@ -131,7 +124,6 @@ page:
   - enableColocationSection: true
     technicalAssessorCtaLink: /servicios#map
     colocationCtaLink: https://isoplus.isolant.com.ar/inicio
-    order: 8
     colocationTitle: ¿No tenés quién te coloque **nuestros aislantes?**
     technicalAssessorCtaText: Buscá tu asesor técnico
     colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
@@ -139,7 +131,6 @@ page:
     colocationCtaText: Encontrá un instalador
   - type: cta
     enableCtaSection: true
-    order: 9
     ctaImage: /images/products/tba/isolant-aislantes-linea-vivienda-tba-cta.jpg
     ctaTitle: La mejor relación **precio calidad** para techos de madera
 ---

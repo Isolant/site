@@ -16,7 +16,6 @@ globals:
 page:
   - type: hero
     enableHero: true
-    order: 1
     slogan: Viví tu casa con **confort térmico y acústico**
     heroImage:
       - selectedOption: image
@@ -31,7 +30,6 @@ page:
         text: Se corta con trincheta o troquel cada 40/60 cm.
   - type: details
     enableDetailsSection: true
-    order: 2
     detailsImage: /images/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-imagen-detalle.jpg
     function:
       - text: Aislante acústico.
@@ -46,7 +44,6 @@ page:
       - text: "Espesor: 25mm."
   - type: benefits
     enableBenefitsSection: true
-    order: 3
     benefitsTitle: El aislante termoacústico para tabiques y cielorrasos **de
       más fácil instalación del mercado**
     benefitsText: Gracias a su composición de espuma de PE de celda cerrada con dos
@@ -63,11 +60,9 @@ page:
     patentImage: /images/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-patente.png
   - type: video
     enableVideoSection: true
-    order: 4
     video: https://www.youtube.com/watch?v=2YSv8V6INrU
   - type: instructions
     enableInstructions: true
-    order: 5
     instructions:
       - Colocación para tabiques internos Ondusec Reflex
       - Colocación para tabiques externos Ondusec Reflex
@@ -78,7 +73,6 @@ page:
     pdfInstruction: /images/downloads/colocacion-ondusec.pdf
   - type: technicalInformation
     enableTechnicalInformation: true
-    order: 6
     technicalInformationList:
       - title: Resistencia térmica
         text: 0.23 m².K/w
@@ -133,7 +127,6 @@ page:
           que lo proteja de la reflexión indirecta de los rayos UV
   - type: downloads
     enableDownloadsSection: true
-    order: 7
     downloadsTitle: Área de **descargas**
     downloads:
       - Catálogo Construcción en Seco
@@ -142,7 +135,6 @@ page:
       - ¿Qué tipo de techo querés aislar?
   - type: colocation
     colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
-    order: 8
     colocationTitle: ¿No tenés quién te coloque **nuestros aislantes?**
     colocationCtaLink: https://isoplus.isolant.com.ar/inicio
     colocationCtaText: Encontrá un instalador
@@ -151,7 +143,6 @@ page:
     enableColocationSection: true
   - type: cta
     enableCtaSection: true
-    order: 9
     ctaTitle: Un aislante limpio y fácil de colocar **para tu tranquilidad**
     ctaImage: /images/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-cta-fondo.jpg
     ctaImageBackgroundPosition: top

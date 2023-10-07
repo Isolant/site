@@ -18,7 +18,6 @@ globals:
 page:
   - type: hero
     enableHero: true
-    order: 1
     heroType: custom
     eyebrow: Revestimiento exterior
     slogan: Siding **de PVC**
@@ -28,7 +27,6 @@ page:
         mainImageBackgroundPosition: top
   - type: detailCards
     enableDetailCardsSection: true
-    order: 2
     cards:
       - image: /images/products/iso-siding/card-1.jpg
         title: Nuevo
@@ -48,7 +46,6 @@ page:
           combinación de ambos.
   - type: attributes
     enableAttributesSection: true
-    order: 3
     attributesTitle: Atributos
     attributesText: Conocé los beneficios de aplicar Iso Siding
     attributes:
@@ -90,27 +87,23 @@ page:
           de desecho y se puede reutilizar para fabricar otros productos.
   - type: subproducts
     enableSubproductsSection: true
-    order: 4
     subproducts:
       - Nórdico
       - Americano
   - type: map
     enableMapSection: true
-    order: 5
     mapEmbed:
       code: <iframe
         src="https://www.google.com/maps/d/embed?mid=1wEkHgKHk6IrScfy_DlQqJ9-TfTij8uY&ehbc=2E312F&noprof=1"
         width="640" height="480"></iframe>
   - type: downloads
     enableDownloadsSection: true
-    order: 6
     downloadsTitle: "**Área Técnica**"
     downloadsText: Recursos y herramientas para la correcta colocación de nuestros productos.
     downloads:
       - Folleto Siding
   - type: tutorials
     enableTutorialsSection: true
-    order: 7
     tutorialsTitle: "**Tutoriales**"
     tutorialsText: Aprendé de manera rápida y sencilla cómo utilizar nuestros productos.
     tutorials:
@@ -138,7 +131,6 @@ page:
         ctaLink: https://www.youtube.com
   - type: about
     enableAboutSection: true
-    order: 8
     aboutImage: /images/products/iso-siding/partners.svg
     aboutTitle: "**Sobre Isolant y DVP**"
     aboutText: A la amplia gama de espumas termoplásticas fabricadas por
@@ -148,5 +140,4 @@ page:
   - type: contact
     enableContactSection: true
     theme: dark
-    order: 9
 ---

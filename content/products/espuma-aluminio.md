@@ -11,7 +11,6 @@ globals:
 page:
   - type: hero
     slogan: Climatización de **industrias aisladas y protegidas**
-    order: 1
     heroImage:
       - selectedOption: image
         mainImageBackgroundPosition: top
@@ -26,7 +25,6 @@ page:
         text: Aislación Hidrófuga
   - type: details
     enableDetailsSection: true
-    order: 2
     function:
       - text: Aislante térmico.
       - text: Impermeable y barrera de vapor.
@@ -40,7 +38,6 @@ page:
     detailsImage: /images/products/espuma-aluminio/isolant-aislantes-linea-climatizacion-espuma-aluminio-imagen-detalle-producto.jpg
   - type: benefits
     enableBenefitsSection: true
-    order: 3
     benefitsTitle: Brindan una total **aislación termohidrófuga**
     benefitsText: Son de estructura de celda cerrada, imputrescibles, y no desprenden partículas ni fibras de ningún tipo. Se destacan por su maleabilidad y fácil colocación. Son impermeables, barrera de vapor, aislantes térmicas y acústicas. No contaminan el medio ambiente y son reciclables.
     benefitsImage: /images/products/espuma-aluminio/isolant-aislantes-linea-climatizacion-espuma-aluminio-beneficio-exclusivo.jpg
@@ -57,16 +54,13 @@ page:
       - text: Material liviano.
   - type: video
     enableVideoSection: false
-    order: 4
     video: https://www.youtube.com/watch?v=K_oY34zgYc4
   - type: instructions
     enableInstructions: true
-    order: 5
     instructions:
       - Ductos internos a la vista
   - type: technicalInformation
     enableTechnicalInformation: true
-    order: 6
     generalInformationList:
       - title: Aislante térmico
       - title: Liviana y flexible, permite su fácil colocación y manipuleo
@@ -116,13 +110,11 @@ page:
         text: 52-63% (Espectro fotómetro)
   - type: downloads
     downloadsTitle: Área de **descargas**
-    order: 7
     downloads:
       - Catálogo Climatización
       - Volante Climatización
   - type: colocation
     enableColocationSection: true
-    order: 8
     colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
     colocationTitle: ¿No tenés quién te coloque **nuestros aislantes?**
     technicalAssessorCtaText: Buscá tu asesor técnico
@@ -131,7 +123,6 @@ page:
     technicalAssessorCtaLink: /servicios#map
   - type: cta
     enableCtaSection: true
-    order: 9
     ctaTitle: Tu industria **climatizada y protegida**
     ctaImage: /images/products/espuma-aluminio/isolant-aislantes-linea-climatizacion-espuma-aluminio-cta.jpg
 ---
