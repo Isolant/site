@@ -680,9 +680,10 @@ collections:
               # Video / Image selector
               - label: "Imagen/Video de encabezado"
                 name: "heroImage"
-                widget: "object"
+                widget: "list"
                 summary: '{{fields.selectedOption}}'
                 collapsed: true
+                allow_add: true
                 fields:
                   - label: "Imagen o video?"
                     name: "selectedOption"

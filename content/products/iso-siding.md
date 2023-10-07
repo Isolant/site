@@ -12,7 +12,7 @@ globals:
   highlighted: true
   productImageProportion: square
   productImage: /images/products/iso-siding/product.png
-  logo: /images/products/iso-siding/logo.svg
+  logo: /images/products/iso-siding/logo-color.png
   color: "#13381F"
   hidden: true
 page:
@@ -23,9 +23,9 @@ page:
     eyebrow: Revestimiento exterior
     slogan: Siding **de PVC**
     heroImage:
-      selectedOption: image
-      mainImage: /images/products/iso-siding/bg.jpg
-      mainImageBackgroundPosition: top
+      - selectedOption: image
+        mainImage: /images/products/iso-siding/bg.jpg
+        mainImageBackgroundPosition: top
   - type: detailCards
     enableDetailCardsSection: true
     order: 2

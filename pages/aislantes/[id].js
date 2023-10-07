@@ -72,8 +72,7 @@ export default function Product({ productData, instructionsData, localesData, pr
             section.enableHero && section.heroType === 'custom' ? 
               markup.push (
                 <CustomHero
-                  background={section.heroImage.mainImage}
-                  backgroundPosition={section.heroImage.mainImageBackgroundPosition}
+                  images={section.heroImage}
                   product={name}
                   eyebrow={section.eyebrow}
                   slogan={section.slogan}
