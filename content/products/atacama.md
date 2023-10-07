@@ -35,20 +35,30 @@ page:
         text: Impermeable. Sella micro fisuras.
     heroType: custom
     slogan: Escudo solar **Atacama**
-  - type: details
-    enableDetailsSection: true
+  - type: attributes
+    enableAttributesSection: true
     order: 2
-    detailsImage: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-imagen-detalle-producto.jpg
-    function:
-      - text: Aislante térmico.
-      - text: Sella micro fisuras.
-      - text: "Protección AA: anti hongo y anti alga."
-    application:
-      - text: Sobre techos de chapa nuevos o existentes, losas de hormigón, terrazas,
-          tejas y muros exteriores. ¡Muy fácil colocación! Hacelo vos mismo.
-    presentation:
-      - text: Balde 20lt. - Caja 15lt.
-      - text: 1lt. rinde 1m2 plano.
+    attributesTitle: Atributos
+    attributesText: Conocé los beneficios de aplicar Atacama
+    attributes:
+      - image: /images/products/atacama/attributes/attribute-1.png
+        title: Térmico
+        text: Confort de tu casa en verano.
+      - image: /images/products/atacama/attributes/attribute-2.png
+        title: Ahorro
+        text: Ayuda a reducir el gasto de electricidad.
+      - image: /images/products/atacama/attributes/attribute-3.png
+        title: Impermeable
+        text: Sella micro fisuras.
+      - image: /images/products/atacama/attributes/attribute-4.png
+        title: Protección AA
+        text: Protege contra los hongos y algas.
+      - image: /images/products/atacama/attributes/attribute-5.png
+        title: Fácil aplicación
+        text: ¡Hacelo vos mismo!
+      - image: /images/products/atacama/attributes/attribute-6.png
+        title: Sostenible
+        text: Reduce la huella de carbono.
   - type: benefits
     enableBenefitsSection: true
     order: 3

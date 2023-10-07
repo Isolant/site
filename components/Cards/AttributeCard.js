@@ -3,19 +3,19 @@ import Image from 'next/image';
 
 import { boldSubtitleClasses, standardTextClasses } from "../../classes/Text";
 
-const AttributeCard = ({ attribute, color }) => {
+const AttributeCard = ({ attribute }) => {
   return (
     <li
       className="grid gap-3"
     >
       <div
-        className="bg-gray-100 rounded-full w-24 h-24 flex items-center justify-center mx-auto"
+        className="relative w-24 h-24 flex items-center justify-center mx-auto"
       >
         <Image
           src={attribute.image}
           alt={attribute.title}
-          width={42}
-          height={42}
+          layout="fill"
+          objectFit="contain"
         />
       </div>
       <h4
@@ -24,7 +24,6 @@ const AttributeCard = ({ attribute, color }) => {
           text-gray-700
           h-auto md:h-6 lg:h-16 xl:h-8
         `}
-        style={{color: color && color}}
       >
         {attribute.title}
       </h4>
@@ -32,7 +31,7 @@ const AttributeCard = ({ attribute, color }) => {
         className={`
           ${standardTextClasses}
           text-gray-500
-          h-auto md:h-32
+          line-clamp-none md:line-clamp-3 lg:line-clamp-5
           max-w-xs md:max-w-none mx-auto
         `}
       >

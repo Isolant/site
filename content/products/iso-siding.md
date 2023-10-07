@@ -52,39 +52,39 @@ page:
     attributesTitle: Atributos
     attributesText: Conocé los beneficios de aplicar Iso Siding
     attributes:
-      - image: /images/products/iso-siding/attributes/attribute-1.svg
+      - image: /images/products/iso-siding/attributes/attribute-1.png
         title: Resistente
         text: La tecnología de última generación con la cual está fabricado, permite que
           sea más resistente, tanto a los golpes como al desgaste normal que
           afecta a las fachadas con el paso del tiempo.
-      - image: /images/products/iso-siding/attributes/attribute-2.svg
+      - image: /images/products/iso-siding/attributes/attribute-2.png
         title: Instalación Rápida
         text: El Siding de PVC es liviano y de fácil instalación. Cuenta con un completo
           sistema de perfiles para inicio, esquinas y ventanas.
-      - image: /images/products/iso-siding/attributes/attribute-3.svg
+      - image: /images/products/iso-siding/attributes/attribute-3.png
         title: Lavable
         text: Iso Siding es fácil de mantención, se puede limpiar de manera sencilla.
-      - image: /images/products/iso-siding/attributes/attribute-4.svg
+      - image: /images/products/iso-siding/attributes/attribute-4.png
         title: No necesita pintura
         text: El Siding de PVC cuenta con color integrado en su cara exterior, ahorrando
           el tiempo de tratamiento y pintado de la fachada.
-      - image: /images/products/iso-siding/attributes/attribute-5.svg
+      - image: /images/products/iso-siding/attributes/attribute-5.png
         title: Evita la formación de hongos
         text: Su materialidad impide la formación de hongos que se desarrollan con la
           humedad, ayudando a mantener una adecuada presentación de la fachada.
-      - image: /images/products/iso-siding/attributes/attribute-6.svg
+      - image: /images/products/iso-siding/attributes/attribute-6.png
         title: Filtro UV
         text: No pierde color por efecto de rayos UV y tiene un excelente desempeño ante
           los cambios de temperatura y en cualquier tipo de clima.
-      - image: /images/products/iso-siding/attributes/attribute-7.svg
+      - image: /images/products/iso-siding/attributes/attribute-7.png
         title: Retarda el fuego
         text: Fabricado con retardante de llama hace que sea autoextinguible (retarda la
           proliferación de las llamas al ser expuesto al fuego).
-      - image: /images/products/iso-siding/attributes/attribute-8.svg
+      - image: /images/products/iso-siding/attributes/attribute-8.png
         title: Material Reciclado
         text: Fabricado con un 60% de material reciclado, proveniente de materiales
           recuperados post consumo, post industrial o combinación de ambos.
-      - image: /images/products/iso-siding/attributes/attribute-9.svg
+      - image: /images/products/iso-siding/attributes/attribute-9.png
         title: Durable
         text: Iso Siding tiene una larga vida útil, lo que implica que no es un material
           de desecho y se puede reutilizar para fabricar otros productos.

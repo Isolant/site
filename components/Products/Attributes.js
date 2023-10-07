@@ -4,7 +4,7 @@ import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import AttributeCard from '../Cards/AttributeCard';
 
 import { boldTitleClasses, standardTextClasses, uppercaseTextClasses } from "../../classes/Text";
-import { horizontalPadding } from "../../classes/Spacing";
+import { horizontalPadding, verticalPadding } from "../../classes/Spacing";
 
 import { ReactComponent as ArrowIcon } from '../../public/images/icons/two-arrows-down.svg';
 
@@ -20,9 +20,10 @@ export default function Attributes({
 
   return (
     <section
-      style={{ backgroundImage: background ? `url(${background})` : 'url(/images/globals/isolant-aislantes-fondo-lineas-oscuras.jpg)' }}
+      style={{ backgroundImage: background ? `url(${background})` : '' }}
       className={`
         relative
+        ${verticalPadding}
         ${isExpanded === false ? 'overflow-y-hidden max-h-screen lg:max-h-full' : ''}
       `}
     >
@@ -37,7 +38,6 @@ export default function Attributes({
             ${boldTitleClasses}
             text-gray-800
           `}
-          style={{color: color && color}}
           >
           <ReactMarkdown>{title}</ReactMarkdown>
           <div
@@ -51,13 +51,12 @@ export default function Attributes({
           </div>
         </h4>
         <ul
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-4 md:gap-8 lg:gap-12 pt-8 md:pt-12 pb-8 md:pb-12 lg:pb-16"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-4 md:gap-8 lg:gap-12 pt-8 md:pt-12"
         >
           {attributes.map((attribute, index) =>
             <AttributeCard
               key={index}
               attribute={attribute}
-              color={color}
             />
           )}
         </ul>
