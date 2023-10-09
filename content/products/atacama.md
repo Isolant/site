@@ -1,7 +1,9 @@
 ---
 name: Atacama
 description: >-
-  Es un aislante térmico líquido de muy fácil aplicación. Ideal para bajar la temperatura interna de viviendas, galpones, quinchos y todo tipo de obra, especialmente en zonas cálidas y de altas temperaturas.
+  Es un aislante térmico líquido de muy fácil aplicación. Ideal para bajar la
+  temperatura interna de viviendas, galpones, quinchos y todo tipo de obra,
+  especialmente en zonas cálidas y de altas temperaturas.
 
 
   **ATACAMA** utiliza nanotecnología de última generación, en base a nano-esferas poliméricas expandidas que confieren excepcionales propiedades reflectivas y aislantes, especialmente de las radiaciones infrarrojas, lo cual permite evitar la absorción del calor solar.
@@ -73,6 +75,30 @@ page:
       code: <iframe
         src="https://www.google.com/maps/d/embed?mid=1wEkHgKHk6IrScfy_DlQqJ9-TfTij8uY&ehbc=2E312F&noprof=1"
         width="640" height="480"></iframe>
+  - type: recommendations
+    enableRecommendationsSection: true
+    recommendationsTitle: Recomendaciones de uso **y seguridad en general**
+    recommendations:
+      - text: Se recomienda aplicar el producto cuando las temperaturas sean superiores
+          a 5ºC e inferiores a 35ºC.
+      - text: Este producto no evita la condensación.
+      - text: Correctamente almacenado conserva sus propiedades por 24 meses.
+      - text: No aplicar sobre soportes helados, calientes, húmedos, con polvo, hollín,
+          óxido o grasitudes.
+      - text: No aplicar el producto en situaciones de amenaza de lluvia.
+      - text: Mantener envases en posición vertical y bien cerrados.
+      - text: Las herramientas se lavan con agua.
+      - text: Aplicar un máximo de 3 baldes sobre una superficie seca.
+      - text: No utilizar el material si sufrió un deterioro dentro del envase por
+          almacenarlo en espacios con temperaturas menores a 0°.
+      - text: En caso de contacto con los ojos, lavarlos con abundante agua durante 15
+          minutos y en contacto con la piel, lavar con agua y jabón. Consultar
+          con un médico.
+      - text: "En caso de ingestión comunicarse al: CENTRO NACIONAL DE INTOXICACIONES
+          más cercano o llamar al Tel: 0800-333-0160 HOSPITAL POSADAS:
+          (011)4658-7777/ 4654-6648."
+      - text: Mantener fuera del alcance de niños y mascotas.
+      - text: Producto no inflamable.
   - type: downloads
     enableDownloadsSection: true
     downloadsTitle: Área de **descargas**

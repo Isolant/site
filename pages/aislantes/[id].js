@@ -14,6 +14,7 @@ import Benefits from "../../components/Products/Benefits";
 import Video from "../../components/Products/Video";
 import Instructions from "../../components/Products/Instructions";
 import TechnicalInformation from "../../components/Products/TechnicalInformation";
+import Recommendations from "../../components/Products/Recommendations";
 import Downloads from "../../components/Products/Downloads";
 import Tutorials from "../../components/Products/Tutorials";
 import About from "../../components/Products/About";
@@ -220,6 +221,19 @@ export default function Product({ productData, instructionsData, localesData, pr
                   technicalInformation={section.technicalInformationList}
                   generalInformation={section.generalInformationList}
                   key={index}
+                />
+              )
+            break;
+          // Recommendations
+          case 'recommendations':
+            section.enableRecommendationsSection === true &&
+              markup.push (
+                <Recommendations
+                  key={index}
+                  shouldExpand={true}
+                  recommendations={section.recommendations}
+                  product={productData.name}
+                  title={section.recommendationsTitle}
                 />
               )
             break;

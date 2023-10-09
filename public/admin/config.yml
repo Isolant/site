@@ -844,6 +844,19 @@ collections:
             fields:
               - {label: "Habilitar sección Mapa", name: "enableMapSection", widget: "boolean", hint: "Si no querés mostrar esta sección, deshabilitala desde acá", default: false, required: false}
               - {label: Código para embeber mapa, name: mapEmbed, widget: code, required: false}
+          # Recommendations
+          - label: "Recomendaciones"
+            name: "recommendations"
+            fields:
+              - {label: "Habilitar sección Recomendaciones", name: "enableRecommendationsSection", widget: "boolean", hint: "Si no querés mostrar esta sección, deshabilitala desde acá", default: false, required: false}
+              - {label: "Título", name: "recommendationsTitle", widget: "markdown", hint: "El título de la sección.", required: false}
+              - label: "Lista de Recomendaciones"
+                name: "recommendations"
+                widget: "list"
+                allow_add: true
+                required: false
+                fields:
+                  - {label: Texto, name: text, widget: string, required: false}
           # Instructions
           - label: "Instrucciones de colocación"
             name: "instructions"
