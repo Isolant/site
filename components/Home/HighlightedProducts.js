@@ -58,10 +58,10 @@ export default function HighlightedProducts({
                     </div>
                     <div className="flex flex-col sm:flex-row items-center mt-8">
                       <Button
-                        href={product.globals.ecommerceLink ? product.globals.ecommerceLink : `/contacto?comprar-isolant=${product.id}`}
+                        href={product.globals.ecommerceLink || `/contacto?comprar-isolant=${product.id}`}
                         text={"Comprar"}
                         color="primary"
-                        isExternal={product.globals.ecommerceLink ? true : false}
+                        isExternal={!!product.globals.ecommerceLink}
                         icon={true}
                         classes="w-full sm:w-auto sm:mr-6 mb-4 sm:mb-0"
                       />
@@ -90,7 +90,7 @@ export default function HighlightedProducts({
                     />
                     <Dots className="bottom-4 right-4 absolute text-gray-300 fill-current z-0" />
                     <Image
-                      src={heroSection.heroImage.mainImage}
+                      src={heroSection.heroImage[0].mainImage}
                       alt={product.name}
                       className="object-cover"
                       layout="fill"
