@@ -189,6 +189,8 @@ export default function Product({ productData, instructionsData, localesData, pr
                 <Map
                   key={index}
                   color={color}
+                  product={productData.name}
+                  logo={logo}
                 >
                   {section.mapEmbed.code}
                 </Map>

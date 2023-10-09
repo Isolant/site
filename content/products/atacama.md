@@ -67,6 +67,12 @@ page:
     enableInstructions: true
     instructions:
       - Atacama
+  - type: map
+    enableMapSection: true
+    mapEmbed:
+      code: <iframe
+        src="https://www.google.com/maps/d/embed?mid=1wEkHgKHk6IrScfy_DlQqJ9-TfTij8uY&ehbc=2E312F&noprof=1"
+        width="640" height="480"></iframe>
   - type: downloads
     enableDownloadsSection: true
     downloadsTitle: Área de **descargas**
