@@ -108,6 +108,15 @@ page:
       - Cálculo de índice de reflectancia solar Atacama
       - Hoja de seguridad Atacama
       - Hoja técnica Atacama
+  - type: relatedProducts
+    enableRelatedProductsSection: true
+    relatedProductsTitle: Aislantes para techos
+    relatedProducts:
+      - Super TBA
+      - Cedro NET
+      - TBA Multicapa
+      - Doble Alu NET
+      - Alu Stark NET
   - type: about
     enableAboutSection: true
     aboutImage: /images/products/atacama/partners.svg

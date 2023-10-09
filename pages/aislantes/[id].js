@@ -17,6 +17,7 @@ import TechnicalInformation from "../../components/Products/TechnicalInformation
 import Recommendations from "../../components/Products/Recommendations";
 import Downloads from "../../components/Products/Downloads";
 import Tutorials from "../../components/Products/Tutorials";
+import RelatedProducts from '../../components/Products/RelatedProducts';
 import About from "../../components/Products/About";
 import ContactForm from "../../components/Products/ContactForm";
 import FullScreenSection from "../../components/Layout/FullScreenSection";
@@ -26,7 +27,7 @@ import { getCollectionIds, getCollectionById, getAllCollections } from '../../li
 import { ReactComponent as Dots } from '../../public/images/misc/dots.svg';
 import { ReactComponent as Circle } from '../../public/images/misc/circle.svg';
 
-export default function Product({ productData, instructionsData, localesData, provincesData, downloadsData, productLinesData, subProductsData }) {
+export default function Product({ allProductsData, productData, instructionsData, localesData, provincesData, downloadsData, productLinesData, subProductsData }) {
   const { name, description } = productData;
   const { productImage, logo, ecommerceLink, color } = productData.globals;
   const router = useRouter();
@@ -259,6 +260,25 @@ export default function Product({ productData, instructionsData, localesData, pr
                 />
               )
             break;
+          // Related products
+          case 'relatedProducts':
+            section.enableRelatedProductsSection === true &&
+              markup.push (
+                <RelatedProducts
+                  title={section.relatedProductsTitle}
+                  products={section.relatedProducts.map(selectedProduct => allProductsData.filter(product => selectedProduct === product.name))}
+                  key={index}
+                  background={
+                    productData.id === "atacama" ?
+                      "/images/products/atacama/bg-dark.jpg"
+                    :
+                    productData.id === "iso-siding" ?
+                      "/images/products/iso-siding/bg-dark.jpg"
+                    : "/images/globals/isolant-aislantes-fondo-lineas-oscuras.jpg"
+                  }
+                />
+              )
+            break;
           // Tutorials
           case 'tutorials':
             section.enableTutorialsSection === true &&
@@ -268,7 +288,14 @@ export default function Product({ productData, instructionsData, localesData, pr
                   text={section.tutorialsText}
                   tutorials={section.tutorials}
                   key={index}
-                  background="/images/products/iso-siding/bg-dark.jpg"
+                  background={
+                    productData.id === "atacama" ?
+                      "/images/products/atacama/bg-light.jpg"
+                    :
+                    productData.id === "iso-siding" ?
+                      "/images/products/iso-siding/bg-dark.jpg"
+                    : "/images/globals/isolant-aislantes-fondo-lineas-oscuras.jpg"
+                  }
                   color={color}
                 />
               )
@@ -382,6 +409,7 @@ export async function getStaticProps({ params }) {
   const provincesData = getCollectionById("geolocalization", 'provinces');
   const localesData = getCollectionById("geolocalization", 'locales');
   const productLinesData = getAllCollections("productLines");
+  const allProductsData = getAllCollections("products");
 
   return {
     props: {
@@ -392,6 +420,7 @@ export async function getStaticProps({ params }) {
       localesData,
       downloadsData,
       productLinesData,
+      allProductsData,
     }
   }
 }

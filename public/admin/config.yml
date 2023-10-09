@@ -857,6 +857,21 @@ collections:
                 required: false
                 fields:
                   - {label: Texto, name: text, widget: string, required: false}
+          # Related products
+          - label: "Productos relacionados"
+            name: "relatedProducts"
+            fields:
+              - {label: "Habilitar sección Productos relacionados", name: "enableRelatedProductsSection", widget: "boolean", hint: "Si no querés mostrar esta sección, deshabilitala desde acá", default: false, required: false}
+              - {label: "Título", name: "relatedProductsTitle", widget: "markdown", hint: "El título de la sección.", required: false}
+              - label: "Productos relacionados"
+                name: "relatedProducts"
+                widget: "relation"
+                collection: "products"
+                required: false
+                search_fields: ["name"]
+                value_field: "name"
+                display_fields: ["name"]
+                multiple: true
           # Instructions
           - label: "Instrucciones de colocación"
             name: "instructions"
