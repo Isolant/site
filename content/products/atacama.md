@@ -108,16 +108,19 @@ page:
       - Cálculo de índice de reflectancia solar Atacama
       - Hoja de seguridad Atacama
       - Hoja técnica Atacama
-  - enableColocationSection: true
-    technicalAssessorCtaLink: /servicios#map
-    colocationCtaLink: https://isoplus.isolant.com.ar/inicio
-    colocationTitle: ¿No tenés quién te coloque **nuestros aislantes?**
-    technicalAssessorCtaText: Buscá tu asesor técnico
-    colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
-    type: colocation
-    colocationCtaText: Encontrá un instalador
-  - type: cta
-    enableCtaSection: true
-    ctaImage: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-cta-imagen.jpg
-    ctaImageBackgroundPosition: top
+  - type: about
+    enableAboutSection: true
+    aboutImage: /images/products/atacama/partners.svg
+    aboutTitle: "**Sobre Isolant y Venezia**"
+    aboutText: >-
+      Isolant y Venezia se unen con la misión de lograr un producto revolucionador. Juntos es que desarrollamos este escudo solar; un aislante líquido reflectivo con nano tecnología orientado a mejorar el confort térmico de viviendas y obras en general, durante las estaciones de más calor del año.
+      
+      
+      Este NO es un producto mágico; las nano esferas y los componentes reflectivos que logramos incorporar a ATACAMA en un justo equilibrio, son los que logran evitar la transmitancia térmica producida por la acción de los rayos solares sobre cualquier tipo de cubierta. Chapas, losas y tejas pueden ser protegidas con ATACAMA, escudo solar.
+      
+      
+      Atacama se consigue en corralones, pinturerías y ferreterías de todo el país. Escribinos para conocer más sobre este producto!
+  - type: contact
+    enableContactSection: true
+    theme: dark
 ---

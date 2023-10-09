@@ -330,6 +330,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                   title={section.aboutTitle}
                   text={section.aboutText}
                   key={index}
+                  textClasses={productData.id === "atacama" ? "max-w-2xl" : "max-w-lg"}
                 />
               )
             break;
@@ -339,7 +340,14 @@ export default function Product({ productData, instructionsData, localesData, pr
               markup.push (
                 <ContactForm
                   key={index}
-                  background={color}
+                  background={
+                    productData.id === "atacama" ?
+                      "/images/products/atacama/bg-light.jpg"
+                    :
+                    productData.id === "iso-siding" ?
+                      "/images/products/iso-siding/bg-dark.jpg"
+                    : "/images/globals/isolant-aislantes-fondo-lineas-oscuras.jpg"
+                  }
                   theme={section.theme}
                 />
               )
