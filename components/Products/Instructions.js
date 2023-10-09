@@ -1,24 +1,26 @@
-// Globals
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Slider from "react-slick";
+import ColorContrastChecker from 'color-contrast-checker';
 
-// Components
 import Button from "../Forms/Button";
 
-// Styles
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-// Classes
 import { horizontalPadding, verticalPadding } from "../../classes/Spacing";
 import { standardTextClasses, uppercaseTextClasses, thinTitleClasses, boldSubtitleClasses } from "../../classes/Text";
+
+import { getPixelColor } from '../../utils/getPixelColor';
 
 export default function Instructions({ 
   product,
   instructions,
-  pdf
+  pdf,
+  backgroundImage,
+  backgroundColor
 }) {
   const [activeInstruction, setActiveInstruction] = useState(instructions[0]);
+  const [fontColor, setFontColor] = useState('#FFFFFF');
 
   const settings = {
     dots: false,
@@ -31,18 +33,42 @@ export default function Instructions({
     draggable: true,
   };
 
+  const fetchPixelColor = async (imageUrl) => {
+    const color = await getPixelColor(imageUrl, 0, 0);
+    return color;
+  }
+
+  const updateFontColor = (color1, color2) => {
+    const ccc = new ColorContrastChecker();
+    const ratio = 5.7;
+    
+    // If contrast passes, do nothing
+    if (ccc.isLevelCustom(color1, color2, ratio)) {
+      return;
+    } else {
+      setFontColor("#231F20");
+    }
+  }
+
+  // Get pixel color from the backgroundImage, and update the font color based on that
+  useEffect(async () => {
+    const color = await fetchPixelColor(backgroundImage || "/images/globals/isolant-aislantes-fondo-lineas-oscuras.jpg");
+    updateFontColor(color, fontColor);
+  }, []);
+
   return (
     <section
       className={`
         ${horizontalPadding} ${verticalPadding}
         bg-no-repeat bg-cover
       `}
-      style={{ backgroundImage: `url('/images/globals/isolant-aislantes-fondo-lineas-oscuras.jpg')`}}
+      style={{ backgroundImage: backgroundImage ? `url(${backgroundImage})` : "url('/images/globals/isolant-aislantes-fondo-lineas-oscuras.jpg')"}}
     >
       <div className="mx-auto container">
         <div className="flex md:items-end justify-between flex-col md:flex-row">
           <h5
-            className={`${thinTitleClasses} text-white mb-2 md:mb-0`}
+            className={`${thinTitleClasses} mb-2 md:mb-0`}
+            style={{ color: fontColor }}
           >
             Instrucciones de colocaci&oacute;n
             <strong>de {product}</strong>
@@ -110,7 +136,10 @@ export default function Instructions({
             })}
           </ul>
         }
-        <div className="bg-gray-500 rounded p-4 md:p-8 my-8">
+        <div
+          className="bg-gray-500 rounded p-4 md:p-8 my-8"
+          style={{ backgroundColor: backgroundColor || ""}}
+        >
           <Slider
             {...settings} 
           >
@@ -136,7 +165,7 @@ export default function Instructions({
                         <h5
                           className={`
                             ${uppercaseTextClasses}
-                            text-gray-400
+                            ${product === 'Atacama' ? "text-white" : "text-gray-400"}
                           `}
                         >
                           Paso {index + 1} de {activeInstruction.steps.length}
@@ -146,11 +175,12 @@ export default function Instructions({
                             ${boldSubtitleClasses} text-white my-2
                           `}
                         >
-                          {activeInstruction.title}
+                          {step.stepTitle || activeInstruction.title}
                         </h6>
                         <p
                           className={`
-                            ${standardTextClasses} text-gray-300
+                            ${standardTextClasses}
+                            ${product === 'Atacama' ? "text-white" : "text-gray-300"}
                           `}
                         >
                           {step.stepText}

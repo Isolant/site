@@ -30,6 +30,7 @@ export default function Product({ productData, instructionsData, localesData, pr
   const { productImage, logo, ecommerceLink, color } = productData.globals;
   const router = useRouter();
   const isSiding = router.asPath.includes('siding');
+  const isAtacama = router.asPath.includes('atacama');
   
   const ctaButtons = [
     {
@@ -161,6 +162,10 @@ export default function Product({ productData, instructionsData, localesData, pr
               markup.push (
                 <Video
                   video={section.video}
+                  type={section.videoType}
+                  title={section.videoTitle}
+                  text={section.videoText}
+                  classes="md:-bottom-12"
                   key={index}
                 />
               )
@@ -197,6 +202,8 @@ export default function Product({ productData, instructionsData, localesData, pr
                   product={name}
                   instructions={instructionsData}
                   pdf={productData.pdfInstruction && productData.pdfInstruction}
+                  backgroundImage={isAtacama && '/images/bg/bg-atacama.jpg'}
+                  backgroundColor={isAtacama && '#C89956'}
                   key={index}
                 />
               )

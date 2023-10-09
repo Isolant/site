@@ -821,6 +821,8 @@ collections:
             name: "video"
             fields:
               - {label: "Habilitar sección Video", name: "enableVideoSection", widget: "boolean", default: true, required: false, hint: "Si querés ocultar esta sección, deshabilitala desde acá"}
+              - {label: "Título", name: "videoTitle", widget: "markdown", hint: "El título de la sección.", required: false}
+              - {label: "Bajada", name: "videoText", widget: "markdown", hint: "Si está, se usa debajo del título.", required: false}
               - {label: "Link Video", name: "video", widget: "string", hint: "Ejemplo: https://www.youtube.com/watch?v=j63RxwAThYg", required: false}
           # Subproducts. Used in Siding
           - label: "Subproductos"
@@ -1025,6 +1027,7 @@ collections:
             media_library:
               config:
                 multiple: false
+          - {label: Titulo, name: stepTitle, widget: text, required: false}
           - {label: Texto, name: stepText, widget: text}
   # Downloads Collection
   - name: "downloads"
