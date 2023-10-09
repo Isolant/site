@@ -121,7 +121,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                 <DetailCards
                   cards={section.cards}
                   key={index}
-                  background={isSiding && '/images/bg/siding.jpg'}
+                  background={isSiding && '/images/products/iso-siding/bg-light.jpg'}
                 />
               )
             break;
@@ -150,7 +150,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                   title={section.attributesTitle}
                   text={section.attributesText}
                   attributes={section.attributes}
-                  background={isSiding && '/images/bg/siding.jpg'}
+                  background={isSiding && '/images/products/iso-siding/bg-light.jpg'}
                   key={index}
                   color={color}
                   shouldExpand={true}
@@ -205,7 +205,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                   product={name}
                   instructions={instructionsData}
                   pdf={productData.pdfInstruction && productData.pdfInstruction}
-                  backgroundImage={isAtacama && '/images/bg/bg-atacama.jpg'}
+                  backgroundImage={isAtacama && '/images/products/atacama/bg-light.jpg'}
                   backgroundColor={isAtacama && '#C89956'}
                   key={index}
                 />
@@ -245,7 +245,14 @@ export default function Product({ productData, instructionsData, localesData, pr
                   title={section.downloadsTitle}
                   text={section.downloadsText}
                   downloads={downloadsData}
-                  background="/images/bg/bg-green.jpg"
+                  background={
+                    productData.id === "atacama" ?
+                      "/images/products/atacama/bg-dark.jpg"
+                    :
+                    productData.id === "iso-siding" ?
+                      "/images/products/iso-siding/bg-dark.jpg"
+                    : "/images/globals/isolant-aislantes-fondo-lineas-oscuras.jpg"
+                  }
                   cardType="secondary"
                   key={index}
                   shouldExpand={false}
@@ -261,7 +268,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                   text={section.tutorialsText}
                   tutorials={section.tutorials}
                   key={index}
-                  background="/images/bg/bg-green.jpg"
+                  background="/images/products/iso-siding/bg-dark.jpg"
                   color={color}
                 />
               )
