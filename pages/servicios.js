@@ -99,7 +99,9 @@ export default function Services({ provincesData, localesData, allAgendaItems, p
       productLines={productLinesData}
     >
       <Hero
-        background={heroImage}
+        images={[{
+          mainImage: heroImage
+        }]}
         slogan={heroTitle}
         benefits={services}
         enableBuyBtn={false}
