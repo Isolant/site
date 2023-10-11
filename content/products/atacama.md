@@ -25,7 +25,7 @@ page:
         mainImageBackgroundPosition: top
         mainImage: /images/products/atacama/slider-1.jpg
       - selectedOption: image
-        mainImageBackgroundPosition: bottom
+        mainImageBackgroundPosition: top
         mainImage: /images/products/atacama/slider-2.jpg
     mainBenefits:
       - icon: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-beneficio-1.svg
@@ -68,7 +68,10 @@ page:
   - type: instructions
     enableInstructions: true
     instructions:
-      - Atacama
+      - Atacama sobre chapa galvanizada nueva
+      - Atacama sobre chapa galvanizada vieja o sin óxido
+      - Atacama sobre hormigón o sustratos cementicios
+      - Atacama sobre membranas asfálticas y/o aluminizadas
   - type: map
     enableMapSection: true
     mapEmbed:

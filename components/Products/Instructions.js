@@ -104,29 +104,21 @@ export default function Instructions({
                   <div
                     className={`
                       ${standardTextClasses}
-                      ${instruction === activeInstruction ?
-                        'text-gray-700'
-                        :
-                        'text-gray-300'
-                      }
                       text-left cursor-pointer
                       grid justify-start h-full
                     `}
                     onClick={() => setActiveInstruction(instruction)}
+                    style={{ color: instruction === activeInstruction ? "#374151" : fontColor }}
                   >
                     <span>{instruction.title}</span>
                     <button
                       className={`
                         ${uppercaseTextClasses}
                         block
-                        ${instruction === activeInstruction ?
-                          'text-gray-700'
-                          :
-                          'text-gray-300'
-                        }
                         mt-4 text-left self-end
                       `}
                       onClick={() => setActiveInstruction(instruction)}
+                      style={{ color: instruction === activeInstruction ? "#374151" : fontColor }}
                     >
                       Ver colocaci&oacute;n
                     </button>
