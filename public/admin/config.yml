@@ -479,8 +479,6 @@ collections:
             media_library:
               config:
                 multiple: false
-          - {label: "Título para sección giras técnicas", name: "agendaTitle", widget: "string", hint: "Podés usar HTML en este campo"}
-          - {label: "Texto para sección giras técnicas", name: "agendaText", widget: "string"}
           - {label: "Título para sección BIM", name: "bimTitle", widget: "string", hint: "Podés usar HTML en este campo"}
           - {label: "Texto para sección BIM", name: "bimText", widget: "string", hint: "Podés usar HTML en este campo"}
           - {label: "Texto para botón sección BIM", name: "bimCtaText", widget: "string"}
@@ -1103,21 +1101,6 @@ collections:
         display_fields: ["title"]
         multiple: true
       - {label: "Categoría de la descarga", hint: "Si la descarga no pertenece a ninguna línea de producto, asignale otra categoría desde acá", name: downloadCategory, widget: select, multiple: false, options: ["Manual de Colocación", "Isolant BIM", "Políticas", "Instrucciones de colocación", "Otros"], required: false}
-  # Agenda Collection
-  # - name: "agenda"
-  #   label: "Agenda de Giras Técnicas"
-  #   folder: "content/agenda"
-  #   create: true
-  #   editor: 
-  #     preview: false 
-  #   fields:
-  #     - {label: "Título", name: "title", widget: "string"}
-  #     - {label: "Fecha", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: false}
-  #     - {label: "Hora de comienzo", name: "startTime", widget: "datetime", date_format: false, time_format: "HH:mm"}
-  #     - {label: "Hora de finalización", name: "endTime", widget: "datetime", date_format: false, time_format: "HH:mm"}
-  #     - {label: "Lugar", name: "location", widget: "string"}
-  #     - {label: "Texto", name: "text", widget: "text", required: false}
-  #     - {label: "Link de inscripción", name: "link", widget: "string"}
   # FAQs Collection
   - name: "faqs"
     label: "FAQs"

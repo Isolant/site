@@ -41,9 +41,6 @@ thermographyText: >-
 thermographyCtaText: Contactanos
 thermographyCtaLink: /contacto
 thermographyImage: /images/services/isolant-aislantes-servicios-termografia-de-obra-imagen.jpg
-agendaTitle: Agenda de giras **y visitas técnicas**
-agendaText: Revisá las giras, charlas, y visitas programadas de nuestros
-  técnicos y vendedores, para ver cuándo hay una cerca tuyo.
 bimTitle: Isolant **BIM**
 bimText: >-
   **BIM permite la integración de datos en proyectos, los cuales

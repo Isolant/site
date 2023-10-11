@@ -4,10 +4,8 @@ import React from "react";
 // Components
 import Base from "../components/Base";
 import Hero from "../components/Products/Hero";
-// import TechnicalAssessors from "../components/Services/TechnicalAssessors";
 import TechnicalAssessorsMap from "../components/Services/TechnicalAssessorsMap";
 import Thermography from "../components/Services/Thermography";
-// import Agenda from "../components/Services/Agenda";
 import BIM from "../components/Services/BIM";
 import Faqs from "../components/Services/Faqs";
 import Calculator from "../components/Services/Calculator";
@@ -18,7 +16,7 @@ import { getAllCollections } from '../lib/collections';
 // Content
 import { attributes } from "../content/services.md";
 
-export default function Services({ provincesData, localesData, allAgendaItems, provincesResult, productLinesData }) {
+export default function Services({ productLinesData }) {
   let {
     pageTitle,
     heroImage,
@@ -31,8 +29,6 @@ export default function Services({ provincesData, localesData, allAgendaItems, p
     thermographyCtaLink,
     technicalAssessorsTitle,
     technicalAssessorsText,
-    agendaTitle,
-    agendaText,
     bimImage,
     bimTitle,
     bimText,
@@ -93,8 +89,6 @@ export default function Services({ provincesData, localesData, allAgendaItems, p
       activePage="professionals"
       footerTheme="dark"
       pageTitle={pageTitle}
-      // provinces={provincesData.provinces}
-      // locales={localesData.locales}
       footerDecorations={true}
       productLines={productLinesData}
     >
@@ -106,12 +100,6 @@ export default function Services({ provincesData, localesData, allAgendaItems, p
         benefits={services}
         enableBuyBtn={false}
       />
-      {/* Old, removed to avoid using Calipso API */}
-      {/* <TechnicalAssessors
-        title={technicalAssessorsTitle}
-        text={technicalAssessorsText}
-        provinces={provincesResult}
-      /> */}
       <TechnicalAssessorsMap
         title={technicalAssessorsTitle}
         text={technicalAssessorsText}
@@ -134,11 +122,6 @@ export default function Services({ provincesData, localesData, allAgendaItems, p
         text={calculatorText}
         buttons={calculatorBtn}
       />
-      {/* <Agenda
-        title={agendaTitle}
-        text={agendaText}
-        agenda={JSON.parse(allAgendaItems)}
-      /> */}
       <Faqs
         image={faqsImage}
         title={faqsTitle}
@@ -150,20 +133,10 @@ export default function Services({ provincesData, localesData, allAgendaItems, p
 }
 
 export async function getStaticProps() {
-  // const provincesData = getCollectionById("geolocalization", 'provinces');
-  // const localesData = getCollectionById("geolocalization", 'locales');
-  // const allAgendaItems = JSON.stringify(getAllCollections("agenda"));
   const productLinesData = getAllCollections("productLines");
-  
-  // const provinces = await fetch(`https://apps-isolant.somee.com/mobile/api/ws/getProvincias?email=app@isolant`);
-  // const provincesResult = await provinces.json();
 
   return {
     props: {
-      // provincesData,
-      // localesData,
-      // allAgendaItems,
-      // provincesResult,
       productLinesData
     },
   };
