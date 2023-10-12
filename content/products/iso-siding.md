@@ -93,9 +93,7 @@ page:
   - type: map
     enableMapSection: true
     mapEmbed:
-      code: <iframe
-        src="https://www.google.com/maps/d/embed?mid=1wEkHgKHk6IrScfy_DlQqJ9-TfTij8uY&ehbc=2E312F&noprof=1"
-        width="640" height="480"></iframe>
+      code: <iframe src="https://www.google.com/maps/d/embed?mid=1zaE16TO8LMf6YEmBdKRCeLo-vGSxE0w&ehbc=2E312F" width="640" height="480"></iframe>
   - type: downloads
     enableDownloadsSection: true
     downloadsTitle: "**Área Técnica**"

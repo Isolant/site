@@ -22,7 +22,7 @@ page:
     mainImageBackgroundPosition: bottom
     heroImage:
       - selectedOption: image
-        mainImageBackgroundPosition: top
+        mainImageBackgroundPosition: bottom
         mainImage: /images/products/atacama/slider-1.jpg
       - selectedOption: image
         mainImageBackgroundPosition: top
@@ -75,9 +75,7 @@ page:
   - type: map
     enableMapSection: true
     mapEmbed:
-      code: <iframe
-        src="https://www.google.com/maps/d/embed?mid=1wEkHgKHk6IrScfy_DlQqJ9-TfTij8uY&ehbc=2E312F&noprof=1"
-        width="640" height="480"></iframe>
+      code: <iframe src="https://www.google.com/maps/d/embed?mid=1MmIxK_heTpLlD7BLzq43B6nQ9lyMPqE&ehbc=2E312F" width="640" height="480"></iframe>
   - type: recommendations
     enableRecommendationsSection: true
     recommendationsTitle: Recomendaciones de uso **y seguridad en general**
