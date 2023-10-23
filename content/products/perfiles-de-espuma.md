@@ -5,12 +5,11 @@ globals:
   productImage: /images/products/perfiles-de-espuma/isolant-aislantes-linea-otros-usos-perfiles-de-espuma-producto-rollo.png
 page:
   - type: hero
-    order: 1
     slogan: Respaldo de juntas, **elásticas e hidrófugas**
     heroImage:
-      selectedOption: image
-      mainImageBackgroundPosition: top
-      mainImage: /images/products/perfiles-de-espuma/isolant-aislantes-linea-otros-usos-perfiles-de-espuma-imagen-principal.jpg
+      - selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/perfiles-de-espuma/isolant-aislantes-linea-otros-usos-perfiles-de-espuma-imagen-principal.jpg
     enableHero: true
     mainBenefits:
       - icon: /images/products/perfiles-de-espuma/isolant-aislantes-linea-otros-usos-perfiles-de-espuma-beneficio-1.svg
@@ -21,7 +20,6 @@ page:
         text: Reciclable. No contamina el medio ambiente
   - type: details
     enableDetailsSection: true
-    order: 2
     function:
       - text: Absorbe dilataciones y contracciones.
       - text: Respaldo para selladores.
@@ -35,7 +33,6 @@ page:
     detailsImage: /images/products/perfiles-de-espuma/isolant-aislantes-linea-otros-usos-perfiles-de-espuma-imagen-detalle.jpg
   - type: benefits
     enableBenefitsSection: true
-    order: 3
     benefitsTitle: Absorben la **compresión y dilatación de las juntas**
     benefitsText: • Resistentes químicamente a los selladores<br />• Impermeable<br />• Imputrescibles<br />• Maleables y flexiles
     benefitsImage: /images/products/perfiles-de-espuma/isolant-aislantes-linea-otros-usos-perfiles-de-espuma-beneficio-exclusivo.jpg
@@ -45,20 +42,14 @@ page:
       - text: Baja y muy baja propagación de llama.
   - type: video
     enableVideoSection: false
-    order: 4
   - type: instructions
     enableInstructions: false
-    order: 5
   - type: technicalInformation
     enableTechnicalInformation: false
-    order: 6
   - type: downloads
     enableDownloadsSection: false
-    order: 7
   - type: colocation
     enableColocationSection: false
-    order: 8
   - type: cta
     enableCtaSection: false
-    order: 9
 ---

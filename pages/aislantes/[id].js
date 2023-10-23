@@ -14,8 +14,10 @@ import Benefits from "../../components/Products/Benefits";
 import Video from "../../components/Products/Video";
 import Instructions from "../../components/Products/Instructions";
 import TechnicalInformation from "../../components/Products/TechnicalInformation";
+import Recommendations from "../../components/Products/Recommendations";
 import Downloads from "../../components/Products/Downloads";
 import Tutorials from "../../components/Products/Tutorials";
+import RelatedProducts from '../../components/Products/RelatedProducts';
 import About from "../../components/Products/About";
 import ContactForm from "../../components/Products/ContactForm";
 import FullScreenSection from "../../components/Layout/FullScreenSection";
@@ -25,11 +27,12 @@ import { getCollectionIds, getCollectionById, getAllCollections } from '../../li
 import { ReactComponent as Dots } from '../../public/images/misc/dots.svg';
 import { ReactComponent as Circle } from '../../public/images/misc/circle.svg';
 
-export default function Product({ productData, instructionsData, localesData, provincesData, downloadsData, productLinesData, subProductsData }) {
+export default function Product({ allProductsData, productData, instructionsData, localesData, provincesData, downloadsData, productLinesData, subProductsData }) {
   const { name, description } = productData;
   const { productImage, logo, ecommerceLink, color } = productData.globals;
   const router = useRouter();
   const isSiding = router.asPath.includes('siding');
+  const isAtacama = router.asPath.includes('atacama');
   
   const ctaButtons = [
     {
@@ -72,8 +75,7 @@ export default function Product({ productData, instructionsData, localesData, pr
             section.enableHero && section.heroType === 'custom' ? 
               markup.push (
                 <CustomHero
-                  background={section.heroImage.mainImage}
-                  backgroundPosition={section.heroImage.mainImageBackgroundPosition}
+                  images={section.heroImage}
                   product={name}
                   eyebrow={section.eyebrow}
                   slogan={section.slogan}
@@ -87,9 +89,7 @@ export default function Product({ productData, instructionsData, localesData, pr
             :
               markup.push (
                 <Hero
-                  background={section.heroImage.mainImage}
-                  backgroundVideo={section.mainVideo}
-                  backgroundPosition={section.mainImageBackgroundPosition}
+                  images={section.heroImage}
                   product={name}
                   slogan={section.slogan}
                   benefits={section.mainBenefits}
@@ -122,7 +122,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                 <DetailCards
                   cards={section.cards}
                   key={index}
-                  background={isSiding && '/images/bg/siding.jpg'}
+                  background={isSiding && '/images/products/iso-siding/bg-light.jpg'}
                 />
               )
             break;
@@ -151,7 +151,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                   title={section.attributesTitle}
                   text={section.attributesText}
                   attributes={section.attributes}
-                  background={isSiding && '/images/bg/siding.jpg'}
+                  background={isSiding && '/images/products/iso-siding/bg-light.jpg'}
                   key={index}
                   color={color}
                   shouldExpand={true}
@@ -164,6 +164,10 @@ export default function Product({ productData, instructionsData, localesData, pr
               markup.push (
                 <Video
                   video={section.video}
+                  type={section.videoType}
+                  title={section.videoTitle}
+                  text={section.videoText}
+                  classes="md:-bottom-12"
                   key={index}
                 />
               )
@@ -187,6 +191,8 @@ export default function Product({ productData, instructionsData, localesData, pr
                 <Map
                   key={index}
                   color={color}
+                  product={productData.name}
+                  logo={logo}
                 >
                   {section.mapEmbed.code}
                 </Map>
@@ -200,6 +206,8 @@ export default function Product({ productData, instructionsData, localesData, pr
                   product={name}
                   instructions={instructionsData}
                   pdf={productData.pdfInstruction && productData.pdfInstruction}
+                  backgroundImage={isAtacama && '/images/products/atacama/bg-light.jpg'}
+                  backgroundColor={isAtacama && '#C89956'}
                   key={index}
                 />
               )
@@ -217,6 +225,19 @@ export default function Product({ productData, instructionsData, localesData, pr
                 />
               )
             break;
+          // Recommendations
+          case 'recommendations':
+            section.enableRecommendationsSection === true &&
+              markup.push (
+                <Recommendations
+                  key={index}
+                  shouldExpand={true}
+                  recommendations={section.recommendations}
+                  product={productData.name}
+                  title={section.recommendationsTitle}
+                />
+              )
+            break;
           // Downloads
           case 'downloads':
             section.enableDownloadsSection === true &&
@@ -225,10 +246,36 @@ export default function Product({ productData, instructionsData, localesData, pr
                   title={section.downloadsTitle}
                   text={section.downloadsText}
                   downloads={downloadsData}
-                  background="/images/bg/bg-green.jpg"
+                  background={
+                    productData.id === "atacama" ?
+                      "/images/products/atacama/bg-dark.jpg"
+                    :
+                    productData.id === "iso-siding" ?
+                      "/images/products/iso-siding/bg-dark.jpg"
+                    : "/images/globals/isolant-aislantes-fondo-lineas-oscuras.jpg"
+                  }
                   cardType="secondary"
                   key={index}
                   shouldExpand={false}
+                />
+              )
+            break;
+          // Related products
+          case 'relatedProducts':
+            section.enableRelatedProductsSection === true &&
+              markup.push (
+                <RelatedProducts
+                  title={section.relatedProductsTitle}
+                  products={section.relatedProducts.map(selectedProduct => allProductsData.filter(product => selectedProduct === product.name))}
+                  key={index}
+                  background={
+                    productData.id === "atacama" ?
+                      "/images/products/atacama/bg-dark.jpg"
+                    :
+                    productData.id === "iso-siding" ?
+                      "/images/products/iso-siding/bg-dark.jpg"
+                    : "/images/globals/isolant-aislantes-fondo-lineas-oscuras.jpg"
+                  }
                 />
               )
             break;
@@ -241,7 +288,14 @@ export default function Product({ productData, instructionsData, localesData, pr
                   text={section.tutorialsText}
                   tutorials={section.tutorials}
                   key={index}
-                  background="/images/bg/bg-green.jpg"
+                  background={
+                    productData.id === "atacama" ?
+                      "/images/products/atacama/bg-light.jpg"
+                    :
+                    productData.id === "iso-siding" ?
+                      "/images/products/iso-siding/bg-dark.jpg"
+                    : "/images/globals/isolant-aislantes-fondo-lineas-oscuras.jpg"
+                  }
                   color={color}
                 />
               )
@@ -303,6 +357,7 @@ export default function Product({ productData, instructionsData, localesData, pr
                   title={section.aboutTitle}
                   text={section.aboutText}
                   key={index}
+                  textClasses={productData.id === "atacama" ? "max-w-2xl" : "max-w-lg"}
                 />
               )
             break;
@@ -312,7 +367,14 @@ export default function Product({ productData, instructionsData, localesData, pr
               markup.push (
                 <ContactForm
                   key={index}
-                  background={color}
+                  background={
+                    productData.id === "atacama" ?
+                      "/images/products/atacama/bg-light.jpg"
+                    :
+                    productData.id === "iso-siding" ?
+                      "/images/products/iso-siding/bg-dark.jpg"
+                    : "/images/globals/isolant-aislantes-fondo-lineas-oscuras.jpg"
+                  }
                   theme={section.theme}
                 />
               )
@@ -347,6 +409,7 @@ export async function getStaticProps({ params }) {
   const provincesData = getCollectionById("geolocalization", 'provinces');
   const localesData = getCollectionById("geolocalization", 'locales');
   const productLinesData = getAllCollections("productLines");
+  const allProductsData = getAllCollections("products");
 
   return {
     props: {
@@ -357,6 +420,7 @@ export async function getStaticProps({ params }) {
       localesData,
       downloadsData,
       productLinesData,
+      allProductsData,
     }
   }
 }

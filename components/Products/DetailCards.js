@@ -7,8 +7,6 @@ import styles from './DetailCards.module.css';
 
 import OtherServicesCard from "../Cards/OtherServicesCard";
 
-import { verticalPadding } from "../../classes/Spacing";
-
 export default function DetailCards({ 
   cards,
   background,
@@ -43,7 +41,7 @@ export default function DetailCards({
   return (
     <section
       className={`
-        ${verticalPadding}
+        pt-12 sm:pt-16 md:pt-24
         bg-cover
       `}
       style={{ backgroundImage: background ? `url(${background})` : 'url(/images/globals/isolant-aislantes-fondo-lineas-oscuras.jpg)' }}

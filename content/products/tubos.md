@@ -10,11 +10,10 @@ globals:
   productImage: /images/products/tubos/isolant-aislantes-linea-climatizacion-tubos-producto-rollo.png
 page:
   - type: hero
-    order: 1
     heroImage:
-      selectedOption: image
-      mainImageBackgroundPosition: top
-      mainImage: /images/products/tubos/isolant-aislantes-linea-climatizacion-tubos-imagen-principal.jpg
+      - selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/tubos/isolant-aislantes-linea-climatizacion-tubos-imagen-principal.jpg
     slogan: Aislación para **cañerías**
     enableHero: true
     mainBenefits:
@@ -25,7 +24,6 @@ page:
       - icon: /images/products/tubos/isolant-aislantes-linea-climatizacion-tubos-beneficio-3.svg
         text: Mantiene su espesor a lo largo del tiempo
   - type: details
-    order: 2
     enableDetailsSection: true
     function:
       - text: Aislante térmico.
@@ -37,7 +35,6 @@ page:
       - text: Hacé <a href="/images/products/tubos/isolant-aislantes-linea-climatizacion-tubos-presentaciones.png" target="_blank" rel="noopener noreferrer" class="font-bold">click acá</a> para ver todas las presentaciones disponibles
     detailsImage: /images/products/tubos/isolant-aislantes-linea-climatizacion-tubos-imagen-detalle.jpg
   - type: benefits
-    order: 3
     enableBenefitsSection: true
     benefitsTitle: Evitan el **congelamiento y calentamiento de la cañería**
     benefitsText: En el caso de cañerías plásticas protegen el deterioro y lo aíslan térmicamente. Evitan la condensación sobre la cañería. Aumentan la eficacia de los sistemas de calefacción evitando las pérdidas de energía. Evitan las variaciones bruscas de temperatura, disminuyendo las dilataciones y contracciones de la cañería.
@@ -49,15 +46,12 @@ page:
       - text: Material liviano.
   - type: video
     enableVideoSection: false
-    order: 4
     video: https://www.youtube.com/watch?v=K_oY34zgYc4
   - type: instructions
-    order: 5
     enableInstructions: true
     instructions:
       - Tubos
   - type: technicalInformation 
-    order: 6
     enableTechnicalInformation: true
     technicalInformationList:
       - title: Resistencia térmica
@@ -93,14 +87,12 @@ page:
       - title: Permeabilidad a los rayos de luz
         text: 52-63% (Espectro fotómetro)
   - type: downloads
-    order: 7
     downloadsTitle: Área de **descargas**
     downloads:
       - Catálogo Climatización
       - Volante Climatización
   - type: colocation
     enableColocationSection: true
-    order: 8
     colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
     colocationTitle: ¿No tenés quién te coloque **nuestros aislantes?**
     technicalAssessorCtaText: Buscá tu asesor técnico
@@ -108,7 +100,6 @@ page:
     colocationCtaText: Encontrá un instalador
     technicalAssessorCtaLink: /servicios#map
   - type: cta
-    order: 9
     ctaImage: /images/products/tubos/isolant-aislantes-linea-climatizacion-tubos-cta.jpg
     enableCtaSection: true
 ---

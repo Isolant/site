@@ -1,23 +1,32 @@
 ---
 name: Atacama
-description: El único aislante líquido de fácil aplicación para cualquier tipo
-  de techo o muro que baja de 6° a 8° la temperatura de tu casa.
+description: >-
+  Es un aislante térmico líquido de muy fácil aplicación. Ideal para bajar la
+  temperatura interna de viviendas, galpones, quinchos y todo tipo de obra,
+  especialmente en zonas cálidas y de altas temperaturas.
+
+
+  **ATACAMA** utiliza nanotecnología de última generación, en base a nano-esferas poliméricas expandidas que confieren excepcionales propiedades reflectivas y aislantes, especialmente de las radiaciones infrarrojas, lo cual permite evitar la absorción del calor solar.
 globals:
   order: 2
   highlighted: true
   productImage: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-imagen-balde.png
-  logo: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-escudo.jpg
+  logo: /images/products/atacama/logo.png
   ecommerceLink: https://tienda.isolant.com.ar/vivienda/82-atacama-balde-20lt.html
   slogan: Bajá la temperatura interior de tu casa **entre 6 y 8 grados**
+  productImageProportion: vertical
+  color: "#C88648"
 page:
   - type: hero
-    order: 1
     enableHero: true
     mainImageBackgroundPosition: bottom
     heroImage:
-      selectedOption: image
-      mainImageBackgroundPosition: top
-      mainImage: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-imagen-fondo.jpg
+      - selectedOption: image
+        mainImageBackgroundPosition: bottom
+        mainImage: /images/products/atacama/slider-1.jpg
+      - selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/atacama/slider-2.jpg
     mainBenefits:
       - icon: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-beneficio-1.svg
         text: Aislación térmica. Comfort de tu casa en verano.
@@ -25,87 +34,74 @@ page:
         text: Ahorro. Ayuda a reducir el gasto de electricidad.
       - icon: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-beneficio-3.svg
         text: Impermeable. Sella micro fisuras.
-  - type: details
-    enableDetailsSection: true
-    order: 2
-    detailsImage: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-imagen-detalle-producto.jpg
-    function:
-      - text: Aislante térmico.
-      - text: Sella micro fisuras.
-      - text: "Protección AA: anti hongo y anti alga."
-    application:
-      - text: Sobre techos de chapa nuevos o existentes, losas de hormigón, terrazas,
-          tejas y muros exteriores. ¡Muy fácil colocación! Hacelo vos mismo.
-    presentation:
-      - text: Balde 20lt. - Caja 15lt.
-      - text: 1lt. rinde 1m2 plano.
-  - type: benefits
-    enableBenefitsSection: true
-    order: 3
-    benefitsSubtitle: Nano esferas poliméricas
-    benefitsTitle: Nanotecnología de **última generación**
-    benefitsText: <strong>Atacama Escudo Solar</strong> utiliza nanotecnología de
-      última generación, en base a nano-esferas poliméricas expandidas que confieren
-      excepcionales propiedades reflectivas y aislantes, especialmente de las
-      radiaciones infrarrojas, lo cual permite evitar la absorción del calor solar.
-    benefitsList:
-      - text: Protección AA. Protege contra los hongos y algas.
-      - text: Fácil aplicación. ¡Hacelo vos mismo!
-      - text: Sostenible. Reduce la huella de carbono.
-    benefitsImage: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-producto-beneficio-exclusivo.jpg
+    heroType: custom
+    slogan: Escudo solar **Atacama**
+  - type: attributes
+    enableAttributesSection: true
+    attributesTitle: Atributos
+    attributesText: Conocé los beneficios de aplicar Atacama
+    attributes:
+      - image: /images/products/atacama/attributes/attribute-1.png
+        title: Térmico
+        text: Confort de tu casa en verano.
+      - image: /images/products/atacama/attributes/attribute-2.png
+        title: Ahorro
+        text: Ayuda a reducir el gasto de electricidad.
+      - image: /images/products/atacama/attributes/attribute-3.png
+        title: Impermeable
+        text: Sella micro fisuras.
+      - image: /images/products/atacama/attributes/attribute-4.png
+        title: Protección AA
+        text: Protege contra los hongos y algas.
+      - image: /images/products/atacama/attributes/attribute-5.png
+        title: Fácil aplicación
+        text: ¡Hacelo vos mismo!
+      - image: /images/products/atacama/attributes/attribute-6.png
+        title: Sostenible
+        text: Reduce la huella de carbono.
   - type: video
     enableVideoSection: true
-    order: 4
+    videoTitle: Aplicación
+    videoType: boxed
+    videoText: ¡Es muy sencillo! Conocé cómo aplicarlo vos mismo debajo.
     video: https://www.youtube.com/watch?v=zefa_Sh5-Z4
   - type: instructions
     enableInstructions: true
     instructions:
-      - Atacama
-  - type: technicalInformation
-    enableTechnicalInformation: true
-    order: 5
-    technicalInformationList:
-      - title: Color
-        text: Blanco
-      - title: Consistencia
-        text: Material listo para usar
-      - title: Peso específico
-        text: 0.90-1.00 kg/lts
-      - title: Ph
-        text: 7/9
-      - title: "Viscosidad Brockfield, SP: 5, RPM:10, Temp: 25°C"
-        text: 26.000-36.000 cps
-      - title: Resistencia a la Tracción a 7 días
-        text: "> 12.0 N/m2"
-      - title: Elongación % a 7 días
-        text: 100% +/- 10
-      - title: Permeabilidad al vapor de agua a 7 días
-        text: "> 70 gr/m2 x dia"
-      - title: Emitancia, E
-        text: 0.863 +/- 0.002
-      - title: Reflectancia, R
-        text: 0.866 +/- 0.001
-      - title: SRI a bajo viento superficial
-        text: 106,9
-      - title: SRI a medio viento superficial
-        text: 107,1
-      - title: SRI a alto viento superficial
-        text: 107,3
-    generalInformationList:
-      - title: Aislante térmico líquido.
-      - title: Recubrimiento semi-mate continuo, impermeable, flexible y elástico.
-      - title: Adhesión destacada en variados substratos como chapa, hormigón, morteros, baldosas, etc.
-      - title: Fácil aplicación con utensilios sencillos como rodillo de lana sintética y/o pinceleta, así como equipos de alto rendimiento tipo Airless.
-      - title: Resistente a agentes climáticos y radiación UV.
-      - title: Fácil mantenimiento.
-      - title: Tecnología UV curable, minimiza la adherencia de la suciedad, smog, esporas extendiendo las cualidades de la película.
-      - title: "Aditivos poliuretánicos: confieren mayor transferencia y aplicabilidad del producto. Otorga óptima adherencia al sustrato."
-      - title: "Doble protección AA: Anti hongo y Anti algas."
-      - title: "Producto amigable y respetuoso del medio ambiente: libre de APOE, libre de Formaldehido, libre de amoníaco, bajo VOC."
-      - Aplica a sistemas de construcción sustentables tipo LEED.
+      - Atacama sobre chapa galvanizada nueva
+      - Atacama sobre chapa galvanizada vieja o sin óxido
+      - Atacama sobre hormigón o sustratos cementicios
+      - Atacama sobre membranas asfálticas y/o aluminizadas
+  - type: map
+    enableMapSection: true
+    mapEmbed:
+      code: <iframe src="https://www.google.com/maps/d/embed?mid=1MmIxK_heTpLlD7BLzq43B6nQ9lyMPqE&ehbc=2E312F" width="640" height="480"></iframe>
+  - type: recommendations
+    enableRecommendationsSection: true
+    recommendationsTitle: Recomendaciones de uso **y seguridad en general**
+    recommendations:
+      - text: Se recomienda aplicar el producto cuando las temperaturas sean superiores
+          a 5ºC e inferiores a 35ºC.
+      - text: Este producto no evita la condensación.
+      - text: Correctamente almacenado conserva sus propiedades por 24 meses.
+      - text: No aplicar sobre soportes helados, calientes, húmedos, con polvo, hollín,
+          óxido o grasitudes.
+      - text: No aplicar el producto en situaciones de amenaza de lluvia.
+      - text: Mantener envases en posición vertical y bien cerrados.
+      - text: Las herramientas se lavan con agua.
+      - text: Aplicar un máximo de 3 baldes sobre una superficie seca.
+      - text: No utilizar el material si sufrió un deterioro dentro del envase por
+          almacenarlo en espacios con temperaturas menores a 0°.
+      - text: En caso de contacto con los ojos, lavarlos con abundante agua durante 15
+          minutos y en contacto con la piel, lavar con agua y jabón. Consultar
+          con un médico.
+      - text: "En caso de ingestión comunicarse al: CENTRO NACIONAL DE INTOXICACIONES
+          más cercano o llamar al Tel: 0800-333-0160 HOSPITAL POSADAS:
+          (011)4658-7777/ 4654-6648."
+      - text: Mantener fuera del alcance de niños y mascotas.
+      - text: Producto no inflamable.
   - type: downloads
     enableDownloadsSection: true
-    order: 6
     downloadsTitle: Área de **descargas**
     downloads:
       - Volante Atacama
@@ -113,18 +109,28 @@ page:
       - Cálculo de índice de reflectancia solar Atacama
       - Hoja de seguridad Atacama
       - Hoja técnica Atacama
-  - type: colocation
-    enableColocationSection: true
-    order: 7
-    colocationTitle: ¿No tenés quién te coloque **nuestros aislantes?**
-    colocationCtaLink: https://isoplus.isolant.com.ar/inicio
-    technicalAssessorCtaLink: /servicios#map
-    colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
-    colocationCtaText: Encontrá un instalador
-    technicalAssessorCtaText: Buscá tu asesor técnico
-  - type: cta
-    enableCtaSection: true
-    order: 8
-    ctaImage: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-cta-imagen.jpg
-    ctaImageBackgroundPosition: top
+  - type: relatedProducts
+    enableRelatedProductsSection: true
+    relatedProductsTitle: Aislantes para techos
+    relatedProducts:
+      - Super TBA
+      - Cedro NET
+      - TBA Multicapa
+      - Doble Alu NET
+      - Alu Stark NET
+  - type: about
+    enableAboutSection: true
+    aboutImage: /images/products/atacama/partners.svg
+    aboutTitle: "**Sobre Isolant y Venezia**"
+    aboutText: >-
+      Isolant y Venezia se unen con la misión de lograr un producto revolucionador. Juntos es que desarrollamos este escudo solar; un aislante líquido reflectivo con nano tecnología orientado a mejorar el confort térmico de viviendas y obras en general, durante las estaciones de más calor del año.
+      
+      
+      Este NO es un producto mágico; las nano esferas y los componentes reflectivos que logramos incorporar a ATACAMA en un justo equilibrio, son los que logran evitar la transmitancia térmica producida por la acción de los rayos solares sobre cualquier tipo de cubierta. Chapas, losas y tejas pueden ser protegidas con ATACAMA, escudo solar.
+      
+      
+      Atacama se consigue en corralones, pinturerías y ferreterías de todo el país. Escribinos para conocer más sobre este producto!
+  - type: contact
+    enableContactSection: true
+    theme: dark
 ---

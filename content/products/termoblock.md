@@ -10,11 +10,10 @@ globals:
   productImage: /images/products/termoblock/isolant-aislantes-linea-galpones-y-tinglados-termoblock-producto-rollo.png
 page:
   - type: hero
-    order: 1
     heroImage:
-      selectedOption: image
-      mainImageBackgroundPosition: top
-      mainImage: /images/products/termoblock/isolant-aislantes-linea-galpones-y-tinglados-termoblock-imagen-principal.jpg
+      - selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/termoblock/isolant-aislantes-linea-galpones-y-tinglados-termoblock-imagen-principal.jpg
     enableHero: true
     slogan: Que tus animales se **sientan en un hotel**
     mainBenefits:
@@ -26,7 +25,6 @@ page:
         text: Galpones más estancos
   - type: details
     enableDetailsSection: true
-    order: 2
     function:
       - text: Aislante térmico.
       - text: Impermeable y barrera de vapor.
@@ -41,7 +39,6 @@ page:
     detailsImage: /images/products/termoblock/isolant-aislantes-linea-galpones-y-tinglados-termoblock-imagen-detalle.jpg
   - type: benefits
     enableBenefitsSection: true
-    order: 3
     benefitsTitle: Estudio termográfico **gratuito**
     benefitsText: Contamos con un equipo técnico especialmente preparado en el asesoramiento y análisis de galpones de crianza animal. Conocé más sobre nuestro análisis termográfico gratuito en obra e informes generados con termógrafos colocados en tus galpones.
     benefitsImage: /images/products/termoblock/isolant-aislantes-linea-galpones-y-tinglados-termoblock-beneficio-exclusivo.jpg
@@ -51,15 +48,12 @@ page:
       - text: Clase RE2. Muy baja propagación de llama.
   - type: video
     enableVideoSection: false
-    order: 4
   - type: instructions
     enableInstructions: true
-    order: 5
     instructions:
       - Termoblock
   - type: technicalInformation
     enableTechnicalInformation: true
-    order: 6
     generalInformationList:
       - title: Son absolutamente impermeables
       - title: Son aislantes térmicos
@@ -110,7 +104,6 @@ page:
       - title: Permeabilidad a los rayos de luz
         text: 52-63% (Espectro fotómetro)
   - type: downloads
-    order: 7
     downloadsTitle: Área de **descargas**
     downloads:
       - Catálogo de Industria
@@ -118,7 +111,6 @@ page:
       - Tríptico Industria/Vivienda
   - type: colocation
     enableColocationSection: true
-    order: 8
     colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
     colocationTitle: ¿No tenés quién te coloque **nuestros aislantes?**
     technicalAssessorCtaText: Buscá tu asesor técnico
@@ -127,7 +119,6 @@ page:
     technicalAssessorCtaLink: /servicios#map
   - type: cta
     enableCtaSection: true
-    order: 9
     ctaTitle: El mejor aislante para tu galpón **de crianza animal**
     ctaImage: /images/products/termoblock/isolant-aislantes-linea-galpones-y-tinglados-termoblock-cta.jpg
 ---

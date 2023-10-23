@@ -13,11 +13,10 @@ globals:
 page:
   - type: hero
     slogan: Podías sentir tus pisos **de manera diferente**
-    order: 1
     heroImage:
-      selectedOption: image
-      mainImageBackgroundPosition: top
-      mainImage: /images/products/bajo-piso-flotante-acoustic/isolant-aislantes-linea-pisos-bajo-piso-flotante-acoustic-imagen.jpg
+      - selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/bajo-piso-flotante-acoustic/isolant-aislantes-linea-pisos-bajo-piso-flotante-acoustic-imagen.jpg
     enableHero: true
     mainBenefits:
       - icon: /images/products/bajo-piso-flotante-acoustic/isolant-aislantes-linea-pisos-bajo-piso-flotante-acoustic-beneficio-1.svg
@@ -28,7 +27,6 @@ page:
         text: Solape que impide el paso de la humedad
   - type: details
     enableDetailsSection: true
-    order: 2
     function:
       - text: Amortiguante acústico premium.
       - text: Base niveladora.
@@ -41,7 +39,6 @@ page:
     detailsImage: /images/products/bajo-piso-flotante-acoustic/isolant-aislantes-linea-pisos-bajo-piso-flotante-acoustic-imagen-detalle.jpg
   - type: benefits
     enableBenefitsSection: true
-    order: 3
     benefitsTitle: Sistema Micro Pumping **de ventilación**
     benefitsText: Gracias a su novedoso formato acanalado, <strong>Base para Piso Flotante Acoustic</strong> de ISOLANT®, colabora con la ventilación necesaria del contrapiso.<br /></br />Incorporamos así la función de “micro-pumping”. Al caminar sobre el piso flotante, la presión que se ejerce activa los canales de ventilación promoviendo el movimiento de aire que genera la ventilación necesaria para disipar la humedad que pudiera haber en el contrapiso.
     benefitsImage: /images/products/bajo-piso-flotante-acoustic/isolant-aislantes-linea-pisos-bajo-piso-flotante-acoustic-beneficio-exclusivo.jpg
@@ -52,16 +49,13 @@ page:
       - text: Mantiene su espesor a lo largo del tiempo.
   - type: video
     enableVideoSection: true
-    order: 4
     video: https://www.youtube.com/watch?v=kYmErVwc5_k
   - type: instructions
     enableInstructions: true
-    order: 5
     instructions:
       - Bajo Piso Flotante Acoustic
   - type: technicalInformation
     enableTechnicalInformation: true
-    order: 6
     technicalInformationList:
       - title: Aislación a ruidos de impacto
         text: CPAcoustic 29dB promedio
@@ -101,14 +95,12 @@ page:
         text: 52-63% (Espectro fotómetro)
   - type: downloads
     enableDownloadsSection: true
-    order: 7
     downloadsTitle: Área de **descargas**
     downloads:
       - Catálogo de Pisos
       - Volante Base Alfombra y Bajo Piso Flotante ACOUSTIC
   - type: colocation
     enableColocationSection: true
-    order: 8
     colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
     colocationTitle: ¿No tenés quién te coloque **nuestros aislantes?**
     technicalAssessorCtaText: Buscá tu asesor técnico
@@ -118,5 +110,4 @@ page:
   - type: cta
     ctaImage: /images/products/bajo-piso-flotante-acoustic/isolant-aislantes-linea-pisos-bajo-piso-flotante-acoustic-cta-fondo.jpg
     enableCtaSection: true
-    order: 9
 ---

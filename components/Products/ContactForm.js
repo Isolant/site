@@ -29,7 +29,7 @@ export default function ContactForm({ background, theme }) {
         ${verticalPadding}
       `}
       style={{
-        backgroundColor: background || ''
+        backgroundImage: background && `url(${background})` || ''
       }}
     >
       <form

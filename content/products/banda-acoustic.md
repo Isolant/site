@@ -19,12 +19,11 @@ globals:
 page:
   - type: hero
     enableHero: true
-    order: 1
     slogan: Viví sin ruidos **y disfrutá tu espacio**
     heroImage:
-      selectedOption: image
-      mainImageBackgroundPosition: top
-      mainImage: /images/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-imagen.jpg
+      - selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-imagen.jpg
     mainBenefits:
       - icon: /images/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-beneficio-1.svg
         text: Desanclaje acústico de soleras y montantes
@@ -34,7 +33,6 @@ page:
         text: Evitan la condensación
   - type: details
     enableDetailsSection: true
-    order: 2
     detailsImage: /images/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-imagen-detalle-producto.jpg
     function:
       - text: Aislante acústico.
@@ -46,7 +44,6 @@ page:
       - text: "Espesor: 3mm."
   - type: benefits
     enableBenefitsSection: true
-    order: 3
     benefitsTitle: Adhesivada **sin desmoldante**
     benefitsText: <strong>Banda Acoustic</strong> es el producto ideal para
       desanclar acústicamente la estructura metálica de construcción en seco de las
@@ -60,16 +57,13 @@ page:
     benefitsImage: /images/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-beneficio-exclusivo.jpg
   - type: video
     enableVideoSection: true
-    order: 4
     video: https://www.youtube.com/watch?v=6GFJz-5GJuQ
   - type: instructions
     enableInstructions: true
-    order: 5
     instructions:
       - Colocación Banda Acoustic
   - type: technicalInformation
     enableTechnicalInformation: true
-    order: 6
     technicalInformationList:
       - title: Material
         text: Espuma de polietileno de baja densidad
@@ -107,7 +101,6 @@ page:
           que lo proteja de la reflexión indirecta de los rayos UV
   - type: downloads
     enableDownloadsSection: true
-    order: 7
     downloadsTitle: Área de **descargas**
     downloads:
       - Catálogo Construcción en Seco
@@ -116,7 +109,6 @@ page:
       - ¿Qué tipo de techo querés aislar?
   - type: colocation
     enableColocationSection: true
-    order: 8
     colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
     colocationTitle: ¿No tenés quién te coloque **nuestros aislantes?**
     colocationCtaLink: https://isoplus.isolant.com.ar/inicio
@@ -125,6 +117,5 @@ page:
     technicalAssessorCtaText: Buscá tu asesor técnico
   - type: cta
     enableCtaSection: true
-    order: 9
     ctaImage: /images/products/banda-acoustic/isolant-aislantes-linea-vivienda-banda-acoustic-imagen-detalle.jpg
 ---

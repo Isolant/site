@@ -101,7 +101,7 @@ export default function Homepage({ highlightedProductsData, categoriesData, prod
           id="contacto"
         >
           <div
-            className="w-full h-96 md:h-screen relative overflow-x-hidden"
+            className="w-full h-96 md:h-screen order-last lg:order-none relative overflow-x-hidden"
           >
             <InstagramSlider
               slider={instagramSlider}

@@ -9,11 +9,10 @@ globals:
 page:
   - type: hero
     slogan: Duplicá la vida útil **de tu alfombra**
-    order: 1
     heroImage:
-      selectedOption: image
-      mainImageBackgroundPosition: top
-      mainImage: /images/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-imagen-fondo.jpg
+      - selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-imagen-fondo.jpg
     enableHero: true
     mainBenefits:
       - icon: /images/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-beneficio-1.svg
@@ -24,7 +23,6 @@ page:
         text: Evita el avance de llamas
   - type: details
     enableDetailsSection: true
-    order: 2
     function:
       - text: Amortiguante acústico.
       - text: Base niveladora.
@@ -37,7 +35,6 @@ page:
     detailsImage: /images/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-imagen-detalle.jpg
   - type: benefits
     enableBenefitsSection: true
-    order: 3
     benefitsTitle: Extiende la vida útil **de tu alfombra**
     benefitsText: El <strong>Base para Alfombras</strong> ISOLANT®, de 6 mm de espesor, prolonga la vida útil de su alfombra, brinda un mayor confort al andar y es un excelente aislante acústico de ruidos de impacto.<br /><br />Es un producto higiénico, resistente, impermeable, flexible, elástico y de máxima vida útil.
     benefitsImage: /images/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-beneficio-exclusivo.jpg
@@ -47,15 +44,12 @@ page:
       - text: Saludable. No desprende partículas.
   - type: video
     enableVideoSection: false
-    order: 4
   - type: instructions
     enableInstructions: true
-    order: 5
     instructions:
       - Base Alfombra
   - type: technicalInformation
     enableTechnicalInformation: true
-    order: 6
     technicalInformationList:
       - title: Aislación a ruidos de impacto
         text: CPAcoustic 29dB promedio
@@ -95,7 +89,6 @@ page:
         text: 52-63% (Espectro fotómetro)
   - type: downloads
     enableDownloadsSection: true
-    order: 7
     downloadsTitle: Área de **descargas**
     downloads:
       - Catálogo de Pisos
@@ -103,7 +96,6 @@ page:
       - Volante Base Alfombra y Bajo Piso Flotante ACOUSTIC
   - type: colocation
     enableColocationSection: true
-    order: 8
     colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
     colocationTitle: ¿No tenés quién te coloque **nuestros aislantes?**
     technicalAssessorCtaText: Buscá tu asesor técnico
@@ -113,5 +105,4 @@ page:
   - type: cta
     ctaImage: /images/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-cta-fondo.jpg
     enableCtaSection: true
-    order: 9
 ---

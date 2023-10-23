@@ -25,37 +25,37 @@ export default function InstagramSlider({
 
   return (
     <div className="relative flex items-center justify-center w-full h-full bg-gradient-to-r from-blue-300 to-blue-400">
+      <a
+        href="https://www.instagram.com/isolant.aislantes/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
       <div
         className="w-[420px] h-[495px] relative scale-50 md:scale-100"
       >
-        <div
-          className="bg-no-repeat bg-contain absolute w-full h-full z-10"
-          style={{ backgroundImage: 'url("/images/homepage/instagram/frame.png")' }}
-        />
-        <Slider
-          {...settings}
-          className={`${styles.Slider} w-10/12 left-[27px] top-14`}
-        >
-          {slider
-            .map((slide, index) => {
-              return(
-                <a
-                  href={slide.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  key={index}
-                >
+          <div
+            className="bg-no-repeat bg-contain absolute w-full h-full z-10"
+            style={{ backgroundImage: 'url("/images/homepage/instagram/frame.png")' }}
+          />
+          <Slider
+            {...settings}
+            className={`${styles.Slider} w-10/12 left-[27px] top-14`}
+          >
+            {slider
+              .map((slide, index) => {
+                return(
                   <Image
                     src={slide.image}
                     width={400}
                     height={400}
                     objectFit="contain"
+                    key={index}
                   />
-                </a>
-              )
-          })}
-        </Slider>
-      </div>
+                )
+            })}
+          </Slider>
+        </div>
+      </a>
     </div>
   )
 }

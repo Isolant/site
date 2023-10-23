@@ -9,11 +9,10 @@ globals:
 page:
   - type: hero
     enableHero: true
-    order: 1
     heroImage:
-      selectedOption: image
-      mainImageBackgroundPosition: top
-      mainImage: /images/products/sellatutti/isolant-aislantes-linea-accesorios-sellatutti-imagen-fondo.jpg
+      - selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/sellatutti/isolant-aislantes-linea-accesorios-sellatutti-imagen-fondo.jpg
     mainBenefits:
       - icon: /images/products/sellatutti/isolant-aislantes-linea-otros-usos-sellatutti-beneficio-1.svg
         text: Material impermeable e imputrescible
@@ -23,7 +22,6 @@ page:
         text: Evitan la condensación
   - type: details
     enableDetailsSection: true
-    order: 2
     function:
       - text: Cierre hermético para chapas.
       - text: Evita entrada de animales, agua, polvo y viento.
@@ -35,7 +33,6 @@ page:
     detailsImage: /images/products/sellatutti/isolant-aislantes-linea-otros-usos-sellatutti-imagen-detalle.jpg
   - type: benefits
     enableBenefitsSection: true
-    order: 3
     benefitsTitle: Terminación **reforzada**
     benefitsText: SELLATUTTI es el único cierre hermético para chapas y juntas, que presenta una terminación reforzada en ambas cara. Esto alarga su vida útil y lo hace más difícil de romper para pájaros y animales.
     benefitsImage: /images/products/sellatutti/isolant-aislantes-linea-otros-usos-sellatutti-beneficio-exclusivo.jpg
@@ -45,14 +42,11 @@ page:
       - text: Material liviano.
   - type: video
     enableVideoSection: true
-    order: 4
     video: https://www.youtube.com/watch?v=GkkPNhL9esg
   - type: instructions
     enableInstructions: false
-    order: 5
   - type: technicalInformation
     enableTechnicalInformation: true
-    order: 6
     generalInformationList:
       - title: No son atacados por insectos
       - title: No se degradan y mantienen su forma y espesor a lo largo del tiempo
@@ -96,14 +90,11 @@ page:
         text: 52-63% (Espectro fotómetro)
   - type: downloads
     enableDownloadsSection: true
-    order: 7
     downloads:
       - Volante Sellatutti
   - type: colocation
     enableColocationSection: false
-    order: 8
   - type: cta
     enableCtaSection: true
-    order: 9
     ctaImage: /images/products/sellatutti/isolant-aislantes-linea-accesorios-sellatutti-imagen-cta.jpg
 ---

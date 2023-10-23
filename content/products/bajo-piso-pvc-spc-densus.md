@@ -13,11 +13,10 @@ globals:
 page:
   - type: hero
     slogan: Caminá tus pisos como **nunca lo hiciste antes**
-    order: 1
     heroImage:
-      selectedOption: image
-      mainImageBackgroundPosition: top
-      mainImage: /images/products/bajo-piso-pvc-spc-densus/isolant-aislantes-linea-pisos-bajo-piso-spc-densus-imagen-fondo.jpg
+      - selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/bajo-piso-pvc-spc-densus/isolant-aislantes-linea-pisos-bajo-piso-spc-densus-imagen-fondo.jpg
     enableHero: true
     mainBenefits:
       - icon: /images/products/bajo-piso-pvc-spc-densus/isolant-aislantes-linea-pisos-bajo-piso-pvc-spc-densus-beneficio-3.svg
@@ -28,7 +27,6 @@ page:
         text: Aumenta la vida útil de tus pisos
   - type: details
     enableDetailsSection: true
-    order: 2
     function:
       - text: Base niveladora.
       - text: Amortiguante acústico alto tránsito.
@@ -41,7 +39,6 @@ page:
     detailsImage: /images/products/bajo-piso-pvc-spc-densus/isolant-aislantes-linea-pisos-bajo-piso-pvc-spc-densus-imagen-detalle-producto.jpg
   - type: benefits
     enableBenefitsSection: true
-    order: 3
     benefitsTitle: Densidad premium **para alto tránsito**
     benefitsText: Gracias a su densidad premium, <sttrong>Bajo piso PVC / SPC densus</strong> de ISOLANT®, soparta la carga dinámica de cualquier solado sin sufrir deformaciones con el paso del tiempo, y evitando roturas del sistema click.
     benefitsImage: /images/products/bajo-piso-pvc-spc-densus/isolant-aislantes-linea-pisos-bajo-piso-spc-densus-beneficio-exclusivo.jpg
@@ -52,11 +49,9 @@ page:
       - text: Apropiado para personas alérgicas, al no permitir el crecimiento de ácaros de polvo.
   - type: video
     enableVideoSection: true
-    order: 4
     video: https://www.youtube.com/watch?v=Phm47SAN1zY
   - type: instructions
     enableInstructions: true
-    order: 5
     instructions:
       - Bajo Piso PVC SPC Densus
   - type: technicalInformation
@@ -100,13 +95,11 @@ page:
         text: 52-63% (Espectro fotómetro)
   - type: downloads
     enableDownloadsSection: true
-    order: 6
     downloadsTitle: Área de **descargas**
     downloads:
       - Catálogo de Pisos
   - type: colocation
     enableColocationSection: true
-    order: 7
     colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
     colocationTitle: ¿No tenés quién te coloque **nuestros aislantes?**
     technicalAssessorCtaText: Buscá tu asesor técnico
@@ -114,7 +107,6 @@ page:
     colocationCtaText: Encontrá un instalador
     technicalAssessorCtaLink: /servicios#map
   - type: cta
-    order: 8
     ctaImage: /images/products/bajo-piso-pvc-spc-densus/isolant-aislantes-linea-pisos-bajo-piso-pvc-spc-densus-cta-fondo.jpg
     enableCtaSection: true
 ---

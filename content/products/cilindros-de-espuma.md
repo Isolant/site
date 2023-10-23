@@ -9,11 +9,10 @@ globals:
 page:
   - type: hero
     slogan: Respaldo de juntas, **elásticas e hidrófugas**
-    order: 1
     heroImage:
-      selectedOption: image
-      mainImageBackgroundPosition: top
-      mainImage: https/images/products/cilindros-de-espuma/CILINDRO_MG_5017_rtfpze.jpg
+      - selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: https/images/products/cilindros-de-espuma/CILINDRO_MG_5017_rtfpze.jpg
     enableHero: true
     mainBenefits:
       - icon: /images/products/cilindros-de-espuma/isolant-aislantes-linea-otros-usos-cilindros-de-espuma-beneficio-1.svg
@@ -24,7 +23,6 @@ page:
         text: Reciclable. No contamina el medio ambiente
   - type: details
     enableDetailsSection: true
-    order: 2
     detailsImage: /images/products/cilindros-de-espuma/CILINDRO_DET_MG_5258_w7wvoz.jpg
     function:
       - text: Absorbe dilataciones y contracciones.
@@ -41,7 +39,6 @@ page:
           para ver todas las presentaciones disponibles
   - type: benefits
     enableBenefitsSection: true
-    order: 3
     benefitsTitle: Absorben la compresión y dilatación de las juntas**
     benefitsText: • Resistentes químicamente a los selladores<br />• Impermeable<br
       />• Imputrescibles<br />• Maleables y flexiles
@@ -52,22 +49,16 @@ page:
     benefitsImage: /images/products/cilindros-de-espuma/isolant-aislantes-linea-otros-usos-cilindros-de-espuma-beneficio-exclusivo.jpg
   - type: video
     enableVideoSection: false
-    order: 4
   - type: instructions
     enableInstructions: true
-    order: 5
     instructions:
       - Cilindros de espuma
   - type: technicalInformation
     enableTechnicalInformation: false
-    order: 6
   - type: downloads
     enableDownloadsSection: false
-    order: 7
   - type: colocation
     enableColocationSection: false
-    order: 8
   - type: cta
     enableCtaSection: false
-    order: 9
 ---

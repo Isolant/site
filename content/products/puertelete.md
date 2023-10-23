@@ -11,11 +11,10 @@ globals:
 page:
   - type: hero
     slogan: Decile chau **al chiflete**
-    order: 1
     heroImage:
-      selectedOption: image
-      mainImageBackgroundPosition: top
-      mainImage: /images/products/puertelete/isolant-aislantes-linea-accesorios-puertelete-imagen.jpg
+      - selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/puertelete/isolant-aislantes-linea-accesorios-puertelete-imagen.jpg
     enableHero: true
     mainBenefits:
       - icon: /images/products/puertelete/isolant-aislantes-linea-otros-usos-puertelete-beneficio-1.svg
@@ -26,7 +25,6 @@ page:
         text: Evita infiltraciones de aire
   - type: details
     enableDetailsSection: true
-    order: 2
     function:
       - text: Cierre hermético para filtraciones debajo de puertas.
       - text: Evita entrada de frío y polvo.
@@ -37,7 +35,6 @@ page:
     detailsImage: /images/products/puertelete/isolant-aislantes-linea-accesorios-puertelete-imagen-detalle.jpg
   - type: benefits
     enableBenefitsSection: false
-    order: 3
     benefitsTitle: Muy fácil **instalación**
     benefitsText: Puertelete no necesita ser fijado con clavos ni tornillos. Cortá tu puertelete (podés usar una trincheta) midiendo el ancho de la puerta, apoyalo en el piso, frente al filo de la puerta, y desplazalo hasta que cubra la totalidad de la puerta.
     benefitsImage: /images/products/puertelete/isolant-aislantes-linea-otros-usos-puertelete-beneficio-exclusivo.jpg
@@ -47,16 +44,13 @@ page:
       - text: Material liviano.
   - type: video
     enableVideoSection: false
-    order: 4
   - type: instructions
     enableInstructions: true
-    order: 5
     pdfInstruction: /images/downloads/colocacion-puertelete.pdf
     instructions:
       - Puertelete
   - type: technicalInformation
     enableTechnicalInformation: true
-    order: 6
     generalInformationList:
       - title: Son absolutamente impermeables
       - title: Son aislantes térmicos
@@ -110,12 +104,9 @@ page:
         text: 52-63% (Espectro fotómetro)
   - type: downloads
     enableDownloadsSection: false
-    order: 7
   - type: colocation
     enableColocationSection: false
-    order: 8
   - type: cta
     ctaImage: /images/products/puertelete/isolant-aislantes-linea-accesorios-puertelete-imagen-cta.jpg
     enableCtaSection: true
-    order: 9
 ---

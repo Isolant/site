@@ -13,12 +13,15 @@ export default function Categories({ categories, title }) {
       >
         {title}
       </h3>
-      <ul className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 pt-4 md:pt-8">
-        {categories.filter((category) => category.visible === true).map((category, index) => {
+      <ul className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 pt-4 md:pt-8">
+        {categories
+          .filter((category) => category.visible === true)
+          .sort((a, b) => a.order > b.order ? 1 : -1)
+          .map((category, index) => {
           return (
             <li
               key={index}
-              className="bg-white p-12 drop-shadow-md hover:drop-shadow-xl transition duration-100 ease-in-out"
+              className="bg-white p-4 md:p-12 drop-shadow-md hover:drop-shadow-xl transition duration-100 ease-in-out"
             >
               <Link
                 href={`/productos?categoria=${category.id}`}

@@ -12,12 +12,11 @@ globals:
   ecommerceLink: https://tienda.isolant.com.ar/pisos/62-contra-piso-acoustic.html
 page:
   - type: hero
-    order: 1
     slogan: Hacé lo que quieras en tu departamento, **nadie te escucha**
     heroImage:
-      selectedOption: image
-      mainImageBackgroundPosition: top
-      mainImage: /images/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-imagen.jpg
+      - selectedOption: image
+        mainImageBackgroundPosition: top
+        mainImage: /images/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-imagen.jpg
     enableHero: true
     mainBenefits:
       - icon: /images/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-beneficio-1.svg
@@ -28,7 +27,6 @@ page:
         text: Mantiene su espesor a lo largo del tiempo
   - type: details
     enableDetailsSection: true
-    order: 2
     function:
       - text: Aislante acústico.
     application:
@@ -39,7 +37,6 @@ page:
     detailsImage: /images/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-imagen-detalle-producto.jpg
   - type: benefits
     enableBenefitsSection: true
-    order: 3
     benefitsTitle: Insonorización **con espesor reducido**
     benefitsText: Por su bajo espesor, <strong>Contrapiso Flotante ACOUSTIC®</strong> no tiene mayor influencia sobre las dimensiones y alturas finales del proyecto. Es resistente a las pisadas y caídas ocasionales de herramientas en la etapa de colocación su capacidad de aislamiento acústico no se verá dañada.
     benefitsImage: /images/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-beneficio-exclusivo-imagen.jpg
@@ -50,17 +47,14 @@ page:
       - text: Barrera de vapor.
   - type: video
     enableVideoSection: true
-    order: 4
     video: https://www.youtube.com/watch?v=t0xTKKOZG0o
   - type: instructions
     enableInstructions: true
-    order: 5
     pdfInstruction: /images/downloads/colocacion-contrapiso-acoustic.pdf
     instructions:
       - Contrapiso Acoustic
   - type: technicalInformation
     enableTechnicalInformation: true
-    order: 6
     technicalInformationList:
       - title: Aislación a ruidos de impacto
         text: CPAcoustic 29dB promedio
@@ -100,14 +94,12 @@ page:
         text: 52-63% (Espectro fotómetro)
   - type: downloads
     enableDownloadsSection: true
-    order: 7
     downloadsTitle: Área de **descargas**
     downloads:
       - Catálogo de Pisos
       - Díptico Contrapiso Acoustic
   - type: colocation
     enableColocationSection: true
-    order: 8
     colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
     colocationTitle: ¿No tenés quién te coloque **nuestros aislantes?**
     technicalAssessorCtaText: Buscá tu asesor técnico
@@ -116,7 +108,6 @@ page:
     technicalAssessorCtaLink: /servicios#map
   - type: cta
     enableCtaSection: true
-    order: 9
     ctaTitle: Viví tu departamento **con confort acústico**
     ctaImage: /images/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-cta.jpg
 ---

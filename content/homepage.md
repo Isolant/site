@@ -74,7 +74,7 @@ otherServicesSlider:
     ctaLink: https://www.isoplus.isolant.com.ar
   - image: /images/homepage/other-services/slide-3.jpg
     title: Sustentabilidad
-    text: Nuestros productos son amigables con el medio ambiente y ecológicos. Conocé más debajo.
+    text: Una empresa comprometida con una gestión y visión de triple impacto.
     ctaText: Ir a austentabilidad
     ctaLink: /sustentabilidad
   - image: /images/homepage/other-services/slide-4.jpg

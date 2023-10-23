@@ -9,6 +9,7 @@ export default function About({
   image,
   title,
   text,
+  textClasses,
 }) {
   return (
     <section
@@ -27,7 +28,10 @@ export default function About({
           title={title}
           text={text}
           additionalTitleClasses="flex justify-center"
-          additionalTextClasses="max-w-lg text-center mx-auto"
+          additionalTextClasses={`
+            text-center mx-auto
+            ${textClasses}
+          `}
           theme="light"
         />
       </div>
