@@ -24,7 +24,7 @@ export default function ProductCard({ product, classes }) {
             src={product.productImage}
             alt={product.title}
             className={`
-              ${product.id === 'banda-acoustic' ? 'max-h-12' : 'max-h-24'}
+              ${product.productImageProportion === 'square' ? 'max-h-12' : 'max-h-24'}
               mb-4 sm:mb-0
             `}
           />

@@ -4,6 +4,7 @@ import Link from 'next/link';
 
 // Classes
 import { uppercaseTextClasses, smallTextClasses } from "../../classes/Text";
+import ReactMarkdown from "react-markdown";
 
 export default function ProductCard({ product }) {
   return (
@@ -11,7 +12,7 @@ export default function ProductCard({ product }) {
       href={`/aislantes/${product.id}`}
     >
       <a
-        className="bg-white rounded-md p-4 shadow-sm hover:shadow-lg"
+        className="bg-white rounded-md p-4 shadow-sm hover:shadow-lg block"
       >
         <li
           className="flex items-center"
@@ -22,16 +23,19 @@ export default function ProductCard({ product }) {
             >
               {product.name}
             </h5>
-            <p
+            <div
               className={`${smallTextClasses} text-gray-500 line-clamp-5 sm:line-clamp-4`}
-              dangerouslySetInnerHTML={{ __html: product.description }}
-            />
+            >
+              <ReactMarkdown>
+                {product.description}
+              </ReactMarkdown>
+            </div>
           </div>
           <div className="ml-2">
             <img
-              src={product.productImage}
+              src={product.globals.productImage}
               alt={product.name}
-              className="h-28 object-cover"
+              className={`${product.globals.productImageProportion === 'square' ? 'h-16' : 'h-28'} object-cover`}
             />
           </div>
         </li>

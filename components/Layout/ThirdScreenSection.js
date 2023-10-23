@@ -16,6 +16,7 @@ export default function ThirdScreenSection({
   imagePosition,
   subtitle,
   title,
+  titleUsesMarkdown,
   text,
   buttons,
   theme,
@@ -75,6 +76,7 @@ export default function ThirdScreenSection({
           buttons={buttons}
           theme={theme}
           additionalContent={additionalContent}
+          usesMarkdown={titleUsesMarkdown}
         />
       </div>
       {children}

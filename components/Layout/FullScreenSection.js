@@ -14,6 +14,7 @@ export default function FullScreenSection({
   backgroundPosition,
   image,
   title,
+  titleUsesMarkdown,
   text,
   buttons,
   theme,
@@ -84,6 +85,7 @@ export default function FullScreenSection({
           text={text}
           buttons={buttons}
           theme={theme}
+          usesMarkdown={titleUsesMarkdown}
         />
       </div>
       {children}

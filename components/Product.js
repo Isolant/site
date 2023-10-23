@@ -12,7 +12,7 @@ export default function Product({ product, name, classes, decorations }) {
       <img
         src={product}
         alt={name}
-        className="relative z-10"
+        className="relative z-10 mix-blend-multiply"
       />
       {decorations === true &&
         <Dots

@@ -1,0 +1,35 @@
+/* This helps ensure the shadow effect doesn't get cut off */
+.RelatedProductsSlider div, .Slider div {
+  @apply mb-4;
+}
+
+/* General styles for arrows */
+.Slider button[data-role="none"], .SolutionsSlider button[data-role="none"], .RelatedProductsSlider button[data-role="none"] {
+  @apply z-10 from-white h-full px-2 md:px-4 w-auto;
+}
+
+/* Right arrow */
+.Slider button[data-role="none"], .SolutionsSlider button[data-role="none"], .RelatedProductsSlider button[data-role="none"] {
+  @apply right-0 bg-gradient-to-l;
+}
+
+/* Left arrow */
+.Slider > button[data-role="none"]:first-child, .SolutionsSlider > button[data-role="none"]:first-child, .RelatedProductsSlider > button[data-role="none"]:first-child {
+  @apply left-0 right-auto bg-gradient-to-r;
+}
+
+.Slider > div > div > div, .RelatedProductsSlider > div > div > div {
+  @apply mx-3;
+}
+
+/* Update colors for related products slider */
+.RelatedProductsSlider button[data-role="none"]::before {
+  @apply text-gray-800;
+}
+
+/* iPad ladscape */
+@media screen and (max-width: 1080px) {
+  .Slider > div > div > div, .RelatedProductsSlider > div > div > div {
+    @apply mx-1;
+  }
+}
