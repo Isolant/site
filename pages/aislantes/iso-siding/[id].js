@@ -6,12 +6,23 @@ import Hero from "../../../components/Subproducts/Hero";
 import Attributes from "../../../components/Products/Attributes";
 import Downloads from "../../../components/Products/Downloads";
 import Tutorials from "../../../components/Products/Tutorials";
+import FullScreenSection from "../../../components/Layout/FullScreenSection";
 
 import { getCollectionIds, getCollectionById, getAllCollections } from '../../../lib/collections';
 
 export default function Subproduct({ productLinesData, productData, downloadsData }) {
   const { name, description } = productData;
   const { productImage, logo, ecommerceLink, color } = productData.globals;
+
+  const ctaButton = [
+    {
+      link: ecommerceLink || `/contacto?comprar=${productData.id}`,
+      text: `Comprá ${name} Aquí`,
+      icon: false,
+      color: 'secondary',
+      isExternal: true,
+    }
+  ];
 
   return (
     <Base
@@ -77,6 +88,24 @@ export default function Subproduct({ productLinesData, productData, downloadsDat
                     />
                   )
                 break;
+                // CTA
+                case 'cta':
+                  section.enableCtaSection === true &&
+                    markup.push (
+                      <FullScreenSection
+                        image={section.ctaImage}
+                        title={section.ctaTitle}
+                        titleUsesMarkdown={true}
+                        backgroundPosition="center"
+                        key={index}
+                        theme="dark"
+                        height="full"
+                        classes="text-center"
+                        layout="centered"
+                        buttons={ctaButton}
+                      />
+                    )
+                  break;
           default:
             break;
         }

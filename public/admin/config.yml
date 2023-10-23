@@ -1103,6 +1103,20 @@ collections:
                   - {label: Texto, name: text, widget: string, hint: "Texto para el slide"}
                   - {label: Texto para botón, name: ctaText, widget: string, hint: "Texto para el botón del slide"}
                   - {label: URL para botón, name: ctaLink, widget: string, hint: "URL a la que lleva el botón del slide"}
+          # CTA
+          - label: "Llamado a la acción"
+            name: "cta"
+            fields:
+              - {label: "Habilitar sección Llamado a la acción", name: "enableCtaSection", widget: "boolean", default: true, hint: "Si querés ocultar esta sección, deshabilitala desde acá", required: false}
+              - {label: "Título para la sección Llamado a la acción", name: "ctaTitle", widget: "string", required: false}
+              - label: "Imagen para la sección Llamado a la acción"
+                name: "ctaImage"
+                widget: "image"
+                choose_url: false
+                required: false
+                media_library:
+                  config:
+                    multiple: false
   # Instructions Collection
   - name: "instructions"
     label: "Instrucciones de colocación"

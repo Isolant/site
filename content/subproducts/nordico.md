@@ -84,4 +84,14 @@ page:
           este instructivo.
         ctaText: Ver video
         ctaLink: https://www.youtube.com
+  - type: cta
+    enableCtaSection: true
+    ctaTitle: >-
+      ¿Interesado en comprar
+      
+      
+      **ISO siding nórdico?**
+
+
+    ctaImage: /images/products/iso-siding/nordico/bg-cta.jpg
 ---
