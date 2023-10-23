@@ -1054,6 +1054,55 @@ collections:
                 media_library:
                   config:
                     multiple: false
+          # Attributes. Used in Siding/Atacama products
+          - label: "Atributos"
+            name: "attributes"
+            fields:
+              - {label: "Habilitar sección atributos", name: "enableAttributesSection", widget: "boolean", hint: "Si no querés mostrar esta sección, deshabilitala desde acá", default: false, required: false}
+              - {label: "Título", name: "attributesTitle", widget: "markdown", hint: "El título de la sección.", required: false}
+              - {label: "Bajada", name: "attributesText", widget: "markdown", hint: "Si está, se usa debajo del título.", required: false}
+              - label: "Atributos"
+                name: "attributes"
+                widget: "list"
+                allow_add: true
+                required: false
+                fields:
+                  - {label: Título, name: title, widget: string}
+                  - {label: Texto, name: text, widget: text}
+                  - {label: Imagen, name: image, widget: image, choose_url: false}
+          # Downloads
+          - label: "Descargas"
+            name: "downloads"
+            fields:
+              - {label: "Habilitar sección Descargas", name: "enableDownloadsSection", widget: "boolean", default: true, hint: "Si querés ocultar esta sección, deshabilitala desde acá"}
+              - {label: "Título sección Descargas", name: "downloadsTitle", widget: "string", hint: "El título de la sección", required: false}
+              - {label: "Texto sección Descargas", name: "downloadsText", widget: "string", hint: "El texto que se muestra debajo del título", required: false}
+              - label: "Descargas asociadas"
+                name: "downloads"
+                widget: "relation"
+                collection: "downloads"
+                required: false
+                search_fields: ["title"]
+                value_field: "title"
+                display_fields: ["title"]
+                multiple: true
+          # Tutorials
+          - label: "Tutoriales"
+            name: "tutorials"
+            fields:
+              - {label: "Habilitar slider tutoriales?", name: "tutorialsEnabled", widget: "boolean", default: true, required: false, hint: "Habilitar el slider de tutoriales"}
+              - {label: "Título sección slider tutoriales", name: "tutorialsTitle", widget: "string", hint: "Título para la sección tutoriales", required: false}
+              - {label: "Texto sección slider tutoriales", name: "tutorialsTextt", widget: "string", hint: "Texto para la sección tutoriales", required: false}
+              - label: "Contenido para slider tutoriales"
+                name: "tutorialsSlider"
+                widget: "list"
+                required: false
+                fields:
+                  - {label: Imagen, name: image, widget: image, hint: "Imagen de fondo"}
+                  - {label: Titulo, name: title, widget: string, hint: "Título para el slide"}
+                  - {label: Texto, name: text, widget: string, hint: "Texto para el slide"}
+                  - {label: Texto para botón, name: ctaText, widget: string, hint: "Texto para el botón del slide"}
+                  - {label: URL para botón, name: ctaLink, widget: string, hint: "URL a la que lleva el botón del slide"}
   # Instructions Collection
   - name: "instructions"
     label: "Instrucciones de colocación"
