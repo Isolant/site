@@ -999,7 +999,7 @@ collections:
     create: true
     identifier_field: name
     editor:
-      prefie: false
+      preview: false
     fields:
       # Minimum fields
       - {label: "Nombre", name: "name", widget: "string"}
@@ -1033,6 +1033,27 @@ collections:
                 multiple: false
           - { label: 'Color de producto', name: 'color', widget: 'color', required: false, allowInput: true }
           - {label: "Link al e-commerce", name: "ecommerceLink", widget: "string", hint: "Si este producto está disponible en el e-commerce, agregá la URL acá.", required: false}
+      # FP fields
+      - label: "Estructura de página"
+        name: "page"
+        widget: "list"
+        allow_add: true
+        required: false
+        types:
+          # Hero
+          - label: "Encabezado"
+            name: "hero"
+            fields:
+              - {label: "Habilitar encabezado principal", name: "enableHero", widget: "boolean", hint: "Si no querés mostrar esta sección, deshabilitala desde acá", default: true, required: false}
+              - label: "Imagen Principal"
+                name: "mainImage"
+                widget: "image"
+                choose_url: false
+                required: false
+                hint: "La imagen de fondo."
+                media_library:
+                  config:
+                    multiple: false
   # Instructions Collection
   - name: "instructions"
     label: "Instrucciones de colocación"
