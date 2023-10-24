@@ -115,6 +115,16 @@ page:
           este instructivo.
         ctaText: Ver video
         ctaLink: https://www.youtube.com
+  - type: relatedProducts
+    enableRelatedProductsSection: true
+    relatedProductsTitle: |-
+      Productos **Construcción en seco**
+    relatedProducts:
+      - Super TBA
+      - Ondusec 25
+      - Ondusec 70
+      - Covering
+      - Banda Acoustic
   - type: cta
     enableCtaSection: true
     ctaTitle: |-

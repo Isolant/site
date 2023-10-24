@@ -7,11 +7,14 @@ import Details from "../../../components/Subproducts/Details";
 import Attributes from "../../../components/Products/Attributes";
 import Downloads from "../../../components/Products/Downloads";
 import Tutorials from "../../../components/Products/Tutorials";
+import RelatedProducts from '../../../components/Products/RelatedProducts';
 import FullScreenSection from "../../../components/Layout/FullScreenSection";
 
 import { getCollectionIds, getCollectionById, getAllCollections } from '../../../lib/collections';
 
-export default function Subproduct({ productLinesData, productData, downloadsData }) {
+import styles from './subproducts.module.css';
+
+export default function Subproduct({ productLinesData, productData, downloadsData, allProductsData }) {
   const { name } = productData;
   const { logo, ecommerceLink, color } = productData.globals;
 
@@ -61,68 +64,78 @@ export default function Subproduct({ productLinesData, productData, downloadsDat
                 />
               )
             break;
-            // Attributes
-            case 'attributes':
-              section.enableAttributesSection === true &&
-                markup.push (
-                  <Attributes
-                    title={section.attributesTitle}
-                    text={section.attributesText}
-                    attributes={section.attributes}
-                    background="/images/products/iso-siding/bg-light.jpg"
+          case 'attributes':
+            section.enableAttributesSection === true &&
+              markup.push (
+                <Attributes
+                  title={section.attributesTitle}
+                  text={section.attributesText}
+                  attributes={section.attributes}
+                  background="/images/products/iso-siding/bg-light.jpg"
+                  key={index}
+                  color={color}
+                  shouldExpand={true}
+                />
+              )
+            break;
+          case 'downloads':
+            section.enableDownloadsSection === true &&
+              markup.push (
+                <Downloads
+                  title={section.downloadsTitle}
+                  text={section.downloadsText}
+                  downloads={downloadsData}
+                  background="/images/products/iso-siding/bg-dark.jpg"
+                  cardType="secondary"
+                  key={index}
+                  shouldExpand={false}
+                />
+              )
+            break;
+          case 'tutorials':
+            section.enableTutorialsSection === true &&
+              markup.push (
+                <Tutorials
+                  title={section.tutorialsTitle}
+                  text={section.tutorialsText}
+                  tutorials={section.tutorials}
+                  key={index}
+                  background="/images/products/iso-siding/bg-dark.jpg"
+                  color={color}
+                />
+              )
+            break;
+          case 'relatedProducts':
+            section.enableRelatedProductsSection === true &&
+              markup.push (
+                <section className="pt-8 md:pt-12">
+                  <RelatedProducts
+                    title={section.relatedProductsTitle}
+                    products={section.relatedProducts.map(selectedProduct => allProductsData.filter(product => selectedProduct === product.name))}
+                    textColor={`text-gray-800 ${styles.ConstructionText}`}
                     key={index}
-                    color={color}
-                    shouldExpand={true}
+                    background="/images/products/iso-siding/bg-light.jpg"
                   />
-                )
-              break;
-              // Downloads
-              case 'downloads':
-                section.enableDownloadsSection === true &&
-                  markup.push (
-                    <Downloads
-                      title={section.downloadsTitle}
-                      text={section.downloadsText}
-                      downloads={downloadsData}
-                      background="/images/products/iso-siding/bg-dark.jpg"
-                      cardType="secondary"
-                      key={index}
-                      shouldExpand={false}
-                    />
-                  )
-                break;
-              // Tutorials
-              case 'tutorials':
-                section.enableTutorialsSection === true &&
-                  markup.push (
-                    <Tutorials
-                      title={section.tutorialsTitle}
-                      text={section.tutorialsText}
-                      tutorials={section.tutorials}
-                      key={index}
-                      background="/images/products/iso-siding/bg-dark.jpg"
-                      color={color}
-                    />
-                  )
-                break;
-                // CTA
-                case 'cta':
-                  section.enableCtaSection === true &&
-                    markup.push (
-                      <FullScreenSection
-                        image={section.ctaImage}
-                        title={section.ctaTitle}
-                        titleUsesMarkdown={true}
-                        backgroundPosition="center"
-                        key={index}
-                        theme="dark"
-                        height="full"
-                        classes="text-center"
-                        layout="centered"
-                        buttons={ctaButton}
-                      />
-                    )
-                  break;
+                </section>
+              )
+            break;
+          case 'cta':
+            section.enableCtaSection === true &&
+              markup.push (
+                <FullScreenSection
+                  image={section.ctaImage}
+                  title={section.ctaTitle}
+                  titleUsesMarkdown={true}
+                  backgroundPosition="center"
+                  key={index}
+                  theme="dark"
+                  height="full"
+                  classes="text-center"
+                  layout="centered"
+                  buttons={ctaButton}
+                />
+              )
+            break;
           default:
             break;
         }
@@ -147,12 +160,14 @@ export async function getStaticProps({ params }) {
   const downloadsSection = productData.page.find(product => product.type === 'downloads');
   const downloadsData = downloadsSection && downloadsSection.downloads !== undefined && downloadsSection.downloads.map(download => getCollectionById("downloads", slugify(download)));
   const productLinesData = getAllCollections("productLines");
+  const allProductsData = getAllCollections("products");
 
   return {
     props: {
       productData,
       downloadsData,
       productLinesData,
+      allProductsData,
     }
   }
 }

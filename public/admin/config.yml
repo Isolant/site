@@ -1134,6 +1134,21 @@ collections:
                   - {label: Texto, name: text, widget: string, hint: "Texto para el slide"}
                   - {label: Texto para botón, name: ctaText, widget: string, hint: "Texto para el botón del slide"}
                   - {label: URL para botón, name: ctaLink, widget: string, hint: "URL a la que lleva el botón del slide"}
+          # Related products
+          - label: "Productos relacionados"
+            name: "relatedProducts"
+            fields:
+              - {label: "Habilitar sección Productos relacionados", name: "enableRelatedProductsSection", widget: "boolean", hint: "Si no querés mostrar esta sección, deshabilitala desde acá", default: false, required: false}
+              - {label: "Título", name: "relatedProductsTitle", widget: "markdown", hint: "El título de la sección.", required: false}
+              - label: "Productos relacionados"
+                name: "relatedProducts"
+                widget: "relation"
+                collection: "products"
+                required: false
+                search_fields: ["name"]
+                value_field: "name"
+                display_fields: ["name"]
+                multiple: true
           # CTA
           - label: "Llamado a la acción"
             name: "cta"
