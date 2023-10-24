@@ -10,6 +10,37 @@ page:
   - type: hero
     enableHero: true
     mainImage: /images/products/iso-siding/nordico/bg.jpg
+  - type: details
+    enableDetails: true
+    detailsText: Iso Siding Nórdico es un sistema de revestimiento, formado por
+      tablas de PVC dispuestas en sentido vertical. Otorga continuidad a la
+      fachada, dando como resultado una terminación recta, estética, limpia y
+      uniforme, ideal para todo tipo de construcciones, sobre todo para fachadas
+      de estilo moderno y minimalista.
+    technicalInformationTitle: Características técnicas
+    technicalInformation:
+      - title: Largo de tabla
+        text: 3,00 m
+      - title: Ancho útil
+        text: 0,20 m
+      - title: Rendimiento por tabla
+        text: 0,60 m2
+      - title: Unidades por caja
+        text: 18 unidades
+    colorsTitle: Colores disponibles
+    colors:
+      - name: Beige
+        color: "#BEB6A9"
+      - name: Antracita
+        color: "#4B4A4A"
+      - name: Nogal
+        color: "#755A59"
+    detailsSlider:
+      - image: /images/products/iso-siding/nordico/slider/slide-1.jpg
+      - image: /images/products/iso-siding/nordico/slider/slide-1.jpg
+      - image: /images/products/iso-siding/nordico/slider/slide-1.jpg
+      - image: /images/products/iso-siding/nordico/slider/slide-1.jpg
+      - image: /images/products/iso-siding/nordico/slider/slide-1.jpg
   - type: attributes
     enableAttributesSection: true
     attributesTitle: Atributos
@@ -86,12 +117,9 @@ page:
         ctaLink: https://www.youtube.com
   - type: cta
     enableCtaSection: true
-    ctaTitle: >-
+    ctaTitle: |-
       ¿Interesado en comprar
-      
-      
+
       **ISO siding nórdico?**
-
-
     ctaImage: /images/products/iso-siding/nordico/bg-cta.jpg
 ---

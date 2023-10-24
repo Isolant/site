@@ -3,6 +3,7 @@ import slugify from 'react-slugify';
 
 import Base from "../../../components/Base";
 import Hero from "../../../components/Subproducts/Hero";
+import Details from "../../../components/Subproducts/Details";
 import Attributes from "../../../components/Products/Attributes";
 import Downloads from "../../../components/Products/Downloads";
 import Tutorials from "../../../components/Products/Tutorials";
@@ -11,8 +12,8 @@ import FullScreenSection from "../../../components/Layout/FullScreenSection";
 import { getCollectionIds, getCollectionById, getAllCollections } from '../../../lib/collections';
 
 export default function Subproduct({ productLinesData, productData, downloadsData }) {
-  const { name, description } = productData;
-  const { productImage, logo, ecommerceLink, color } = productData.globals;
+  const { name } = productData;
+  const { logo, ecommerceLink, color } = productData.globals;
 
   const ctaButton = [
     {
@@ -41,6 +42,22 @@ export default function Subproduct({ productLinesData, productData, downloadsDat
                   product={name}
                   logo={logo}
                   image={section.mainImage}
+                />
+              )
+            break;
+          case 'details':
+            section.enableDetails === true &&
+              markup.push (
+                <Details
+                  key={index}
+                  background="/images/products/iso-siding/bg-light.jpg"
+                  description={section.detailsText}
+                  technicalInformationTitle={section.technicalInformationTitle}
+                  technicalInformation={section.technicalInformation}
+                  colorsTitle={section.colorsTitle}
+                  colors={section.colors}
+                  images={section.detailsSlider}
+                  product={name}
                 />
               )
             break;
