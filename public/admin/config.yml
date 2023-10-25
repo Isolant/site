@@ -1165,6 +1165,29 @@ collections:
                         multiple: false
                   - {label: Titulo, name: title, widget: string, hint: "Título para cada perfil"}
                   - {label: Texto, name: text, widget: string, hint: "Texto para cada perfil"}
+          # Typologies
+          - label: "Tipologías de instalación"
+            name: "typologies"
+            fields:
+              - {label: "Habilitar sección Tipologías", name: "enableTypologiesSection", widget: "boolean", default: true, required: false, hint: "Si querés ocultar esta sección, deshabilitala desde acá"}
+              - label: "Tipologías"
+                name: "typologiesList"
+                widget: "list"
+                required: false
+                allow_add: false
+                min: 2
+                max: 2
+                fields:
+                  - {label: Titulo, name: title, widget: markdown, hint: "Título para cada tipología"}
+                  - label: "Imagen"
+                    name: "image"
+                    widget: "image"
+                    choose_url: false
+                    required: false
+                    media_library:
+                      config:
+                        multiple: false
+                  - {label: Texto, name: text, widget: markdown, hint: "Texto para cada tipología"}
           # Downloads
           - label: "Descargas"
             name: "downloads"

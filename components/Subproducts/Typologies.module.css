@@ -1,0 +1,8 @@
+.Title strong {
+  @apply inline;
+  color: #119849;
+}
+
+.Text strong {
+  @apply block;
+}

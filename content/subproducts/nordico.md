@@ -127,6 +127,24 @@ page:
       - title: Perfil lateral
         text: Se instala en los laterales del vano.
         image: /images/products/iso-siding/profiles/perfil-8.jpg
+  - type: typologies
+    enableTypologiesSection: true
+    typologiesList:
+      - image: /images/products/iso-siding/mamposteria.png
+        title: Aislá con Isolant en **Mampostería**  
+        text: >-
+          **¿Sabías que podés combinar nuestros aislantes con Iso Siding para lograr mejor aislación térmica con la mejor terminación estética?**
+
+
+          Combiná Iso Siding con [Súper TBA](/aislantes/super-tba) para aumentar la aislación de mampostería.
+      - image: /images/products/iso-siding/steel-framing.png
+        title: Aislá con Isolant en **Steel Framing**  
+        text: >-
+          Iso Siding es un revestimiento de PVC muy versátil, en construcciones de Steel Frame se posiciona como el revestimiento ideal por su bajo mantenimiento, simpleza en su instalación y durabilidad.
+
+          
+          Combiná Iso Siding con [Súper TBA](/aislantes/super-tba) para mejorar el aislamiento de tu tabique.
+
   - type: downloads
     enableDownloadsSection: true
     downloadsTitle: "**Área Técnica**"

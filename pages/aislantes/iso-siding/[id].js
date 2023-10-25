@@ -8,6 +8,7 @@ import Attributes from "../../../components/Products/Attributes";
 import Installation from "../../../components/Subproducts/Installation";
 import Calculation from "../../../components/Subproducts/Calculation";
 import Profiles from "../../../components/Subproducts/Profiles";
+import Typologies from "../../../components/Subproducts/Typologies";
 import Downloads from "../../../components/Products/Downloads";
 import Tutorials from "../../../components/Products/Tutorials";
 import RelatedProducts from '../../../components/Products/RelatedProducts';
@@ -113,6 +114,16 @@ export default function Subproduct({ productLinesData, productData, downloadsDat
                   title={section.profilesTitle}
                   image={section.profilesImage}
                   profiles={section.profilesList}
+                />
+              )
+            break;
+          case 'typologies':
+            section.enableTypologiesSection === true &&
+              markup.push (
+                <Typologies
+                  key={index}
+                  background="/images/products/iso-siding/bg-light.jpg"
+                  typologies={section.typologiesList}
                 />
               )
             break;
