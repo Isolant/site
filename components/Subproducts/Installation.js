@@ -1,8 +1,10 @@
 import React from "react";
 import ReactMarkdown from 'react-markdown';
 
-import { smallTextClasses, thinTitleClasses, uppercaseTextClasses } from "../../classes/Text";
+import { thinTitleClasses, uppercaseTextClasses } from "../../classes/Text";
 import { horizontalPadding, verticalPadding } from "../../classes/Spacing";
+
+import InstructionsCard from '../Cards/InstructionsCard';
 
 import styles from './Installation.module.css';
 
@@ -52,32 +54,12 @@ export default function Installation({
             <li
               key={index}
             >
-              <div className="relative">
-                <img
-                  src={instruction.stepImage}
-                  alt={title}
-                  className="rounded-t-md"
-                />
-                <span
-                  className={`
-                    absolute left-0 bottom-0
-                    px-4 py-3
-                    bg-gray-400 text-white
-                    font-semibold
-                    ${uppercaseTextClasses}
-                  `}
-                >
-                  {index + 1}
-                </span>
-              </div>
-              <p
-                className={`
-                  ${smallTextClasses}
-                  mt-4 text-gray-600
-                `}
-              >
-                {instruction.stepText}
-              </p>
+              <InstructionsCard
+                image={instruction.stepImage}
+                text={instruction.stepText}
+                numberActive={true}
+                index={index}
+              />
             </li>
           )}
         </ul>

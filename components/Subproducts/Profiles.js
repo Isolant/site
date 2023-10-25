@@ -5,8 +5,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import { smallTextClasses, thinTitleClasses, uppercaseTextClasses } from "../../classes/Text";
+import { thinTitleClasses } from "../../classes/Text";
 import { horizontalPadding, verticalPadding } from "../../classes/Spacing";
+
+import InstructionsCard from '../Cards/InstructionsCard';
 
 import styles from './Profiles.module.css';
 
@@ -66,35 +68,14 @@ export default function Profiles({
               {...settings} 
             >
               {profiles.map((profile, index) =>
-                <div className="w-full">
-                  <div className="relative">
-                    <img
-                      src={profile.image}
-                      alt={profile.title}
-                      className="rounded-t-md"
-                    />
-                    <span
-                      className={`
-                        absolute left-0 bottom-0
-                        px-4 py-3
-                        bg-gray-400 text-white
-                        font-semibold
-                        ${uppercaseTextClasses}
-                      `}
-                    >
-                      {index + 1}
-                    </span>
-                  </div>
-                  <p
-                    className={`
-                      ${smallTextClasses}
-                      mt-4 text-gray-600
-                      h-24
-                    `}
-                  >
-                    {profile.text}
-                  </p>
-                </div>
+                <InstructionsCard
+                  key={index}
+                  image={profile.image}
+                  title={profile.title}
+                  text={profile.text}
+                  numberActive={true}
+                  index={index}
+                />
               )}
             </Slider>            
           </li>

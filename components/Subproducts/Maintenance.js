@@ -40,7 +40,7 @@ export default function Maintenance({
             <img
               src={image}
               alt={title}
-              className="w-full h-full object-cover rounded-t-lg lg:rounded-l-lg"
+              className="w-full h-full object-cover rounded-t-lg lg:rounded-tr-none lg:rounded-l-lg"
             />
           </li>
           <li
