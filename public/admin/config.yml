@@ -1101,6 +1101,20 @@ collections:
                   - {label: Título, name: title, widget: string}
                   - {label: Texto, name: text, widget: text}
                   - {label: Imagen, name: image, widget: image, choose_url: false}
+          # Instructions
+          - label: "Instrucciones de colocación"
+            name: "instructions"
+            fields:
+              - {label: "Habilitar sección Instrucciones de Colocación", name: "enableInstructions", widget: "boolean", default: true, required: false, hint: "Si querés ocultar esta sección, deshabilitala desde acá"}
+              - label: "Instrucciones de colocación asociadas"
+                name: "instructions"
+                widget: "relation"
+                collection: "instructions"
+                required: false
+                search_fields: ["title"]
+                value_field: "title"
+                display_fields: ["title"]
+                multiple: true
           # Downloads
           - label: "Descargas"
             name: "downloads"

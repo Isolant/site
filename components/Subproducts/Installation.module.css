@@ -1,0 +1,4 @@
+.Title strong {
+  @apply inline;
+  color: #119849;
+}

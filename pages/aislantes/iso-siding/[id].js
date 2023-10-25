@@ -5,6 +5,7 @@ import Base from "../../../components/Base";
 import Hero from "../../../components/Subproducts/Hero";
 import Details from "../../../components/Subproducts/Details";
 import Attributes from "../../../components/Products/Attributes";
+import Installation from "../../../components/Subproducts/Installation";
 import Downloads from "../../../components/Products/Downloads";
 import Tutorials from "../../../components/Products/Tutorials";
 import RelatedProducts from '../../../components/Products/RelatedProducts';
@@ -14,7 +15,7 @@ import { getCollectionIds, getCollectionById, getAllCollections } from '../../..
 
 import styles from './subproducts.module.css';
 
-export default function Subproduct({ productLinesData, productData, downloadsData, allProductsData }) {
+export default function Subproduct({ productLinesData, productData, downloadsData, allProductsData, instructionsData }) {
   const { name } = productData;
   const { logo, ecommerceLink, color } = productData.globals;
 
@@ -75,6 +76,16 @@ export default function Subproduct({ productLinesData, productData, downloadsDat
                   key={index}
                   color={color}
                   shouldExpand={true}
+                />
+              )
+            break;
+          case 'instructions':
+            section.enableInstructionsSection === true &&
+              markup.push (
+                <Installation
+                  title={`Instalación Siding **${name}**`}
+                  instructions={instructionsData[0]}
+                  key={index}
                 />
               )
             break;
@@ -157,6 +168,8 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const productData = getCollectionById("subproducts", params.id);
+  const instructionsSection = productData.page.find(product => product.type === 'instructions');
+  const instructionsData = instructionsSection && instructionsSection.instructions !== undefined ? instructionsSection.instructions.map(product => getCollectionById("instructions", slugify(product))): null;
   const downloadsSection = productData.page.find(product => product.type === 'downloads');
   const downloadsData = downloadsSection && downloadsSection.downloads !== undefined && downloadsSection.downloads.map(download => getCollectionById("downloads", slugify(download)));
   const productLinesData = getAllCollections("productLines");
@@ -166,6 +179,7 @@ export async function getStaticProps({ params }) {
     props: {
       productData,
       downloadsData,
+      instructionsData,
       productLinesData,
       allProductsData,
     }

@@ -82,6 +82,10 @@ page:
         title: Durable
         text: Iso Siding tiene una larga vida útil, lo que implica que no es un material
           de desecho y se puede reutilizar para fabricar otros productos.
+  - type: instructions
+    enableInstructionsSection: true
+    instructions:
+      - Nórdico
   - type: downloads
     enableDownloadsSection: true
     downloadsTitle: "**Área Técnica**"
