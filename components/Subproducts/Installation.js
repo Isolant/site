@@ -59,6 +59,7 @@ export default function Installation({
                 text={instruction.stepText}
                 numberActive={true}
                 index={index}
+                height="auto"
               />
             </li>
           )}

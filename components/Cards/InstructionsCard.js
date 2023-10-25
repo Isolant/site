@@ -7,7 +7,8 @@ export default function InstructionsCard({
   image,
   title,
   text,
-  index
+  index,
+  height
 }) {
   return (
     <div className="w-full">
@@ -48,7 +49,7 @@ export default function InstructionsCard({
           className={`
             ${smallTextClasses}
             mt-2 text-gray-600
-            h-24
+            ${height && height === 'auto' ? 'height-auto' : 'h-24'}
           `}
         >
           {text}

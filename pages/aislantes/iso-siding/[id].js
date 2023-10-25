@@ -139,6 +139,7 @@ export default function Subproduct({ productLinesData, productData, downloadsDat
                   image={section.maintenanceImage}
                   linkText={section.maintenanceCTAText}
                   linkCTA={section.maintenanceCTALink}
+                  steps={section.cleaningSteps}
                   color={color}
                 />
               )

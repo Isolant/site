@@ -157,6 +157,15 @@ page:
     
     maintenanceCTALink: "https://www.youtube.com"
     maintenanceCTAText: Ver video explicativo
+    cleaningSteps:
+      - image: /images/products/iso-siding/cleaning/step-1.jpg
+        text: Moje el revestimiento con una manguera o hidrolavadora. Con esto soltaremos un poco el polvo superficial.
+      - image: /images/products/iso-siding/cleaning/step-2.jpg
+        text: Aplique detergente, jabón o cloro según el nivel de suciedad sobre el revestimiento. Ayúdese con un trapo o esponja.
+      - image: /images/products/iso-siding/cleaning/step-3.jpg
+        text: Para eliminar los residuos que queden en uniones y rincones, utilice un escobillón de cerdas suaves y repase la limpieza.
+      - image: /images/products/iso-siding/cleaning/step-4.jpg
+        text: Moje el revestimiento por última vez, cuidando de retirar todos los residuos de suciedad y detergente que queden aún.
   - type: downloads
     enableDownloadsSection: true
     downloadsTitle: "**Área Técnica**"

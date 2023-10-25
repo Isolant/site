@@ -4,6 +4,8 @@ import ReactMarkdown from 'react-markdown';
 import { regularSubtitleClasses, standardTextClasses, uppercaseTextClasses } from "../../classes/Text";
 import { horizontalPadding, verticalPadding } from "../../classes/Spacing";
 
+import InstructionsCard from "../Cards/InstructionsCard";
+
 import styles from './Typologies.module.css';
 
 export default function Maintenance({
@@ -13,13 +15,13 @@ export default function Maintenance({
   text,
   linkText,
   linkCTA,
-  color
+  color,
+  steps
 }) {
   return (
     <section
       className={`
         relative
-        ${verticalPadding}
       `}
       style={{ backgroundImage: background ? `url(${background})` : '' }}
     >
@@ -31,12 +33,15 @@ export default function Maintenance({
       >
         <ul
           className="
-            grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6 items-center
+            grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-2 xl:gap-6 items-center
             rounded-lg
             bg-white
+            relative -bottom-12 sm:-bottom-16 md:-bottom-24
           "
         >
-          <li>
+          <li
+            className="w-full h-full"
+          >
             <img
               src={image}
               alt={title}
@@ -44,7 +49,7 @@ export default function Maintenance({
             />
           </li>
           <li
-            className="grid grid-cols-1 gap-4"
+            className="grid grid-cols-1 gap-2 xl:gap-4 p-4 pt-0 lg:p-0"
           >
             <h5
               className={`
@@ -58,7 +63,7 @@ export default function Maintenance({
             <div
               className={`
                 ${standardTextClasses}
-                grid grid-cols-1 gap-4
+                grid grid-cols-1 gap-2 xl:gap-4
               `}
             >
               <ReactMarkdown>{text}</ReactMarkdown>
@@ -103,6 +108,45 @@ export default function Maintenance({
             }
           </li>
         </ul>
+      </div>
+      {/* Cleaning steps */}
+      <div
+        className={`
+          ${verticalPadding}
+          bg-gray-100
+        `}
+      >
+        <div
+          className={`
+            ${horizontalPadding}
+            pt-12 sm:pt-16 md:pt-24
+            relative mx-auto container
+          `}
+        >
+          <h5
+            className={`
+              ${uppercaseTextClasses}
+              text-gray-800 font-semibold
+              mb-4
+            `}
+          >
+            Pasos de limpieza
+          </h5>
+          <ul
+            className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 md:gap-6"
+          >
+            {steps.map((step, index) =>
+              <InstructionsCard
+                key={index}
+                image={step.image}
+                text={step.text}
+                numberActive={true}
+                index={index}
+                height="auto"
+              />
+            )}
+          </ul>
+        </div>
       </div>
     </section>
   )
