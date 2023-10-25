@@ -99,6 +99,34 @@ page:
       - text: "A x C / 2= el área triangular (a frontón)."
       - text: "Sume los dos resultados anteriores y réstele la suma de las áreas de ventanas y puertas, y de cualquier otra cosa que no vaya a cubrir."
       - text: "El total del área divídalo por la cantidad de m2 que cubre una tabla de siding: Área /0,76= N° total de tablas."
+  - type: profiles
+    enableProfilesSection: true
+    profilesTitle: Perfiles para la **instalación de siding**
+    profilesImage: /images/products/iso-siding/profiles.png
+    profilesList:
+      - title: Perfil J
+        text: Se instala para terminación por todo el contorno de puertas y ventanas. Mide 3,8m de largo.
+        image: /images/products/iso-siding/profiles/perfil-1.jpg
+      - title: Esquinero exterior
+        text: Se instala en vertical en todas las esquinas exteriores. Mide 3,0m de largo x 50mm de ancho.
+        image: /images/products/iso-siding/profiles/perfil-2.jpg
+      - title: Perfil comienzo
+        text: Se instala en la pared y sirve de apoyo para los primeros paneles de revestimiento. Mide 3,8m de largo por 80mm de ancho.
+        image: /images/products/iso-siding/profiles/perfil-3.jpg
+      - title: Perfil término
+        text: Se instala en la parte superior de la pared, por todo el borde, para terminaciones horizontales y bajo las ventanas. Mide 3,8m de largo.
+        image: /images/products/iso-siding/profiles/perfil-4.jpg
+      - title: Esquinero interior
+        text: Se instala en sentido vertical en todas las esquinas interiores de la fachada. Mide 3,0m de largo.
+        image: /images/products/iso-siding/profiles/perfil-5.jpg
+      - title: Perfil H para Siding
+        text: Se instala en diagonal del bajo alero, en las uniones de siding vertical y en cualquier encuentro plano.
+        image: /images/products/iso-siding/profiles/perfil-6.jpg
+      - title: Perfil Nórdico
+        image: /images/products/iso-siding/profiles/perfil-7.jpg
+      - title: Perfil lateral
+        text: Se instala en los laterales del vano.
+        image: /images/products/iso-siding/profiles/perfil-8.jpg
   - type: downloads
     enableDownloadsSection: true
     downloadsTitle: "**Área Técnica**"

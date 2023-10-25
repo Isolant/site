@@ -1136,6 +1136,35 @@ collections:
                 media_library:
                   config:
                     multiple: false
+          # Profiles
+          - label: "Perfiles"
+            name: "profiles"
+            fields:
+              - {label: "Habilitar sección Perfiles", name: "enableProfilesSection", widget: "boolean", default: true, required: false, hint: "Si querés ocultar esta sección, deshabilitala desde acá"}
+              - {label: "Título sección Perfiles", name: "profilesTitle", widget: "markdown", hint: "El título de la sección", required: false}
+              - label: "Imagen principal sección Perfiles"
+                name: "profilesImage"
+                widget: "image"
+                choose_url: false
+                required: false
+                media_library:
+                  config:
+                    multiple: false
+              - label: "Perfiles"
+                name: "profilesList"
+                widget: "list"
+                required: false
+                fields:
+                  - label: "Imagen"
+                    name: "image"
+                    widget: "image"
+                    choose_url: false
+                    required: false
+                    media_library:
+                      config:
+                        multiple: false
+                  - {label: Titulo, name: title, widget: string, hint: "Título para cada perfil"}
+                  - {label: Texto, name: text, widget: string, hint: "Texto para cada perfil"}
           # Downloads
           - label: "Descargas"
             name: "downloads"

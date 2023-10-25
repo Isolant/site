@@ -7,6 +7,7 @@ import Details from "../../../components/Subproducts/Details";
 import Attributes from "../../../components/Products/Attributes";
 import Installation from "../../../components/Subproducts/Installation";
 import Calculation from "../../../components/Subproducts/Calculation";
+import Profiles from "../../../components/Subproducts/Profiles";
 import Downloads from "../../../components/Products/Downloads";
 import Tutorials from "../../../components/Products/Tutorials";
 import RelatedProducts from '../../../components/Products/RelatedProducts';
@@ -101,6 +102,17 @@ export default function Subproduct({ productLinesData, productData, downloadsDat
                   background="/images/products/iso-siding/bg-light.jpg"
                   steps={section.calculationList}
                   color={color}
+                />
+              )
+            break;
+          case 'profiles':
+            section.enableProfilesSection === true &&
+              markup.push (
+                <Profiles
+                  key={index}
+                  title={section.profilesTitle}
+                  image={section.profilesImage}
+                  profiles={section.profilesList}
                 />
               )
             break;
