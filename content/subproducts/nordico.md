@@ -145,6 +145,18 @@ page:
           
           Combiná Iso Siding con [Súper TBA](/aislantes/super-tba) para mejorar el aislamiento de tu tabique.
 
+  - type: maintenance
+    enableMaintenanceSection: true
+    maintenanceImage: /images/products/iso-siding/mantenimiento.jpg
+    maintenanceTitle: Mantenimiento **y cuidados**
+    maintenanceText: >-
+      Diariamente el revestimiento de nuestra casa está sometido al polvo, suciedad y smog que circula en el ambiente, por ende, es inevitable que se ensucie, al igual que cualquier cosa expuesta al exterior. Iso Siding al estar fabricado en PVC es de fácil mantención, se puede limpiar de manera sencilla, con una manguera para jardín; sin embargo a veces esto no es suficiente, para evitar acumulación de suciedad, sobre todo en zonas urbanas.
+      
+      
+      Si el lavado simple con manguera no realizan la limpieza deseada, utilizar cepillo e hidro lavadora.
+    
+    maintenanceCTALink: "https://www.youtube.com"
+    maintenanceCTAText: Ver video explicativo
   - type: downloads
     enableDownloadsSection: true
     downloadsTitle: "**Área Técnica**"

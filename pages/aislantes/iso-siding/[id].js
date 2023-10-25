@@ -9,6 +9,7 @@ import Installation from "../../../components/Subproducts/Installation";
 import Calculation from "../../../components/Subproducts/Calculation";
 import Profiles from "../../../components/Subproducts/Profiles";
 import Typologies from "../../../components/Subproducts/Typologies";
+import Maintenance from "../../../components/Subproducts/Maintenance";
 import Downloads from "../../../components/Products/Downloads";
 import Tutorials from "../../../components/Products/Tutorials";
 import RelatedProducts from '../../../components/Products/RelatedProducts';
@@ -124,6 +125,21 @@ export default function Subproduct({ productLinesData, productData, downloadsDat
                   key={index}
                   background="/images/products/iso-siding/bg-light.jpg"
                   typologies={section.typologiesList}
+                />
+              )
+            break;
+          case 'maintenance':
+            section.enableMaintenanceSection === true &&
+              markup.push (
+                <Maintenance
+                  key={index}
+                  background="/images/products/iso-siding/bg-light.jpg"
+                  title={section.maintenanceTitle}
+                  text={section.maintenanceText}
+                  image={section.maintenanceImage}
+                  linkText={section.maintenanceCTAText}
+                  linkCTA={section.maintenanceCTALink}
+                  color={color}
                 />
               )
             break;

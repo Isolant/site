@@ -1188,6 +1188,31 @@ collections:
                       config:
                         multiple: false
                   - {label: Texto, name: text, widget: markdown, hint: "Texto para cada tipología"}
+          # Maintenance
+          - label: "Limpieza y mantenimiento"
+            name: "maintenance"
+            fields:
+              - {label: "Habilitar sección Mantenimiento y limpieza", name: "enableMaintenanceSection", widget: "boolean", default: true, required: false, hint: "Si querés ocultar esta sección, deshabilitala desde acá"}
+              - {label: "Título sección mantenimiento", name: "maintenanceTitle", widget: "string", hint: "Título para la sección", required: false}
+              - {label: "Texto sección mantenimiento", name: "maintenanceText", widget: "string", hint: "Texto para la sección", required: false}
+              - label: "Imagen sección mantenimiento"
+                name: "maintenanceImage"
+                widget: "image"
+                choose_url: false
+                required: false
+                media_library:
+                  config:
+                    multiple: false
+              - {label: "Link CTA sección mantenimiento", name: "maintenanceCTALink", widget: "string", hint: "Link para el botón de la sección", required: false}
+              - {label: "Texto CTA sección mantenimiento", name: "maintenanceCTAText", widget: "string", hint: "Texto para el botón de la sección", required: false}
+              - label: "Pasos de limpieza"
+                name: "cleaningSteps"
+                widget: "list"
+                required: false
+                allow_add: true
+                fields:
+                  - {label: Imagen, name: image, widget: image, hint: "Imagen de fondo"}
+                  - {label: Texto, name: text, widget: string, hint: "Texto para el paso"}
           # Downloads
           - label: "Descargas"
             name: "downloads"
@@ -1210,7 +1235,7 @@ collections:
             fields:
               - {label: "Habilitar slider tutoriales?", name: "tutorialsEnabled", widget: "boolean", default: true, required: false, hint: "Habilitar el slider de tutoriales"}
               - {label: "Título sección slider tutoriales", name: "tutorialsTitle", widget: "string", hint: "Título para la sección tutoriales", required: false}
-              - {label: "Texto sección slider tutoriales", name: "tutorialsTextt", widget: "string", hint: "Texto para la sección tutoriales", required: false}
+              - {label: "Texto sección slider tutoriales", name: "tutorialsText", widget: "string", hint: "Texto para la sección tutoriales", required: false}
               - label: "Contenido para slider tutoriales"
                 name: "tutorialsSlider"
                 widget: "list"
