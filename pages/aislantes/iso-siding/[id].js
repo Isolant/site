@@ -6,6 +6,7 @@ import Hero from "../../../components/Subproducts/Hero";
 import Details from "../../../components/Subproducts/Details";
 import Attributes from "../../../components/Products/Attributes";
 import Installation from "../../../components/Subproducts/Installation";
+import Calculation from "../../../components/Subproducts/Calculation";
 import Downloads from "../../../components/Products/Downloads";
 import Tutorials from "../../../components/Products/Tutorials";
 import RelatedProducts from '../../../components/Products/RelatedProducts';
@@ -86,6 +87,20 @@ export default function Subproduct({ productLinesData, productData, downloadsDat
                   title={`Instalación Siding **${name}**`}
                   instructions={instructionsData[0]}
                   key={index}
+                />
+              )
+            break;
+          case 'calculation':
+            section.enableCalculationSection === true &&
+              markup.push (
+                <Calculation
+                  key={index}
+                  title={section.calculationTitle}
+                  text={section.calculationText}
+                  image={section.calculationImage}
+                  background="/images/products/iso-siding/bg-light.jpg"
+                  steps={section.calculationList}
+                  color={color}
                 />
               )
             break;

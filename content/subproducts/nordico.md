@@ -4,7 +4,7 @@ description: Diseño moderno, formado por tablas de PVC dispuestas en sentido ve
 globals:
   order: 1
   productImage: /images/products/iso-siding/nordico/main-image.jpg
-  color: "#13381f"
+  color: "#119849"
   logo: /images/products/iso-siding/logo.svg
 page:
   - type: hero
@@ -86,6 +86,19 @@ page:
     enableInstructionsSection: true
     instructions:
       - Nórdico
+  - type: calculation
+    enableCalculationSection: true
+    calculationTitle: ¿Cómo calcular el material para mi obra?
+    calculationImage: /images/products/iso-siding/calculation.jpg
+    calculationText: >-
+      Calcular la cantidad de paneles de Iso Siding que necesita para cubrir la fachada de su obra es muy simple. Sólo necesita realizar un dibujo simple, tomar las medidas de cada pared y seguir la indicaciones a continuación:
+      **A. Largo B. Alto C. Alto Timpano D. Ancho**
+
+    calculationList:
+      - text: "(A x B )+ (D x B)= Resultado: Las áreas de la superficie a cubrir."
+      - text: "A x C / 2= el área triangular (a frontón)."
+      - text: "Sume los dos resultados anteriores y réstele la suma de las áreas de ventanas y puertas, y de cualquier otra cosa que no vaya a cubrir."
+      - text: "El total del área divídalo por la cantidad de m2 que cubre una tabla de siding: Área /0,76= N° total de tablas."
   - type: downloads
     enableDownloadsSection: true
     downloadsTitle: "**Área Técnica**"

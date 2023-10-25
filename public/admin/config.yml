@@ -1115,6 +1115,27 @@ collections:
                 value_field: "title"
                 display_fields: ["title"]
                 multiple: true
+          # Calculation
+          - label: "Cálculo de materiales"
+            name: "calculation"
+            fields:
+              - {label: "Habilitar sección Cálculo de materiales", name: "enableCalculationSection", widget: "boolean", default: true, required: false, hint: "Si querés ocultar esta sección, deshabilitala desde acá"}
+              - {label: "Título sección Cálculo de materiales", name: "calculationTitle", widget: "string", hint: "El título de la sección", required: false}
+              - {label: "Texto sección Cálculo de materiales", name: "calculationText", widget: "markdown", hint: "El texto que se muestra debajo del título", required: false}
+              - label: "Pasos sección Cálculo de materiales"
+                name: "calculationList"
+                widget: "list"
+                required: false
+                fields:
+                  - {label: Texto, name: text, widget: string, hint: "Texto para cada paso"}
+              - label: "Imagen para la sección Cálculo de materiales"
+                name: "calculationImage"
+                widget: "image"
+                choose_url: false
+                required: false
+                media_library:
+                  config:
+                    multiple: false
           # Downloads
           - label: "Descargas"
             name: "downloads"
