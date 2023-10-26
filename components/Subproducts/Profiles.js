@@ -29,6 +29,13 @@ export default function Profiles({
     adaptiveHeight: true,
     className: styles.profilesSlider,
     draggable: true,
+
+    responsive: [{
+      breakpoint: 767,
+      settings: {
+        arrows: false
+      },
+    }]
   };
 
   return (

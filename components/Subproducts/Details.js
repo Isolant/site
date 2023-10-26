@@ -45,7 +45,7 @@ export default function Details({
         className={`
           ${horizontalPadding}
           relative mx-auto container
-          grid grid-cols-1 lg:grid-cols-2 xl:items-center gap-6
+          grid grid-cols-1 lg:grid-cols-2 gap-6
         `}
       >
         {/* Text content */}
@@ -124,6 +124,7 @@ export default function Details({
                     <div
                       className={`
                         w-8 h-8 rounded-full mx-auto
+                        ${color.name === "Blanco" && "border border-gray-200"}
                       `}
                       style={{ backgroundColor: color.color}}
                     />

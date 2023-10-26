@@ -17,7 +17,7 @@ export default function Hero({
           className="
             font-condensed
             text-5xl md:text-6xl lg:text-[120px] xl:text-[180px]
-            tracking-[20px] lg:tracking-[60px] xl:tracking-[120px]
+            tracking-[20px] lg:tracking-[60px] xl:tracking-[90px]
             text-white
             absolute w-full h-full
             flex items-center justify-center
