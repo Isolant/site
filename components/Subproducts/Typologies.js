@@ -2,7 +2,7 @@ import React from "react";
 import ReactMarkdown from 'react-markdown';
 
 import { regularSubtitleClasses, standardTextClasses } from "../../classes/Text";
-import { horizontalPadding, verticalPadding } from "../../classes/Spacing";
+import { horizontalPadding, topPadding } from "../../classes/Spacing";
 
 import styles from './Typologies.module.css';
 
@@ -14,7 +14,7 @@ export default function Typologies({
     <section
       className={`
         relative
-        ${verticalPadding}
+        ${topPadding}
       `}
       style={{ backgroundImage: background ? `url(${background})` : '' }}
     >

@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import styles from './Details.module.css';
 
 import { standardTextClasses, uppercaseTextClasses } from "../../classes/Text";
-import { horizontalPadding } from "../../classes/Spacing";
+import { horizontalPadding, topPadding } from "../../classes/Spacing";
 
 export default function Details({ 
   background,
@@ -38,7 +38,7 @@ export default function Details({
       style={{ backgroundImage: background ? `url(${background})` : '' }}
       className={`
         relative
-        pt-12 sm:pt-16 md:pt-24
+        ${topPadding}
       `}
     >
       <div

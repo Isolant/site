@@ -2,7 +2,7 @@ import React from "react";
 import ReactMarkdown from 'react-markdown';
 
 import { regularSubtitleClasses, standardTextClasses, uppercaseTextClasses } from "../../classes/Text";
-import { horizontalPadding, verticalPadding } from "../../classes/Spacing";
+import { horizontalPadding, topPadding, verticalPadding } from "../../classes/Spacing";
 
 import InstructionsCard from "../Cards/InstructionsCard";
 
@@ -119,7 +119,7 @@ export default function Maintenance({
         <div
           className={`
             ${horizontalPadding}
-            pt-12 sm:pt-16 md:pt-24
+            ${topPadding}
             relative mx-auto container
           `}
         >
