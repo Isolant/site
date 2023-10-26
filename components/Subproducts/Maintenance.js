@@ -1,5 +1,6 @@
 import React from "react";
 import ReactMarkdown from 'react-markdown';
+import Link from 'next/link';
 
 import { regularSubtitleClasses, standardTextClasses, uppercaseTextClasses } from "../../classes/Text";
 import { horizontalPadding, topPadding, verticalPadding } from "../../classes/Spacing";
