@@ -9,7 +9,7 @@ steps:
     stepImage: /images/instructions/nordico/paso-3.jpg
   - stepText: Asegúrese que la superficie donde va a instalar Iso Siding esté nivelada, sin partes flojas y se sugiere retirar protuberancias como griferías, artefactos eléctricos, etc.
     stepImage: /images/instructions/nordico/paso-4.jpg
-  - stepText: Falta texto para este paso.
+  - stepText: ""
     stepImage: /images/instructions/nordico/paso-5.jpg
   - stepText: Para una terminación más prolija instale el perfil “J” en el borde superior e inferior del muro.
     stepImage: /images/instructions/nordico/paso-6.jpg

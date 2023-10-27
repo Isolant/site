@@ -11,7 +11,7 @@ steps:
     stepImage: /images/instructions/americano/step-4.jpg
   - stepText: Instale los esquineros internos, externos y perimetrales en los extremos verticales del muro. Deje las piezas 6 mm por debajo del nivel superior, de este modo se asegura el libre movimiento de la pieza por acción de la dilatación.
     stepImage: /images/instructions/americano/step-5.jpg
-  - stepText: Falta texto para este paso.
+  - stepText: ""
     stepImage: /images/instructions/americano/step-6.jpg
   - stepText: Tomando de referencia el nivel inferior del muro instale el perfil comienzo. Deje una separación de 6 mm entre piezas. Este será el punto de partida del revestimiento en su proyecto.
     stepImage: /images/instructions/americano/step-7.jpg
