@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
+import ReactMarkdown from "react-markdown";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -12,7 +13,8 @@ import { boldSubtitleClasses } from "../../classes/Text";
 export default function RelatedProducts({ 
   background,
   title,
-  products
+  products,
+  textColor,
 }) {
   const settings = {
     dots: false,
@@ -46,11 +48,11 @@ export default function RelatedProducts({
       className="bg-cover"
       style={{ backgroundImage: background ? `url(${background})` : 'url(/images/globals/isolant-aislantes-fondo-lineas-oscuras.jpg)' }}
     >
-      <div className="relative -bottom-8 md:-bottom-16">
+      <div className="relative -bottom-8 md:-bottom-16 z-10">
         <h5
-          className={`${boldSubtitleClasses} text-white mb-4 px-4`}
+          className={`${boldSubtitleClasses} ${styles.Title} ${textColor} mb-4 px-4`}
         >
-          {title}
+          <ReactMarkdown>{title}</ReactMarkdown>
         </h5>
         <Slider
           {...settings} 

@@ -269,6 +269,7 @@ export default function Product({ allProductsData, productData, instructionsData
                 <RelatedProducts
                   title={section.relatedProductsTitle}
                   products={section.relatedProducts.map(selectedProduct => allProductsData.filter(product => selectedProduct === product.name))}
+                  textColor={productData.id === "atacama" ? "text-white" : "text-gray-800"}
                   key={index}
                   background={
                     productData.id === "atacama" ?

@@ -1,0 +1,12 @@
+.Title strong {
+  @apply inline;
+  color: #119849;
+}
+
+.profilesSlider div:global(.slick-slide) {
+  @apply mr-4;
+}
+
+.profilesSlider button:global(.slick-arrow)::before {
+  @apply text-gray-500;
+}

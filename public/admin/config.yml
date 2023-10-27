@@ -997,11 +997,11 @@ collections:
   # Subproducts Collection
   - name: "subproducts"
     label: "Subproductos"
-    folder: "content/products/subproducts"
+    folder: "content/subproducts"
     create: true
     identifier_field: name
     editor:
-      prefie: false
+      preview: false
     fields:
       # Minimum fields
       - {label: "Nombre", name: "name", widget: "string"}
@@ -1020,7 +1020,7 @@ collections:
             widget: "image"
             choose_url: false
             required: false
-            media_folder: /images/products/subproducts
+            media_folder: /images/subproducts
             media_library:
               config:
                 multiple: false
@@ -1035,6 +1035,248 @@ collections:
                 multiple: false
           - { label: 'Color de producto', name: 'color', widget: 'color', required: false, allowInput: true }
           - {label: "Link al e-commerce", name: "ecommerceLink", widget: "string", hint: "Si este producto está disponible en el e-commerce, agregá la URL acá.", required: false}
+      # FP fields
+      - label: "Estructura de página"
+        name: "page"
+        widget: "list"
+        allow_add: true
+        required: false
+        types:
+          # Hero
+          - label: "Encabezado"
+            name: "hero"
+            fields:
+              - {label: "Habilitar encabezado principal", name: "enableHero", widget: "boolean", hint: "Si no querés mostrar esta sección, deshabilitala desde acá", default: true, required: false}
+              - label: "Imagen Principal"
+                name: "mainImage"
+                widget: "image"
+                choose_url: false
+                required: false
+                hint: "La imagen de fondo."
+                media_library:
+                  config:
+                    multiple: false
+          # Details
+          - label: "Detalles"
+            name: "details"
+            fields:
+              - {label: "Habilitar sección detalles", name: "enableDetails", widget: "boolean", hint: "Si no querés mostrar esta sección, deshabilitala desde acá", default: true, required: false}
+              - {label: "Descripción", name: "detailsText", widget: "markdown", required: false}
+              - {label: "Título características técnicas", name: "technicalInformationTitle", widget: "string", required: false}
+              - label: "Características técnicas"
+                name: "technicalInformation"
+                widget: "list"
+                allow_add: true
+                required: false
+                fields:
+                  - {label: Título, name: title, widget: string}
+                  - {label: Texto, name: text, widget: string}
+              - {label: "Título colores disponibles", name: "colorsTitle", widget: "string", required: false}
+              - label: "Colores disponibles"
+                name: "colors"
+                widget: "list"
+                allow_add: true
+                required: false
+                fields:
+                  - {label: Nombre, name: name, widget: string}
+                  - {label: Color, name: color, widget: color}
+              - label: "Slider imágenes"
+                name: "detailsSlider"
+                widget: "list"
+                allow_add: true
+                required: false
+                fields:
+                  - {label: Imagen, name: image, widget: image, required: false, choose_url: false}
+          # Attributes
+          - label: "Atributos"
+            name: "attributes"
+            fields:
+              - {label: "Habilitar sección atributos", name: "enableAttributesSection", widget: "boolean", hint: "Si no querés mostrar esta sección, deshabilitala desde acá", default: false, required: false}
+              - {label: "Título", name: "attributesTitle", widget: "markdown", hint: "El título de la sección.", required: false}
+              - {label: "Bajada", name: "attributesText", widget: "markdown", hint: "Si está, se usa debajo del título.", required: false}
+              - label: "Atributos"
+                name: "attributes"
+                widget: "list"
+                allow_add: true
+                required: false
+                fields:
+                  - {label: Título, name: title, widget: string}
+                  - {label: Texto, name: text, widget: text}
+                  - {label: Imagen, name: image, widget: image, choose_url: false}
+          # Instructions
+          - label: "Instrucciones de colocación"
+            name: "instructions"
+            fields:
+              - {label: "Habilitar sección Instrucciones de Colocación", name: "enableInstructions", widget: "boolean", default: true, required: false, hint: "Si querés ocultar esta sección, deshabilitala desde acá"}
+              - label: "Instrucciones de colocación asociadas"
+                name: "instructions"
+                widget: "relation"
+                collection: "instructions"
+                required: false
+                search_fields: ["title"]
+                value_field: "title"
+                display_fields: ["title"]
+                multiple: true
+          # Calculation
+          - label: "Cálculo de materiales"
+            name: "calculation"
+            fields:
+              - {label: "Habilitar sección Cálculo de materiales", name: "enableCalculationSection", widget: "boolean", default: true, required: false, hint: "Si querés ocultar esta sección, deshabilitala desde acá"}
+              - {label: "Título sección Cálculo de materiales", name: "calculationTitle", widget: "string", hint: "El título de la sección", required: false}
+              - {label: "Texto sección Cálculo de materiales", name: "calculationText", widget: "markdown", hint: "El texto que se muestra debajo del título", required: false}
+              - label: "Pasos sección Cálculo de materiales"
+                name: "calculationList"
+                widget: "list"
+                required: false
+                fields:
+                  - {label: Texto, name: text, widget: string, hint: "Texto para cada paso"}
+              - label: "Imagen para la sección Cálculo de materiales"
+                name: "calculationImage"
+                widget: "image"
+                choose_url: false
+                required: false
+                media_library:
+                  config:
+                    multiple: false
+          # Profiles
+          - label: "Perfiles"
+            name: "profiles"
+            fields:
+              - {label: "Habilitar sección Perfiles", name: "enableProfilesSection", widget: "boolean", default: true, required: false, hint: "Si querés ocultar esta sección, deshabilitala desde acá"}
+              - {label: "Título sección Perfiles", name: "profilesTitle", widget: "markdown", hint: "El título de la sección", required: false}
+              - label: "Imagen principal sección Perfiles"
+                name: "profilesImage"
+                widget: "image"
+                choose_url: false
+                required: false
+                media_library:
+                  config:
+                    multiple: false
+              - label: "Perfiles"
+                name: "profilesList"
+                widget: "list"
+                required: false
+                fields:
+                  - label: "Imagen"
+                    name: "image"
+                    widget: "image"
+                    choose_url: false
+                    required: false
+                    media_library:
+                      config:
+                        multiple: false
+                  - {label: Titulo, name: title, widget: string, hint: "Título para cada perfil"}
+                  - {label: Texto, name: text, widget: string, hint: "Texto para cada perfil"}
+          # Typologies
+          - label: "Tipologías de instalación"
+            name: "typologies"
+            fields:
+              - {label: "Habilitar sección Tipologías", name: "enableTypologiesSection", widget: "boolean", default: true, required: false, hint: "Si querés ocultar esta sección, deshabilitala desde acá"}
+              - label: "Tipologías"
+                name: "typologiesList"
+                widget: "list"
+                required: false
+                allow_add: false
+                min: 2
+                max: 2
+                fields:
+                  - {label: Titulo, name: title, widget: markdown, hint: "Título para cada tipología"}
+                  - label: "Imagen"
+                    name: "image"
+                    widget: "image"
+                    choose_url: false
+                    required: false
+                    media_library:
+                      config:
+                        multiple: false
+                  - {label: Texto, name: text, widget: markdown, hint: "Texto para cada tipología"}
+          # Maintenance
+          - label: "Limpieza y mantenimiento"
+            name: "maintenance"
+            fields:
+              - {label: "Habilitar sección Mantenimiento y limpieza", name: "enableMaintenanceSection", widget: "boolean", default: true, required: false, hint: "Si querés ocultar esta sección, deshabilitala desde acá"}
+              - {label: "Título sección mantenimiento", name: "maintenanceTitle", widget: "string", hint: "Título para la sección", required: false}
+              - {label: "Texto sección mantenimiento", name: "maintenanceText", widget: "string", hint: "Texto para la sección", required: false}
+              - label: "Imagen sección mantenimiento"
+                name: "maintenanceImage"
+                widget: "image"
+                choose_url: false
+                required: false
+                media_library:
+                  config:
+                    multiple: false
+              - {label: "Link CTA sección mantenimiento", name: "maintenanceCTALink", widget: "string", hint: "Link para el botón de la sección", required: false}
+              - {label: "Texto CTA sección mantenimiento", name: "maintenanceCTAText", widget: "string", hint: "Texto para el botón de la sección", required: false}
+              - label: "Pasos de limpieza"
+                name: "cleaningSteps"
+                widget: "list"
+                required: false
+                allow_add: true
+                fields:
+                  - {label: Imagen, name: image, widget: image, hint: "Imagen de fondo"}
+                  - {label: Texto, name: text, widget: string, hint: "Texto para el paso"}
+          # Downloads
+          - label: "Descargas"
+            name: "downloads"
+            fields:
+              - {label: "Habilitar sección Descargas", name: "enableDownloadsSection", widget: "boolean", default: true, hint: "Si querés ocultar esta sección, deshabilitala desde acá"}
+              - {label: "Título sección Descargas", name: "downloadsTitle", widget: "string", hint: "El título de la sección", required: false}
+              - {label: "Texto sección Descargas", name: "downloadsText", widget: "string", hint: "El texto que se muestra debajo del título", required: false}
+              - label: "Descargas asociadas"
+                name: "downloads"
+                widget: "relation"
+                collection: "downloads"
+                required: false
+                search_fields: ["title"]
+                value_field: "title"
+                display_fields: ["title"]
+                multiple: true
+          # Tutorials
+          - label: "Tutoriales"
+            name: "tutorials"
+            fields:
+              - {label: "Habilitar slider tutoriales?", name: "tutorialsEnabled", widget: "boolean", default: true, required: false, hint: "Habilitar el slider de tutoriales"}
+              - {label: "Título sección slider tutoriales", name: "tutorialsTitle", widget: "string", hint: "Título para la sección tutoriales", required: false}
+              - {label: "Texto sección slider tutoriales", name: "tutorialsText", widget: "string", hint: "Texto para la sección tutoriales", required: false}
+              - label: "Contenido para slider tutoriales"
+                name: "tutorialsSlider"
+                widget: "list"
+                required: false
+                fields:
+                  - {label: Imagen, name: image, widget: image, hint: "Imagen de fondo"}
+                  - {label: Titulo, name: title, widget: string, hint: "Título para el slide"}
+                  - {label: Texto, name: text, widget: string, hint: "Texto para el slide"}
+                  - {label: Texto para botón, name: ctaText, widget: string, hint: "Texto para el botón del slide"}
+                  - {label: URL para botón, name: ctaLink, widget: string, hint: "URL a la que lleva el botón del slide"}
+          # Related products
+          - label: "Productos relacionados"
+            name: "relatedProducts"
+            fields:
+              - {label: "Habilitar sección Productos relacionados", name: "enableRelatedProductsSection", widget: "boolean", hint: "Si no querés mostrar esta sección, deshabilitala desde acá", default: false, required: false}
+              - {label: "Título", name: "relatedProductsTitle", widget: "markdown", hint: "El título de la sección.", required: false}
+              - label: "Productos relacionados"
+                name: "relatedProducts"
+                widget: "relation"
+                collection: "products"
+                required: false
+                search_fields: ["name"]
+                value_field: "name"
+                display_fields: ["name"]
+                multiple: true
+          # CTA
+          - label: "Llamado a la acción"
+            name: "cta"
+            fields:
+              - {label: "Habilitar sección Llamado a la acción", name: "enableCtaSection", widget: "boolean", default: true, hint: "Si querés ocultar esta sección, deshabilitala desde acá", required: false}
+              - {label: "Título para la sección Llamado a la acción", name: "ctaTitle", widget: "string", required: false}
+              - label: "Imagen para la sección Llamado a la acción"
+                name: "ctaImage"
+                widget: "image"
+                choose_url: false
+                required: false
+                media_library:
+                  config:
+                    multiple: false
   # Instructions Collection
   - name: "instructions"
     label: "Instrucciones de colocación"

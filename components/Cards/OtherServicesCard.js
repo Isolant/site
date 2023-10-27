@@ -15,7 +15,7 @@ export default function OtherServicesCard({ service, classes, color, decorator }
         alt={service.title}
       />
     </div>
-    <div className="p-4 rounded-b-lg">
+    <div className="p-4 pt-0 rounded-b-lg">
       <h6
         className={`${uppercaseTextClasses} mb-2 text-gray-800 font-semibold line-clamp-3 h-12`}
       >
@@ -28,7 +28,10 @@ export default function OtherServicesCard({ service, classes, color, decorator }
       </p>
       <span
         className={`${uppercaseTextClasses} text-primary font-semibold block mt-2 flex gap-1 items-center`}
-        style={{ color: color ? color : ''}}
+        style={{
+            color: color || '',
+            fill: color || '',
+        }}
       >
           {service.ctaText}
 

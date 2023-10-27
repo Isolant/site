@@ -1,3 +1,7 @@
+.Title strong {
+  @apply inline;
+}
+
 /* This helps ensure the shadow effect doesn't get cut off */
 .RelatedProductsSlider div, .Slider div {
   @apply mb-4;
@@ -25,6 +29,10 @@
 /* Update colors for related products slider */
 .RelatedProductsSlider button[data-role="none"]::before {
   @apply text-gray-800;
+}
+
+.RelatedProductsSlider button:global(.slick-arrow) {
+  @apply hidden !important;
 }
 
 /* iPad ladscape */

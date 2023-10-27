@@ -1,4 +1,7 @@
 import React from "react";
+
+import Button from '../Forms/Button';
+
 import { boldTitleClasses, standardTextClasses } from "../../classes/Text";
 
 export default function SubProducts({ 
@@ -43,6 +46,13 @@ export default function SubProducts({
                   >
                     {product.description}
                   </p>
+                  <Button
+                    text="Ver ficha de producto"
+                    color={'transparent'}
+                    isFormBtn={false}
+                    href={`/aislantes/iso-siding/${product.id}`}
+                    icon={true}
+                  />
                 </div>
               </a>
             </li>

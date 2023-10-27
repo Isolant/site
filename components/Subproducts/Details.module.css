@@ -1,0 +1,32 @@
+.detailsSlider ul:global(.slick-dots) {
+  @apply bottom-2;
+}
+
+.detailsSlider ul:global(.slick-dots) li {
+  @apply w-2;
+}
+
+.detailsSlider ul:global(.slick-dots) li button {
+  @apply p-0 w-auto;
+}
+
+.detailsSlider ul:global(.slick-dots) li button::before {
+  @apply text-white text-[8px] w-auto opacity-40;
+}
+
+.detailsSlider ul:global(.slick-dots) li:global(.slick-active) button::before {
+  @apply opacity-100;
+}
+
+/* Arrows */
+.detailsSlider button:global(.slick-arrow) {
+  @apply z-10;
+}
+
+.detailsSlider button:global(.slick-prev) {
+  @apply left-4;
+}
+
+.detailsSlider button:global(.slick-next) {
+  @apply right-4;
+}
