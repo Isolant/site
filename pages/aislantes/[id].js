@@ -84,6 +84,8 @@ export default function Product({ allProductsData, productData, instructionsData
                   key={index}
                   color={color}
                   isSiding={isSiding}
+                  ctaLink={section.ctaLink}
+                  ctaText={section.ctaText}
                 />
               )
             :

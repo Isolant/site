@@ -20,6 +20,8 @@ page:
   - type: hero
     enableHero: true
     mainImageBackgroundPosition: bottom
+    ctaLink: https://www.youtube.com/watch?v=zefa_Sh5-Z4
+    ctaText: Más información
     heroImage:
       - selectedOption: image
         mainImageBackgroundPosition: bottom
@@ -64,7 +66,7 @@ page:
     videoTitle: Aplicación
     videoType: boxed
     videoText: ¡Es muy sencillo! Conocé cómo aplicarlo vos mismo debajo.
-    video: https://www.youtube.com/watch?v=zefa_Sh5-Z4
+    video: https://www.youtube.com/watch?v=Q8_OUcj3FWY
   - type: instructions
     enableInstructions: true
     instructions:

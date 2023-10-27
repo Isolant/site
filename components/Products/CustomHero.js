@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styles from './CustomHero.module.css';
 
-import { standardTextClasses, thinTitleClasses, boldSubtitleClasses } from "../../classes/Text";
+import { standardTextClasses, thinTitleClasses, boldSubtitleClasses, uppercaseTextClasses } from "../../classes/Text";
 
 
 export default function CustomHero({ 
@@ -17,7 +17,9 @@ export default function CustomHero({
   description,
   logo,
   color,
-  isSiding
+  isSiding,
+  ctaLink,
+  ctaText
 }) {
   const settings = {
     dots: false,
@@ -110,6 +112,30 @@ export default function CustomHero({
               `}
             >
               <ReactMarkdown>{description}</ReactMarkdown>
+              {ctaLink &&
+                <div
+                  className="mt-4"
+                >
+                  <a
+                    href={ctaLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`
+                      ${uppercaseTextClasses}
+                      font-semibold
+                      text-white
+                      inline-flex items-center gap-2
+                      py-2 px-3 rounded-full
+                      hover:opacity-80
+                    `}
+                    style={{ background: color }}
+                  >
+                    <svg fill="none" height="22" viewBox="0 0 21 22" width="21" xmlns="http://www.w3.org/2000/svg"><path d="m10.5.625c5.7832 0 10.5 4.7168 10.5 10.5 0 5.8242-4.7168 10.5-10.5 10.5-5.82422 0-10.5-4.6758-10.5-10.5 0-5.7832 4.67578-10.5 10.5-10.5zm4.7578 11.3613c.2871-.164.4922-.4922.4922-.8613 0-.3281-.2051-.6562-.4922-.8203l-5.90624-3.60939c-.16406-.08203-.32812-.16406-.49218-.16406-.57422 0-.98438.49219-.98438.98437v7.21878c0 .5332.41016.9844.98438.9844.16406 0 .32812-.0411.49218-.1231z" fill="#fff"/></svg>
+
+                    {ctaText}
+                  </a>
+                </div>
+              }
             </div>
           </div>
         </div>

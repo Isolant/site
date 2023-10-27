@@ -674,6 +674,8 @@ collections:
                 - { label: "Customizado", value: "custom" }
               - {label: "Bajada", name: "eyebrow", widget: "markdown", hint: "Si está, se usa arriba del título.", required: false}
               - {label: "Título", name: "slogan", widget: "markdown", hint: "El título del encabezado.", required: false}
+              - {label: "Link del botón", name: "ctaLink", widget: "string", hint: "El link del botón debajo del texto.", required: false}
+              - {label: "Texto del botón", name: "ctaText", widget: "string", hint: "El texto del botón debajo del texto.", required: false}
               # Video / Image selector
               - label: "Imagen/Video de encabezado"
                 name: "heroImage"
