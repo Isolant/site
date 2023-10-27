@@ -402,9 +402,9 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const productData = getCollectionById("products", params.id);
-  const downloadsSection = productData.page.find(product => product.type === 'downloads');
-  const instructionsSection = productData.page.find(product => product.type === 'instructions');
-  const subProductsSection = productData.page.find(product => product.type === 'subproducts');
+  const downloadsSection = productData.page.find(product => product.type === 'downloads') || null;
+  const instructionsSection = productData.page.find(product => product.type === 'instructions') || null;
+  const subProductsSection = productData.page.find(product => product.type === 'subproducts') || null;
   const instructionsData = instructionsSection && instructionsSection.instructions !== undefined ? instructionsSection.instructions.map(product => getCollectionById("instructions", slugify(product))): null;
   const subProductsData = subProductsSection && subProductsSection.subproducts !== undefined ? subProductsSection.subproducts.map(subproduct => getCollectionById("subproducts", slugify(subproduct))) : null;
   const downloadsData = downloadsSection && downloadsSection.downloads !== undefined && downloadsSection.downloads.map(download => getCollectionById("downloads", slugify(download)));
