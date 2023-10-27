@@ -2,12 +2,13 @@
 title: Accesorios
 description: ""
 order: 6
+color: "#E1B322"
 mainImage: /images/product-lines/accesorios.jpg
-color: '#E1B322'
 products:
   - Sellatutti
   - Puertelete
   - Fix Band
   - Puertelete Reforzado
   - Termo solar
+  - Piso Encastrable Soft
 ---
