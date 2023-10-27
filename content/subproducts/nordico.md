@@ -37,10 +37,9 @@ page:
         color: "#755A59"
     detailsSlider:
       - image: /images/products/iso-siding/nordico/slider/slide-1.jpg
-      - image: /images/products/iso-siding/nordico/slider/slide-1.jpg
-      - image: /images/products/iso-siding/nordico/slider/slide-1.jpg
-      - image: /images/products/iso-siding/nordico/slider/slide-1.jpg
-      - image: /images/products/iso-siding/nordico/slider/slide-1.jpg
+      - image: /images/products/iso-siding/nordico/slider/slide-2.jpg
+      - image: /images/products/iso-siding/nordico/slider/slide-3.jpg
+      - image: /images/products/iso-siding/nordico/slider/slide-4.jpg
   - type: attributes
     enableAttributesSection: true
     attributesTitle: Atributos

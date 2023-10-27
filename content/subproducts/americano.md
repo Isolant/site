@@ -37,10 +37,10 @@ page:
         color: "#755A59"
     detailsSlider:
       - image: /images/products/iso-siding/americano/slider/slide-1.jpg
-      - image: /images/products/iso-siding/americano/slider/slide-1.jpg
-      - image: /images/products/iso-siding/americano/slider/slide-1.jpg
-      - image: /images/products/iso-siding/americano/slider/slide-1.jpg
-      - image: /images/products/iso-siding/americano/slider/slide-1.jpg
+      - image: /images/products/iso-siding/americano/slider/slide-2.jpg
+      - image: /images/products/iso-siding/americano/slider/slide-3.jpg
+      - image: /images/products/iso-siding/americano/slider/slide-4.jpg
+      - image: /images/products/iso-siding/americano/slider/slide-5.jpg
   - type: attributes
     enableAttributesSection: true
     attributesTitle: Atributos
@@ -122,8 +122,8 @@ page:
       - title: Perfil H para Siding
         text: Se instala en diagonal del bajo alero, en las uniones de siding vertical y en cualquier encuentro plano.
         image: /images/products/iso-siding/profiles/perfil-6.jpg
-      - title: Perfil Nórdico
-        image: /images/products/iso-siding/profiles/perfil-7.jpg
+      - title: Perfil Americano
+        image: /images/products/iso-siding/profiles/perfil-9.jpg
       - title: Perfil lateral
         text: Se instala en los laterales del vano.
         image: /images/products/iso-siding/profiles/perfil-8.jpg
