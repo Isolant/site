@@ -181,24 +181,24 @@ page:
         title: Colocación Siding Americano
         text: Aprendé a colocar ISO siding Americano en dos simples pasos en este video.
         ctaText: Ver video
-        ctaLink: https://www.youtube.com
+        ctaLink: https://www.youtube.com/watch?v=ilJ7J9IAJYY
       - image: /images/products/iso-siding/tutorials/tutorial-2.jpg
         title: Sustentabilidad
         text: Descubrí por qué ISO siding es un revestimiento amigable y ecológico.
         ctaText: Ver video
-        ctaLink: https://www.youtube.com
+        ctaLink: https://www.youtube.com/watch?v=zzv8g6HStX4
       - image: /images/products/iso-siding/tutorials/tutorial-3.jpg
         title: Limpieza
         text: Conocé qué tenés que usar para quitar la suciedad y limpiar tu
           revestimiento.
         ctaText: Ver video
-        ctaLink: https://www.youtube.com
+        ctaLink: https://www.youtube.com/watch?v=yd78SSABl7Y
       - image: /images/products/iso-siding/tutorials/tutorial-4.jpg
         title: Colocación Siding Nórdico
         text: Aprendé a colocar ISO siding Nórdico en cinco simples pasos a través de
           este instructivo.
         ctaText: Ver video
-        ctaLink: https://www.youtube.com
+        ctaLink: https://www.youtube.com/watch?v=ilJ7J9IAJYY
   - type: relatedProducts
     enableRelatedProductsSection: true
     relatedProductsTitle: |-
