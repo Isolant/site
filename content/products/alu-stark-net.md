@@ -1,16 +1,17 @@
 ---
 name: Alu Stark NET
 description: >-
-  **Aislante con terminación blanca con red incorporada. ¡Ahorra hasta un 40% de la mano de obra!**
-  
-  
+  **Aislante con terminación blanca con red incorporada. ¡Ahorra hasta un 40% de
+  la mano de obra!**
+
+
   Producto con red incorporada listo para colocar. Al ser un aislante 2 en 1, se ahorra del 20% al 40% de tiempo de colocación en obra, lo cual impacta directamente en el costo total de la misma. Reduciendo además a la mitad los accidentes por riesgo de colocación en altura.
-  
-  
+
+
   ALU STARK es el único aislante del mercado con terminación blanca de alta resistencia que permite darle a tu estructura metálica una estética superior, además de aislarlos térmicamente. Ideal para supermercados, concesionarias de autos, etc.
 globals:
   order: 1
-  productImage: /images/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-producto-rollo.png
+  productImage: images/alu-stark-net-2-.png
   logo: /images/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-logo.png
   ecommerceLink: https://tienda.isolant.com.ar/galpones-y-tinglados/54-alu-stark-10-net.html
 page:
@@ -51,12 +52,12 @@ page:
     benefitsSubtitle: ¡No necesita malla sostén!
     benefitsTitle: Producto con **red incorporada**
     benefitsText: "Gracias a la red incorporada en la masa del aislante, nuestros
-      productos NET son los de más rápida y fácil instalación del mercado. Ahorran
-      del 20% al 40% de mano de obra, lo cual impacta directamente en los tiempos y
-      costos de la misma. Al ser DOS productos en UNO, brinda una resistencia
-      mecánica premium, y una terminación plana y estética superior. Ideal para
-      estructuras metálicas que requieran una estética superior: La terminación
-      interna color blanco favorece a la estética final de la obra."
+      productos NET son los de más rápida y fácil instalación del mercado.
+      Ahorran del 20% al 40% de mano de obra, lo cual impacta directamente en
+      los tiempos y costos de la misma. Al ser DOS productos en UNO, brinda una
+      resistencia mecánica premium, y una terminación plana y estética superior.
+      Ideal para estructuras metálicas que requieran una estética superior: La
+      terminación interna color blanco favorece a la estética final de la obra."
     benefitsList:
       - text: Alta resistencia al rasgado.
       - text: Termosoldables.
@@ -70,7 +71,8 @@ page:
     enableInstructions: true
     instructions:
       - Alu Stark NET sobre estructura metálica
-      - Galpones y tinglados metálicos existentes, como cielorraso copiando la forma
+      - Galpones y tinglados metálicos existentes, como cielorraso copiando la
+        forma
       - Galpones y tinglados metálicos existentes, como cielorraso recto
   - type: technicalInformation
     enableTechnicalInformation: true
