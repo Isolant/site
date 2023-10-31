@@ -127,8 +127,6 @@ page:
           este instructivo.
         ctaText: Ver video
         ctaLink: https://www.youtube.com/watch?v=ilJ7J9IAJYY
-        ctaText: Ver video
-        ctaLink: https://www.youtube.com
   - type: about
     enableAboutSection: true
     aboutImage: /images/products/iso-siding/partners.svg
