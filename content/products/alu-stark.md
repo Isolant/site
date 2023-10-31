@@ -2,12 +2,12 @@
 name: Alu Stark
 description: >-
   **Aislante con terminación blanca y alta resistencia.**
-  
-  
+
+
   Fácil instalación gracias a que es un material liviano y resistente al manipuleo en obra. No desprende partículas de ningún tipo. La espuma color blanca favorece a la terminación estética de la cara que queda a la vista.
 globals:
   order: 4
-  productImage: /images/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-producto-rollo.png
+  productImage: images/alu-stark-2-.png
   ecommerceLink: https://tienda.isolant.com.ar/galpones-y-tinglados/63-alu-stark-10.html
 page:
   - type: hero
@@ -20,7 +20,8 @@ page:
     mainBenefits:
       - icon: /images/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-beneficio-1.svg
         text: Aluminio puro y terminación blanca
-      - icon: /images /products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-beneficio-2.svg
+      - icon: /images
+          /products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-beneficio-2.svg
         text: Evitan la condensación
       - icon: /images/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-beneficio-3.svg
         text: Estética superior
@@ -43,7 +44,10 @@ page:
     patentImage: /images/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-patente.png
     enableBenefitsSection: true
     benefitsTitle: Terminación blanca **de alta resistencia**
-    benefitsText: "Ideal para estructuras metálicas que requieran una estética superior: La espuma color blanca favorece a la terminación estética de la cara que queda a la vista. Ideal para supermercados, concesionarias de autos, etc.<br /><br />¡Preguntá por la terminación negra!"
+    benefitsText: "Ideal para estructuras metálicas que requieran una estética
+      superior: La espuma color blanca favorece a la terminación estética de la
+      cara que queda a la vista. Ideal para supermercados, concesionarias de
+      autos, etc.<br /><br />¡Preguntá por la terminación negra!"
     benefitsImage: /images/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-beneficio-exclusivo.jpg
     benefitsList:
       - text: Aislación hidrófuga.
@@ -57,7 +61,8 @@ page:
     pdfInstruction: /images/downloads/colocacion-galpones-y-tinglados.pdf
     instructions:
       - Galpones y tinglados metálicos nuevos
-      - Galpones y tinglados metálicos existentes, como cielorraso copiando la forma
+      - Galpones y tinglados metálicos existentes, como cielorraso copiando la
+        forma
       - Galpones y tinglados metálicos existentes, como cielorraso recto
   - type: technicalInformation
     enableTechnicalInformation: true
@@ -76,14 +81,16 @@ page:
       - title: Material de muy baja propagación de llama
       - title: Evitan los puentes térmicos
       - title: No contaminan el medio ambiente; no contienen freón
-      - title: No colocar en aleros, galerías o galpones sin muros perimetrales que protejan de la reflexión indirecta de los rayos UV
+      - title: No colocar en aleros, galerías o galpones sin muros perimetrales que
+          protejan de la reflexión indirecta de los rayos UV
     technicalInformationList:
       - title: Resistencia térmica
         text: 0.23 m².K/w
       - title: Propagación de llama
         text: Clase RE2 MUY BAJA PROPAGACIÓN DE LLAMA. Aprobada por Bomberos Argentina.
       - title: Densidad de humos
-        text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases envenenantes.
+        text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases
+          envenenantes.
       - title: Estructura de celda
         text: Cerrada
       - title: Espesor
