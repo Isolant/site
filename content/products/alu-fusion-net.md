@@ -8,7 +8,7 @@ description: >-
   Al ser un aislante 2 en 1, ya que tiene nuestra red de sostén incorporada en la masa, se ahorra del 20% al 40% de tiempo de colocación en obra, lo cual representa hasta un 50% del costo de la **ALU FUSION NET**, Reduciendo además a la mitad los accidentes por riesgo de colocación, ya que se trabaja sobre la chapa.
 globals:
   order: 1
-  productImage: /images/products/alu-fusion-net/isolant-aislantes-linea-vivienda-alu-fusion-net-producto-rollo.png
+  productImage: images/alu-fusion-net-2-.png
   logo: /images/products/alu-fusion-net/isolant-aislantes-linea-vivienda-alu-fusion-net-logo.png
   ecommerceLink: https://tienda.isolant.com.ar/vivienda/50-alu-fusion-net.html
 page:
