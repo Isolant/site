@@ -1,15 +1,14 @@
 ---
 name: TBA Multicapa
 description: >-
-  **El único aislante térmico con triple capa hidrófuga para techos de madera y machimbre.**
-  
-  
-  **TBA MULTICAPA** está conformada por un innovador sistema de 5 capas que
-  ofrecen mayor aislación térmica, triple aislación hidrófuga y mayor
-  resistencia, para techos de viviendas.
+  **El único aislante térmico con triple capa hidrófuga para techos de madera y
+  machimbre.**
+
+
+  **TBA MULTICAPA** está conformada por un innovador sistema de 5 capas que ofrecen mayor aislación térmica, triple aislación hidrófuga y mayor resistencia, para techos de viviendas.
 globals:
   order: 3
-  productImage: /images/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-imagen-rollo.png
+  productImage: images/tba-multicapa-2-.png
   logo: /images/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-logo.svg
   ecommerceLink: https://tienda.isolant.com.ar/vivienda/68-multicapa.html
 page:
@@ -49,8 +48,8 @@ page:
     benefitsText: Los bastones de ventilación van colocados hacia abajo, creando los
       canales de ventilación. De esta forma logramos un techo completamente
       ventilado debajo de la membrana, con una ventilación horizontal entre los
-      bastones que confluye a la ventilación vertical ascendente del doble listón.
-      Un techo ventilado es un techo sano.
+      bastones que confluye a la ventilación vertical ascendente del doble
+      listón. Un techo ventilado es un techo sano.
     benefitsImage: /images/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-beneficio-exclusivo.jpg
     patentImage: /images/products/tba-multicapa/isolant-aislantes-linea-vivienda-multicapa-patente.png
   - type: video
@@ -70,7 +69,8 @@ page:
       - title: Propagación de llama
         text: Clase RE2 MUY BAJA PROPAGACIÓN DE LLAMA. Aprobada por Bomberos Argentina.
       - title: Densidad de humos
-        text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases envenenantes.
+        text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases
+          envenenantes.
       - title: Estructura de celda
         text: Cerrada
       - title: Espesor
