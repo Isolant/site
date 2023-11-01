@@ -4,7 +4,7 @@ description: Cierre hermético para chapas. ¡Único del mercado con coteado ref
 globals:
   order: 6
   slogan: Cierre hermético **para chapas**
-  productImage: /images/products/sellatutti/isolant-aislantes-linea-otros-usos-sellatutti-producto-rollo.png
+  productImage: images/sellattutti-tira-5-.png
   logo: /images/products/sellatutti/isolant-aislantes-linea-otros-usos-sellatutti-logo.jpg
 page:
   - type: hero
@@ -29,15 +29,20 @@ page:
       - text: Chapas.
       - text: Respaldo en juntas de dilatación.
     presentation:
-      - text: Hacé <a href="/images/products/sellatutti/isolant-aislantes-linea-vivienda-sellatutti-presentaciones.webp" target="_blank" rel="noopener noreferrer" class="font-bold">click acá</a> para ver todas las presentaciones disponibles
+      - text: Hacé <a
+          href="/images/products/sellatutti/isolant-aislantes-linea-vivienda-sellatutti-presentaciones.webp"
+          target="_blank" rel="noopener noreferrer" class="font-bold">click
+          acá</a> para ver todas las presentaciones disponibles
     detailsImage: /images/products/sellatutti/isolant-aislantes-linea-otros-usos-sellatutti-imagen-detalle.jpg
   - type: benefits
     enableBenefitsSection: true
     benefitsTitle: Terminación **reforzada**
-    benefitsText: SELLATUTTI es el único cierre hermético para chapas y juntas, que presenta una terminación reforzada en ambas cara. Esto alarga su vida útil y lo hace más difícil de romper para pájaros y animales.
+    benefitsText: SELLATUTTI es el único cierre hermético para chapas y juntas, que
+      presenta una terminación reforzada en ambas cara. Esto alarga su vida útil
+      y lo hace más difícil de romper para pájaros y animales.
     benefitsImage: /images/products/sellatutti/isolant-aislantes-linea-otros-usos-sellatutti-beneficio-exclusivo.jpg
     benefitsList:
-      - text: "Saludable. No desprende partículas."
+      - text: Saludable. No desprende partículas.
       - text: Reciclable. No contamina el medio ambiente.
       - text: Material liviano.
   - type: video
