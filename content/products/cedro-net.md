@@ -1,8 +1,7 @@
 ---
 name: Cedro NET
-description: >-
-  Isolant **CEDRO NET** es el único aislante del mercado
-  con terminación símil madera que permite decorar tus ambientes, además de
+description: Isolant **CEDRO NET** es el único aislante del mercado con
+  terminación símil madera que permite decorar tus ambientes, además de
   aislarlos térmicamente. Está compuesto por una lámina de espuma bicapa, con
   aluminio puro en una cara y un film con terminación símil madera en la otra.
   Además viene con una red incorporada, evitando la necesidad de instalar una
@@ -11,7 +10,7 @@ description: >-
   correcta colocación.
 globals:
   order: 5
-  productImage: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-producto-rollo.png
+  productImage: images/cedronet-2-.png
   logo: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-logo.jpg
   ecommerceLink: https://tienda.isolant.com.ar/vivienda/65-cedro-10-net.html
 page:
@@ -51,10 +50,10 @@ page:
     benefitsTitle: Aislante decorativo **para techos**
     benefitsText: Respondiendo a las nuevas tendencias del mercado, <strong>ISOLANT
       S.A.</strong> pone a su disposición una novedosa línea de aislantes con
-      terminación madera, fáciles de colocar para cualquiera que quiera aislar su
-      quincho, cuarto, galponcito, etc.<br /><br />ISOLANT <strong>Cedro
-      NET</strong> agrega belleza a sus techos y al mismo tiempo aislación térmica,
-      logrando ambientes estéticos y confortables.
+      terminación madera, fáciles de colocar para cualquiera que quiera aislar
+      su quincho, cuarto, galponcito, etc.<br /><br />ISOLANT <strong>Cedro
+      NET</strong> agrega belleza a sus techos y al mismo tiempo aislación
+      térmica, logrando ambientes estéticos y confortables.
     benefitsList:
       - text: Evitan la condensación.
       - text: Termosoldables.
@@ -77,7 +76,8 @@ page:
       - title: Propagación de llama
         text: Clase RE2 MUY BAJA PROPAGACIÓN DE LLAMA. Aprobada por Bomberos Argentina.
       - title: Densidad de humos
-        text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases envenenantes.
+        text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases
+          envenenantes.
       - title: Estructura de celda
         text: Cerrada
       - title: Espesor
