@@ -1,18 +1,14 @@
 ---
 name: Banda Acoustic
 description: >-
-  **Desanclaje acústico para perfiles de construcción en seco y
-  steel framing, adhesivada.**
-  
-  
-  **Banda Acoustic** es el producto ideal para desanclar acústicamente la estructura metálica de
-  construcción en seco de las losas y muros de su obra, logrando así reducir los
-  ruidos generados por vibración (de impacto). Al estar adhesivada y no tener
-  desmoldante es el producto más práctico del mercado para aislar montantes y
-  soleras.
+  **Desanclaje acústico para perfiles de construcción en seco y steel framing,
+  adhesivada.**
+
+
+  **Banda Acoustic** es el producto ideal para desanclar acústicamente la estructura metálica de construcción en seco de las losas y muros de su obra, logrando así reducir los ruidos generados por vibración (de impacto). Al estar adhesivada y no tener desmoldante es el producto más práctico del mercado para aislar montantes y soleras.
 globals:
   order: 5
-  productImage: /images/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-producto-rollo.png
+  productImage: images/banda-acoustic-4-.png
   productImageProportion: square
   logo: /images/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-logo.webp
   ecommerceLink: https://tienda.isolant.com.ar/construccion-en-seco/80-banda-acoustic-100mm.html
@@ -46,10 +42,10 @@ page:
     enableBenefitsSection: true
     benefitsTitle: Adhesivada **sin desmoldante**
     benefitsText: <strong>Banda Acoustic</strong> es el producto ideal para
-      desanclar acústicamente la estructura metálica de construcción en seco de las
-      losas y muros de su obra, logrando así reducir los ruidos generados por
-      vibración (de impacto). Al estar adhesivada y no tener desmoldante es el
-      producto más práctico del mercado para aislar montantes.
+      desanclar acústicamente la estructura metálica de construcción en seco de
+      las losas y muros de su obra, logrando así reducir los ruidos generados
+      por vibración (de impacto). Al estar adhesivada y no tener desmoldante es
+      el producto más práctico del mercado para aislar montantes.
     benefitsList:
       - text: Se puede cortar con trincheta o la mano.
       - text: "Material sano: No desprende partículas."
