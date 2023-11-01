@@ -1,14 +1,14 @@
 ---
 name: Super TBA
 description: >-
-  **Aislante para cualquier tipo de techo con una cara de aluminio puro y 15mm de espesor, lo cual le confiere súper resistencia
-  térmica.**
-  
-  
+  **Aislante para cualquier tipo de techo con una cara de aluminio puro y 15mm
+  de espesor, lo cual le confiere súper resistencia térmica.**
+
+
   Gracias a su medida única en el mercado de 1,25m x 15m, un rollo cubre más superficie, reduciendo los tiempos de obra y uniones en altura.
 globals:
   order: 1
-  productImage: /images/products/super-tba/isolant-aislantes-linea-vivienda-super-tba-rollo.png
+  productImage: images/super-tba-2-.png
   ecommerceLink: https://tienda.isolant.com.ar/tienda/88-super-tba.html
 page:
   - type: hero
@@ -42,9 +42,9 @@ page:
     enableBenefitsSection: true
     benefitsTitle: Para cualquier **tipo de techos**
     benefitsText: "¿No sabés qué aislante llevar para proteger tu techo? Lleva Súper
-      TBA que gracias a sus exclusivas características, combina las fortalezas de
-      muchos de nuestros aislantes y le confiere la versatilidad de poder instalarse
-      tanto en:"
+      TBA que gracias a sus exclusivas características, combina las fortalezas
+      de muchos de nuestros aislantes y le confiere la versatilidad de poder
+      instalarse tanto en:"
     benefitsList:
       - text: Techos de estructura de madera o machimbre con cubierta de chapa o teja;
       - text: Estructuras metálicas con cubierta de chapa y cielorraso suspendido;
