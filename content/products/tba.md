@@ -2,15 +2,15 @@
 name: TBA
 description: >-
   **Membrana bajo teja o bajo chapa.**
-  
-  
+
+
   Lámina de espuma de polietileno, que tiene incorporada en una de sus caras un film aluminizado para la reflexión del calor radiante. Con solape autoadhesivo Rapi-Tac®.
-  
-  
+
+
   Consultá con nuestro servicio de asesoramiento gratuito en [isolant@isolant.com.ar]("mailto:isolant@isolant.com.ar") para definir el espesor más adecuado del aislante para tu obra.
 globals:
   order: 4
-  productImage: /images/products/tba/isolant-aislantes-linea-vivienda-tba-imagen-rollo.png
+  productImage: images/tba-10-2-.png
   ecommerceLink: https://tienda.isolant.com.ar/vivienda/67-tba5.html
 page:
   - type: hero
