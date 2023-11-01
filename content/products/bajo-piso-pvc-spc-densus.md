@@ -2,12 +2,12 @@
 name: Bajo Piso PVC / SPC Densus
 description: >-
   **Base niveladora y acústica para pisos PVC / SPC.**
-  
-  
+
+
   Base niveladora para pisos de PVC / SPC o maderas macizas. También reduce el ruido producido al caminar por el suelo. Se convierte en un revestimiento de "inicio limpio" entre el contrapiso y el piso terminado.
 globals:
   order: 1
-  productImage: /images/products/bajo-piso-pvc-spc-densus/isolant-aislantes-linea-pisos-bajo-piso-densus-imagen-rollo.png
+  productImage: images/bajo-piso-densus-2-.png
   logo: /images/products/bajo-piso-pvc-spc-densus/isolant-aislantes-linea-pisos-bajo-piso-pvc-spc-densus-logo.svg
   ecommerceLink: https://tienda.isolant.com.ar/pisos/84--bajo-piso-densus.html
 page:
@@ -40,13 +40,17 @@ page:
   - type: benefits
     enableBenefitsSection: true
     benefitsTitle: Densidad premium **para alto tránsito**
-    benefitsText: Gracias a su densidad premium, <sttrong>Bajo piso PVC / SPC densus</strong> de ISOLANT®, soparta la carga dinámica de cualquier solado sin sufrir deformaciones con el paso del tiempo, y evitando roturas del sistema click.
+    benefitsText: Gracias a su densidad premium, <sttrong>Bajo piso PVC / SPC
+      densus</strong> de ISOLANT®, soparta la carga dinámica de cualquier solado
+      sin sufrir deformaciones con el paso del tiempo, y evitando roturas del
+      sistema click.
     benefitsImage: /images/products/bajo-piso-pvc-spc-densus/isolant-aislantes-linea-pisos-bajo-piso-spc-densus-beneficio-exclusivo.jpg
     benefitsList:
       - text: Impermeable al agua y el vapor.
       - text: Muy fácil colocación.
       - text: No es necesario usar ningún tipo de pegamento.
-      - text: Apropiado para personas alérgicas, al no permitir el crecimiento de ácaros de polvo.
+      - text: Apropiado para personas alérgicas, al no permitir el crecimiento de ácaros
+          de polvo.
   - type: video
     enableVideoSection: true
     video: https://www.youtube.com/watch?v=Phm47SAN1zY
@@ -66,7 +70,8 @@ page:
       - title: Propagación de llama
         text: Clase RE2 MUY BAJA PROPAGACIÓN DE LLAMA. Aprobada por Bomberos Argentina.
       - title: Densidad de humos
-        text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases envenenantes.
+        text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases
+          envenenantes.
       - title: Estructura de celda
         text: Cerrada
       - title: Espesor
