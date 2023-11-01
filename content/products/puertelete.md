@@ -2,12 +2,12 @@
 name: Puertelete
 description: >-
   Aislate de los chifletes por infiltraciones debajo de puertas. 
-  
-  
+
+
   No necesita ser fijado con clavos ni tornillos. Cortá tu puertelete (podés usar una trincheta) midiendo el ancho de la puerta, apoyalo en el piso, frente al filo de la puerta, y desplazalo hasta que cubra la totalidad de la puerta.
 globals:
   order: 7
-  productImage: /images/products/puertelete/isolant-aislantes-linea-otros-usos-puertelete-producto-rollo.png
+  productImage: images/puertelete-1-.png
 page:
   - type: hero
     slogan: Decile chau **al chiflete**
@@ -36,7 +36,10 @@ page:
   - type: benefits
     enableBenefitsSection: false
     benefitsTitle: Muy fácil **instalación**
-    benefitsText: Puertelete no necesita ser fijado con clavos ni tornillos. Cortá tu puertelete (podés usar una trincheta) midiendo el ancho de la puerta, apoyalo en el piso, frente al filo de la puerta, y desplazalo hasta que cubra la totalidad de la puerta.
+    benefitsText: Puertelete no necesita ser fijado con clavos ni tornillos. Cortá
+      tu puertelete (podés usar una trincheta) midiendo el ancho de la puerta,
+      apoyalo en el piso, frente al filo de la puerta, y desplazalo hasta que
+      cubra la totalidad de la puerta.
     benefitsImage: /images/products/puertelete/isolant-aislantes-linea-otros-usos-puertelete-beneficio-exclusivo.jpg
     benefitsList:
       - text: "Material sano: No desprende partículas."
@@ -75,7 +78,8 @@ page:
       - title: Propagación de llama
         text: Clase RE2 MUY BAJA PROPAGACIÓN DE LLAMA. Aprobada por Bomberos Argentina.
       - title: Densidad de humos
-        text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases envenenantes.
+        text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases
+          envenenantes.
       - title: Estructura de celda
         text: Cerrada
       - title: Espesor
