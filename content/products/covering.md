@@ -1,16 +1,17 @@
 ---
 name: Covering
 description: >-
-  **Membrana reguladora de vapor, impermeable y barrera de vientos para steel framing.**
-  
-  
+  **Membrana reguladora de vapor, impermeable y barrera de vientos para steel
+  framing.**
+
+
   **Covering®** es una innovadora subcobertura bicapa, fabricada a base de materiales altamente resistentes que lo hacen ideal para proteger sus paredes de filtraciones y humedad. En este tipo de sistemas, Covering® funciona como una excelente barrera hidrófuga y barrera de viento.
-  
-  
+
+
   **Covering®** evita filtraciones de calor ahorrando energía para calefaccionar y/o refrigerar su casa.
 globals:
   order: 3
-  productImage: /images/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-producto-rollo.png
+  productImage: images/covering-5-.png
   logo: /images/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-logo.jpg
 page:
   - type: hero
@@ -41,7 +42,12 @@ page:
   - type: benefits
     enableBenefitsSection: true
     benefitsTitle: Cuadrícula **para replanteo**
-    benefitsText: <strong>COVERING</strong> presenta una cuadrícula impresa en su cara superior, haciendo de su colocación y replanteo en tabiques y techos de steel framing y balloon framing, mucho más fácil y ágil.<br /><br />Además gracias a su tramado y composición bicapa, <strong>Covering</strong> es un material con alta resistencia al rasgado, provocado por vientos de altas velocidades y manipuleos en obra.
+    benefitsText: <strong>COVERING</strong> presenta una cuadrícula impresa en su
+      cara superior, haciendo de su colocación y replanteo en tabiques y techos
+      de steel framing y balloon framing, mucho más fácil y ágil.<br /><br
+      />Además gracias a su tramado y composición bicapa,
+      <strong>Covering</strong> es un material con alta resistencia al rasgado,
+      provocado por vientos de altas velocidades y manipuleos en obra.
     benefitsImage: /images/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-beneficio-exclusivo.jpg
     benefitsList:
       - text: "Material sano: No desprende partículas."
@@ -76,7 +82,8 @@ page:
       - title: Propagación de llama
         text: Clase RE2 MUY BAJA PROPAGACIÓN DE LLAMA. Aprobada por Bomberos Argentina.
       - title: Densidad de humos
-        text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases envenenantes.
+        text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases
+          envenenantes.
       - title: Estructura de celda
         text: Cerrada
       - title: Espesor
