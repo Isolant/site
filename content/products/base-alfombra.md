@@ -1,10 +1,15 @@
 ---
 name: Base Alfombra
-description: >-
-  Nuestro **Base Alfombra** brinda mayor mullidez logrando un mayor confort al andar. Además reduce ampliamente el desgaste para su alfombra, ya que desancla la carpeta de la misma evitando esfuerzos de rosamiento. Está compuesto por una espuma Isolant bicolor de mayor densidad con retardante de llamas. Todo esto duplica la vida útil de la alfombra.<br /><br />Además toma pequeños desniveles de la carpeta de terminación, logrando una terminación plana y estética sin "globos".
+description: Nuestro **Base Alfombra** brinda mayor mullidez logrando un mayor
+  confort al andar. Además reduce ampliamente el desgaste para su alfombra, ya
+  que desancla la carpeta de la misma evitando esfuerzos de rosamiento. Está
+  compuesto por una espuma Isolant bicolor de mayor densidad con retardante de
+  llamas. Todo esto duplica la vida útil de la alfombra.<br /><br />Además toma
+  pequeños desniveles de la carpeta de terminación, logrando una terminación
+  plana y estética sin "globos".
 globals:
   order: 4
-  productImage: /images/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-imagen-rollo.png
+  productImage: images/base-para-alformbras-2-.png
   ecommerceLink: https://tienda.isolant.com.ar/pisos/49-base-alfombra.html
 page:
   - type: hero
@@ -27,7 +32,8 @@ page:
       - text: Amortiguante acústico.
       - text: Base niveladora.
     application:
-      - text: Sobre cualquier superficie (parquet, carpetas cementicias, mosaicos, etc.).
+      - text: Sobre cualquier superficie (parquet, carpetas cementicias, mosaicos,
+          etc.).
       - text: Bajo alfombras de diversos usos, funciones y lugares de bajo tránsito.
     presentation:
       - text: Rollos de 1m x 20m
@@ -36,7 +42,11 @@ page:
   - type: benefits
     enableBenefitsSection: true
     benefitsTitle: Extiende la vida útil **de tu alfombra**
-    benefitsText: El <strong>Base para Alfombras</strong> ISOLANT®, de 6 mm de espesor, prolonga la vida útil de su alfombra, brinda un mayor confort al andar y es un excelente aislante acústico de ruidos de impacto.<br /><br />Es un producto higiénico, resistente, impermeable, flexible, elástico y de máxima vida útil.
+    benefitsText: El <strong>Base para Alfombras</strong> ISOLANT®, de 6 mm de
+      espesor, prolonga la vida útil de su alfombra, brinda un mayor confort al
+      andar y es un excelente aislante acústico de ruidos de impacto.<br /><br
+      />Es un producto higiénico, resistente, impermeable, flexible, elástico y
+      de máxima vida útil.
     benefitsImage: /images/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-beneficio-exclusivo.jpg
     benefitsList:
       - text: Imputrescible.
@@ -60,7 +70,8 @@ page:
       - title: Propagación de llama
         text: Clase RE2 MUY BAJA PROPAGACIÓN DE LLAMA. Aprobada por Bomberos Argentina.
       - title: Densidad de humos
-        text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases envenenantes.
+        text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases
+          envenenantes.
       - title: Estructura de celda
         text: Cerrada
       - title: Espesor
