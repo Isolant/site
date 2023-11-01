@@ -1,13 +1,14 @@
 ---
 name: Bajo Piso Flotante Acoustic
 description: >-
-  **Maximice la aislación acústica de su piso de madera gracias a nuestro sistema de "micropumping".**
-  
-  
+  **Maximice la aislación acústica de su piso de madera gracias a nuestro
+  sistema de "micropumping".**
+
+
   Membrana con diseño acanalado, brinda máxima aislación acústica y ventilación por micro pumping. Posee un film de polietileno y solape de 7 cm de ancho.
 globals:
   order: 3
-  productImage: /images/products/bajo-piso-flotante-acoustic/isolant-aislantes-linea-pisos-bajo-piso-flotante-acoustic-imagen-rollo.png
+  productImage: images/bajo-piso-flotante-acoustic-2-.png
   logo: /images/products/bajo-piso-flotante-acoustic/isolant-aislantes-linea-pisos-bajo-piso-flotante-acoustic-logo.jpg
   ecommerceLink: https://tienda.isolant.com.ar/pisos/51-bajo-piso-flotante-acoustic.html
 page:
@@ -40,7 +41,13 @@ page:
   - type: benefits
     enableBenefitsSection: true
     benefitsTitle: Sistema Micro Pumping **de ventilación**
-    benefitsText: Gracias a su novedoso formato acanalado, <strong>Base para Piso Flotante Acoustic</strong> de ISOLANT®, colabora con la ventilación necesaria del contrapiso.<br /></br />Incorporamos así la función de “micro-pumping”. Al caminar sobre el piso flotante, la presión que se ejerce activa los canales de ventilación promoviendo el movimiento de aire que genera la ventilación necesaria para disipar la humedad que pudiera haber en el contrapiso.
+    benefitsText: Gracias a su novedoso formato acanalado, <strong>Base para Piso
+      Flotante Acoustic</strong> de ISOLANT®, colabora con la ventilación
+      necesaria del contrapiso.<br /></br />Incorporamos así la función de
+      “micro-pumping”. Al caminar sobre el piso flotante, la presión que se
+      ejerce activa los canales de ventilación promoviendo el movimiento de aire
+      que genera la ventilación necesaria para disipar la humedad que pudiera
+      haber en el contrapiso.
     benefitsImage: /images/products/bajo-piso-flotante-acoustic/isolant-aislantes-linea-pisos-bajo-piso-flotante-acoustic-beneficio-exclusivo.jpg
     patentImage: /images/products/bajo-piso-flotante-acoustic/isolant-aislantes-linea-pisos-bajo-piso-flotante-acoustic-patente.png
     benefitsList:
@@ -66,7 +73,8 @@ page:
       - title: Propagación de llama
         text: Clase RE2 MUY BAJA PROPAGACIÓN DE LLAMA. Aprobada por Bomberos Argentina.
       - title: Densidad de humos
-        text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases envenenantes.
+        text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases
+          envenenantes.
       - title: Estructura de celda
         text: Cerrada
       - title: Espesor
