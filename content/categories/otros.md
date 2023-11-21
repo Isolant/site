@@ -1,8 +1,8 @@
 ---
-title: Otros
+title: Accesorios
 order: 5
-icon: /images/icons/categories/muros-exteriores.svg
 visible: false
+icon: /images/icons/categories/muros-exteriores.svg
 subcategories:
   - Otros
 ---
