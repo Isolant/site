@@ -1,5 +1,5 @@
 ---
-name: Láminas Soft
+name: Laminas Soft
 description: L﻿áminas Soft
 globals:
   highlighted: false
