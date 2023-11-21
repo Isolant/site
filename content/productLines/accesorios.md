@@ -11,4 +11,5 @@ products:
   - Puertelete Reforzado
   - Termo solar
   - Piso Encastrable Soft
+  - Láminas Soft
 ---
