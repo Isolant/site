@@ -1,6 +1,6 @@
 ---
 name: Laminas Soft
-description: L﻿áminas Soft
+description: L﻿aminas Soft
 globals:
   highlighted: false
   hidden: false
