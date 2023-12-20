@@ -6,7 +6,7 @@
     "build": "next build",
     "start": "next start",
     "postbuild": "node ./scripts/build-search.js && next-sitemap",
-    "export": "npm run build && next export && npm run postbuild",
+    "export": "npm run build && npm run postbuild",
     "functions-build": "netlify-lambda build functions",
     "functions-serve": "netlify-lambda serve functions"
   },
