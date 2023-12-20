@@ -139,10 +139,10 @@ collections:
             max: 5
             fields:
               - {label: Imagen, name: image, widget: image, hint: "Imagen de fondo"}
-              - {label: Titulo, name: title, widget: string, hint: "Título para el slide"}
-              - {label: Texto, name: text, widget: string, hint: "Texto para el slide"}
-              - {label: Texto para botón, name: ctaText, widget: string, hint: "Texto para el botón del slide"}
-              - {label: URL para botón, name: ctaLink, widget: string, hint: "URL a la que lleva el botón del slide"}
+              - {label: Titulo, name: title, widget: string, hint: "Título para el slide", required: false}
+              - {label: Texto, name: text, widget: string, hint: "Texto para el slide", required: false}
+              - {label: Texto para botón, name: ctaText, widget: string, hint: "Texto para el botón del slide", required: false}
+              - {label: URL para botón, name: ctaLink, widget: string, hint: "URL a la que lleva el botón del slide", required: false}
           - {label: "Habilitar aislantes destacados?", name: "highlightedProductsEnabled", widget: "boolean", default: true, required: false, hint: "Habilitar los productos destacados"}
           - label: "Aislantes destacados"
             name: "highlightedProducts"
@@ -170,11 +170,11 @@ collections:
             max: 8
             allow_add: true
             fields:
-              - {label: Icono, name: image, widget: image, choose_url: false}
-              - {label: Título, name: title, widget: string}
-              - {label: Texto, name: text, widget: string}
-              - {label: Texto Botón, name: ctaText, widget: string}
-              - {label: Link Botón, name: ctLink, widget: string}
+              - {label: Icono, name: image, widget: image, choose_url: false, required: false}
+              - {label: Título, name: title, widget: string, required: false}
+              - {label: Texto, name: text, widget: string, required: false}
+              - {label: Texto Botón, name: ctaText, widget: string, required: false}
+              - {label: Link Botón, name: ctLink, widget: string, required: false}
           - {label: "Habilitar slider servicios?", name: "otherServicesEnabled", widget: "boolean", default: true, required: false, hint: "Habilitar el slider de otros servicios"}
           - {label: "Título sección slider servicios", name: "otherServicesTitle", widget: "string", hint: "Título para la sección otros servicios", required: false}
           - label: "Contenido para slider servicios"
