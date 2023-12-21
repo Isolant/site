@@ -8,7 +8,7 @@ heroSlider:
     ctaLink: /sustentabilidad
 highlightedProductsEnabled: true
 highlightedProducts:
-  - Super TBA
+  - Atacama
 categoriesEnabled: true
 categoriesTitle: Conoce nuestros aislantes para...
 productLinesEnabled: true
