@@ -2,7 +2,7 @@
 pageTitle: Inicio
 sliderEnabled: true
 heroSlider:
-  - image: images/expertos.png
+  - image: images/expertos-1-.png
     ctaLink: /productos
   - image: /images/homepage/slider/slide-2.jpg
     ctaLink: /sustentabilidad
