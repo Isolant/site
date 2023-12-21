@@ -92,7 +92,7 @@ contactFormTitle: ¿Qué necesitás aislar en tu obra?
 contactFormText: Contanos las características principales de tu obra para que
   podamos recomendarte el mejor aislante.
 instagramSlider:
-  - image: /images/homepage/instagram/slide-1.jpg
-  - image: /images/homepage/instagram/slide-2.jpg
-  - image: /images/homepage/instagram/slide-3.jpg
+  - image: images/ig-30-anos_low.jpg
+  - image: images/ig-sustenta_low.jpg
+  - image: images/¿tu-casa-es-un-horno-en-verano-1-.png
 ---
