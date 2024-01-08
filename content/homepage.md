@@ -2,7 +2,7 @@
 pageTitle: Inicio
 sliderEnabled: true
 heroSlider:
-  - image: images/expertos-1-.png
+  - image: /images/expertos-1-.png
     ctaLink: /productos
   - image: /images/homepage/slider/slide-2.jpg
     ctaLink: /sustentabilidad
@@ -65,12 +65,12 @@ services:
 otherServicesEnabled: true
 otherServicesTitle: Más servicios y soluciones
 otherServicesSlider:
-  - image: images/carrusel-400x225-tienda.jpg
+  - image: /images/carrusel-400x225-tienda.jpg
     title: Tienda online
     text: Comprá directo Isolant con envío a domicilio o retiro en Pick up points.
     ctaText: Comprá online
     ctaLink: https://tienda.isolant.com.ar/
-  - image: images/carrusel-400x225-isoplus.jpg
+  - image: /images/carrusel-400x225-isoplus.jpg
     title: Isoplus
     text: "Registrate y empezá a ganar premios con la instalación de cada rollo de
       aislante Isolant: ¡Es fácil y gratis!"
@@ -92,7 +92,7 @@ contactFormTitle: ¿Qué necesitás aislar en tu obra?
 contactFormText: Contanos las características principales de tu obra para que
   podamos recomendarte el mejor aislante.
 instagramSlider:
-  - image: images/ig-30-anos_low.jpg
-  - image: images/ig-sustenta_low.jpg
-  - image: images/¿tu-casa-es-un-horno-en-verano-1-.png
+  - image: /images/ig-30-anos_low.jpg
+  - image: /images/ig-sustenta_low.jpg
+  - image: /images/¿tu-casa-es-un-horno-en-verano-1-.png
 ---
