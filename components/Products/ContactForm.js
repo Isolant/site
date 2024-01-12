@@ -1,27 +1,22 @@
 // Globals
-import React, { useState } from "react";
-import ReCAPTCHA from 'react-google-recaptcha';
-
-// Components
-import Input from '../Forms/Input';
-import Textarea from '../Forms/Textarea';
-import Button from "../Forms/Button";
+import React, { useEffect } from "react";
 
 // Classes
-import { horizontalPadding, verticalPadding } from "../../classes/Spacing";
-import { uppercaseTextClasses } from "../../classes/Text";
+import { verticalPadding } from "../../classes/Spacing";
 
-export default function ContactForm({ background, theme }) {
-  const [isCaptchaValid, setIsCaptchaValid] = useState(false);
-
-  // Function to check for spam submissions
-  const validateRecaptcha = (value) => {
-    if(value === null) {
-      return;
-    } else {
-      setIsCaptchaValid(true);
-    }
-  }
+export default function ContactForm({ background }) {
+  useEffect(() => {
+    const formScript = document.createElement('script')
+    formScript.setAttribute('data-b24-form', 'inline/4/z6c8i0')
+    formScript.setAttribute('data-skip-moving', 'true')
+    formScript.innerHTML = `(function(w,d,u){
+      var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);
+      var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+      })(window,document,'https://cdn.bitrix24.es/b26232869/crm/form/loader_4.js')`;
+    
+    const position = document.querySelector('.bitrix-form-container');
+    position.appendChild(formScript);
+  }, [])
 
   return (
     <div
@@ -32,61 +27,7 @@ export default function ContactForm({ background, theme }) {
         backgroundImage: background && `url(${background})` || ''
       }}
     >
-      <form
-        className={`${horizontalPadding} grid grid-cols-1 md:grid-cols-2 gap-8`}
-        action={isCaptchaValid === true ? "/api/products" : '/error'}
-        method="POST"
-      >
-        <fieldset className="md:col-span-full">
-          <h6
-            className={`
-              ${uppercaseTextClasses}
-              ${theme === "dark" ? "text-white" : "text-gray-700"}
-              font-semibold
-            `}
-          >
-            Formulario de contacto
-          </h6>
-        </fieldset>
-        <Input
-          id="name"
-          labelText="Nombre y apellido:"
-          required={true}
-          type="text"
-          theme={theme || 'light'}
-          placeholder="Completalo acá"
-        />
-        <Input
-          id="email"
-          labelText="Email:"
-          required={true}
-          type="email"
-          theme={theme || 'light'}
-          placeholder="Completalo acá"
-        />
-        <Textarea
-          id="message"
-          labelText="Tu mensaje:"
-          placeholder="Completá tu mensaje acá"
-          required={true}
-          theme={theme || 'light'}
-          classes="md:col-span-2"
-        />
-        <div className="md:col-span-2 justify-self-center">
-          <ReCAPTCHA
-            sitekey="6Lc5d-kUAAAAADvGQo7UZFKtnmKPImwDSnRndmOS"
-            onChange={validateRecaptcha}
-          />
-        </div>
-        <div className="md:col-span-2 justify-center text-center">
-          <Button
-            text="Enviar consulta"
-            color={'secondary'}
-            isFormBtn={true}
-            icon={true}
-          />
-        </div>
-      </form>
+      <div className="bitrix-form-container" />
     </div>
   )
 }

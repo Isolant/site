@@ -1,11 +1,10 @@
 // Globals
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 
 // Components
 import Base from "../components/Base";
 import SmallHero from "../components/SmallHero";
 import InsetCallout from "../components/Layout/InsetCallout";
-import Form from "../components/Contact/Form";
 import ContactInformation from "../components/Contact/ContactInformation";
 
 // Library
@@ -14,11 +13,10 @@ import { getAllCollections, getCollectionById } from '../lib/collections';
 // Content
 import { attributes } from "../content/contact.md";
 
-export default function Contact({ provincesData, localesData, productsData, productLinesData }) {
+export default function Contact({ provincesData, localesData, productLinesData }) {
   let {
     pageTitle,
     heroImageBackground,
-    formCtaText,
     contactInformation
   } = attributes;
 
@@ -65,7 +63,6 @@ export default function Contact({ provincesData, localesData, productsData, prod
 }
 
 export async function getStaticProps() {
-  const productsData = getAllCollections("products");
   const provincesData = getCollectionById("geolocalization", 'provinces');
   const localesData = getCollectionById("geolocalization", 'locales');
   const productLinesData = getAllCollections("productLines");
@@ -74,7 +71,6 @@ export async function getStaticProps() {
     props: {
       provincesData,
       localesData,
-      productsData,
       productLinesData
     },
   };

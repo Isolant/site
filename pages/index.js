@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import slugify from 'react-slugify';
 
 import Base from "../components/Base";
-import ProductSelectorForm from '../components/ProductSelector/Form';
 
 import Hero from "../components/Home/Hero";
 import HighlightedProducts from "../components/Home/HighlightedProducts";
@@ -40,8 +39,6 @@ export default function Homepage({ highlightedProductsData, categoriesData, prod
     otherServicesTitle,
     otherServicesSlider,
     contactFormEnabled,
-    contactFormTitle,
-    contactFormText,
     instagramSlider
   } = attributes;
 
@@ -124,14 +121,6 @@ export default function Homepage({ highlightedProductsData, categoriesData, prod
             className="relative flex flex-col justify-center items-center"
           >
             <div className="bitrix-form-container" />
-            {/* <ProductSelectorForm
-              theme="light"
-              formTitle={contactFormTitle}
-              formDescription={contactFormText}
-              formCtaText="Comenzar"
-              ctaIcon={true}
-              productSelectorTypes={productSelectorTypesData}
-            /> */}
           </div>
         </section>
       }
