@@ -22,6 +22,19 @@ export default function Contact({ provincesData, localesData, productsData, prod
     contactInformation
   } = attributes;
 
+  useEffect(() => {
+    const formScript = document.createElement('script')
+    formScript.setAttribute('data-b24-form', 'inline/4/z6c8i0')
+    formScript.setAttribute('data-skip-moving', 'true')
+    formScript.innerHTML = `(function(w,d,u){
+      var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);
+      var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+      })(window,document,'https://cdn.bitrix24.es/b26232869/crm/form/loader_4.js')`;
+    
+    const position = document.querySelector('.bitrix-form-container');
+    position.appendChild(formScript);
+  }, [])
+
   return (
     <Base
       activePage="professionals"
@@ -41,10 +54,7 @@ export default function Contact({ provincesData, localesData, productsData, prod
         <InsetCallout
           decorations={false}
         >
-          <Form
-            products={productsData}
-            ctaText={formCtaText}
-          />
+          <div className="bitrix-form-container" />
         </InsetCallout>
         <ContactInformation
           information={contactInformation}
