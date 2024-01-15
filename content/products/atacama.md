@@ -10,25 +10,22 @@ description: >-
 globals:
   order: 2
   highlighted: true
-  productImage: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-imagen-balde.png
+  productImage: images/atacama-balde-frente_low.png
   logo: /images/products/atacama/logo.png
   ecommerceLink: https://tienda.isolant.com.ar/vivienda/82-atacama-balde-20lt.html
   slogan: Bajá la temperatura interior de tu casa **entre 6 y 8 grados**
   productImageProportion: vertical
   color: "#C88648"
 page:
-  - type: hero
-    enableHero: true
-    mainImageBackgroundPosition: bottom
-    ctaLink: https://www.youtube.com/watch?v=zefa_Sh5-Z4
-    ctaText: Más información
-    heroImage:
+  - heroImage:
       - selectedOption: image
         mainImageBackgroundPosition: bottom
         mainImage: /images/products/atacama/slider-1.jpg
       - selectedOption: image
         mainImageBackgroundPosition: top
         mainImage: /images/products/atacama/slider-2.jpg
+    ctaLink: https://www.youtube.com/watch?v=zefa_Sh5-Z4
+    heroType: custom
     mainBenefits:
       - icon: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-beneficio-1.svg
         text: Aislación térmica. Comfort de tu casa en verano.
@@ -36,7 +33,10 @@ page:
         text: Ahorro. Ayuda a reducir el gasto de electricidad.
       - icon: /images/products/atacama/isolant-aislantes-linea-vivienda-atacama-beneficio-3.svg
         text: Impermeable. Sella micro fisuras.
-    heroType: custom
+    mainImageBackgroundPosition: bottom
+    type: hero
+    enableHero: true
+    ctaText: Más información
     slogan: Escudo solar **Atacama**
   - type: attributes
     enableAttributesSection: true
@@ -77,7 +77,9 @@ page:
   - type: map
     enableMapSection: true
     mapEmbed:
-      code: <iframe src="https://www.google.com/maps/d/embed?mid=1MmIxK_heTpLlD7BLzq43B6nQ9lyMPqE&ehbc=2E312F" width="640" height="480"></iframe>
+      code: <iframe
+        src="https://www.google.com/maps/d/embed?mid=1MmIxK_heTpLlD7BLzq43B6nQ9lyMPqE&ehbc=2E312F"
+        width="640" height="480"></iframe>
   - type: recommendations
     enableRecommendationsSection: true
     recommendationsTitle: Recomendaciones de uso **y seguridad en general**
@@ -125,12 +127,16 @@ page:
     aboutImage: /images/products/atacama/partners.svg
     aboutTitle: "**Sobre Isolant y Venezia**"
     aboutText: >-
-      Isolant y Venezia se unen con la misión de lograr un producto revolucionador. Juntos es que desarrollamos este escudo solar; un aislante líquido reflectivo con nano tecnología orientado a mejorar el confort térmico de viviendas y obras en general, durante las estaciones de más calor del año.
-      
-      
+      Isolant y Venezia se unen con la misión de lograr un producto
+      revolucionador. Juntos es que desarrollamos este escudo solar; un aislante
+      líquido reflectivo con nano tecnología orientado a mejorar el confort
+      térmico de viviendas y obras en general, durante las estaciones de más
+      calor del año.
+
+
       Este NO es un producto mágico; las nano esferas y los componentes reflectivos que logramos incorporar a ATACAMA en un justo equilibrio, son los que logran evitar la transmitancia térmica producida por la acción de los rayos solares sobre cualquier tipo de cubierta. Chapas, losas y tejas pueden ser protegidas con ATACAMA, escudo solar.
-      
-      
+
+
       Atacama se consigue en corralones, pinturerías y ferreterías de todo el país. Escribinos para conocer más sobre este producto!
   - type: contact
     enableContactSection: true
