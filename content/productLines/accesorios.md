@@ -7,7 +7,6 @@ mainImage: /images/product-lines/accesorios.jpg
 products:
   - Sellatutti
   - Puertelete
-  - Fix Band
   - Puertelete Reforzado
   - Termo solar
   - Piso Encastrable Soft
