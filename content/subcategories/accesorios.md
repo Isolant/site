@@ -5,5 +5,4 @@ products:
   - Sellatutti
   - Puertelete Reforzado
   - Puertelete
-  - Fix Band
 ---
