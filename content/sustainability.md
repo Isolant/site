@@ -1,30 +1,7 @@
 ---
 pageTitle: Sustentabilidad
-heroEnabled: true
-heroVideoBackground: https://www.youtube.com/watch?v=O02HBbp69WA
-heroTitle: Una empresa **comprometida**
 heroText: Isolant es una empresa con una gestión y visión de triple impacto.
-heroCtaLink: /sustentabilidad#actions
-policiesEnabled: true
-policies:
-  - icon: /images/sustainability/policy-1.png
-    title: Política de sustentabilidad
-    text: Nos comprometemos con el desarrollo sostenible y la creación de valor
-      económico, social y ambiental para nuestros colaboradores, comunidad,
-      clientes, proveedores y el ambiente, como parte fundamental de nuestra
-      filosofía.
-    link: https://isolant.com.ar/images/downloads/politica-sustentabilidad.pdf
-    linkText: Ver política
-  - icon: /images/sustainability/policy-2.png
-    title: Objetivos de Desarrollo Sostenible
-    text: Nos enorgullece seguir avanzando en el camino de la sostenibilidad,
-      comprometidos con los 10 principios del Pacto Global y los 17 Objetivos de
-      Desarrollo Sostenible. Queremos aprender de la experiencia de Naciones
-      Unidas a través del Pacto Global y colaborar con colegas.
-    link: "#ods"
-    linkText: Ver objetivos
 timelineEnabled: true
-timelineTitle: Nuestras Acciones Sustentables
 timeline:
   - image: /images/icons/sustainability/reduccion-huella-de-carbono.png
     text: Reducción y medición de la huella de carbono de manera efectiva.
@@ -49,6 +26,41 @@ timeline:
     text: Reportes de sustentabilidad.
   - image: /images/icons/sustainability/impacto-social-positivo.png
     text: Generar un impacto social positivo.
+contactEnabled: true
+odsEnabled: true
+ODSEnabled: true
+heroImageMobile: /images/sustainability/bg-mobile.jpg
+heroEnabled: true
+heroVideoBackground: https://www.youtube.com/watch?v=O02HBbp69WA
+heroTitle: Una empresa **comprometida**
+heroCtaLink: /sustentabilidad#actions
+heroCtaText: Conocé nuestras acciones
+policiesEnabled: true
+policies:
+  - icon: /images/sustainability/policy-1.png
+    title: Política de sustentabilidad
+    text: Nos comprometemos con el desarrollo sostenible y la creación de valor
+      económico, social y ambiental para nuestros colaboradores, comunidad,
+      clientes, proveedores y el ambiente, como parte fundamental de nuestra
+      filosofía.
+    link: https://isolant.com.ar/images/downloads/politica-sustentabilidad.pdf
+    linkText: Ver política
+  - icon: /images/sustainability/policy-2.png
+    title: Objetivos de Desarrollo Sostenible
+    text: >-
+      Nos enorgullece seguir avanzando en el camino de sostenibilidad,
+      fortaleciendo nuestro compromiso con los 10 principios del Pacto Global en
+      materia de Derechos Humanos, Estándares Laborales, Medio Ambiente y
+      Anticorrupción, y con los 17 Objetivos de Desarrollo Sostenible. Queremos
+      expresar nuestro compromiso de hacer que el Pacto Global de las Naciones
+      Unidas y sus principios formen parte de la estrategia, cultura y
+      operaciones diarias en nuestra empresa.
+
+
+      Estamos convencidos que es un camino de aprendizaje constante y por eso, queremos nutrirnos de la experiencia y trayectoria de Naciones Unidas mediante Pacto Global y en el compartir con colegas.
+    link: "#ods"
+    linkText: Ver objetivos
+timelineTitle: Nuestras Acciones Sustentables
 sustainabilityEnabled: true
 sustainabilityVideo: https://www.youtube.com/watch?v=61pO4IRD7pU
 philosophyEnabled: true
@@ -119,7 +131,7 @@ philosophy:
 
 
       Hemos desarrollado políticas que establecen los valores, normas y procedimientos para promover una gobernanza clara, transparente y responsable, al mismo tiempo que previene situaciones de corrupción y sobornos. Estas políticas incluyen:  
-      
+
 
       * Política de Ética
 
@@ -169,6 +181,7 @@ ods:
   - number: 16
     title: Paz, justicia e instituciones sólidas
 newsEnabled: true
+newsTitle: Iniciativas sustentables
 newsSlider:
   - image: /images/sustainability/news/nota-1.jpg
     title: Una empresa argentina creó un burlete con el descarte de cámaras de
@@ -227,12 +240,6 @@ logos:
   - name: Fundación Empujar
     image: /images/sustainability/logos/empujar.png
     href: https://fundacionempujar.org/
-contactEnabled: true
-odsEnabled: true
-ODSEnabled: true
-heroImageMobile: /images/sustainability/bg-mobile.jpg
-heroCtaText: Conocé nuestras acciones
-newsTitle: Iniciativas sustentables
 contactImage: /images/sustainability/contact.jpg
 contactTitle: ¿Tenés alguna consulta? **¡Contactate con nosotros!**
 contactText: Envianos un mensaje con tu consulta y te responderemos a la brevedad.
