@@ -42,12 +42,12 @@ page:
   - type: benefits
     enableBenefitsSection: true
     benefitsTitle: Cuadrícula **para replanteo**
-    benefitsText: <strong>COVERING</strong> presenta una cuadrícula impresa en su
-      cara superior, haciendo de su colocación y replanteo en tabiques y techos
-      de steel framing y balloon framing, mucho más fácil y ágil.<br /><br
-      />Además gracias a su tramado y composición bicapa,
-      <strong>Covering</strong> es un material con alta resistencia al rasgado,
-      provocado por vientos de altas velocidades y manipuleos en obra.
+    benefitsText: >-
+      **Covering®** presenta una cuadrícula impresa en su cara superior,
+      haciendo de su colocación y replanteo en tabiques y techos de steel
+      framing y balloon framing, mucho más fácil y ágil.
+
+      Además gracias a su tramado y composición bicapa,**Covering®** es un material con alta resistencia al rasgado, provocado por vientos de altas velocidades y manipuleos en obra.
     benefitsImage: /images/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-beneficio-exclusivo.jpg
     benefitsList:
       - text: "Material sano: No desprende partículas."
