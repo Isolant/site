@@ -21,6 +21,7 @@ page:
         text: Material impermeable e imputrescible
       - icon: /images/products/cilindros-de-espuma/isolant-aislantes-linea-otros-usos-cilindros-de-espuma-beneficio-3.svg
         text: Reciclable. No contamina el medio ambiente
+    eyebrow: ""
   - type: details
     enableDetailsSection: true
     detailsImage: /images/products/cilindros-de-espuma/CILINDRO_DET_MG_5258_w7wvoz.jpg
@@ -33,10 +34,9 @@ page:
       - text: Juntas de expansión de cubiertas, pavimentos, piletas, etc.
       - text: Respaldo de marcos de ventanas y hojas de vidrios de auto.
     presentation:
-      - text: Hacé <a
-          href="/images/products/cilindros-de-espuma/isolant-aislantes-linea-otros-usos-cilindros-de-espuma-presentaciones.png"
-          target="_blank" rel="noopener noreferrer" class="font-bold">click acá</a>
-          para ver todas las presentaciones disponibles
+      - text: Hacé
+          <ahref="/images/products/cilindros-de-espuma/isolant-aislantes-linea-otros-usos-cilindros-de-espuma-presentaciones.png"target="_blank"rel="noopenernoreferrer"class="font-bold">click
+          acá</a> para ver todas las presentaciones disponibles
   - type: benefits
     enableBenefitsSection: true
     benefitsTitle: Absorben la compresión y dilatación de las juntas**
