@@ -8,7 +8,7 @@ heroSlider:
     ctaLink: /sustentabilidad
 highlightedProductsEnabled: true
 highlightedProducts:
-  - Atacama
+  - Iso Siding
 categoriesEnabled: true
 categoriesTitle: Conoce nuestros aislantes para...
 productLinesEnabled: true
