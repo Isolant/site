@@ -32,7 +32,7 @@ page:
       - text: Apoyado en el piso, frente al filo de la puerta.
     presentation:
       - text: 95cm. x 25 mm.
-    detailsImage: /images/products/puertelete/isolant-aislantes-linea-accesorios-puertelete-imagen-detalle.jpg
+    detailsImage: images/_dsc0763.jpg
   - type: benefits
     enableBenefitsSection: false
     benefitsTitle: Muy fácil **instalación**
@@ -40,7 +40,7 @@ page:
       tu puertelete (podés usar una trincheta) midiendo el ancho de la puerta,
       apoyalo en el piso, frente al filo de la puerta, y desplazalo hasta que
       cubra la totalidad de la puerta.
-    benefitsImage: /images/products/puertelete/isolant-aislantes-linea-otros-usos-puertelete-beneficio-exclusivo.jpg
+    benefitsImage: images/_mg_8101.png
     benefitsList:
       - text: "Material sano: No desprende partículas."
       - text: Reciclable. No contamina el medio ambiente.
