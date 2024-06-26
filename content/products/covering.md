@@ -53,6 +53,7 @@ page:
       - text: "Material sano: No desprende partículas."
       - text: Reduce los costos.
       - text: Resistencia UV 3 meses intemperie.
+    patentImage: images/norma-iram-12820-membranas-para-construcciones_-barreras-de-agua-viento-y-difusoras-de-vapor.png
   - type: video
     enableVideoSection: false
   - type: instructions
