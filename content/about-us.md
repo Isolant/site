@@ -1,7 +1,6 @@
 ---
 pageTitle: Nosotros
 heroVideoBackground: https://www.youtube.com/watch?v=FiHBo2r8r6k
-heroImageMobile: /images/about-us/isolant-aislantes-empresa-fondo-mobile.jpg
 heroTitle: Invertir en aislación hoy **es ahorrar para siempre**
 heroText: ISOLANT S.A. es una moderna empresa que fabrica láminas y tubos de
   espuma termoplástica
@@ -9,16 +8,15 @@ heroCtaLink: /nosotros#philosophy
 heroCtaText: Conocenos
 missionVission:
   - icon: /images/about-us/isolant-aislantes-nosotros-icono-identidad.svg
-    title: Identidad
-    text: Somos una empresa líder, de gente curiosa e innovadora, con fuertes lazos
-      y valores. Buscamos ideas extraordinarias, que transformen nuestro
-      presente y nos permitan llegar a lo más alto.
+    title: Propósito
+    text: Nuestro propósito es desarrollar productos innovadores para el mercado de
+      la aislación, sorprendiendo a nuestros clientes con propuestas
+      extraordinarias. Lo logramos gracias a personas curiosas y participativas,
+      unidas por fuertes lazos y valores, y comprometidas con una visión de
+      triple impacto.
   - icon: /images/about-us/isolant-aislantes-nosotros-icono-vision.svg
-    title: Visión
-    text: Queremos ser la empresa número 1 en ventas de la categoría, tanto en
-      argentina (+40% del mercado) como en Hispanoamérica, sorprendiendo a
-      nuestros clientes con ideas extraordinarias y sustentables que ayuden al
-      cuidado del planeta.
+    title: Valores
+    text: "Nuestros valores son: Respeto, Compromiso, Integridad y Creatividad."
 timelineTitle: Nuestra Historia
 timeline:
   - image: /images/about-us/isolant-aislantes-nuestra-empresa-nuestra-historia-1993.jpg
@@ -76,95 +74,104 @@ timeline:
   - image: /images/about-us/isolant-aislantes-nuestra-empresa-nuestra-historia-2021.jpg
     year: 2021
     title: Nueva extrusora
-    text: Incorporamos la extrusora más potente de toda hispanoamérica, que nos permitió darle respuesta a una demanda creciente y optimizar productos en línea y de mayores espesores. Tecnología coreana de punta. Un riesgo e inversión en una Argentina golpeada durante la Pandemia COVID-19.
+    text: Incorporamos la extrusora más potente de toda hispanoamérica, que nos
+      permitió darle respuesta a una demanda creciente y optimizar productos en
+      línea y de mayores espesores. Tecnología coreana de punta. Un riesgo e
+      inversión en una Argentina golpeada durante la Pandemia COVID-19.
 productImage: /images/about-us/isolant-aislantes-nuestra-empresa-nuestro-producto-rollos.png
 productTitle: Nuestro **Producto**
 productText: >-
-  ISOLANT S.A. fabrica una amplia gama de espumas termoplásticas,
-  mayormente aplicadas a la construcción. Las características de este material
-  lo hacen ideal para la aislación térmica, hidrófuga, acústica, de impacto y de
-  otros tipos, en techos, paredes, conductos y cañerías de aire acondicionado,
-  pisos, industrias, etc. 
-  
-  
-  La principal característica del material
-  es su estructura de celda cerrada; está conformada por celdas estancas con
-  aire en su interior, lo que hace que el material además sea aislante térmico,
-  así como también elástico y fácil de manipular. Esta elasticidad permite que
-  el material se cierre sobre los elementos de fijación con los que se lo
-  perfora (clavos, tornillos) manteniendo su estanqueidad.
+  ISOLANT S.A. fabrica una amplia gama de espumas termoplásticas, mayormente
+  aplicadas a la construcción. Las características de este material lo hacen
+  ideal para la aislación térmica, hidrófuga, acústica, de impacto y de otros
+  tipos, en techos, paredes, conductos y cañerías de aire acondicionado, pisos,
+  industrias, etc. 
+
+
+  La principal característica del material es su estructura de celda cerrada; está conformada por celdas estancas con aire en su interior, lo que hace que el material además sea aislante térmico, así como también elástico y fácil de manipular. Esta elasticidad permite que el material se cierre sobre los elementos de fijación con los que se lo perfora (clavos, tornillos) manteniendo su estanqueidad.
 patentBackgroundImage: /images/about-us/isolant-aislantes-nuestra-empresa-patentes-imagen-fondo-azul.jpg
 patentImage: /images/about-us/isolant-aislantes-nuestra-empresa-patentes.png
 patentTitle: "**Patentes**"
 patentText: >-
-  Las empresas mundiales líderes en I+D utilizan las patentes y marcas
-  de forma combinada para proteger sus innovaciones. 
-  
-  
-  ISOLANT cuenta
-  con más de 10 patentes vigentes y otras tantas en trámite. Esto nos mantiene a
-  la vanguardia junto a las empresas líderes en aislación, abriendo puertas a
-  nuevas investigaciones y análisis de estrategias globales. 
-  
-  
-  Este
-  logro es muy importante para nosotros y nos alienta a seguir innovando.
+  Las empresas mundiales líderes en I+D utilizan las patentes y marcas de forma
+  combinada para proteger sus innovaciones. 
+
+
+  ISOLANT cuenta con más de 10 patentes vigentes y otras tantas en trámite. Esto nos mantiene a la vanguardia junto a las empresas líderes en aislación, abriendo puertas a nuevas investigaciones y análisis de estrategias globales. 
+
+
+  Este logro es muy importante para nosotros y nos alienta a seguir innovando.
 patentCtaLink: /images/about-us/isolant-aislantes-innovacion-y-calidad-politica-calidad.webp
 patentCtaText: Ver política de calidad
-philosophyTitle: Filosofía **Isolant**
 aboutUsVideo: https://www.youtube.com/watch?v=JIhGPcs1ohY
+philosophyTitle: "Filosofía **Isolant** "
 philosophy:
   - title: Gen Emprendedor
-    text: >-
-    
-      Somos una empresa que nace con un fuerte gen de emprender, dónde sea y
-      cómo sea. No nos da miedo lo nuevo, nos desafía lo desconocido y somos
-      felices descubriendo y aprendiendo. 
-      
-      
-      Todos los empleados de
-      Isolant podemos emprender y proponer a través de un programa interno que
-      premia las ideas y propuestas. 
-      
-      
-      También integramos y
-      potenciamos a emprendedores que no forman parte de Isolant, con la
-      creación de una aceleradora que escalará sus negocios con nuestra marca y
-      canal. 
-      
-      
-      Vivimos el gen emprendedor, somos eternos
-      emprendedores.
-    ctaLink: '#emprendedores'
+    text: Somos eternos emprendedores, innovando internamente, apoyando y
+      colaborando  con  emprendedores que desarrollen productos para la
+      construcción desde la recuperación de residuos, ofreciendo nuestra
+      experiencia técnica y comercial en el rubro de la construcción en general
+      y en particular de aislación. Contamos con un Comité de Desarrollo
+      multidisciplinario que investiga, analiza y desarrolla diferentes
+      materiales y tecnologías con el fin de sumar propuestas que agreguen valor
+      a nuestra amplia gama de productos.
+    ctaLink: "#emprendedores"
     ctaText: ¿Sos emprendedor?
   - title: Triple Impacto
-    text: Creemos que es vital perseguir un fin económico, pero también que el mismo
-      sea acompañado por una mirada social y ambiental. Conciliar la producción
-      y la creación de riqueza con el desarrollo social y el impacto ambiental
-      positivo debe ser el eje de un nuevo modelo empresarial. Comprometidos de
-      forma personal, institucional y legal a tomar decisiones considerando las
-      consecuencias de nuestras acciones a largo plazo en la comunidad y el
-      ambiente.
+    text: >-
+      Reconocemos el valor económico como un medio para mejorar la sociedad y el
+      ambiente trabajando a partir de 3 verticales de impacto: Inclusión e
+      Igualdad, Innovación y Circularidad. Contamos con un comité de
+      Sustentabilidad interdisciplinario mediante el cual se ha definido hacer
+      foco en 5 de los 17 Objetivos de Desarrollo Sostenible de la agenda 2030
+      de la ONU: 8 Trabajo decente y crecimiento económico,10 Reducción de las
+      desigualdades, 12 Producción y consumo responsable, 13 Acción por el clima
+      y 16 Paz, justicia e instituciones sólidas.
+
+
+      Entendemos que como habitantes de este planeta debemos respetar y defender el ambiente que nos da los recursos para la vida y sabemos que la circularidad de la economía es indispensable para sostener el desarrollo económico presente y el de las próximas generaciones (ODS 12 y 13).
+
+
+      Pensamos en hacer negocios de una forma más generosa mirando los resultados a largo plazo, basados en la confianza y construyendo valores compartidos poniendo el foco en las personas (ODS 8 y 10)
+
+
+      Utilizamos la innovación y la creatividad que nos caracteriza para repensar y rediseñar productos, procesos y alianzas que beneficien a las personas y al planeta (ODS 12)
+
+
+      Entendemos que la inclusión de todas las personas y el respeto a la diversidad aportan distintas miradas con las cuales se potencia la creatividad y la resiliencia (ODS 10)
+
+
+      Creemos que la ética, la integridad y la transparencia del gobierno corporativo genera las bases para una sociedad con instituciones sólidas, paz y justicia, buscando el equilibrio de los intereses entre todas las partes interesadas, contribuyendo positivamente a la sociedad y al medio ambiente (ODS 16)
   - title: Cultura Ágil
-    text: Vivimos una cultura ágil, con trabajo en equipo y empatía, donde la
-      comunicación fluida y transversal es el eje de nuestro trabajo. La
-      flexibilidad y el continuo aprendizaje son vitales para nosotros.
+    text: "Significa que no nos estancamos, ni nos quedamos estáticos. Somos ágiles:
+      todas las áreas en Isolant trabajan transversalmente con diversos
+      proyectos, sin que necesariamente sean de su propia área o expertise. Cada
+      proceso se encuentra en revisión permanente, siempre abierto a mejoras.
+      Contamos con un programa participativo de mejora continua llamado INGENIOS
+      donde cada colaborador puede registrar sus propuestas de optimización de
+      procesos, sistematización, alertas automáticas, ahorros de tiempo, de
+      energía de horas hombre, etc."
 entrepreneursImage: /images/about-us/isolant-aislantes-empresa-emprendedores.jpg
 entrepreneursTitle: "**Emprendedores**"
 entrepreneursText: >-
-  **¿Tenés un producto para la construcción que impulse nuestra [filosofía de Triple Impacto](#philosophy)?**
-  
-  
+  **¿Tenés un producto para la construcción que impulse nuestra [filosofía de
+  Triple Impacto](#philosophy)?**
+
+
   Escribinos y uno de los miembros del Comité de Desarrollo te estará contactando en breve.
 entrepreneursCtaText: Contactanos
-entrepreneursCtaLink: 'mailto:mgalindo@isolant.com.ar?subject=Emprendedores'
+entrepreneursCtaLink: mailto:mgalindo@isolant.com.ar?subject=Emprendedores
 technicalInformationImage: /images/about-us/isolant-aislantes-nuestra-empresa-ensayos-tecnicos.jpg
 technicalInformationTitle: Ensayos **Técnicos**
-technicalInformationText: "**ISOLANT S.A.** somete a ensayos y pruebas de laboratorio a sus productos con el fin de certificarlos ante autoridades nacionales e internacionales. Descargá nuestros ensayos debajo, o envianos un correo con tus consultas técnicas."
-technicalInformationFormTitle: ¿Tenés alguna **consulta técnica?**
-technicalInformationFormText: Envianos un mensaje con tu consulta y te responderemos a la brevedad.
+technicalInformationText: "**ISOLANT S.A.** somete a ensayos y pruebas de
+  laboratorio a sus productos con el fin de certificarlos ante autoridades
+  nacionales e internacionales. Descargá nuestros ensayos debajo, o envianos un
+  correo con tus consultas técnicas."
 technicalInformationCtaText: Descargar Ensayos Técnicos
 technicalInformationCtaLink: /servicios/descargas
+technicalInformationFormTitle: ¿Tenés alguna **consulta técnica?**
+technicalInformationFormText: Envianos un mensaje con tu consulta y te responderemos a la brevedad.
+heroImageMobile: /images/about-us/isolant-aislantes-empresa-fondo-mobile.jpg
 policiesTitle: Nuestras&nbsp;**Políticas**
 policies:
   - Innovación y Calidad
