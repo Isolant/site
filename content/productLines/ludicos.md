@@ -3,7 +3,7 @@ title: Ludicos
 description: ""
 order: 7
 color: "#971f83"
-mainImage: images/carrousel-400x225-ludicos.png
+mainImage: images/diseño-sin-título-2-.png
 products:
   - Espuma
 ---
