@@ -104,7 +104,7 @@ patentText: >-
 patentCtaLink: /images/about-us/isolant-aislantes-innovacion-y-calidad-politica-calidad.webp
 patentCtaText: Ver política de calidad
 aboutUsVideo: https://www.youtube.com/watch?v=JIhGPcs1ohY
-philosophyTitle: "Filosofía **Isolant** "
+philosophyTitle: Filosofía **Isolant**
 philosophy:
   - title: Gen Emprendedor
     text: Somos eternos emprendedores, innovando internamente, apoyando y
