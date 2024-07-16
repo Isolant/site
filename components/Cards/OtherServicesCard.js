@@ -53,12 +53,9 @@ export default function OtherServicesCard({ service, classes, color, decorator }
     :
       <Link
         href={service.ctaLink ? service.ctaLink : ''}
+        className={`${classes !== undefined ? classes : ''} relative block hover:opacity-90 group`}
       >
-        <a
-          className={`${classes !== undefined ? classes : ''} relative block hover:opacity-90 group`}
-        >
-          {children}
-        </a>
+        {children}
       </Link>
   )
 }

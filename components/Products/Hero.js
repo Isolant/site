@@ -113,10 +113,9 @@ export default function Hero({
       }
       <Link
         href="#details"
+        className="hidden sm:block absolute bottom-8 animate-bounce"
       >
-        <a className="hidden sm:block absolute bottom-8 animate-bounce">
-          <ChevronDown className="text-white fill-current" />
-        </a>
+        <ChevronDown className="text-white fill-current" />
       </Link>
     </section>
   )

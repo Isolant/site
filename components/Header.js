@@ -27,10 +27,11 @@ export default function Header({
       <header className="relative">
         <nav className={`bg-white shadow-sm ${horizontalPadding} py-2 sm:py-4 w-full flex flex-row items-center fixed top-0 z-30`}>
           {/* Logo */}
-          <Link href="/">
-            <a className="hover:opacity-90 flex-1">
-              <LogoColor />
-            </a>
+          <Link
+            href="/"
+            className="hover:opacity-90 flex-1"
+          >
+            <LogoColor />
           </Link>
           {/* Menu */}
           <ul

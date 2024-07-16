@@ -60,9 +60,7 @@ export default function Solutions({
                         className={`${standardTextClasses} text-gray-600 mb-2 hover:opacity-80`}
                       >
                         <Link href={`/soluciones/${solution.id}`}>
-                          <a>
-                            {solution.title}
-                          </a>
+                          {solution.title}
                         </Link>
                       </li>
                     )

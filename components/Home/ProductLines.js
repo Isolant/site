@@ -53,12 +53,9 @@ export default function ProductLines({
         </h3>
         <Link
           href={ctaLink}
+          className={`${uppercaseTextClasses} text-primary hover:opacity-80 transition ease-in-out duration-100`}
         >
-          <a
-            className={`${uppercaseTextClasses} text-primary hover:opacity-80 transition ease-in-out duration-100`}
-          >
-            {ctaText}
-          </a>
+          {ctaText}
         </Link>
       </div>
       <Slider

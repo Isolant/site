@@ -22,8 +22,10 @@ function Hits({ searchState, searchResults }) {
               key={hit.objectID}
               className="py-4 border-b border-gray-200"
             >
-              <Link href={hit.url}>
-                <a className="block hover:opacity-60">
+              <Link
+                href={hit.url}
+                className="block hover:opacity-60"
+              >
                   <p
                     className={`${smallTextClasses} text-gray-500 capitalize`}
                   >
@@ -36,7 +38,6 @@ function Hits({ searchState, searchResults }) {
                     hit={hit}
                     className={`${smallTextClasses} line-clamp-3 text-gray-600`}
                   />
-                </a>
               </Link>
             </li>
           ))}

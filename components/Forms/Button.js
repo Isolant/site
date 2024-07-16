@@ -60,17 +60,16 @@ export default function Button({ href, text, color, isExternal, isFormBtn, margi
         }
       </button>
     :
-      <Link href={href}>
-        <a
-          className={buttonClases}
-        >
-          {text}
-          {icon === true &&
-            <ArrowIcon
-              className={iconClasses}
-            />
-          }
-        </a>
+      <Link
+        href={href}
+        className={buttonClases}
+      >
+        {text}
+        {icon === true &&
+          <ArrowIcon
+            className={iconClasses}
+          />
+        }
       </Link>
   )
 }

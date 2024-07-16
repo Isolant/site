@@ -70,10 +70,9 @@ export default function HighlightedProducts({
                       >
                         <Link
                           href={`/aislantes/${product.id}`}
+                          className="md:text-sm"
                         >
-                          <a className="md:text-sm">
-                            Conoc&eacute; m&aacute;s
-                          </a>
+                          Conoc&eacute; m&aacute;s
                         </Link>
                       </div>
                     </div>

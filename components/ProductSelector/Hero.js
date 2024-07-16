@@ -80,12 +80,9 @@ export default function ResultHero({ background, title, cta, result }) {
             <li className="self-end">
               <Link
                 href={'/'}
+                className={`${uppercaseTextClasses} text-white hover:opacity-80`}
               >
-                <a
-                  className={`${uppercaseTextClasses} text-white hover:opacity-80`}
-                >
-                  {cta}
-                </a>
+                {cta}
               </Link>
             </li>
         </ul>

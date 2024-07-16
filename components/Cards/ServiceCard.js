@@ -47,39 +47,36 @@ export default function ServiceCard({ service, classes, isSustainability, iconSi
     :
       <Link
         href={service.link ? service.link : ''}
+        className={`${classes !== undefined ? classes : ''} relative block hover:opacity-90 group`}
       >
-        <a
-          className={`${classes !== undefined ? classes : ''} relative block hover:opacity-90 group`}
+        <div className="rounded-full bg-white shadow-md w-24 h-24 flex items-center justify-center mx-auto group-hover:shadow-lg transition duration-75 ease-in-out">
+          <Image
+            layout="intrinsic"
+            width={iconSize ? iconSize : 32}
+            height={iconSize ? iconSize : 32}
+            src={service.icon}
+            alt={service.title}
+          />
+        </div>
+        <h6
+          className={`${uppercaseTextClasses} md:text-sm mx-auto mt-4 mb-2 sm:mt-6 text-center ${isSustainability === true ? 'text-sustainability' : 'text-primary'}`}
         >
-          <div className="rounded-full bg-white shadow-md w-24 h-24 flex items-center justify-center mx-auto group-hover:shadow-lg transition duration-75 ease-in-out">
-            <Image
-              layout="intrinsic"
-              width={iconSize ? iconSize : 32}
-              height={iconSize ? iconSize : 32}
-              src={service.icon}
-              alt={service.title}
-            />
+          {service.title}
+        </h6>
+        <p
+          className={`${standardTextClasses} md:text-sm text-gray-400 text-center`}
+        >
+          {service.text}
+        </p>
+        {service.linkText ?
+          <div
+            className={`${uppercaseTextClasses} mx-auto mt-4 mb-2 sm:mt-6 text-center text-gray-600 font-semibold flex items-center gap-1 justify-center`}
+          >
+            {service.linkText}
+            <ArrowIcon className="fill-current fill-gray-800" />
           </div>
-          <h6
-            className={`${uppercaseTextClasses} md:text-sm mx-auto mt-4 mb-2 sm:mt-6 text-center ${isSustainability === true ? 'text-sustainability' : 'text-primary'}`}
-          >
-            {service.title}
-          </h6>
-          <p
-            className={`${standardTextClasses} md:text-sm text-gray-400 text-center`}
-          >
-            {service.text}
-          </p>
-          {service.linkText ?
-            <div
-              className={`${uppercaseTextClasses} mx-auto mt-4 mb-2 sm:mt-6 text-center text-gray-600 font-semibold flex items-center gap-1 justify-center`}
-            >
-              {service.linkText}
-              <ArrowIcon className="fill-current fill-gray-800" />
-            </div>
-          : ''
-          }
-        </a>
+        : ''
+        }
       </Link>
   )
 }

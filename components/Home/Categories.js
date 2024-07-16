@@ -25,22 +25,19 @@ export default function Categories({ categories, title }) {
             >
               <Link
                 href={`/productos?categoria=${category.id}`}
+                className="flex items-center justify-center flex-col"
               >
-                <a
-                  className="flex items-center justify-center flex-col"
+                <Image
+                  src={category.icon}
+                  alt={category.title}
+                  height={48}
+                  width={48}
+                />
+                <p
+                  className={`${uppercaseTextClasses} font-semibold text-gray-800 mt-4 text-center`}
                 >
-                  <Image
-                    src={category.icon}
-                    alt={category.title}
-                    height={48}
-                    width={48}
-                  />
-                  <p
-                    className={`${uppercaseTextClasses} font-semibold text-gray-800 mt-4 text-center`}
-                  >
-                    {category.title}
-                  </p>
-                </a>
+                  {category.title}
+                </p>
               </Link>
             </li>
           )

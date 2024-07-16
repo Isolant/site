@@ -39,12 +39,9 @@ export default function ProductListCard({ product }) {
             }
             <Link
               href={`/aislantes/${product.id}`}
+              className={`${uppercaseTextClasses} text-primary hover:opacity-80 transition ease-in-out duration-100`}
             >
-              <a
-                className={`${uppercaseTextClasses} text-primary hover:opacity-80 transition ease-in-out duration-100`}
-              >
-                M&aacute;s informaci&oacute;n
-              </a>
+              M&aacute;s informaci&oacute;n
             </Link>
           </div>
         </div>
