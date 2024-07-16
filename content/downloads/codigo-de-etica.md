@@ -4,5 +4,6 @@ title: Código de ética
 format: "Formato: PDF/ZIP"
 showOnMainPage: false
 pdf: /public/images/uploads/downloads/codigo-de-etica.pdf
+zip: /public/images/uploads/downloads/codigo-de-etica.pdf
 downloadCategory: Políticas
 ---
