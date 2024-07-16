@@ -11,14 +11,12 @@ export default function MainHead({ pageTitle }) {
     hotjar.initialize(982572, 6);
   }, []);
 
+  const title = pageTitle ? `${pageTitle} • Isolant Aislantes` : 'Isolant Aislantes'
+
   return (
     <Head>
       {/* Title */}
-      {
-        pageTitle ?
-        <title>{pageTitle} • Isolant Aislantes</title> :
-        <title>Isolant Aislantes</title>
-      }
+      <title>{title}</title>
       
       {/* Favicons */}
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
