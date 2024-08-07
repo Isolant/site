@@ -65,6 +65,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <noscript>
         <img height="1" width="1" src="https://www.facebook.com/tr?id=173450402104558&ev=PageView&noscript=1"/>
       </noscript>
+
+      {/* Whatspp conversion */}
+      <script
+        dangerouslySetInnerHTML={{ __html: `function gtag_report_conversion(url) {
+          var callback = function () {
+            if (typeof(url) != 'undefined') {
+              window.location = url;
+            }
+          };
+          gtag('event', 'conversion', {
+          'send_to': 'AW-1032960175/SLNzCPGEi8EZEK_xxuwD',
+          'event_callback': callback
+          });
+          return false;
+          }`
+        }}
+      />
     </Head>
   );
 }

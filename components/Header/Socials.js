@@ -53,6 +53,7 @@ export default function Socials() {
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 bg-gray-700 flex items-center justify-center w-10 h-10 hover:bg-gray-600 transition ease-in-out duration-100 rounded-br-md"
+            onClick={() => gtag_report_conversion()}
           >
             <WhatsappIcon
               className="text-white fill-current"
