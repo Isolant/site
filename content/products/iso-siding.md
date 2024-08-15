@@ -6,7 +6,7 @@ description: >-
   instalación. 
 
 
-  Su diseño moderno permite fachadas estéticas y más acogedoras. Es ideal para reemplazar terminaciones tradicionales y tienen mínimo costo de mantenimiento, ya que requiere la aplicación de otros productos.
+  Su diseño moderno permite fachadas estéticas y más acogedoras. Es ideal para reemplazar terminaciones tradicionales y tienen mínimo costo de mantenimiento, ya que no requiere la aplicación de otros productos.
 globals:
   order: 2
   highlighted: true
@@ -93,7 +93,9 @@ page:
   - type: map
     enableMapSection: true
     mapEmbed:
-      code: <iframe src="https://www.google.com/maps/d/embed?mid=1zaE16TO8LMf6YEmBdKRCeLo-vGSxE0w&ehbc=2E312F" width="640" height="480"></iframe>
+      code: <iframe
+        src="https://www.google.com/maps/d/embed?mid=1zaE16TO8LMf6YEmBdKRCeLo-vGSxE0w&ehbc=2E312F"
+        width="640" height="480"></iframe>
   - type: downloads
     enableDownloadsSection: true
     downloadsTitle: "**Área Técnica**"
@@ -131,10 +133,10 @@ page:
     enableAboutSection: true
     aboutImage: /images/products/iso-siding/partners.svg
     aboutTitle: "**Sobre Isolant y DVP**"
-    aboutText: A la amplia gama de espumas termoplásticas fabricadas por
-      Isolant, se le agrega la oferta de revestimientos exteriores de PVC, de la
-      mano de una asociación con la empresa chilena DVP. Si querés conocer más,
-      contactate con nosotros utilizando el formulario debajo!
+    aboutText: A la amplia gama de espumas termoplásticas fabricadas por Isolant, se
+      le agrega la oferta de revestimientos exteriores de PVC, de la mano de una
+      asociación con la empresa chilena DVP. Si querés conocer más, contactate
+      con nosotros utilizando el formulario debajo!
   - type: contact
     enableContactSection: true
     theme: dark
