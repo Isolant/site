@@ -936,11 +936,11 @@ collections:
           - label: "Tutoriales"
             name: "tutorials"
             fields:
-              - {label: "Habilitar slider tutoriales?", name: "tutorialsEnabled", widget: "boolean", default: true, required: false, hint: "Habilitar el slider de tutoriales"}
+              - {label: "Habilitar slider tutoriales?", name: "enableTutorialsSection", widget: "boolean", default: true, required: false, hint: "Habilitar el slider de tutoriales"}
               - {label: "Título sección slider tutoriales", name: "tutorialsTitle", widget: "string", hint: "Título para la sección tutoriales", required: false}
-              - {label: "Texto sección slider tutoriales", name: "tutorialsTextt", widget: "string", hint: "Texto para la sección tutoriales", required: false}
+              - {label: "Texto sección slider tutoriales", name: "tutorialsText", widget: "string", hint: "Texto para la sección tutoriales", required: false}
               - label: "Contenido para slider tutoriales"
-                name: "tutorialsSlider"
+                name: "tutorials"
                 widget: "list"
                 required: false
                 fields:
@@ -1235,11 +1235,11 @@ collections:
           - label: "Tutoriales"
             name: "tutorials"
             fields:
-              - {label: "Habilitar slider tutoriales?", name: "tutorialsEnabled", widget: "boolean", default: true, required: false, hint: "Habilitar el slider de tutoriales"}
+              - {label: "Habilitar slider tutoriales?", name: "enableTutorialsSection", widget: "boolean", default: true, required: false, hint: "Habilitar el slider de tutoriales"}
               - {label: "Título sección slider tutoriales", name: "tutorialsTitle", widget: "string", hint: "Título para la sección tutoriales", required: false}
               - {label: "Texto sección slider tutoriales", name: "tutorialsText", widget: "string", hint: "Texto para la sección tutoriales", required: false}
               - label: "Contenido para slider tutoriales"
-                name: "tutorialsSlider"
+                name: "tutorials"
                 widget: "list"
                 required: false
                 fields:
