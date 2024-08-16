@@ -13,9 +13,11 @@ page:
   - type: details
     enableDetails: true
     detailsText: >-
-      Iso Siding Americano es un sistema de revestimiento formado por tablas orientadas de manera horizontal, fabricado con alta tecnología para una mayor resistencia y duración, es lavable y no se quiebra.
-      
-      
+      Iso Siding Americano es un sistema de revestimiento formado por tablas
+      orientadas de manera horizontal, fabricado con alta tecnología para una
+      mayor resistencia y duración, es lavable y no se quiebra.
+
+
       Es ideal para fachadas existentes sin costo de mantención, ya que no requiere pintura ni aplicación de otros productos. Además cuenta con una completa línea de accesorios para terminación, fabricados en el mismo color y materialidad del revestimiento. Es un producto de rápida y fácil instalación.
     technicalInformationTitle: Características técnicas
     technicalInformation:
@@ -90,40 +92,49 @@ page:
     enableCalculationSection: true
     calculationTitle: ¿Cómo calcular el material para mi obra?
     calculationImage: /images/products/iso-siding/calculation.jpg
-    calculationText: >-
-      Calcular la cantidad de paneles de Iso Siding que necesita para cubrir la fachada de su obra es muy simple. Sólo necesita realizar un dibujo simple, tomar las medidas de cada pared y seguir la indicaciones a continuación:
-      **A. Largo B. Alto C. Alto Timpano D. Ancho**
-
+    calculationText: "Calcular la cantidad de paneles de Iso Siding que necesita
+      para cubrir la fachada de su obra es muy simple. Sólo necesita realizar un
+      dibujo simple, tomar las medidas de cada pared y seguir la indicaciones a
+      continuación: **A. Largo B. Alto C. Alto Timpano D. Ancho**"
     calculationList:
       - text: "(A x B )+ (D x B)= Resultado: Las áreas de la superficie a cubrir."
-      - text: "A x C / 2= el área triangular (a frontón)."
-      - text: "Sume los dos resultados anteriores y réstele la suma de las áreas de ventanas y puertas, y de cualquier otra cosa que no vaya a cubrir."
-      - text: "El total del área divídalo por la cantidad de m2 que cubre una tabla de siding: Área /0,76= N° total de tablas."
+      - text: A x C / 2= el área triangular (a frontón).
+      - text: Sume los dos resultados anteriores y réstele la suma de las áreas de
+          ventanas y puertas, y de cualquier otra cosa que no vaya a cubrir.
+      - text: "El total del área divídalo por la cantidad de m2 que cubre una tabla de
+          siding: Área /0,76= N° total de tablas."
   - type: profiles
     enableProfilesSection: true
     profilesTitle: Perfiles para la **instalación de siding**
     profilesImage: /images/products/iso-siding/profiles.png
     profilesList:
       - title: Perfil J
-        text: Se instala para terminación por todo el contorno de puertas y ventanas. Mide 3,8m de largo.
+        text: Se instala para terminación por todo el contorno de puertas y ventanas.
+          Mide 3,8m de largo.
         image: /images/products/iso-siding/profiles/perfil-1.jpg
       - title: Esquinero exterior
-        text: Se instala en vertical en todas las esquinas exteriores. Mide 3,0m de largo x 50mm de ancho.
+        text: Se instala en vertical en todas las esquinas exteriores. Mide 3,0m de
+          largo x 50mm de ancho.
         image: /images/products/iso-siding/profiles/perfil-2.jpg
       - title: Perfil comienzo
-        text: Se instala en la pared y sirve de apoyo para los primeros paneles de revestimiento. Mide 3,8m de largo por 80mm de ancho.
+        text: Se instala en la pared y sirve de apoyo para los primeros paneles de
+          revestimiento. Mide 3,8m de largo por 80mm de ancho.
         image: /images/products/iso-siding/profiles/perfil-3.jpg
       - title: Perfil término
-        text: Se instala en la parte superior de la pared, por todo el borde, para terminaciones horizontales y bajo las ventanas. Mide 3,8m de largo.
+        text: Se instala en la parte superior de la pared, por todo el borde, para
+          terminaciones horizontales y bajo las ventanas. Mide 3,8m de largo.
         image: /images/products/iso-siding/profiles/perfil-4.jpg
       - title: Esquinero interior
-        text: Se instala en sentido vertical en todas las esquinas interiores de la fachada. Mide 3,0m de largo.
+        text: Se instala en sentido vertical en todas las esquinas interiores de la
+          fachada. Mide 3,0m de largo.
         image: /images/products/iso-siding/profiles/perfil-5.jpg
       - title: Perfil H para Siding
-        text: Se instala en diagonal del bajo alero, en las uniones de siding vertical y en cualquier encuentro plano.
+        text: Se instala en diagonal del bajo alero, en las uniones de siding vertical y
+          en cualquier encuentro plano.
         image: /images/products/iso-siding/profiles/perfil-6.jpg
       - title: Perfil Americano
         image: /images/products/iso-siding/profiles/perfil-9.jpg
+        text: _
       - title: Perfil lateral
         text: Se instala en los laterales del vano.
         image: /images/products/iso-siding/profiles/perfil-8.jpg
@@ -131,41 +142,52 @@ page:
     enableTypologiesSection: true
     typologiesList:
       - image: /images/products/iso-siding/mamposteria.png
-        title: Aislá con Isolant en **Mampostería**  
+        title: Aislá con Isolant en **Mampostería**
         text: >-
-          **¿Sabías que podés combinar nuestros aislantes con Iso Siding para lograr mejor aislación térmica con la mejor terminación estética?**
+          **¿Sabías que podés combinar nuestros aislantes con Iso Siding para
+          lograr mejor aislación térmica con la mejor terminación estética?**
 
 
           Combiná Iso Siding con [Súper TBA](/aislantes/super-tba) para aumentar la aislación de mampostería.
       - image: /images/products/iso-siding/steel-framing.png
-        title: Aislá con Isolant en **Steel Framing**  
+        title: Aislá con Isolant en **Steel Framing**
         text: >-
-          Iso Siding es un revestimiento de PVC muy versátil, en construcciones de Steel Frame se posiciona como el revestimiento ideal por su bajo mantenimiento, simpleza en su instalación y durabilidad.
+          Iso Siding es un revestimiento de PVC muy versátil, en construcciones
+          de Steel Frame se posiciona como el revestimiento ideal por su bajo
+          mantenimiento, simpleza en su instalación y durabilidad.
 
-          
+
           Combiná Iso Siding con [Súper TBA](/aislantes/super-tba) para mejorar el aislamiento de tu tabique.
-
   - type: maintenance
     enableMaintenanceSection: true
     maintenanceImage: /images/products/iso-siding/mantenimiento.jpg
     maintenanceTitle: Mantenimiento **y cuidados**
     maintenanceText: >-
-      Diariamente el revestimiento de nuestra casa está sometido al polvo, suciedad y smog que circula en el ambiente, por ende, es inevitable que se ensucie, al igual que cualquier cosa expuesta al exterior. Iso Siding al estar fabricado en PVC es de fácil mantención, se puede limpiar de manera sencilla, con una manguera para jardín; sin embargo a veces esto no es suficiente, para evitar acumulación de suciedad, sobre todo en zonas urbanas.
-      
-      
+      Diariamente el revestimiento de nuestra casa está sometido al polvo,
+      suciedad y smog que circula en el ambiente, por ende, es inevitable que se
+      ensucie, al igual que cualquier cosa expuesta al exterior. Iso Siding al
+      estar fabricado en PVC es de fácil mantención, se puede limpiar de manera
+      sencilla, con una manguera para jardín; sin embargo a veces esto no es
+      suficiente, para evitar acumulación de suciedad, sobre todo en zonas
+      urbanas.
+
+
       Si el lavado simple con manguera no realizan la limpieza deseada, utilizar cepillo e hidro lavadora.
-    
-    maintenanceCTALink: "https://www.youtube.com"
+    maintenanceCTALink: https://www.youtube.com
     maintenanceCTAText: Ver video explicativo
     cleaningSteps:
       - image: /images/products/iso-siding/cleaning/step-1.jpg
-        text: Moje el revestimiento con una manguera o hidrolavadora. Con esto soltaremos un poco el polvo superficial.
+        text: Moje el revestimiento con una manguera o hidrolavadora. Con esto
+          soltaremos un poco el polvo superficial.
       - image: /images/products/iso-siding/cleaning/step-2.jpg
-        text: Aplique detergente, jabón o cloro según el nivel de suciedad sobre el revestimiento. Ayúdese con un trapo o esponja.
+        text: Aplique detergente, jabón o cloro según el nivel de suciedad sobre el
+          revestimiento. Ayúdese con un trapo o esponja.
       - image: /images/products/iso-siding/cleaning/step-3.jpg
-        text: Para eliminar los residuos que queden en uniones y rincones, utilice un escobillón de cerdas suaves y repase la limpieza.
+        text: Para eliminar los residuos que queden en uniones y rincones, utilice un
+          escobillón de cerdas suaves y repase la limpieza.
       - image: /images/products/iso-siding/cleaning/step-4.jpg
-        text: Moje el revestimiento por última vez, cuidando de retirar todos los residuos de suciedad y detergente que queden aún.
+        text: Moje el revestimiento por última vez, cuidando de retirar todos los
+          residuos de suciedad y detergente que queden aún.
   - type: downloads
     enableDownloadsSection: true
     downloadsTitle: "**Área Técnica**"
@@ -179,12 +201,12 @@ page:
     tutorials:
       - image: /images/products/iso-siding/tutorials/tutorial-1.jpg
         title: Colocación Siding Americano
-        text: Aprendé a colocar ISO siding Americano en dos simples pasos en este video.
+        text: Aprendé a colocar Iso siding Americano en dos simples pasos en este video.
         ctaText: Ver video
-        ctaLink: https://www.youtube.com/watch?v=ilJ7J9IAJYY
+        ctaLink: https://youtu.be/9BZi8M2s8ZM
       - image: /images/products/iso-siding/tutorials/tutorial-2.jpg
         title: Sustentabilidad
-        text: Descubrí por qué ISO siding es un revestimiento amigable y ecológico.
+        text: Descubrí por qué Iso siding es un revestimiento amigable y ecológico.
         ctaText: Ver video
         ctaLink: https://www.youtube.com/watch?v=zzv8g6HStX4
       - image: /images/products/iso-siding/tutorials/tutorial-3.jpg
@@ -195,14 +217,13 @@ page:
         ctaLink: https://www.youtube.com/watch?v=yd78SSABl7Y
       - image: /images/products/iso-siding/tutorials/tutorial-4.jpg
         title: Colocación Siding Nórdico
-        text: Aprendé a colocar ISO siding Nórdico en cinco simples pasos a través de
+        text: Aprendé a colocar Iso siding Nórdico en cinco simples pasos a través de
           este instructivo.
         ctaText: Ver video
-        ctaLink: https://www.youtube.com/watch?v=ilJ7J9IAJYY
+        ctaLink: https://youtu.be/RzMFlSBoLXs
   - type: relatedProducts
     enableRelatedProductsSection: true
-    relatedProductsTitle: |-
-      Productos **Construcción en seco**
+    relatedProductsTitle: Productos **Construcción en seco**
     relatedProducts:
       - Super TBA
       - Ondusec 25
