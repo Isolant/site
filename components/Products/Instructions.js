@@ -35,7 +35,8 @@ export default function Instructions({
 
   const fetchPixelColor = async (imageUrl) => {
     const color = await getPixelColor(imageUrl, 0, 0);
-    return color;
+
+    return updateFontColor(color, fontColor);
   }
 
   const updateFontColor = (color1, color2) => {
@@ -51,9 +52,8 @@ export default function Instructions({
   }
 
   // Get pixel color from the backgroundImage, and update the font color based on that
-  useEffect(async () => {
-    const color = await fetchPixelColor(backgroundImage || "/images/globals/isolant-aislantes-fondo-lineas-oscuras.jpg");
-    updateFontColor(color, fontColor);
+  useEffect(() => {
+    fetchPixelColor(backgroundImage || "/images/globals/isolant-aislantes-fondo-lineas-oscuras.jpg");
   }, []);
 
   return (
