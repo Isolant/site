@@ -6,7 +6,6 @@ color: "#0F70B7"
 mainImage: /images/product-lines/vivienda.jpg
 products:
   - Super TBA
-  - Alu Fusión NET
   - TBA Multicapa
   - Atacama
   - Cedro NET
