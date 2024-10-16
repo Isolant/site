@@ -67,9 +67,9 @@ export default function TechnicalInformation({
                   isFormBtn={true}
                   classes={`
                     ${activeInformation === 'technical' ? 
-                      'border-gray-600 text-gray-900 hover:opacity-60'
+                      'border border-gray-600 text-gray-900 hover:opacity-60'
                         :
-                      'border-gray-200 text-gray-400 hover:opacity-80'
+                      'border border-gray-200 text-gray-400 hover:opacity-80'
                     }
                   `}
                   action={() => setActiveInformation('technical')}
@@ -84,9 +84,9 @@ export default function TechnicalInformation({
                   isFormBtn={true}
                   classes={`
                     ${activeInformation === 'general' ? 
-                      'border-gray-600 text-gray-900 hover:opacity-60'
+                      'border border-gray-600 text-gray-900 hover:opacity-60'
                         :
-                      'border-gray-200 text-gray-400 hover:opacity-80'
+                      'border border-gray-200 text-gray-400 hover:opacity-80'
                     }
                   `}
                   action={() => setActiveInformation('general')}
