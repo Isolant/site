@@ -12,7 +12,6 @@ export default function Button({ href, text, color, isExternal, isFormBtn, margi
   const dontPurgeThese = [
     "bg-primary", 'bg-secondary', 'bg-white', "text-gray-700", "text-white"
   ];
-  console.log(!classes.includes('border'))
   
   const buttonClases = `
     inline-flex items-center uppercase text-sm justify-center tracking-wider
@@ -20,8 +19,8 @@ export default function Button({ href, text, color, isExternal, isFormBtn, margi
     bg-${color}
     ${classes}
     ${margin}
-    ${color === 'white' ? 'text-gray-700 hover:opacity-90' : !classes.includes('border') ? 'text-white' : ''}
-    ${color === 'transparent' && !classes.includes('border') ? 'border border-white' : ''}
+    ${color === 'white' ? 'text-gray-700 hover:opacity-90' : classes && !classes.includes('border') ? 'text-white' : ''}
+    ${color === 'transparent' && classes && !classes.includes('border') ? 'border border-white' : ''}
     ${color === 'gray' ? 'border border-gray-400 text-gray-600 hover:opacity-60' : ''}
     ${color === 'primary' ? 'hover:bg-secondary group-hover:bg-secondary group-hover:text-white hover:text-white' : color === 'secondary' ? 'hover:bg-primary group-hover:bg-primary group-hover:text-white hover:text-white' : 'hover:bg-white hover:text-gray-700 group-hover:bg-white group-hover:text-gray-700'}
   `;
