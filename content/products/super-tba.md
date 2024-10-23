@@ -8,7 +8,7 @@ description: >-
   Gracias a su medida única en el mercado de 1,25m x 15m, un rollo cubre más superficie, reduciendo los tiempos de obra y uniones en altura.
 globals:
   order: 1
-  productImage: images/super-tba-2-.png
+  productImage: images/super-tba_low-2-.png
   ecommerceLink: https://tienda.isolant.com.ar/tienda/88-super-tba.html
 page:
   - type: hero
