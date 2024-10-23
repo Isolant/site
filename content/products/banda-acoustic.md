@@ -8,7 +8,7 @@ description: >-
   **Banda Acoustic** es el producto ideal para desanclar acústicamente la estructura metálica de construcción en seco de las losas y muros de su obra, logrando así reducir los ruidos generados por vibración (de impacto). Al estar adhesivada y no tener desmoldante es el producto más práctico del mercado para aislar montantes y soleras.
 globals:
   order: 5
-  productImage: images/banda-acoustic-4-.png
+  productImage: images/banda_acoustic_low-2-.png
   productImageProportion: square
   logo: /images/products/banda-acoustic/isolant-aislantes-linea-construccion-en-seco-banda-acoustic-logo.webp
   ecommerceLink: https://tienda.isolant.com.ar/construccion-en-seco/80-banda-acoustic-100mm.html
