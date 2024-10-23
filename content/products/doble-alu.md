@@ -1,13 +1,14 @@
 ---
 name: Doble Alu
 description: >-
-  **Aislante térmico e impermeable para galpones y tinglados. ¡Solape para termo soldar patentado!**
-  
-  
+  **Aislante térmico e impermeable para galpones y tinglados. ¡Solape para termo
+  soldar patentado!**
+
+
   Aíslan térmicamente tu galpón, tinglado y estructura metálica, evitando el fenómeno de la condensación. Se caracterizan por su fácil instalación y manipuleo, tratándose de un material liviano que no desprende partículas.
 globals:
   order: 5
-  productImage: /images/products/doble-alu/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-producto-rollo.png
+  productImage: images/doble_alu_low-2-.png
   ecommerceLink: https://tienda.isolant.com.ar/galpones-y-tinglados/58-doble-alu-15.html
 page:
   - type: hero
@@ -40,7 +41,14 @@ page:
   - type: benefits
     enableBenefitsSection: true
     benefitsTitle: Sistema de unión por **termosoldado patentado**
-    benefitsText: El termosoldado es la forma más efectiva y limpia de efectuar la unión nuetras membranas. Es además un sistema patentado por <strong>ISOLANT S.A.</strong> que evita el uso de cintas o adhesivos de cualquier tipo, facilitando así la colocación y brindando una terminación estética superior. Termosoldando <strong>DOBLE ALU</strong>, se logra una membrana aislante continua en toda su extensión, eliminando la posibilidad de filtraciones, puentes térmicos y goteo por condensación. Para realizar esta unión sólo se necesita una pistola de aire caliente.
+    benefitsText: El termosoldado es la forma más efectiva y limpia de efectuar la
+      unión nuetras membranas. Es además un sistema patentado por
+      <strong>ISOLANT S.A.</strong> que evita el uso de cintas o adhesivos de
+      cualquier tipo, facilitando así la colocación y brindando una terminación
+      estética superior. Termosoldando <strong>DOBLE ALU</strong>, se logra una
+      membrana aislante continua en toda su extensión, eliminando la posibilidad
+      de filtraciones, puentes térmicos y goteo por condensación. Para realizar
+      esta unión sólo se necesita una pistola de aire caliente.
     benefitsImage: /images/products/doble-alu/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-beneficio-exclusivo.jpg
     benefitsList:
       - text: Termosoldables.
@@ -54,7 +62,8 @@ page:
     pdfInstruction: /images/downloads/colocacion-galpones-y-tinglados.pdf
     instructions:
       - Galpones y tinglados metálicos nuevos
-      - Galpones y tinglados metálicos existentes, como cielorraso copiando la forma
+      - Galpones y tinglados metálicos existentes, como cielorraso copiando la
+        forma
       - Galpones y tinglados metálicos existentes, como cielorraso recto
   - type: technicalInformation
     enableTechnicalInformation: true
@@ -73,14 +82,16 @@ page:
       - title: Material de muy baja propagación de llama
       - title: Evitan los puentes térmicos
       - title: No contaminan el medio ambiente; no contienen freón
-      - title: No colocar en aleros, galerías o galpones sin muros perimetrales que protejan de la reflexión indirecta de los rayos UV
+      - title: No colocar en aleros, galerías o galpones sin muros perimetrales que
+          protejan de la reflexión indirecta de los rayos UV
     technicalInformationList:
       - title: Resistencia térmica
         text: 0.23 m².K/w
       - title: Propagación de llama
         text: Clase RE2 MUY BAJA PROPAGACIÓN DE LLAMA. Aprobada por Bomberos Argentina.
       - title: Densidad de humos
-        text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases envenenantes.
+        text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases
+          envenenantes.
       - title: Estructura de celda
         text: Cerrada
       - title: Espesor
@@ -107,12 +118,13 @@ page:
         text: No hay agrietamiento (ASTM D 1171)
       - title: Permeabilidad a los rayos de luz
         text: 52-63% (Espectro fotómetro)
-  - type: downloads  
+  - type: downloads
     downloadsTitle: Área de **descargas**
     downloads:
       - Catálogo de Industria
       - ¿Qué tipo de techo querés aislar?
       - Tríptico Industria/Vivienda
+    enableDownloadsSection: true
   - type: colocation
     enableColocationSection: true
     colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
