@@ -8,7 +8,7 @@ description: >-
   **TBA MULTICAPA** está conformada por un innovador sistema de 5 capas que ofrecen mayor aislación térmica, triple aislación hidrófuga y mayor resistencia, para techos de viviendas.
 globals:
   order: 3
-  productImage: images/tba-multicapa-2-.png
+  productImage: images/tba-multicapa_low-2-.png
   logo: /images/products/tba-multicapa/isolant-aislantes-linea-vivienda-tba-multicapa-logo.svg
   ecommerceLink: https://tienda.isolant.com.ar/vivienda/68-multicapa.html
 page:
