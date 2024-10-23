@@ -10,7 +10,7 @@ description: Isolant **CEDRO NET** es el único aislante del mercado con
   correcta colocación.
 globals:
   order: 5
-  productImage: images/cedronet-2-.png
+  productImage: images/cedronet_low-2-.png
   logo: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-logo.jpg
   ecommerceLink: https://tienda.isolant.com.ar/vivienda/65-cedro-10-net.html
 page:
