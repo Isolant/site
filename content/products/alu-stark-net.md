@@ -11,7 +11,7 @@ description: >-
   ALU STARK es el único aislante del mercado con terminación blanca de alta resistencia que permite darle a tu estructura metálica una estética superior, además de aislarlos térmicamente. Ideal para supermercados, concesionarias de autos, etc.
 globals:
   order: 1
-  productImage: images/alu-stark-net-2-.png
+  productImage: images/alu_stark_net_low-2-.png
   logo: /images/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-logo.png
   ecommerceLink: https://tienda.isolant.com.ar/galpones-y-tinglados/54-alu-stark-10-net.html
 page:
