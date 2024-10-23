@@ -12,6 +12,7 @@ globals:
   order: 7
   productImage: images/rufi-aluminizado-10_low-2-.png
   ecommerceLink: ""
+  logo: images/rufi-degrade.png
 page:
   - type: hero
     heroImage:
