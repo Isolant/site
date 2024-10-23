@@ -7,7 +7,7 @@ description: >-
   Fácil instalación gracias a que es un material liviano y resistente al manipuleo en obra. No desprende partículas de ningún tipo. La espuma color blanca favorece a la terminación estética de la cara que queda a la vista.
 globals:
   order: 4
-  productImage: images/alu-stark-2-.png
+  productImage: images/alu_stark_low-2-.png
   ecommerceLink: https://tienda.isolant.com.ar/galpones-y-tinglados/63-alu-stark-10.html
 page:
   - type: hero
