@@ -1,17 +1,18 @@
 ---
 name: Doble Alu NET
 description: >-
-  **Aislante con red incorporada para galpones y tinglados. ¡Ahorra hasta un 40% de la mano de obra!**
-  
-  
+  **Aislante con red incorporada para galpones y tinglados. ¡Ahorra hasta un 40%
+  de la mano de obra!**
+
+
   Al ser un aislante 2 en 1, se ahorra del 20% al 40% de tiempo de colocación en obra, lo cual representa hasta un 50% del costo de la DOBLE ALU NET. Como no hace falta colocar una malla de sostén, se reducen a la mitad los accidentes por riesgo de colocación, ya que se trabaja sobre la chapa.
-  
-  
+
+
   Al tener una estabilidad dimensional superior, también brinda una terminación plana y estética superior y no hace falta tensarla al momento de colocarla. 
 globals:
   order: 3
   highlighted: true
-  productImage: /images/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-producto-rollo.webp
+  productImage: images/doble_alu_low-2-1-.png
   ecommerceLink: https://tienda.isolant.com.ar/galpones-y-tinglados/56-doble-alu-15-net.html
   logo: /images/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-logo.png
 page:
@@ -43,10 +44,13 @@ page:
       - text: "Espesor: 10 y 15mm."
     detailsImage: /images/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-imagen-detalle.jpg
   - type: benefits
-    # patentImage: /images/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-patente.png
     enableBenefitsSection: true
     benefitsTitle: Producto con **red incorporada**
-    benefitsText: Gracias a la red incorporada en la masa del aislante, nuestros productos NET son los de más rápida y fácil instalación del mercado. Ahorran del 20% al 40% de mano de obra, lo cual impacta directamente en los tiempos y costos de la misma. Al ser DOS productos en UNO, brinda una resistencia mecánica premium, una terminación plana y estética superior.
+    benefitsText: Gracias a la red incorporada en la masa del aislante, nuestros
+      productos NET son los de más rápida y fácil instalación del mercado.
+      Ahorran del 20% al 40% de mano de obra, lo cual impacta directamente en
+      los tiempos y costos de la misma. Al ser DOS productos en UNO, brinda una
+      resistencia mecánica premium, una terminación plana y estética superior.
     benefitsImage: /images/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-beneficio-exclusivo.jpg
     benefitsList:
       - text: Alta resistencia al rasgado.
@@ -59,7 +63,8 @@ page:
     enableInstructions: true
     instructions:
       - Doble Alu NET
-      - Galpones y tinglados metálicos existentes, como cielorraso copiando la forma
+      - Galpones y tinglados metálicos existentes, como cielorraso copiando la
+        forma
       - Galpones y tinglados metálicos existentes, como cielorraso recto
   - type: technicalInformation
     enableTechnicalInformation: true
@@ -78,7 +83,8 @@ page:
       - title: Evitan los puentes térmicos
       - title: Son reciclables
       - title: No contaminan el medio ambiente; no contienen freón
-      - title: No colocar en aleros, galerías o galpones sin muros perimetrales que protejan de la reflexión indirecta de los rayos UV
+      - title: No colocar en aleros, galerías o galpones sin muros perimetrales que
+          protejan de la reflexión indirecta de los rayos UV
     technicalInformationList:
       - title: Resistencia térmica (Doble Alu 10 NET)
         text: 1.91 m² * C / W
@@ -87,7 +93,8 @@ page:
       - title: Propagación de llama
         text: Clase RE2 MUY BAJA PROPAGACIÓN DE LLAMA. Aprobada por Bomberos Argentina.
       - title: Densidad de humos
-        text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases envenenantes.
+        text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases
+          envenenantes.
       - title: Estructura de celda
         text: Cerrada
       - title: Espesor
