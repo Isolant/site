@@ -2,22 +2,17 @@
 name: Imperfoil
 description: >-
   **Membrana barrera de agua y barrera de vientos para steel framing.**
-  
-  
-  **Imperfoil** es una innovadora
-  subcobertura bicapa, fabricada a base de materiales altamente resistentes que
-  lo hacen ideal para proteger sus paredes y techos de filtraciones y humedad.
-  En este tipo de sistemas, Imperfoil funciona como una excelente barrera
-  hidrófuga y barrera de viento.
+
+
+  **Imperfoil** es una innovadora subcobertura bicapa, fabricada a base de materiales altamente resistentes que lo hacen ideal para proteger sus paredes y techos de filtraciones y humedad. En este tipo de sistemas, Imperfoil funciona como una excelente barrera hidrófuga y barrera de viento.
 globals:
   order: 8
   highlighted: false
-  productImage: /images/products/imperfoil/Imperfoil_Rollo_btvcye.png
+  productImage: images/imperfoil-rollo.png
   logo: /images/products/imperfoil/Logo_Imperfoil_csmfxh.png
 page:
   - type: hero
-    slogan: Cubrí tu estructura con **la mejor barrera hidrófuga y barrera de
-      vientos**
+    slogan: Cubrí tu estructura con **la mejor barrera hidrófuga y barrera de vientos**
     heroImage:
       - selectedOption: image
         mainImageBackgroundPosition: top
@@ -44,11 +39,11 @@ page:
     enableBenefitsSection: true
     benefitsTitle: Cuadrícula **para replanteo**
     benefitsText: <strong>Imperfoil</strong> presenta una cuadrícula impresa en su
-      cara superior, haciendo de su colocación y replanteo en tabiques y techos de
-      steel framing y balloon framing, mucho más fácil y ágil.<br /><br />Además
-      gracias a su tramado y composición bicapa, <strong>Imperfoil</strong> es un
-      material con alta resistencia al rasgado, provocado por vientos de altas
-      velocidades y manipuleos en obra.
+      cara superior, haciendo de su colocación y replanteo en tabiques y techos
+      de steel framing y balloon framing, mucho más fácil y ágil.<br /><br
+      />Además gracias a su tramado y composición bicapa,
+      <strong>Imperfoil</strong> es un material con alta resistencia al rasgado,
+      provocado por vientos de altas velocidades y manipuleos en obra.
     benefitsList:
       - text: "Material sano: No desprende partículas."
       - text: Reduce los costos.
