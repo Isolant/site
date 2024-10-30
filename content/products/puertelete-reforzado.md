@@ -2,12 +2,12 @@
 name: Puertelete Reforzado
 description: >-
   Aislate de los chifletes por infiltraciones debajo de puertas.
-  
-  
+
+
   No necesita ser fijado con clavos ni tornillos. Cortá tu puertelete (podés usar una trincheta) midiendo el ancho de la puerta, apoyalo en el piso, frente al filo de la puerta, y desplazalo hasta que cubra la totalidad de la puerta.
 globals:
   order: 5
-  productImage: /images/products/puertelete/Puertelete_Reforzado_2_gcoeao.jpg
+  productImage: images/puertelete-reforzado.png
 page:
   - type: hero
     slogan: Decile chau **al chiflete**
@@ -41,8 +41,8 @@ page:
     benefitsTitle: Muy fácil **instalación**
     benefitsText: Puertelete no necesita ser fijado con clavos ni tornillos. Cortá
       tu puertelete (podés usar una trincheta) midiendo el ancho de la puerta,
-      apoyalo en el piso, frente al filo de la puerta, y desplazalo hasta que cubra
-      la totalidad de la puerta.
+      apoyalo en el piso, frente al filo de la puerta, y desplazalo hasta que
+      cubra la totalidad de la puerta.
     benefitsList:
       - text: "Material sano: No desprende partículas."
       - text: Reciclable. No contamina el medio ambiente.
@@ -118,7 +118,7 @@ page:
   - type: colocation
     enableColocationSection: false
     colocationImage: /images/products/puertelete/Puertelete_Reforzado_2_oha4wu.jpg
-    colocationTitle: " "
+    colocationTitle: ""
     colocationCtaLink: " "
     colocationCtaText: " "
     technicalAssessorCtaLink: " "
