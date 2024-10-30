@@ -11,7 +11,7 @@ description: >-
   **Covering®** evita filtraciones de calor ahorrando energía para calefaccionar y/o refrigerar su casa.
 globals:
   order: 3
-  productImage: images/covering-5-.png
+  productImage: images/covering_low-2-.png
   logo: /images/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-logo.jpg
 page:
   - type: hero
