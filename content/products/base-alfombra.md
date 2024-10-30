@@ -9,7 +9,7 @@ description: Nuestro **Base Alfombra** brinda mayor mullidez logrando un mayor
   plana y estética sin "globos".
 globals:
   order: 4
-  productImage: images/base-para-alformbras-2-.png
+  productImage: images/bajo_alfombra_low-2-.png
   ecommerceLink: https://tienda.isolant.com.ar/pisos/49-base-alfombra.html
 page:
   - type: hero
