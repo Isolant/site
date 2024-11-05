@@ -1,7 +1,7 @@
 ---
 name: Atacama
 description: >-
-  Es un aislante térmico líquido de muy fácil aplicación. Ideal para bajar la
+  Es un aislante solar líquido de muy fácil aplicación. Ideal para bajar la
   temperatura interna de viviendas, galpones, quinchos y todo tipo de obra,
   especialmente en zonas cálidas y de altas temperaturas.
 
@@ -10,8 +10,8 @@ description: >-
 globals:
   order: 2
   highlighted: true
-  productImage: images/atacama-balde-frente_low.png
-  logo: /images/products/atacama/logo.png
+  productImage: images/atacama-nuevo.png
+  logo: images/logo-atacama_-aislante-solar.png
   ecommerceLink: https://tienda.isolant.com.ar/vivienda/82-atacama-balde-20lt.html
   slogan: Bajá la temperatura interior de tu casa **entre 6 y 8 grados**
   productImageProportion: vertical
@@ -37,7 +37,7 @@ page:
     type: hero
     enableHero: true
     ctaText: Más información
-    slogan: Escudo solar **Atacama**
+    slogan: Aislante Solar **Atacama**
   - type: attributes
     enableAttributesSection: true
     attributesTitle: Atributos
