@@ -1,7 +1,7 @@
 ---
 title: Ludico
 description: ""
-order: 10
+order: 8
 color: "#971f83"
 mainImage: images/diseño-sin-título-2-.png
 products:
@@ -9,6 +9,7 @@ products:
   - Láminas Soft
   - Briki Playset
   - Piramide Soft
-  - Conectores de flotador
   - Barrenador
+  - Encastrables Soft
+  - Conectores de flotador
 ---
