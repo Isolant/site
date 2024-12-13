@@ -9,4 +9,5 @@ products:
   - Láminas Soft
   - Briki Playset
   - Piramide Soft
+  - Conectores de flotador
 ---
