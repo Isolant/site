@@ -7,5 +7,6 @@ mainImage: images/diseño-sin-título-2-.png
 products:
   - Piso Encastrable Soft
   - Láminas Soft
-  - "- Briki Playset"
+  - Briki Playset
+  - Piramide Soft
 ---
