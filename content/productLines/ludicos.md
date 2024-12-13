@@ -1,7 +1,7 @@
 ---
 title: Ludicos
 description: ""
-order: 8
+order: 10
 color: "#971f83"
 mainImage: images/diseño-sin-título-2-.png
 products:
