@@ -1,6 +1,6 @@
 ---
 title: Productos Accesorios
-visible: false
+visible: true
 subcategories:
   - Productos Accesorios
 ---
