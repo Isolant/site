@@ -1,5 +1,5 @@
 ---
-name: "- Briki Playset"
+name: Briki Playset
 globals:
   highlighted: false
   hidden: false
