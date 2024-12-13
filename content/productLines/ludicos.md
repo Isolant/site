@@ -10,4 +10,5 @@ products:
   - Briki Playset
   - Piramide Soft
   - Conectores de flotador
+  - Barrenador
 ---
