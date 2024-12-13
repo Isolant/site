@@ -1,5 +1,5 @@
 ---
-title: Accesorios
+title: Productos Accesorios
 products:
   - Termo solar
   - Sellatutti
