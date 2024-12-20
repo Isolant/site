@@ -9,4 +9,5 @@ products:
   - Puertelete
   - Puertelete Reforzado
   - Termo solar
+  - Termotanque Solar IS100
 ---
