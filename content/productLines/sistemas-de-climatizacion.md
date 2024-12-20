@@ -2,8 +2,8 @@
 title: Sistemas de Climatización
 description: Soluciones integrales para los sistemas de climatización de tu obra
 order: 5
+color: "#F38121"
 mainImage: /images/product-lines/climatizacion.jpg
-color: '#F38121'
 products:
   - Atacama
   - Espuma
@@ -13,4 +13,5 @@ products:
   - Tubos
   - Tubos con Aluminio
   - Isocaño
+  - Termotanque Solar IS100
 ---
