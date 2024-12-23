@@ -1,10 +1,10 @@
 ---
 icon: /images/downloads/file.svg
 title: Volante Super TBA
-showOnMainPage: true
 format: "Formato: PDF/ZIP"
-pdf: /images/downloads/volante_super_tba.ai
-zip: /images/downloads/volante_super_tba_zip.zip
+showOnMainPage: true
+pdf: /images/uploads/downloads/supertba-20x20-volante-colocacion-1-.pdf
+zip: /images/uploads/downloads/supertba-20x20-volante-colocacion-1-.pdf
 productLines:
   - Vivienda
   - Construcción en seco
