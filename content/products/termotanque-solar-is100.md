@@ -91,6 +91,6 @@ page:
   - type: colocation
     enableColocationSection: false
   - type: cta
-    ctaImage: /images/products/termo-solar/isolant-aislantes-linea-otros-usos-termo-solar-imagen-cta.jpg
+    ctaImage: images/n100s-perfil-derecho-sin-logo-recuperado.png
     enableCtaSection: true
 ---
