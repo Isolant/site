@@ -10,4 +10,6 @@ products:
   - Puertelete Reforzado
   - Termo solar
   - Termotanque Solar IS100
+  - Membrana Liquida
+  - Manta GeoTextil IS75
 ---
