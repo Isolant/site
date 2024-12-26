@@ -55,7 +55,7 @@ export default function Product({ allProductsData, productData, instructionsData
       isExternal: false,
     },
   ];
-  const sloganContainer = productData.page.filter(section => section.type === 'hero' ? section.slogan : '');
+  const sloganContainer = productData.page?.filter(section => section.type === 'hero' ? section.slogan : '');
 
   return (
     <Base
@@ -67,7 +67,7 @@ export default function Product({ allProductsData, productData, instructionsData
       productLines={productLinesData}
     >
       {/* Loop through the sections and add the correct component */}
-      {productData.page.map((section, index) => {
+      {productData.page?.map((section, index) => {
         let markup = [];
         switch(section.type) {
           // Select which hero we'll render
@@ -403,9 +403,9 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const productData = getCollectionById("products", params.id);
-  const downloadsSection = productData.page.find(product => product.type === 'downloads') || null;
-  const instructionsSection = productData.page.find(product => product.type === 'instructions') || null;
-  const subProductsSection = productData.page.find(product => product.type === 'subproducts') || null;
+  const downloadsSection = productData.page?.find(product => product.type === 'downloads') || null;
+  const instructionsSection = productData.page?.find(product => product.type === 'instructions') || null;
+  const subProductsSection = productData.page?.find(product => product.type === 'subproducts') || null;
   const instructionsData = instructionsSection && instructionsSection.instructions !== undefined ? instructionsSection.instructions.map(product => getCollectionById("instructions", slugify(product))): null;
   const subProductsData = subProductsSection && subProductsSection.subproducts !== undefined ? subProductsSection.subproducts.map(subproduct => getCollectionById("subproducts", slugify(subproduct))) : null;
   const downloadsData = downloadsSection && downloadsSection.downloads !== undefined && downloadsSection.downloads.map(download => getCollectionById("downloads", slugify(download)));
