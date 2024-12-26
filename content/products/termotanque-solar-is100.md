@@ -81,7 +81,9 @@ page:
   - type: technicalInformation
     enableTechnicalInformation: false
   - type: downloads
-    enableDownloadsSection: false
+    enableDownloadsSection: true
+    downloads:
+      - Colocación Termotanque Solar IS100
   - type: colocation
     enableColocationSection: false
   - type: cta
