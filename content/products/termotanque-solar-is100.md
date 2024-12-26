@@ -70,6 +70,10 @@ page:
           instalaciones comunes."
       - text: "Libre de mantenimiento: No requiere mantenimiento preventivo ni
           instalación de válvulas mezcladoras."
+      - text: IS100 no apto para instalaciones presurizadas. Modelo presurizadle hasta
+          bombas de 200 Watts, son a pedido. Consultar por formatos de
+          instalación presurizando la instalación de agua caliente a la salida
+          del calentador Isolant IS100.
     detailsImage: images/n100s-perfil-izquierdo-sin-logo.png
   - type: benefits
     enableBenefitsSection: false
