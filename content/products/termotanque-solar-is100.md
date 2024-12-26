@@ -88,5 +88,5 @@ page:
     enableColocationSection: false
   - type: cta
     ctaImage: images/n100s-perfil-derecho-sin-logo-recuperado.png
-    enableCtaSection: true
+    enableCtaSection: false
 ---
