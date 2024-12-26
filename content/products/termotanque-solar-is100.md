@@ -70,7 +70,7 @@ page:
           instalaciones comunes."
       - text: "Libre de mantenimiento: No requiere mantenimiento preventivo ni
           instalación de válvulas mezcladoras."
-    detailsImage: images/n100s-perfil-izquierdo-logo-isolant.png
+    detailsImage: images/n100s-perfil-izquierdo-sin-logo.png
   - type: benefits
     enableBenefitsSection: false
   - type: video
