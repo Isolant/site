@@ -2,7 +2,7 @@
 pageTitle: Inicio
 sliderEnabled: true
 heroSlider:
-  - image: /images/expertos-1-.png
+  - image: images/expertos-en-aislación-institucional.jpg
     ctaLink: /productos
   - image: /images/homepage/slider/slide-2.jpg
     ctaLink: /sustentabilidad
@@ -94,5 +94,5 @@ contactFormText: Contanos las características principales de tu obra para que
 instagramSlider:
   - image: /images/ig-30-anos_low.jpg
   - image: /images/ig-sustenta_low.jpg
-  - image: /images/¿tu-casa-es-un-horno-en-verano-1-.png
+  - image: images/ig-atacama.jpg
 ---
