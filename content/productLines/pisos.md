@@ -8,4 +8,5 @@ products:
   - Bajo Piso PVC / SPC Densus
   - Contrapiso Acoustic
   - Base Alfombra
+  - "Kummi "
 ---
