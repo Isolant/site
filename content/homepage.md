@@ -2,7 +2,7 @@
 pageTitle: Inicio
 sliderEnabled: true
 heroSlider:
-  - image: images/expertos-en-aislación-institucional.jpg
+  - image: images/portada-1600x900-8.jpg
     ctaLink: /productos
   - image: /images/homepage/slider/slide-2.jpg
     ctaLink: /sustentabilidad
