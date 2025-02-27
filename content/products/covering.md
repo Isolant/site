@@ -37,7 +37,7 @@ page:
     application:
       - text: En paredes y techos como aislante hidrófugo y barrera de viento.
     presentation:
-      - text: 30m2 (1,40m x 21,42m)
+      - text: 30m2 (1,50m x 20m)
     detailsImage: /images/products/covering/isolant-aislantes-linea-construccion-en-seco-covering-imagen-detalle.jpg
   - type: benefits
     enableBenefitsSection: true
