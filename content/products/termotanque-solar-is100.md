@@ -1,7 +1,7 @@
 ---
 name: Termotanque Solar IS100
-description: "**Un termotanque solar que está diseñado para calentar agua
-  utilizando la energía del sol como fuente principal.**"
+description: TERMOTANQUE SOLAR IS100, FÁCIL Y DURAREDO. Podes instarlo vos
+  mismo, gracias a su diseño de una sola pieza.
 globals:
   order: ""
   productImage: images/n100s-perfil-derecho-con-logo.png
