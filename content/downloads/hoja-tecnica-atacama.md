@@ -1,6 +1,6 @@
 ---
 icon: /images/downloads/file.svg
-title: Hoja técnica
+title: Hoja técnica Atacama
 format: "Formato: PDF/ZIP"
 showOnMainPage: false
 zip: /images/uploads/downloads/isolant-atacama-hoja-técnica.pdf
