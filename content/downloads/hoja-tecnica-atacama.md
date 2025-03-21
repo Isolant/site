@@ -1,11 +1,11 @@
 ---
-format: "Formato: PDF/ZIP"
+icon: /images/downloads/file.svg
 title: Hoja técnica
+format: "Formato: PDF/ZIP"
 showOnMainPage: false
+zip: /images/uploads/downloads/isolant-atacama-hoja-técnica.pdf
 productLines:
   - Vivienda
 type: Ensayos técnicos
-pdf: /images/downloads/atacama-hoja-tecnica.pdf
-zip: /images/downloads/atacama-hoja-tecnica_zip.zip
-icon: /images/downloads/file.svg
+pdf: /images/uploads/downloads/isolant-atacama-hoja-técnica.pdf
 ---
