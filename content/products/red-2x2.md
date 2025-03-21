@@ -2,8 +2,8 @@
 name: Red 2x2
 description: >-
   **Malla sostén de alta resistencia para cualquier tipo de aislante.**
-  
-  
+
+
   La RED 2x2 está diseñada especialmente para el sostén de aislantes y le garantiza una colocación más rápida, 100% segura y con una terminación estética superior.
 globals:
   order: 8
@@ -40,7 +40,10 @@ page:
   - type: benefits
     enableBenefitsSection: true
     benefitsTitle: Resistencia por **biorientado**
-    benefitsText: Gracias a su tecnología de fabricación de pretensado y biorentado, la <strong>RED 2x2 Isolant</strong> presenta una alta resistencia a la deformación por esfuerzos de dilatación y contracción de la estructura, logrando techos más planos y de una estética superior.
+    benefitsText: Gracias a su tecnología de fabricación de pretensado y biorentado,
+      la RED 2x2 Isolant presenta una alta resistencia a la deformación por
+      esfuerzos de dilatación y contracción de la estructura, logrando techos
+      más planos y de una estética superior.
     benefitsImage: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-beneficio-exclusivo.jpg
     benefitsList:
       - text: Liviana y resistente.
@@ -60,7 +63,8 @@ page:
       - title: Propagación de llama
         text: Clase RE2 MUY BAJA PROPAGACIÓN DE LLAMA. Aprobada por Bomberos Argentina.
       - title: Densidad de humos
-        text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases envenenantes.
+        text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases
+          envenenantes.
       - title: Estructura de celda
         text: Cerrada
       - title: Espesor
@@ -102,7 +106,8 @@ page:
       - title: Material de muy baja propagación de llama
       - title: Evitan los puentes térmicos
       - title: No contaminan el medio ambiente; no contienen freón
-      - title: No colocar en aleros, galerías o galpones sin muros perimetrales que protejan de la reflexión indirecta de los rayos UV
+      - title: No colocar en aleros, galerías o galpones sin muros perimetrales que
+          protejan de la reflexión indirecta de los rayos UV
   - type: downloads
     enableDownloadsSection: true
     downloadsTitle: Área de **descargas**
