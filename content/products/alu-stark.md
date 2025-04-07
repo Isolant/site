@@ -34,7 +34,7 @@ page:
     application:
       - text: Techos y estructuras sin terminación interna.
     presentation:
-      - text: Rollos de 1,05m x 20m.
+      - text: Rollos de 1,10m x 20m.
       - text: Aluminio puro en una cara y terminación blanca en otra.
       - text: "Espesor: 5mm | 10mm | 15mm | 20mm."
       - text: Solape para termo soldar
