@@ -41,7 +41,7 @@ page:
       - text: Galpones, estructuras y tinglados metálicos en general que necesiten una
           estética superior.
     presentation:
-      - text: Rollos de 1,05m x 20m.
+      - text: Rollos de 1,10m x 20m.
       - text: Aluminio puro en una cara y terminación blanca en otra.
       - text: "Espesor: 10mm | 15mm | 20mm."
       - text: Red de sostén incorporada.
@@ -63,7 +63,7 @@ page:
       - text: Termosoldables.
       - text: Clase RE2. Muy baja propagación de llama.
     benefitsImage: /images/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-beneficio-exclusivo.jpg
-    patentImage: /images/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-patente.png
+    patentImage: images/sello-patente_ar100332b1.png
   - type: video
     enableVideoSection: true
     video: https://www.youtube.com/watch?v=FanPdfblmbc
