@@ -1,15 +1,16 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "cms": "npx decap-server",
-    "build": "next build",
-    "start": "next start",
-    "postbuild": "node ./scripts/build-search.js && next-sitemap",
-    "export": "npm run build && npm run postbuild",
-    "functions-build": "netlify-lambda build functions",
-    "functions-serve": "netlify-lambda serve functions"
-  },
+  "dev": "next dev",
+  "cms": "npx decap-server",
+  "copy-uploads": "node ./site/scripts/copy-uploads.js",
+  "build": "npm run copy-uploads && next build",
+  "start": "next start",
+  "postbuild": "node ./site/scripts/build-search.js && next-sitemap",
+  "export": "npm run build && npm run postbuild",
+  "functions-build": "netlify-lambda build functions",
+  "functions-serve": "netlify-lambda serve functions"
+},
   "dependencies": {
     "@babel/core": "^7.15.0",
     "@babel/preset-react": "^7.14.5",
