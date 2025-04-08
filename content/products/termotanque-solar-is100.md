@@ -88,7 +88,6 @@ page:
     enableDownloadsSection: true
     downloads:
       - Colocación Termotanque Solar IS100
-      - Flyer Termotanque Solar IS100
   - type: colocation
     enableColocationSection: false
   - type: cta
