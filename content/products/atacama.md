@@ -113,6 +113,7 @@ page:
       - Cálculo de índice de reflectancia solar Atacama
       - Hoja de seguridad Atacama
       - Hoja técnica Atacama
+      - test
   - type: relatedProducts
     enableRelatedProductsSection: true
     relatedProductsTitle: Aislantes para techos
