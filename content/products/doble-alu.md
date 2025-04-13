@@ -34,7 +34,7 @@ page:
     application:
       - text: Galpones, estructuras y tinglados metálicos en general.
     presentation:
-      - text: 1,05m x 20m. (Largos a medida por más de 1000 m2).
+      - text: 1,10m x 20m. (Largos a medida por más de 1000 m2).
       - text: "Espesor: 5, 10 y 15mm."
     detailsImage: /images/products/doble-alu/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-imagen-detalle.jpg
     patentImage: /images/products/doble-alu/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-patente.png
